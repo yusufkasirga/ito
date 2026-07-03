@@ -22,14 +22,17 @@ production deployment. No deployment, DNS change or analytics activation has occ
       Pexels covers on blog posts only; the homepage has no dedicated OG image).
 
 ## C — Content (see 04-content-conflicts-requiring-approval.md)
-- [ ] **C-01** Positioning decision: two primary journeys vs. four equal pillars.
-- [ ] **C-02** Future Services list + approved copy delivered, pages built footer-only.
+- [x] **C-01** Positioning decision — RESOLVED 2026-07-03: two primary journeys implemented (decision D-06).
+- [x] **C-02** Future Services — RESOLVED 2026-07-03: `/future-services` built footer-only from relocated copy (D-05).
 - [ ] **C-03** Quantitative claims sourced, softened, or removed.
 - [ ] **C-04** Testimonial avatars/labels resolved (consented photos or initials).
 - [ ] **C-05** Medical-claims compliance pass (HWG / ASA sensitivities) if DE/UK
       traffic is planned.
 - [ ] **C-06** Legal pages: Privacy Policy, Terms, and an Impressum-equivalent are
       **absent from the repo** and are required before accepting EU/UK inquiries.
+
+- [ ] **C-07** Approve the proposed replacement for the stale "all-in-one" sentence on `/services` (conflicts doc C-07).
+- [ ] **C-08** Approve reordered brand/meta descriptions leading with the two primary journeys (conflicts doc C-08).
 
 ## Q — Final QA on the deployed preview
 - [ ] **Q-01** Real-device pass: iPhone Safari, Android Chrome, iPad — hero carousel,

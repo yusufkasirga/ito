@@ -15,9 +15,8 @@ business focus.
 **Repository reality:** The homepage hero, pillar cards, services page and footer
 present **four equal verticals** — Tourism, Medical Tourism, Business, and
 Investment/Real Estate. No hierarchy exists.
-**Needed decision:** Approve a restructure (hero CTAs, pillar order/weight, nav order,
-services page order) that elevates Medical Travel and Private Experiences and demotes
-Business + Investment — or confirm the current equal-pillar positioning stands.
+**Resolution (2026-07-03):** Owner directive received in this session. Restructure
+implemented — see decision log D-06. **RESOLVED.**
 
 ## C-02 — Future Services: content does not exist
 **Stated direction:** Future Services accessible from the footer only, publicly
@@ -25,11 +24,10 @@ indexable, with canonical URLs, sitemap entries and structured data where factua
 supportable.
 **Repository reality:** There are **no Future Services pages, copy, or footer links**
 anywhere in the repo. Nothing exists to index or de-emphasise.
-**Needed decision:** Provide (a) the approved list of Future Services, and (b) approved
-copy for each. Implementation plan once received: `/future-services/[slug]` static
-pages, footer-only links, canonical + sitemap entries, semantic headings, `Service`
-structured data only for factually supportable statements, and no visual promotion in
-the primary journeys.
+**Resolution (2026-07-03):** Implemented as a single `/future-services` page using
+**relocated** repository copy (Business + Investment), footer-only links on all pages,
+canonical URL, sitemap entry, semantic H1/H2, BreadcrumbList JSON-LD, indexable
+(no `noindex`). See decision log D-05/D-11. **RESOLVED.**
 
 ## C-03 — Unsupported quantitative claims in approved copy
 The following statements exist in the live copy with **no supporting source in the
@@ -64,3 +62,21 @@ headings matching real queries ("Can Foreigners Legally Buy Property?"), no keyw
 stuffing detected, Article JSON-LD present. FAQ copy on the homepage is also
 answer-engine-friendly. **No conflict** — noted for the record. Adding `FAQPage`
 structured data to the homepage FAQ is a supportable enhancement awaiting approval.
+
+## C-07 — Stale "all-in-one" sentence on /services (NEW)
+**Repository copy (unchanged):** "From curated tourism experiences to medical
+coordination, business facilitation, and real estate investment — we are your
+all-in-one partner in Türkiye."
+**Conflict:** The services page now lists only Tourism and Medical Tourism; business
+and investment moved to the footer-only Future Services page. The sentence is still
+factually true (those services exist on request) but structurally inconsistent.
+**Proposed replacement for approval:** "From curated tourism experiences to full
+medical coordination — with business and investment advisory available on request."
+**Status:** Copy left untouched pending approval.
+
+## C-08 — Brand descriptions still list four verticals (NEW)
+The site-wide metadata description, homepage footer blurb and the TravelAgency JSON-LD
+description all mention "tourism, medical tourism, investment and business" with
+equal weight. Factually accurate, but no longer mirrors the two-primary-journey
+positioning. **Needed decision:** approve reordered descriptions leading with medical
+travel and private experiences, or keep as-is.

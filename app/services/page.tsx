@@ -20,24 +20,6 @@ export default function ServicesPage() {
       link: '/#health',
       tags: ['Hair Transplant', 'Dental Care', 'Rhinoplasty', 'Aesthetic Surgery', 'Facelift', 'Liposuction'],
     },
-    {
-      number: '03',
-      title: 'Business',
-      icon: '💼',
-      image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
-      desc: 'Türkiye is a thriving hub for international trade and investment. With our extensive network spanning multiple industries, we act as a firm bridge between you and a productive, successful business trip. From introductions and meetings to logistics and local insights — we keep your business moving.',
-      link: '/services',
-      tags: ['Introductions', 'Meetings', 'Translation', 'Logistics', 'Local Insights'],
-    },
-    {
-      number: '04',
-      title: 'Investment / Real Estate',
-      icon: '🏙️',
-      image: 'https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop',
-      desc: "Türkiye's real estate market offers exceptional opportunities for foreign investors — but navigating it without the right guidance can be a challenge. Itinerary of Türkiye gives you access to vetted listings, trusted developers, and expert local advice, helping you find and secure your ideal property with complete confidence.",
-      link: '/#investment',
-      tags: ['Vetted Listings', 'Trusted Developers', 'Legal Advice', 'Property Search'],
-    },
   ];
 
   return (
@@ -181,7 +163,7 @@ export default function ServicesPage() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/future-services" style={{color:'inherit'}}>Future Services</a></p>
       </footer>
     </main>
   );

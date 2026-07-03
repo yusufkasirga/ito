@@ -4,7 +4,7 @@ import { blogPosts } from './blogs/blogData';
 const BASE = 'https://ito-rust.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages: MetadataRoute.Sitemap = ['', '/about', '/services', '/blogs', '/testimonials'].map((p) => ({
+  const staticPages: MetadataRoute.Sitemap = ['', '/about', '/services', '/blogs', '/testimonials', '/future-services'].map((p) => ({
     url: `${BASE}${p}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',

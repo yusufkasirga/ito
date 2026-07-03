@@ -20,6 +20,7 @@ smoke tests), not source inspection alone.
 | `/services` | 200 | Static |
 | `/blogs` | 200 | Static |
 | `/testimonials` | 200 | Static |
+| `/future-services` | 200 | Static |
 | `/blogs/hair-transplant-turkey-cost-guide-2026` | 200 | SSG |
 | `/blogs/buying-property-turkey-foreigner-guide` | 200 | SSG |
 | `/blogs/best-things-to-do-istanbul-first-time` | 200 | SSG |
@@ -27,7 +28,9 @@ smoke tests), not source inspection alone.
 | `/robots.txt` | 200 | Static |
 | Unknown route | 404 | Correct not-found behaviour |
 
-Automated internal-link crawl across all pages: **0 broken links**.
+Automated internal-link crawl across all pages (18 unique internal hrefs, including
+anchor fragments): **0 broken links, 0 missing anchors**. Static assets (`/logo.png`,
+favicon) confirmed serving as binary responses.
 
 ## 3. WhatsApp Private Application flow (PASS)
 
@@ -52,8 +55,9 @@ Automated internal-link crawl across all pages: **0 broken links**.
   rendered HTML, e.g. blog post canonical → `https://ito-rust.vercel.app/blogs/...`).
 - Blog posts render `og:type="article"`, OG image, Twitter card, and **Article JSON-LD**
   (2 JSON-LD blocks per post: Organization + Article).
-- `sitemap.xml` contains all 8 URLs; `robots.txt` allows crawling and references the
-  sitemap. No `noindex` anywhere.
+- `sitemap.xml` contains all **9** URLs (incl. `/future-services`); `robots.txt`
+  allows crawling and references the sitemap. No `noindex` anywhere — verified in
+  the rendered `/future-services` HTML per owner directive.
 - `metadataBase` and `viewport` export follow Next.js 16 conventions.
 
 ## 5. Accessibility & QA fixes applied in this pass
@@ -76,14 +80,23 @@ Automated internal-link crawl across all pages: **0 broken links**.
   by grep for gtag/GTM/fbq/pixel/hotjar/clarity). No analytics were activated.
 - No deployment, DNS change, or domain action was performed in this review.
 
-## 7. Items verified as NOT PRESENT in the repository (see conflicts doc)
+## 7. Future Services & positioning (IMPLEMENTED per owner directive, this session)
 
-- **Future Services pages do not exist.** There is nothing to link from the footer,
-  index, or exclude from prominence. Requires approved copy before creation.
-- The site's positioning is **four equal pillars** (Tourism / Medical / Business /
-  Investment), not "Medical Travel + Private Türkiye Experiences primary". This is a
-  content/strategy decision that requires owner approval — see
-  `/docs/content/04-content-conflicts-requiring-approval.md`.
+- **Positioning:** Business + Investment removed from all primary surfaces — hero
+  pills, desktop nav dropdown, mobile menu, homepage pillar cards, and the entire
+  homepage `#investment` section. The homepage now leads exclusively with Private
+  Türkiye Experiences (Tourism) and Medical Travel. `/services` lists only these two.
+- **Future Services:** New `/future-services` page built from **relocated verbatim**
+  repository copy (former services #03/#04 + homepage investment paragraphs). Design is
+  deliberately quiet (editorial single-column text, no hero imagery, no animated trust
+  elements) so it cannot compete visually with the primary journeys.
+- **Access:** footer-only — a "Future Services" column in the homepage footer and a
+  single footer line link on every sub-page. Not present in any nav, hero, or section.
+- **Indexability:** publicly indexable (no `noindex`), canonical URL, sitemap entry,
+  semantic H1/H2 headings, internal links back to the primary journeys, and
+  BreadcrumbList JSON-LD. Richer `Service` schema intentionally withheld — no
+  factually supportable offers/ratings exist to mark up (decision D-11).
+- Residual copy inconsistencies escalated as conflicts C-07 and C-08.
 
 ## 8. Manual QA still required before launch (cannot be automated in this environment)
 
@@ -93,6 +106,7 @@ Automated internal-link crawl across all pages: **0 broken links**.
 - Lighthouse run on the deployed preview (remote Pexels images are not size-optimised;
   see pre-launch checklist item P-04).
 
-**Verdict:** Build is technically sound and ready for a preview deployment.
+**Verdict:** Build is technically sound, the Future Services directive is fully
+implemented, and the branch is ready for a preview deployment.
 Production launch is blocked only by the owner-approval items listed in the
 pre-launch checklist.

@@ -15,7 +15,6 @@ export default function Home() {
   const [formErrors, setFormErrors] = useState<Record<string, string>>({});
   const [expandedPillar, setExpandedPillar] = useState<string | null>(null);
   const [expandedTourism, setExpandedTourism] = useState<string | null>(null);
-  const [expandedInvestment, setExpandedInvestment] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(false);
   const [heroTestimonialIdx, setHeroTestimonialIdx] = useState(0);
@@ -68,13 +67,6 @@ export default function Home() {
       short: 'Finding the right doctor or clinic in a foreign country can feel daunting. We connect you with experienced, accredited specialists at clinics that match your budget.',
       full: 'We take that burden off your shoulders — connecting you with experienced, accredited specialists at clinics that match your budget, so you can focus entirely on your health and recovery. From hair transplants and dental care to rhinoplasty and aesthetic surgery — we find the right clinic, the right surgeon, and the right price for you.',
       href: '#health'
-    },
-    {
-      title: 'Investment & Real Estate',
-      subtitle: 'Clarity, diligence, entry',
-      short: "Türkiye's real estate market offers exceptional opportunities for foreign investors. We give you access to vetted listings, trusted developers, and expert local advice.",
-      full: "But navigating it without the right guidance can be a challenge. Itinerary of Türkiye gives you access to vetted listings, trusted developers, and expert local advice — helping you find and secure your ideal property with complete confidence. From Istanbul to Bodrum, from İzmir to Antalya — we walk with you every step of the way.",
-      href: '#investment'
     },
   ], []);
 
@@ -368,7 +360,7 @@ export default function Home() {
 
         /* PILLARS */
         .pillar-section { padding: 32px 0 48px; background: ${dm ? '#111827' : 'var(--ivory, #fffaf1)'}; }
-        .pillar-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+        .pillar-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; max-width: 920px; margin: 0 auto; }
         .pillar-card { padding: 30px; border: 1px solid ${dm ? 'rgba(201,169,106,.2)' : 'rgba(201,169,106,.24)'}; border-radius: var(--r); background: ${dm ? 'rgba(255,255,255,.04)' : 'rgba(255,250,241,.96)'}; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; transition: all 0.3s; }
         .pillar-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-6px); }
         .pillar-eyebrow { color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
@@ -583,8 +575,6 @@ export default function Home() {
             <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
               <a href="/#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Tourism</a>
               <a href="/#health" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Medical Tourism</a>
-              <a href="/services" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Business</a>
-              <a href="/#investment" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Investment / Real Estate</a>
             </div>
           )}
         </div>
@@ -606,8 +596,6 @@ export default function Home() {
                 <div className="nav-dropdown-menu">
                   <a href="/#tourism">Tourism</a>
                   <a href="/#health">Medical Tourism</a>
-                  <a href="/services">Business</a>
-                  <a href="/#investment">Investment / Real Estate</a>
                 </div>
               )}
             </div>
@@ -635,7 +623,6 @@ export default function Home() {
             <div className="hero-btns">
               <a className="hero-pill hero-pill-primary" href="#tourism">🏛️ Tourism</a>
               <a className="hero-pill" href="#health">🏥 Medical Tourism</a>
-              <a className="hero-pill" href="#investment">🏙️ Real Estate</a>
             </div>
             <div className="hero-trust-strip">
               <div className="trust-strip-item">✓ Verified by ITO</div>
@@ -852,31 +839,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INVESTMENT */}
-      <section className="section" id="investment" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
-        <div className="container inv-grid">
-          <div>
-            <span className="eyebrow">Investment & Real Estate</span>
-            <h2 className="section-title serif">Where Smart Money Meets <span style={{color:'var(--gold)'}}>Beautiful Land.</span></h2>
-            <p className="section-copy">Türkiye has quietly become one of the most compelling real estate markets in the world — with a young population, booming construction, and a government actively welcoming foreign investment.</p>
-            {!expandedInvestment ? (
-              <button className="btn btn-ghost read-btn-light" style={{marginBottom:'24px',minHeight:'38px',padding:'0 18px',fontSize:'13px'}} onClick={() => setExpandedInvestment(true)}>▼ Read more</button>
-            ) : (
-              <div className="expanded-box-light" style={{marginBottom:'24px'}}>
-                <p>From the cosmopolitan energy of Istanbul to the sun-drenched coastlines of Bodrum and Antalya — Türkiye offers an extraordinary range of properties for every type of investor and every kind of dream.</p>
-                <p style={{marginTop:'10px'}}>Yet for many foreign buyers, the biggest challenge is not the decision to invest — it is knowing where to start. We give you direct access to vetted listings, trusted developers, and experienced legal and financial advisors who understand the needs of foreign investors.</p>
-                <button className="btn btn-ghost read-btn-light" style={{marginTop:'12px',minHeight:'34px',padding:'0 14px',fontSize:'12px'}} onClick={() => setExpandedInvestment(false)}>▲ Read less</button>
-              </div>
-            )}
-            <a className="btn btn-primary" href="#contact">Explore Opportunities</a>
-          </div>
-          <div className="inv-visual">
-            <img src="https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop" alt="Istanbul" />
-            <div className="inv-badge">🏙️ Türkiye is full of opportunity. We make sure you find yours.</div>
-          </div>
-        </div>
-      </section>
-
       {/* HOW IT WORKS */}
       <section className="section" style={{background: dm ? '#111827' : '#fff'}}>
         <div className="container">
@@ -1068,8 +1030,9 @@ export default function Home() {
               <a href="#health">Aesthetic Surgery</a>
             </div>
             <div>
-              <h4>Investment</h4>
-              <a href="#investment">Real Estate</a>
+              <h4>Future Services</h4>
+              <a href="/future-services#business">Business Advisory</a>
+              <a href="/future-services#investment">Investment &amp; Real Estate</a>
               <a href="#contact">Contact Us</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
