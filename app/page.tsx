@@ -136,7 +136,6 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇬🇧',
       category: 'Tourism · Hair Transplant · Business',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'A big thank you to the Itinerary of Turkiye team! You made my whole journey incredibly smooth — from my trip and hair transplant to my business meetings. Everything was well organised, and I honestly did not expect the experience to be this seamless. Thank you for your professionalism, care, and support throughout the entire process.',
       rating: 5,
     },
@@ -145,7 +144,6 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇦🇺',
       category: 'Business Advisory',
-      image: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'Dear Itinerary of Turkiye — thank you for helping make my business trip such a success, resulting in several positive deals. You all deserve much greater recognition and success.',
       rating: 5,
     },
@@ -154,7 +152,6 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇺🇸',
       category: 'Real Estate',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'I only wish I had known about Itinerary of Turkiye earlier. It would have saved me from many complications, mistakes, and even scams I unfortunately experienced in the past. Thanks to their guidance and local expertise, I was able to secure a great real estate deal that would not have been possible without their assistance. I will gladly recommend their services to others.',
       rating: 5,
     },
@@ -163,7 +160,6 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇮🇳',
       category: 'Investment Advisory',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'Investing in Türkiye can be challenging without the guidance of trustworthy local experts. Itinerary of Türkiye helped me tremendously throughout the process. Their local knowledge, professionalism, and reliable support gave me the confidence to make informed decisions and avoid many potential pitfalls.',
       rating: 5,
     },
@@ -223,8 +219,19 @@ export default function Home() {
 
   const dm = darkMode;
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+
   return (
     <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; }
@@ -489,8 +496,7 @@ export default function Home() {
         .testi-card { padding: 28px; border-radius: 24px; background: #fff; border: 1px solid rgba(201,169,106,.15); box-shadow: 0 4px 24px rgba(7,23,38,.06); transition: all 0.3s; }
         .testi-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(7,23,38,.1); border-color: rgba(201,169,106,.3); }
         .testi-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-        .testi-avatar { width: 52px; height: 52px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 2px solid var(--gold); }
-        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
+        .testi-avatar { width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0; border: 2px solid var(--gold); background: linear-gradient(135deg, rgba(201,169,106,.18), rgba(201,169,106,.05)); color: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; letter-spacing: .5px; }
         .testi-name { font-size: 15px; font-weight: 900; color: var(--navy); margin: 0 0 3px; }
         .testi-loc { font-size: 12px; color: var(--muted); margin: 0; }
         .testi-cat { display: inline-block; padding: 4px 10px; background: rgba(201,169,106,.1); color: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 700; margin-bottom: 14px; border: 1px solid rgba(201,169,106,.2); }
@@ -868,7 +874,7 @@ export default function Home() {
             {testimonials.map((t) => (
               <div key={t.name} className="testi-card" style={{background: dm ? 'rgba(255,255,255,.04)' : '#fff', borderColor: dm ? 'rgba(201,169,106,.15)' : 'rgba(201,169,106,.15)'}}>
                 <div className="testi-header">
-                  <div className="testi-avatar"><img src={t.image} alt={t.name} /></div>
+                  <div className="testi-avatar" aria-hidden="true">{t.name.split(' ').map(w => w[0]).join('')}</div>
                   <div>
                     <p className="testi-name" style={{color: dm ? '#fff' : 'var(--navy)'}}>{t.flag} {t.name}</p>
                     <p className="testi-loc">{t.location}</p>
@@ -1009,7 +1015,7 @@ export default function Home() {
           <div className="footer-grid">
             <div>
               <a href="#top"><img src="/logo.png" alt="Itinerary of Türkiye" style={{height:'72px',width:'auto',filter:'brightness(0) invert(1)',opacity:.9}} /></a>
-              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Premium advisory for tourism, medical tourism, investment and business in Türkiye.</p>
+              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Medical travel coordination and private Türkiye experiences — investment and business advisory on request.</p>
               <div className="social-row">
                 <a className="social-btn" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
                 {/* Instagram / YouTube / TikTok hesapları açıldığında buraya gerçek URL'lerle eklenebilir */}

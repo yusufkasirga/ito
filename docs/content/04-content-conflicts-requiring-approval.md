@@ -43,9 +43,7 @@ Testimonials are labelled **"Verified Client"** and displayed with **stock photo
 (Pexels)** as avatars. The quotes themselves may be genuine, but pairing them with
 stock faces under a "Verified" label is a representation risk (and an issue under
 UK/EU consumer-protection norms if EU/UK patients are targeted).
-**Needed decision:** Replace with real client photos (with written consent), switch to
-initials/flag-only avatars, or remove the "Verified" wording. Recommended default:
-initials + flag, keep the quotes.
+**Partial resolution (2026-07-03):** Stock photos replaced with initials badges (recommended default) under owner authorization. REMAINING for owner: decide whether the "Verified Client" wording stays, and whether real consented photos will be supplied later.
 
 ## C-05 — Medical content claims in blog posts
 The hair-transplant cost guide states concrete price ranges (€1,500–€3,500 vs.
@@ -72,11 +70,10 @@ and investment moved to the footer-only Future Services page. The sentence is st
 factually true (those services exist on request) but structurally inconsistent.
 **Proposed replacement for approval:** "From curated tourism experiences to full
 medical coordination — with business and investment advisory available on request."
-**Status:** Copy left untouched pending approval.
+**Resolution (2026-07-03):** Owner granted blanket approval for recommended edits ("ekstra düzenlemelerin varsa yap"); proposed replacement applied. **RESOLVED.**
 
 ## C-08 — Brand descriptions still list four verticals (NEW)
 The site-wide metadata description, homepage footer blurb and the TravelAgency JSON-LD
 description all mention "tourism, medical tourism, investment and business" with
 equal weight. Factually accurate, but no longer mirrors the two-primary-journey
-positioning. **Needed decision:** approve reordered descriptions leading with medical
-travel and private experiences, or keep as-is.
+positioning. **Resolution (2026-07-03):** Reordered descriptions applied under the same owner authorization. **RESOLVED.**

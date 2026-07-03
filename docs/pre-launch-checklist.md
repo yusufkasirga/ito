@@ -18,8 +18,7 @@ production deployment. No deployment, DNS change or analytics activation has occ
       `/public` (or a CDN you control). Current images load from Pexels' servers:
       availability and licensing are outside your control, and they are unoptimised
       for `next/image`.
-- [ ] **P-05** Provide a real OG share image (currently OG falls back to page data /
-      Pexels covers on blog posts only; the homepage has no dedicated OG image).
+- [x] **P-05** RESOLVED 2026-07-03 — branded 1200×630 `/og-image.png` generated and wired into metadata (D-16). Owner may replace with a professional photographic asset later.
 
 ## C — Content (see 04-content-conflicts-requiring-approval.md)
 - [x] **C-01** Positioning decision — RESOLVED 2026-07-03: two primary journeys implemented (decision D-06).
@@ -31,8 +30,8 @@ production deployment. No deployment, DNS change or analytics activation has occ
 - [ ] **C-06** Legal pages: Privacy Policy, Terms, and an Impressum-equivalent are
       **absent from the repo** and are required before accepting EU/UK inquiries.
 
-- [ ] **C-07** Approve the proposed replacement for the stale "all-in-one" sentence on `/services` (conflicts doc C-07).
-- [ ] **C-08** Approve reordered brand/meta descriptions leading with the two primary journeys (conflicts doc C-08).
+- [x] **C-07** RESOLVED 2026-07-03 — replacement sentence applied (D-14).
+- [x] **C-08** RESOLVED 2026-07-03 — descriptions reordered (D-14).
 
 ## Q — Final QA on the deployed preview
 - [ ] **Q-01** Real-device pass: iPhone Safari, Android Chrome, iPad — hero carousel,

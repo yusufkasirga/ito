@@ -125,7 +125,7 @@ export default function ServicesPage() {
           <div className="eyebrow">What We Do</div>
           <h1>Our <span>Services.</span></h1>
           <p>
-            From curated tourism experiences to medical coordination, business facilitation, and real estate investment — we are your all-in-one partner in Türkiye.
+            From curated tourism experiences to full medical coordination — with business and investment advisory available on request.
           </p>
         </div>
       </section>
