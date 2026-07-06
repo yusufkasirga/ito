@@ -328,12 +328,15 @@ export default function Home() {
         @keyframes pulse-dot-green { 0%,100% { box-shadow: 0 0 0 4px rgba(74,222,128,.22); } 50% { box-shadow: 0 0 0 8px rgba(74,222,128,.06); } }
 
         /* FRAMED PHOTO STACK */
-        .hero-photo-stack { position: relative; height: 640px; display: flex; align-items: center; justify-content: center; }
-        .hero-photo-frame { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.5); transition: opacity 1.1s cubic-bezier(.22,.61,.36,1), transform 1.1s cubic-bezier(.22,.61,.36,1); }
+        .hero-photo-stack { position: relative; height: 640px; perspective: 1500px; transform-style: preserve-3d; }
+        .hero-photo-frame { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.5); }
         .hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; }
-        .hero-photo-frame.main { width: 82%; height: 96%; z-index: 3; }
-        .hero-photo-frame.deco-1 { width: 42%; height: 46%; right: -4%; top: -6%; z-index: 2; border: 4px solid rgba(255,255,255,.14); }
-        .hero-photo-frame.deco-2 { width: 34%; height: 38%; left: -6%; bottom: 4%; z-index: 1; opacity: .65; border: 4px solid rgba(255,255,255,.1); }
+        .s3d { left: 50%; top: 50%; width: 78%; height: 92%; transition: transform 1.05s cubic-bezier(.22,.61,.36,1), opacity 1.05s ease, filter 1.05s ease, box-shadow 1.05s ease; will-change: transform; }
+        .s3d.pos-center { transform: translate(calc(-50% + var(--px, 0px)), calc(-50% + var(--py, 0px))) translateZ(0) rotateY(0deg); z-index: 3; opacity: 1; }
+        .s3d.pos-right { transform: translate(-50%, -50%) translateX(56%) translateZ(-260px) rotateY(-32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
+        .s3d.pos-left { transform: translate(-50%, -50%) translateX(-56%) translateZ(-260px) rotateY(32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
+        .s3d.pos-back { transform: translate(-50%, -50%) translateZ(-520px) rotateY(0deg); z-index: 1; opacity: 0; pointer-events: none; }
+        .s3d.pos-right:hover, .s3d.pos-left:hover { filter: brightness(.7) saturate(1); }
         .hero-photo-badge { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); z-index: 4; padding: 12px 22px; border-radius: 999px; background: rgba(13,20,36,.85); border: 1px solid rgba(255,255,255,.18); backdrop-filter: blur(14px); display: flex; align-items: center; gap: 10px; font-size: 12.5px; font-weight: 700; color: #fff; white-space: nowrap; box-shadow: 0 12px 30px rgba(0,0,0,.4); }
 
         .hero-dots { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 3; }
@@ -376,16 +379,24 @@ export default function Home() {
         .pillar-full { margin-top: 12px; color: ${dm ? 'rgba(240,237,232,.65)' : '#647889'}; line-height: 1.72; font-size: 14px; border-top: 1px solid ${dm ? 'rgba(255,255,255,.08)' : 'rgba(8,31,53,.1)'}; padding-top: 12px; animation: fadeUp 0.3s ease; }
 
         /* TOURISM */
-        .tourism-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 40px; }
-        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); transition: transform 0.3s; cursor: pointer; }
-        .t-card:not(.expanded):hover { transform: translateY(-10px); }
+        .tourism-marquee { overflow: hidden; margin-top: 40px; padding: 24px 0;
+          -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); }
+        .tourism-track { display: flex; gap: 16px; width: max-content; perspective: 1200px; animation: ito-marquee 42s linear infinite; }
+        .tourism-marquee:hover .tourism-track { animation-play-state: paused; }
+        @keyframes ito-marquee { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
+        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; width: 320px; flex-shrink: 0; position: relative; transform: rotateY(-10deg); transition: transform .6s cubic-bezier(.22,.61,.36,1), box-shadow .6s ease; }
+        .t-card:hover { transform: rotateY(0deg) translateY(-12px) scale(1.03); box-shadow: 0 34px 70px rgba(7,23,38,.35); z-index: 2; }
+        .t-glow { position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0; transform: scale(1.5); transition: opacity .5s ease, transform .5s ease; background: radial-gradient(circle at 28% 18%, rgba(201,169,106,.4), transparent 62%); }
+        .t-card:hover .t-glow { opacity: 1; transform: scale(1); }
         .t-img { height: 480px; position: relative; }
         .t-img img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.72); transition: filter 0.3s; }
         .t-card:hover .t-img img { filter: brightness(.88); }
         .t-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 22px 20px; background: linear-gradient(180deg, transparent, rgba(0,0,0,.88)); color: #fff; }
         .t-label h3 { margin: 0 0 7px; font-size: 20px; font-weight: 900; font-family: 'Playfair Display', serif; }
         .t-label p { margin: 0 0 12px; font-size: 13px; line-height: 1.5; color: rgba(255,255,255,.8); }
-        .t-expanded { padding: 18px 22px 22px; background: var(--navy); color: rgba(255,250,241,.82); font-size: 13px; line-height: 1.78; animation: fadeUp 0.3s ease; }
+        .t-overlay { position: absolute; inset: 0; z-index: 3; padding: 22px; background: rgba(7,23,38,.94); backdrop-filter: blur(6px); color: rgba(255,250,241,.85); font-size: 13px; line-height: 1.75; overflow-y: auto; animation: fadeUp .3s ease; border-radius: var(--r); }
+        .t-overlay h3 { margin: 0 0 12px; font-family: 'Playfair Display', serif; font-size: 19px; color: #fff; }
 
         /* ABOUT */
         .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
@@ -514,16 +525,18 @@ export default function Home() {
         @media (max-width: 1100px) {
           .testi-grid { grid-template-columns: 1fr; }
           .std-grid, .form-grid, .about-grid, .inv-grid { grid-template-columns: 1fr; }
-          .tourism-grid { grid-template-columns: repeat(2,1fr); }
+          .t-card { width: 290px; }
+          .t-img { height: 430px; }
           .health-header-row { flex-direction: column; align-items: flex-start; }
           .health-stat-badge { text-align: left; width: 100%; }
           .hero-split { grid-template-columns: 1fr; gap: 48px; padding: 120px 0 50px; text-align: center; }
           .hero-eyebrow { justify-content: center; }
           .hero-copy { margin-left: auto; margin-right: auto; }
           .hero-btns { justify-content: center; }
-          .hero-photo-stack { height: 420px; max-width: 520px; margin: 0 auto; }
-          .hero-photo-frame.deco-1, .hero-photo-frame.deco-2 { display: none; }
-          .hero-photo-frame.main { width: 100%; height: 100%; position: relative; border-radius: 22px; }
+          .hero-photo-stack { height: 420px; max-width: 520px; margin: 0 auto; perspective: none; }
+          .s3d { width: 100%; height: 100%; border-radius: 22px; }
+          .s3d.pos-left, .s3d.pos-right { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(.96); }
+          .s3d.pos-center { transform: translate(-50%, -50%); }
           .hero-photo-badge { position: relative; bottom: auto; left: auto; transform: none; margin-top: 16px; display: inline-flex; font-size: 11.5px; }
         }
         @media (max-width: 840px) {
@@ -543,7 +556,8 @@ export default function Home() {
           .hero-photo-stack { height: 360px; max-width: 480px; }
         }
         @media (max-width: 640px) {
-          .tourism-grid { grid-template-columns: 1fr; }
+          .t-card { width: 255px; }
+          .t-img { height: 380px; }
           .footer-grid { grid-template-columns: 1fr; }
           .about-features { grid-template-columns: 1fr; }
           .about-img { height: 320px; }
@@ -640,30 +654,23 @@ export default function Home() {
           </div>
 
           <div className="hero-photo-stack">
-            {heroSlides.map((s, i) => {
-              const isActive = i === activeSlide;
+            {heroSlides.map((sl, i) => {
+              const n = heroSlides.length;
+              const off = (i - activeSlide + n) % n;
+              const pos = off === 0 ? 'pos-center' : off === 1 ? 'pos-right' : off === n - 1 ? 'pos-left' : 'pos-back';
+              const isCenter = pos === 'pos-center';
               return (
                 <div
                   key={i}
-                  className="hero-photo-frame main"
-                  style={{
-                    opacity: isActive ? 1 : 0,
-                    transform: isActive
-                      ? `scale(1) translate(${mouseParallax.x * 6}px, ${mouseParallax.y * 4}px)`
-                      : 'scale(1.04)',
-                    zIndex: isActive ? 3 : 2,
-                  }}
+                  className={`hero-photo-frame s3d ${pos}`}
+                  style={isCenter ? ({ '--px': `${mouseParallax.x * 6}px`, '--py': `${mouseParallax.y * 4}px` } as React.CSSProperties) : undefined}
+                  onClick={!isCenter ? () => setActiveSlide(i) : undefined}
+                  aria-hidden={!isCenter}
                 >
-                  <img src={s.image} alt="Türkiye" style={{objectPosition: s.position || '50% 50%'}} />
+                  <img src={sl.image} alt={isCenter ? 'Türkiye' : ''} style={{objectPosition: sl.position || '50% 50%'}} />
                 </div>
               );
             })}
-            <div className="hero-photo-frame deco-1" style={{transform: `translate(${mouseParallax.x * -8}px, ${mouseParallax.y * -5}px)`}}>
-              <img src={heroSlides[(activeSlide + 1) % heroSlides.length].image} alt="Türkiye" style={{objectPosition: heroSlides[(activeSlide + 1) % heroSlides.length].position}} />
-            </div>
-            <div className="hero-photo-frame deco-2" style={{transform: `translate(${mouseParallax.x * -4}px, ${mouseParallax.y * -3}px)`}}>
-              <img src={heroSlides[(activeSlide + 2) % heroSlides.length].image} alt="Türkiye" style={{objectPosition: heroSlides[(activeSlide + 2) % heroSlides.length].position}} />
-            </div>
             <div className="hero-photo-badge">✨ Cappadocia · Istanbul · Aegean Coast</div>
           </div>
         </div>
@@ -700,30 +707,35 @@ export default function Home() {
           <span className="eyebrow">Tourism Advisory</span>
           <h2 className="section-title serif">Go Beyond the Tour. <span style={{color:'var(--gold)'}}>Explore Türkiye.</span></h2>
           <p className="section-copy">Four dimensions of discovery — heritage, nature, food, and arts. Handpicked for travellers who value authentic, deeply personal experiences.</p>
-          <div className="tourism-grid">
-            {tourismVisuals.map((t) => {
-              const isOpen = expandedTourism === t.title;
-              return (
-                <div key={t.title} className={`t-card${isOpen ? ' expanded' : ''}`}>
-                  <div className="t-img">
-                    <img src={t.image} alt={t.title} />
-                    <div className="t-label">
-                      <h3>{t.title}</h3>
-                      <p>{t.short}</p>
-                      <button className="read-btn" onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
-                        {isOpen ? '▲ Read less' : '▼ Read more'}
-                      </button>
+          <div className="tourism-marquee">
+            <div className="tourism-track">
+              {[...tourismVisuals, ...tourismVisuals].map((t, idx) => {
+                const isDup = idx >= tourismVisuals.length;
+                const isOpen = expandedTourism === t.title;
+                return (
+                  <div key={`${t.title}-${idx}`} className="t-card" aria-hidden={isDup}>
+                    <div className="t-glow" />
+                    <div className="t-img">
+                      <img src={t.image} alt={isDup ? '' : t.title} />
+                      <div className="t-label">
+                        <h3>{t.title}</h3>
+                        <p>{t.short}</p>
+                        <button className="read-btn" tabIndex={isDup ? -1 : 0} onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
+                          {isOpen ? '▲ Read less' : '▼ Read more'}
+                        </button>
+                      </div>
                     </div>
+                    {isOpen && (
+                      <div className="t-overlay">
+                        <h3>{t.title}</h3>
+                        {t.full.split('\n\n').map((par, i) => <p key={i} style={{margin:'0 0 10px'}}>{par}</p>)}
+                        <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Close</button>
+                      </div>
+                    )}
                   </div>
-                  {isOpen && (
-                    <div className="t-expanded">
-                      {t.full.split('\n\n').map((p, i) => <p key={i} style={{margin:'0 0 10px'}}>{p}</p>)}
-                      <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Collapse</button>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
