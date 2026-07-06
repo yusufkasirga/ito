@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import { whatsAppUrl } from '@/lib/config';
 
 export default function Home() {
@@ -9,6 +9,35 @@ export default function Home() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [selectedPath, setSelectedPath] = useState('');
   const [activeSlide, setActiveSlide] = useState(0);
+  const progressRef = useRef<HTMLDivElement>(null);
+
+  // GoTürkiye referansı: kaydırdıkça katman katman açılan editoryal bölümler
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const els = Array.from(document.querySelectorAll('.section .container > *'));
+    els.forEach((el) => {
+      const idx = el.parentElement ? Array.from(el.parentElement.children).indexOf(el) : 0;
+      el.classList.add('rv');
+      (el as HTMLElement).style.transitionDelay = `${Math.min(idx * 70, 280)}ms`;
+    });
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+
+  // Sayfa ilerleme göstergesi (ince altın çizgi)
+  useEffect(() => {
+    const onScroll = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      if (progressRef.current) progressRef.current.style.transform = `scaleX(${max > 0 ? h.scrollTop / max : 0})`;
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   const [formStep, setFormStep] = useState(1);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({ interest: '', country: '', timeline: '', contact: '', name: '', email: '' });
@@ -232,6 +261,7 @@ export default function Home() {
   return (
     <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; }
@@ -382,11 +412,11 @@ export default function Home() {
         .tourism-marquee { overflow: hidden; margin-top: 40px; padding: 24px 0;
           -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
           mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); }
-        .tourism-track { display: flex; gap: 16px; width: max-content; perspective: 1200px; animation: ito-marquee 42s linear infinite; }
+        .tourism-track { display: flex; gap: 16px; width: max-content; animation: ito-marquee 42s linear infinite; }
         .tourism-marquee:hover .tourism-track { animation-play-state: paused; }
         @keyframes ito-marquee { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
-        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; width: 320px; flex-shrink: 0; position: relative; transform: rotateY(-10deg); transition: transform .6s cubic-bezier(.22,.61,.36,1), box-shadow .6s ease; }
-        .t-card:hover { transform: rotateY(0deg) translateY(-12px) scale(1.03); box-shadow: 0 34px 70px rgba(7,23,38,.35); z-index: 2; }
+        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; width: 320px; flex-shrink: 0; position: relative; transform: perspective(1100px) rotateY(-7deg); transition: transform .6s cubic-bezier(.22,.61,.36,1), box-shadow .6s ease; }
+        .t-card:hover { transform: perspective(1100px) rotateY(0deg) translateY(-12px) scale(1.03); box-shadow: 0 34px 70px rgba(7,23,38,.35); z-index: 2; }
         .t-glow { position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0; transform: scale(1.5); transition: opacity .5s ease, transform .5s ease; background: radial-gradient(circle at 28% 18%, rgba(201,169,106,.4), transparent 62%); }
         .t-card:hover .t-glow { opacity: 1; transform: scale(1); }
         .t-img { height: 480px; position: relative; }
@@ -521,11 +551,30 @@ export default function Home() {
         /* CONCIERGE */
         .concierge { position: fixed; top: 90px; right: 20px; padding: 10px 16px; background: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 900; color: var(--navy); z-index: 45; box-shadow: var(--shadow-md); }
 
+        /* VISUAL LAYER — GoTürkiye-inspired editorial motion */
+        ::selection { background: rgba(201,169,106,.35); }
+        .scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 1000; background: linear-gradient(90deg, var(--gold), #e6cf9a); transform: scaleX(0); transform-origin: left; pointer-events: none; }
+        .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.22,.61,.36,1), transform .85s cubic-bezier(.22,.61,.36,1); }
+        .rv-in { opacity: 1; transform: none; }
+        .s3d.pos-center img { animation: kenburns 9s ease-in-out infinite alternate; }
+        @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08) translateY(-8px); } }
+        .nav-links a { position: relative; }
+        .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .35s cubic-bezier(.22,.61,.36,1); }
+        .nav-links a:hover::after { transform: scaleX(1); }
+        .btn-primary { position: relative; overflow: hidden; }
+        .btn-primary::after { content: ''; position: absolute; top: 0; left: -80%; width: 55%; height: 100%; background: linear-gradient(105deg, transparent, rgba(255,255,255,.32), transparent); transform: skewX(-20deg); transition: left .6s ease; pointer-events: none; }
+        .btn-primary:hover::after { left: 135%; }
+        .about-img img { transition: transform .9s cubic-bezier(.22,.61,.36,1); }
+        .about-img:hover img { transform: scale(1.05); }
+        .footer { position: relative; }
+        .footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+
         /* RESPONSIVE */
         @media (max-width: 1100px) {
           .testi-grid { grid-template-columns: 1fr; }
           .std-grid, .form-grid, .about-grid, .inv-grid { grid-template-columns: 1fr; }
-          .t-card { width: 290px; }
+          .t-card { width: 290px; transform: perspective(1100px) rotateY(-5deg); }
+          .t-card:hover { transform: perspective(1100px) rotateY(0deg) translateY(-8px) scale(1.02); }
           .t-img { height: 430px; }
           .health-header-row { flex-direction: column; align-items: flex-start; }
           .health-stat-badge { text-align: left; width: 100%; }
@@ -553,11 +602,14 @@ export default function Home() {
           .hero { min-height: 100svh; }
           .hero-split { padding: 110px 0 40px; }
           .hero-trust-strip { flex-wrap: wrap; gap: 10px 14px; justify-content: center; }
-          .hero-photo-stack { height: 360px; max-width: 480px; }
+          .hero-photo-stack { height: 340px; max-width: 460px; }
         }
         @media (max-width: 640px) {
-          .t-card { width: 255px; }
-          .t-img { height: 380px; }
+          .t-card { width: 240px; transform: none; }
+          .t-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+          .t-glow { display: none; }
+          .tourism-marquee { padding: 12px 0; -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); }
+          .t-img { height: 360px; }
           .footer-grid { grid-template-columns: 1fr; }
           .about-features { grid-template-columns: 1fr; }
           .about-img { height: 320px; }
