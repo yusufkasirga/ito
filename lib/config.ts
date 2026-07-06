@@ -5,7 +5,7 @@
 //   NEXT_PUBLIC_WHATSAPP_E164_NUMBER=+90XXXXXXXXXX  (gerçek numara .env.local / Vercel içinde)
 // =====================================================
 
-export const SITE_URL = 'https://ito-rust.vercel.app';
+export const SITE_URL = 'https://itineraryofturkiye.com';
 
 /** E.164 formatted number from environment, e.g. "+90XXXXXXXXXX". */
 export const WHATSAPP_E164_NUMBER =

@@ -7,14 +7,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ito-rust.vercel.app"),
+  metadataBase: new URL("https://itineraryofturkiye.com"),
   title: "Itinerary of Türkiye — Tourism, Medical, Investment & Business Advisory",
   description: "Your trusted local partner in Türkiye. Medical travel coordination and private Türkiye experiences — with investment and business advisory available on request. Serving clients from UK, UAE, Europe and beyond.",
   keywords: "Turkey tourism, medical tourism Turkey, hair transplant Turkey, dental Turkey, real estate Istanbul, investment Turkey, business Turkey",
   openGraph: {
     title: "Itinerary of Türkiye",
     description: "Your trusted local partner for medical travel and private Türkiye experiences.",
-    url: "https://ito-rust.vercel.app",
+    url: "https://itineraryofturkiye.com",
     siteName: "Itinerary of Türkiye",
     locale: "en_US",
     type: "website",
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "TravelAgency",
               "name": "Itinerary of Türkiye",
               "description": "Medical travel coordination and private Türkiye experiences, with investment and business advisory available on request.",
-              "url": "https://ito-rust.vercel.app",
+              "url": "https://itineraryofturkiye.com",
               "telephone": process.env.NEXT_PUBLIC_WHATSAPP_E164_NUMBER ?? "",
               "address": { "@type": "PostalAddress", "addressCountry": "TR" },
               "sameAs": []

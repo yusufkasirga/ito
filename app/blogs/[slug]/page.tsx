@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getPostBySlug, blogPosts } from '../blogData';
 
-const SITE_URL = 'https://ito-rust.vercel.app';
+const SITE_URL = 'https://itineraryofturkiye.com';
 
 // Tüm blog yazıları build sırasında statik üretilir (SEO + hız)
 export function generateStaticParams() {

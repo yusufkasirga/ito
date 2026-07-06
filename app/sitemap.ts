@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { blogPosts } from './blogs/blogData';
 
-const BASE = 'https://ito-rust.vercel.app';
+const BASE = 'https://itineraryofturkiye.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = ['', '/about', '/services', '/blogs', '/testimonials', '/future-services'].map((p) => ({
