@@ -27,6 +27,16 @@ export default function Home() {
     return () => io.disconnect();
   }, []);
 
+  // Kaydırınca nav'a buzlu cam zemin
+  useEffect(() => {
+    const nav = document.querySelector('.nav');
+    if (!nav) return;
+    const onS = () => nav.classList.toggle('nav-scrolled', window.scrollY > 40);
+    onS();
+    window.addEventListener('scroll', onS, { passive: true });
+    return () => window.removeEventListener('scroll', onS);
+  }, []);
+
   // Sayfa ilerleme göstergesi (ince altın çizgi)
   useEffect(() => {
     const onScroll = () => {
@@ -322,13 +332,16 @@ export default function Home() {
 
         /* HERO — TOTAL REDESIGN: mesh gradient + split frame */
         .hero { position: relative; min-height: 92vh; overflow: hidden; color: #fff; display: flex; align-items: center; background: #0d1424; }
-        .hero-mesh { position: absolute; inset: 0; z-index: 0; background:
+        .hero-mesh { position: absolute; inset: -18%; z-index: 0; background:
           radial-gradient(circle at 8% 18%, rgba(232,149,107,.32) 0%, transparent 38%),
           radial-gradient(circle at 88% 12%, rgba(142,216,220,.22) 0%, transparent 42%),
           radial-gradient(circle at 78% 88%, rgba(201,169,106,.26) 0%, transparent 40%),
           radial-gradient(circle at 15% 85%, rgba(15,110,168,.3) 0%, transparent 40%),
           linear-gradient(160deg, #0a1020 0%, #0d1b3a 45%, #0a1020 100%);
-          animation: mesh-drift 18s ease-in-out infinite alternate;
+          animation: aurora 22s ease-in-out infinite alternate; will-change: transform, filter; }
+        @keyframes aurora {
+          from { transform: translate3d(-1.5%, -1%, 0) scale(1); filter: hue-rotate(0deg) brightness(1); }
+          to { transform: translate3d(1.5%, 1.5%, 0) scale(1.05); filter: hue-rotate(8deg) brightness(1.06); }
         }
         @keyframes mesh-drift { 0% { filter: hue-rotate(0deg) brightness(1); } 100% { filter: hue-rotate(8deg) brightness(1.06); } }
         .hero-grain { position: absolute; inset: 0; z-index: 1; opacity: .05; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)'/%3E%3C/svg%3E"); pointer-events: none; }
@@ -550,6 +563,40 @@ export default function Home() {
 
         /* CONCIERGE */
         .concierge { position: fixed; top: 90px; right: 20px; padding: 10px 16px; background: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 900; color: var(--navy); z-index: 45; box-shadow: var(--shadow-md); }
+
+        /* PREMIUM PASS — cinematic load, fixed glass nav, editorial grade */
+        .hero-split > div:first-child > * { opacity: 0; animation: heroIn .95s cubic-bezier(.22,.61,.36,1) both; }
+        .hero-split > div:first-child > *:nth-child(1) { animation-delay: .1s; }
+        .hero-split > div:first-child > *:nth-child(2) { animation-delay: .22s; }
+        .hero-split > div:first-child > *:nth-child(3) { animation-delay: .34s; }
+        .hero-split > div:first-child > *:nth-child(4) { animation-delay: .46s; }
+        .hero-split > div:first-child > *:nth-child(5) { animation-delay: .58s; }
+        @keyframes heroIn { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+        .hero-photo-stack { opacity: 0; animation: heroIn 1.1s cubic-bezier(.22,.61,.36,1) .35s both; }
+
+        html { scroll-behavior: smooth; }
+        *:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: ${dm ? '#0a0f1a' : '#f3ede2'}; }
+        ::-webkit-scrollbar-thumb { background: linear-gradient(var(--navy-2), var(--navy)); border-radius: 999px; border: 2px solid ${dm ? '#0a0f1a' : '#f3ede2'}; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+        .nav { position: fixed; transition: background .4s ease, box-shadow .4s ease, backdrop-filter .4s ease; }
+        .nav.nav-scrolled { background: rgba(8,20,38,.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); box-shadow: 0 1px 0 rgba(201,169,106,.25), 0 14px 40px rgba(0,0,0,.28); }
+
+        .t-img img { filter: brightness(.72) saturate(1.07) contrast(1.03); }
+        .s3d.pos-center img { filter: saturate(1.06) contrast(1.03); }
+        .about-img img { filter: saturate(1.05) contrast(1.02); }
+
+        .testi-card { position: relative; }
+        .testi-card::before { content: '“'; position: absolute; top: 6px; right: 20px; font-family: 'Playfair Display', serif; font-size: 84px; line-height: 1; color: rgba(201,169,106,.16); pointer-events: none; }
+        .testi-card:hover { transform: translateY(-5px); box-shadow: 0 18px 48px rgba(7,23,38,.12); border-color: rgba(201,169,106,.4); }
+
+        .pillar-card:hover { transform: translateY(-6px); box-shadow: 0 18px 44px rgba(7,23,38,.14); border-color: rgba(201,169,106,.5); }
+        .faq-item { transition: border-color .3s ease, box-shadow .3s ease; }
+        .faq-item:hover { border-color: rgba(201,169,106,.45); box-shadow: 0 8px 26px rgba(7,23,38,.07); }
+
+        .form-section { background-image: radial-gradient(${dm ? 'rgba(255,255,255,.045)' : 'rgba(8,31,53,.055)'} 1px, transparent 1px); background-size: 24px 24px; }
 
         /* VISUAL LAYER — GoTürkiye-inspired editorial motion */
         ::selection { background: rgba(201,169,106,.35); }
