@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, useEffect, useRef } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { whatsAppUrl } from '@/lib/config';
 
 export default function Home() {
@@ -9,41 +9,13 @@ export default function Home() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [selectedPath, setSelectedPath] = useState('');
   const [activeSlide, setActiveSlide] = useState(0);
-  const progressRef = useRef<HTMLDivElement>(null);
-
-  // GoTürkiye referansı: kaydırdıkça katman katman açılan editoryal bölümler
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const els = Array.from(document.querySelectorAll('.section .container > *'));
-    els.forEach((el) => {
-      const idx = el.parentElement ? Array.from(el.parentElement.children).indexOf(el) : 0;
-      el.classList.add('rv');
-      (el as HTMLElement).style.transitionDelay = `${Math.min(idx * 70, 280)}ms`;
-    });
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('rv-in'); io.unobserve(e.target); } });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-    els.forEach((el) => io.observe(el));
-    return () => io.disconnect();
-  }, []);
-
-  // Sayfa ilerleme göstergesi (ince altın çizgi)
-  useEffect(() => {
-    const onScroll = () => {
-      const h = document.documentElement;
-      const max = h.scrollHeight - h.clientHeight;
-      if (progressRef.current) progressRef.current.style.transform = `scaleX(${max > 0 ? h.scrollTop / max : 0})`;
-    };
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
   const [formStep, setFormStep] = useState(1);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({ interest: '', country: '', timeline: '', contact: '', name: '', email: '' });
   const [formErrors, setFormErrors] = useState<Record<string, string>>({});
   const [expandedPillar, setExpandedPillar] = useState<string | null>(null);
   const [expandedTourism, setExpandedTourism] = useState<string | null>(null);
+  const [expandedInvestment, setExpandedInvestment] = useState(false);
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(false);
   const [heroTestimonialIdx, setHeroTestimonialIdx] = useState(0);
@@ -96,6 +68,13 @@ export default function Home() {
       short: 'Finding the right doctor or clinic in a foreign country can feel daunting. We connect you with experienced, accredited specialists at clinics that match your budget.',
       full: 'We take that burden off your shoulders — connecting you with experienced, accredited specialists at clinics that match your budget, so you can focus entirely on your health and recovery. From hair transplants and dental care to rhinoplasty and aesthetic surgery — we find the right clinic, the right surgeon, and the right price for you.',
       href: '#health'
+    },
+    {
+      title: 'Investment & Real Estate',
+      subtitle: 'Clarity, diligence, entry',
+      short: "Türkiye's real estate market offers exceptional opportunities for foreign investors. We give you access to vetted listings, trusted developers, and expert local advice.",
+      full: "But navigating it without the right guidance can be a challenge. Itinerary of Türkiye gives you access to vetted listings, trusted developers, and expert local advice — helping you find and secure your ideal property with complete confidence. From Istanbul to Bodrum, from İzmir to Antalya — we walk with you every step of the way.",
+      href: '#investment'
     },
   ], []);
 
@@ -165,6 +144,7 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇬🇧',
       category: 'Tourism · Hair Transplant · Business',
+      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'A big thank you to the Itinerary of Turkiye team! You made my whole journey incredibly smooth — from my trip and hair transplant to my business meetings. Everything was well organised, and I honestly did not expect the experience to be this seamless. Thank you for your professionalism, care, and support throughout the entire process.',
       rating: 5,
     },
@@ -173,6 +153,7 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇦🇺',
       category: 'Business Advisory',
+      image: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'Dear Itinerary of Turkiye — thank you for helping make my business trip such a success, resulting in several positive deals. You all deserve much greater recognition and success.',
       rating: 5,
     },
@@ -181,6 +162,7 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇺🇸',
       category: 'Real Estate',
+      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'I only wish I had known about Itinerary of Turkiye earlier. It would have saved me from many complications, mistakes, and even scams I unfortunately experienced in the past. Thanks to their guidance and local expertise, I was able to secure a great real estate deal that would not have been possible without their assistance. I will gladly recommend their services to others.',
       rating: 5,
     },
@@ -189,6 +171,7 @@ export default function Home() {
       location: 'Verified Client',
       flag: '🇮🇳',
       category: 'Investment Advisory',
+      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
       text: 'Investing in Türkiye can be challenging without the guidance of trustworthy local experts. Itinerary of Türkiye helped me tremendously throughout the process. Their local knowledge, professionalism, and reliable support gave me the confidence to make informed decisions and avoid many potential pitfalls.',
       rating: 5,
     },
@@ -248,20 +231,8 @@ export default function Home() {
 
   const dm = darkMode;
 
-  const faqJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqItems.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
-  };
-
   return (
     <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; }
@@ -358,15 +329,12 @@ export default function Home() {
         @keyframes pulse-dot-green { 0%,100% { box-shadow: 0 0 0 4px rgba(74,222,128,.22); } 50% { box-shadow: 0 0 0 8px rgba(74,222,128,.06); } }
 
         /* FRAMED PHOTO STACK */
-        .hero-photo-stack { position: relative; height: 640px; perspective: 1500px; transform-style: preserve-3d; }
-        .hero-photo-frame { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.5); }
+        .hero-photo-stack { position: relative; height: 640px; display: flex; align-items: center; justify-content: center; }
+        .hero-photo-frame { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.5); transition: opacity 1.1s cubic-bezier(.22,.61,.36,1), transform 1.1s cubic-bezier(.22,.61,.36,1); }
         .hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; }
-        .s3d { left: 50%; top: 50%; width: 78%; height: 92%; transition: transform 1.05s cubic-bezier(.22,.61,.36,1), opacity 1.05s ease, filter 1.05s ease, box-shadow 1.05s ease; will-change: transform; }
-        .s3d.pos-center { transform: translate(calc(-50% + var(--px, 0px)), calc(-50% + var(--py, 0px))) translateZ(0) rotateY(0deg); z-index: 3; opacity: 1; }
-        .s3d.pos-right { transform: translate(-50%, -50%) translateX(56%) translateZ(-260px) rotateY(-32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
-        .s3d.pos-left { transform: translate(-50%, -50%) translateX(-56%) translateZ(-260px) rotateY(32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
-        .s3d.pos-back { transform: translate(-50%, -50%) translateZ(-520px) rotateY(0deg); z-index: 1; opacity: 0; pointer-events: none; }
-        .s3d.pos-right:hover, .s3d.pos-left:hover { filter: brightness(.7) saturate(1); }
+        .hero-photo-frame.main { width: 82%; height: 96%; z-index: 3; }
+        .hero-photo-frame.deco-1 { width: 42%; height: 46%; right: -4%; top: -6%; z-index: 2; border: 4px solid rgba(255,255,255,.14); }
+        .hero-photo-frame.deco-2 { width: 34%; height: 38%; left: -6%; bottom: 4%; z-index: 1; opacity: .65; border: 4px solid rgba(255,255,255,.1); }
         .hero-photo-badge { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); z-index: 4; padding: 12px 22px; border-radius: 999px; background: rgba(13,20,36,.85); border: 1px solid rgba(255,255,255,.18); backdrop-filter: blur(14px); display: flex; align-items: center; gap: 10px; font-size: 12.5px; font-weight: 700; color: #fff; white-space: nowrap; box-shadow: 0 12px 30px rgba(0,0,0,.4); }
 
         .hero-dots { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 3; }
@@ -400,7 +368,7 @@ export default function Home() {
 
         /* PILLARS */
         .pillar-section { padding: 32px 0 48px; background: ${dm ? '#111827' : 'var(--ivory, #fffaf1)'}; }
-        .pillar-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; max-width: 920px; margin: 0 auto; }
+        .pillar-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
         .pillar-card { padding: 30px; border: 1px solid ${dm ? 'rgba(201,169,106,.2)' : 'rgba(201,169,106,.24)'}; border-radius: var(--r); background: ${dm ? 'rgba(255,255,255,.04)' : 'rgba(255,250,241,.96)'}; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; transition: all 0.3s; }
         .pillar-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-6px); }
         .pillar-eyebrow { color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
@@ -409,24 +377,16 @@ export default function Home() {
         .pillar-full { margin-top: 12px; color: ${dm ? 'rgba(240,237,232,.65)' : '#647889'}; line-height: 1.72; font-size: 14px; border-top: 1px solid ${dm ? 'rgba(255,255,255,.08)' : 'rgba(8,31,53,.1)'}; padding-top: 12px; animation: fadeUp 0.3s ease; }
 
         /* TOURISM */
-        .tourism-marquee { overflow: hidden; margin-top: 40px; padding: 24px 0;
-          -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent);
-          mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); }
-        .tourism-track { display: flex; gap: 16px; width: max-content; animation: ito-marquee 42s linear infinite; }
-        .tourism-marquee:hover .tourism-track { animation-play-state: paused; }
-        @keyframes ito-marquee { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 8px)); } }
-        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; width: 320px; flex-shrink: 0; position: relative; transform: perspective(1100px) rotateY(-7deg); transition: transform .6s cubic-bezier(.22,.61,.36,1), box-shadow .6s ease; }
-        .t-card:hover { transform: perspective(1100px) rotateY(0deg) translateY(-12px) scale(1.03); box-shadow: 0 34px 70px rgba(7,23,38,.35); z-index: 2; }
-        .t-glow { position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0; transform: scale(1.5); transition: opacity .5s ease, transform .5s ease; background: radial-gradient(circle at 28% 18%, rgba(201,169,106,.4), transparent 62%); }
-        .t-card:hover .t-glow { opacity: 1; transform: scale(1); }
+        .tourism-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 40px; }
+        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); transition: transform 0.3s; cursor: pointer; }
+        .t-card:not(.expanded):hover { transform: translateY(-10px); }
         .t-img { height: 480px; position: relative; }
         .t-img img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.72); transition: filter 0.3s; }
         .t-card:hover .t-img img { filter: brightness(.88); }
         .t-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 22px 20px; background: linear-gradient(180deg, transparent, rgba(0,0,0,.88)); color: #fff; }
         .t-label h3 { margin: 0 0 7px; font-size: 20px; font-weight: 900; font-family: 'Playfair Display', serif; }
         .t-label p { margin: 0 0 12px; font-size: 13px; line-height: 1.5; color: rgba(255,255,255,.8); }
-        .t-overlay { position: absolute; inset: 0; z-index: 3; padding: 22px; background: rgba(7,23,38,.94); backdrop-filter: blur(6px); color: rgba(255,250,241,.85); font-size: 13px; line-height: 1.75; overflow-y: auto; animation: fadeUp .3s ease; border-radius: var(--r); }
-        .t-overlay h3 { margin: 0 0 12px; font-family: 'Playfair Display', serif; font-size: 19px; color: #fff; }
+        .t-expanded { padding: 18px 22px 22px; background: var(--navy); color: rgba(255,250,241,.82); font-size: 13px; line-height: 1.78; animation: fadeUp 0.3s ease; }
 
         /* ABOUT */
         .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
@@ -537,7 +497,8 @@ export default function Home() {
         .testi-card { padding: 28px; border-radius: 24px; background: #fff; border: 1px solid rgba(201,169,106,.15); box-shadow: 0 4px 24px rgba(7,23,38,.06); transition: all 0.3s; }
         .testi-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(7,23,38,.1); border-color: rgba(201,169,106,.3); }
         .testi-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-        .testi-avatar { width: 52px; height: 52px; border-radius: 50%; flex-shrink: 0; border: 2px solid var(--gold); background: linear-gradient(135deg, rgba(201,169,106,.18), rgba(201,169,106,.05)); color: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; letter-spacing: .5px; }
+        .testi-avatar { width: 52px; height: 52px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 2px solid var(--gold); }
+        .testi-avatar img { width: 100%; height: 100%; object-fit: cover; }
         .testi-name { font-size: 15px; font-weight: 900; color: var(--navy); margin: 0 0 3px; }
         .testi-loc { font-size: 12px; color: var(--muted); margin: 0; }
         .testi-cat { display: inline-block; padding: 4px 10px; background: rgba(201,169,106,.1); color: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 700; margin-bottom: 14px; border: 1px solid rgba(201,169,106,.2); }
@@ -551,41 +512,20 @@ export default function Home() {
         /* CONCIERGE */
         .concierge { position: fixed; top: 90px; right: 20px; padding: 10px 16px; background: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 900; color: var(--navy); z-index: 45; box-shadow: var(--shadow-md); }
 
-        /* VISUAL LAYER — GoTürkiye-inspired editorial motion */
-        ::selection { background: rgba(201,169,106,.35); }
-        .scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 1000; background: linear-gradient(90deg, var(--gold), #e6cf9a); transform: scaleX(0); transform-origin: left; pointer-events: none; }
-        .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.22,.61,.36,1), transform .85s cubic-bezier(.22,.61,.36,1); }
-        .rv-in { opacity: 1; transform: none; }
-        .s3d.pos-center img { animation: kenburns 9s ease-in-out infinite alternate; }
-        @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08) translateY(-8px); } }
-        .nav-links a { position: relative; }
-        .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .35s cubic-bezier(.22,.61,.36,1); }
-        .nav-links a:hover::after { transform: scaleX(1); }
-        .btn-primary { position: relative; overflow: hidden; }
-        .btn-primary::after { content: ''; position: absolute; top: 0; left: -80%; width: 55%; height: 100%; background: linear-gradient(105deg, transparent, rgba(255,255,255,.32), transparent); transform: skewX(-20deg); transition: left .6s ease; pointer-events: none; }
-        .btn-primary:hover::after { left: 135%; }
-        .about-img img { transition: transform .9s cubic-bezier(.22,.61,.36,1); }
-        .about-img:hover img { transform: scale(1.05); }
-        .footer { position: relative; }
-        .footer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
-
         /* RESPONSIVE */
         @media (max-width: 1100px) {
           .testi-grid { grid-template-columns: 1fr; }
           .std-grid, .form-grid, .about-grid, .inv-grid { grid-template-columns: 1fr; }
-          .t-card { width: 290px; transform: perspective(1100px) rotateY(-5deg); }
-          .t-card:hover { transform: perspective(1100px) rotateY(0deg) translateY(-8px) scale(1.02); }
-          .t-img { height: 430px; }
+          .tourism-grid { grid-template-columns: repeat(2,1fr); }
           .health-header-row { flex-direction: column; align-items: flex-start; }
           .health-stat-badge { text-align: left; width: 100%; }
           .hero-split { grid-template-columns: 1fr; gap: 48px; padding: 120px 0 50px; text-align: center; }
           .hero-eyebrow { justify-content: center; }
           .hero-copy { margin-left: auto; margin-right: auto; }
           .hero-btns { justify-content: center; }
-          .hero-photo-stack { height: 420px; max-width: 520px; margin: 0 auto; perspective: none; }
-          .s3d { width: 100%; height: 100%; border-radius: 22px; }
-          .s3d.pos-left, .s3d.pos-right { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(.96); }
-          .s3d.pos-center { transform: translate(-50%, -50%); }
+          .hero-photo-stack { height: 420px; max-width: 520px; margin: 0 auto; }
+          .hero-photo-frame.deco-1, .hero-photo-frame.deco-2 { display: none; }
+          .hero-photo-frame.main { width: 100%; height: 100%; position: relative; border-radius: 22px; }
           .hero-photo-badge { position: relative; bottom: auto; left: auto; transform: none; margin-top: 16px; display: inline-flex; font-size: 11.5px; }
         }
         @media (max-width: 840px) {
@@ -602,14 +542,10 @@ export default function Home() {
           .hero { min-height: 100svh; }
           .hero-split { padding: 110px 0 40px; }
           .hero-trust-strip { flex-wrap: wrap; gap: 10px 14px; justify-content: center; }
-          .hero-photo-stack { height: 340px; max-width: 460px; }
+          .hero-photo-stack { height: 360px; max-width: 480px; }
         }
         @media (max-width: 640px) {
-          .t-card { width: 240px; transform: none; }
-          .t-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-          .t-glow { display: none; }
-          .tourism-marquee { padding: 12px 0; -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); }
-          .t-img { height: 360px; }
+          .tourism-grid { grid-template-columns: 1fr; }
           .footer-grid { grid-template-columns: 1fr; }
           .about-features { grid-template-columns: 1fr; }
           .about-img { height: 320px; }
@@ -647,6 +583,8 @@ export default function Home() {
             <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
               <a href="/#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Tourism</a>
               <a href="/#health" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Medical Tourism</a>
+              <a href="/services" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Business</a>
+              <a href="/#investment" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Investment / Real Estate</a>
             </div>
           )}
         </div>
@@ -668,6 +606,8 @@ export default function Home() {
                 <div className="nav-dropdown-menu">
                   <a href="/#tourism">Tourism</a>
                   <a href="/#health">Medical Tourism</a>
+                  <a href="/services">Business</a>
+                  <a href="/#investment">Investment / Real Estate</a>
                 </div>
               )}
             </div>
@@ -695,6 +635,7 @@ export default function Home() {
             <div className="hero-btns">
               <a className="hero-pill hero-pill-primary" href="#tourism">🏛️ Tourism</a>
               <a className="hero-pill" href="#health">🏥 Medical Tourism</a>
+              <a className="hero-pill" href="#investment">🏙️ Real Estate</a>
             </div>
             <div className="hero-trust-strip">
               <div className="trust-strip-item">✓ Verified by ITO</div>
@@ -706,23 +647,30 @@ export default function Home() {
           </div>
 
           <div className="hero-photo-stack">
-            {heroSlides.map((sl, i) => {
-              const n = heroSlides.length;
-              const off = (i - activeSlide + n) % n;
-              const pos = off === 0 ? 'pos-center' : off === 1 ? 'pos-right' : off === n - 1 ? 'pos-left' : 'pos-back';
-              const isCenter = pos === 'pos-center';
+            {heroSlides.map((s, i) => {
+              const isActive = i === activeSlide;
               return (
                 <div
                   key={i}
-                  className={`hero-photo-frame s3d ${pos}`}
-                  style={isCenter ? ({ '--px': `${mouseParallax.x * 6}px`, '--py': `${mouseParallax.y * 4}px` } as React.CSSProperties) : undefined}
-                  onClick={!isCenter ? () => setActiveSlide(i) : undefined}
-                  aria-hidden={!isCenter}
+                  className="hero-photo-frame main"
+                  style={{
+                    opacity: isActive ? 1 : 0,
+                    transform: isActive
+                      ? `scale(1) translate(${mouseParallax.x * 6}px, ${mouseParallax.y * 4}px)`
+                      : 'scale(1.04)',
+                    zIndex: isActive ? 3 : 2,
+                  }}
                 >
-                  <img src={sl.image} alt={isCenter ? 'Türkiye' : ''} style={{objectPosition: sl.position || '50% 50%'}} />
+                  <img src={s.image} alt="Türkiye" style={{objectPosition: s.position || '50% 50%'}} />
                 </div>
               );
             })}
+            <div className="hero-photo-frame deco-1" style={{transform: `translate(${mouseParallax.x * -8}px, ${mouseParallax.y * -5}px)`}}>
+              <img src={heroSlides[(activeSlide + 1) % heroSlides.length].image} alt="Türkiye" style={{objectPosition: heroSlides[(activeSlide + 1) % heroSlides.length].position}} />
+            </div>
+            <div className="hero-photo-frame deco-2" style={{transform: `translate(${mouseParallax.x * -4}px, ${mouseParallax.y * -3}px)`}}>
+              <img src={heroSlides[(activeSlide + 2) % heroSlides.length].image} alt="Türkiye" style={{objectPosition: heroSlides[(activeSlide + 2) % heroSlides.length].position}} />
+            </div>
             <div className="hero-photo-badge">✨ Cappadocia · Istanbul · Aegean Coast</div>
           </div>
         </div>
@@ -759,35 +707,30 @@ export default function Home() {
           <span className="eyebrow">Tourism Advisory</span>
           <h2 className="section-title serif">Go Beyond the Tour. <span style={{color:'var(--gold)'}}>Explore Türkiye.</span></h2>
           <p className="section-copy">Four dimensions of discovery — heritage, nature, food, and arts. Handpicked for travellers who value authentic, deeply personal experiences.</p>
-          <div className="tourism-marquee">
-            <div className="tourism-track">
-              {[...tourismVisuals, ...tourismVisuals].map((t, idx) => {
-                const isDup = idx >= tourismVisuals.length;
-                const isOpen = expandedTourism === t.title;
-                return (
-                  <div key={`${t.title}-${idx}`} className="t-card" aria-hidden={isDup}>
-                    <div className="t-glow" />
-                    <div className="t-img">
-                      <img src={t.image} alt={isDup ? '' : t.title} />
-                      <div className="t-label">
-                        <h3>{t.title}</h3>
-                        <p>{t.short}</p>
-                        <button className="read-btn" tabIndex={isDup ? -1 : 0} onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
-                          {isOpen ? '▲ Read less' : '▼ Read more'}
-                        </button>
-                      </div>
+          <div className="tourism-grid">
+            {tourismVisuals.map((t) => {
+              const isOpen = expandedTourism === t.title;
+              return (
+                <div key={t.title} className={`t-card${isOpen ? ' expanded' : ''}`}>
+                  <div className="t-img">
+                    <img src={t.image} alt={t.title} />
+                    <div className="t-label">
+                      <h3>{t.title}</h3>
+                      <p>{t.short}</p>
+                      <button className="read-btn" onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
+                        {isOpen ? '▲ Read less' : '▼ Read more'}
+                      </button>
                     </div>
-                    {isOpen && (
-                      <div className="t-overlay">
-                        <h3>{t.title}</h3>
-                        {t.full.split('\n\n').map((par, i) => <p key={i} style={{margin:'0 0 10px'}}>{par}</p>)}
-                        <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Close</button>
-                      </div>
-                    )}
                   </div>
-                );
-              })}
-            </div>
+                  {isOpen && (
+                    <div className="t-expanded">
+                      {t.full.split('\n\n').map((p, i) => <p key={i} style={{margin:'0 0 10px'}}>{p}</p>)}
+                      <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Collapse</button>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -909,6 +852,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* INVESTMENT */}
+      <section className="section" id="investment" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
+        <div className="container inv-grid">
+          <div>
+            <span className="eyebrow">Investment & Real Estate</span>
+            <h2 className="section-title serif">Where Smart Money Meets <span style={{color:'var(--gold)'}}>Beautiful Land.</span></h2>
+            <p className="section-copy">Türkiye has quietly become one of the most compelling real estate markets in the world — with a young population, booming construction, and a government actively welcoming foreign investment.</p>
+            {!expandedInvestment ? (
+              <button className="btn btn-ghost read-btn-light" style={{marginBottom:'24px',minHeight:'38px',padding:'0 18px',fontSize:'13px'}} onClick={() => setExpandedInvestment(true)}>▼ Read more</button>
+            ) : (
+              <div className="expanded-box-light" style={{marginBottom:'24px'}}>
+                <p>From the cosmopolitan energy of Istanbul to the sun-drenched coastlines of Bodrum and Antalya — Türkiye offers an extraordinary range of properties for every type of investor and every kind of dream.</p>
+                <p style={{marginTop:'10px'}}>Yet for many foreign buyers, the biggest challenge is not the decision to invest — it is knowing where to start. We give you direct access to vetted listings, trusted developers, and experienced legal and financial advisors who understand the needs of foreign investors.</p>
+                <button className="btn btn-ghost read-btn-light" style={{marginTop:'12px',minHeight:'34px',padding:'0 14px',fontSize:'12px'}} onClick={() => setExpandedInvestment(false)}>▲ Read less</button>
+              </div>
+            )}
+            <a className="btn btn-primary" href="#contact">Explore Opportunities</a>
+          </div>
+          <div className="inv-visual">
+            <img src="https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop" alt="Istanbul" />
+            <div className="inv-badge">🏙️ Türkiye is full of opportunity. We make sure you find yours.</div>
+          </div>
+        </div>
+      </section>
+
       {/* HOW IT WORKS */}
       <section className="section" style={{background: dm ? '#111827' : '#fff'}}>
         <div className="container">
@@ -938,7 +906,7 @@ export default function Home() {
             {testimonials.map((t) => (
               <div key={t.name} className="testi-card" style={{background: dm ? 'rgba(255,255,255,.04)' : '#fff', borderColor: dm ? 'rgba(201,169,106,.15)' : 'rgba(201,169,106,.15)'}}>
                 <div className="testi-header">
-                  <div className="testi-avatar" aria-hidden="true">{t.name.split(' ').map(w => w[0]).join('')}</div>
+                  <div className="testi-avatar"><img src={t.image} alt={t.name} /></div>
                   <div>
                     <p className="testi-name" style={{color: dm ? '#fff' : 'var(--navy)'}}>{t.flag} {t.name}</p>
                     <p className="testi-loc">{t.location}</p>
@@ -1079,7 +1047,7 @@ export default function Home() {
           <div className="footer-grid">
             <div>
               <a href="#top"><img src="/logo.png" alt="Itinerary of Türkiye" style={{height:'72px',width:'auto',filter:'brightness(0) invert(1)',opacity:.9}} /></a>
-              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Medical travel coordination and private Türkiye experiences — investment and business advisory on request.</p>
+              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Premium advisory for tourism, medical tourism, investment and business in Türkiye.</p>
               <div className="social-row">
                 <a className="social-btn" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
                 {/* Instagram / YouTube / TikTok hesapları açıldığında buraya gerçek URL'lerle eklenebilir */}
@@ -1100,9 +1068,8 @@ export default function Home() {
               <a href="#health">Aesthetic Surgery</a>
             </div>
             <div>
-              <h4>Future Services</h4>
-              <a href="/future-services#business">Business Advisory</a>
-              <a href="/future-services#investment">Investment &amp; Real Estate</a>
+              <h4>Investment</h4>
+              <a href="#investment">Real Estate</a>
               <a href="#contact">Contact Us</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
