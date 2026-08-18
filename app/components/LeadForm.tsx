@@ -75,8 +75,7 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
     await sendLead();
     setSending(false);
     setSubmitted(true);
-    track('whatsapp_click', { source: 'form_submit', locale, path: typeof window !== 'undefined' ? window.location.pathname : '' });
-    window.open(whatsAppUrl(waMessage), '_blank', 'noopener,noreferrer');
+    track('lead_submit', { source: 'form_submit', locale, path: typeof window !== 'undefined' ? window.location.pathname : '' });
   };
 
   return (
@@ -181,12 +180,12 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
           </>
         ) : (
           <div className="lf-success">
-            <h3>✓ Application prepared</h3>
-            <p>WhatsApp should have opened with your structured message. Nothing was stored on our servers — your details travel only in that message.</p>
+            <h3>✓ Thank you — your enquiry has been sent</h3>
+            <p>We have received your details and a member of our team will be in touch shortly. If you would like an immediate reply, you can also reach us on WhatsApp.</p>
             <a className="lf-btn lf-btn-primary lf-wa" style={{ background: '#25D366', color: '#fff', display: 'inline-flex', width: 'auto' }} href={whatsAppUrl(waMessage)} data-wa-source="form_reopen" target="_blank" rel="noopener noreferrer">
-              <Icon name="whatsapp" size={17} /> Open WhatsApp again
+              <Icon name="whatsapp" size={17} /> Message us on WhatsApp
             </a>
-            <p style={{ marginTop: '14px', fontSize: '11.5px', color: 'rgba(255,250,241,.55)' }}>Reminder: please don&apos;t attach medical reports, photos or ID documents in this first message.</p>
+            <p style={{ marginTop: '14px', fontSize: '11.5px', color: 'rgba(255,250,241,.55)' }}>Reminder: please don&apos;t send medical reports, photos or ID documents in a first message.</p>
           </div>
         )}
       </form>
