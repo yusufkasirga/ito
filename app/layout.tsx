@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/react";
+import WhatsAppTracker from "./components/WhatsAppTracker";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -8,9 +10,10 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://itineraryofturkiye.com"),
-  title: "Itinerary of Türkiye — Tourism, Medical, Investment & Business Advisory",
-  description: "Your trusted local partner in Türkiye. Medical travel coordination and private Türkiye experiences — with investment and business advisory available on request. Serving clients from UK, UAE, Europe and beyond.",
-  keywords: "Turkey tourism, medical tourism Turkey, hair transplant Turkey, dental Turkey, real estate Istanbul, investment Turkey, business Turkey",
+  alternates: { canonical: "https://itineraryofturkiye.com/", languages: { en: "https://itineraryofturkiye.com/", de: "https://itineraryofturkiye.com/de" } },
+  verification: { google: "TnMT4ipicMyjRooHW9Oub_W1Dp7BxLIz5tn_5Bqk_-A" },
+  title: "Itinerary of Türkiye — Medical Travel & Private Türkiye Experiences Advisory",
+  description: "Independent advisory for medical travel and private Türkiye experiences. We plan the journey, verify every provider and stay with you — paid by our clients, never by commissions. Serving clients from UK, UAE, Europe and beyond.",
   openGraph: {
     title: "Itinerary of Türkiye",
     description: "Your trusted local partner for medical travel and private Türkiye experiences.",
@@ -34,6 +37,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/logo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -45,12 +51,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "url": "https://itineraryofturkiye.com",
               "telephone": process.env.NEXT_PUBLIC_WHATSAPP_E164_NUMBER ?? "",
               "address": { "@type": "PostalAddress", "addressCountry": "TR" },
-              "sameAs": []
+              "sameAs": ["https://www.instagram.com/itineraryofturkiye"]
             })
           }}
         />
       </head>
-      <body style={{margin:0, padding:0}}>{children}</body>
+      <body style={{margin:0, padding:0}}>{children}<Analytics /><WhatsAppTracker /></body>
     </html>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteHeader from '../components/SiteHeader';
 import { SITE_URL, whatsAppUrl } from '@/lib/config';
 
 // =====================================================
@@ -91,18 +92,7 @@ export default function FutureServicesPage() {
         }
       `}</style>
 
-      <header className="nav">
-        <div className="nav-inner">
-          <a className="brand" href="/"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
-          <nav className="nav-links" aria-label="Primary">
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/testimonials">Testimonials</a>
-            <a href="/#contact">Contact</a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader />
 
       <div className="page">
         <span className="eyebrow">Future Services</span>
@@ -145,7 +135,7 @@ export default function FutureServicesPage() {
       </div>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/">Home</a></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a> · <a href="/">Home</a></p>
       </footer>
     </main>
   );

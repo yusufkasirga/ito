@@ -1,24 +1,28 @@
 'use client';
 
+import SiteHeader from '../components/SiteHeader';
+
+import Icon from '../components/Icon';
+
 export default function AboutPage() {
   const features = [
     {
-      icon: '🏛️',
+      icon: 'landmark',
       title: 'Leisure & Tourism',
       desc: 'Curated holidays and travel experiences across Türkiye',
     },
     {
-      icon: '🏥',
+      icon: 'medical',
       title: 'Medical & Aesthetic',
       desc: 'Surgical and non-surgical procedure guidance and coordination',
     },
     {
-      icon: '💼',
+      icon: 'briefcase',
       title: 'Business Travel',
       desc: 'End-to-end support for corporate visits and delegations',
     },
     {
-      icon: '🌐',
+      icon: 'globe',
       title: 'Multilingual Team',
       desc: 'Experts fluent in a wide range of languages',
     },
@@ -109,22 +113,7 @@ export default function AboutPage() {
         }
       `}</style>
 
-      {/* NAVBAR */}
-      <header className="nav">
-        <div className="nav-inner">
-          <a className="brand" href="/">
-            <img src="/logo.png" alt="Itinerary of Türkiye" />
-          </a>
-          <nav className="nav-links">
-            <a href="/about" className="active">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/testimonials">Testimonials</a>
-            <a href="/#contact">Contact</a>
-            <a className="btn-primary" href="/#contact">Get in Touch</a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* HERO */}
       <section className="hero">
@@ -153,7 +142,7 @@ export default function AboutPage() {
           </div>
           <div className="about-image">
             <img
-              src="https://images.pexels.com/photos/3889742/pexels-photo-3889742.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop"
+              src="/images/pexels-3889742-800x1000.jpg"
               alt="Türkiye"
             />
           </div>
@@ -168,7 +157,7 @@ export default function AboutPage() {
           <div className="features-grid">
             {features.map((f) => (
               <div key={f.title} className="feature-card">
-                <div className="feature-icon">{f.icon}</div>
+                <div className="feature-icon"><Icon name={f.icon as never} size={24} /></div>
                 <div className="feature-title">{f.title}</div>
                 <div className="feature-desc">{f.desc}</div>
               </div>
@@ -187,8 +176,22 @@ export default function AboutPage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/future-services" style={{color:'inherit'}}>Future Services</a></p>
+            <section style={{maxWidth:'860px',margin:'0 auto',padding:'0 32px 64px'}}>
+        <h2 style={{fontFamily:"'Playfair Display', serif",fontSize:'28px',color:'var(--ink, #081f35)',marginBottom:'14px'}}>Who runs Itinerary of Türkiye</h2>
+        <p style={{fontSize:'15.5px',lineHeight:1.85,color:'inherit',opacity:.9,marginBottom:'12px'}}>
+          ITO is run by its two founders — not a call centre, not a franchise. We live here, we build every plan ourselves,
+          and on the days that matter we are physically with you: at the airport, at the clinic, at the table we booked
+          because we have eaten there ourselves.
+        </p>
+        <p style={{fontSize:'15.5px',lineHeight:1.85,color:'inherit',opacity:.9}}>
+          We are paid by our clients, never by the places we recommend — a commitment we publish in
+          {' '}<a href="/standard" style={{color:'#8a6d33',fontWeight:600}}>The ITO Standard</a>. It is a small team by design:
+          our goal is to personally manage the first hundred journeys, and to let the standard — not the headcount — be the thing that scales.
+        </p>
+      </section>
+
+<footer className="footer">
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p>
       </footer>
     </main>
   );

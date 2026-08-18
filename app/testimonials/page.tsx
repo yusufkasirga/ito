@@ -1,5 +1,7 @@
 'use client';
 
+import SiteHeader from '../components/SiteHeader';
+
 export default function TestimonialsPage() {
   const testimonials = [
     { name: 'Mark T.', category: 'Tourism · Hair Transplant · Business', flag: '🇬🇧', text: 'A big thank you to the Itinerary of Turkiye team! You made my whole journey incredibly smooth — from my trip and hair transplant to my business meetings. Everything was well organised, and I honestly did not expect the experience to be this seamless.' },
@@ -52,18 +54,7 @@ export default function TestimonialsPage() {
           *, *::before, *::after { animation: none !important; transition: none !important; }
         }
       `}</style>
-      <header className="nav">
-        <div className="nav-inner">
-          <a className="brand" href="/"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
-          <nav className="nav-links">
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/testimonials" className="active">Testimonials</a>
-            <a href="/#contact">Contact</a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader />
       <section className="hero">
         <div className="eyebrow">Client Stories</div>
         <h1>What Our Clients Say</h1>
@@ -83,7 +74,7 @@ export default function TestimonialsPage() {
           <a className="btn-primary" href="/#contact">Start Your Own Journey</a>
         </div>
       </section>
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/future-services" style={{color:'inherit'}}>Future Services</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p></footer>
     </main>
   );
 }

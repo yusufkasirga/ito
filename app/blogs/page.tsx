@@ -1,8 +1,16 @@
 'use client';
 
+import { useState } from 'react';
 import { blogPosts } from './blogData';
 
 export default function BlogsPage() {
+  const [filter, setFilter] = useState('All');
+  const categories = ['All', ...Array.from(new Set(blogPosts.map((p) => p.category)))];
+  const sorted = [...blogPosts].sort((a, b) => b.dateISO.localeCompare(a.dateISO));
+  const featuredFour = sorted.slice(0, 4);
+  const rest = sorted.slice(4);
+  const visible = filter === 'All' ? rest : sorted.filter((p) => p.category === filter);
+  const showFeatured = filter === 'All';
   return (
     <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
@@ -25,13 +33,36 @@ export default function BlogsPage() {
         .nav-links a:hover, .nav-links a.active { color: var(--gold); }
         .btn-primary { min-height: 44px; padding: 0 22px; border-radius: 999px; background: linear-gradient(135deg, #0f6ea8, var(--navy-2)); color: #fff; font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; transition: all 0.3s; box-shadow: var(--shadow-md); }
         .btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-        .hero { background: linear-gradient(135deg, #071726 0%, #0c3555 100%); color: #fff; padding: 90px 0 70px; text-align: center; }
+        .hero { position: relative; background: linear-gradient(135deg, #071726 0%, #0c3555 100%); color: #fff; padding: 90px 0 70px; text-align: center; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px); background-size: 24px 24px; pointer-events: none; }
+        .hero::after { content: ''; position: absolute; top: -140px; right: -80px; width: 480px; height: 480px; border-radius: 50%; background: radial-gradient(circle, rgba(201,169,106,.22), transparent 65%); pointer-events: none; }
+        .hero > * { position: relative; z-index: 1; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
         .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
         .hero p { color: rgba(255,250,241,.7); font-size: 16px; max-width: 560px; margin: 0 auto; line-height: 1.7; }
 
-        .content { max-width: 1100px; margin: 0 auto; padding: 80px 32px; }
+        .content { max-width: 1100px; margin: 0 auto; padding: 56px 32px 80px; }
+        .filter-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 44px; }
+        .filter-chip { padding: 9px 20px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--navy); font-size: 13px; font-weight: 700; cursor: pointer; transition: all .25s; }
+        .filter-chip:hover { border-color: var(--gold); color: var(--gold); }
+        .filter-chip.on { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: #fff; border-color: transparent; }
+        .feat-bento { display: grid; grid-template-columns: 1.35fr 1fr 1fr; grid-template-rows: 252px 252px; gap: 20px; margin-bottom: 48px; }
+        .feat-card { position: relative; border-radius: 22px; overflow: hidden; text-decoration: none; box-shadow: var(--shadow-md); transition: box-shadow .35s ease; }
+        .feat-card:hover { box-shadow: 0 26px 60px rgba(7,23,38,.28); }
+        .feat-card > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .65s ease; }
+        .feat-card:hover > img { transform: scale(1.05); }
+        .feat-0 { grid-row: 1 / 3; }
+        .feat-3 { grid-column: 2 / 4; }
+        .feat-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7,23,38,.06) 30%, rgba(7,23,38,.86) 100%); transition: background .35s ease; }
+        .feat-card:hover .feat-shade { background: linear-gradient(180deg, rgba(7,23,38,.16) 20%, rgba(7,23,38,.92) 100%); }
+        .feat-text { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 24px; }
+        .feat-tag { display: block; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 8px; }
+        .feat-text h2 { font-family: 'Playfair Display', serif; color: #fff; font-size: 19px; line-height: 1.25; margin-bottom: 8px; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+        .feat-0 .feat-text h2 { font-size: clamp(24px, 2.2vw, 32px); }
+        .feat-0 .feat-text p { color: rgba(255,250,241,.78); font-size: 14px; line-height: 1.7; margin-bottom: 10px; }
+        .feat-more { display: inline-block; color: var(--gold); font-weight: 800; font-size: 13px; opacity: 0; transform: translateY(4px); transition: opacity .3s ease, transform .3s ease; }
+        .feat-card:hover .feat-more { opacity: 1; transform: none; }
         .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
         .blog-card { display: block; text-decoration: none; border-radius: 22px; overflow: hidden; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); transition: all 0.3s; }
         .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(201,169,106,.3); }
@@ -50,9 +81,20 @@ export default function BlogsPage() {
           .nav-links { gap: 16px; }
           .blog-grid { grid-template-columns: 1fr 1fr; }
         }
+        @media (max-width: 900px) {
+          .feat-bento { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+          .feat-0 { grid-column: 1 / 3; grid-row: auto; height: 320px; }
+          .feat-1, .feat-2 { height: 230px; }
+          .feat-3 { grid-column: 1 / 3; height: 230px; }
+        }
+        @media (max-width: 560px) {
+          .feat-bento { grid-template-columns: 1fr; }
+          .feat-0, .feat-1, .feat-2, .feat-3 { grid-column: auto; height: 240px; }
+          .feat-0 { height: 300px; }
+        }
         @media (max-width: 600px) {
           .blog-grid { grid-template-columns: 1fr; }
-          .content { padding: 56px 20px; }
+          .content { padding: 40px 20px 56px; }
         }
         @media (max-width: 700px) {
           .nav-inner { height: auto; flex-wrap: wrap; padding: 10px 16px; gap: 6px; justify-content: center; }
@@ -72,9 +114,9 @@ export default function BlogsPage() {
           <nav className="nav-links">
             <a href="/about">About Us</a>
             <a href="/services">Services</a>
-            <a href="/blogs" className="active">Blogs</a>
             <a href="/testimonials">Testimonials</a>
             <a href="/#contact">Contact</a>
+                      <a href="/de/blogs" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
           </nav>
         </div>
       </header>
@@ -86,10 +128,33 @@ export default function BlogsPage() {
       </section>
 
       <section className="content">
+        <div className="filter-row">
+          {categories.map((c) => (
+            <button key={c} className={`filter-chip ${filter === c ? 'on' : ''}`} onClick={() => setFilter(c)}>{c}</button>
+          ))}
+        </div>
+
+        {showFeatured && (
+          <div className="feat-bento">
+            {featuredFour.map((f, i) => (
+              <a key={f.slug} className={`feat-card feat-${i}`} href={`/blogs/${f.slug}`}>
+                <img src={f.coverImage} alt={f.title} />
+                <div className="feat-shade" />
+                <div className="feat-text">
+                  <span className="feat-tag">{i === 0 ? 'Latest · ' : ''}{f.category}</span>
+                  <h2>{f.title}</h2>
+                  {i === 0 && <p>{f.excerpt}</p>}
+                  <span className="feat-more">Read the guide →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+
         <div className="blog-grid">
-          {blogPosts.map((post) => (
+          {visible.map((post) => (
             <a key={post.slug} className="blog-card" href={`/blogs/${post.slug}`}>
-              <div className="blog-img"><img src={post.coverImage} alt={post.title} /></div>
+              <div className="blog-img"><img loading="lazy" src={post.coverImage} alt={post.title} /></div>
               <div className="blog-body">
                 <span className="blog-cat">{post.category}</span>
                 <h2 className="blog-title">{post.title}</h2>
@@ -104,7 +169,7 @@ export default function BlogsPage() {
         </div>
       </section>
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/future-services" style={{color:'inherit'}}>Future Services</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p></footer>
     </main>
   );
 }
