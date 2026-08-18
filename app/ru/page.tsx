@@ -1175,7 +1175,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <a href="#top"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" style={{height:'72px',width:'auto',filter:'brightness(0) invert(1)',opacity:.9}} /></a>
+              <a href="#top"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" style={{height:'84px',width:'84px',objectFit:'contain',background:'#fffdf7',borderRadius:'50%',padding:'6px',boxShadow:'0 2px 14px rgba(0,0,0,.3)'}} /></a>
               <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Координация медицинских поездок и частные путешествия по Турции — консультации по инвестициям и бизнесу по запросу.</p>
               <div className="social-row">
                 <a className="social-btn" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={17} /></a>
