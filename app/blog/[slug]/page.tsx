@@ -101,7 +101,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-body ul li { position: relative; font-size: 17px; line-height: 1.6; color: #33414d; padding: 7px 0 7px 26px; border-bottom: 1px solid rgba(8,31,53,.07); }
         .ar-body ul li:last-child { border-bottom: none; }
         .ar-body ul li::before { content: ''; position: absolute; left: 4px; top: 15px; width: 7px; height: 7px; border-radius: 50%; background: #8a6d33; }
-        .ar-figure { margin: 38px 0; border-radius: 16px; overflow: hidden; position: relative; aspect-ratio: 16/9; border: 1px solid rgba(8,31,53,.1); }
+        .ar-figure { margin: 38px 0; border-radius: 16px; overflow: hidden; position: relative; aspect-ratio: 3/2; border: 1px solid rgba(8,31,53,.1); }
         .ar-figure .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; padding: 14px 18px; font-size: 12.5px; color: rgba(255,250,241,.9); background: linear-gradient(180deg, transparent, rgba(7,23,38,.7)); }
         .ar-pull { margin: 34px 0; padding: 8px 0 8px 24px; border-left: 3px solid ${a.accent}; font-family: 'Playfair Display', serif; font-size: 23px; line-height: 1.4; color: #081f35; }
 
@@ -192,7 +192,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 nodes.push(
                   <figure key={`fig-${i}`} className="ar-figure">
                     <CityImage slug={`${a.slug}-${k + 1}`} accent={a.accent} alt={`${a.title} — ${cap}, Türkiye`} primary={`/images/blog/${a.slug}-${k + 1}.jpg`} fallback={images[k]} />
-                    <figcaption className="cap">{cap} · Türkiye</figcaption>
                   </figure>
                 );
               }

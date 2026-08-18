@@ -1,24 +1,24 @@
 #!/bin/bash
 # =====================================================
-# Türk düğünü blogu için 4 görseli indirir.
+# Düğün blogu görselleri — 3:2 oranında, yüksek çözünürlük.
 # Çalıştır:  bash scripts/download-wedding-images.sh
 #
-# Yanlış yere düşen görsel olursa: Finder'da public/images klasöründe
-# dosya adlarını birbiriyle değiştirmen yeterli. Kod değişikliği gerekmez.
+# Fotoğrafı değiştirmek istersen: pexels.com'da beğendiğine tıkla,
+# adres çubuğundaki son sayıyı ilgili ID satırına yaz, betiği tekrar çalıştır.
 # =====================================================
 set -e
 cd "$(dirname "$0")/.."
 mkdir -p public/images
 
-COVER_ID="13394290"   # kapak — blog listesinde + yazinin en ustunde
-IMG1_ID="32655704"    # 1. gorsel — giristen sonra ("kutlama")
-IMG2_ID="34584808"    # 2. gorsel — "neden davet ederler" oncesi ("sofra")
-IMG3_ID="14517840"    # 3. gorsel — finalden once ("dans")
+COVER_ID="13394290"   # kapak — yazinin en ustu + liste karti
+IMG1_ID="32655704"    # 1. gorsel — giristen sonra
+IMG2_ID="34584808"    # 2. gorsel — orta bolum
+IMG3_ID="14517840"    # 3. gorsel — finalden once
 
 download () {
   local id="$1" name="$2"
   if curl -sSfL -o "public/images/$name" \
-    "https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"; then
+    "https://images.pexels.com/photos/$id/pexels-photo-$id.jpeg?auto=compress&cs=tinysrgb&w=1800&h=1200&fit=crop"; then
     echo "✓ $name  (id: $id)"
   else
     echo "✗ $name indirilemedi — id $id dogru mu?"
