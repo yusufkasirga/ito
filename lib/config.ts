@@ -16,6 +16,20 @@ export const WHATSAPP_E164_NUMBER =
  * Returns '/#contact' as a safe fallback if the env var is missing,
  * so the site never renders a broken link.
  */
+// =====================================================
+// FORM → E-POSTA (Web3Forms)
+// Başvurular itineraryofturkiye@gmail.com adresine e-posta olarak gelir.
+//
+// Anahtarı almak için: https://web3forms.com adresine git, e-posta adresini
+// gir, gelen doğrulama mailindeki linke tıkla — anahtar sana e-postayla gelir.
+// Aldığın anahtarı aşağıdaki tırnakların arasına yapıştır.
+//
+// Bu anahtar gizli değildir; herkese açık olacak şekilde tasarlanmıştır ve
+// gerçek e-posta adresini gizler (takma ad gibi çalışır).
+// =====================================================
+export const WEB3FORMS_ACCESS_KEY =
+  process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? 'e6662099-ba49-46bb-bad3-582a0b5d51ca';
+
 export function whatsAppUrl(message?: string): string {
   const digits = WHATSAPP_E164_NUMBER.replace(/\D/g, '');
   if (!digits) return '/#contact';

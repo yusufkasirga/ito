@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { whatsAppUrl } from '@/lib/config';
+import { whatsAppUrl, WEB3FORMS_ACCESS_KEY } from '@/lib/config';
 import { track } from '@vercel/analytics';
 import Icon from './Icon';
 
@@ -15,6 +15,7 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
   const [submitted, setSubmitted] = useState(false);
   const [data, setData] = useState({ interest: '', country: '', timeline: '', contact: '', name: '', email: '' });
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [sending, setSending] = useState(false);
 
   const validate = (s: number) => {
     const e: Record<string, string> = {};
@@ -39,16 +40,43 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
     data.email ? `Email: ${data.email}` : '',
   ].filter(Boolean).join('\n');
 
-  const submit = () => {
-    if (validate(step)) {
-      if (step < 3) {
-        setStep(step + 1);
-      } else {
-        setSubmitted(true);
-        track('whatsapp_click', { source: 'form_submit', locale, path: typeof window !== 'undefined' ? window.location.pathname : '' });
-        window.open(whatsAppUrl(waMessage), '_blank', 'noopener,noreferrer');
-      }
+  /** Başvuruyu e-posta olarak gönderir. Hata olsa bile akış durmaz. */
+  const sendLead = async () => {
+    try {
+      await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: `New enquiry — ${data.interest || 'General'} — ${data.name || 'No name'}`,
+          from_name: 'Itinerary of Türkiye — Website',
+          Name: data.name || '-',
+          Email: data.email || '-',
+          Country: data.country || '-',
+          'Area of interest': data.interest || '-',
+          Timeline: data.timeline || '-',
+          'Preferred contact': data.contact || '-',
+          Language: locale,
+          Page: typeof window !== 'undefined' ? window.location.pathname : '-',
+        }),
+      });
+    } catch {
+      // Ağ hatası: kullanıcıyı engelleme, WhatsApp akışı yine de açılsın.
     }
+  };
+
+  const submit = async () => {
+    if (!validate(step)) return;
+    if (step < 3) {
+      setStep(step + 1);
+      return;
+    }
+    setSending(true);
+    await sendLead();
+    setSending(false);
+    setSubmitted(true);
+    track('whatsapp_click', { source: 'form_submit', locale, path: typeof window !== 'undefined' ? window.location.pathname : '' });
+    window.open(whatsAppUrl(waMessage), '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -148,7 +176,7 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
 
             <div style={{ display: 'flex', gap: '12px', marginTop: '20px' }}>
               {step > 1 && <button type="button" className="lf-btn lf-btn-ghost" onClick={() => setStep(step - 1)}>Back</button>}
-              <button type="button" className="lf-btn lf-btn-primary" onClick={submit}>{step < 3 ? 'Continue →' : 'Submit Request'}</button>
+              <button type="button" className="lf-btn lf-btn-primary" onClick={submit} disabled={sending} style={sending ? { opacity: .65, cursor: 'wait' } : undefined}>{step < 3 ? 'Continue →' : sending ? 'Sending…' : 'Submit Request'}</button>
             </div>
           </>
         ) : (

@@ -38,7 +38,7 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
         .ito-hdr.is-overlay.is-solid { position: fixed; }
 
         .ito-hdr .h-full { transition: background .35s ease, backdrop-filter .35s ease, border-color .35s ease; border-bottom: 1px solid transparent; }
-        .ito-hdr.is-solid .h-full { background: rgba(7,23,38,.82); backdrop-filter: blur(14px); border-bottom-color: rgba(255,250,241,.08); }
+        .ito-hdr.is-solid .h-full { background: rgba(7,23,38,.82); backdrop-filter: blur(14px); border-bottom-color: transparent; box-shadow: 0 10px 28px -18px rgba(0,0,0,.75); }
         /* overlay + tepede: şeffaf, sadece okunabilirlik için ince üst scrim */
         .ito-hdr.is-overlay:not(.is-solid) .h-full { background: linear-gradient(180deg, rgba(7,23,38,.45) 0%, rgba(7,23,38,0) 100%); }
 
