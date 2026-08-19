@@ -29,114 +29,135 @@ export const blogArticles: BlogArticle[] = [
       "/images/wedding-dance-1200x800.jpg"
     ],
     "places": [
-      "Türkiye",
-      "Istanbul"
+      "Türkiye"
     ],
-    "title": "Want to Attend a Turkish Wedding? Experience Türkiye's Traditions Like a Local",
+    "title": "Want to Attend a Turkish Wedding? Experience Türkiye’s Traditions Like a Local",
     "shortTitle": "Want to Attend a Turkish Wedding?",
     "category": "Culture",
     "accent": "#a8324a",
     "dateISO": "2026-08-18",
-    "readTime": "6 min read",
-    "excerpt": "Not a staged folklore show for tourists — a real celebration, with a real couple, their family and friends. How we connect international visitors with Turkish weddings.",
+    "readTime": "5 min read",
+    "excerpt": "Imagine dressing up, meeting a Turkish bride and groom, enjoying traditional food, and dancing together with the newlyweds and their families.",
     "body": [
       {
         "type": "p",
-        "text": "Have you ever wondered what it would be like to attend a real Turkish wedding — not as a spectator at a tourist show, but as part of the celebration itself?"
+        "text": "Have you ever wondered what it would be like to attend a real Turkish wedding—not as a guest at a tourist show, but as part of the celebration itself?"
       },
       {
         "type": "p",
-        "text": "Imagine dressing up for the occasion, meeting the bride and groom, sharing traditional food, watching customs unfold that have been kept for generations, and dancing alongside the newlyweds and their families. It sounds like a rare kind of travel experience. With Itinerary of Türkiye, it is one you can actually have."
+        "text": "Imagine dressing up, meeting a Turkish bride and groom, enjoying traditional food, experiencing Turkish wedding traditions, and dancing together with the newlyweds and their families. It sounds like a unique travel experience—and now, it is possible with Itinerary of Turkiye."
       },
       {
         "type": "h2",
-        "text": "A Turkish Wedding Is More Than a Ceremony"
+        "text": "Experience a Real Turkish Wedding in Türkiye"
       },
       {
         "type": "p",
-        "text": "A Turkish wedding is a celebration built around family, music, dancing, food and tradition — and it rarely resembles what visitors expect."
+        "text": "A Turkish wedding is more than just a ceremony. It is a celebration filled with family, music, dancing (mostly), food, traditions, and unforgettable moments."
       },
       {
         "type": "p",
-        "text": "For international visitors, attending one offers a way into Turkish culture that no museum or guided tour can replicate. Alongside the landmarks of Istanbul and the country's other great destinations, you have the chance to meet local people, celebrate with them, and share one of the most significant days of their lives."
+        "text": "For international visitors, attending a Turkish wedding can be a wonderful way to experience Turkish culture and traditions from a completely different perspective."
       },
       {
         "type": "p",
-        "text": "This is precisely the experience Itinerary of Türkiye set out to make possible."
+        "text": "Alongside visiting famous tourist attractions in Istanbul and other destinations, you’ll have the opportunity to meet local people, celebrate with them, and experience one of the most important days of their lives."
+      },
+      {
+        "type": "p",
+        "text": "And this is exactly the experience Itinerary of Turkiye wants to make easier for international tourists."
       },
       {
         "type": "h2",
-        "text": "How We Connect Visitors With Turkish Weddings"
+        "text": "How Does Itinerary of Turkiye Connect Tourists With Turkish Weddings?"
       },
       {
         "type": "p",
-        "text": "Itinerary of Türkiye pioneered a concept that did not previously exist in Türkiye: connecting international visitors with Turkish couples who are preparing to marry and who would welcome foreign guests at their celebration."
+        "text": "Itinerary of Turkiye has pioneered a unique concept in Türkiye by connecting international tourists with Turkish couples who are preparing to get married and are interested in welcoming foreign guests to their wedding."
       },
       {
         "type": "p",
-        "text": "Couples approaching their wedding day can contact us to find out whether international visitors would like to join them. At the same time, travellers planning a trip to Türkiye can tell us they would like to experience an authentic Turkish wedding during their stay."
+        "text": "Turkish couples who are getting ready for their big day can contact Itinerary of Turkiye to find out whether international tourists are interested in joining their celebration."
       },
       {
         "type": "p",
-        "text": "We bring the two sides together — handling the introductions, the etiquette and the practical arrangements so that both the couple and the visitor feel entirely comfortable."
+        "text": "At the same time, tourists visiting Türkiye can contact us if they would like to experience an authentic Turkish wedding ceremony and celebration during their trip."
+      },
+      {
+        "type": "p",
+        "text": "We help bring these two sides together, making it easier for tourists to discover this unique cultural experience."
       },
       {
         "type": "h2",
-        "text": "Why Would a Turkish Couple Invite Foreign Guests?"
+        "text": "Why Would a Turkish Couple Invite Foreign Tourists?"
       },
       {
         "type": "p",
-        "text": "For most couples, their wedding is among the most memorable days of their lives. Sharing that happiness with people from other countries makes the occasion more special still, not less."
+        "text": "For many couples, their wedding is one of the most memorable days of their lives. Sharing that happiness with people from different countries can make the celebration even more special."
       },
       {
         "type": "p",
-        "text": "Picture a Turkish bride and groom celebrating while guests from South Korea, the UK, Germany or the United States join them. What results is a genuine cultural exchange: the couple share their traditions and their joy with guests from abroad, while visitors experience Turkish wedding culture first-hand — meeting local families, tasting the food, and dancing alongside the bride, groom and their friends."
+        "text": "Imagine a Turkish bride and groom celebrating their wedding while guests from South Korea, the UK, Germany, the USA, or other parts of the world join them on their special day."
       },
       {
         "type": "p",
-        "text": "It is not simply a wedding. It is a connection between cultures that neither side forgets."
+        "text": "It creates an unforgettable cultural exchange."
+      },
+      {
+        "type": "p",
+        "text": "The couple gets to share their traditions and happiness with international guests, while tourists get the chance to experience Turkish wedding culture, meet local people, taste traditional food, and dance alongside the bride, groom, family, and friends."
+      },
+      {
+        "type": "p",
+        "text": "It is not just a wedding experience—it is a chance to create genuine connections between cultures."
       },
       {
         "type": "h2",
-        "text": "More Than Another Tourist Activity"
+        "text": "More Than Just Another Tourist Activity"
       },
       {
         "type": "p",
-        "text": "Türkiye offers no shortage of attractions — historical landmarks, beautiful coastline, remarkable food, cities that reward wandering. But the most memorable travel experiences often happen away from the established routes."
+        "text": "Türkiye has countless attractions, from historical landmarks and beautiful beaches to delicious food and vibrant cities. But sometimes, the most memorable travel experiences happen away from the usual tourist routes."
       },
       {
         "type": "p",
-        "text": "A Turkish wedding offers a glimpse into everyday family life and tradition that a typical holiday simply does not reach. You hear traditional music as it is actually played, watch local customs performed for their own sake rather than for an audience, join the dancing, and celebrate alongside Turkish families."
+        "text": "Attending a Turkish wedding can give visitors a glimpse into everyday Turkish culture and family traditions that they may never experience during a typical holiday."
+      },
+      {
+        "type": "p",
+        "text": "You can enjoy traditional Turkish music, watch local wedding customs, join the dancing, take memorable photographs, and celebrate together with Turkish families."
+      },
+      {
+        "type": "p",
+        "text": "For tourists looking for unique things to do in Turkey, this can be an experience unlike any ordinary sightseeing tour."
       },
       {
         "type": "h2",
-        "text": "What Guests Most Often Ask"
+        "text": "Be Part of Someone’s Special Day"
       },
       {
-        "type": "ul",
-        "items": [
-          "Is it a real wedding? Yes — a real couple, their family and friends, on their actual wedding day. Nothing is staged.",
-          "Am I intruding? No. Every couple we work with has told us they would welcome international guests; the invitation comes from them.",
-          "What should I wear? Smart and modest, as you would for a formal occasion at home. We brief you beforehand.",
-          "Do I need Turkish? Not at all. English is common among younger guests, and the dancing and food do most of the communicating.",
-          "When do weddings happen? Mostly weekends through the warmer months — contact us well ahead of your travel dates."
-        ]
+        "type": "p",
+        "text": "At Itinerary of Turkiye, our goal is to help international visitors experience Türkiye in a more meaningful and personal way."
+      },
+      {
+        "type": "p",
+        "text": "We are proud to be the first firm to introduce and develop this unique Turkish wedding experience for tourists, creating an opportunity for visitors and Turkish couples to share an unforgettable celebration."
+      },
+      {
+        "type": "p",
+        "text": "So, if you are planning a trip to Türkiye and want to experience something truly different, why only visit Turkey when you can celebrate with the people of Turkey?"
+      },
+      {
+        "type": "p",
+        "text": "Whether you are interested in Turkish culture, Turkish traditions, local experiences, or unique things to do in Türkiye, a Turkish wedding could become one of the most unforgettable memories of your trip."
       },
       {
         "type": "h2",
-        "text": "Be Part of Someone's Special Day"
+        "text": "Want to join a Turkish wedding and dance alongside the Turkish bride and groom?"
       },
       {
         "type": "p",
-        "text": "Our aim at Itinerary of Türkiye is to help international visitors experience the country in a more personal and meaningful way. We are proud to have been the first to introduce and develop this experience — creating an opportunity for visitors and Turkish couples to share a celebration neither will forget."
-      },
-      {
-        "type": "p",
-        "text": "So if you are planning a trip to Türkiye and want something genuinely different: why only visit the country, when you could celebrate with its people?"
-      },
-      {
-        "type": "p",
-        "text": "Want to join a Turkish wedding and dance alongside the bride and groom? Get in touch with Itinerary of Türkiye and let us connect you with this experience."
+        "text": "Contact Itinerary of Turkiye and let us help connect you with this unique cultural experience."
       }
     ]
   },
