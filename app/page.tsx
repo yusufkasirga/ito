@@ -145,7 +145,7 @@ export default function Home() {
       badge: 'Verified Partner Clinics',
       desc: 'World-leading FUE & DHI techniques. Natural, permanent results.',
       items: ['Hair Transplant', 'Beard & Mustache', 'Eyebrow Restoration'],
-      image: '/images/pexels-2076930-700x900.jpg',
+      image: '/images/hair-restoration-1400x725.jpg',
     },
     {
       title: 'Dental Care',
