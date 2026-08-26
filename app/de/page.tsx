@@ -2,12 +2,17 @@
 
 import { useMemo, useState, useEffect, useRef } from 'react';
 import { whatsAppUrl } from '@/lib/config';
-import Icon from './components/Icon';
-import LeadForm from './components/LeadForm';
-import SiteHeader from './components/SiteHeader';
+import Icon from '../components/Icon';
 import { track } from '@vercel/analytics';
 
 export default function Home() {
+  // Almanca sürüm — <html lang> istemci tarafında ayarlanır
+
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  useEffect(() => { document.documentElement.lang = 'de'; return () => { document.documentElement.lang = 'en'; }; }, []);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [selectedPath, setSelectedPath] = useState('');
   const [activeSlide, setActiveSlide] = useState(0);
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
   const [motionPaused, setMotionPaused] = useState(false);
@@ -53,6 +58,10 @@ export default function Home() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+  const [formStep, setFormStep] = useState(1);
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [formData, setFormData] = useState({ interest: '', country: '', timeline: '', contact: '', name: '', email: '' });
+  const [formErrors, setFormErrors] = useState<Record<string, string>>({});
   const [expandedPillar, setExpandedPillar] = useState<string | null>(null);
   const [expandedTourism, setExpandedTourism] = useState<string | null>(null);
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
@@ -74,9 +83,9 @@ export default function Home() {
   }, [motionPaused, heroSlides.length]);
 
   const heroTrustQuotes = [
-    { name: 'Mark T.', flag: '🇬🇧', text: 'You made my whole journey incredibly smooth — from my trip to my business meetings.' },
-    { name: 'Alan G.', flag: '🇺🇸', text: 'It would have saved me from many mistakes I experienced in the past. Outstanding service.' },
-    { name: 'Pawan K.', flag: '🇮🇳', text: 'Their local knowledge and reliable support gave me the confidence to make informed decisions.' },
+    { name: 'Mark T.', flag: '🇬🇧', text: 'Sie haben meine gesamte Reise unglaublich reibungslos gemacht — von der Reise bis zu meinen Geschäftsterminen.' },
+    { name: 'Alan G.', flag: '🇺🇸', text: 'Es hätte mir viele Fehler aus der Vergangenheit erspart. Herausragender Service.' },
+    { name: 'Pawan K.', flag: '🇮🇳', text: 'Ihr lokales Wissen und ihre verlässliche Unterstützung gaben mir Sicherheit für fundierte Entscheidungen.' },
   ];
 
   useEffect(() => {
@@ -97,131 +106,171 @@ export default function Home() {
 
   const advisoryPillars = useMemo(() => [
     {
-      title: 'Tourism',
-      subtitle: 'Culture, travel, gastronomy',
-      short: 'Türkiye is a country of endless discovery. Whether you need a private guide, curated itineraries, accommodation recommendations, or any other travel assistance — we handle it all.',
-      full: 'Simply reach out to us by phone, WhatsApp, or email and we will take care of the rest. From private guided tours to fully curated multi-city itineraries, luxury accommodation and local experience design — Itinerary of Türkiye handles every detail so you can focus entirely on the journey.',
+      title: 'Tourismus',
+      subtitle: 'Kultur, Reisen, Gastronomie',
+      short: 'Die Türkei ist ein Land unendlicher Entdeckungen. Ob privater Guide, kuratierte Reiserouten, Hotelempfehlungen oder jede andere Reiseunterstützung — wir kümmern uns um alles.',
+      full: 'Schreiben Sie uns einfach per Telefon, WhatsApp oder E-Mail — den Rest übernehmen wir. Von privaten Führungen über vollständig kuratierte Mehrstädte-Reisen bis zu Luxusunterkünften und maßgeschneiderten lokalen Erlebnissen: Wir gestalten Ihre Türkei-Reise so persönlich wie möglich.',
       href: '#tourism'
     },
     {
-      title: 'Medical Tourism',
-      subtitle: 'Care, access, recovery',
-      short: 'Finding the right doctor or clinic in a foreign country can feel daunting. We connect you with experienced, accredited specialists at clinics that match your budget.',
-      full: 'We take that burden off your shoulders — connecting you with experienced, accredited specialists at clinics that match your budget, so you can focus entirely on your health and recovery. From hair transplants and dental care to rhinoplasty and aesthetic surgery — we find the right clinic, the right surgeon, and the right price for you.',
+      title: 'Medizintourismus',
+      subtitle: 'Versorgung, Zugang, Genesung',
+      short: 'Den richtigen Arzt oder die richtige Klinik im Ausland zu finden, kann überfordern. Wir verbinden Sie mit erfahrenen, akkreditierten Spezialisten in Kliniken, die zu Ihrem Budget passen.',
+      full: 'Wir nehmen Ihnen diese Last ab — und verbinden Sie mit erfahrenen, akkreditierten Spezialisten in Kliniken, die zu Ihrem Budget passen, damit Sie sich ganz auf Ihre Gesundheit und Genesung konzentrieren können. Von Haartransplantation über Zahnbehandlung bis zur ästhetischen Chirurgie begleiten wir Sie bei jedem Schritt.',
       href: '#health'
     },
   ], []);
 
   const tourismVisuals = [
     {
-      title: 'History & Heritage',
-      short: 'Türkiye is not just a destination — it is a living museum. From the ruins of Ephesus to the grandeur of the Hagia Sophia, every corner tells a story.',
-      full: 'From the ancient ruins of Ephesus to the Byzantine grandeur of the Hagia Sophia, from the Ottoman splendour of Topkapı Palace to the fairy-tale landscapes of Cappadocia carved by civilisations thousands of years ago, every corner of this land tells a story.\n\nWalking through Türkiye means walking through time — where East meets West, and where empires once rose and left their mark on every stone, street, and skyline.\n\nLet us take you there.',
+      title: 'Geschichte & Erbe',
+      short: 'Die Türkei ist nicht nur ein Reiseziel — sie ist ein lebendiges Museum. Von den Ruinen von Ephesos bis zur Pracht der Hagia Sophia erzählt jede Ecke eine Geschichte.',
+      full: 'Von den antiken Ruinen von Ephesos über die byzantinische Pracht der Hagia Sophia und den osmanischen Glanz des Topkapı-Palasts bis zu den märchenhaften Landschaften Kappadokiens: Jeder Winkel dieses Landes erzählt eine Geschichte.\n\nDurch die Türkei zu reisen heißt, durch die Zeit zu gehen — dort, wo Ost auf West trifft und Weltreiche ihre Spuren hinterlassen haben.\n\nWir bringen Sie hin.',
       image: '/images/pexels-3889742-800x1000.jpg'
     },
     {
-      title: 'Nature & Outdoors',
-      short: 'Hot air balloons drift over the valleys of Cappadocia. Turquoise coastlines stretch along the Aegean and Mediterranean — all waiting to be explored.',
-      full: "Türkiye's natural landscape is as dramatic as it is diverse. Hot air balloons drift over the otherworldly valleys of Cappadocia at sunrise. Turquoise coastlines stretch for thousands of kilometres along the Aegean and Mediterranean.\n\nWhether you are hiking the legendary Lycian Way, sailing a traditional gulet across hidden coves, or simply standing at the edge of Pamukkale's cotton-white terraces — nature in Türkiye has a way of leaving you speechless.",
+      title: 'Natur & Outdoor',
+      short: 'Heißluftballons schweben über den Tälern Kappadokiens. Türkisfarbene Küsten ziehen sich entlang der Ägäis und des Mittelmeers — alles wartet darauf, entdeckt zu werden.',
+      full: 'Die Naturlandschaft der Türkei ist so dramatisch wie vielfältig. Bei Sonnenaufgang schweben Heißluftballons über den unwirklichen Tälern Kappadokiens, und türkisfarbene Küsten erstrecken sich über Tausende Kilometer an Ägäis und Mittelmeer.\n\nOb Sie den legendären Lykischen Weg wandern, mit einer traditionellen Gulet versteckte Buchten ansteuern oder an den weißen Terrassen von Pamukkale stehen — die Natur der Türkei macht sprachlos.',
       image: '/images/pexels-2419278-800x1200.jpg'
     },
     {
-      title: 'Food & Drinks',
-      short: 'Turkish cuisine is one of the great culinary traditions of the world. From sizzling kebabs to delicate baklava — every dish carries centuries of tradition.',
-      full: "Turkish cuisine is one of the great culinary traditions of the world — and eating here is never just a meal, it is an experience. From the sizzle of freshly grilled kebabs to the delicate layers of a perfectly made baklava, every dish carries centuries of tradition.\n\nStart your morning with a legendary Turkish breakfast — an abundant spread of cheeses, olives, eggs, honey, and fresh bread. Sip on a tulip-shaped glass of çay as the day unfolds, or let the rich aroma of Turkish coffee linger long after the cup is empty.\n\nHere, every meal tells a story. Come hungry.",
+      title: 'Essen & Trinken',
+      short: 'Die türkische Küche zählt zu den großen kulinarischen Traditionen der Welt. Von brutzelnden Kebabs bis zu feinem Baklava — jedes Gericht trägt Jahrhunderte an Tradition in sich.',
+      full: 'Die türkische Küche zählt zu den großen kulinarischen Traditionen der Welt — und Essen ist hier nie nur eine Mahlzeit, sondern ein Erlebnis. Vom Brutzeln frisch gegrillter Kebabs bis zu den feinen Schichten eines Baklava trägt jedes Gericht Jahrhunderte an Tradition in sich.\n\nKommen Sie hungrig. Gehen Sie inspiriert.',
       image: '/images/pexels-3338497-800x1200.jpg'
     },
     {
-      title: 'Arts & Culture',
-      short: 'Türkiye is a canvas painted by countless civilisations. Where ancient mosaics sit beside contemporary galleries and craftsmanship fills every street.',
-      full: "Türkiye is a canvas painted by countless civilisations — Greek, Roman, Byzantine, Seljuk, and Ottoman — each leaving behind a cultural legacy that still breathes today.\n\nLose yourself in the rhythm of a traditional whirling dervish ceremony. Wander through the Grand Bazaar and witness artisans practising crafts passed down through generations — hand-painted ceramics, intricate carpet weaving, and delicate calligraphy.\n\nCome curious. Leave inspired.",
+      title: 'Kunst & Kultur',
+      short: 'Die Türkei ist eine Leinwand unzähliger Zivilisationen. Antike Mosaike stehen neben zeitgenössischen Galerien, und Handwerkskunst füllt jede Straße.',
+      full: 'Die Türkei ist eine Leinwand unzähliger Zivilisationen — Griechen, Römer, Byzantiner, Seldschuken und Osmanen haben ein kulturelles Erbe hinterlassen, das bis heute atmet.\n\nVerlieren Sie sich im Rhythmus einer Derwisch-Zeremonie. Schlendern Sie durch den Großen Basar und erleben Sie Handwerkskunst, die über Generationen weitergegeben wurde — handbemalte Keramik, kunstvolle Teppiche, feine Kalligrafie.\n\nKommen Sie neugierig. Gehen Sie inspiriert.',
       image: '/images/pexels-1549326-800x1200.jpg'
     },
   ];
 
   const healthCategories = [
     {
-      title: 'Hair Restoration',
-      badge: 'Verified Partner Clinics',
-      desc: 'World-leading FUE & DHI techniques. Natural, permanent results.',
-      items: ['Hair Transplant', 'Beard & Mustache', 'Eyebrow Restoration'],
-      image: '/images/hair-restoration-1400x725.jpg',
+      title: 'Haartransplantation',
+      badge: 'Geprüfte Partnerkliniken',
+      desc: 'Weltweit führende FUE- & DHI-Techniken. Natürliche, dauerhafte Ergebnisse.',
+      items: ['Haartransplantation', 'Bart & Schnurrbart', 'Augenbrauen'],
+      image: '/images/pexels-2076930-700x900.jpg',
     },
     {
-      title: 'Dental Care',
-      badge: 'Verified Partner Clinics',
-      desc: 'Veneers, implants and Hollywood smile makeovers — flawless results.',
-      items: ['Hollywood Smile', 'Veneers', 'Dental Implants'],
+      title: 'Zahnbehandlung',
+      badge: 'Geprüfte Partnerkliniken',
+      desc: 'Veneers, Implantate und Hollywood-Smile-Makeover — präzise Ergebnisse.',
+      items: ['Hollywood Smile', 'Veneers', 'Zahnimplantate'],
       image: '/images/pexels-3779709-700x900.jpg',
     },
     {
-      title: 'Aesthetic Surgery',
-      badge: 'Verified Specialists',
-      desc: 'Precision results by internationally recognised plastic surgeons.',
-      items: ['Rhinoplasty', 'Facelift', 'Liposuction', 'Breast Augmentation'],
+      title: 'Ästhetische Chirurgie',
+      badge: 'Geprüfte Spezialisten',
+      desc: 'Präzise Ergebnisse durch international anerkannte plastische Chirurgen.',
+      items: ['Nasenkorrektur', 'Facelift', 'Fettabsaugung', 'Brustvergrößerung'],
       image: '/images/pexels-3764013-700x900.jpg',
     },
   ];
 
   const standardCriteria = [
-    { title: 'Selection', text: 'We do not list everyone. Providers are shortlisted by quality, reliability, communication and client fit.' },
-    { title: 'Verification', text: 'Authorization signals, operational readiness, response quality and transparency are reviewed before recommendation.' },
-    { title: 'Clarity', text: 'We explain what is known, what must be verified and where our advisory responsibility begins and ends.' },
-    { title: 'Privacy', text: 'Health files, investment context and family travel needs are handled through controlled intake and approved channels.' },
-    { title: 'Care', text: 'The client is supported through planning, appointment flow, travel, translation and aftercare coordination.' },
-    { title: 'No Guarantees', text: 'No medical result, investment return, citizenship outcome or provider acceptance is promised or implied.' },
+    { title: 'Auswahl', text: 'Wir listen nicht jeden. Anbieter werden nach Qualität, Zuverlässigkeit, Kommunikation und Passung ausgewählt.' },
+    { title: 'Verifizierung', text: 'Zulassungen, operative Bereitschaft, Antwortqualität und Transparenz werden vor jeder Empfehlung geprüft.' },
+    { title: 'Klarheit', text: 'Wir erklären, was bekannt ist, was geprüft werden muss und wo unsere Beratungsverantwortung beginnt und endet.' },
+    { title: 'Datenschutz', text: 'Gesundheitsunterlagen, Investitionskontext und familiäre Reisebedürfnisse werden nur über kontrollierte, freigegebene Kanäle behandelt.' },
+    { title: 'Begleitung', text: 'Wir begleiten Sie durch Planung, Terminablauf, Reise, Übersetzung und Nachsorge-Koordination.' },
+    { title: 'Keine Garantien', text: 'Kein medizinisches Ergebnis, keine Rendite, kein Einbürgerungsausgang und keine Anbieterzusage wird versprochen oder impliziert.' },
   ];
 
   const testimonials = [
     {
       name: 'Mark T.',
-      location: 'Client Story',
+      location: 'Kundenstimme (übersetzt)',
       flag: '🇬🇧',
-      category: 'Tourism · Hair Transplant · Business',
-      text: 'A big thank you to the Itinerary of Turkiye team! You made my whole journey incredibly smooth — from my trip and hair transplant to my business meetings. Everything was well organised, and I honestly did not expect the experience to be this seamless. Thank you for your professionalism, care, and support throughout the entire process.',
+      category: 'Tourismus · Haartransplantation · Business',
+      text: 'Ein großes Dankeschön an das Team von Itinerary of Türkiye! Sie haben meine gesamte Reise unglaublich reibungslos gemacht — von der Reise über die Haartransplantation bis zu meinen Geschäftsterminen. Alles war bestens organisiert; eine so nahtlose Erfahrung hatte ich ehrlich nicht erwartet. Danke für Professionalität, Fürsorge und Unterstützung während des gesamten Prozesses.',
       rating: 5,
     },
     {
       name: 'Luke W.',
-      location: 'Client Story',
+      location: 'Kundenstimme (übersetzt)',
       flag: '🇦🇺',
-      category: 'Business Advisory',
-      text: 'Dear Itinerary of Turkiye — thank you for helping make my business trip such a success, resulting in several positive deals. You all deserve much greater recognition and success.',
+      category: 'Business-Beratung',
+      text: 'Liebes Team von Itinerary of Türkiye — danke, dass ihr meine Geschäftsreise zu einem solchen Erfolg gemacht habt, mit mehreren positiven Abschlüssen. Ihr verdient weit mehr Anerkennung und Erfolg.',
       rating: 5,
     },
     {
       name: 'Alan G.',
-      location: 'Client Story',
+      location: 'Kundenstimme (übersetzt)',
       flag: '🇺🇸',
-      category: 'Real Estate — earlier engagement',
-      text: 'I only wish I had known about Itinerary of Turkiye earlier. It would have saved me from many complications, mistakes, and even scams I unfortunately experienced in the past. Thanks to their guidance and local expertise, I was able to secure a great real estate deal that would not have been possible without their assistance. I will gladly recommend their services to others.',
+      category: 'Immobilien',
+      text: 'Ich wünschte nur, ich hätte Itinerary of Türkiye früher gekannt. Es hätte mir viele Komplikationen, Fehler und sogar Betrugsfälle erspart, die ich in der Vergangenheit leider erlebt habe. Dank ihrer Beratung und lokalen Expertise konnte ich einen hervorragenden Immobilienabschluss erzielen, der ohne ihre Unterstützung nicht möglich gewesen wäre. Ich empfehle sie gerne weiter.',
       rating: 5,
     },
     {
       name: 'Pawan K.',
-      location: 'Client Story',
+      location: 'Kundenstimme (übersetzt)',
       flag: '🇮🇳',
-      category: 'Investment Advisory — earlier engagement',
-      text: 'Investing in Türkiye can be challenging without the guidance of trustworthy local experts. Itinerary of Türkiye helped me tremendously throughout the process. Their local knowledge, professionalism, and reliable support gave me the confidence to make informed decisions and avoid many potential pitfalls.',
+      category: 'Investment-Beratung',
+      text: 'In der Türkei zu investieren kann ohne vertrauenswürdige lokale Experten herausfordernd sein. Itinerary of Türkiye hat mir während des gesamten Prozesses enorm geholfen. Ihr lokales Wissen, ihre Professionalität und ihre verlässliche Unterstützung gaben mir die Sicherheit, fundierte Entscheidungen zu treffen und viele Fallstricke zu vermeiden.',
       rating: 5,
     },
   ];
 
   const howItWorks = [
-    { step: '01', icon: 'message', title: 'Tell us what you need', desc: 'Send us a message via WhatsApp, email, or the form below. A real person responds within hours — no bots, no automated replies.' },
-    { step: '02', icon: 'plan', title: 'We build your plan', desc: 'We review your needs and prepare a written, personal plan — including what we advise against, and why. Our planning fee is flat, transparent, and credited toward your trip if you travel with us.' },
-    { step: '03', icon: 'plane', title: 'Arrive & enjoy', desc: 'We handle transfers, appointments, translation, and support throughout your entire stay. You focus on Türkiye. We handle everything else.' },
+    { step: '01', icon: 'message', title: 'Sagen Sie uns, was Sie brauchen', desc: 'Schreiben Sie uns per WhatsApp, E-Mail oder über das Formular unten. Ein echter Mensch antwortet innerhalb weniger Stunden — keine Bots, keine automatischen Antworten.' },
+    { step: '02', icon: 'plan', title: 'Wir erstellen Ihren Plan', desc: 'Wir prüfen Ihre Anforderungen und erstellen einen schriftlichen, persönlichen Plan — einschließlich dessen, wovon wir abraten, und warum. Unser Planungshonorar ist pauschal und transparent und wird auf Ihre Reise angerechnet, wenn Sie mit uns reisen.' },
+    { step: '03', icon: 'plane', title: 'Ankommen & genießen', desc: 'Wir organisieren Transfers, Termine, Übersetzung und Betreuung während Ihres gesamten Aufenthalts. Sie konzentrieren sich auf die Türkei — wir kümmern uns um den Rest.' },
   ];
 
   const faqItems = [
-    { q: 'How do you charge — and why is the consultation paid?', a: 'We charge a flat planning fee, paid by you. We do not take commissions from hotels, clinics or guides — which means no provider can pay us to recommend them. The fee includes a written personal plan within 72 hours, is credited toward your trip if you travel with us, and is refunded if the consultation brings you no value.' },
-    { q: 'Can foreigners buy property in Türkiye?', a: 'Yes. Citizens of most countries can purchase property in Türkiye. The process is straightforward with the right legal support — we connect you with experienced property lawyers and licensed agents who specialise in foreign buyer transactions.' },
-    { q: 'How long does a hair transplant take?', a: 'Most FUE and DHI hair transplant procedures take 6–8 hours and are performed in a single day. Recovery is minimal — most clients return home within 2–3 days. Full results are visible within 12 months.' },
-    { q: 'Will I be supported throughout my stay?', a: 'Absolutely. We coordinate airport transfers, accommodation, clinic appointments, translation, and aftercare. You will have a dedicated contact available throughout your entire visit.' },
-    { q: 'How quickly will I get a response?', a: 'A real person replies within hours — no bots or automated answers. Send your request via WhatsApp or the form below, and we will come back to you with clarifying questions or a recommended path.' },
-    { q: 'Can I combine medical treatment with a holiday in Türkiye?', a: 'Yes — this is one of the most popular ways to plan a trip. We build itineraries that fit sightseeing, rest days and companion activities around your treatment and recovery schedule, so the medical plan always comes first.' },
-    { q: 'Do you work in languages other than English?', a: 'Yes. Our team works with multilingual experts and translators, so consultations, clinic visits and paperwork can be handled in the language you are most comfortable with.' },
+    { q: 'Wie berechnen Sie Ihr Honorar — und warum ist die Beratung kostenpflichtig?', a: 'Wir berechnen ein pauschales Planungshonorar, das Sie zahlen. Wir nehmen keine Provisionen von Hotels, Kliniken oder Guides an — kein Anbieter kann uns dafür bezahlen, empfohlen zu werden. Im Honorar enthalten: ein schriftlicher persönlicher Plan innerhalb von 72 Stunden. Reisen Sie mit uns, wird es auf Ihre Reise angerechnet; bringt Ihnen das Gespräch keinen Mehrwert, erstatten wir es.' },
+    { q: 'Können Ausländer in der Türkei Immobilien kaufen?', a: 'Ja. Staatsbürger der meisten Länder können in der Türkei Immobilien erwerben. Mit der richtigen rechtlichen Begleitung ist der Prozess unkompliziert — wir verbinden Sie mit erfahrenen Immobilienanwälten und lizenzierten Maklern, die auf internationale Käufer spezialisiert sind.' },
+    { q: 'Wie lange dauert eine Haartransplantation?', a: 'Die meisten FUE- und DHI-Haartransplantationen dauern 6–8 Stunden und werden an einem einzigen Tag durchgeführt. Die Erholungszeit ist kurz — die meisten Klienten fliegen nach 2–3 Tagen zurück. Das endgültige Ergebnis zeigt sich innerhalb von 12 Monaten.' },
+    { q: 'Werde ich während meines Aufenthalts betreut?', a: 'Selbstverständlich. Wir koordinieren Flughafentransfers, Unterkunft, Kliniktermine, Übersetzung und Nachsorge. Während Ihres gesamten Aufenthalts steht Ihnen ein fester Ansprechpartner zur Verfügung.' },
+    { q: 'Wie schnell erhalte ich eine Antwort?', a: 'Ein echter Mensch antwortet innerhalb weniger Stunden — keine Bots, keine automatischen Antworten. Senden Sie Ihre Anfrage per WhatsApp oder über das Formular; wir melden uns mit Rückfragen oder einer konkreten Empfehlung.' },
+    { q: 'Kann ich Behandlung und Urlaub in der Türkei kombinieren?', a: 'Ja — das ist eine der beliebtesten Arten, die Reise zu planen. Wir bauen Sightseeing, Ruhetage und Aktivitäten für Begleitpersonen um Ihren Behandlungs- und Genesungsplan herum — die medizinische Planung hat immer Vorrang.' },
+    { q: 'Sprechen Sie auch Deutsch?', a: 'Ja. Unser Team arbeitet mit mehrsprachigen Experten und Übersetzern, sodass Beratungen, Klinikbesuche und Unterlagen in der Sprache abgewickelt werden können, in der Sie sich am wohlsten fühlen — auch auf Deutsch.' },
   ];
+
+  const validateStep = (step: number) => {
+    const errors: Record<string, string> = {};
+    if (step === 1 && !formData.interest) errors.interest = 'Please select';
+    if (step === 2 && !formData.timeline) errors.timeline = 'Please select';
+    if (step === 3) {
+      if (!formData.name) errors.name = 'Pflichtfeld';
+      if (!formData.country) errors.country = 'Pflichtfeld';
+      if (!formData.contact) errors.contact = 'Pflichtfeld';
+    }
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  // Structured prefilled message built entirely in the browser.
+  // No form data is stored on any server — WhatsApp is the only channel.
+  const waLeadMessage = [
+    'Private Anfrage — Itinerary of Türkiye (DE)',
+    `Name: ${formData.name || '-'}`,
+    `Country: ${formData.country || '-'}`,
+    `Area of interest: ${formData.interest || '-'}`,
+    `Timeline: ${formData.timeline || '-'}`,
+    `Preferred contact: ${formData.contact || '-'}`,
+    formData.email ? `Email: ${formData.email}` : '',
+    '',
+    'Hinweis: Mir ist bewusst, dass ich in dieser ersten Nachricht keine Arztberichte, Fotos, Passdokumente oder andere sensible Dateien teilen sollte.',
+  ].filter(Boolean).join('\n');
+
+  const handleFormSubmit = () => {
+    if (validateStep(formStep)) {
+      if (formStep < 3) {
+        setFormStep(formStep + 1);
+      } else {
+        setFormSubmitted(true);
+        // Open WhatsApp with the structured message (client-side only)
+        track('whatsapp_click', { source: 'form_submit', locale: 'de', path: window.location.pathname });
+        window.open(whatsAppUrl(waLeadMessage), '_blank', 'noopener,noreferrer');
+      }
+    }
+  };
 
   const dm = darkMode;
 
@@ -675,9 +724,55 @@ export default function Home() {
       </a>
 
       {/* CONCIERGE BADGE */}
-      <div className="concierge">✓ Replies within hours</div>
+      <div className="concierge">✓ Antwort in wenigen Stunden</div>
 
-      <SiteHeader overlay />
+      {/* MOBILE MENU */}
+      <div className={`mobile-menu ${mobileMenuOpen ? 'open' : 'closed'}`}>
+        <button className="mobile-close" onClick={() => setMobileMenuOpen(false)}><Icon name="close" size={22} /></button>
+        <a href="/de/about" onClick={() => setMobileMenuOpen(false)}>Über uns</a>
+        <div style={{textAlign:'center'}}>
+          <a href="/de/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
+            Leistungen {mobileServicesOpen ? '▲' : '▼'}
+          </a>
+          {mobileServicesOpen && (
+            <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
+              <a href="#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Tourismus</a>
+              <a href="#health" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Medizintourismus</a>
+            </div>
+          )}
+        </div>
+        <a href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</a>
+        <a href="/de/testimonials" onClick={() => setMobileMenuOpen(false)}>Referenzen</a>
+        <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Kontakt</a>
+        <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{color:'#25D366'}}>WhatsApp</a>
+      </div>
+
+      {/* NAVBAR */}
+      <header className="nav">
+        <div className="nav-inner">
+          <a className="brand" href="/de"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <nav className="nav-links">
+            <a href="/de/about">Über uns</a>
+            <div className="nav-dropdown" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)} onFocus={() => setServicesOpen(true)} onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setServicesOpen(false); }}>
+              <a href="/de/services">Leistungen</a>
+              {servicesOpen && (
+                <div className="nav-dropdown-menu">
+                  <a href="#tourism">Tourismus</a>
+                  <a href="#health">Medizintourismus</a>
+                </div>
+              )}
+            </div>
+            <a href="/de/testimonials">Referenzen</a>
+            <a href="#contact">Kontakt</a>
+            <button className="dm-toggle" onClick={() => setDarkMode(!dm)} title="Toggle dark mode"><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
+                      <a href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
+          </nav>
+          <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
+            <button className="dm-toggle" onClick={() => setDarkMode(!dm)} style={{display:'none'}}><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
+            <button className="nav-toggle" onClick={() => setMobileMenuOpen(true)}><Icon name="menu" size={22} /></button>
+          </div>
+        </div>
+      </header>
 
       {/* HERO */}
       <section className="hero" id="top">
@@ -685,17 +780,17 @@ export default function Home() {
         <div className="hero-grain" />
         <div className="hero-split">
           <div>
-            <p className="hero-eyebrow">Live & responding right now</p>
-            <h1 className="serif">Türkiye Awaits.<em>We'll Take You There.</em></h1>
-            <p className="hero-copy">Your private Turkey travel advisory. We plan your journey, verify every provider, and stay by your side while you are here — paid by you, and only you, so every recommendation is made for one reason: it is right for you.</p>
+            <p className="hero-eyebrow">Live & direkt erreichbar</p>
+            <h1 className="serif">Die Türkei wartet.<em>Wir bringen Sie hin.</em></h1>
+            <p className="hero-copy">Ihre private Reiseberatung für die Türkei. Wir planen Ihre Reise, prüfen jeden Anbieter und bleiben an Ihrer Seite, solange Sie hier sind — bezahlt von Ihnen, und nur von Ihnen. Damit jede Empfehlung einen einzigen Grund hat: Sie ist die richtige für Sie.</p>
             <div className="hero-btns">
-              <a className="hero-pill hero-pill-primary" href="#tourism"><Icon name="landmark" size={17} /> Tourism</a>
-              <a className="hero-pill" href="#health"><Icon name="medical" size={17} /> Medical Tourism</a>
+              <a className="hero-pill hero-pill-primary" href="#tourism"><Icon name="landmark" size={17} /> Tourismus</a>
+              <a className="hero-pill" href="#health"><Icon name="medical" size={17} /> Medizintourismus</a>
             </div>
             <div className="hero-trust-strip">
               <div className="trust-strip-item">✓ Verified by ITO</div>
               <div className="trust-strip-divider" />
-              <div className="trust-strip-item"><span className="trust-live-dot" />Replies within hours — real people, no bots</div>
+              <div className="trust-strip-item"><span className="trust-live-dot" />Antwort in wenigen Stunden — echte Menschen, keine Bots</div>
               <div className="trust-strip-divider" />
               <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} "{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…"</div>
             </div>
@@ -719,16 +814,16 @@ export default function Home() {
                 </div>
               );
             })}
-            <div className="hero-photo-badge">Cappadocia · Istanbul · Aegean Coast</div>
+            <div className="hero-photo-badge">Kappadokien · Istanbul · Ägäisküste</div>
           </div>
         </div>
         <div className="hero-dots">
           {heroSlides.map((_, i) => (
-            <button key={i} aria-label={`Slide ${i + 1}`} aria-current={i === activeSlide} className="hero-dot-hit" onClick={() => setActiveSlide(i)}>
+            <button key={i} aria-label={`Bild ${i + 1}`} aria-current={i === activeSlide} className="hero-dot-hit" onClick={() => setActiveSlide(i)}>
               <span className={`hero-dot ${i === activeSlide ? 'on' : ''}`} />
             </button>
           ))}
-          <button type="button" className="hero-pause" aria-label={motionPaused ? 'Play slideshow' : 'Pause slideshow'} aria-pressed={motionPaused} onClick={() => setMotionPaused(v => !v)}>
+          <button type="button" className="hero-pause" aria-label={motionPaused ? 'Diashow abspielen' : 'Diashow pausieren'} aria-pressed={motionPaused} onClick={() => setMotionPaused(v => !v)}>
             {motionPaused ? '▶' : '❚❚'}
           </button>
         </div>
@@ -746,7 +841,7 @@ export default function Home() {
                 <p className="pillar-short">{item.short}</p>
                 {isOpen && <p className="pillar-full">{item.full}</p>}
                 <button className="btn btn-ghost read-btn-light" style={{marginTop:'16px',minHeight:'36px',padding:'0 16px',fontSize:'12px',alignSelf:'flex-start'}} onClick={() => setExpandedPillar(isOpen ? null : item.title)}>
-                  {isOpen ? '▲ Read less' : '▼ Read more'}
+                  {isOpen ? '▲ Weniger' : '▼ Mehr lesen'}
                 </button>
               </div>
             );
@@ -757,9 +852,9 @@ export default function Home() {
       {/* TOURISM */}
       <section className="section" id="tourism" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
         <div className="container">
-          <span className="eyebrow">Tourism Advisory</span>
-          <h2 className="section-title serif">Go Beyond the Tour. <span style={{color:'var(--gold)'}}>Explore Türkiye.</span></h2>
-          <p className="section-copy">Four dimensions of discovery — heritage, nature, food, and arts. Handpicked for travellers who value authentic, deeply personal experiences.</p>
+          <span className="eyebrow">Tourismus-Beratung</span>
+          <h2 className="section-title serif">Mehr als eine Tour. <span style={{color:'var(--gold)'}}>Entdecken Sie die Türkei.</span></h2>
+          <p className="section-copy">Vier Dimensionen des Entdeckens — Kultur, Natur, Kulinarik und Kunst. Handverlesen für Reisende, die authentische, ganz persönliche Erlebnisse schätzen.</p>
           <div className="tourism-grid">
               {tourismVisuals.map((t) => {
                 const isOpen = expandedTourism === t.title;
@@ -772,7 +867,7 @@ export default function Home() {
                         <h3>{t.title}</h3>
                         <p>{t.short}</p>
                         <button className="read-btn" onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
-                          {isOpen ? '▲ Read less' : '▼ Read more'}
+                          {isOpen ? '▲ Weniger' : '▼ Mehr lesen'}
                         </button>
                       </div>
                     </div>
@@ -780,7 +875,7 @@ export default function Home() {
                       <div className="t-overlay">
                         <h3>{t.title}</h3>
                         {t.full.split('\n\n').map((par, i) => <p key={i} style={{margin:'0 0 10px'}}>{par}</p>)}
-                        <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Close</button>
+                        <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Schließen</button>
                       </div>
                     )}
                   </div>
@@ -794,18 +889,18 @@ export default function Home() {
       <section className="section" id="about" style={{background: dm ? '#111827' : '#edf5f6'}}>
         <div className="container about-grid">
           <div>
-            <span className="eyebrow">Who We Are</span>
-            <h2 className="section-title serif">Your trusted guide to Türkiye.</h2>
-            <p className="section-copy">Itinerary of Türkiye was founded with a single purpose — to ensure that every visitor to this remarkable country finds exactly what they are looking for.</p>
+            <span className="eyebrow">Wer wir sind</span>
+            <h2 className="section-title serif">Ihr vertrauenswürdiger Begleiter in der Türkei.</h2>
+            <p className="section-copy">Itinerary of Türkiye wurde mit einem einzigen Ziel gegründet: dafür zu sorgen, dass jeder Besucher dieses bemerkenswerten Landes genau das findet, was er sucht.</p>
             <p style={{color: dm ? 'rgba(240,237,232,.65)' : '#647889', fontSize:'15px', lineHeight:'1.8', marginBottom:'28px'}}>
-              We understand how overwhelming it can be to navigate an unfamiliar country. That is why we positioned ourselves as a bridge — connecting you seamlessly to the destinations, services, and experiences that match your needs, without the uncertainty of going it alone.
+              Wir wissen, wie überwältigend es sein kann, sich in einem fremden Land zurechtzufinden. Deshalb verstehen wir uns als Brücke — und verbinden Sie nahtlos mit den Zielen, Leistungen und Erlebnissen, die zu Ihren Bedürfnissen passen, ohne die Unsicherheit des Alleingangs.
             </p>
-            <a className="btn btn-primary" href="/about">Learn More About Us</a>
+            <a className="btn btn-primary" href="/de/about">Mehr über uns</a>
             <div className="about-features">
-              <div className="about-feat"><h4><Icon name="landmark" size={15} style={{marginRight:6,verticalAlign:-2}} />Leisure & Tourism</h4><p>Curated holidays and travel experiences</p></div>
-              <div className="about-feat"><h4><Icon name="medical" size={15} style={{marginRight:6,verticalAlign:-2}} />Medical & Aesthetic</h4><p>Procedure guidance and coordination</p></div>
-              <div className="about-feat"><h4><Icon name="briefcase" size={15} style={{marginRight:6,verticalAlign:-2}} />Business Travel</h4><p>End-to-end corporate support</p></div>
-              <div className="about-feat"><h4><Icon name="globe" size={15} style={{marginRight:6,verticalAlign:-2}} />Multilingual Team</h4><p>Experts fluent in many languages</p></div>
+              <div className="about-feat"><h4><Icon name="landmark" size={15} style={{marginRight:6,verticalAlign:-2}} />Reisen & Tourismus</h4><p>Kuratierte Urlaube und Reiseerlebnisse</p></div>
+              <div className="about-feat"><h4><Icon name="medical" size={15} style={{marginRight:6,verticalAlign:-2}} />Medizin & Ästhetik</h4><p>Behandlungsberatung und Koordination</p></div>
+              <div className="about-feat"><h4><Icon name="briefcase" size={15} style={{marginRight:6,verticalAlign:-2}} />Geschäftsreisen</h4><p>Umfassende Unterstützung für Unternehmen</p></div>
+              <div className="about-feat"><h4><Icon name="globe" size={15} style={{marginRight:6,verticalAlign:-2}} />Mehrsprachiges Team</h4><p>Experten, die viele Sprachen sprechen</p></div>
             </div>
           </div>
           <div className="about-img">
@@ -819,8 +914,8 @@ export default function Home() {
         <div className="container std-grid">
           <aside className="std-card">
             <span className="eyebrow">Verified by ITO</span>
-            <h2 className="serif">How we select.</h2>
-            <p>All our partner clinics and providers carry the Verified by ITO standard — assessed for accreditation, patient outcomes, communication quality, and transparency before we recommend them.</p>
+            <h2 className="serif">Wie wir auswählen.</h2>
+            <p>Alle unsere Partnerkliniken und Anbieter tragen den Verified-by-ITO-Standard — geprüft auf Zulassung, Behandlungsqualität, Kommunikation und Transparenz, bevor wir sie empfehlen.</p>
           </aside>
           <div className="crit-grid">
             {standardCriteria.map((c) => (
@@ -838,13 +933,13 @@ export default function Home() {
         <div className="container">
           <div className="health-header-row">
             <div className="health-header-text">
-              <span className="eyebrow">Medical Tourism</span>
-              <h2 className="section-title serif" style={{color:'#fff'}}>The Right Doctor. <span style={{color:'var(--aqua)'}}>The Right Clinic.</span></h2>
-              <p className="section-copy" style={{color:'rgba(255,250,241,.65)', marginBottom: 0}}>We connect you with accredited specialists at clinics that match your budget — so you can focus entirely on your health.</p>
+              <span className="eyebrow">Medizintourismus</span>
+              <h2 className="section-title serif" style={{color:'#fff'}}>Der richtige Arzt. <span style={{color:'var(--aqua)'}}>Die richtige Klinik.</span></h2>
+              <p className="section-copy" style={{color:'rgba(255,250,241,.65)', marginBottom: 0}}>Wir verbinden Sie mit akkreditierten Spezialisten in Kliniken, die zu Ihrem Budget passen — damit Sie sich ganz auf Ihre Gesundheit konzentrieren können.</p>
             </div>
             <div className="health-stat-badge">
-              <span className="health-stat-num">Verified</span>
-              <span className="health-stat-label">Partner clinics screened for<br/>accreditation, outcomes & transparency</span>
+              <span className="health-stat-num">Geprüft</span>
+              <span className="health-stat-label">Partnerkliniken geprüft auf<br/>Zulassung, Qualität & Transparenz</span>
             </div>
           </div>
 
@@ -902,7 +997,7 @@ export default function Home() {
           </div>
 
           <div style={{marginTop:'36px', textAlign:'center'}}>
-            <a className="btn btn-primary" href="#contact">Book a Planning Consultation</a>
+            <a className="btn btn-primary" href="#contact">Planungsgespräch vereinbaren</a>
           </div>
         </div>
       </section>
@@ -910,9 +1005,9 @@ export default function Home() {
       {/* HOW IT WORKS */}
       <section className="section" style={{background: dm ? '#111827' : '#fff'}}>
         <div className="container">
-          <span className="eyebrow">Simple Process</span>
-          <h2 className="section-title serif">How it <span style={{color:'var(--gold)'}}>Works.</span></h2>
-          <p className="section-copy">Three simple steps. One dedicated team. Zero stress. You focus on Türkiye — we handle everything else.</p>
+          <span className="eyebrow">Einfacher Ablauf</span>
+          <h2 className="section-title serif">So <span style={{color:'var(--gold)'}}>funktioniert es.</span></h2>
+          <p className="section-copy">Drei einfache Schritte. Ein engagiertes Team. Null Stress. Sie konzentrieren sich auf die Türkei — wir kümmern uns um alles andere.</p>
           <div className="hiw-grid">
             {howItWorks.map((item) => (
               <div key={item.step} className="hiw-card">
@@ -923,20 +1018,15 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div style={{textAlign:'center', marginTop:'26px'}}>
-            <a href="/how-we-work" style={{color: dm ? 'var(--gold)' : 'var(--gold-ink)', fontWeight:800, fontSize:'14px', textDecoration:'none'}}>
-              See exactly what a planning consultation includes →
-            </a>
-          </div>
         </div>
       </section>
 
       {/* TESTIMONIALS */}
       <section className="section" style={{background: dm ? '#0a0f1a' : '#fdf6ec'}}>
         <div className="container">
-          <span className="eyebrow">Client Stories</span>
-          <h2 className="section-title serif">What Our <span style={{color:'var(--gold)'}}>Clients Say.</span></h2>
-          <p className="section-copy">Real people, real experiences. From Dubai to London, from Riyadh to New York — here is what they say about working with us.</p>
+          <span className="eyebrow">Kundenstimmen</span>
+          <h2 className="section-title serif">Was unsere <span style={{color:'var(--gold)'}}>Kunden sagen.</span></h2>
+          <p className="section-copy">Echte Menschen, echte Erfahrungen. Von Dubai bis London, von Riad bis New York — das sagen sie über die Zusammenarbeit mit uns.</p>
           <div className="testi-grid">
             {testimonials.map((t) => (
               <div key={t.name} className="testi-card" style={{background: dm ? 'rgba(255,255,255,.04)' : '#fff', borderColor: dm ? 'rgba(201,169,106,.15)' : 'rgba(201,169,106,.15)'}}>
@@ -959,8 +1049,8 @@ export default function Home() {
       {/* FAQ */}
       <section className="section faq-section">
         <div className="container" style={{textAlign:'center'}}>
-          <span className="eyebrow">Common Questions</span>
-          <h2 className="section-title serif" style={{margin:'16px auto 18px'}}>Frequently Asked <span style={{color:'var(--gold)'}}>Questions</span></h2>
+          <span className="eyebrow">Häufige Fragen</span>
+          <h2 className="section-title serif" style={{margin:'16px auto 18px'}}>Häufig gestellte <span style={{color:'var(--gold)'}}>Fragen</span></h2>
           <div className="faq-grid">
             {faqItems.map((item) => {
               const isOpen = expandedFaq === item.q;
@@ -983,15 +1073,98 @@ export default function Home() {
       <section className="section form-section" id="contact">
         <div className="container form-grid">
           <div>
-            <span className="eyebrow">Private Application</span>
-            <h2 className="section-title serif" style={{color:'#fff'}}>Start your journey.</h2>
-            <p className="section-copy" style={{color:'rgba(255,250,241,.68)'}}>Tell us what you need in Türkiye. We review, clarify fit, recommend the right path, and stay with you through the entire process.</p>
+            <span className="eyebrow">Private Anfrage</span>
+            <h2 className="section-title serif" style={{color:'#fff'}}>Beginnen Sie Ihre Reise.</h2>
+            <p className="section-copy" style={{color:'rgba(255,250,241,.68)'}}>Sagen Sie uns, was Sie in der Türkei brauchen. Wir prüfen, klären die Passung, empfehlen den richtigen Weg und begleiten Sie durch den gesamten Prozess.</p>
             <p style={{color:'rgba(255,250,241,.55)', fontSize:'12.5px', lineHeight:'1.7', maxWidth:'420px', margin:'0 0 16px', padding:'12px 16px', border:'1px solid rgba(255,250,241,.15)', borderRadius:'12px'}}>
-              <Icon name="lock" size={15} style={{marginRight:6,verticalAlign:-2}} />Please do <strong>not</strong> send medical reports, photos, passport documents, payment details or other sensitive files through this initial inquiry. Once we connect, we will guide you to a secure channel for anything confidential.
+              <Icon name="lock" size={15} style={{marginRight:6,verticalAlign:-2}} />Bitte senden Sie in dieser ersten Anfrage <strong>keine</strong> Arztberichte, Fotos, Passdokumente oder Zahlungsdaten. Sobald wir in Kontakt sind, leiten wir Sie für alles Vertrauliche auf einen sicheren Kanal.
             </p>
-            <a className="hero-pill" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{marginTop:'8px',display:'inline-flex'}}><Icon name="whatsapp" size={17} /> Message us on WhatsApp</a>
+            <a className="hero-pill" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{marginTop:'8px',display:'inline-flex'}}><Icon name="whatsapp" size={17} /> Schreiben Sie uns auf WhatsApp</a>
           </div>
-          <LeadForm />
+          <form className="form-box" onSubmit={e => e.preventDefault()}>
+            {!formSubmitted ? (
+              <>
+                <div className="form-prog"><div className="form-bar" style={{width:`${formStep*33.33}%`}} /></div>
+                {formStep === 1 && (
+                  <div>
+                    <div className="form-ttl">Was führt Sie in die Türkei?</div>
+                    <div className="field">
+                      <label>Interessensbereich *</label>
+                      <select value={selectedPath} onChange={e => { setSelectedPath(e.target.value); setFormData({...formData, interest: e.target.value}); }}>
+                        <option value="">Bitte wählen</option>
+                        <option>Tourismus</option><option>Medizintourismus</option>
+                        <option>Investment / Immobilien</option><option>Business</option><option>Sonstiges</option>
+                      </select>
+                      {formErrors.interest && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.interest}</span>}
+                    </div>
+                  </div>
+                )}
+                {formStep === 2 && (
+                  <div>
+                    <div className="form-ttl">Wann soll es losgehen?</div>
+                    <div className="field">
+                      <label>Zeitrahmen *</label>
+                      <select value={formData.timeline} onChange={e => setFormData({...formData, timeline: e.target.value})}>
+                        <option value="">Bitte wählen</option>
+                        <option>Innerhalb von 2 Wochen</option><option>1–2 Monate</option>
+                        <option>3–6 Monate</option><option>Nur zur Orientierung</option>
+                      </select>
+                      {formErrors.timeline && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.timeline}</span>}
+                    </div>
+                  </div>
+                )}
+                {formStep === 3 && (
+                  <div>
+                    <div className="form-ttl">Wie erreichen wir Sie?</div>
+                    <div className="field" style={{marginBottom:'12px'}}>
+                      <label>Ihr Name *</label>
+                      <input type="text" placeholder="Vor- und Nachname" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
+                      {formErrors.name && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.name}</span>}
+                    </div>
+                    <div className="f-row">
+                      <div className="field">
+                        <label>Land *</label>
+                        <input type="text" placeholder="Deutschland, Österreich, Schweiz..." value={formData.country} onChange={e => setFormData({...formData, country: e.target.value})} />
+                        {formErrors.country && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.country}</span>}
+                      </div>
+                      <div className="field">
+                        <label>Bevorzugter Kontakt *</label>
+                        <select value={formData.contact} onChange={e => setFormData({...formData, contact: e.target.value})}>
+                          <option value="">Bitte wählen</option>
+                          <option>E-Mail</option><option>WhatsApp</option>
+                          <option>Telefonanruf</option><option>Videogespräch</option>
+                        </select>
+                        {formErrors.contact && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.contact}</span>}
+                      </div>
+                    </div>
+                    <div className="field" style={{marginTop:'12px'}}>
+                      <label>Email</label>
+                      <input type="email" placeholder="your@email.com" value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
+                    </div>
+                  </div>
+                )}
+                <div style={{display:'flex',gap:'12px',marginTop:'20px'}}>
+                  {formStep > 1 && <button type="button" className="btn" style={{background:'rgba(255,255,255,.12)',color:'#fff',minHeight:'48px',padding:'0 20px',fontSize:'13px'}} onClick={() => setFormStep(formStep-1)}>Zurück</button>}
+                  <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>{formStep < 3 ? 'Weiter →' : 'Anfrage senden'}</button>
+                </div>
+              </>
+            ) : (
+              <div className="form-success">
+                <h3>✓ Anfrage vorbereitet</h3>
+                <p>WhatsApp sollte sich mit Ihrer vorbereiteten Nachricht geöffnet haben. Auf unseren Servern wird nichts gespeichert — Ihre Angaben reisen nur in dieser Nachricht.</p>
+                <a
+                  className="btn btn-primary"
+                  style={{marginTop:'18px', background:'#25D366', minHeight:'48px'}}
+                  href={whatsAppUrl(waLeadMessage)}
+                  data-wa-source="form_reopen"
+                  target="_blank" rel="noopener noreferrer"
+                >
+                  <Icon name="whatsapp" size={17} /> WhatsApp erneut öffnen
+                </a>
+                <p style={{marginTop:'14px', fontSize:'11.5px', color:'rgba(255,250,241,.55)'}}>Hinweis: Bitte fügen Sie dieser ersten Nachricht keine Arztberichte, Fotos oder Ausweisdokumente bei.</p>
+              </div>
+            )}
+          </form>
         </div>
       </section>
 
@@ -1001,39 +1174,37 @@ export default function Home() {
           <div className="footer-grid">
             <div>
               <a href="#top"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" style={{height:'84px',width:'84px',objectFit:'contain',background:'#fffdf7',borderRadius:'50%',padding:'6px',boxShadow:'0 2px 14px rgba(0,0,0,.3)'}} /></a>
-              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Medical travel coordination and private Türkiye experiences — investment and business advisory on request.</p>
+              <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Koordination von Medizinreisen und private Türkei-Erlebnisse — Investment- und Business-Beratung auf Anfrage.</p>
               <div className="social-row">
                 <a className="social-btn" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={17} /></a>
-                <a className="social-btn" href="https://www.instagram.com/itineraryofturkiye" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Icon name="instagram" size={17} /></a>
+                {/* Instagram / YouTube / TikTok hesapları açıldığında buraya gerçek URL'lerle eklenebilir */}
               </div>
             </div>
             <div>
-              <h4>Tourism</h4>
-              <a href="#tourism">History & Heritage</a>
-              <a href="#tourism">Nature & Outdoors</a>
-              <a href="#tourism">Food & Drinks</a>
-              <a href="#tourism">Arts & Culture</a>
+              <h4>Tourismus</h4>
+              <a href="#tourism">Geschichte & Erbe</a>
+              <a href="#tourism">Natur & Outdoor</a>
+              <a href="#tourism">Essen & Trinken</a>
+              <a href="#tourism">Kunst & Kultur</a>
             </div>
             <div>
-              <h4>Medical</h4>
-              <a href="#health">Hair Transplant</a>
-              <a href="#health">Dental Care</a>
-              <a href="#health">Rhinoplasty</a>
-              <a href="#health">Aesthetic Surgery</a>
+              <h4>Medizin</h4>
+              <a href="#health">Haartransplantation</a>
+              <a href="#health">Zahnbehandlung</a>
+              <a href="#health">Nasenkorrektur</a>
+              <a href="#health">Ästhetische Chirurgie</a>
             </div>
             <div>
-              <h4>Future Services</h4>
-              <a href="/future-services#business">Business Advisory</a>
-              <a href="/future-services#investment">Investment &amp; Real Estate</a>
-              <a href="/how-we-work">How We Work</a>
-              <a href="/standard">The ITO Standard</a>
-              <a href="/blogs">Guides &amp; Articles</a>
-              <a href="#contact">Contact Us</a>
+              <h4>Weitere Leistungen</h4>
+              <a href="/de/future-services#business">Business-Beratung</a>
+              <a href="/de/future-services#investment">Investment &amp; Immobilien</a>
+              <a href="/de/blogs">Ratgeber &amp; Artikel</a>
+              <a href="#contact">Kontakt</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
           <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy Policy</a> · <a href="/terms" style={{color:'inherit'}}>Terms of Service</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a>
+            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Datenschutz</a> · <a href="/de/terms" style={{color:'inherit'}}>AGB / Nutzungsbedingungen</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a>
           </div>
         </div>
       </footer>
