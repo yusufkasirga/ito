@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     locale: 'de_DE',
     type: 'website',
   },
-  alternates: { canonical: 'https://itineraryofturkiye.com/de', languages: { en: 'https://itineraryofturkiye.com/', de: 'https://itineraryofturkiye.com/de' } },
+  alternates: { canonical: 'https://itineraryofturkiye.com/de', languages: { en: 'https://itineraryofturkiye.com/', de: 'https://itineraryofturkiye.com/de', ru: 'https://itineraryofturkiye.com/ru', 'x-default': 'https://itineraryofturkiye.com/' } },
 };
 
 export default function DeLayout({ children }: { children: React.ReactNode }) {

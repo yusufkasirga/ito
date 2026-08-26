@@ -7,7 +7,7 @@ import { blogSlugs } from './blog/blogPosts';
 const BASE = 'https://itineraryofturkiye.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages: MetadataRoute.Sitemap = ['', '/about', '/services', '/services/tourism', '/services/medical-tourism', '/contact', '/all-turkiye-destinations', '/blog', '/blogs', '/testimonials', '/future-services', '/privacy', '/terms', '/legal-notice', '/standard', '/how-we-work', '/de', '/de/impressum', '/de/about', '/de/services', '/de/privacy', '/de/terms', '/de/future-services', '/de/links', '/de/blogs', '/de/testimonials'].map((p) => ({
+  const staticPages: MetadataRoute.Sitemap = ['', '/about', '/services', '/services/tourism', '/services/medical-tourism', '/contact', '/all-turkiye-destinations', '/blog', '/blogs', '/testimonials', '/future-services', '/privacy', '/terms', '/legal-notice', '/standard', '/how-we-work', '/de', '/de/impressum', '/de/about', '/de/services', '/de/privacy', '/de/terms', '/de/future-services', '/de/links', '/de/blogs', '/de/testimonials', '/ru', '/ru/about', '/ru/services', '/ru/future-services', '/links', '/de/links'].map((p) => ({
     url: `${BASE}${p}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
