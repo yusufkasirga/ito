@@ -61,9 +61,9 @@ export default function Home() {
   const [mouseParallax, setMouseParallax] = useState({ x: 0, y: 0 });
 
   const heroSlides = [
-    { image: '/images/pexels-2325446-1920x1080.jpg', position: '50% 38%' },
-    { image: '/images/pexels-3889742-1920x1080.jpg', position: '65% 45%' },
-    { image: '/images/pexels-1549326-800x1200.jpg', position: '50% 45%' },
+    { image: '/images/hero-galata-1000x1250.jpg', position: '50% 50%' },
+    { image: '/images/hero-tram-1000x1250.jpg', position: '50% 50%' },
+    { image: '/images/hero-cappadocia-1000x1250.jpg', position: '50% 50%' },
   ];
 
 
@@ -238,7 +238,7 @@ export default function Home() {
   return (
     <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <link rel="preload" as="image" href="/images/pexels-2325446-1920x1080.jpg" fetchPriority="high" />
+      <link rel="preload" as="image" href="/images/hero-galata-1000x1250.jpg" fetchPriority="high" />
       <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
