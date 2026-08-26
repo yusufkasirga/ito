@@ -117,7 +117,7 @@ export default function Home() {
       title: 'History & Heritage',
       short: 'Türkiye is not just a destination — it is a living museum. From the ruins of Ephesus to the grandeur of the Hagia Sophia, every corner tells a story.',
       full: 'From the ancient ruins of Ephesus to the Byzantine grandeur of the Hagia Sophia, from the Ottoman splendour of Topkapı Palace to the fairy-tale landscapes of Cappadocia carved by civilisations thousands of years ago, every corner of this land tells a story.\n\nWalking through Türkiye means walking through time — where East meets West, and where empires once rose and left their mark on every stone, street, and skyline.\n\nLet us take you there.',
-      image: '/images/pexels-3889742-800x1000.jpg'
+      image: '/images/heritage-bluemosque-800x1000.jpg'
     },
     {
       title: 'Nature & Outdoors',
@@ -809,7 +809,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-img">
-            <img loading="lazy" src="/images/pexels-3889742-800x1000.jpg" alt="Hot air balloons over Cappadocia at sunset, Türkiye" />
+            <img loading="lazy" src="/images/heritage-bluemosque-800x1000.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" />
           </div>
         </div>
       </section>
