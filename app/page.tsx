@@ -809,7 +809,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-img">
-            <img loading="lazy" src="/images/heritage-bluemosque-800x1000.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" />
+            <img loading="lazy" src="/images/about-bluemosque-1200x1040.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" />
           </div>
         </div>
       </section>
