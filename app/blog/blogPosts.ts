@@ -1382,6 +1382,913 @@ export const blogArticles: BlogArticle[] = [
       { "type": "p", "text": "Behind every policy, investment, and tourism initiative is a simple objective: creating a better experience for visitors. Whether you're arriving for a family holiday, a luxury escape, a cultural adventure, a wellness retreat, or a medical procedure, these improvements are designed to make your journey smoother, safer, and more enjoyable." },
       { "type": "p", "text": "From smarter digital services and sustainable tourism practices to upgraded visitor facilities and expanded travel opportunities, Türkiye is positioning itself not just as a destination to visit — but as a destination that continuously invests in the people who choose to explore it." }
     ]
+  },
+  {
+    "slug": "hagia-sophia-mosque-visitor-guide",
+    "title": "Hagia Sophia Mosque: Everything You Should Know Before Your Visit",
+    "shortTitle": "Hagia Sophia Mosque Visitor Guide",
+    "category": "Istanbul",
+    "accent": "#9b6f35",
+    "cover": "/images/about-bluemosque-1200x1040.jpg",
+    "images": [
+      "/images/heritage-bluemosque-800x1000.jpg",
+      "/images/hero-galata-1000x1250.jpg"
+    ],
+    "places": [
+      "Istanbul",
+      "Sultanahmet",
+      "Hagia Sophia",
+      "Türkiye"
+    ],
+    "dateISO": "2026-09-01",
+    "readTime": "9 min read",
+    "excerpt": "Planning a Hagia Sophia visit? Learn about its history, tourist entrance, dress code, visitor etiquette and how to combine it with Sultanahmet's nearby landmarks.",
+    "body": [
+      {
+        "type": "p",
+        "text": "If you are planning a trip to Istanbul, Hagia Sophia Mosque should be high on your list of places to visit. Standing in the heart of Sultanahmet, this extraordinary monument brings together centuries of architecture, art, religion and history under one enormous dome."
+      },
+      {
+        "type": "p",
+        "text": "For first-time visitors to Istanbul, however, there are a few important things to know before visiting Hagia Sophia. The entrance system, ticket prices, dress code and visitor areas are different from what many tourists may expect."
+      },
+      {
+        "type": "p",
+        "text": "Whether you are interested in Istanbul sightseeing, Turkish history, Islamic architecture, Byzantine architecture or cultural tourism in Türkiye, Hagia Sophia offers an experience unlike almost anywhere else."
+      },
+      {
+        "type": "p",
+        "text": "Here is everything you should know before your visit."
+      },
+      {
+        "type": "h2",
+        "text": "A Brief History of Hagia Sophia"
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia, also known as Ayasofya-i Kebir Cami-i Şerifi, has a history stretching back almost 1,500 years."
+      },
+      {
+        "type": "p",
+        "text": "The present building was commissioned by the Byzantine Emperor Justinian I after an earlier structure on the same site was destroyed. Construction of the current Hagia Sophia began in 532 and was completed in 537, making it one of the most remarkable architectural achievements of the sixth century."
+      },
+      {
+        "type": "p",
+        "text": "The architects, Anthemius of Tralles and Isidore of Miletus, designed a building that was remarkably ambitious for its time. Its enormous central dome, vast interior space and sophisticated engineering made Hagia Sophia an architectural landmark and later influenced the design of many churches and mosques."
+      },
+      {
+        "type": "p",
+        "text": "UNESCO describes Hagia Sophia as a unique architectural masterpiece of the Byzantine and Ottoman periods and notes that it became a model for later churches and mosques."
+      },
+      {
+        "type": "p",
+        "text": "Over the centuries, the building experienced earthquakes, restorations and several architectural changes. Ottoman additions, including the minarets and other elements of the mosque complex, became an important part of the appearance visitors see today."
+      },
+      {
+        "type": "p",
+        "text": "For tourists, one of the most fascinating things about Hagia Sophia is that you can see evidence of different periods of its long history in the same building. Byzantine-era mosaics, monumental marble surfaces, Ottoman architectural additions and Islamic calligraphy all contribute to its unique character."
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia is also part of the Historic Areas of Istanbul, which have been included on the UNESCO World Heritage List."
+      },
+      {
+        "type": "h2",
+        "text": "What Makes Hagia Sophia So Special?"
+      },
+      {
+        "type": "p",
+        "text": "The first thing that strikes most visitors is the scale."
+      },
+      {
+        "type": "p",
+        "text": "The main structure covers approximately 9,800 square metres, while the wider complex, including the baptistery, covers around 10,200 square metres. The central dome rises approximately 56 metres above the ground."
+      },
+      {
+        "type": "p",
+        "text": "The interior feels much larger than you might expect when approaching the building from outside."
+      },
+      {
+        "type": "p",
+        "text": "Look carefully at the enormous dome, marble columns, arches, decorative details and upper galleries. You will also notice how different artistic traditions exist side by side."
+      },
+      {
+        "type": "p",
+        "text": "The building is often described as being capable of accommodating around 18,000 worshippers, although capacity figures can vary depending on how the usable prayer and surrounding areas are calculated. The important point for visitors is that Hagia Sophia is a very large religious and historic complex designed to accommodate large numbers of people."
+      },
+      {
+        "type": "h2",
+        "text": "Hagia Sophia Ticket Price in 2026"
+      },
+      {
+        "type": "p",
+        "text": "One of the most important things international tourists should know is that the tourist entrance is not the same as ordinary mosque access for worshippers."
+      },
+      {
+        "type": "p",
+        "text": "Since January 15, 2024, a separate paid visitor entrance has been used for tourists visiting the gallery/visitor area. According to current 2026 information, the standard entrance price for foreign visitors is:"
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia tourist entrance: €25 per person"
+      },
+      {
+        "type": "p",
+        "text": "The official Turkish tourism documentation confirms the €25 full ticket price for the Hagia Sophia History and Experience Museum/visitor experience."
+      },
+      {
+        "type": "p",
+        "text": "The tourist entrance provides access to the designated visitor areas, including the upper gallery. The main prayer area has a separate access arrangement."
+      },
+      {
+        "type": "h2",
+        "text": "Important tip for tourists"
+      },
+      {
+        "type": "p",
+        "text": "Ticket prices and visiting arrangements can change, so it is always a good idea to check the official information before your visit."
+      },
+      {
+        "type": "p",
+        "text": "If you are travelling with a tour company or local travel advisor, ask exactly what is included in your package. A Hagia Sophia entrance ticket, guided tour and museum/experience ticket may be separate products."
+      },
+      {
+        "type": "h2",
+        "text": "What Should You Wear to Hagia Sophia Mosque?"
+      },
+      {
+        "type": "p",
+        "text": "Because Hagia Sophia functions as a mosque, visitors should dress respectfully."
+      },
+      {
+        "type": "p",
+        "text": "You do not need to wear traditional Turkish clothing, but modest clothing is expected."
+      },
+      {
+        "type": "h2",
+        "text": "For women"
+      },
+      {
+        "type": "p",
+        "text": "Women should ideally wear:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Clothing that covers the shoulders",
+          "Clothing that covers the knees",
+          "A long skirt, trousers or loose-fitting dress",
+          "A headscarf when entering the prayer area"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you do not have a scarf, it is useful to carry a lightweight one in your bag. It takes very little space and can also be useful when visiting other mosques in Istanbul."
+      },
+      {
+        "type": "p",
+        "text": "Avoid very short skirts, shorts, crop tops or clothing that exposes the shoulders."
+      },
+      {
+        "type": "h2",
+        "text": "For men"
+      },
+      {
+        "type": "p",
+        "text": "Men should also dress modestly."
+      },
+      {
+        "type": "p",
+        "text": "It is best to wear:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Long trousers",
+          "A T-shirt or shirt that covers the shoulders",
+          "Comfortable and respectful clothing"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Avoid entering in very short shorts or clothing that is excessively revealing."
+      },
+      {
+        "type": "h2",
+        "text": "Remember to remove your shoes"
+      },
+      {
+        "type": "p",
+        "text": "If you are entering an area where visitors are required to walk on the mosque carpet, you may need to remove your shoes. Follow the signs and instructions of staff on the day of your visit."
+      },
+      {
+        "type": "p",
+        "text": "The simplest rule is: dress as you would when visiting any respected place of worship."
+      },
+      {
+        "type": "h2",
+        "text": "What Should Tourists Expect Inside Hagia Sophia?"
+      },
+      {
+        "type": "p",
+        "text": "Do not expect the experience to be exactly like visiting a conventional museum."
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia is a functioning religious building as well as an important historic monument. Visitors should therefore behave respectfully and remember that people may be praying."
+      },
+      {
+        "type": "p",
+        "text": "Keep your voice low, avoid disturbing worshippers and follow the designated visitor route."
+      },
+      {
+        "type": "p",
+        "text": "Photography is generally an important part of the tourist experience, but avoid using flash when prohibited and do not photograph people who are praying in an intrusive way."
+      },
+      {
+        "type": "p",
+        "text": "One of the most interesting parts of the visit is the upper gallery, where visitors can appreciate the scale of the building from above and see important decorative details."
+      },
+      {
+        "type": "p",
+        "text": "Take your time."
+      },
+      {
+        "type": "p",
+        "text": "Instead of simply walking through, stop for a few minutes and look upward. The dome, arches and layers of architectural decoration are much easier to appreciate when you are not rushing."
+      },
+      {
+        "type": "h2",
+        "text": "Best Time to Visit Hagia Sophia"
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia is one of the most popular attractions in Istanbul, so crowds are normal."
+      },
+      {
+        "type": "p",
+        "text": "For a more comfortable experience, consider visiting earlier in the day or planning your visit outside the busiest periods."
+      },
+      {
+        "type": "p",
+        "text": "The surrounding Sultanahmet area is also extremely popular, so combining several attractions in one walking route can save time."
+      },
+      {
+        "type": "p",
+        "text": "A practical Istanbul sightseeing route could include:"
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia → Blue Mosque → Hippodrome → Basilica Cistern → Topkapı Palace"
+      },
+      {
+        "type": "p",
+        "text": "Most of these attractions are within walking distance of each other."
+      },
+      {
+        "type": "p",
+        "text": "However, remember that opening hours and access arrangements can change, especially around prayer times and religious occasions. Check the latest information before travelling."
+      },
+      {
+        "type": "h2",
+        "text": "Hagia Sophia and the Blue Mosque: Can You Visit Both?"
+      },
+      {
+        "type": "p",
+        "text": "Absolutely."
+      },
+      {
+        "type": "p",
+        "text": "In fact, visiting both is one of the best things to do in Istanbul for first-time visitors."
+      },
+      {
+        "type": "p",
+        "text": "The Blue Mosque, officially the Sultan Ahmed Mosque, is located directly across from Hagia Sophia. The two buildings create one of Istanbul's most famous architectural views."
+      },
+      {
+        "type": "p",
+        "text": "While Hagia Sophia allows you to experience an extraordinary combination of Byzantine and Ottoman architectural heritage, the Blue Mosque gives you another perspective on classical Ottoman mosque architecture."
+      },
+      {
+        "type": "p",
+        "text": "Because they are so close together, you can easily visit both during the same morning or afternoon."
+      },
+      {
+        "type": "h2",
+        "text": "Why Hagia Sophia Is Important for International Tourists"
+      },
+      {
+        "type": "p",
+        "text": "Hagia Sophia is more than simply another attraction to add to an Istanbul itinerary."
+      },
+      {
+        "type": "p",
+        "text": "It helps visitors understand why Istanbul is such a special destination."
+      },
+      {
+        "type": "p",
+        "text": "The city has been shaped by different civilizations, artistic traditions and cultures for centuries. Hagia Sophia is one of the clearest examples of this layered history."
+      },
+      {
+        "type": "p",
+        "text": "You can stand beneath a sixth-century dome, admire ancient architectural details and then walk outside into modern Istanbul—all within a few minutes."
+      },
+      {
+        "type": "p",
+        "text": "That is part of what makes Istanbul tourism so interesting."
+      },
+      {
+        "type": "p",
+        "text": "For travellers interested in historical places in Turkey, cultural tourism, religious architecture, UNESCO World Heritage Sites and things to do in Istanbul, Hagia Sophia is an essential stop."
+      },
+      {
+        "type": "h2",
+        "text": "How Itinerary of Türkiye Can Make Your Visit Easier"
+      },
+      {
+        "type": "p",
+        "text": "Planning a trip to a country you have never visited can sometimes feel complicated."
+      },
+      {
+        "type": "p",
+        "text": "Where should you stay? Which attractions should you visit first? How do you arrange airport transfers? Which attractions need advance tickets? How can you avoid wasting hours travelling between different parts of Istanbul?"
+      },
+      {
+        "type": "p",
+        "text": "This is where Itinerary of Türkiye can help."
+      },
+      {
+        "type": "p",
+        "text": "Itinerary of Türkiye works with international visitors to make travelling around Türkiye more comfortable and organised."
+      },
+      {
+        "type": "p",
+        "text": "Instead of simply giving you a list of tourist attractions, the team can help create a travel plan based on your interests, schedule and requirements. Its tourism services include curated itineraries, private guides, accommodation recommendations and travel assistance."
+      },
+      {
+        "type": "p",
+        "text": "For a visitor coming to Istanbul, this can mean organising attractions such as Hagia Sophia, the Blue Mosque, Topkapı Palace and the Grand Bazaar in a practical order rather than trying to arrange everything independently."
+      },
+      {
+        "type": "p",
+        "text": "Itinerary of Türkiye can also assist with transfers, appointments, translation and general support during your stay, helping international travellers feel more comfortable while navigating an unfamiliar destination."
+      },
+      {
+        "type": "p",
+        "text": "The idea is simple: you enjoy Türkiye while someone familiar with the destination helps take care of the complicated details."
+      },
+      {
+        "type": "h2",
+        "text": "Tips for a Comfortable Hagia Sophia Visit"
+      },
+      {
+        "type": "p",
+        "text": "Before leaving your hotel, keep these simple tips in mind:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Dress modestly: Hagia Sophia is a mosque, so appropriate clothing is important.",
+          "Carry a scarf: Women may need one for the prayer area.",
+          "Wear comfortable shoes: You will likely be walking around Sultanahmet for several hours.",
+          "Check the ticket: Foreign tourists currently pay €25 for the designated tourist/upper-gallery visit.",
+          "Arrive prepared: Popular attractions in Istanbul can become crowded.",
+          "Respect worshippers: Keep your voice low and avoid interrupting people during prayer.",
+          "Follow signs: Visitor and worshipper entrances are separated.",
+          "Plan nearby attractions: Blue Mosque, Basilica Cistern, Hippodrome and Topkapı Palace are all close by.",
+          "Allow enough time: Do not rush through Hagia Sophia just to take a few photographs.",
+          "Check current information: Opening hours, access arrangements and ticket prices can change."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Is Hagia Sophia Worth Visiting?"
+      },
+      {
+        "type": "p",
+        "text": "For most visitors to Istanbul, the answer is yes."
+      },
+      {
+        "type": "p",
+        "text": "Even if you are not particularly interested in architecture or history, the sheer scale of Hagia Sophia makes it an impressive experience."
+      },
+      {
+        "type": "p",
+        "text": "For travellers who love history, architecture and culture, it is even more rewarding."
+      },
+      {
+        "type": "p",
+        "text": "The building tells a story through its dome, columns, mosaics, marble, calligraphy and architectural details. Every section gives you another glimpse into the many centuries that shaped Istanbul."
+      },
+      {
+        "type": "p",
+        "text": "And because it is located in Sultanahmet, visiting Hagia Sophia can easily become part of a wider Istanbul historical tour."
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "Visiting Hagia Sophia Mosque is one of those experiences that stays with you long after you leave Istanbul."
+      },
+      {
+        "type": "p",
+        "text": "It is enormous, beautiful and full of history—and there is much more to discover than what you see in a photograph."
+      },
+      {
+        "type": "p",
+        "text": "The key is to arrive prepared. Know the Hagia Sophia ticket price, dress appropriately, understand the separate visitor arrangements and allow yourself enough time to appreciate the building."
+      },
+      {
+        "type": "p",
+        "text": "If this is your first trip to Türkiye and you want a comfortable, well-organised experience, Itinerary of Türkiye can help you plan your Istanbul journey, arrange suitable services and connect your Hagia Sophia visit with the other places you want to experience."
+      },
+      {
+        "type": "p",
+        "text": "After all, travelling should not be about worrying over every small detail."
+      },
+      {
+        "type": "p",
+        "text": "Come to Türkiye, explore Istanbul, and let the journey become part of the memory."
+      }
+    ]
+  },
+  {
+    "slug": "istanbul-public-transport-tourist-guide",
+    "title": "Istanbul Public Transport: Is It Advisable for Tourists? Everything You Need to Know",
+    "shortTitle": "Istanbul Public Transport for Tourists",
+    "category": "Istanbul",
+    "accent": "#b43b32",
+    "cover": "/images/hero-tram-1000x1250.jpg",
+    "images": [
+      "/images/hero-galata-1000x1250.jpg",
+      "/images/about-bluemosque-1200x1040.jpg"
+    ],
+    "places": [
+      "Istanbul",
+      "Sultanahmet",
+      "Taksim",
+      "Bosphorus",
+      "Türkiye"
+    ],
+    "dateISO": "2026-09-01",
+    "readTime": "10 min read",
+    "excerpt": "A practical first-time visitor's guide to Istanbulkart, metro, tram, Marmaray, ferries, rush-hour travel, safety and public-transport etiquette.",
+    "body": [
+      {
+        "type": "p",
+        "text": "If you are visiting Istanbul for the first time, one of the biggest questions you may have is: Should tourists use public transport in Istanbul?"
+      },
+      {
+        "type": "p",
+        "text": "The short answer is yes — absolutely. Istanbul is a huge city, and using the metro, tram, Marmaray, buses and ferries can save you both time and money compared with relying on taxis for every journey."
+      },
+      {
+        "type": "p",
+        "text": "The system can feel confusing at first, especially when you are looking at different metro lines, tram routes, transfers and Istanbulkart options. But once you understand the basics, Istanbul public transport is one of the most convenient ways to explore the city."
+      },
+      {
+        "type": "h2",
+        "text": "Why Should Tourists Use Public Transport in Istanbul?"
+      },
+      {
+        "type": "p",
+        "text": "Istanbul is famous for its traffic. During busy hours, a journey that should take 20 minutes by car can sometimes take much longer."
+      },
+      {
+        "type": "p",
+        "text": "Public transportation allows tourists to avoid much of this traffic, particularly when travelling between popular areas."
+      },
+      {
+        "type": "p",
+        "text": "The network includes:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Metro – useful for longer journeys across the city",
+          "Tram – particularly convenient for historic and tourist areas",
+          "Marmaray – connects the European and Asian sides by rail",
+          "Ferries – a scenic way to cross the Bosphorus",
+          "Metrobus – useful for travelling long distances, although it can become extremely crowded",
+          "Buses – cover areas that are not directly served by rail"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For example, the T1 Kabataş–Bağcılar tram is particularly useful for tourists because it passes through or near major sightseeing areas such as Sultanahmet, Eminönü and Grand Bazaar. Metro Istanbul describes T1 as one of its backbone lines, with connections to several other transport services."
+      },
+      {
+        "type": "h2",
+        "text": "How Does Istanbulkart Work?"
+      },
+      {
+        "type": "p",
+        "text": "The easiest way to use Istanbul's public transport is with an Istanbulkart."
+      },
+      {
+        "type": "p",
+        "text": "You can obtain and top up a card at ticket machines and designated points at transport stations. Metro Istanbul states that Istanbulkart can be used on its rail network and that cards can be obtained and loaded at Biletmatik machines."
+      },
+      {
+        "type": "p",
+        "text": "There are also digital and contactless payment options. BELBİM's recent reports explain that Istanbul's transport network supports Istanbulkart alongside contactless bank and credit cards, while digital/QR payment options are also available."
+      },
+      {
+        "type": "h2",
+        "text": "What if you don't know how to get an Istanbulkart?"
+      },
+      {
+        "type": "p",
+        "text": "This is where Itinerary of Türkiye can make your arrival easier."
+      },
+      {
+        "type": "p",
+        "text": "If you are unfamiliar with Istanbul's transport system, our team can help explain:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Where and how to obtain an Istanbulkart",
+          "How to top up your card",
+          "Which type of transport card is suitable for your trip",
+          "How to use metro and tram ticket machines",
+          "Which metro or tram line you should take",
+          "Where you need to change lines",
+          "How to reach your hotel or planned attractions",
+          "How to understand Istanbul's transport maps"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Instead of spending the first hours of your holiday trying to understand the system, you can ask Itinerary of Türkiye for practical guidance and start exploring with more confidence."
+      },
+      {
+        "type": "h2",
+        "text": "Which Metro and Tram Lines Are Most Useful for Tourists?"
+      },
+      {
+        "type": "p",
+        "text": "You don't need to memorise Istanbul's entire transport network. A few important lines can cover many popular tourist journeys."
+      },
+      {
+        "type": "h2",
+        "text": "T1 Tram: One of the Most Useful for Tourists"
+      },
+      {
+        "type": "p",
+        "text": "The T1 Kabataş–Bağcılar Tram Line is probably one of the most useful tram routes for first-time visitors."
+      },
+      {
+        "type": "p",
+        "text": "It connects areas including:"
+      },
+      {
+        "type": "p",
+        "text": "Kabataş → Karaköy → Eminönü → Sirkeci → Sultanahmet → Beyazıt → Aksaray → Bağcılar"
+      },
+      {
+        "type": "p",
+        "text": "The line operates approximately from 06:00 to midnight, and Metro Istanbul lists a peak-hour frequency of around two minutes."
+      },
+      {
+        "type": "p",
+        "text": "It can be especially useful when visiting Sultanahmet, Hagia Sophia, the Blue Mosque, Topkapı Palace and the Grand Bazaar area."
+      },
+      {
+        "type": "h2",
+        "text": "M2 Metro"
+      },
+      {
+        "type": "p",
+        "text": "The M2 Yenikapı–Hacıosman Metro is useful for travellers staying around areas such as Taksim, Şişli and Levent."
+      },
+      {
+        "type": "p",
+        "text": "It is also one of Istanbul's busiest metro lines, carrying around 500,000 passengers per day according to Metro Istanbul."
+      },
+      {
+        "type": "h2",
+        "text": "M1 Metro"
+      },
+      {
+        "type": "p",
+        "text": "The M1 network is useful for travelling between central Istanbul and several outer districts, with connections to other metro and tram lines."
+      },
+      {
+        "type": "h2",
+        "text": "Marmaray"
+      },
+      {
+        "type": "p",
+        "text": "If you want to travel between Istanbul's European and Asian sides by rail, Marmaray can be extremely useful."
+      },
+      {
+        "type": "p",
+        "text": "It is particularly convenient when you want to experience both sides of Istanbul without sitting in road traffic."
+      },
+      {
+        "type": "h2",
+        "text": "Which Public Transport Should You Avoid During Work Rush Hour?"
+      },
+      {
+        "type": "p",
+        "text": "This is one of the most important things tourists should know."
+      },
+      {
+        "type": "p",
+        "text": "You don't necessarily need to avoid Istanbul public transport during rush hour — but you should avoid the busiest routes if you have flexibility."
+      },
+      {
+        "type": "p",
+        "text": "As a general rule, weekday commuter periods are roughly:"
+      },
+      {
+        "type": "p",
+        "text": "Morning: 07:00–09:30\nEvening: 16:30–19:30"
+      },
+      {
+        "type": "p",
+        "text": "The exact intensity varies by day, station and direction."
+      },
+      {
+        "type": "h2",
+        "text": "Be Careful With M2 During Rush Hour"
+      },
+      {
+        "type": "p",
+        "text": "The M2 can become extremely busy during weekday commuting periods because it serves major business and residential areas. Since it carries around 500,000 passengers a day, it is not the ideal line for a relaxed tourist journey during the busiest periods."
+      },
+      {
+        "type": "h2",
+        "text": "Be Careful With T1 Around Tourist Areas"
+      },
+      {
+        "type": "p",
+        "text": "The T1 tram can also become very crowded, particularly around major interchange and sightseeing stations."
+      },
+      {
+        "type": "p",
+        "text": "During peak periods, stations such as Eminönü, Sirkeci, Sultanahmet, Beyazıt and Aksaray can be especially busy."
+      },
+      {
+        "type": "h2",
+        "text": "Metrobus Can Be Very Crowded"
+      },
+      {
+        "type": "p",
+        "text": "Metrobus is excellent when you need to cross long distances quickly, but it is generally not the most comfortable option for tourists during rush hour."
+      },
+      {
+        "type": "p",
+        "text": "If your itinerary allows it, consider travelling before or after the busiest commuter period."
+      },
+      {
+        "type": "p",
+        "text": "Tip: Before leaving your hotel, check the current service status and timetable. Metro Istanbul provides live service information and timetables for its metro and tram lines."
+      },
+      {
+        "type": "h2",
+        "text": "What Should You Avoid Doing on the Metro or Tram?"
+      },
+      {
+        "type": "p",
+        "text": "Istanbul's public transport is generally straightforward, but tourists should remember that they are sharing the space with millions of local passengers."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Block the Doors"
+      },
+      {
+        "type": "p",
+        "text": "If you are standing near the doors, move aside when passengers are getting on or off."
+      },
+      {
+        "type": "p",
+        "text": "Don't stand directly in front of the doors while people are trying to exit."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Push Your Way Onto a Crowded Train"
+      },
+      {
+        "type": "p",
+        "text": "Let passengers get off first."
+      },
+      {
+        "type": "p",
+        "text": "Then enter calmly."
+      },
+      {
+        "type": "p",
+        "text": "This is particularly important during busy periods."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Take Up Extra Seats With Your Bags"
+      },
+      {
+        "type": "p",
+        "text": "Keep your luggage close to you and avoid occupying a seat with a suitcase or backpack when other passengers need somewhere to sit."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Play Loud Music or Videos"
+      },
+      {
+        "type": "p",
+        "text": "Use headphones and keep the volume low."
+      },
+      {
+        "type": "p",
+        "text": "What may seem like a small thing can be very noticeable inside a quiet metro carriage."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Block Escalators or Station Corridors"
+      },
+      {
+        "type": "p",
+        "text": "If you need to stop and check Google Maps, your itinerary or your phone, move to the side rather than stopping in the middle of a busy passage."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Photograph People Without Permission"
+      },
+      {
+        "type": "p",
+        "text": "Istanbul's metro and tram system is full of interesting people and everyday scenes, but avoid taking intrusive photographs of strangers, particularly children."
+      },
+      {
+        "type": "h2",
+        "text": "How Should Tourists Behave Around Local Passengers?"
+      },
+      {
+        "type": "p",
+        "text": "You don't need to behave differently because you are a tourist. Simply follow basic public transport etiquette."
+      },
+      {
+        "type": "h2",
+        "text": "Give Your Seat to People Who Need It More"
+      },
+      {
+        "type": "p",
+        "text": "If you see an elderly passenger, pregnant woman, person with a disability or someone who clearly needs a seat, offering yours is a considerate gesture."
+      },
+      {
+        "type": "h2",
+        "text": "Keep Your Belongings Close"
+      },
+      {
+        "type": "p",
+        "text": "Istanbul is generally easy to navigate, but crowded transport is still a place where you should pay attention to your belongings."
+      },
+      {
+        "type": "p",
+        "text": "Keep your phone, wallet and passport secure, particularly when boarding or leaving a crowded train."
+      },
+      {
+        "type": "h2",
+        "text": "Stand on the Right on Escalators"
+      },
+      {
+        "type": "p",
+        "text": "If you are not walking, standing to one side allows people in a hurry to pass."
+      },
+      {
+        "type": "h2",
+        "text": "Don't Panic If You Miss Your Stop"
+      },
+      {
+        "type": "p",
+        "text": "This happens to everyone."
+      },
+      {
+        "type": "p",
+        "text": "If you accidentally get off at the wrong station, don't panic. Check the route map, follow the signs and take the next train or transfer when appropriate."
+      },
+      {
+        "type": "p",
+        "text": "Metro Istanbul places route maps inside vehicles and provides announcements indicating transfer points, making it easier to understand where to change."
+      },
+      {
+        "type": "h2",
+        "text": "Is Istanbul Public Transport Safe for Tourists?"
+      },
+      {
+        "type": "p",
+        "text": "For most visitors, Istanbul's public transportation is a practical and convenient way to travel."
+      },
+      {
+        "type": "p",
+        "text": "However, use the same common sense you would use on public transport in any major international city."
+      },
+      {
+        "type": "p",
+        "text": "Keep your valuables secure, be aware of your surroundings and avoid displaying large amounts of cash."
+      },
+      {
+        "type": "p",
+        "text": "During very crowded periods, pay particular attention when entering or leaving trains and trams."
+      },
+      {
+        "type": "h2",
+        "text": "Public Transport vs Taxi: Which Is Better for Tourists?"
+      },
+      {
+        "type": "p",
+        "text": "Both have their place."
+      },
+      {
+        "type": "p",
+        "text": "Public transport is usually better when:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "You are travelling during heavy traffic",
+          "Your destination is close to a metro or tram station",
+          "You are visiting Sultanahmet and other central tourist areas",
+          "You want to control your travel costs",
+          "You are comfortable walking between stations and attractions"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A taxi may be more convenient when:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "You have several large suitcases",
+          "Your hotel is far from public transport",
+          "You are travelling with elderly family members or young children",
+          "You are carrying equipment or shopping bags",
+          "You are travelling late and public transport is less convenient"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For many tourists, the best solution is not choosing one or the other. Use public transport for most sightseeing and consider a taxi when it genuinely saves time or makes your journey easier."
+      },
+      {
+        "type": "h2",
+        "text": "How Itinerary of Türkiye Can Help"
+      },
+      {
+        "type": "p",
+        "text": "Getting around Istanbul can seem complicated when you are seeing names such as M2, T1, M1, Marmaray, Metrobus and different transfer stations for the first time."
+      },
+      {
+        "type": "p",
+        "text": "At Itinerary of Türkiye, we understand that transportation is an important part of having a comfortable holiday."
+      },
+      {
+        "type": "p",
+        "text": "Our team can assist tourists with practical transportation guidance, including explaining how to get and use an Istanbulkart, understanding the metro and tram network, choosing convenient routes and planning journeys between attractions."
+      },
+      {
+        "type": "p",
+        "text": "This can be particularly helpful for first-time visitors who don't want to spend valuable holiday time figuring out which line, station or transfer they need."
+      },
+      {
+        "type": "h2",
+        "text": "Final Verdict: Should Tourists Use Istanbul Public Transport?"
+      },
+      {
+        "type": "p",
+        "text": "Yes — public transport in Istanbul is definitely advisable for tourists."
+      },
+      {
+        "type": "p",
+        "text": "It is affordable, extensive and often much faster than travelling by car through Istanbul's traffic. The key is knowing which line to use, when to travel and how to behave around local passengers."
+      },
+      {
+        "type": "p",
+        "text": "For first-time visitors, start with the T1 tram, M2 metro and Marmaray, depending on where you are staying and where you want to go. Avoid the busiest commuter periods when possible, keep your belongings secure and give yourself extra time when making transfers."
+      },
+      {
+        "type": "p",
+        "text": "And if the system feels confusing, you don't have to figure it out alone."
+      },
+      {
+        "type": "p",
+        "text": "Itinerary of Türkiye can help you understand Istanbul's public transport system, from getting your travel card to planning the best route for your day."
+      },
+      {
+        "type": "p",
+        "text": "That way, you can spend less time worrying about transportation — and more time enjoying Istanbul."
+      },
+      {
+        "type": "h2",
+        "text": "Planning Your Istanbul Trip?"
+      },
+      {
+        "type": "p",
+        "text": "Whether you are visiting Istanbul for the first time, planning a multi-city Türkiye holiday or looking for help organising your transportation and sightseeing, Itinerary of Türkiye can help make your journey easier, more organised and more comfortable."
+      }
+    ]
   }
 ];
 
