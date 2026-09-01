@@ -76,7 +76,7 @@ export default function BlogIndex() {
         <a href={`/blog/${featured.slug}`} className="bj-card bj-feat">
           <span className="bj-shot">
             <span className="bj-cat">{featured.category}</span>
-            <CityImage slug={featured.slug} accent={featured.accent} alt={`${featured.title} — ${featured.category} in Türkiye`} primary={`/images/blog/${featured.slug}.jpg`} fallback={featured.cover} />
+            <CityImage slug={featured.slug} accent={featured.accent} alt={`${featured.title} — ${featured.category} in Türkiye`} primary={`/images/blog/${featured.slug}.jpg`} fallback={featured.cover} priority />
           </span>
           <div className="bj-body">
             <div className="bj-title">{featured.title}</div>
