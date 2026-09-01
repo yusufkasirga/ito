@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SITE_URL, whatsAppUrl } from '@/lib/config';
 import SiteHeader from '../../components/SiteHeader';
@@ -45,7 +46,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   });
   const automaticRelated = blogArticles
     .filter((article) => article.slug !== a.slug && !curatedRelated.some((item) => item.slug === article.slug))
-    .sort((x, y) => (x.category === a.category ? -1 : 1));
+    .sort((x) => (x.category === a.category ? -1 : 1));
   const related = [...curatedRelated, ...automaticRelated].slice(0, 3);
   const dateLabel = new Date(a.dateISO).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
   const updatedISO = a.updatedISO ?? a.dateISO;
@@ -197,7 +198,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={`/images/blog/${a.slug}.jpg`} fallback={a.cover} priority />
         <span className="ar-hero-tint" />
         <div className="ar-hero-in">
-          <a href="/blog" className="ar-crumb">← The Journal</a>
+          <Link href="/blog" className="ar-crumb">← The Journal</Link>
           <span className="ar-cat">{a.category}</span>
           <h1 className="ar-h1">{a.title}</h1>
           <p className="ar-meta">
@@ -244,7 +245,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               </ul>
               <p className="note">
                 Access conditions, schedules and prices can change. Check the linked official source before travelling.
-                Read our <a href="/editorial-policy">editorial and review policy</a>.
+                Read our <Link href="/editorial-policy">editorial and review policy</Link>.
               </p>
             </section>
           )}
