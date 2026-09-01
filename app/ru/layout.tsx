@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function RuLayout({ children }: { children: React.ReactNode }) {
-  return children;
+  return <div lang="ru">{children}</div>;
 }

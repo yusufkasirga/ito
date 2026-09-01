@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SITE_URL, whatsAppUrl } from '@/lib/config';
 import SiteHeader from '../../components/SiteHeader';
@@ -14,11 +15,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const a = getArticle(slug);
   if (!a) return {};
+  const authorName = a.author?.name ?? 'Itinerary of Türkiye';
+  const authorUrl = new URL(a.author?.url ?? '/about', SITE_URL).toString();
   return {
     title: `${a.title} — Itinerary of Türkiye`,
     description: a.excerpt,
+    authors: [{ name: authorName, url: authorUrl }],
     alternates: { canonical: `${SITE_URL}/blog/${a.slug}` },
-    openGraph: { title: a.title, description: a.excerpt, url: `${SITE_URL}/blog/${a.slug}`, type: 'article', images: [a.cover] },
+    openGraph: {
+      title: a.title,
+      description: a.excerpt,
+      url: `${SITE_URL}/blog/${a.slug}`,
+      type: 'article',
+      publishedTime: a.dateISO,
+      modifiedTime: a.updatedISO ?? a.dateISO,
+      authors: [authorName],
+      images: [a.cover],
+    },
   };
 }
 
@@ -27,10 +40,22 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const a = getArticle(slug);
   if (!a) notFound();
 
-  const related = blogArticles.filter((x) => x.slug !== a.slug).sort((x, y) => (x.category === a.category ? -1 : 1)).slice(0, 3);
+  const curatedRelated = (a.relatedSlugs ?? []).flatMap((relatedSlug) => {
+    const article = getArticle(relatedSlug);
+    return article ? [article] : [];
+  });
+  const automaticRelated = blogArticles
+    .filter((article) => article.slug !== a.slug && !curatedRelated.some((item) => item.slug === article.slug))
+    .sort((x) => (x.category === a.category ? -1 : 1));
+  const related = [...curatedRelated, ...automaticRelated].slice(0, 3);
   const dateLabel = new Date(a.dateISO).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  const updatedISO = a.updatedISO ?? a.dateISO;
+  const updatedLabel = new Date(updatedISO).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
   const url = `${SITE_URL}/blog/${a.slug}`;
+  const author = a.author ?? { name: 'Itinerary of Türkiye', url: '/about', type: 'Organization' as const };
+  const authorUrl = new URL(author.url, SITE_URL).toString();
+  const sources = a.sources ?? [];
   const places = a.places && a.places.length ? a.places : ['Türkiye'];
   const images = a.images ?? [];
 
@@ -50,12 +75,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     description: a.excerpt,
     image: [`${SITE_URL}${a.cover}`, ...images.map((i) => `${SITE_URL}${i}`)],
     datePublished: a.dateISO,
-    dateModified: a.dateISO,
+    dateModified: updatedISO,
     inLanguage: 'en',
     articleSection: a.category,
     keywords: [a.category, ...places].join(', '),
-    author: { '@type': 'Organization', name: 'Itinerary of Türkiye', url: SITE_URL },
-    publisher: { '@type': 'Organization', name: 'Itinerary of Türkiye', logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` } },
+    author: { '@type': author.type ?? 'Organization', name: author.name, url: authorUrl },
+    citation: sources.map((source) => source.url),
+    publisher: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'Itinerary of Türkiye', logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     about: places.map((pl) => ({ '@type': 'Place', name: pl })),
     spatialCoverage: places.map((pl) => ({ '@type': 'Place', name: pl })),
@@ -104,6 +130,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-figure { margin: 38px 0; border-radius: 16px; overflow: hidden; position: relative; aspect-ratio: 3/2; border: 1px solid rgba(8,31,53,.1); }
         .ar-figure .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; padding: 14px 18px; font-size: 12.5px; color: rgba(255,250,241,.9); background: linear-gradient(180deg, transparent, rgba(7,23,38,.7)); }
         .ar-pull { margin: 34px 0; padding: 8px 0 8px 24px; border-left: 3px solid ${a.accent}; font-family: 'Playfair Display', serif; font-size: 23px; line-height: 1.4; color: #081f35; }
+        .ar-sources { margin-top: 46px; padding-top: 28px; border-top: 1px solid rgba(8,31,53,.14); }
+        .ar-sources h2 { margin-top: 0; }
+        .ar-sources a { color: #6f5525; font-weight: 700; text-underline-offset: 3px; }
+        .ar-sources .note { font-size: 13.5px; line-height: 1.65; color: #647889; margin-top: 14px; }
 
         /* SAĞ ASIDE — yapışkan */
         .ar-aside { position: sticky; top: 110px; display: flex; flex-direction: column; gap: 18px; }
@@ -165,13 +195,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <SiteHeader />
 
       <section className="ar-hero">
-        <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={`/images/blog/${a.slug}.jpg`} fallback={a.cover} />
+        <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={`/images/blog/${a.slug}.jpg`} fallback={a.cover} priority />
         <span className="ar-hero-tint" />
         <div className="ar-hero-in">
-          <a href="/blog" className="ar-crumb">← The Journal</a>
+          <Link href="/blog" className="ar-crumb">← The Journal</Link>
           <span className="ar-cat">{a.category}</span>
           <h1 className="ar-h1">{a.title}</h1>
-          <p className="ar-meta">{dateLabel} · {a.readTime}</p>
+          <p className="ar-meta">
+            By <a href={author.url} style={{ color: 'inherit' }}>{author.name}</a> · Published {dateLabel}
+            {updatedISO !== a.dateISO ? ` · Updated ${updatedLabel}` : ''} · {a.readTime}
+          </p>
         </div>
       </section>
 
@@ -198,6 +231,24 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             });
             return nodes;
           })()}
+
+          {sources.length > 0 && (
+            <section className="ar-sources" aria-labelledby="article-sources">
+              <h2 id="article-sources">Sources and further reading</h2>
+              <ul>
+                {sources.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
+                    {source.publisher ? ` — ${source.publisher}` : ''}
+                  </li>
+                ))}
+              </ul>
+              <p className="note">
+                Access conditions, schedules and prices can change. Check the linked official source before travelling.
+                Read our <Link href="/editorial-policy">editorial and review policy</Link>.
+              </p>
+            </section>
+          )}
         </article>
 
         <aside className="ar-aside">

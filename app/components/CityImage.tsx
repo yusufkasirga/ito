@@ -15,19 +15,21 @@ export default function CityImage({
   alt,
   fallback,
   primary,
+  priority = false,
 }: {
   slug: string;
   accent: string;
   alt: string;
   fallback?: string;
   primary?: string;
+  priority?: boolean;
 }) {
   const sources = [primary ?? `/images/dest/${slug}.jpg`, ...(fallback ? [fallback] : [])];
   const [idx, setIdx] = useState(0);
   const src = idx < sources.length ? sources[idx] : null;
 
   return (
-    <span style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }} aria-hidden="true">
+    <span style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }}>
       <span
         style={{
           position: 'absolute',
@@ -49,7 +51,9 @@ export default function CityImage({
         <img
           src={src}
           alt={alt}
-          loading="lazy"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          decoding="async"
           onError={() => setIdx((i) => i + 1)}
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         />

@@ -8,10 +8,26 @@ export type BlogSection =
   | { type: 'h2'; text: string }
   | { type: 'p'; text: string }
   | { type: 'ul'; items: string[] };
+export interface BlogSource {
+  title: string;
+  url: string;
+  publisher?: string;
+}
+
+export interface BlogAuthor {
+  name: string;
+  url: string;
+  type?: 'Person' | 'Organization';
+}
+
 export interface BlogArticle {
   slug: string; title: string; shortTitle: string; category: string;
-  accent: string; cover: string; dateISO: string; readTime: string; excerpt: string;
+  accent: string; cover: string; dateISO: string; updatedISO?: string;
+  readTime: string; excerpt: string;
   body: BlogSection[];
+  author?: BlogAuthor;
+  sources?: BlogSource[];
+  relatedSlugs?: string[];
   // Gövde-içine dağıtılan konu-uyumlu foto slotları (fallback stok).
   // Sahip /images/blog/<slug>-1.jpg, -2.jpg eklerse otomatik onların yerini alır.
   images?: string[];
@@ -1385,6 +1401,29 @@ export const blogArticles: BlogArticle[] = [
   },
   {
     "slug": "hagia-sophia-mosque-visitor-guide",
+    "updatedISO": "2026-09-01",
+    "author": {
+      "name": "Itinerary of Türkiye",
+      "url": "/about",
+      "type": "Organization"
+    },
+    "sources": [
+      {
+        "title": "Historic Areas of Istanbul",
+        "url": "https://whc.unesco.org/en/list/356",
+        "publisher": "UNESCO World Heritage Centre"
+      },
+      {
+        "title": "UNESCO statement on Hagia Sophia",
+        "url": "https://whc.unesco.org/en/news/2156/",
+        "publisher": "UNESCO World Heritage Centre"
+      }
+    ],
+    "relatedSlugs": [
+      "istanbul-public-transport-tourist-guide",
+      "business-travellers-guide-istanbul",
+      "hidden-gems-turkiye"
+    ],
     "title": "Hagia Sophia Mosque: Everything You Should Know Before Your Visit",
     "shortTitle": "Hagia Sophia Mosque Visitor Guide",
     "category": "Istanbul",
@@ -1816,6 +1855,24 @@ export const blogArticles: BlogArticle[] = [
   },
   {
     "slug": "istanbul-public-transport-tourist-guide",
+    "updatedISO": "2026-09-01",
+    "author": {
+      "name": "Itinerary of Türkiye",
+      "url": "/about",
+      "type": "Organization"
+    },
+    "sources": [
+      {
+        "title": "T1 Kabataş–Bağcılar Tram Line",
+        "url": "https://www.metro.istanbul/en/Hatlarimiz/HatDetay?hat=T1",
+        "publisher": "Metro Istanbul"
+      }
+    ],
+    "relatedSlugs": [
+      "hagia-sophia-mosque-visitor-guide",
+      "business-travellers-guide-istanbul",
+      "hidden-gems-turkiye"
+    ],
     "title": "Istanbul Public Transport: Is It Advisable for Tourists? Everything You Need to Know",
     "shortTitle": "Istanbul Public Transport for Tourists",
     "category": "Istanbul",
