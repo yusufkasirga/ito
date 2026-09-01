@@ -74,6 +74,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://itineraryofturkiye.com/#website",
+              "url": "https://itineraryofturkiye.com",
+              "name": "Itinerary of Türkiye",
+              "description": "Independent advisory for medical travel and private Türkiye experiences.",
+              "inLanguage": ["en", "de", "ru"],
+              "publisher": { "@id": "https://itineraryofturkiye.com/#organization" }
+            })
+          }}
+        />
       </head>
       <body style={{margin:0, padding:0}}>{children}<Analytics /><WhatsAppTracker /></body>
     </html>
