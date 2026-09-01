@@ -11,8 +11,14 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
-  const featured = blogArticles[0];
-  const rest = blogArticles.slice(1);
+  const articles = blogArticles
+    .map((article, insertionOrder) => ({ article, insertionOrder }))
+    .sort((a, b) =>
+      b.article.dateISO.localeCompare(a.article.dateISO) || b.insertionOrder - a.insertionOrder
+    )
+    .map(({ article }) => article);
+  const featured = articles[0];
+  const rest = articles.slice(1);
   const clamp = (t: string, n: number) => (t.length > n ? t.slice(0, n).trimEnd() + '…' : t);
 
   return (
