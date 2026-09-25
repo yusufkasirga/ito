@@ -18,3 +18,9 @@ Kaynak: Pexels (https://www.pexels.com/license/ — ticari kullanım serbest, at
 
 Not: Pexels foto ID 2678218 kaynağından kaldırıldığı için 4. hero slaytı çıkarıldı (D-18).
 Aşama 2 (lansman sonrası): stok görseller özel çekim/izinli marka görselleriyle değiştirilecek.
+
+## Hero videosu (25 Eyl 2026)
+`public/videos/hero-turkiye-{720p,480p}.{mp4,webm}` ve `public/images/hero-poster-1280x720.jpg`,
+yukarıdaki lisanslı Pexels fotoğrafları (2325446, 3889742) ile kendi çekimlerimizden
+(`about-bluemosque`, `hero-galata`, `hero-tram`) `scripts/build-hero-video.sh` ile üretildi.
+Harici video kaynağı yok. Gerçek çekim geldiğinde aynı dosya adlarıyla değiştirilir.
