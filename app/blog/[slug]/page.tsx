@@ -7,6 +7,7 @@ import CityImage from '../../components/CityImage';
 import Icon from '../../components/Icon';
 import { getArticle, blogSlugs, blogArticles } from '../blogPosts';
 import { getDestination } from '../../destinations/destinationData';
+import { getPostBySlugDe } from '../../blogs/blogDataDe';
 
 export function generateStaticParams() {
   return blogSlugs.map((slug) => ({ slug }));
@@ -22,7 +23,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${a.title} — Itinerary of Türkiye`,
     description: a.excerpt,
     authors: [{ name: authorName, url: authorUrl }],
-    alternates: { canonical: `${SITE_URL}/blog/${a.slug}` },
+    alternates: {
+      canonical: `${SITE_URL}/blog/${a.slug}`,
+      ...(getPostBySlugDe(a.slug) ? { languages: { en: `${SITE_URL}/blog/${a.slug}`, de: `${SITE_URL}/de/blogs/${a.slug}` } } : {}),
+    },
     openGraph: {
       title: a.title,
       description: a.excerpt,
