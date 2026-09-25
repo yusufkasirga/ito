@@ -6,6 +6,7 @@ import SiteHeader from '../../components/SiteHeader';
 import CityImage from '../../components/CityImage';
 import Icon from '../../components/Icon';
 import { getArticle, blogSlugs, blogArticles } from '../blogPosts';
+import { getDestination } from '../../destinations/destinationData';
 
 export function generateStaticParams() {
   return blogSlugs.map((slug) => ({ slug }));
@@ -58,6 +59,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const sources = a.sources ?? [];
   const places = a.places && a.places.length ? a.places : ['Türkiye'];
   const images = a.images ?? [];
+  const faq = a.faq ?? [];
+  const guides = (a.destinations ?? []).map(getDestination).filter((d) => d !== undefined);
 
   // Görselleri gövdedeki paragraflara (lede hariç) eşit aralıkla dağıt
   const pIdx = a.body.map((s, i) => (s.type === 'p' ? i : -1)).filter((i) => i >= 0).slice(1);
@@ -86,6 +89,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     about: places.map((pl) => ({ '@type': 'Place', name: pl })),
     spatialCoverage: places.map((pl) => ({ '@type': 'Place', name: pl })),
   };
+  const faqLd = faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  } : null;
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -130,6 +138,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-figure { margin: 38px 0; border-radius: 16px; overflow: hidden; position: relative; aspect-ratio: 3/2; border: 1px solid rgba(8,31,53,.1); }
         .ar-figure .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; padding: 14px 18px; font-size: 12.5px; color: rgba(255,250,241,.9); background: linear-gradient(180deg, transparent, rgba(7,23,38,.7)); }
         .ar-pull { margin: 34px 0; padding: 8px 0 8px 24px; border-left: 3px solid ${a.accent}; font-family: 'Playfair Display', serif; font-size: 23px; line-height: 1.4; color: #081f35; }
+        .ar-guides { margin-top: 40px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+        .ar-guides .k { width: 100%; font-size: 11px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #8a6d33; }
+        .ar-guides a { display: inline-flex; padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(138,109,51,.35); color: #081f35; font-weight: 700; font-size: 14px; text-decoration: none; }
+        .ar-guides a:hover { background: rgba(201,169,106,.14); border-color: #c9a96a; }
+        .ar-faq { margin-top: 46px; }
+        .ar-faq details { border-bottom: 1px solid rgba(8,31,53,.1); padding: 16px 0; }
+        .ar-faq summary { cursor: pointer; font-weight: 800; color: #081f35; font-size: 17px; }
+        .ar-faq details p { margin: 10px 0 0; }
         .ar-sources { margin-top: 46px; padding-top: 28px; border-top: 1px solid rgba(8,31,53,.14); }
         .ar-sources h2 { margin-top: 0; }
         .ar-sources a { color: #6f5525; font-weight: 700; text-underline-offset: 3px; }
@@ -191,6 +207,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
 
       <SiteHeader />
 
@@ -231,6 +248,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             });
             return nodes;
           })()}
+
+          {guides.length > 0 && (
+            <nav className="ar-guides" aria-label="Destination guides">
+              <span className="k">Destination guides</span>
+              {guides.map((g) => <Link key={g.slug} href={`/destinations/${g.slug}`}>{g.name}</Link>)}
+            </nav>
+          )}
+
+          {faq.length > 0 && (
+            <section className="ar-faq" aria-labelledby="article-faq">
+              <h2 id="article-faq">Frequently asked questions</h2>
+              {faq.map((f) => (
+                <details key={f.q}>
+                  <summary>{f.q}</summary>
+                  <p>{f.a}</p>
+                </details>
+              ))}
+            </section>
+          )}
 
           {sources.length > 0 && (
             <section className="ar-sources" aria-labelledby="article-sources">

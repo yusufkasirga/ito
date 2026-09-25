@@ -33,6 +33,10 @@ export interface BlogArticle {
   images?: string[];
   // Geo-SEO: yazının kapsadığı Türkiye konumları (structured data + alt metin).
   places?: string[];
+  // İlgili destinasyon rehberleri (/destinations/<slug>) — iç link ağı
+  destinations?: string[];
+  // Yazı sonunda SSS + FAQPage yapılandırılmış verisi
+  faq?: { q: string; a: string }[];
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -2344,6 +2348,496 @@ export const blogArticles: BlogArticle[] = [
       {
         "type": "p",
         "text": "Whether you are visiting Istanbul for the first time, planning a multi-city Türkiye holiday or looking for help organising your transportation and sightseeing, Itinerary of Türkiye can help make your journey easier, more organised and more comfortable."
+      }
+    ]
+  },
+  {
+    "slug": "istanbul-itinerary-3-5-7-days",
+    "author": {
+      "name": "Itinerary of Türkiye",
+      "url": "/about",
+      "type": "Organization"
+    },
+    "relatedSlugs": [
+      "hagia-sophia-mosque-visitor-guide",
+      "istanbul-public-transport-tourist-guide",
+      "hidden-gems-turkiye"
+    ],
+    "destinations": [
+      "istanbul",
+      "bursa",
+      "edirne",
+      "cappadocia"
+    ],
+    "title": "Istanbul Itinerary for a First Visit: 3, 5 or 7 Days Done Right",
+    "shortTitle": "Istanbul Itinerary: 3, 5 or 7 Days",
+    "category": "Istanbul",
+    "accent": "#1f4e6b",
+    "cover": "/images/hero-galata-1000x1250.jpg",
+    "images": [
+      "/images/about-bluemosque-1200x1040.jpg",
+      "/images/pexels-1549326-800x1200.jpg",
+      "/images/hero-tram-1000x1250.jpg"
+    ],
+    "places": [
+      "Istanbul",
+      "Sultanahmet",
+      "Galata",
+      "Bosphorus",
+      "Kadıköy",
+      "Balat"
+    ],
+    "dateISO": "2026-09-25",
+    "readTime": "8 min read",
+    "excerpt": "How to plan Istanbul for a first visit: day-by-day itineraries for 3, 5 and 7 days, the right order to see the sights, and the mistakes that cost first-time visitors the most time.",
+    "body": [
+      {
+        "type": "p",
+        "text": "For a first visit, three full days is the minimum for Istanbul, five is comfortable, and seven lets you add the Princes' Islands or a day trip. The key is not how much you see but the order: historic peninsula first, the Bosphorus by boat, then one neighbourhood on each side of the water."
+      },
+      {
+        "type": "p",
+        "text": "Below are three itineraries we use as a starting point with first-time couples. They are built around opening hours, walking distances and crowd patterns — not around a checklist."
+      },
+      {
+        "type": "h2",
+        "text": "Before You Plan: Four Things That Shape Every Istanbul Itinerary"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Weekly closures: Topkapı Palace is generally closed on Tuesdays, Dolmabahçe Palace on Mondays, and the Grand Bazaar on Sundays. Always check the official schedule for the week you travel.",
+          "Prayer times: Hagia Sophia and the Blue Mosque are working mosques. Tourist visits pause during prayers, and Friday midday is the busiest time to avoid.",
+          "Traffic: crossing the city by car at rush hour can take over an hour. Trams, the metro and ferries are often faster.",
+          "Where you stay: Sultanahmet keeps you close to the historic sights; Karaköy and Galata put you nearer to restaurants and evening life."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Istanbul in 3 Days"
+      },
+      {
+        "type": "p",
+        "text": "Day 1 — The historic peninsula. Start at Hagia Sophia at opening time, then the Blue Mosque and the Hippodrome. After lunch, visit the Basilica Cistern and end the day at Topkapı Palace, leaving at least three hours for it."
+      },
+      {
+        "type": "p",
+        "text": "Day 2 — Bazaars and the Bosphorus. Walk through the Grand Bazaar in the morning, continue downhill through the market streets to the Spice Bazaar, and see Süleymaniye Mosque on the way. In the afternoon, take a Bosphorus cruise from Eminönü and watch the palaces and waterside mansions slide past."
+      },
+      {
+        "type": "p",
+        "text": "Day 3 — Galata and the Asian side. Walk up to Galata Tower and along İstiklal Avenue, then take the ferry to Kadıköy for its food market and a relaxed evening on the Asian side."
+      },
+      {
+        "type": "h2",
+        "text": "Istanbul in 5 Days"
+      },
+      {
+        "type": "p",
+        "text": "Follow the three-day plan, then add:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Day 4 — Balat and Fener: colourful streets, historic churches and synagogues, and the Chora (Kariye) mosaics nearby. Finish with a sunset over the Golden Horn.",
+          "Day 5 — Dolmabahçe Palace in the morning, then the Bosphorus villages of Ortaköy, Bebek and Arnavutköy for lunch by the water."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Istanbul in 7 Days"
+      },
+      {
+        "type": "p",
+        "text": "With a full week, slow down and add two very different days:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The Princes' Islands: a ferry ride to Büyükada, where there are no private cars, pine woods and old wooden mansions.",
+          "A day trip: Bursa, the first Ottoman capital, for İskender kebab and thermal baths — or Edirne for the Selimiye Mosque. Both work better with an overnight stay."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Mistakes That Cost First-Time Visitors the Most"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Trying to do the historic peninsula in half a day. Hagia Sophia, the Blue Mosque, the Cistern and Topkapı together are a full day.",
+          "Arriving at major sights at midday. Opening time and late afternoon are much calmer.",
+          "Taking taxis everywhere. The T1 tram and the ferries are faster, cheaper and part of the experience.",
+          "Staying only in Sultanahmet. The city's real life is in Karaköy, Kadıköy, Balat and along the Bosphorus.",
+          "Skipping the Asian side. It takes 20 minutes by ferry and shows you how locals actually live."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Where Istanbul Fits in a Longer Türkiye Trip"
+      },
+      {
+        "type": "p",
+        "text": "Most first-time visitors combine Istanbul with Cappadocia: a one-hour flight to Kayseri or Nevşehir, and two or three nights among the valleys and balloons. A classic 7-day Türkiye trip is four days in Istanbul and three in Cappadocia."
+      },
+      {
+        "type": "h2",
+        "text": "How Itinerary of Türkiye Can Help"
+      },
+      {
+        "type": "p",
+        "text": "We plan Istanbul around your pace — the right hotel area, timed entries, licensed guides where they add value, and honest advice on what to skip. We are paid by you, not by hotels or shops, so every recommendation is made for one reason: it suits you."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do you need in Istanbul?",
+        "a": "Three full days covers the main historic sights, a Bosphorus cruise and one neighbourhood on the Asian side. Five days is more comfortable, and seven lets you add the Princes' Islands or a day trip to Bursa or Edirne."
+      },
+      {
+        "q": "What is the best order to see Istanbul's sights?",
+        "a": "Start with the historic peninsula — Hagia Sophia, the Blue Mosque, the Basilica Cistern and Topkapı Palace — then the bazaars and a Bosphorus cruise, and finally Galata and the Asian side."
+      },
+      {
+        "q": "Is 2 days enough for Istanbul?",
+        "a": "Two days is enough to see the historic peninsula and take a Bosphorus cruise, but it is rushed. If you can, add a third day."
+      },
+      {
+        "q": "Which day is the Grand Bazaar closed?",
+        "a": "The Grand Bazaar is generally closed on Sundays and on some religious holidays. Check the schedule for your travel dates."
+      }
+    ]
+  },
+  {
+    "slug": "turkey-tourist-scams-how-to-avoid",
+    "author": {
+      "name": "Itinerary of Türkiye",
+      "url": "/about",
+      "type": "Organization"
+    },
+    "relatedSlugs": [
+      "is-turkey-safe-2026",
+      "istanbul-public-transport-tourist-guide",
+      "istanbul-itinerary-3-5-7-days"
+    ],
+    "destinations": [
+      "istanbul",
+      "cappadocia",
+      "antalya"
+    ],
+    "title": "Tourist Scams in Türkiye: 9 Common Tricks and How to Avoid Them",
+    "shortTitle": "Tourist Scams in Türkiye",
+    "category": "Travel",
+    "accent": "#8a3a2b",
+    "cover": "/images/hero-tram-1000x1250.jpg",
+    "images": [
+      "/images/hero-galata-1000x1250.jpg",
+      "/images/pexels-2325446-1920x1080.jpg"
+    ],
+    "places": [
+      "Türkiye",
+      "Istanbul",
+      "Sultanahmet",
+      "Taksim",
+      "Cappadocia"
+    ],
+    "dateISO": "2026-09-25",
+    "readTime": "7 min read",
+    "excerpt": "The tourist scams first-time visitors to Türkiye actually run into — from taxi tricks and the shoe-shine brush to the bar scam — and simple habits that protect you.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Türkiye is a safe and hospitable country, and most people you meet will simply be helpful. But like every major destination, it has a handful of well-known tricks aimed at first-time visitors. Knowing them in advance is usually enough to avoid them entirely."
+      },
+      {
+        "type": "p",
+        "text": "These are the ones we warn our own clients about, with the simple habits that protect you."
+      },
+      {
+        "type": "h2",
+        "text": "1. The Taxi Meter and Route Tricks"
+      },
+      {
+        "type": "p",
+        "text": "Some taxi drivers do not turn on the meter, take a long route or claim the meter is broken. Insist on the meter before you set off, or use a ride app such as BiTaksi or Uber, which works with official taxis in Istanbul and shows the route. Your hotel can also arrange a transfer at a fixed price."
+      },
+      {
+        "type": "h2",
+        "text": "2. The Banknote Switch"
+      },
+      {
+        "type": "p",
+        "text": "You hand over a large note; the driver quickly swaps it for a smaller one and says you underpaid. Turkish banknotes of different values can look alike at a glance, especially at night. Say the value out loud as you pay, keep large and small notes separate, and use a card where possible."
+      },
+      {
+        "type": "h2",
+        "text": "3. The Dropped Shoe-Shine Brush"
+      },
+      {
+        "type": "p",
+        "text": "A shoe-shiner walks past and \"accidentally\" drops his brush. You pick it up, he thanks you warmly, insists on shining your shoes for free — and then asks for a large sum. A polite \"no, thank you\" and walking on is enough."
+      },
+      {
+        "type": "h2",
+        "text": "4. The Friendly Stranger and the Bar Scam"
+      },
+      {
+        "type": "p",
+        "text": "Mostly aimed at men travelling alone or in pairs around Taksim and Sultanahmet. A friendly stranger suggests a drink at a bar he knows; the bill at the end is enormous, and it is hard to leave without paying. Choose your own bars and restaurants, and be wary of invitations from people you have just met."
+      },
+      {
+        "type": "h2",
+        "text": "5. \"The Museum Is Closed — Come to My Cousin's Shop\""
+      },
+      {
+        "type": "p",
+        "text": "Someone near a major sight tells you it is closed for prayer or a holiday, and offers to take you somewhere else — usually a carpet or jewellery shop. Check the entrance yourself. Opening hours are posted and easy to verify online."
+      },
+      {
+        "type": "h2",
+        "text": "6. Restaurants Without Prices"
+      },
+      {
+        "type": "p",
+        "text": "A menu without prices, or fish and meze \"priced by weight\" without a clear figure, can end in a painful bill. Ask for the price before you order, especially for fish, and check the bill before paying."
+      },
+      {
+        "type": "h2",
+        "text": "7. Unofficial Guides at the Big Sites"
+      },
+      {
+        "type": "p",
+        "text": "At Hagia Sophia, Topkapı or Ephesus, unlicensed guides may offer tours at the entrance. Licensed guides in Türkiye carry an official ID card. Book guides in advance through a trusted source."
+      },
+      {
+        "type": "h2",
+        "text": "8. Balloon and Tour Deals That Are Too Cheap"
+      },
+      {
+        "type": "p",
+        "text": "In Cappadocia, very cheap balloon offers can mean unlicensed operators, overcrowded baskets or hidden extras. Book with a licensed, established company and confirm in writing what happens if the flight is cancelled for weather."
+      },
+      {
+        "type": "h2",
+        "text": "9. Airport Currency Exchange"
+      },
+      {
+        "type": "p",
+        "text": "Airport exchange desks often offer poor rates. Change a small amount if you need to, then use an ATM belonging to a major bank or a reputable exchange office in the city. Decline \"dynamic currency conversion\" and pay in Turkish lira."
+      },
+      {
+        "type": "h2",
+        "text": "Simple Habits That Prevent Almost Every Scam"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Agree the price before any service — taxis, guides, shoe-shines, restaurants.",
+          "Pay by card where possible and count cash out loud.",
+          "Choose your own restaurants, bars and shops.",
+          "Verify opening hours yourself.",
+          "Save the emergency number 112, which covers police, ambulance and fire."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How Itinerary of Türkiye Can Help"
+      },
+      {
+        "type": "p",
+        "text": "Most of these tricks disappear when someone local has already arranged your transfers, guides and restaurants. We plan the journey, recommend only what we have verified, and stay reachable while you are here — so if something does not feel right, you have a real person to call."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Türkiye safe for tourists?",
+        "a": "Yes. Millions of visitors travel through Türkiye every year without problems. The most common issues are petty tricks around taxis, restaurants and shops in busy tourist areas, which are easy to avoid once you know them."
+      },
+      {
+        "q": "How do I avoid taxi scams in Istanbul?",
+        "a": "Insist on the meter, use a ride app such as BiTaksi or Uber, say the value of your banknotes out loud when paying, or ask your hotel to arrange a fixed-price transfer."
+      },
+      {
+        "q": "What is the emergency number in Türkiye?",
+        "a": "112 is the single emergency number for police, ambulance and fire."
+      }
+    ]
+  },
+  {
+    "slug": "best-time-to-visit-turkiye-month-by-month",
+    "author": {
+      "name": "Itinerary of Türkiye",
+      "url": "/about",
+      "type": "Organization"
+    },
+    "relatedSlugs": [
+      "istanbul-itinerary-3-5-7-days",
+      "hidden-gems-turkiye",
+      "is-turkey-safe-2026"
+    ],
+    "destinations": [
+      "istanbul",
+      "cappadocia",
+      "antalya",
+      "bodrum",
+      "kars"
+    ],
+    "title": "Best Time to Visit Türkiye: A Month-by-Month Guide",
+    "shortTitle": "Best Time to Visit Türkiye",
+    "category": "Travel",
+    "accent": "#8a4b2b",
+    "cover": "/images/pexels-2325446-1920x1080.jpg",
+    "images": [
+      "/images/pexels-3889742-1920x1080.jpg",
+      "/images/hero-galata-1000x1250.jpg"
+    ],
+    "places": [
+      "Türkiye",
+      "Istanbul",
+      "Cappadocia",
+      "Antalya",
+      "Aegean coast",
+      "Eastern Anatolia"
+    ],
+    "dateISO": "2026-09-25",
+    "readTime": "7 min read",
+    "excerpt": "When to visit Türkiye for Istanbul, Cappadocia, the coast or the east — a month-by-month guide to weather, crowds and the best places to be.",
+    "body": [
+      {
+        "type": "p",
+        "text": "The best time to visit Türkiye for most first-time travellers is April to early June or September to October. The weather is warm but not hot, the sea is swimmable in autumn, and Istanbul and Cappadocia are more comfortable than in peak summer."
+      },
+      {
+        "type": "p",
+        "text": "But Türkiye is a big country with very different climates. The Black Sea is green and rainy, the south coast is hot and dry, and the east has real winters. Here is how the year looks month by month."
+      },
+      {
+        "type": "h2",
+        "text": "The Short Answer by Destination"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Istanbul: April–May and September–October.",
+          "Cappadocia: April–June and September–October; winter for snow scenery.",
+          "Mediterranean and Aegean coast: late May–June and September–October for warm sea without peak crowds.",
+          "Southeast (Mardin, Şanlıurfa, Gaziantep): October–April; summers are extremely hot.",
+          "Eastern Anatolia and the Black Sea: June–September; Kars and the Eastern Express in winter for snow."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "January and February"
+      },
+      {
+        "type": "p",
+        "text": "Cold and quiet. Istanbul is often grey and rainy, with occasional snow. Cappadocia can be covered in snow, which is beautiful, but balloon flights are cancelled more often. This is the season for ski resorts such as Uludağ and Erzurum, and for the snowy journey to Kars. Prices are at their lowest."
+      },
+      {
+        "type": "h2",
+        "text": "March"
+      },
+      {
+        "type": "p",
+        "text": "Changeable weather, but the first mild days begin on the coast. A good month for city breaks and ancient sites without crowds."
+      },
+      {
+        "type": "h2",
+        "text": "April"
+      },
+      {
+        "type": "p",
+        "text": "One of the best months. Istanbul's tulips bloom in its parks, especially in Emirgan, and temperatures are ideal for walking. Cappadocia's valleys turn green. The sea is still cool."
+      },
+      {
+        "type": "h2",
+        "text": "May"
+      },
+      {
+        "type": "p",
+        "text": "Arguably the best month overall: warm, green and not yet busy. Excellent for combining Istanbul, Cappadocia and the Aegean ruins such as Ephesus. The sea starts to warm up by the end of the month."
+      },
+      {
+        "type": "h2",
+        "text": "June"
+      },
+      {
+        "type": "p",
+        "text": "Summer begins. The coast is warm and swimmable, days are long, and Cappadocia still has comfortable mornings. Crowds build towards the end of the month."
+      },
+      {
+        "type": "h2",
+        "text": "July and August"
+      },
+      {
+        "type": "p",
+        "text": "Peak season. The coast is hot and busy, and inland sites such as Ephesus and Pamukkale are best visited at opening time. It is the perfect season for the Black Sea highlands, Lake Van and the cooler east. Book hotels well in advance."
+      },
+      {
+        "type": "h2",
+        "text": "September"
+      },
+      {
+        "type": "p",
+        "text": "Our favourite month for the coast: the sea is at its warmest, the heat eases and school holidays are over. Istanbul becomes pleasant again."
+      },
+      {
+        "type": "h2",
+        "text": "October"
+      },
+      {
+        "type": "p",
+        "text": "Excellent everywhere except the high east. Warm days on the coast, golden light in Cappadocia and comfortable city weather. A great month for the southeast, including Göbekli Tepe."
+      },
+      {
+        "type": "h2",
+        "text": "November"
+      },
+      {
+        "type": "p",
+        "text": "Quiet and mild on the coast, cooler inland. Many beach hotels close. A good month for Istanbul museums and southeastern food cities."
+      },
+      {
+        "type": "h2",
+        "text": "December"
+      },
+      {
+        "type": "p",
+        "text": "Winter returns. In Konya, the Şeb-i Arus commemoration of Rumi's death draws visitors for the whirling ceremonies. Istanbul is festive around the New Year, and Cappadocia may have its first snow."
+      },
+      {
+        "type": "h2",
+        "text": "Religious Holidays and Ramadan"
+      },
+      {
+        "type": "p",
+        "text": "Ramadan and the two major holidays (Ramazan Bayramı and Kurban Bayramı) move about 11 days earlier each year. During the holidays, domestic travel peaks and some businesses close for a few days. Ramadan itself rarely affects visitors, and evenings are especially atmospheric. Check the dates for your year before booking."
+      },
+      {
+        "type": "h2",
+        "text": "How Itinerary of Türkiye Can Help"
+      },
+      {
+        "type": "p",
+        "text": "We match your dates to the right regions — and, if your dates are fixed, the regions to your dates. Tell us when you can travel and what you want from the trip, and we will tell you honestly where Türkiye is at its best that week."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best month to visit Türkiye?",
+        "a": "May and September are the best all-round months: warm, not too crowded, and good for combining Istanbul, Cappadocia and the coast."
+      },
+      {
+        "q": "When is the sea warm enough to swim in Türkiye?",
+        "a": "On the Mediterranean and Aegean coasts, roughly from late May to late October, with the warmest water in August and September."
+      },
+      {
+        "q": "Is Türkiye worth visiting in winter?",
+        "a": "Yes, for city breaks, snow in Cappadocia, skiing and low prices. The coast is quiet and many seasonal hotels close."
+      },
+      {
+        "q": "When is the best time for Cappadocia balloons?",
+        "a": "April to June and September to October usually have the most stable flying conditions. Flights run year-round when weather allows, but winter cancellations are more frequent."
       }
     ]
   }
