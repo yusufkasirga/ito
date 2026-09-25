@@ -1,6 +1,7 @@
 'use client';
 
-import { useMemo, useState, useEffect, useRef } from 'react';
+import { useMemo, useState, useEffect, useRef, useSyncExternalStore } from 'react';
+import Link from 'next/link';
 import { whatsAppUrl } from '@/lib/config';
 import HeroVideo from '../components/HeroVideo';
 import Icon from '../components/Icon';
@@ -15,10 +16,11 @@ export default function Home() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [selectedPath, setSelectedPath] = useState('');
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
-  const [motionPaused, setMotionPaused] = useState(false);
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) setMotionPaused(true);
-  }, []);
+  const motionPaused = useSyncExternalStore(
+    () => () => {},
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    () => true,
+  );
   const progressRef = useRef<HTMLDivElement>(null);
 
   // GoTürkiye referansı: kaydırdıkça katman katman açılan editoryal bölümler
@@ -665,11 +667,11 @@ export default function Home() {
       {/* MOBILE MENU */}
       <div className={`mobile-menu ${mobileMenuOpen ? 'open' : 'closed'}`}>
         <button className="mobile-close" onClick={() => setMobileMenuOpen(false)}><Icon name="close" size={22} /></button>
-        <a href="/ru/about" onClick={() => setMobileMenuOpen(false)}>О нас</a>
+        <Link href="/ru/about" onClick={() => setMobileMenuOpen(false)}>О нас</Link>
         <div style={{textAlign:'center'}}>
-          <a href="/ru/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
+          <Link href="/ru/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
             Услуги {mobileServicesOpen ? '▲' : '▼'}
-          </a>
+          </Link>
           {mobileServicesOpen && (
             <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
               <a href="#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Туризм</a>
@@ -677,21 +679,21 @@ export default function Home() {
             </div>
           )}
         </div>
-        <a href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</a>
-        <a href="/de" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>DE</a>
-        <a href="/testimonials" onClick={() => setMobileMenuOpen(false)}>Отзывы</a>
-        <a href="/#contact" onClick={() => setMobileMenuOpen(false)}>Контакты</a>
+        <Link href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</Link>
+        <Link href="/de" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>DE</Link>
+        <Link href="/testimonials" onClick={() => setMobileMenuOpen(false)}>Отзывы</Link>
+        <Link href="/#contact" onClick={() => setMobileMenuOpen(false)}>Контакты</Link>
         <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{color:'#25D366'}}>WhatsApp</a>
       </div>
 
       {/* NAVBAR */}
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" /></Link>
           <nav className="nav-links">
-            <a href="/ru/about">О нас</a>
+            <Link href="/ru/about">О нас</Link>
             <div className="nav-dropdown" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)} onFocus={() => setServicesOpen(true)} onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setServicesOpen(false); }}>
-              <a href="/ru/services">Услуги</a>
+              <Link href="/ru/services">Услуги</Link>
               {servicesOpen && (
                 <div className="nav-dropdown-menu">
                   <a href="#tourism">Туризм</a>
@@ -699,11 +701,11 @@ export default function Home() {
                 </div>
               )}
             </div>
-            <a href="/testimonials">Отзывы</a>
-            <a href="/#contact">Контакты</a>
+            <Link href="/testimonials">Отзывы</Link>
+            <Link href="/#contact">Контакты</Link>
             <button className="dm-toggle" onClick={() => setDarkMode(!dm)} title="Toggle dark mode"><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
-                      <a href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
-                      <a href="/de" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
+                      <Link href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
+                      <Link href="/de" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</Link>
           </nav>
           <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
             <button className="dm-toggle" onClick={() => setDarkMode(!dm)} style={{display:'none'}}><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
@@ -815,7 +817,7 @@ export default function Home() {
             <p style={{color: dm ? 'rgba(240,237,232,.65)' : '#647889', fontSize:'15px', lineHeight:'1.8', marginBottom:'28px'}}>
               Мы знаем, каким непростым бывает пребывание в чужой стране. Поэтому мы видим себя мостом: связываем вас с местами, услугами и впечатлениями, которые соответствуют вашим потребностям, — без неопределённости самостоятельного пути.
             </p>
-            <a className="btn btn-primary" href="/ru/about">Подробнее о нас</a>
+            <Link className="btn btn-primary" href="/ru/about">Подробнее о нас</Link>
             <div className="about-features">
               <div className="about-feat"><h4><Icon name="landmark" size={15} style={{marginRight:6,verticalAlign:-2}} />Путешествия и туризм</h4><p>Продуманные маршруты и отдых</p></div>
               <div className="about-feat"><h4><Icon name="medical" size={15} style={{marginRight:6,verticalAlign:-2}} />Медицина и эстетика</h4><p>Консультации и координация лечения</p></div>
@@ -1116,15 +1118,15 @@ export default function Home() {
             </div>
             <div>
               <h4>Другие услуги</h4>
-              <a href="/ru/future-services#business">Бизнес-консалтинг</a>
-              <a href="/ru/future-services#investment">Инвестиции и недвижимость</a>
-              <a href="/blogs">Статьи и гиды</a>
+              <Link href="/ru/future-services#business">Бизнес-консалтинг</Link>
+              <Link href="/ru/future-services#investment">Инвестиции и недвижимость</Link>
+              <Link href="/blogs">Статьи и гиды</Link>
               <a href="#contact">Контакты</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
           <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/ru/privacy" style={{color:'inherit'}}>Политика конфиденциальности</a> · <a href="/ru/terms" style={{color:'inherit'}}>Условия использования</a>
+            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/ru/privacy" style={{color:'inherit'}}>Политика конфиденциальности</Link> · <Link href="/ru/terms" style={{color:'inherit'}}>Условия использования</Link>
           </div>
         </div>
       </footer>

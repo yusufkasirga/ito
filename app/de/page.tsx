@@ -1,6 +1,7 @@
 'use client';
 
-import { useMemo, useState, useEffect, useRef } from 'react';
+import { useMemo, useState, useEffect, useRef, useSyncExternalStore } from 'react';
+import Link from 'next/link';
 import { whatsAppUrl } from '@/lib/config';
 import HeroVideo from '../components/HeroVideo';
 import Icon from '../components/Icon';
@@ -15,10 +16,11 @@ export default function Home() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [selectedPath, setSelectedPath] = useState('');
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
-  const [motionPaused, setMotionPaused] = useState(false);
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) setMotionPaused(true);
-  }, []);
+  const motionPaused = useSyncExternalStore(
+    () => () => {},
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    () => true,
+  );
   const progressRef = useRef<HTMLDivElement>(null);
 
   // GoTürkiye referansı: kaydırdıkça katman katman açılan editoryal bölümler
@@ -665,11 +667,11 @@ export default function Home() {
       {/* MOBILE MENU */}
       <div className={`mobile-menu ${mobileMenuOpen ? 'open' : 'closed'}`}>
         <button className="mobile-close" onClick={() => setMobileMenuOpen(false)}><Icon name="close" size={22} /></button>
-        <a href="/de/about" onClick={() => setMobileMenuOpen(false)}>Über uns</a>
+        <Link href="/de/about" onClick={() => setMobileMenuOpen(false)}>Über uns</Link>
         <div style={{textAlign:'center'}}>
-          <a href="/de/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
+          <Link href="/de/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
             Leistungen {mobileServicesOpen ? '▲' : '▼'}
-          </a>
+          </Link>
           {mobileServicesOpen && (
             <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
               <a href="#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Tourismus</a>
@@ -677,8 +679,8 @@ export default function Home() {
             </div>
           )}
         </div>
-        <a href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</a>
-        <a href="/de/testimonials" onClick={() => setMobileMenuOpen(false)}>Referenzen</a>
+        <Link href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</Link>
+        <Link href="/de/testimonials" onClick={() => setMobileMenuOpen(false)}>Referenzen</Link>
         <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Kontakt</a>
         <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{color:'#25D366'}}>WhatsApp</a>
       </div>
@@ -686,11 +688,11 @@ export default function Home() {
       {/* NAVBAR */}
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/de"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/de"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" /></Link>
           <nav className="nav-links">
-            <a href="/de/about">Über uns</a>
+            <Link href="/de/about">Über uns</Link>
             <div className="nav-dropdown" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)} onFocus={() => setServicesOpen(true)} onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setServicesOpen(false); }}>
-              <a href="/de/services">Leistungen</a>
+              <Link href="/de/services">Leistungen</Link>
               {servicesOpen && (
                 <div className="nav-dropdown-menu">
                   <a href="#tourism">Tourismus</a>
@@ -698,10 +700,10 @@ export default function Home() {
                 </div>
               )}
             </div>
-            <a href="/de/testimonials">Referenzen</a>
+            <Link href="/de/testimonials">Referenzen</Link>
             <a href="#contact">Kontakt</a>
             <button className="dm-toggle" onClick={() => setDarkMode(!dm)} title="Toggle dark mode"><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
-                      <a href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
+                      <Link href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
           </nav>
           <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
             <button className="dm-toggle" onClick={() => setDarkMode(!dm)} style={{display:'none'}}><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
@@ -741,7 +743,7 @@ export default function Home() {
               <div className="trust-strip-divider" />
               <div className="trust-strip-item"><span className="trust-live-dot" />Antwort in wenigen Stunden — echte Menschen, keine Bots</div>
               <div className="trust-strip-divider" />
-              <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} "{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…"</div>
+              <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} &ldquo;{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…&rdquo;</div>
             </div>
           </div>
         </div>
@@ -813,7 +815,7 @@ export default function Home() {
             <p style={{color: dm ? 'rgba(240,237,232,.65)' : '#647889', fontSize:'15px', lineHeight:'1.8', marginBottom:'28px'}}>
               Wir wissen, wie überwältigend es sein kann, sich in einem fremden Land zurechtzufinden. Deshalb verstehen wir uns als Brücke — und verbinden Sie nahtlos mit den Zielen, Leistungen und Erlebnissen, die zu Ihren Bedürfnissen passen, ohne die Unsicherheit des Alleingangs.
             </p>
-            <a className="btn btn-primary" href="/de/about">Mehr über uns</a>
+            <Link className="btn btn-primary" href="/de/about">Mehr über uns</Link>
             <div className="about-features">
               <div className="about-feat"><h4><Icon name="landmark" size={15} style={{marginRight:6,verticalAlign:-2}} />Reisen & Tourismus</h4><p>Kuratierte Urlaube und Reiseerlebnisse</p></div>
               <div className="about-feat"><h4><Icon name="medical" size={15} style={{marginRight:6,verticalAlign:-2}} />Medizin & Ästhetik</h4><p>Behandlungsberatung und Koordination</p></div>
@@ -956,7 +958,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="testi-cat">{t.category}</div>
-                <p className="testi-text" style={{color: dm ? 'rgba(240,237,232,.75)' : '#4a5568'}}>"{t.text}"</p>
+                <p className="testi-text" style={{color: dm ? 'rgba(240,237,232,.75)' : '#4a5568'}}>&ldquo;{t.text}&rdquo;</p>
                 <div className="testi-stars">{'★'.repeat(t.rating)}</div>
               </div>
             ))}
@@ -1114,15 +1116,15 @@ export default function Home() {
             </div>
             <div>
               <h4>Weitere Leistungen</h4>
-              <a href="/de/future-services#business">Business-Beratung</a>
-              <a href="/de/future-services#investment">Investment &amp; Immobilien</a>
-              <a href="/de/blogs">Ratgeber &amp; Artikel</a>
+              <Link href="/de/future-services#business">Business-Beratung</Link>
+              <Link href="/de/future-services#investment">Investment &amp; Immobilien</Link>
+              <Link href="/de/blogs">Ratgeber &amp; Artikel</Link>
               <a href="#contact">Kontakt</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
           <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Datenschutz</a> · <a href="/de/terms" style={{color:'inherit'}}>AGB / Nutzungsbedingungen</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a>
+            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB / Nutzungsbedingungen</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link>
           </div>
         </div>
       </footer>

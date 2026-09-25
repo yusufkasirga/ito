@@ -1,6 +1,7 @@
 'use client';
 
-import { useMemo, useState, useEffect, useRef } from 'react';
+import { useMemo, useState, useEffect, useRef, useSyncExternalStore } from 'react';
+import Link from 'next/link';
 import { whatsAppUrl } from '@/lib/config';
 import HeroVideo from './components/HeroVideo';
 import Icon from './components/Icon';
@@ -10,10 +11,11 @@ import { track } from '@vercel/analytics';
 
 export default function Home() {
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
-  const [motionPaused, setMotionPaused] = useState(false);
-  useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) setMotionPaused(true);
-  }, []);
+  const motionPaused = useSyncExternalStore(
+    () => () => {},
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    () => true,
+  );
   const progressRef = useRef<HTMLDivElement>(null);
 
   // GoTürkiye referansı: kaydırdıkça katman katman açılan editoryal bölümler
@@ -635,7 +637,7 @@ export default function Home() {
         <div className="hero-split">
           <div>
             <p className="hero-eyebrow">Live & responding right now</p>
-            <h1 className="serif">Türkiye Awaits.<em>We'll Take You There.</em></h1>
+            <h1 className="serif">Türkiye Awaits.<em>We&rsquo;ll Take You There.</em></h1>
             <p className="hero-copy">Your private Turkey travel advisory. We plan your journey, verify every provider, and stay by your side while you are here — paid by you, and only you, so every recommendation is made for one reason: it is right for you.</p>
             <div className="hero-btns">
               <a className="hero-pill hero-pill-primary" href="#tourism"><Icon name="landmark" size={17} /> Tourism</a>
@@ -646,7 +648,7 @@ export default function Home() {
               <div className="trust-strip-divider" />
               <div className="trust-strip-item"><span className="trust-live-dot" />Replies within hours — real people, no bots</div>
               <div className="trust-strip-divider" />
-              <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} "{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…"</div>
+              <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} &ldquo;{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…&rdquo;</div>
             </div>
           </div>
         </div>
@@ -718,7 +720,7 @@ export default function Home() {
             <p style={{color: dm ? 'rgba(240,237,232,.65)' : '#647889', fontSize:'15px', lineHeight:'1.8', marginBottom:'28px'}}>
               We understand how overwhelming it can be to navigate an unfamiliar country. That is why we positioned ourselves as a bridge — connecting you seamlessly to the destinations, services, and experiences that match your needs, without the uncertainty of going it alone.
             </p>
-            <a className="btn btn-primary" href="/about">Learn More About Us</a>
+            <Link className="btn btn-primary" href="/about">Learn More About Us</Link>
             <div className="about-features">
               <div className="about-feat"><h4><Icon name="landmark" size={15} style={{marginRight:6,verticalAlign:-2}} />Leisure & Tourism</h4><p>Curated holidays and travel experiences</p></div>
               <div className="about-feat"><h4><Icon name="medical" size={15} style={{marginRight:6,verticalAlign:-2}} />Medical & Aesthetic</h4><p>Procedure guidance and coordination</p></div>
@@ -842,9 +844,9 @@ export default function Home() {
             ))}
           </div>
           <div style={{textAlign:'center', marginTop:'26px'}}>
-            <a href="/how-we-work" style={{color: dm ? 'var(--gold)' : 'var(--gold-ink)', fontWeight:800, fontSize:'14px', textDecoration:'none'}}>
+            <Link href="/how-we-work" style={{color: dm ? 'var(--gold)' : 'var(--gold-ink)', fontWeight:800, fontSize:'14px', textDecoration:'none'}}>
               See exactly what a planning consultation includes →
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -866,7 +868,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="testi-cat">{t.category}</div>
-                <p className="testi-text" style={{color: dm ? 'rgba(240,237,232,.75)' : '#4a5568'}}>"{t.text}"</p>
+                <p className="testi-text" style={{color: dm ? 'rgba(240,237,232,.75)' : '#4a5568'}}>&ldquo;{t.text}&rdquo;</p>
                 <div className="testi-stars">{'★'.repeat(t.rating)}</div>
               </div>
             ))}
@@ -941,17 +943,17 @@ export default function Home() {
             </div>
             <div>
               <h4>Future Services</h4>
-              <a href="/future-services#business">Business Advisory</a>
-              <a href="/future-services#investment">Investment &amp; Real Estate</a>
-              <a href="/how-we-work">How We Work</a>
-              <a href="/standard">The ITO Standard</a>
-              <a href="/blogs">Guides &amp; Articles</a>
+              <Link href="/future-services#business">Business Advisory</Link>
+              <Link href="/future-services#investment">Investment &amp; Real Estate</Link>
+              <Link href="/how-we-work">How We Work</Link>
+              <Link href="/standard">The ITO Standard</Link>
+              <Link href="/blogs">Guides &amp; Articles</Link>
               <a href="#contact">Contact Us</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
           <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy Policy</a> · <a href="/terms" style={{color:'inherit'}}>Terms of Service</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a>
+            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy Policy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms of Service</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link>
           </div>
         </div>
       </footer>
