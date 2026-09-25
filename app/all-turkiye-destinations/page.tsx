@@ -15,6 +15,12 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/all-turkiye-destinations` },
 };
 
+// Ayrı sayfası olmayan alt bölgeler üst rehbere gider (kopya içerik yerine).
+const ALIASES: Record<string, string> = {
+  goreme: 'cappadocia', uchisar: 'cappadocia', oludeniz: 'fethiye', sumela: 'trabzon',
+  uludag: 'bursa', kekova: 'kas', cunda: 'ayvalik', cirali: 'olympos',
+};
+
 // Accent paleti — kartlar tipografik/degrade (foto uyumsuzluğunu önlemek için).
 // Gerçek fotoğraflar 1,5 ay sonra iç sayfalara düşecek; ızgara editoryal kalır.
 const ACCENTS = ['#1f4e6b', '#8a4b2b', '#0e5a6b', '#2b6b3a', '#6b5a2b', '#4a3a6b', '#0e6b5a', '#5a3a4a'];
@@ -27,17 +33,17 @@ const DESTINATIONS: { name: string; note?: string }[] = [
   { name: 'Bursa', note: 'Green & thermal' }, { name: 'Ankara', note: 'The capital' },
   { name: 'Trabzon', note: 'Black Sea green' }, { name: 'Konya', note: 'City of Rumi' }, { name: 'Mardin', note: 'Stone & Mesopotamia' }, { name: 'Gaziantep', note: 'Capital of flavour' },
   { name: 'Şanlıurfa', note: 'Göbekli Tepe' }, { name: 'Çanakkale', note: 'Troy & Gallipoli' }, { name: 'Marmaris', note: 'Bays & boats' }, { name: 'Alanya', note: 'Castle on the sea' },
-  { name: 'Kaş', note: 'Lycian harbour' }, { name: 'Kalkan' }, { name: 'Göcek' }, { name: 'Ölüdeniz' },
-  { name: 'Datça', note: 'Where two seas meet' }, { name: 'Ayvalık', note: 'Olive oil & islands' }, { name: 'Assos' }, { name: 'Safranbolu', note: 'Ottoman timber town' },
-  { name: 'Amasya' }, { name: 'Sinop' }, { name: 'Rize' }, { name: 'Artvin' },
-  { name: 'Kars', note: 'Snow & Ani' }, { name: 'Van', note: 'Lake & breakfast' }, { name: 'Erzurum' }, { name: 'Nemrut' },
-  { name: 'Sümela' }, { name: 'Uludağ' }, { name: 'Side', note: 'Temple by the sea' }, { name: 'Kekova' },
-  { name: 'Göreme' }, { name: 'Uçhisar' }, { name: 'Şirince', note: 'Hill village' }, { name: 'Foça' },
-  { name: 'Cunda' }, { name: 'Akyaka' }, { name: 'Dalyan', note: 'Rock tombs & turtles' }, { name: 'Patara' },
-  { name: 'Olympos' }, { name: 'Cirali' }, { name: 'Bozcaada', note: 'Wine island' }, { name: 'Gökçeada' },
-  { name: 'Kuşadası', note: 'Gateway to Ephesus' }, { name: 'Didim' }, { name: 'Bergama' }, { name: 'Afyon' },
-  { name: 'Eskişehir' }, { name: 'Hatay' }, { name: 'Adana' }, { name: 'Diyarbakır' },
-  { name: 'Edirne', note: 'Home of Selimiye' }, { name: 'Bitlis' },
+  { name: 'Kaş', note: 'Lycian harbour' }, { name: 'Kalkan', note: 'Rooftops & villas' }, { name: 'Göcek', note: 'Twelve Islands' }, { name: 'Ölüdeniz', note: 'In the Fethiye guide' },
+  { name: 'Datça', note: 'Where two seas meet' }, { name: 'Ayvalık', note: 'Olive oil & islands' }, { name: 'Assos', note: 'Temple above the sea' }, { name: 'Safranbolu', note: 'Ottoman timber town' },
+  { name: 'Amasya', note: 'River & rock tombs' }, { name: 'Sinop', note: 'Northernmost point' }, { name: 'Rize', note: 'Tea & highlands' }, { name: 'Artvin', note: 'Wild north-east' },
+  { name: 'Kars', note: 'Snow & Ani' }, { name: 'Van', note: 'Lake & breakfast' }, { name: 'Erzurum', note: 'Snow & Seljuk stone' }, { name: 'Nemrut', note: 'Giant stone heads' },
+  { name: 'Sümela', note: 'In the Trabzon guide' }, { name: 'Uludağ', note: 'In the Bursa guide' }, { name: 'Side', note: 'Temple by the sea' }, { name: 'Kekova', note: 'In the Kaş guide' },
+  { name: 'Göreme', note: 'In the Cappadocia guide' }, { name: 'Uçhisar', note: 'In the Cappadocia guide' }, { name: 'Şirince', note: 'Hill village' }, { name: 'Foça', note: 'Monk seal coast' },
+  { name: 'Cunda', note: 'In the Ayvalık guide' }, { name: 'Akyaka', note: 'Slow town' }, { name: 'Dalyan', note: 'Rock tombs & turtles' }, { name: 'Patara', note: 'Endless beach' },
+  { name: 'Olympos', note: 'Ruins & flames' }, { name: 'Cirali', note: 'In the Olympos guide' }, { name: 'Bozcaada', note: 'Wine island' }, { name: 'Gökçeada', note: 'Largest island' },
+  { name: 'Kuşadası', note: 'Gateway to Ephesus' }, { name: 'Didim', note: 'Temple of Apollo' }, { name: 'Bergama', note: 'Pergamon' }, { name: 'Afyon', note: 'Thermal spas' },
+  { name: 'Eskişehir', note: 'Student city' }, { name: 'Hatay', note: 'Ancient Antioch' }, { name: 'Adana', note: 'Kebab capital' }, { name: 'Diyarbakır', note: 'Walls on the Tigris' },
+  { name: 'Edirne', note: 'Home of Selimiye' }, { name: 'Bitlis', note: 'Ahlat & crater lake' },
 ];
 
 export default function DestinationsPage() {
@@ -87,7 +93,8 @@ export default function DestinationsPage() {
 
         <div className="dl-grid">
           {DESTINATIONS.map((c, i) => {
-            const slug = slugify(c.name);
+            const own = slugify(c.name);
+            const slug = ALIASES[own] ?? own;
             const hasPage = destinationSlugs.includes(slug);
             const accent = ACCENTS[i % ACCENTS.length];
             return (
@@ -98,7 +105,7 @@ export default function DestinationsPage() {
                 aria-label={`${c.name} — Türkiye`}
                 style={{ ['--acc' as string]: accent }}
               >
-                <CityImage slug={slug} accent={accent} alt={c.name} fallback={getDestination(slug)?.cover || undefined} />
+                <CityImage slug={own} accent={accent} alt={c.name} fallback={getDestination(slug)?.cover || undefined} />
                 <span className="dl-ghost">{c.name.slice(0, 2)}</span>
                 <span style={{ position: 'absolute', inset: 0, zIndex: 1, background: 'linear-gradient(180deg, rgba(7,23,38,.15) 0%, rgba(7,23,38,.35) 50%, rgba(7,23,38,.9) 100%)' }} />
                 {hasPage && <span className="dl-tag">Guide</span>}
