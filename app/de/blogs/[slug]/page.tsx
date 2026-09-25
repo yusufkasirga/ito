@@ -1,7 +1,14 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getPostBySlugDe as getPostBySlug, blogPostsDe as blogPosts } from '../../../blogs/blogDataDe';
+import { blogSlugs as journalSlugs } from '../../../blog/blogPosts';
 
 const SITE_URL = 'https://itineraryofturkiye.com';
+
+// İngilizce karşılık: yeni Journal yazıları /blog altında, eski yazılar /blogs altında.
+function enPath(slug: string) {
+  return journalSlugs.includes(slug) ? `/blog/${slug}` : `/blogs/${slug}`;
+}
 
 // Gövde metninde [metin](url) biçimindeki iç linkleri render eder.
 function renderInline(text: string) {
@@ -30,7 +37,7 @@ export async function generateMetadata(
   return {
     title: `${post.title} — Itinerary of Türkiye`,
     description: post.excerpt,
-    alternates: { canonical: `${SITE_URL}/de/blogs/${post.slug}`, languages: { en: `${SITE_URL}/blogs/${post.slug}`, de: `${SITE_URL}/de/blogs/${post.slug}` } },
+    alternates: { canonical: `${SITE_URL}/de/blogs/${post.slug}`, languages: { en: `${SITE_URL}${enPath(post.slug)}`, de: `${SITE_URL}/de/blogs/${post.slug}` } },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -59,7 +66,7 @@ export default async function BlogPostPage(
       <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '20px', textAlign: 'center', padding: '32px' }}>
         <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#081f35' }}>Beitrag nicht gefunden</h1>
         <p style={{ color: '#647889' }}>Dieser Beitrag existiert nicht oder wurde verschoben.</p>
-        <a href="/de/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Alle Beiträge</a>
+        <Link href="/de/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Alle Beiträge</Link>
       </main>
     );
   }
@@ -212,13 +219,13 @@ export default async function BlogPostPage(
 
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/de"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/de"><img src="/logo.png" alt="Itinerary of Türkiye" /></Link>
           <nav className="nav-links">
-            <a href="/de/about">Über uns</a>
-            <a href="/de/services">Leistungen</a>
-            <a href="/de/testimonials">Referenzen</a>
-            <a href="/de#contact">Kontakt</a>
-                      <a href={`/blogs/${slug}`} style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
+            <Link href="/de/about">Über uns</Link>
+            <Link href="/de/services">Leistungen</Link>
+            <Link href="/de/testimonials">Referenzen</Link>
+            <Link href="/de#contact">Kontakt</Link>
+                      <a href={enPath(slug)} style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
           </nav>
         </div>
       </header>
@@ -305,7 +312,7 @@ export default async function BlogPostPage(
         <div className="cta-box">
           <h3>Bereit, Ihre Reise zu beginnen?</h3>
           <p>Sagen Sie uns, was Sie in der Türkei brauchen — wir kümmern uns um den Rest.</p>
-          <a className="btn-primary" href="/de#contact">Beratung anfragen</a>
+          <Link className="btn-primary" href="/de#contact">Beratung anfragen</Link>
         </div>
       </div>
       </div>
@@ -323,7 +330,7 @@ export default async function BlogPostPage(
         <div className="side-card side-cta">
           <span className="side-eyebrow">Private Beratung</span>
           <p>Planen Sie eine Reise, Behandlung oder Investition in der Türkei? Sagen Sie uns, was Sie brauchen — ein echter Mensch antwortet in wenigen Stunden.</p>
-          <a className="btn-primary" href="/de#contact">Reise beginnen</a>
+          <Link className="btn-primary" href="/de#contact">Reise beginnen</Link>
         </div>
       </aside>
       </div>
@@ -344,7 +351,7 @@ export default async function BlogPostPage(
         </div>
       )}
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/de/terms" style={{color:'inherit'}}>Terms</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a> · <a href="/de/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/de/blogs" style={{color:'inherit'}}>Ratgeber</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/de/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
     </main>
   );
 }
