@@ -4,6 +4,15 @@
 
 ⚠️ Rakamlar hedeftir, ölçülmüş veri değildir. Her ay sonunda Vercel Analytics + Search Console ile karşılaştırılıp plan revize edilir.
 
+## İlerleme — 25 Eyl 2026 (canlıda)
+- [x] Ana sayfada tam ekran video hero (EN/DE/RU)
+- [x] Destinasyonlar: 10 → 52 rehber; 60 kartın tamamı bir rehbere gidiyor (alt bölgeler üst rehbere)
+- [x] Her rehberde en iyi zaman / kaç gün / ulaşım + SSS + TouristDestination/FAQPage şeması
+- [x] 3 yeni turizm yazısı (İstanbul 3/5/7 gün, dolandırıcılık tuzakları, ay ay en iyi zaman)
+- [x] 5 yazının Almanca çevirisi + hreflang düzeltmesi
+- [ ] **Sahip:** Search Console'da sitemap'i yeniden gönder; Bing Webmaster Tools'a ekle
+- [ ] Sıradaki: şehir fotoğrafları (`public/images/dest/`), yazı ritmi haftada 3, RU çeviriler
+
 ---
 
 ## 1. Dürüst tablo: 30 günde 2.000 nasıl olur?
