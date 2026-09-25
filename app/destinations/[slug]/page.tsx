@@ -4,6 +4,7 @@ import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../../components/SiteHeader';
 import LeadForm from '../../components/LeadForm';
 import CityImage from '../../components/CityImage';
+import Link from 'next/link';
 import { getDestination, destinationSlugs } from '../destinationData';
 
 export function generateStaticParams() {
@@ -27,9 +28,39 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
   const d = getDestination(slug);
   if (!d) notFound();
 
+  const url = `${SITE_URL}/destinations/${d.slug}`;
+  const pairs = d.pairWith.map(getDestination).filter((x) => x !== undefined);
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'TouristDestination',
+      name: `${d.name}, Türkiye`,
+      description: d.tagline,
+      url,
+      ...(d.cover ? { image: `${SITE_URL}${d.cover}` } : {}),
+      containedInPlace: { '@type': 'Country', name: 'Türkiye' },
+      includesAttraction: d.attractions.map((a) => ({ '@type': 'TouristAttraction', name: a.name, description: a.desc })),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'All Türkiye Destinations', item: `${SITE_URL}/all-turkiye-destinations` },
+        { '@type': 'ListItem', position: 3, name: d.name, item: url },
+      ],
+    },
+  ];
+
 
   return (
     <main className="dt">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         .dt { font-family: 'Inter', system-ui, sans-serif; background: #fffaf1; color: #3a4654; }
@@ -73,6 +104,25 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         .dt-attr-name { font-family: 'Playfair Display', serif; font-size: 23px; font-weight: 700; color: #081f35; margin-bottom: 7px; transition: color .2s; }
         .dt-attr-desc { font-size: 15.5px; line-height: 1.7; color: #4a5765; max-width: 720px; }
 
+        /* PLAN — pratik bilgi */
+        .dt-plan { max-width: 1120px; margin: 0 auto; padding: 56px 40px 8px; }
+        .dt-plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+        .dt-plan-card { background: #fff; border: 1px solid rgba(8,31,53,.1); border-radius: 18px; padding: 22px 22px 20px; }
+        .dt-plan-k { font-size: 11px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #8a6d33; margin-bottom: 10px; }
+        .dt-plan-v { font-size: 15px; line-height: 1.7; color: #2b3742; margin: 0; }
+        .dt-pairs { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 22px; font-size: 14px; color: #647889; }
+        .dt-pair { display: inline-flex; padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(138,109,51,.35); color: #081f35; font-weight: 700; text-decoration: none; transition: background .2s, border-color .2s; }
+        .dt-pair:hover { background: rgba(201,169,106,.14); border-color: #c9a96a; }
+
+        /* FAQ */
+        .dt-faq { max-width: 1120px; margin: 0 auto; padding: 56px 40px 0; }
+        .dt-faq details { border-bottom: 1px solid rgba(8,31,53,.1); padding: 18px 0; }
+        .dt-faq summary { cursor: pointer; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; color: #081f35; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+        .dt-faq summary::-webkit-details-marker { display: none; }
+        .dt-faq summary::after { content: '+'; color: #c9a96a; font-size: 24px; line-height: 1; transition: transform .2s; }
+        .dt-faq details[open] summary::after { transform: rotate(45deg); }
+        .dt-faq p { font-size: 15.5px; line-height: 1.75; color: #4a5765; margin: 12px 0 0; max-width: 780px; }
+
         /* CTA */
         .dt-cta { background: linear-gradient(165deg, #071726 0%, #0c3555 100%); color: #fffaf1; margin-top: 56px; padding: 60px 0; }
         .dt-cta-in { max-width: 1120px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
@@ -90,7 +140,8 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
 
         @media (max-width: 820px) {
           .dt-intro { grid-template-columns: 1fr; gap: 10px; padding: 44px 24px 0; }
-          .dt-hero-inner, .dt-see, .dt-cta-in, .dt-more { padding-left: 24px; padding-right: 24px; }
+          .dt-hero-inner, .dt-see, .dt-cta-in, .dt-more, .dt-plan, .dt-faq { padding-left: 24px; padding-right: 24px; }
+          .dt-plan-grid { grid-template-columns: 1fr; }
           .dt-cta-in { grid-template-columns: 1fr; gap: 28px; }
           .dt-attr { grid-template-columns: 60px 1fr; gap: 6px 16px; }
           .dt-attr-num { font-size: 30px; }
@@ -105,7 +156,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         <span className="dt-hero-ghost">{d.name.slice(0, 3)}</span>
         <span className="dt-hero-tint" />
         <div className="dt-hero-inner dt-anim">
-          <a href="/all-turkiye-destinations" className="dt-crumb">← All Türkiye Destinations</a>
+          <Link href="/all-turkiye-destinations" className="dt-crumb">← All Türkiye Destinations</Link>
           <span className="dt-region">{d.region}</span>
           <h1 className="dt-h1">{d.name}</h1>
           <p className="dt-tagline">{d.tagline}</p>
@@ -135,6 +186,36 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         ))}
       </section>
 
+      <section className="dt-plan" aria-labelledby="plan-h">
+        <div className="dt-see-head">
+          <h2 className="dt-see-h2" id="plan-h">Planning {d.name}</h2>
+          <p className="dt-see-sub">The practical answers, before you book anything.</p>
+        </div>
+        <div className="dt-plan-grid">
+          <div className="dt-plan-card"><div className="dt-plan-k">Best time to go</div><p className="dt-plan-v">{d.practical.bestTime}</p></div>
+          <div className="dt-plan-card"><div className="dt-plan-k">How long to stay</div><p className="dt-plan-v">{d.practical.howLong}</p></div>
+          <div className="dt-plan-card"><div className="dt-plan-k">Getting there</div><p className="dt-plan-v">{d.practical.gettingThere}</p></div>
+        </div>
+        {pairs.length > 0 && (
+          <div className="dt-pairs">
+            <span>Pairs well with</span>
+            {pairs.map((p) => <Link key={p.slug} href={`/destinations/${p.slug}`} className="dt-pair">{p.name}</Link>)}
+          </div>
+        )}
+      </section>
+
+      <section className="dt-faq" aria-labelledby="faq-h">
+        <div className="dt-see-head">
+          <h2 className="dt-see-h2" id="faq-h">{d.name}: common questions</h2>
+        </div>
+        {d.faq.map((f) => (
+          <details key={f.q}>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+
       <section className="dt-cta">
         <div className="dt-cta-in">
           <div>
@@ -143,7 +224,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
             <p>
               Tell us what pulls at you and we will build {d.name} around it — the right hours, the right
               guide, and an honest word on what to skip. How we charge is set out in{' '}
-              <a href="/how-we-work" style={{ color: '#d8b878', fontWeight: 600 }}>How we work</a>.
+              <Link href="/how-we-work" style={{ color: '#d8b878', fontWeight: 600 }}>How we work</Link>.
             </p>
           </div>
           <LeadForm />
@@ -151,9 +232,9 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       </section>
 
       <div className="dt-more">
-        More: <a href="/all-turkiye-destinations">All Türkiye Destinations</a> ·{' '}
-        <a href="/services/tourism">Private travel</a> ·{' '}
-        <a href="/standard">The ITO Standard</a>
+        More: <Link href="/all-turkiye-destinations">All Türkiye Destinations</Link> ·{' '}
+        <Link href="/services/tourism">Private travel</Link> ·{' '}
+        <Link href="/standard">The ITO Standard</Link>
       </div>
     </main>
   );

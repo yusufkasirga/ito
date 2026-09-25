@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../components/SiteHeader';
-import { destinationSlugs } from '../destinations/destinationData';
+import { destinationSlugs, getDestination } from '../destinations/destinationData';
 import CityImage from '../components/CityImage';
 
 function slugify(x: string) {
@@ -25,19 +25,19 @@ const DESTINATIONS: { name: string; note?: string }[] = [
   { name: 'Fethiye', note: 'Lagoons & gulets' }, { name: 'Izmir', note: 'Easy Aegean' },
   { name: 'Pamukkale', note: 'White terraces' }, { name: 'Ephesus', note: 'Ancient city' },
   { name: 'Bursa', note: 'Green & thermal' }, { name: 'Ankara', note: 'The capital' },
-  { name: 'Trabzon' }, { name: 'Konya' }, { name: 'Mardin' }, { name: 'Gaziantep' },
-  { name: 'Şanlıurfa' }, { name: 'Çanakkale' }, { name: 'Marmaris' }, { name: 'Alanya' },
-  { name: 'Kaş' }, { name: 'Kalkan' }, { name: 'Göcek' }, { name: 'Ölüdeniz' },
-  { name: 'Datça' }, { name: 'Ayvalık' }, { name: 'Assos' }, { name: 'Safranbolu' },
+  { name: 'Trabzon', note: 'Black Sea green' }, { name: 'Konya', note: 'City of Rumi' }, { name: 'Mardin', note: 'Stone & Mesopotamia' }, { name: 'Gaziantep', note: 'Capital of flavour' },
+  { name: 'Şanlıurfa', note: 'Göbekli Tepe' }, { name: 'Çanakkale', note: 'Troy & Gallipoli' }, { name: 'Marmaris', note: 'Bays & boats' }, { name: 'Alanya', note: 'Castle on the sea' },
+  { name: 'Kaş', note: 'Lycian harbour' }, { name: 'Kalkan' }, { name: 'Göcek' }, { name: 'Ölüdeniz' },
+  { name: 'Datça', note: 'Where two seas meet' }, { name: 'Ayvalık', note: 'Olive oil & islands' }, { name: 'Assos' }, { name: 'Safranbolu', note: 'Ottoman timber town' },
   { name: 'Amasya' }, { name: 'Sinop' }, { name: 'Rize' }, { name: 'Artvin' },
-  { name: 'Kars' }, { name: 'Van' }, { name: 'Erzurum' }, { name: 'Nemrut' },
-  { name: 'Sümela' }, { name: 'Uludağ' }, { name: 'Side' }, { name: 'Kekova' },
-  { name: 'Göreme' }, { name: 'Uçhisar' }, { name: 'Şirince' }, { name: 'Foça' },
-  { name: 'Cunda' }, { name: 'Akyaka' }, { name: 'Dalyan' }, { name: 'Patara' },
-  { name: 'Olympos' }, { name: 'Cirali' }, { name: 'Bozcaada' }, { name: 'Gökçeada' },
-  { name: 'Kuşadası' }, { name: 'Didim' }, { name: 'Bergama' }, { name: 'Afyon' },
+  { name: 'Kars', note: 'Snow & Ani' }, { name: 'Van', note: 'Lake & breakfast' }, { name: 'Erzurum' }, { name: 'Nemrut' },
+  { name: 'Sümela' }, { name: 'Uludağ' }, { name: 'Side', note: 'Temple by the sea' }, { name: 'Kekova' },
+  { name: 'Göreme' }, { name: 'Uçhisar' }, { name: 'Şirince', note: 'Hill village' }, { name: 'Foça' },
+  { name: 'Cunda' }, { name: 'Akyaka' }, { name: 'Dalyan', note: 'Rock tombs & turtles' }, { name: 'Patara' },
+  { name: 'Olympos' }, { name: 'Cirali' }, { name: 'Bozcaada', note: 'Wine island' }, { name: 'Gökçeada' },
+  { name: 'Kuşadası', note: 'Gateway to Ephesus' }, { name: 'Didim' }, { name: 'Bergama' }, { name: 'Afyon' },
   { name: 'Eskişehir' }, { name: 'Hatay' }, { name: 'Adana' }, { name: 'Diyarbakır' },
-  { name: 'Edirne' }, { name: 'Bitlis' },
+  { name: 'Edirne', note: 'Home of Selimiye' }, { name: 'Bitlis' },
 ];
 
 export default function DestinationsPage() {
@@ -87,7 +87,7 @@ export default function DestinationsPage() {
 
         <div className="dl-grid">
           {DESTINATIONS.map((c, i) => {
-            const slug = c.name.toLowerCase();
+            const slug = slugify(c.name);
             const hasPage = destinationSlugs.includes(slug);
             const accent = ACCENTS[i % ACCENTS.length];
             return (
@@ -98,7 +98,7 @@ export default function DestinationsPage() {
                 aria-label={`${c.name} — Türkiye`}
                 style={{ ['--acc' as string]: accent }}
               >
-                <CityImage slug={slugify(c.name)} accent={accent} alt={c.name} />
+                <CityImage slug={slug} accent={accent} alt={c.name} fallback={getDestination(slug)?.cover || undefined} />
                 <span className="dl-ghost">{c.name.slice(0, 2)}</span>
                 <span style={{ position: 'absolute', inset: 0, zIndex: 1, background: 'linear-gradient(180deg, rgba(7,23,38,.15) 0%, rgba(7,23,38,.35) 50%, rgba(7,23,38,.9) 100%)' }} />
                 {hasPage && <span className="dl-tag">Guide</span>}

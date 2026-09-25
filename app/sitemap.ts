@@ -6,6 +6,7 @@ import { blogArticles } from './blog/blogPosts';
 
 const BASE = 'https://itineraryofturkiye.com';
 const SITE_UPDATED = '2026-08-26';
+const DESTINATIONS_UPDATED = '2026-09-25';
 
 const staticPaths = [
   '', '/about', '/services', '/services/tourism', '/services/medical-tourism',
@@ -40,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const destinations: MetadataRoute.Sitemap = destinationSlugs.map((slug) => ({
     url: `${BASE}/destinations/${slug}`,
-    lastModified: SITE_UPDATED,
+    lastModified: DESTINATIONS_UPDATED,
   }));
 
   return [...staticPages, ...journal, ...destinations, ...posts, ...dePosts];

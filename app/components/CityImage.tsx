@@ -55,6 +55,11 @@ export default function CityImage({
           fetchPriority={priority ? 'high' : 'auto'}
           decoding="async"
           onError={() => setIdx((i) => i + 1)}
+          // Görsel React hidrasyonundan ÖNCE hata verirse onError hiç tetiklenmez
+          // ve kırık görsel + alt metni köşede kalır; bağlanınca durumu kontrol et.
+          ref={(el) => {
+            if (el && el.complete && el.naturalWidth === 0) setIdx((i) => (sources[i] === el.getAttribute('src') ? i + 1 : i));
+          }}
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         />
       )}
