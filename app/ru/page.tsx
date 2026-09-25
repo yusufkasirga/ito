@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useEffect, useRef } from 'react';
 import { whatsAppUrl } from '@/lib/config';
+import HeroVideo from '../components/HeroVideo';
 import Icon from '../components/Icon';
 import { track } from '@vercel/analytics';
 
@@ -13,7 +14,6 @@ export default function Home() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [selectedPath, setSelectedPath] = useState('');
-  const [activeSlide, setActiveSlide] = useState(0);
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
   const [motionPaused, setMotionPaused] = useState(false);
   useEffect(() => {
@@ -67,20 +67,7 @@ export default function Home() {
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(false);
   const [heroTestimonialIdx, setHeroTestimonialIdx] = useState(0);
-  const [mouseParallax, setMouseParallax] = useState({ x: 0, y: 0 });
 
-  const heroSlides = [
-    { image: '/images/pexels-2325446-1920x1080.jpg', position: '50% 38%' },
-    { image: '/images/pexels-3889742-1920x1080.jpg', position: '65% 45%' },
-    { image: '/images/pexels-1549326-800x1200.jpg', position: '50% 45%' },
-  ];
-
-
-  useEffect(() => {
-    if (motionPaused) return;
-    const timer = setInterval(() => setActiveSlide(p => (p + 1) % heroSlides.length), 4000);
-    return () => clearInterval(timer);
-  }, [motionPaused, heroSlides.length]);
 
   const heroTrustQuotes = [
     { name: 'Mark T.', flag: '🇬🇧', text: 'Они сделали всю мою поездку невероятно гладкой — от путешествия до деловых встреч.' },
@@ -93,16 +80,6 @@ export default function Home() {
     const timer = setInterval(() => setHeroTestimonialIdx(p => (p + 1) % heroTrustQuotes.length), 5000);
     return () => clearInterval(timer);
   }, [motionPaused, heroTrustQuotes.length]);
-
-  useEffect(() => {
-    const handleMove = (e: MouseEvent) => {
-      const x = (e.clientX / window.innerWidth - 0.5) * 2;
-      const y = (e.clientY / window.innerHeight - 0.5) * 2;
-      setMouseParallax({ x, y });
-    };
-    window.addEventListener('mousemove', handleMove);
-    return () => window.removeEventListener('mousemove', handleMove);
-  }, []);
 
   const advisoryPillars = useMemo(() => [
     {
@@ -287,7 +264,7 @@ export default function Home() {
   return (
     <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <link rel="preload" as="image" href="/images/pexels-2325446-1920x1080.jpg" fetchPriority="high" />
+      <link rel="preload" as="image" href="/images/hero-poster-1280x720.jpg" fetchPriority="high" />
       <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
@@ -348,22 +325,10 @@ export default function Home() {
         .mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; color: #fff; font-size: 32px; cursor: pointer; }
 
         /* HERO — TOTAL REDESIGN: mesh gradient + split frame */
-        .hero { position: relative; min-height: 92vh; overflow: hidden; color: #fff; display: flex; align-items: center; background: #0d1424; }
-        .hero-mesh { position: absolute; inset: -18%; z-index: 0; background:
-          radial-gradient(circle at 8% 18%, rgba(232,149,107,.32) 0%, transparent 38%),
-          radial-gradient(circle at 88% 12%, rgba(142,216,220,.22) 0%, transparent 42%),
-          radial-gradient(circle at 78% 88%, rgba(201,169,106,.26) 0%, transparent 40%),
-          radial-gradient(circle at 15% 85%, rgba(15,110,168,.3) 0%, transparent 40%),
-          linear-gradient(160deg, #0a1020 0%, #0d1b3a 45%, #0a1020 100%);
-          animation: aurora 22s ease-in-out infinite alternate; will-change: transform, filter; }
-        @keyframes aurora {
-          from { transform: translate3d(-1.5%, -1%, 0) scale(1); filter: hue-rotate(0deg) brightness(1); }
-          to { transform: translate3d(1.5%, 1.5%, 0) scale(1.05); filter: hue-rotate(8deg) brightness(1.06); }
-        }
-        @keyframes mesh-drift { 0% { filter: hue-rotate(0deg) brightness(1); } 100% { filter: hue-rotate(8deg) brightness(1.06); } }
-        .hero-grain { position: absolute; inset: 0; z-index: 1; opacity: .05; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)'/%3E%3C/svg%3E"); pointer-events: none; }
+        .hero { position: relative; min-height: 100vh; min-height: 100svh; overflow: hidden; color: #fff; display: flex; align-items: center; background: #0d1424; }
+        .hero-grain { position: absolute; inset: 0; z-index: 2; opacity: .05; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)'/%3E%3C/svg%3E"); pointer-events: none; }
 
-        .hero-split { position: relative; z-index: 2; width: min(1280px, calc(100% - 48px)); margin: 0 auto; padding: 130px 0 60px; display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+        .hero-split { position: relative; z-index: 3; width: min(1280px, calc(100% - 48px)); margin: 0 auto; padding: 130px 0 110px; display: grid; grid-template-columns: minmax(0, 720px); align-items: center; }
 
         .hero-eyebrow { display: inline-flex; align-items: center; gap: 9px; font-size: 11.5px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.82); margin-bottom: 26px; }
         .hero-eyebrow::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #ffb46e; box-shadow: 0 0 0 4px rgba(255,180,110,.25); animation: pulse-dot 2.2s ease-in-out infinite; flex-shrink: 0; }
@@ -371,7 +336,7 @@ export default function Home() {
 
         .hero h1 { margin: 0 0 22px; font-size: clamp(38px, 6.6vw, 84px); line-height: .96; letter-spacing: -.01em; color: #fff; font-family: 'Playfair Display', serif; font-weight: 900; }
         .hero h1 em { color: #E8956B; font-style: italic; display: block; margin-top: 2px; }
-        .hero-copy { max-width: 460px; margin: 0 0 36px; color: rgba(255,255,255,.85); font-size: 16.5px; line-height: 1.78; font-weight: 400; }
+        .hero-copy { max-width: 540px; margin: 0 0 36px; color: rgba(255,255,255,.85); font-size: 16.5px; line-height: 1.78; font-weight: 400; }
 
         .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
         .hero-pill { padding: 13px 24px; min-height: 46px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.38); background: rgba(255,255,255,.08); color: #fff; font-size: 13.5px; font-weight: 700; cursor: pointer; backdrop-filter: blur(10px); transition: background .35s cubic-bezier(.22,.61,.36,1), border-color .35s cubic-bezier(.22,.61,.36,1), transform .35s cubic-bezier(.22,.61,.36,1); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
@@ -387,24 +352,7 @@ export default function Home() {
         .trust-live-dot { width: 6px; height: 6px; border-radius: 50%; background: #4ade80; flex-shrink: 0; animation: pulse-dot-green 2s ease-in-out infinite; }
         @keyframes pulse-dot-green { 0%,100% { box-shadow: 0 0 0 4px rgba(74,222,128,.22); } 50% { box-shadow: 0 0 0 8px rgba(74,222,128,.06); } }
 
-        /* FRAMED PHOTO STACK */
-        .hero-photo-stack { position: relative; height: 640px; perspective: 1500px; transform-style: preserve-3d; }
-        .hero-photo-frame { position: absolute; border-radius: 26px; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.5); }
-        .hero-photo-frame img { width: 100%; height: 100%; object-fit: cover; }
-        .s3d { left: 50%; top: 50%; width: 78%; height: 92%; transition: transform 1.05s cubic-bezier(.22,.61,.36,1), opacity 1.05s ease, filter 1.05s ease, box-shadow 1.05s ease; will-change: transform; }
-        .s3d.pos-center { transform: translate(calc(-50% + var(--px, 0px)), calc(-50% + var(--py, 0px))) translateZ(0) rotateY(0deg); z-index: 3; opacity: 1; }
-        .s3d.pos-right { transform: translate(-50%, -50%) translateX(56%) translateZ(-260px) rotateY(-32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
-        .s3d.pos-left { transform: translate(-50%, -50%) translateX(-56%) translateZ(-260px) rotateY(32deg); z-index: 2; opacity: .92; filter: brightness(.5) saturate(.85); cursor: pointer; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
-        .s3d.pos-back { transform: translate(-50%, -50%) translateZ(-520px) rotateY(0deg); z-index: 1; opacity: 0; pointer-events: none; }
-        .s3d.pos-right:hover, .s3d.pos-left:hover { filter: brightness(.7) saturate(1); }
-        .hero-photo-badge { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); z-index: 4; padding: 12px 22px; border-radius: 999px; background: rgba(13,20,36,.85); border: 1px solid rgba(255,255,255,.18); backdrop-filter: blur(14px); display: flex; align-items: center; gap: 10px; font-size: 12.5px; font-weight: 700; color: #fff; white-space: nowrap; box-shadow: 0 12px 30px rgba(0,0,0,.4); }
 
-        .hero-dots { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 3; }
-        .hero-dot-hit { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: none; border: none; padding: 0; cursor: pointer; }
-        .hero-pause { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; margin-left: 6px; background: rgba(0,0,0,.28); border: 1px solid rgba(255,255,255,.35); border-radius: 50%; color: #fff; font-size: 8px; line-height: 1; cursor: pointer; }
-        .hero-pause:hover { background: rgba(0,0,0,.45); }
-        .hero-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,.38); cursor: pointer; transition: width .4s cubic-bezier(.22,.61,.36,1), background .4s ease; }
-        .hero-dot.on { width: 26px; border-radius: 3px; background: #fff; }
 
         /* SECTION */
         .section { padding: 80px 0; }
@@ -513,7 +461,7 @@ export default function Home() {
         .inv-badge { position: absolute; bottom: 22px; left: 22px; right: 22px; padding: 14px 18px; background: rgba(201,169,106,.92); border-radius: 14px; color: var(--navy); font-size: 13px; font-weight: 900; }
 
         /* BRAND COLOR GRADE — çekimlere kadar stok görselleri markaya yaklaştırır */
-        .guide-img img, .about-img img, .hero-photo-frame img, .health-visual img, .health-bento img { filter: saturate(1.06) contrast(1.03) sepia(0.05); }
+        .guide-img img, .about-img img, .health-visual img, .health-bento img { filter: saturate(1.06) contrast(1.03) sepia(0.05); }
 
         /* GUIDES */
         .guides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 36px; }
@@ -604,14 +552,12 @@ export default function Home() {
         .concierge { position: fixed; top: 90px; right: 20px; padding: 10px 16px; background: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 900; color: var(--navy); z-index: 45; box-shadow: var(--shadow-md); }
 
         /* PREMIUM PASS — cinematic load, fixed glass nav, editorial grade */
-        .hero-split > div:first-child > * { opacity: 0; animation: heroIn .95s cubic-bezier(.22,.61,.36,1) both; }
-        .hero-split > div:first-child > *:nth-child(1) { animation-delay: .1s; }
-        .hero-split > div:first-child > *:nth-child(2) { animation-delay: .22s; }
-        .hero-split > div:first-child > *:nth-child(3) { animation-delay: .34s; }
-        .hero-split > div:first-child > *:nth-child(4) { animation-delay: .46s; }
-        .hero-split > div:first-child > *:nth-child(5) { animation-delay: .58s; }
+        .hero-split > div > * { animation: heroIn .95s cubic-bezier(.22,.61,.36,1) both; }
+        .hero-split > div > *:nth-child(2) { animation-delay: .12s; }
+        .hero-split > div > *:nth-child(3) { animation-delay: .24s; }
+        .hero-split > div > *:nth-child(4) { animation-delay: .36s; }
+        .hero-split > div > *:nth-child(5) { animation-delay: .48s; }
         @keyframes heroIn { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
-        .hero-photo-stack { opacity: 0; animation: heroIn 1.1s cubic-bezier(.22,.61,.36,1) .35s both; }
 
         html { scroll-behavior: smooth; }
         *:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
@@ -624,7 +570,6 @@ export default function Home() {
         .nav.nav-scrolled { background: rgba(8,20,38,.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); box-shadow: 0 1px 0 rgba(201,169,106,.25), 0 14px 40px rgba(0,0,0,.28); }
 
         .t-img img { filter: brightness(.72) saturate(1.07) contrast(1.03); }
-        .s3d.pos-center img { filter: saturate(1.06) contrast(1.03); }
         .about-img img { filter: saturate(1.05) contrast(1.02); }
 
         .testi-card { position: relative; }
@@ -642,7 +587,6 @@ export default function Home() {
         .scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 1000; background: linear-gradient(90deg, var(--gold), #e6cf9a); transform: scaleX(0); transform-origin: left; pointer-events: none; }
         .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.22,.61,.36,1), transform .85s cubic-bezier(.22,.61,.36,1); }
         .rv-in { opacity: 1; transform: none; }
-        .s3d.pos-center img { animation: kenburns 9s ease-in-out infinite alternate; }
         @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08) translateY(-8px); } }
         .nav-links a { position: relative; }
         .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .35s cubic-bezier(.22,.61,.36,1); }
@@ -663,15 +607,10 @@ export default function Home() {
           .t-img { height: 430px; }
           .health-header-row { flex-direction: column; align-items: flex-start; }
           .health-stat-badge { text-align: left; width: 100%; }
-          .hero-split { grid-template-columns: 1fr; gap: 48px; padding: 120px 0 50px; text-align: center; }
+          .hero-split { grid-template-columns: minmax(0, 1fr); padding: 120px 0 100px; text-align: center; }
           .hero-eyebrow { justify-content: center; }
           .hero-copy { margin-left: auto; margin-right: auto; }
           .hero-btns { justify-content: center; }
-          .hero-photo-stack { height: 420px; max-width: 520px; margin: 0 auto; perspective: none; }
-          .s3d { width: 100%; height: 100%; border-radius: 22px; }
-          .s3d.pos-left, .s3d.pos-right { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(.96); }
-          .s3d.pos-center { transform: translate(-50%, -50%); }
-          .hero-photo-badge { position: relative; bottom: auto; left: auto; transform: none; margin-top: 16px; display: inline-flex; font-size: 11.5px; }
         }
         @media (max-width: 840px) {
           .testi-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; padding: 4px 2px 18px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
@@ -689,9 +628,8 @@ export default function Home() {
           .health-bento-main .health-photo-wrap { height: 240px; }
           .health-bento-wide .health-photo-wrap, .health-bento-square .health-photo-wrap { height: 161px; }
           .hero { min-height: 100svh; }
-          .hero-split { padding: 110px 0 40px; }
+          .hero-split { padding: 110px 0 90px; }
           .hero-trust-strip { flex-wrap: wrap; gap: 10px 14px; justify-content: center; }
-          .hero-photo-stack { height: 340px; max-width: 460px; }
         }
         @media (max-width: 1024px) { .tourism-grid { grid-template-columns: 1fr 1fr; } .tourism-grid .t-card:nth-child(even) { margin-top: 26px; } }
         @media (max-width: 700px) { .concierge { display: none; } }
@@ -707,14 +645,12 @@ export default function Home() {
           .inv-visual { height: 340px; }
           .container { width: calc(100% - 28px); }
           .section { padding: 56px 0; }
-          .hero-split { width: calc(100% - 36px); padding: 100px 0 32px; }
+          .hero-split { width: calc(100% - 36px); padding: 100px 0 80px; }
           .hero h1 { font-size: clamp(32px, 9vw, 46px); }
           .hero-pill { padding: 11px 18px; font-size: 12.5px; }
           .hero-trust-strip { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 16px; }
           .trust-strip-divider { display: none; }
-          .hero-dots { left: 50%; transform: translateX(-50%); }
-          .hero-photo-stack { height: 260px; max-width: 100%; }
-          .hero-photo-badge { font-size: 11px; padding: 9px 16px; }
+          .trust-strip-item { white-space: normal; text-align: left; }
         }
       `}</style>
 
@@ -778,7 +714,20 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero" id="top">
-        <div className="hero-mesh" />
+        <HeroVideo
+            poster="/images/hero-poster-1280x720.jpg"
+            srcDesktop="/videos/hero-turkiye-720p"
+            srcMobile="/videos/hero-turkiye-480p"
+            pauseLabel="Приостановить видео"
+            playLabel="Воспроизвести видео"
+            chapters={[
+              { at: 0, label: 'Каппадокия' },
+              { at: 4.5, label: 'Султанахмет · Стамбул' },
+              { at: 8.5, label: 'Галата · Стамбул' },
+              { at: 12.5, label: 'Каппадокия на рассвете' },
+              { at: 16.5, label: 'Истикляль · Стамбул' },
+            ]}
+          />
         <div className="hero-grain" />
         <div className="hero-split">
           <div>
@@ -797,37 +746,6 @@ export default function Home() {
               <div className="trust-strip-item">{heroTrustQuotes[heroTestimonialIdx].flag} «{heroTrustQuotes[heroTestimonialIdx].text.slice(0, 38)}…»</div>
             </div>
           </div>
-
-          <div className="hero-photo-stack">
-            {heroSlides.map((sl, i) => {
-              const n = heroSlides.length;
-              const off = (i - activeSlide + n) % n;
-              const pos = off === 0 ? 'pos-center' : off === 1 ? 'pos-right' : off === n - 1 ? 'pos-left' : 'pos-back';
-              const isCenter = pos === 'pos-center';
-              return (
-                <div
-                  key={i}
-                  className={`hero-photo-frame s3d ${pos}`}
-                  style={isCenter ? ({ '--px': `${mouseParallax.x * 6}px`, '--py': `${mouseParallax.y * 4}px` } as React.CSSProperties) : undefined}
-                  onClick={!isCenter ? () => setActiveSlide(i) : undefined}
-                  aria-hidden={!isCenter}
-                >
-                  <img src={sl.image} alt={isCenter ? 'Türkiye — travel destinations' : ''} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : undefined} style={{objectPosition: sl.position || '50% 50%'}} />
-                </div>
-              );
-            })}
-            <div className="hero-photo-badge">Каппадокия · Стамбул · Эгейское побережье</div>
-          </div>
-        </div>
-        <div className="hero-dots">
-          {heroSlides.map((_, i) => (
-            <button key={i} aria-label={`Слайд ${i + 1}`} aria-current={i === activeSlide} className="hero-dot-hit" onClick={() => setActiveSlide(i)}>
-              <span className={`hero-dot ${i === activeSlide ? 'on' : ''}`} />
-            </button>
-          ))}
-          <button type="button" className="hero-pause" aria-label={motionPaused ? 'Воспроизвести слайд-шоу' : 'Приостановить слайд-шоу'} aria-pressed={motionPaused} onClick={() => setMotionPaused(v => !v)}>
-            {motionPaused ? '▶' : '❚❚'}
-          </button>
         </div>
       </section>
 
