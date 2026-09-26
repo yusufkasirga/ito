@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 { "@type": "Country", "name": "Russia" }
               ],
               "knowsLanguage": ["en", "tr", "de", "ru"],
-              "priceRange": "Free initial consultation",
+              "priceRange": "Flat planning fee, quoted in advance",
               "makesOffer": [
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Medical travel coordination", "serviceType": "Hair restoration, dental care and aesthetic surgery coordination with verified partner clinics" } },
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Türkiye experiences", "serviceType": "Tailor-made itineraries, guides and travel coordination" } },
