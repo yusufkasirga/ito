@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 
@@ -8,12 +9,12 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "'Playfair Display', serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
   meta: { fontSize: '13px', color: '#647889', marginBottom: '14px' },
   note: { fontSize: '12.5px', color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
-  h2: { fontFamily: "'Playfair Display', serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   back: { display: 'inline-block', color: '#c9a96a', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
 };
@@ -22,13 +23,13 @@ export default function PrivacyPageDe() {
   return (
     <main style={S.main}>
       <div style={S.wrap}>
-        <a href="/de" style={S.back}>← Zur Startseite</a>
+        <Link href="/de" style={S.back}>← Zur Startseite</Link>
         <h1 style={S.h1}>Datenschutzerklärung</h1>
         <p style={S.meta}>Zuletzt aktualisiert: 17. Juli 2026</p>
-        <p style={S.note}>Diese Übersetzung dient Ihrer Information. Rechtlich maßgeblich ist die <a href="/privacy" style={{color:'#8a6d33'}}>englische Fassung</a>.</p>
+        <p style={S.note}>Diese Übersetzung dient Ihrer Information. Rechtlich maßgeblich ist die <Link href="/privacy" style={{color:'#8a6d33'}}>englische Fassung</Link>.</p>
 
         <h2 style={S.h2}>Wer wir sind</h2>
-        <p style={S.p}>Itinerary of Türkiye (Finanzamt Yenibosna, Steuernr. 76003842, Istanbul, Türkei) („wir") betreibt itineraryofturkiye.com. Wir sind Verantwortliche für die unten beschriebene Verarbeitung. Sie erreichen uns über den Kontaktbereich unserer Website.</p>
+        <p style={S.p}>Itinerary of Türkiye (Finanzamt Yenibosna, Steuernr. 76003842, Istanbul, Türkei) („wir“) betreibt itineraryofturkiye.com. Wir sind Verantwortliche für die unten beschriebene Verarbeitung. Sie erreichen uns über den Kontaktbereich unserer Website.</p>
 
         <h2 style={S.h2}>Was diese Website nicht erhebt</h2>
         <p style={S.p}>Unsere Website hat keine Benutzerkonten, keine serverseitigen Formulare und keine Tracking-Cookies. Das Anfrageformular bereitet eine Nachricht ausschließlich in Ihrem Browser vor — nichts davon wird auf unseren Servern gespeichert.</p>
@@ -50,7 +51,7 @@ export default function PrivacyPageDe() {
 
         <h2 style={S.h2}>Änderungen</h2>
         <p style={S.p}>Aktualisierungen dieser Erklärung veröffentlichen wir auf dieser Seite.</p>
-        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'#647889'}}>Weitere Angaben: <a href="/de/terms" style={{color:'#8a6d33',fontWeight:600}}>AGB</a> · <a href="/de/impressum" style={{color:'#8a6d33',fontWeight:600}}>Impressum</a></p>
+        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'#647889'}}>Weitere Angaben: <Link href="/de/terms" style={{color:'#8a6d33',fontWeight:600}}>AGB</Link> · <Link href="/de/impressum" style={{color:'#8a6d33',fontWeight:600}}>Impressum</Link></p>
       </div>
     </main>
   );

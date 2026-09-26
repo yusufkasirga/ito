@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { blogPostsDe as blogPosts } from '../../blogs/blogDataDe';
 
@@ -12,9 +14,8 @@ export default function BlogsPage() {
   const visible = filter === 'Alle' ? rest : sorted.filter((p) => p.category === filter);
   const showFeatured = filter === 'Alle';
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -39,7 +40,7 @@ export default function BlogsPage() {
         .hero > * { position: relative; z-index: 1; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
         .hero p { color: rgba(255,250,241,.7); font-size: 16px; max-width: 560px; margin: 0 auto; line-height: 1.7; }
 
         .content { max-width: 1100px; margin: 0 auto; padding: 56px 32px 80px; }
@@ -58,7 +59,7 @@ export default function BlogsPage() {
         .feat-card:hover .feat-shade { background: linear-gradient(180deg, rgba(7,23,38,.16) 20%, rgba(7,23,38,.92) 100%); }
         .feat-text { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 24px; }
         .feat-tag { display: block; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 8px; }
-        .feat-text h2 { font-family: 'Playfair Display', serif; color: #fff; font-size: 19px; line-height: 1.25; margin-bottom: 8px; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+        .feat-text h2 { font-family: var(--font-playfair), serif; color: #fff; font-size: 19px; line-height: 1.25; margin-bottom: 8px; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
         .feat-0 .feat-text h2 { font-size: clamp(24px, 2.2vw, 32px); }
         .feat-0 .feat-text p { color: rgba(255,250,241,.78); font-size: 14px; line-height: 1.7; margin-bottom: 10px; }
         .feat-more { display: inline-block; color: var(--gold); font-weight: 800; font-size: 13px; opacity: 0; transform: translateY(4px); transition: opacity .3s ease, transform .3s ease; }
@@ -71,7 +72,7 @@ export default function BlogsPage() {
         .blog-card:hover .blog-img img { transform: scale(1.06); }
         .blog-body { padding: 22px; }
         .blog-cat { display: inline-block; padding: 4px 11px; background: rgba(201,169,106,.1); color: var(--gold); border-radius: 999px; font-size: 11px; font-weight: 700; margin-bottom: 12px; border: 1px solid rgba(201,169,106,.2); }
-        .blog-title { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 800; color: var(--navy); margin-bottom: 10px; line-height: 1.3; }
+        .blog-title { font-family: var(--font-playfair), serif; font-size: 19px; font-weight: 800; color: var(--navy); margin-bottom: 10px; line-height: 1.3; }
         .blog-excerpt { color: var(--muted); font-size: 13.5px; line-height: 1.65; margin-bottom: 14px; }
         .blog-meta { display: flex; justify-content: space-between; font-size: 12px; color: rgba(100,120,137,.8); border-top: 1px solid var(--line); padding-top: 14px; }
 
@@ -110,13 +111,13 @@ export default function BlogsPage() {
 
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/de"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/de"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
           <nav className="nav-links">
-            <a href="/de/about">Über uns</a>
-            <a href="/de/services">Leistungen</a>
-            <a href="/de/testimonials">Referenzen</a>
-            <a href="/de#contact">Kontakt</a>
-                      <a href="/blogs" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
+            <Link href="/de/about">Über uns</Link>
+            <Link href="/de/services">Leistungen</Link>
+            <Link href="/de/testimonials">Referenzen</Link>
+            <Link href="/de#contact">Kontakt</Link>
+                      <Link href="/blogs" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
           </nav>
         </div>
       </header>
@@ -137,7 +138,7 @@ export default function BlogsPage() {
         {showFeatured && (
           <div className="feat-bento">
             {featuredFour.map((f, i) => (
-              <a key={f.slug} className={`feat-card feat-${i}`} href={`/de/blogs/${f.slug}`}>
+              <Link key={f.slug} className={`feat-card feat-${i}`} href={`/de/blogs/${f.slug}`}>
                 <img src={f.coverImage} alt={f.title} />
                 <div className="feat-shade" />
                 <div className="feat-text">
@@ -146,14 +147,14 @@ export default function BlogsPage() {
                   {i === 0 && <p>{f.excerpt}</p>}
                   <span className="feat-more">Zum Ratgeber →</span>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         )}
 
         <div className="blog-grid">
           {visible.map((post) => (
-            <a key={post.slug} className="blog-card" href={`/de/blogs/${post.slug}`}>
+            <Link key={post.slug} className="blog-card" href={`/de/blogs/${post.slug}`}>
               <div className="blog-img"><img loading="lazy" src={post.coverImage} alt={post.title} /></div>
               <div className="blog-body">
                 <span className="blog-cat">{post.category}</span>
@@ -164,12 +165,12 @@ export default function BlogsPage() {
                   <span>{post.readTime}</span>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </section>
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Datenschutz</a> · <a href="/de/terms" style={{color:'inherit'}}>AGB</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a> · <a href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link></p></footer>
     </main>
   );
 }

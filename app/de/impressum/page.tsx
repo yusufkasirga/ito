@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SITE_URL, WHATSAPP_E164_NUMBER } from '@/lib/config';
 
@@ -8,12 +9,12 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "'Playfair Display', serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
   meta: { fontSize: '13px', color: '#647889', marginBottom: '14px' },
   note: { fontSize: '12.5px', color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
-  h2: { fontFamily: "'Playfair Display', serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   dl: { fontSize: '15.5px', lineHeight: 1.9, marginBottom: '16px' },
   back: { display: 'inline-block', color: '#8a6d33', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
@@ -32,7 +33,7 @@ export default function ImpressumPage() {
   return (
     <main style={S.main}>
       <div style={S.wrap}>
-        <a href="/de" style={S.back}>← Zur Startseite</a>
+        <Link href="/de" style={S.back}>← Zur Startseite</Link>
         <h1 style={S.h1}>Impressum</h1>
         <p style={S.meta}>Anbieterkennzeichnung · Zuletzt aktualisiert: 21. Juli 2026</p>
         <p style={S.note}>
@@ -56,7 +57,7 @@ export default function ImpressumPage() {
         <p style={S.p}>
           Anfragen beantworten wir in der Regel innerhalb weniger Stunden. Bitte senden Sie uns in der ersten
           Kontaktaufnahme keine Arztberichte, Fotos, Ausweis- oder Zahlungsdaten — Einzelheiten dazu finden Sie
-          in unserer <a href="/de/privacy" style={S.a}>Datenschutzerklärung</a>.
+          in unserer <Link href="/de/privacy" style={S.a}>Datenschutzerklärung</Link>.
         </p>
 
         <h2 style={S.h2}>Art der Tätigkeit</h2>
@@ -101,9 +102,9 @@ export default function ImpressumPage() {
         </p>
 
         <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
-          Weitere Angaben: <a href="/de/privacy" style={S.a}>Datenschutzerklärung</a> ·{' '}
-          <a href="/de/terms" style={S.a}>AGB / Nutzungsbedingungen</a> ·{' '}
-          <a href="/legal-notice" style={S.a}>English version</a>
+          Weitere Angaben: <Link href="/de/privacy" style={S.a}>Datenschutzerklärung</Link> ·{' '}
+          <Link href="/de/terms" style={S.a}>AGB / Nutzungsbedingungen</Link> ·{' '}
+          <Link href="/legal-notice" style={S.a}>English version</Link>
         </p>
       </div>
     </main>

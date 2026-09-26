@@ -1,5 +1,4 @@
-'use client';
-
+import Link from 'next/link';
 import SiteHeader from '../components/SiteHeader';
 
 export default function TestimonialsPage() {
@@ -11,9 +10,8 @@ export default function TestimonialsPage() {
   ];
 
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -32,7 +30,7 @@ export default function TestimonialsPage() {
         .hero { background: linear-gradient(135deg, #071726 0%, #0c3555 100%); color: #fff; padding: 90px 0 70px; text-align: center; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
         .hero p { color: rgba(255,250,241,.7); font-size: 16px; max-width: 560px; margin: 0 auto; line-height: 1.7; }
         .content { max-width: 1000px; margin: 0 auto; padding: 80px 32px; }
         .testi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -66,15 +64,15 @@ export default function TestimonialsPage() {
             <div key={t.name} className="testi-card">
               <p className="testi-name">{t.flag} {t.name}</p>
               <span className="testi-cat">{t.category}</span>
-              <p className="testi-text">"{t.text}"</p>
+              <p className="testi-text">&ldquo;{t.text}&rdquo;</p>
             </div>
           ))}
         </div>
         <div className="cta-row">
-          <a className="btn-primary" href="/#contact">Start Your Own Journey</a>
+          <Link className="btn-primary" href="/#contact">Start Your Own Journey</Link>
         </div>
       </section>
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p></footer>
     </main>
   );
 }

@@ -111,8 +111,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   return (
     <main className="ar">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
-        .ar { font-family: 'Inter', system-ui, sans-serif; background: #fffaf1; color: #2b3742; }
+        .ar { font-family: var(--font-inter), system-ui, sans-serif; background: #fffaf1; color: #2b3742; }
         .ar * { box-sizing: border-box; }
 
         /* HERO — full-bleed foto */
@@ -124,24 +123,24 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-crumb { display: inline-block; color: rgba(255,250,241,.85); font-size: 12px; font-weight: 800; letter-spacing: .04em; text-decoration: none; }
         .ar-crumb:hover { color: #d8b878; }
         .ar-cat { display: block; margin-top: 18px; font-size: 11.5px; font-weight: 900; letter-spacing: .2em; text-transform: uppercase; color: #d8b878; }
-        .ar-h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 5.2vw, 54px); line-height: 1.06; margin: 10px 0 14px; max-width: 15ch; letter-spacing: -.01em; }
+        .ar-h1 { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5.2vw, 54px); line-height: 1.06; margin: 10px 0 14px; max-width: 15ch; letter-spacing: -.01em; }
         .ar-meta { font-size: 13px; color: rgba(255,250,241,.78); font-weight: 600; letter-spacing: .02em; }
 
         /* İKİ SÜTUN */
         .ar-shell { max-width: 1160px; margin: 0 auto; padding: 64px 40px 24px; display: grid; grid-template-columns: minmax(0,1fr) 340px; gap: 64px; align-items: start; }
         .ar-body { min-width: 0; max-width: 680px; }
-        .ar-body h2 { font-family: 'Playfair Display', serif; font-size: clamp(22px, 2.6vw, 29px); color: #081f35; margin: 44px 0 14px; line-height: 1.22; letter-spacing: -.01em; }
+        .ar-body h2 { font-family: var(--font-playfair), serif; font-size: clamp(22px, 2.6vw, 29px); color: #081f35; margin: 44px 0 14px; line-height: 1.22; letter-spacing: -.01em; }
         .ar-body h2:first-child { margin-top: 0; }
         .ar-body p { font-size: 17.5px; line-height: 1.85; color: #33414d; margin: 0 0 20px; }
         .ar-body p.lede { font-size: 20px; line-height: 1.72; color: #1e2a35; }
-        .ar-body p.lede::first-letter { font-family: 'Playfair Display', serif; font-weight: 800; font-size: 3.6em; line-height: .78; float: left; padding: 8px 14px 2px 0; color: #8a6d33; }
+        .ar-body p.lede::first-letter { font-family: var(--font-playfair), serif; font-weight: 800; font-size: 3.6em; line-height: .78; float: left; padding: 8px 14px 2px 0; color: #8a6d33; }
         .ar-body ul { margin: 6px 0 22px; padding: 0; list-style: none; }
         .ar-body ul li { position: relative; font-size: 17px; line-height: 1.6; color: #33414d; padding: 7px 0 7px 26px; border-bottom: 1px solid rgba(8,31,53,.07); }
         .ar-body ul li:last-child { border-bottom: none; }
         .ar-body ul li::before { content: ''; position: absolute; left: 4px; top: 15px; width: 7px; height: 7px; border-radius: 50%; background: #8a6d33; }
         .ar-figure { margin: 38px 0; border-radius: 16px; overflow: hidden; position: relative; aspect-ratio: 3/2; border: 1px solid rgba(8,31,53,.1); }
         .ar-figure .cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; padding: 14px 18px; font-size: 12.5px; color: rgba(255,250,241,.9); background: linear-gradient(180deg, transparent, rgba(7,23,38,.7)); }
-        .ar-pull { margin: 34px 0; padding: 8px 0 8px 24px; border-left: 3px solid ${a.accent}; font-family: 'Playfair Display', serif; font-size: 23px; line-height: 1.4; color: #081f35; }
+        .ar-pull { margin: 34px 0; padding: 8px 0 8px 24px; border-left: 3px solid ${a.accent}; font-family: var(--font-playfair), serif; font-size: 23px; line-height: 1.4; color: #081f35; }
         .ar-guides { margin-top: 40px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
         .ar-guides .k { width: 100%; font-size: 11px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #8a6d33; }
         .ar-guides a { display: inline-flex; padding: 9px 16px; border-radius: 999px; border: 1px solid rgba(138,109,51,.35); color: #081f35; font-weight: 700; font-size: 14px; text-decoration: none; }
@@ -160,7 +159,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-card { border: 1px solid rgba(8,31,53,.12); border-radius: 16px; overflow: hidden; background: #fff; }
         .ar-card-top { background: linear-gradient(165deg, #071726, #0c3555); color: #fffaf1; padding: 22px; }
         .ar-card-top .k { font-size: 11px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #d8b878; }
-        .ar-card-top h3 { font-family: 'Playfair Display', serif; font-size: 20px; margin: 8px 0 8px; line-height: 1.2; }
+        .ar-card-top h3 { font-family: var(--font-playfair), serif; font-size: 20px; margin: 8px 0 8px; line-height: 1.2; }
         .ar-card-top p { font-size: 13.5px; line-height: 1.6; color: rgba(255,250,241,.82); margin: 0 0 14px; }
         .ar-wa { display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; border-radius: 999px; background: #c9a96a; color: #081f35; font-weight: 800; font-size: 13.5px; text-decoration: none; }
         .ar-facts { padding: 16px 20px; }
@@ -172,27 +171,27 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         .ar-rel a { display: block; text-decoration: none; padding: 9px 0; border-bottom: 1px solid rgba(8,31,53,.07); }
         .ar-rel a:last-child { border-bottom: none; }
         .ar-rel .rc { font-size: 10.5px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #8a6d33; }
-        .ar-rel .rt { font-family: 'Playfair Display', serif; font-size: 15.5px; color: #081f35; line-height: 1.25; margin-top: 2px; }
+        .ar-rel .rt { font-family: var(--font-playfair), serif; font-size: 15.5px; color: #081f35; line-height: 1.25; margin-top: 2px; }
 
         /* Alt CTA bandı */
         .ar-cta { background: linear-gradient(165deg, #071726 0%, #0c3555 100%); color: #fffaf1; margin-top: 48px; padding: 56px 0; }
         .ar-cta-in { max-width: 1040px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 42px; align-items: center; }
         .ar-cta .k { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
-        .ar-cta h2 { font-family: 'Playfair Display', serif; font-size: 30px; margin: 10px 0 12px; line-height: 1.1; }
+        .ar-cta h2 { font-family: var(--font-playfair), serif; font-size: 30px; margin: 10px 0 12px; line-height: 1.1; }
         .ar-cta p { font-size: 15.5px; line-height: 1.8; color: rgba(255,250,241,.82); }
 
         /* EN ALT — Diğer bloglar (kapak görselli kart ızgarası) */
         .ar-more { background: #071726; padding: 58px 0 66px; border-top: 1px solid rgba(255,250,241,.08); }
         .ar-more-in { max-width: 1160px; margin: 0 auto; padding: 0 40px; }
         .ar-more-h { font-size: 11px; font-weight: 900; letter-spacing: .2em; text-transform: uppercase; color: #d8b878; }
-        .ar-more-t { font-family: 'Playfair Display', serif; font-size: 28px; color: #fffaf1; margin: 6px 0 26px; letter-spacing: -.01em; }
+        .ar-more-t { font-family: var(--font-playfair), serif; font-size: 28px; color: #fffaf1; margin: 6px 0 26px; letter-spacing: -.01em; }
         .ar-more-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
         .ar-more-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 286px; border-radius: 16px; overflow: hidden; text-decoration: none; color: #fffaf1; border: 1px solid rgba(255,250,241,.09); transition: transform .25s ease, border-color .25s ease; }
         .ar-more-card:hover { transform: translateY(-4px); border-color: rgba(216,184,120,.45); }
         .ar-more-card .ov { position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(7,23,38,.12) 0%, rgba(7,23,38,.55) 52%, rgba(7,23,38,.95) 100%); }
         .ar-more-card .bd { position: relative; z-index: 2; padding: 22px; }
         .ar-more-card .cat { font-size: 10.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #d8b878; }
-        .ar-more-card .ti { font-family: 'Playfair Display', serif; font-size: 20px; line-height: 1.16; margin: 9px 0 9px; }
+        .ar-more-card .ti { font-family: var(--font-playfair), serif; font-size: 20px; line-height: 1.16; margin: 9px 0 9px; }
         .ar-more-card .ex { font-size: 13px; line-height: 1.55; color: rgba(255,250,241,.8); margin-bottom: 13px; }
         .ar-more-card .go { font-size: 12.5px; font-weight: 800; color: #d8b878; }
         @media (max-width: 940px) { .ar-more-in { padding: 0 24px; } }
@@ -304,7 +303,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="ar-facts">
               <div className="ar-fact"><span className="l">Topic</span><span className="v">{a.category}</span></div>
               <div className="ar-fact"><span className="l">Read time</span><span className="v">{a.readTime}</span></div>
-              <div className="ar-fact"><span className="l">Our approach</span><span className="v"><a href="/how-we-work" style={{ color: '#8a6d33' }}>How we work →</a></span></div>
+              <div className="ar-fact"><span className="l">Our approach</span><span className="v"><Link href="/how-we-work" style={{ color: '#8a6d33' }}>How we work →</Link></span></div>
             </div>
           </div>
         </aside>
@@ -316,7 +315,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="ar-more-t">More from The Journal</div>
           <div className="ar-more-grid">
             {related.map((r) => (
-              <a key={r.slug} href={`/blog/${r.slug}`} className="ar-more-card">
+              <Link key={r.slug} href={`/blog/${r.slug}`} className="ar-more-card">
                 <CityImage slug={r.slug} accent={r.accent} alt={`${r.title} — ${r.category} in Türkiye`} primary={`/images/blog/${r.slug}.jpg`} fallback={r.cover} />
                 <span className="ov" />
                 <div className="bd">
@@ -325,7 +324,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   <div className="ex">{r.excerpt.length > 108 ? r.excerpt.slice(0, 108).trimEnd() + '…' : r.excerpt}</div>
                   <span className="go">Read article →</span>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -339,7 +338,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p>Whatever brought you to this page — a treatment, a trip, a property — tell us and a real person replies within hours.</p>
           </div>
           <div>
-            <a className="ar-wa" href="/contact" style={{ background: '#c9a96a' }}>Start planning →</a>
+            <Link className="ar-wa" href="/contact" style={{ background: '#c9a96a' }}>Start planning →</Link>
           </div>
         </div>
       </section>

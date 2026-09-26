@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 /**
  * Şehir görseli — "foto-hazır", çok katmanlı sistem.
@@ -16,6 +17,7 @@ export default function CityImage({
   fallback,
   primary,
   priority = false,
+  sizes = '100vw',
 }: {
   slug: string;
   accent: string;
@@ -23,6 +25,8 @@ export default function CityImage({
   fallback?: string;
   primary?: string;
   priority?: boolean;
+  /** Görselin ekrandaki genişliği — next/image doğru boyutu seçsin diye */
+  sizes?: string;
 }) {
   const sources = [primary ?? `/images/dest/${slug}.jpg`, ...(fallback ? [fallback] : [])];
   const [idx, setIdx] = useState(0);
@@ -47,20 +51,20 @@ export default function CityImage({
         }}
       />
       {src && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
+        <Image
+          key={src}
           src={src}
           alt={alt}
-          loading={priority ? 'eager' : 'lazy'}
-          fetchPriority={priority ? 'high' : 'auto'}
-          decoding="async"
+          fill
+          sizes={sizes}
+          preload={priority}
           onError={() => setIdx((i) => i + 1)}
           // Görsel React hidrasyonundan ÖNCE hata verirse onError hiç tetiklenmez
           // ve kırık görsel + alt metni köşede kalır; bağlanınca durumu kontrol et.
           ref={(el) => {
-            if (el && el.complete && el.naturalWidth === 0) setIdx((i) => (sources[i] === el.getAttribute('src') ? i + 1 : i));
+            if (el && el.complete && el.naturalWidth === 0) setIdx((i) => (sources[i] === src ? i + 1 : i));
           }}
-          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ objectFit: 'cover' }}
         />
       )}
     </span>

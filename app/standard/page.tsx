@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import SiteHeader from '../components/SiteHeader';
 import { SITE_URL } from '@/lib/config';
@@ -9,14 +10,14 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "'Playfair Display', serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
   lede: { fontSize: '17px', lineHeight: 1.8, color: '#3a4654', marginBottom: '8px' },
   meta: { fontSize: '13px', color: '#647889', marginBottom: '30px' },
-  h2: { fontFamily: "'Playfair Display', serif", fontSize: '22px', color: '#081f35', margin: '38px 0 12px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '38px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
-  num: { display: 'inline-block', fontFamily: "'Playfair Display', serif", color: '#8a6d33', fontWeight: 700, marginRight: '10px' },
+  num: { display: 'inline-block', fontFamily: "var(--font-playfair), serif", color: '#8a6d33', fontWeight: 700, marginRight: '10px' },
   card: { background: '#fff', border: '1px solid rgba(8,31,53,.1)', borderRadius: '14px', padding: '22px 24px', marginBottom: '14px' },
   cardTitle: { fontWeight: 700, color: '#081f35', fontSize: '15.5px', marginBottom: '6px' },
   back: { display: 'inline-block', color: '#8a6d33', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
@@ -28,7 +29,7 @@ export default function StandardPage() {
     <main style={S.main}>
       <SiteHeader />
       <div style={S.wrap}>
-        <a href="/" style={S.back}>← Back to home</a>
+        <Link href="/" style={S.back}>← Back to home</Link>
         <h1 style={S.h1}>The ITO Standard</h1>
         <p style={S.lede}>
           Trust is not something we ask for. It is something we put in writing — and let you hold us to.
@@ -91,12 +92,12 @@ export default function StandardPage() {
           verify and expensive for us to break — which is exactly the point.
         </p>
 
-        <a href="/#contact" style={S.cta}>Start with a planning consultation</a>
+        <Link href="/#contact" style={S.cta}>Start with a planning consultation</Link>
 
         <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
-          See also: <a href="/about" style={{ color: '#8a6d33', fontWeight: 600 }}>About us</a> ·{' '}
-          <a href="/services" style={{ color: '#8a6d33', fontWeight: 600 }}>Services</a> ·{' '}
-          <a href="/legal-notice" style={{ color: '#8a6d33', fontWeight: 600 }}>Legal Notice</a>
+          See also: <Link href="/about" style={{ color: '#8a6d33', fontWeight: 600 }}>About us</Link> ·{' '}
+          <Link href="/services" style={{ color: '#8a6d33', fontWeight: 600 }}>Services</Link> ·{' '}
+          <Link href="/legal-notice" style={{ color: '#8a6d33', fontWeight: 600 }}>Legal Notice</Link>
         </p>
       </div>
     </main>

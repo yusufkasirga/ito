@@ -1,5 +1,5 @@
-'use client';
-
+import Link from 'next/link';
+import Image from 'next/image';
 import { whatsAppUrl } from '@/lib/config';
 import Icon from '../components/Icon';
 
@@ -16,15 +16,14 @@ export default function LinksPage() {
     { emoji: 'sparkle', title: 'How It Works', sub: 'Three steps, zero stress', href: `/${UTM}#contact` },
   ];
   return (
-    <main style={{ minHeight: '100vh', background: 'linear-gradient(160deg, #071726, #0c3555)', fontFamily: "'Inter', system-ui, sans-serif", padding: '48px 20px 60px' }}>
+    <main style={{ minHeight: '100vh', background: 'linear-gradient(160deg, #071726, #0c3555)', fontFamily: "var(--font-inter), system-ui, sans-serif", padding: '48px 20px 60px' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;600;700;800&display=swap');
         .lk-wrap { max-width: 480px; margin: 0 auto; text-align: center; }
         .lk-logo { height: 88px; width: auto; }
-        .lk-name { font-family: 'Playfair Display', serif; color: #fff; font-size: 26px; margin: 14px 0 6px; }
+        .lk-name { font-family: var(--font-playfair), serif; color: #fff; font-size: 26px; margin: 14px 0 6px; }
         .lk-tag { color: rgba(255,250,241,.65); font-size: 13.5px; line-height: 1.6; margin-bottom: 30px; }
         .lk-tag b { color: #c9a96a; font-weight: 700; }
-        .lk-btn { display: flex; align-items: center; gap: 14px; text-align: left; width: 100%; padding: 16px 20px; margin-bottom: 14px; border-radius: 18px; text-decoration: none; border: 1px solid rgba(255,250,241,.16); background: rgba(255,255,255,.05); transition: transform .25s ease, border-color .25s ease, background .25s ease; }
+        .lk-btn { box-sizing: border-box; display: flex; align-items: center; gap: 14px; text-align: left; width: 100%; padding: 16px 20px; margin-bottom: 14px; border-radius: 18px; text-decoration: none; border: 1px solid rgba(255,250,241,.16); background: rgba(255,255,255,.05); transition: transform .25s ease, border-color .25s ease, background .25s ease; }
         .lk-btn:hover { transform: translateY(-2px); border-color: rgba(201,169,106,.6); background: rgba(255,255,255,.09); }
         .lk-btn.primary { background: linear-gradient(135deg, #c9a96a, #b8955a); border: none; }
         .lk-btn.primary .lk-t { color: #071726; }
@@ -37,7 +36,7 @@ export default function LinksPage() {
         a:focus-visible { outline: 3px solid #8ed8dc; outline-offset: 2px; border-radius: 8px; }
       `}</style>
       <div className="lk-wrap">
-        <img className="lk-logo" src="/logo.png" alt="Itinerary of Türkiye" />
+        <Image className="lk-logo" src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} />
         <h1 className="lk-name">Itinerary of Türkiye</h1>
         <p className="lk-tag"><b>Independent advisory</b> for medical travel & private Türkiye experiences.<br />We verify. We plan. We stay with you.</p>
         {links.map((l) => (
@@ -49,7 +48,7 @@ export default function LinksPage() {
             </span>
           </a>
         ))}
-        <p className="lk-foot"><a href="/">itineraryofturkiye.com</a> · @itineraryofturkiye</p>
+        <p className="lk-foot"><Link href="/">itineraryofturkiye.com</Link> · @itineraryofturkiye</p>
       </div>
     </main>
   );

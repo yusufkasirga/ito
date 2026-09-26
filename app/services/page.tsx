@@ -1,5 +1,4 @@
-'use client';
-
+import Link from 'next/link';
 import SiteHeader from '../components/SiteHeader';
 
 import Icon from '../components/Icon';
@@ -41,9 +40,8 @@ export default function ServicesPage() {
   ];
 
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -69,7 +67,7 @@ export default function ServicesPage() {
         .hero-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: #fff; margin-bottom: 24px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: #fff; margin-bottom: 24px; }
         .hero h1 span { color: var(--gold); }
         .hero p { max-width: 620px; color: rgba(255,250,241,.75); font-size: 17px; line-height: 1.8; }
 
@@ -80,7 +78,7 @@ export default function ServicesPage() {
         .service-card.reverse { direction: rtl; }
         .service-card.reverse > * { direction: ltr; }
         .service-number { font-size: 13px; font-weight: 900; color: var(--gold); letter-spacing: .15em; margin-bottom: 12px; }
-        .service-title { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 44px); color: var(--navy); margin-bottom: 16px; line-height: 1; }
+        .service-title { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 44px); color: var(--navy); margin-bottom: 16px; line-height: 1; }
         .service-desc { color: var(--muted); font-size: 15px; line-height: 1.8; margin-bottom: 24px; }
         .service-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
         .service-tag { padding: 7px 15px; border-radius: 999px; background: rgba(201,169,106,.1); color: var(--gold); font-size: 12px; font-weight: 700; border: 1px solid rgba(201,169,106,.2); text-decoration: none; transition: all .25s ease; display: inline-block; }
@@ -92,7 +90,7 @@ export default function ServicesPage() {
         /* CTA */
         .cta-section { background: linear-gradient(135deg, var(--navy), var(--navy-2)); padding: 80px 0; text-align: center; }
         .cta-inner { max-width: 640px; margin: 0 auto; padding: 0 32px; }
-        .cta-inner h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 48px); color: #fff; margin-bottom: 16px; }
+        .cta-inner h2 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 48px); color: #fff; margin-bottom: 16px; }
         .cta-inner p { color: rgba(255,250,241,.72); font-size: 16px; line-height: 1.75; margin-bottom: 32px; }
 
         /* FOOTER */
@@ -161,13 +159,13 @@ export default function ServicesPage() {
         <div className="cta-inner">
           <h2>Ready to begin?</h2>
           <p>Tell us what you need in Türkiye and we will take care of everything else.</p>
-          <a className="btn-primary" href="/contact">Request Advisory</a>
+          <Link className="btn-primary" href="/contact">Request Advisory</Link>
         </div>
       </section>
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p>
       </footer>
     </main>
   );
