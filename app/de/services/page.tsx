@@ -160,7 +160,7 @@ export default function ServicesPage() {
               <a className="btn-primary" href={s.link}>Mehr erfahren</a>
             </div>
             <div className="service-image">
-              <img src={s.image} alt={s.title} />
+              <img src={s.image} alt={s.title} loading="lazy" decoding="async" />
             </div>
           </div>
         ))}

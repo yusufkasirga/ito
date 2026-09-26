@@ -139,7 +139,7 @@ export default function BlogsPage() {
           <div className="feat-bento">
             {featuredFour.map((f, i) => (
               <Link key={f.slug} className={`feat-card feat-${i}`} href={`/blogs/${f.slug}`}>
-                <img src={f.coverImage} alt={f.title} />
+                <img src={f.coverImage} alt={f.title} loading="lazy" decoding="async" />
                 <div className="feat-shade" />
                 <div className="feat-text">
                   <span className="feat-tag">{i === 0 ? 'Latest · ' : ''}{f.category}</span>
