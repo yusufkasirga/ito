@@ -19,8 +19,15 @@ Kaynak: Pexels (https://www.pexels.com/license/ — ticari kullanım serbest, at
 Not: Pexels foto ID 2678218 kaynağından kaldırıldığı için 4. hero slaytı çıkarıldı (D-18).
 Aşama 2 (lansman sonrası): stok görseller özel çekim/izinli marka görselleriyle değiştirilecek.
 
-## Hero videosu (25 Eyl 2026)
+## Hero videosu (26 Eyl 2026 — Pexels stok klipleri)
 `public/videos/hero-turkiye-{720p,480p}.{mp4,webm}` ve `public/images/hero-poster-1280x720.jpg`,
-yukarıdaki lisanslı Pexels fotoğrafları (2325446, 3889742) ile kendi çekimlerimizden
-(`about-bluemosque`, `hero-galata`, `hero-tram`) `scripts/build-hero-video.sh` ile üretildi.
-Harici video kaynağı yok. Gerçek çekim geldiğinde aynı dosya adlarıyla değiştirilir.
+aşağıdaki Pexels videolarından `scripts/build-hero-video.sh` ile üretildi
+(Pexels License — ticari kullanım serbest, atıf zorunlu değil; kayıt için):
+- https://www.pexels.com/video/19163327/ — Sultanahmet, havadan (Volkan Yılmaz)
+- https://www.pexels.com/video/33703982/ — Galata Kulesi, havadan (Kenan Turguç)
+- https://www.pexels.com/video/27436406/ — Kapadokya drone, gün doğumu (Okan Demiray)
+- https://www.pexels.com/video/34889372/ — Kapadokya balonları, gün doğumu (Cihan Çimen)
+- https://www.pexels.com/video/32099813/ — Haliç'te gün batımı (Yaşar Başkurt)
+- https://www.pexels.com/video/34433049/ — Gece Boğaz Köprüsü (K)
+Seçimde yakın plan yüz, marka logosu ve portre baskılı balon içeren klipler elendi.
+Bu video 25 Eylül'deki fotoğraftan üretilmiş videonun yerini aldı.

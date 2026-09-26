@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# hero video source clips (downloaded by scripts/build-hero-video.sh)
+/.cache/
