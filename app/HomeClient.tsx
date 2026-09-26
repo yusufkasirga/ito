@@ -131,22 +131,22 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
   const healthCategories = [
     {
       title: 'Hair Restoration',
-      badge: 'Verified Partner Clinics',
-      desc: 'World-leading FUE & DHI techniques. Natural, permanent results.',
+      badge: 'Licence-checked clinics',
+      desc: 'FUE & DHI options compared across clinics whose licences we check first.',
       items: ['Hair Transplant', 'Beard & Mustache', 'Eyebrow Restoration'],
-      image: '/images/hair-restoration-1400x725.jpg',
+      image: '/images/home/hair-restoration.jpg',
     },
     {
       title: 'Dental Care',
-      badge: 'Verified Partner Clinics',
-      desc: 'Veneers, implants and Hollywood smile makeovers — flawless results.',
+      badge: 'Licence-checked clinics',
+      desc: 'Veneers, implants and smile makeovers — treatment plans and prices compared for you.',
       items: ['Hollywood Smile', 'Veneers', 'Dental Implants'],
       image: '/images/home/dental-veneers.jpg',
     },
     {
       title: 'Aesthetic Surgery',
-      badge: 'Verified Specialists',
-      desc: 'Precision results by internationally recognised plastic surgeons.',
+      badge: 'Credentials checked',
+      desc: 'Surgeons whose qualifications and clinic licences we check before any recommendation.',
       items: ['Rhinoplasty', 'Facelift', 'Liposuction', 'Breast Augmentation'],
       image: '/images/home/aesthetic-clinic.jpg',
     },
@@ -697,7 +697,7 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
               <a className="hero-pill" href="#health"><Icon name="medical" size={17} /> Medical Tourism</a>
             </div>
             <div className="hero-trust-strip">
-              <div className="trust-strip-item">✓ Verified by ITO</div>
+              <div className="trust-strip-item">✓ Every provider checked first</div>
               <div className="trust-strip-divider" />
               <div className="trust-strip-item"><span className="trust-live-dot" />Replies within hours — real people, no bots</div>
               <div className="trust-strip-divider" />
@@ -832,9 +832,9 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
       <section className="section" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
         <div className="container std-grid">
           <aside className="std-card">
-            <span className="eyebrow">Verified by ITO</span>
+            <span className="eyebrow">The ITO standard</span>
             <h2 className="serif">How we select.</h2>
-            <p>All our partner clinics and providers carry the Verified by ITO standard — assessed for accreditation, patient outcomes, communication quality, and transparency before we recommend them.</p>
+            <p>Before we recommend a clinic or provider, we check it against the ITO standard: licences and accreditation documents, how clearly it communicates, and how transparent its pricing is. We never promise medical results.</p>
           </aside>
           <div className="crit-grid">
             {standardCriteria.map((c) => (
@@ -857,15 +857,15 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
               <p className="section-copy" style={{color:'rgba(255,250,241,.65)', marginBottom: 0}}>We connect you with accredited specialists at clinics that match your budget — so you can focus entirely on your health.</p>
             </div>
             <div className="health-stat-badge">
-              <span className="health-stat-num">Verified</span>
-              <span className="health-stat-label">Partner clinics screened for<br/>accreditation, outcomes & transparency</span>
+              <span className="health-stat-num">Checked</span>
+              <span className="health-stat-label">Licences, accreditation & pricing<br/>checked before we recommend</span>
             </div>
           </div>
 
           <div className="health-bento">
             <div className="health-photo-card health-bento-main">
               <div className="health-photo-wrap">
-                <Image src={healthCategories[0].image} alt={healthCategories[0].title} fill sizes="(max-width: 840px) 100vw, 50vw" />
+                <Image src={healthCategories[0].image} alt={healthCategories[0].title} fill sizes="(max-width: 840px) 100vw, 50vw" style={{ objectFit: 'cover', objectPosition: '62% 35%' }} />
                 <div className="health-photo-overlay" />
                 <span className="health-badge-photo">✓ {healthCategories[0].badge}</span>
                 <div className="health-photo-text">

@@ -8,7 +8,7 @@
 #   public/videos/hero-turkiye-1080p.mp4  (geniş/retina ekranlar, 1920x1080)
 #   public/videos/hero-turkiye-720p.mp4   (masaüstü, 1280x720)
 #   public/videos/hero-turkiye-{1080p,720p}.webm (VP9 eşdeğerleri)
-#   public/videos/hero-turkiye-portrait.{mp4,webm} (telefon, dikey 1080x1920)
+#   public/videos/hero-turkiye-portrait.{mp4,webm} (telefon, dikey 720x1280)
 #   public/images/hero-poster-1920x1080.jpg (video yüklenene kadar görünen kare)
 #   public/images/hero-poster-portrait.jpg  (telefonda görünen dikey kare)
 #
@@ -134,13 +134,19 @@ for ((k = 1; k < j; k++)); do
 done
 pf+="[$pprev]fade=t=in:st=0:d=0.8,fade=t=out:st=$(python3 -c "print($TOTAL-1)"):d=1[pfinal]"
 
+# Önce yüksek kaliteli 1080x1920 ara kopya (poster buradan alınır → keskin),
+# sonra teslim edilen dosyalar 720x1280: telefonda hareketli, üstü karartılmış
+# arka plan için yeterli ve boyutu yarıya indirir (~2 MB, mobil veri dostu).
+PMASTER="$CACHE4K/portrait-master.mp4"
 "$FF" -y -loglevel error "${pin[@]}" -filter_complex "$pf" -map "[pfinal]" \
+  -c:v libx264 -preset slow -crf 18 -pix_fmt yuv420p -an "$PMASTER"
+"$FF" -y -loglevel error -i "$PMASTER" -vf scale=720:1280:flags=lanczos \
   -c:v libx264 -preset slow -crf 30 -tune film -profile:v high -pix_fmt yuv420p -movflags +faststart -an \
   public/videos/hero-turkiye-portrait.mp4
-"$FF" -y -loglevel error -i public/videos/hero-turkiye-portrait.mp4 \
-  -c:v libvpx-vp9 -b:v 0 -crf 42 -row-mt 1 -deadline good -cpu-used 2 -pix_fmt yuv420p -an \
+"$FF" -y -loglevel error -i "$PMASTER" -vf scale=720:1280:flags=lanczos \
+  -c:v libvpx-vp9 -b:v 0 -crf 45 -row-mt 1 -deadline good -cpu-used 2 -pix_fmt yuv420p -an \
   public/videos/hero-turkiye-portrait.webm
-"$FF" -y -loglevel error -ss 1.5 -i public/videos/hero-turkiye-portrait.mp4 -frames:v 1 -q:v 3 \
+"$FF" -y -loglevel error -ss 1.5 -i "$PMASTER" -frames:v 1 -q:v 3 \
   public/images/hero-poster-portrait.jpg
 
 ls -lh public/videos/ public/images/hero-poster-1920x1080.jpg
