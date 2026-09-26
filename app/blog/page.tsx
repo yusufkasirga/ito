@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../components/SiteHeader';
@@ -24,11 +25,11 @@ export default function BlogIndex() {
   return (
     <main className="bj">
       <style>{`
-        .bj { font-family: 'Inter', system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
+        .bj { font-family: var(--font-inter), system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
         .bj * { box-sizing: border-box; }
         .bj-wrap { max-width: 1160px; margin: 0 auto; padding: 56px 40px 96px; }
         .bj-eyebrow { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
-        .bj-h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px,7vw,62px); margin: 12px 0 14px; line-height: 1.03; letter-spacing: -.02em; }
+        .bj-h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px,7vw,62px); margin: 12px 0 14px; line-height: 1.03; letter-spacing: -.02em; }
         .bj-lede { font-size: 16.5px; line-height: 1.8; color: rgba(255,250,241,.78); max-width: 640px; margin-bottom: 50px; }
 
         /* Ortak kart yüzeyi */
@@ -37,7 +38,7 @@ export default function BlogIndex() {
         .bj-shot { position: relative; overflow: hidden; }
         .bj-cat { position: absolute; top: 14px; left: 14px; z-index: 3; background: rgba(7,23,38,.78); backdrop-filter: blur(4px); color: #d8b878; font-size: 10px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; }
         .bj-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
-        .bj-title { font-family: 'Playfair Display', serif; font-weight: 700; line-height: 1.18; color: #fffaf1; }
+        .bj-title { font-family: var(--font-playfair), serif; font-weight: 700; line-height: 1.18; color: #fffaf1; }
         .bj-ex { font-size: 13.5px; line-height: 1.6; color: rgba(255,250,241,.72); margin-top: 9px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .bj-meta { margin-top: auto; padding-top: 16px; display: flex; align-items: center; justify-content: space-between; }
         .bj-rt { font-size: 12px; color: rgba(255,250,241,.55); font-weight: 600; }
@@ -73,7 +74,7 @@ export default function BlogIndex() {
           actually works. No brochure gloss; the things we would tell a friend.
         </p>
 
-        <a href={`/blog/${featured.slug}`} className="bj-card bj-feat">
+        <Link href={`/blog/${featured.slug}`} className="bj-card bj-feat">
           <span className="bj-shot">
             <span className="bj-cat">{featured.category}</span>
             <CityImage slug={featured.slug} accent={featured.accent} alt={`${featured.title} — ${featured.category} in Türkiye`} primary={`/images/blog/${featured.slug}.jpg`} fallback={featured.cover} priority />
@@ -83,11 +84,11 @@ export default function BlogIndex() {
             <div className="bj-ex">{clamp(featured.excerpt, 180)}</div>
             <div className="bj-meta"><span className="bj-rt">{featured.readTime}</span><span className="bj-go">Read article →</span></div>
           </div>
-        </a>
+        </Link>
 
         <div className="bj-grid">
           {rest.map((a) => (
-            <a key={a.slug} href={`/blog/${a.slug}`} className="bj-card">
+            <Link key={a.slug} href={`/blog/${a.slug}`} className="bj-card">
               <span className="bj-shot">
                 <span className="bj-cat">{a.category}</span>
                 <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={`/images/blog/${a.slug}.jpg`} fallback={a.cover} />
@@ -97,7 +98,7 @@ export default function BlogIndex() {
                 <div className="bj-ex">{clamp(a.excerpt, 120)}</div>
                 <div className="bj-meta"><span className="bj-rt">{a.readTime}</span><span className="bj-go">Read →</span></div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

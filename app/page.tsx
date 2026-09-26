@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useMemo, useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { whatsAppUrl } from '@/lib/config';
@@ -215,12 +216,10 @@ export default function Home() {
   };
 
   return (
-    <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "'Inter', system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
+    <main style={{ background: dm ? '#0a0f1a' : '#fffaf1', color: dm ? '#f0ede8' : '#071726', fontFamily: "var(--font-inter), system-ui, sans-serif", minHeight: '100vh', transition: 'background 0.3s, color 0.3s' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <link rel="preload" as="image" href="/images/hero-poster-1280x720.jpg" fetchPriority="high" />
       <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body { margin: 0; }
@@ -235,7 +234,7 @@ export default function Home() {
         }
 
         .container { width: min(1240px, calc(100% - 48px)); margin: 0 auto; }
-        .serif { font-family: 'Playfair Display', serif; letter-spacing: -.04em; }
+        .serif { font-family: var(--font-playfair), serif; letter-spacing: -.04em; }
         .eyebrow { display: inline-flex; align-items: center; color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
 
@@ -273,7 +272,7 @@ export default function Home() {
         .mobile-menu { position: fixed; inset: 0; z-index: 100; background: rgba(7,23,38,.97); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; transition: opacity 0.3s, transform 0.3s; }
         .mobile-menu.open { opacity: 1; pointer-events: all; transform: translateY(0); }
         .mobile-menu.closed { opacity: 0; pointer-events: none; transform: translateY(-20px); }
-        .mobile-menu a { color: #fff; text-decoration: none; font-size: 26px; font-weight: 800; font-family: 'Playfair Display', serif; transition: color 0.2s; }
+        .mobile-menu a { color: #fff; text-decoration: none; font-size: 26px; font-weight: 800; font-family: var(--font-playfair), serif; transition: color 0.2s; }
         .mobile-menu a:hover { color: var(--gold); }
         .mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; color: #fff; font-size: 32px; cursor: pointer; }
 
@@ -287,7 +286,7 @@ export default function Home() {
         .hero-eyebrow::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #ffb46e; box-shadow: 0 0 0 4px rgba(255,180,110,.25); animation: pulse-dot 2.2s ease-in-out infinite; flex-shrink: 0; }
         @keyframes pulse-dot { 0%,100% { box-shadow: 0 0 0 4px rgba(255,180,110,.25); } 50% { box-shadow: 0 0 0 9px rgba(255,180,110,.08); } }
 
-        .hero h1 { margin: 0 0 22px; font-size: clamp(38px, 6.6vw, 84px); line-height: .96; letter-spacing: -.01em; color: #fff; font-family: 'Playfair Display', serif; font-weight: 900; }
+        .hero h1 { margin: 0 0 22px; font-size: clamp(38px, 6.6vw, 84px); line-height: .96; letter-spacing: -.01em; color: #fff; font-family: var(--font-playfair), serif; font-weight: 900; }
         .hero h1 em { color: #E8956B; font-style: italic; display: block; margin-top: 2px; }
         .hero-copy { max-width: 540px; margin: 0 0 36px; color: rgba(255,255,255,.85); font-size: 16.5px; line-height: 1.78; font-weight: 400; }
 
@@ -353,14 +352,14 @@ export default function Home() {
         .t-img img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.72) saturate(1.06) sepia(.05); transition: filter 0.3s; }
         .t-card:hover .t-img img { filter: brightness(.88) saturate(1.06) sepia(.05); }
         .t-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 22px 20px; background: linear-gradient(180deg, transparent, rgba(0,0,0,.88)); color: #fff; }
-        .t-label h3 { margin: 0 0 7px; font-size: 20px; font-weight: 900; font-family: 'Playfair Display', serif; }
+        .t-label h3 { margin: 0 0 7px; font-size: 20px; font-weight: 900; font-family: var(--font-playfair), serif; }
         .t-label p { margin: 0 0 12px; font-size: 13px; line-height: 1.5; color: rgba(255,255,255,.8); }
         .t-overlay { position: absolute; inset: 0; z-index: 3; padding: 22px; background: rgba(7,23,38,.94); backdrop-filter: blur(6px); color: rgba(255,250,241,.85); font-size: 13px; line-height: 1.75; overflow-y: auto; animation: fadeUp .3s ease; border-radius: var(--r); }
-        .t-overlay h3 { margin: 0 0 12px; font-family: 'Playfair Display', serif; font-size: 19px; color: #fff; }
+        .t-overlay h3 { margin: 0 0 12px; font-family: var(--font-playfair), serif; font-size: 19px; color: #fff; }
 
         /* ABOUT */
         .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
-        .about-img { border-radius: var(--r); overflow: hidden; height: 520px; box-shadow: var(--shadow-lg); }
+        .about-img { position: relative; border-radius: var(--r); overflow: hidden; height: 520px; box-shadow: var(--shadow-lg); }
         .about-img img { width: 100%; height: 100%; object-fit: cover; }
         .about-features { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 28px; }
         .about-feat { padding: 18px; border: 1px solid ${dm ? 'rgba(255,255,255,.08)' : 'rgba(8,31,53,.1)'}; border-radius: 16px; background: ${dm ? 'rgba(255,255,255,.04)' : 'rgba(255,255,255,.6)'}; }
@@ -384,7 +383,7 @@ export default function Home() {
         .health-header-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; margin-bottom: 8px; }
         .health-header-text { flex: 1; max-width: 640px; }
         .health-stat-badge { flex-shrink: 0; text-align: right; padding: 18px 22px; border-radius: 18px; background: rgba(201,169,106,.08); border: 1px solid rgba(201,169,106,.28); min-width: 200px; }
-        .health-stat-num { display: block; font-size: 30px; font-weight: 900; color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; font-family: 'Playfair Display', serif; line-height: 1; margin-bottom: 6px; }
+        .health-stat-num { display: block; font-size: 30px; font-weight: 900; color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; font-family: var(--font-playfair), serif; line-height: 1; margin-bottom: 6px; }
         .health-stat-label { display: block; font-size: 12px; color: rgba(255,250,241,.65); line-height: 1.5; }
 
         .health-bento { display: grid; grid-template-columns: 1.15fr 1fr; gap: 16px; margin-top: 32px; align-items: start; }
@@ -401,7 +400,7 @@ export default function Home() {
         .health-photo-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,27,76,0) 35%, rgba(8,15,40,.55) 70%, rgba(6,11,30,.92) 100%); }
         .health-badge-photo { position: absolute; top: 18px; left: 18px; z-index: 2; padding: 6px 13px; background: rgba(201,169,106,.92); color: #2c1f0a; border-radius: 999px; font-size: 11px; font-weight: 800; }
         .health-photo-text { position: absolute; bottom: 0; left: 0; right: 0; z-index: 2; padding: 22px 22px 24px; }
-        .health-title-photo { margin: 0 0 8px; color: #fff; font-size: 19px; font-weight: 900; font-family: 'Playfair Display', serif; }
+        .health-title-photo { margin: 0 0 8px; color: #fff; font-size: 19px; font-weight: 900; font-family: var(--font-playfair), serif; }
         .health-title-main { font-size: 27px; }
         .health-desc-photo { margin: 0 0 14px; color: rgba(255,250,241,.78); font-size: 13px; line-height: 1.6; }
         .health-items-row { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -425,7 +424,7 @@ export default function Home() {
         .guide-card:hover .guide-img img { transform: scale(1.05); }
         .guide-body { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
         .guide-cat { font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; }
-        .guide-body h3 { margin: 0; font-family: 'Playfair Display', serif; font-size: 18px; line-height: 1.3; color: ${dm ? '#fff' : 'var(--navy)'}; }
+        .guide-body h3 { margin: 0; font-family: var(--font-playfair), serif; font-size: 18px; line-height: 1.3; color: ${dm ? '#fff' : 'var(--navy)'}; }
         .guide-body p { margin: 0; font-size: 13px; line-height: 1.65; color: ${dm ? 'rgba(240,237,232,.6)' : '#647889'}; }
         .guide-more { margin-top: auto; font-size: 13px; font-weight: 800; color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; }
         @media (max-width: 900px) { .guides-grid { grid-template-columns: 1fr; } }
@@ -449,7 +448,7 @@ export default function Home() {
         .f-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
         .field { display: grid; gap: 8px; }
         .field label { font-size: 11px; font-weight: 900; color: rgba(255,250,241,.78); }
-        .field input, .field select, .field textarea { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid rgba(255,250,241,.18); border-radius: 12px; color: #fff; background: rgba(7,23,38,.5); font: 15px 'Inter', sans-serif; outline: none; transition: border 0.2s; }
+        .field input, .field select, .field textarea { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid rgba(255,250,241,.18); border-radius: 12px; color: #fff; background: rgba(7,23,38,.5); font: 15px var(--font-inter), sans-serif; outline: none; transition: border 0.2s; }
         .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--aqua); }
         .field textarea { min-height: 96px; padding-top: 12px; resize: vertical; }
         .field select option { color: #071726; }
@@ -482,7 +481,7 @@ export default function Home() {
         .testi-section { background: #fdf6ec; }
         .testi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 48px; align-items: stretch; }
         .testi-card { padding: 28px; border-radius: 24px; background: #fff; border: 1px solid rgba(201,169,106,.15); box-shadow: 0 4px 24px rgba(7,23,38,.06); transition: all 0.3s; position: relative; overflow: hidden; }
-        .testi-card::before { content: '“'; position: absolute; top: -18px; right: 14px; font-family: 'Playfair Display', serif; font-size: 130px; line-height: 1; color: rgba(201,169,106,.14); pointer-events: none; }
+        .testi-card::before { content: '“'; position: absolute; top: -18px; right: 14px; font-family: var(--font-playfair), serif; font-size: 130px; line-height: 1; color: rgba(201,169,106,.14); pointer-events: none; }
         .testi-card:first-child { padding: 30px; background: linear-gradient(150deg, #071726, #0c3555) !important; border-color: rgba(201,169,106,.3); }
         .testi-card:first-child .testi-text { color: rgba(255,250,241,.88) !important; }
         .testi-card:first-child .testi-name { color: #fff !important; }
@@ -526,7 +525,7 @@ export default function Home() {
         .about-img img { filter: saturate(1.05) contrast(1.02); }
 
         .testi-card { position: relative; }
-        .testi-card::before { content: '“'; position: absolute; top: 6px; right: 20px; font-family: 'Playfair Display', serif; font-size: 84px; line-height: 1; color: rgba(201,169,106,.16); pointer-events: none; }
+        .testi-card::before { content: '“'; position: absolute; top: 6px; right: 20px; font-family: var(--font-playfair), serif; font-size: 84px; line-height: 1; color: rgba(201,169,106,.16); pointer-events: none; }
         .testi-card:hover { transform: translateY(-5px); box-shadow: 0 18px 48px rgba(7,23,38,.12); border-color: rgba(201,169,106,.4); }
 
         .pillar-card:hover { transform: translateY(-6px); box-shadow: 0 18px 44px rgba(7,23,38,.14); border-color: rgba(201,169,106,.5); }
@@ -687,7 +686,7 @@ export default function Home() {
                   <div key={t.title} className="t-card">
                     <div className="t-glow" />
                     <div className="t-img">
-                      <img loading="lazy" src={t.image} alt={t.title} />
+                      <Image src={t.image} alt={t.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
                       <div className="t-label">
                         <h3>{t.title}</h3>
                         <p>{t.short}</p>
@@ -729,7 +728,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-img">
-            <img loading="lazy" src="/images/about-bluemosque-1200x1040.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" />
+            <Image src="/images/about-bluemosque-1200x1040.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" fill sizes="(max-width: 1100px) 100vw, 50vw" />
           </div>
         </div>
       </section>
@@ -771,7 +770,7 @@ export default function Home() {
           <div className="health-bento">
             <div className="health-photo-card health-bento-main">
               <div className="health-photo-wrap">
-                <img loading="lazy" src={healthCategories[0].image} alt={healthCategories[0].title} />
+                <Image src={healthCategories[0].image} alt={healthCategories[0].title} fill sizes="(max-width: 840px) 100vw, 50vw" />
                 <div className="health-photo-overlay" />
                 <span className="health-badge-photo">✓ {healthCategories[0].badge}</span>
                 <div className="health-photo-text">
@@ -789,7 +788,7 @@ export default function Home() {
             <div className="health-bento-side">
               <div className="health-photo-card health-bento-wide">
                 <div className="health-photo-wrap">
-                  <img loading="lazy" src={healthCategories[1].image} alt={healthCategories[1].title} />
+                  <Image src={healthCategories[1].image} alt={healthCategories[1].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[1].badge}</span>
                   <div className="health-photo-text">
@@ -805,7 +804,7 @@ export default function Home() {
 
               <div className="health-photo-card health-bento-square">
                 <div className="health-photo-wrap">
-                  <img loading="lazy" src={healthCategories[2].image} alt={healthCategories[2].title} />
+                  <Image src={healthCategories[2].image} alt={healthCategories[2].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[2].badge}</span>
                   <div className="health-photo-text">
@@ -920,7 +919,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <a href="#top"><img loading="lazy" src="/logo.png" alt="Itinerary of Türkiye" style={{height:'84px',width:'84px',objectFit:'contain',background:'#fffdf7',borderRadius:'50%',padding:'6px',boxShadow:'0 2px 14px rgba(0,0,0,.3)'}} /></a>
+              <a href="#top"><Image src="/logo.png" alt="Itinerary of Türkiye" style={{height:'84px',width:'84px',objectFit:'contain',background:'#fffdf7',borderRadius:'50%',padding:'6px',boxShadow:'0 2px 14px rgba(0,0,0,.3)'}} width={96} height={96} /></a>
               <p style={{marginTop:'14px',fontSize:'13px',lineHeight:'1.7',maxWidth:'260px'}}>Medical travel coordination and private Türkiye experiences — investment and business advisory on request.</p>
               <div className="social-row">
                 <a className="social-btn" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={17} /></a>

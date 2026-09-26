@@ -1,5 +1,5 @@
-'use client';
-
+import Link from 'next/link';
+import Image from 'next/image';
 export default function AboutPage() {
   const features = [
     {
@@ -25,9 +25,8 @@ export default function AboutPage() {
   ];
 
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -53,7 +52,7 @@ export default function AboutPage() {
         .hero-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: #fff; margin-bottom: 24px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: #fff; margin-bottom: 24px; }
         .hero h1 span { color: var(--aqua); }
         .hero p { max-width: 620px; color: rgba(255,250,241,.75); font-size: 17px; line-height: 1.8; }
 
@@ -70,7 +69,7 @@ export default function AboutPage() {
         /* FEATURES GRID */
         .features-section { background: linear-gradient(135deg, var(--navy), var(--navy-2)); padding: 80px 0; }
         .features-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
-        .features-title { font-family: 'Playfair Display', serif; font-size: clamp(32px, 5vw, 56px); color: #fff; margin: 16px 0 48px; line-height: 1; }
+        .features-title { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5vw, 56px); color: #fff; margin: 16px 0 48px; line-height: 1; }
         .features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
         .feature-card { padding: 28px; border: 1px solid rgba(255,250,241,.12); border-radius: 20px; background: rgba(255,255,255,.06); transition: all 0.3s; }
         .feature-card:hover { background: rgba(255,255,255,.1); border-color: rgba(201,169,106,.3); transform: translateY(-4px); }
@@ -81,7 +80,7 @@ export default function AboutPage() {
         /* CTA */
         .cta-section { padding: 80px 0; text-align: center; background: #fff; }
         .cta-inner { max-width: 640px; margin: 0 auto; padding: 0 32px; }
-        .cta-inner h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 48px); color: var(--navy); margin-bottom: 16px; }
+        .cta-inner h2 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 48px); color: var(--navy); margin-bottom: 16px; }
         .cta-inner p { color: var(--muted); font-size: 16px; line-height: 1.75; margin-bottom: 32px; }
 
         /* FOOTER */
@@ -112,16 +111,16 @@ export default function AboutPage() {
       {/* NAVBAR */}
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/de">
-            <img src="/logo.png" alt="Itinerary of Türkiye" />
-          </a>
+          <Link className="brand" href="/de">
+            <Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} />
+          </Link>
           <nav className="nav-links">
-            <a href="/de/about" className="active">Über uns</a>
-            <a href="/de/services">Leistungen</a>
-            <a href="/de/testimonials">Referenzen</a>
-            <a href="/de#contact">Kontakt</a>
-            <a className="btn-primary" href="/de#contact">Kontakt aufnehmen</a>
-                      <a href="/about" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
+            <Link href="/de/about" className="active">Über uns</Link>
+            <Link href="/de/services">Leistungen</Link>
+            <Link href="/de/testimonials">Referenzen</Link>
+            <Link href="/de#contact">Kontakt</Link>
+            <Link className="btn-primary" href="/de#contact">Kontakt aufnehmen</Link>
+                      <Link href="/about" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
           </nav>
         </div>
       </header>
@@ -182,13 +181,13 @@ export default function AboutPage() {
         <div className="cta-inner">
           <h2>Bereit, Ihre Reise zu beginnen?</h2>
           <p>Sagen Sie uns, was Sie in der Türkei brauchen. Wir prüfen, empfehlen den richtigen Weg und begleiten Sie durch den gesamten Prozess.</p>
-          <a className="btn-primary" href="/de#contact">Beratung anfragen</a>
+          <Link className="btn-primary" href="/de#contact">Beratung anfragen</Link>
         </div>
       </section>
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Datenschutz</a> · <a href="/de/terms" style={{color:'inherit'}}>AGB</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a> · <a href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</a> · <a href="/de/blogs" style={{color:'inherit'}}>Ratgeber</a></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p>
       </footer>
     </main>
   );

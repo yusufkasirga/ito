@@ -62,8 +62,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
     <main className="dt">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
-        .dt { font-family: 'Inter', system-ui, sans-serif; background: #fffaf1; color: #3a4654; }
+        .dt { font-family: var(--font-inter), system-ui, sans-serif; background: #fffaf1; color: #3a4654; }
         .dt * { box-sizing: border-box; }
 
         /* HERO */
@@ -77,31 +76,31 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         .dt-hero-typo::after { content: ''; position: absolute; inset: 0;
           background-image: radial-gradient(rgba(255,250,241,.05) 1px, transparent 1px);
           background-size: 22px 22px; opacity: .5; }
-        .dt-hero-ghost { position: absolute; right: -2%; bottom: -14%; font-family: 'Playfair Display', serif;
+        .dt-hero-ghost { position: absolute; right: -2%; bottom: -14%; font-family: var(--font-playfair), serif;
           font-size: clamp(180px, 34vw, 460px); font-weight: 900; color: rgba(255,250,241,.05); line-height: .8;
           pointer-events: none; user-select: none; letter-spacing: -.03em; }
         .dt-hero-inner { position: relative; max-width: 1120px; margin: 0 auto; width: 100%; padding: 0 40px 52px; }
         .dt-crumb { color: rgba(255,250,241,.82); font-size: 12.5px; font-weight: 700; text-decoration: none; }
         .dt-crumb:hover { color: #c9a96a; }
         .dt-region { color: #d8b878; font-size: 12px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; margin-top: 16px; display: block; }
-        .dt-h1 { font-family: 'Playfair Display', serif; font-size: clamp(48px, 10vw, 104px); color: #fffaf1; line-height: .95; margin: 4px 0 14px; letter-spacing: -.02em; }
+        .dt-h1 { font-family: var(--font-playfair), serif; font-size: clamp(48px, 10vw, 104px); color: #fffaf1; line-height: .95; margin: 4px 0 14px; letter-spacing: -.02em; }
         .dt-tagline { color: rgba(255,250,241,.92); font-size: clamp(16px, 2.4vw, 20px); line-height: 1.55; max-width: 660px; font-weight: 500; }
 
         /* INTRO — editorial, asymmetric */
         .dt-intro { max-width: 1120px; margin: 0 auto; padding: 64px 40px 8px; display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
         .dt-intro-label { font-size: 12px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; color: #8a6d33; padding-top: 8px; }
         .dt-intro-body p { font-size: clamp(18px, 2.2vw, 21px); line-height: 1.75; color: #2b3742; margin: 0 0 20px; }
-        .dt-intro-body p:first-child::first-letter { font-family: 'Playfair Display', serif; font-size: 3.4em; line-height: .82; float: left; padding: 6px 12px 0 0; color: #8a6d33; }
+        .dt-intro-body p:first-child::first-letter { font-family: var(--font-playfair), serif; font-size: 3.4em; line-height: .82; float: left; padding: 6px 12px 0 0; color: #8a6d33; }
 
         /* SEE — magazine list */
         .dt-see { max-width: 1120px; margin: 0 auto; padding: 40px 40px 10px; }
         .dt-see-head { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; border-bottom: 1px solid rgba(8,31,53,.14); padding-bottom: 16px; margin-bottom: 6px; }
-        .dt-see-h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 40px); color: #081f35; letter-spacing: -.01em; }
+        .dt-see-h2 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 40px); color: #081f35; letter-spacing: -.01em; }
         .dt-see-sub { font-size: 14px; color: #647889; text-align: right; max-width: 280px; }
         .dt-attr { display: grid; grid-template-columns: 88px 1fr; gap: 8px 26px; padding: 26px 0; border-bottom: 1px solid rgba(8,31,53,.09); align-items: start; }
         .dt-attr:hover .dt-attr-name { color: #8a6d33; }
-        .dt-attr-num { font-family: 'Playfair Display', serif; font-size: 40px; font-weight: 700; color: #c9a96a; line-height: 1; }
-        .dt-attr-name { font-family: 'Playfair Display', serif; font-size: 23px; font-weight: 700; color: #081f35; margin-bottom: 7px; transition: color .2s; }
+        .dt-attr-num { font-family: var(--font-playfair), serif; font-size: 40px; font-weight: 700; color: #c9a96a; line-height: 1; }
+        .dt-attr-name { font-family: var(--font-playfair), serif; font-size: 23px; font-weight: 700; color: #081f35; margin-bottom: 7px; transition: color .2s; }
         .dt-attr-desc { font-size: 15.5px; line-height: 1.7; color: #4a5765; max-width: 720px; }
 
         /* PLAN — pratik bilgi */
@@ -117,7 +116,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         /* FAQ */
         .dt-faq { max-width: 1120px; margin: 0 auto; padding: 56px 40px 0; }
         .dt-faq details { border-bottom: 1px solid rgba(8,31,53,.1); padding: 18px 0; }
-        .dt-faq summary { cursor: pointer; font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; color: #081f35; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+        .dt-faq summary { cursor: pointer; font-family: var(--font-playfair), serif; font-size: 20px; font-weight: 700; color: #081f35; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
         .dt-faq summary::-webkit-details-marker { display: none; }
         .dt-faq summary::after { content: '+'; color: #c9a96a; font-size: 24px; line-height: 1; transition: transform .2s; }
         .dt-faq details[open] summary::after { transform: rotate(45deg); }
@@ -127,7 +126,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
         .dt-cta { background: linear-gradient(165deg, #071726 0%, #0c3555 100%); color: #fffaf1; margin-top: 56px; padding: 60px 0; }
         .dt-cta-in { max-width: 1120px; margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
         .dt-eyebrow { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
-        .dt-cta h2 { font-family: 'Playfair Display', serif; font-size: 32px; color: #fffaf1; margin: 10px 0 12px; line-height: 1.08; }
+        .dt-cta h2 { font-family: var(--font-playfair), serif; font-size: 32px; color: #fffaf1; margin: 10px 0 12px; line-height: 1.08; }
         .dt-cta p { font-size: 15.5px; line-height: 1.8; color: rgba(255,250,241,.82); }
         .dt-more { max-width: 1120px; margin: 0 auto; padding: 30px 40px 72px; text-align: center; font-size: 13px; color: #647889; }
         .dt-more a { color: #8a6d33; font-weight: 600; }

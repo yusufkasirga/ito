@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import SiteHeader from '../components/SiteHeader';
 import { SITE_URL, WHATSAPP_E164_NUMBER } from '@/lib/config';
@@ -9,12 +10,12 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "'Playfair Display', serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
   meta: { fontSize: '13px', color: '#647889', marginBottom: '14px' },
   note: { fontSize: '12.5px', color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
-  h2: { fontFamily: "'Playfair Display', serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   dl: { fontSize: '15.5px', lineHeight: 1.9, marginBottom: '16px' },
   back: { display: 'inline-block', color: '#8a6d33', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
@@ -34,7 +35,7 @@ export default function LegalNoticePage() {
     <main style={S.main}>
       <SiteHeader />
       <div style={S.wrap}>
-        <a href="/" style={S.back}>← Back to home</a>
+        <Link href="/" style={S.back}>← Back to home</Link>
         <h1 style={S.h1}>Legal Notice</h1>
         <p style={S.meta}>Company details · Last updated: 21 July 2026</p>
         <p style={S.note}>
@@ -57,7 +58,7 @@ export default function LegalNoticePage() {
         </div>
         <p style={S.p}>
           We normally reply within hours. Please do not send medical reports, photos, identity or payment documents
-          in your first message — see our <a href="/privacy" style={S.a}>Privacy Policy</a> for details.
+          in your first message — see our <Link href="/privacy" style={S.a}>Privacy Policy</Link> for details.
         </p>
 
         <h2 style={S.h2}>Nature of our service</h2>
@@ -92,9 +93,9 @@ export default function LegalNoticePage() {
         </p>
 
         <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
-          See also: <a href="/privacy" style={S.a}>Privacy Policy</a> ·{' '}
-          <a href="/terms" style={S.a}>Terms of Service</a> ·{' '}
-          <a href="/de/impressum" style={S.a}>Deutsche Fassung (Impressum)</a>
+          See also: <Link href="/privacy" style={S.a}>Privacy Policy</Link> ·{' '}
+          <Link href="/terms" style={S.a}>Terms of Service</Link> ·{' '}
+          <Link href="/de/impressum" style={S.a}>Deutsche Fassung (Impressum)</Link>
         </p>
       </div>
     </main>

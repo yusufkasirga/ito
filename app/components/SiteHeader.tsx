@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { whatsAppUrl } from '@/lib/config';
 import Icon from './Icon';
@@ -50,8 +52,8 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
         .ito-hdr .h-brand:hover { transform: translateY(-1px); }
         .ito-hdr .h-brand img { height: 76px; width: 76px; object-fit: contain; display: block; background: #fffdf7; border-radius: 50%; padding: 5px; box-shadow: 0 2px 12px rgba(0,0,0,.28); }
         .ito-hdr .h-wm { line-height: 1; white-space: nowrap; }
-        .ito-hdr .h-wm .l1 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 32px; letter-spacing: .01em; color: #fffaf1; text-shadow: 0 1px 8px rgba(0,0,0,.3); }
-        .ito-hdr .h-wm .l2 { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 600; font-size: 23px; color: #d8b878; margin-top: 4px; }
+        .ito-hdr .h-wm .l1 { font-family: var(--font-playfair), Georgia, serif; font-weight: 700; font-size: 32px; letter-spacing: .01em; color: #fffaf1; text-shadow: 0 1px 8px rgba(0,0,0,.3); }
+        .ito-hdr .h-wm .l2 { font-family: var(--font-playfair), Georgia, serif; font-style: italic; font-weight: 600; font-size: 23px; color: #d8b878; margin-top: 4px; }
         @media (max-width: 900px) {
           .ito-hdr .h-brand img { height: 60px; width: 60px; padding: 4px; }
           .ito-hdr .h-wm .l1 { font-size: 25px; }
@@ -84,28 +86,28 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
       <div className="h-full">
         <div className="h-bar">
           <a className="h-brand" href={locale === 'de' ? '/de' : '/'} aria-label="Itinerary of Türkiye">
-            <img src="/logo.png" alt="Itinerary of Türkiye" />
+            <Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} />
             <span className="h-wm"><span className="l1">Itinerary</span><span className="l2">of Türkiye</span></span>
           </a>
 
           <nav className="h-nav">
-            <a href="/about">About Us</a>
+            <Link href="/about">About Us</Link>
 
             <div className="h-drop" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
-              <a href="/services" className="h-drop-trigger">Services <Icon name="plan" size={13} /></a>
+              <Link href="/services" className="h-drop-trigger">Services <Icon name="plan" size={13} /></Link>
               {servicesOpen && (
                 <div className="h-drop-panel">
                   <div className="h-drop-inner">
-                    <a href="/services/tourism">Private Travel</a>
-                    <a href="/services/medical-tourism">Medical Travel</a>
+                    <Link href="/services/tourism">Private Travel</Link>
+                    <Link href="/services/medical-tourism">Medical Travel</Link>
                   </div>
                 </div>
               )}
             </div>
 
-            <a href="/blog">Blog</a>
-            <a href="/testimonials">Testimonials</a>
-            <a href="/contact">Contact</a>
+            <Link href="/blog">Blog</Link>
+            <Link href="/testimonials">Testimonials</Link>
+            <Link href="/contact">Contact</Link>
           </nav>
 
           <button className="h-toggle" onClick={() => setMobileOpen(true)} aria-label="Open menu">
@@ -116,19 +118,19 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
 
       <div className={`h-mobile ${mobileOpen ? 'open' : ''}`}>
         <button className="h-mobile-close" onClick={close} aria-label="Close menu"><Icon name="close" size={26} /></button>
-        <a href="/about" onClick={close}>About Us</a>
+        <Link href="/about" onClick={close}>About Us</Link>
         <div style={{ textAlign: 'center' }}>
           <span className="h-macc" onClick={() => setMobileServicesOpen(!mobileServicesOpen)}>Services {mobileServicesOpen ? '▲' : '▼'}</span>
           {mobileServicesOpen && (
             <div className="h-mobile-sub">
-              <a href="/services/tourism" onClick={close}>Private Travel</a>
-              <a href="/services/medical-tourism" onClick={close}>Medical Travel</a>
+              <Link href="/services/tourism" onClick={close}>Private Travel</Link>
+              <Link href="/services/medical-tourism" onClick={close}>Medical Travel</Link>
             </div>
           )}
         </div>
-        <a href="/blog" onClick={close}>Blog</a>
-        <a href="/testimonials" onClick={close}>Testimonials</a>
-        <a href="/contact" onClick={close}>Contact</a>
+        <Link href="/blog" onClick={close}>Blog</Link>
+        <Link href="/testimonials" onClick={close}>Testimonials</Link>
+        <Link href="/contact" onClick={close}>Contact</Link>
         <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{ color: '#25D366' }} onClick={close}>WhatsApp</a>
       </div>
     </div>

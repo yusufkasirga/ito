@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../components/SiteHeader';
@@ -50,12 +51,11 @@ export default function DestinationsPage() {
   return (
     <main className="dl">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
-        .dl { font-family: 'Inter', system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
+        .dl { font-family: var(--font-inter), system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
         .dl * { box-sizing: border-box; }
         .dl-wrap { max-width: 1200px; margin: 0 auto; padding: 56px 40px 90px; }
         .dl-eyebrow { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
-        .dl-h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 7vw, 68px); margin: 12px 0 14px; line-height: 1; letter-spacing: -.02em; }
+        .dl-h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px, 7vw, 68px); margin: 12px 0 14px; line-height: 1; letter-spacing: -.02em; }
         .dl-lede { font-size: 16.5px; line-height: 1.8; color: rgba(255,250,241,.8); max-width: 700px; margin-bottom: 44px; }
         .dl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
         .dl-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; aspect-ratio: 4 / 5; border-radius: 16px; overflow: hidden; text-decoration: none; color: #fffaf1;
@@ -65,14 +65,14 @@ export default function DestinationsPage() {
           background-image: radial-gradient(rgba(255,250,241,.05) 1px, transparent 1px); background-size: 18px 18px; opacity: .55; }
         .dl-card:hover { transform: translateY(-5px); border-color: rgba(216,184,120,.5); }
         .dl-card-body { position: relative; z-index: 2; padding: 20px; }
-        .dl-city { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 800; line-height: 1.05; letter-spacing: -.01em; }
+        .dl-city { font-family: var(--font-playfair), serif; font-size: 26px; font-weight: 800; line-height: 1.05; letter-spacing: -.01em; }
         .dl-note { font-size: 12px; color: rgba(255,250,241,.72); margin-top: 5px; }
         .dl-tag { position: absolute; top: 14px; left: 16px; z-index: 2; font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #d8b878; }
         .dl-arrow { position: absolute; top: 14px; right: 16px; z-index: 2; color: rgba(255,250,241,.6); transition: transform .3s, color .3s; }
         .dl-card:hover .dl-arrow { transform: translate(3px,-3px); color: #d8b878; }
-        .dl-ghost { position: absolute; right: -8%; bottom: -18%; z-index: 0; font-family: 'Playfair Display', serif; font-weight: 900; font-size: 150px; color: rgba(255,250,241,.045); line-height: .8; pointer-events: none; }
+        .dl-ghost { position: absolute; right: -8%; bottom: -18%; z-index: 0; font-family: var(--font-playfair), serif; font-weight: 900; font-size: 150px; color: rgba(255,250,241,.045); line-height: .8; pointer-events: none; }
         .dl-cta { margin-top: 50px; padding: 44px 36px; border-radius: 22px; background: linear-gradient(150deg, rgba(216,184,120,.14), rgba(142,216,220,.05)); border: 1px solid rgba(216,184,120,.22); text-align: center; }
-        .dl-cta h2 { font-family: 'Playfair Display', serif; font-size: 30px; margin: 10px 0 12px; }
+        .dl-cta h2 { font-family: var(--font-playfair), serif; font-size: 30px; margin: 10px 0 12px; }
         .dl-cta p { font-size: 15.5px; line-height: 1.8; color: rgba(255,250,241,.8); max-width: 580px; margin: 0 auto 22px; }
         .dl-btn { display: inline-block; padding: 14px 32px; border-radius: 999px; background: #c9a96a; color: #081f35; font-weight: 800; font-size: 14px; text-decoration: none; }
         .dl-cta small { display: block; margin-top: 16px; font-size: 13px; color: rgba(255,250,241,.6); }
@@ -126,9 +126,9 @@ export default function DestinationsPage() {
             Most first-time visitors try to see too much. We help you choose the few places that fit your
             time, your pace and your reasons for coming — and tell you honestly what to skip.
           </p>
-          <a href="/contact" className="dl-btn">Start planning</a>
+          <Link href="/contact" className="dl-btn">Start planning</Link>
           <small>
-            See how we work in <a href="/how-we-work" className="link">How we work</a> · our commitments in <a href="/standard" className="link">The ITO Standard</a>
+            See how we work in <Link href="/how-we-work" className="link">How we work</Link> · our commitments in <Link href="/standard" className="link">The ITO Standard</Link>
           </small>
         </div>
       </div>

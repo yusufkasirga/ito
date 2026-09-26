@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import Image from 'next/image';
 
 /**
  * Tam ekran sinematik hero videosu (GoTürkiye referansı).
@@ -115,7 +116,7 @@ export default function HeroVideo({ poster, srcDesktop, srcMobile, chapters, pau
           .hv-chapter { display: none; }
         }
       `}</style>
-      <img className="hv-media" src={poster} alt="" fetchPriority="high" />
+      <Image className="hv-media" src={poster} alt="" fill sizes="100vw" preload />
       {src && (
         <video
           key={src}

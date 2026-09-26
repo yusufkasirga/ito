@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
 import SiteHeader from '../components/SiteHeader';
 import { SITE_URL } from '@/lib/config';
@@ -9,16 +10,16 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
   wrap: { maxWidth: '820px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "'Playfair Display', serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '12px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '12px' },
   lede: { fontSize: '17px', lineHeight: 1.8, marginBottom: '8px' },
   meta: { fontSize: '13px', color: '#647889', marginBottom: '34px' },
-  h2: { fontFamily: "'Playfair Display', serif", fontSize: '24px', color: '#081f35', margin: '44px 0 14px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '24px', color: '#081f35', margin: '44px 0 14px' },
   h3: { fontSize: '16px', fontWeight: 700, color: '#081f35', margin: '0 0 8px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   step: { display: 'flex', gap: '18px', marginBottom: '20px', alignItems: 'flex-start' },
-  stepNum: { fontFamily: "'Playfair Display', serif", fontSize: '20px', fontWeight: 700, color: '#8a6d33', minWidth: '32px', lineHeight: 1.4 },
+  stepNum: { fontFamily: "var(--font-playfair), serif", fontSize: '20px', fontWeight: 700, color: '#8a6d33', minWidth: '32px', lineHeight: 1.4 },
   card: { background: '#fff', border: '1px solid rgba(8,31,53,.1)', borderRadius: '14px', padding: '24px 26px', marginBottom: '16px' },
   tag: { display: 'inline-block', fontSize: '11px', fontWeight: 800, letterSpacing: '.12em', textTransform: 'uppercase', color: '#8a6d33', marginBottom: '10px' },
   li: { fontSize: '15px', lineHeight: 1.9, marginBottom: '2px' },
@@ -33,7 +34,7 @@ export default function HowWeWorkPage() {
     <main style={S.main}>
       <SiteHeader />
       <div style={S.wrap}>
-        <a href="/" style={S.back}>← Back to home</a>
+        <Link href="/" style={S.back}>← Back to home</Link>
         <h1 style={S.h1}>How we work</h1>
         <p style={S.lede}>
           We are a paid advisory. That single fact shapes everything below — including what we are
@@ -166,17 +167,17 @@ export default function HowWeWorkPage() {
         <div style={S.note}>
           Why we charge at all: because the alternative is being paid by hotels and clinics, and then
           you would never be sure whose interest a recommendation served. Our commitments on this are
-          published in <a href="/standard" style={S.a}>The ITO Standard</a>.
+          published in <Link href="/standard" style={S.a}>The ITO Standard</Link>.
         </div>
 
         <div style={{ marginTop: '34px' }}>
-          <a href="/#contact" style={S.cta}>Start with a planning consultation</a>
+          <Link href="/#contact" style={S.cta}>Start with a planning consultation</Link>
         </div>
 
         <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
-          See also: <a href="/standard" style={S.a}>The ITO Standard</a> ·{' '}
-          <a href="/about" style={S.a}>About us</a> ·{' '}
-          <a href="/blogs" style={S.a}>Guides &amp; articles</a>
+          See also: <Link href="/standard" style={S.a}>The ITO Standard</Link> ·{' '}
+          <Link href="/about" style={S.a}>About us</Link> ·{' '}
+          <Link href="/blogs" style={S.a}>Guides &amp; articles</Link>
         </p>
       </div>
     </main>

@@ -84,18 +84,18 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
         .lf-scope .lf-box { padding: 28px; border: 1px solid rgba(255,250,241,.16); border-radius: 20px; background: rgba(255,255,255,.06); }
         .lf-scope .lf-prog { height: 4px; background: rgba(255,250,241,.1); border-radius: 999px; overflow: hidden; margin-bottom: 24px; }
         .lf-scope .lf-bar { height: 100%; background: linear-gradient(90deg, #c9a96a, #8ed8dc); transition: width .35s; }
-        .lf-scope .lf-ttl { margin: 0 0 18px; color: #fff; font-size: 18px; font-weight: 900; font-family: 'Inter', system-ui, sans-serif; }
+        .lf-scope .lf-ttl { margin: 0 0 18px; color: #fff; font-size: 18px; font-weight: 900; font-family: var(--font-inter), system-ui, sans-serif; }
         .lf-scope .lf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
         .lf-scope .lf-field { display: grid; gap: 8px; margin-bottom: 12px; }
         .lf-scope .lf-field label { font-size: 11px; font-weight: 900; letter-spacing: .04em; color: rgba(255,250,241,.78); text-transform: uppercase; }
-        .lf-scope .lf-field input, .lf-scope .lf-field select { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid rgba(255,250,241,.18); border-radius: 12px; color: #fff; background: rgba(7,23,38,.5); font: 15px 'Inter', sans-serif; outline: none; transition: border .2s; }
+        .lf-scope .lf-field input, .lf-scope .lf-field select { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid rgba(255,250,241,.18); border-radius: 12px; color: #fff; background: rgba(7,23,38,.5); font: 15px var(--font-inter), sans-serif; outline: none; transition: border .2s; }
         .lf-scope .lf-field input:focus, .lf-scope .lf-field select:focus { border-color: #8ed8dc; }
         .lf-scope .lf-field option { color: #081f35; }
         .lf-scope .lf-err { color: #ff9a9a; font-size: 13px; display: block; margin-top: 2px; }
-        .lf-scope .lf-btn { min-height: 52px; padding: 0 26px; border-radius: 999px; border: none; font: 800 14px 'Inter', sans-serif; cursor: pointer; }
+        .lf-scope .lf-btn { min-height: 52px; padding: 0 26px; border-radius: 999px; border: none; font: 800 14px var(--font-inter), sans-serif; cursor: pointer; }
         .lf-scope .lf-btn-primary { background: #c9a96a; color: #081f35; flex: 1; }
         .lf-scope .lf-btn-ghost { background: rgba(255,255,255,.12); color: #fff; }
-        .lf-scope .lf-success h3 { color: #8ed8dc; font-size: 20px; margin: 0 0 10px; font-family: 'Playfair Display', serif; }
+        .lf-scope .lf-success h3 { color: #8ed8dc; font-size: 20px; margin: 0 0 10px; font-family: var(--font-playfair), serif; }
         .lf-scope .lf-success p { color: rgba(255,250,241,.75); font-size: 14px; line-height: 1.7; margin: 0 0 14px; }
         .lf-scope a.lf-wa { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
       `}</style>

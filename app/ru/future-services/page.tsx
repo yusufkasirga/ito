@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { SITE_URL, whatsAppUrl } from '@/lib/config';
 
@@ -32,10 +34,9 @@ const breadcrumbJsonLd = {
 
 export default function FutureServicesPage() {
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -54,19 +55,19 @@ export default function FutureServicesPage() {
         .page { max-width: 760px; margin: 0 auto; padding: 72px 32px 96px; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 5vw, 54px); color: var(--navy); line-height: 1.05; margin-bottom: 18px; }
+        h1 { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5vw, 54px); color: var(--navy); line-height: 1.05; margin-bottom: 18px; }
         .lede { color: var(--muted); font-size: 16px; line-height: 1.8; margin-bottom: 56px; }
         .lede a { color: var(--gold); font-weight: 700; text-decoration: none; }
         .lede a:hover { text-decoration: underline; }
 
         .svc { padding: 32px 0; border-top: 1px solid var(--line); }
-        .svc h2 { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--navy); margin-bottom: 14px; }
+        .svc h2 { font-family: var(--font-playfair), serif; font-size: 26px; color: var(--navy); margin-bottom: 14px; }
         .svc p { color: #3a4654; font-size: 15.5px; line-height: 1.85; margin-bottom: 14px; }
         .svc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
         .svc-tag { padding: 5px 13px; background: rgba(201,169,106,.08); color: var(--gold); border: 1px solid rgba(201,169,106,.22); border-radius: 999px; font-size: 11.5px; font-weight: 700; }
 
         .cta { margin-top: 56px; padding: 32px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
-        .cta h3 { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--navy); margin-bottom: 10px; }
+        .cta h3 { font-family: var(--font-playfair), serif; font-size: 20px; color: var(--navy); margin-bottom: 10px; }
         .cta p { color: var(--muted); font-size: 14px; line-height: 1.7; margin-bottom: 18px; }
         .btn-primary { min-height: 46px; padding: 0 24px; border-radius: 999px; background: linear-gradient(135deg, #0f6ea8, var(--navy-2)); color: #fff; font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; box-shadow: var(--shadow-md); }
 
@@ -87,14 +88,14 @@ export default function FutureServicesPage() {
 
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/ru"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/ru"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
           <nav className="nav-links" aria-label="Primary">
-            <a href="/ru/about">О нас</a>
-            <a href="/ru/services">Услуги</a>
-            <a href="/testimonials">Отзывы</a>
-            <a href="/ru#contact">Контакты</a>
-                      <a href="/future-services" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</a>
-                      <a href="/de/future-services" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
+            <Link href="/ru/about">О нас</Link>
+            <Link href="/ru/services">Услуги</Link>
+            <Link href="/testimonials">Отзывы</Link>
+            <Link href="/ru#contact">Контакты</Link>
+                      <Link href="/future-services" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
+                      <Link href="/de/future-services" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</Link>
           </nav>
         </div>
       </header>
@@ -103,7 +104,7 @@ export default function FutureServicesPage() {
         <span className="eyebrow">Другие услуги</span>
         <h1>Больше, чем путешествие и лечение.</h1>
         <p className="lede">
-          Наши основные направления — <a href="/ru#health">медицинские поездки</a> и <a href="/ru#tourism">частные путешествия по Турции</a>.
+          Наши основные направления — <Link href="/ru#health">медицинские поездки</Link> и <Link href="/ru#tourism">частные путешествия по Турции</Link>.
           Клиентам, которым нужна поддержка за их пределами, мы также предлагаем по запросу следующие консультационные услуги.
         </p>
 
@@ -140,7 +141,7 @@ export default function FutureServicesPage() {
       </div>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/ru/privacy" style={{color:'inherit'}}>Конфиденциальность</a> · <a href="/ru/terms" style={{color:'inherit'}}>Условия</a> · <a href="/blogs" style={{color:'inherit'}}>Статьи</a> · <a href="/ru">Главная</a></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/ru/privacy" style={{color:'inherit'}}>Конфиденциальность</Link> · <Link href="/ru/terms" style={{color:'inherit'}}>Условия</Link> · <Link href="/blogs" style={{color:'inherit'}}>Статьи</Link> · <Link href="/ru">Главная</Link></p>
       </footer>
     </main>
   );

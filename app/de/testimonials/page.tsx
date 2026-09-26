@@ -1,5 +1,5 @@
-'use client';
-
+import Link from 'next/link';
+import Image from 'next/image';
 export default function TestimonialsPage() {
   const testimonials = [
     { name: 'Mark T.', category: 'Tourismus · Haartransplantation · Business', flag: '🇬🇧', text: 'Ein großes Dankeschön an das Team von Itinerary of Türkiye! Sie haben meine gesamte Reise unglaublich reibungslos gemacht — von der Reise über die Haartransplantation bis zu meinen Geschäftsterminen. Alles war bestens organisiert; eine so nahtlose Erfahrung hatte ich ehrlich nicht erwartet. Danke für Professionalität, Fürsorge und Unterstützung während des gesamten Prozesses.' },
@@ -9,9 +9,8 @@ export default function TestimonialsPage() {
   ];
 
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -30,7 +29,7 @@ export default function TestimonialsPage() {
         .hero { background: linear-gradient(135deg, #071726 0%, #0c3555 100%); color: #fff; padding: 90px 0 70px; text-align: center; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px, 6vw, 72px); color: #fff; margin-bottom: 16px; }
         .hero p { color: rgba(255,250,241,.7); font-size: 16px; max-width: 560px; margin: 0 auto; line-height: 1.7; }
         .content { max-width: 1000px; margin: 0 auto; padding: 80px 32px; }
         .testi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -54,13 +53,13 @@ export default function TestimonialsPage() {
       `}</style>
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/de"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/de"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
           <nav className="nav-links">
-            <a href="/de/about">Über uns</a>
-            <a href="/de/services">Leistungen</a>
-            <a href="/de/testimonials" className="active">Referenzen</a>
-            <a href="/de#contact">Kontakt</a>
-                      <a href="/de" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
+            <Link href="/de/about">Über uns</Link>
+            <Link href="/de/services">Leistungen</Link>
+            <Link href="/de/testimonials" className="active">Referenzen</Link>
+            <Link href="/de#contact">Kontakt</Link>
+                      <Link href="/de" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</Link>
           </nav>
         </div>
       </header>
@@ -75,15 +74,15 @@ export default function TestimonialsPage() {
             <div key={t.name} className="testi-card">
               <p className="testi-name">{t.flag} {t.name}</p>
               <span className="testi-cat">{t.category}</span>
-              <p className="testi-text">"{t.text}"</p>
+              <p className="testi-text">&ldquo;{t.text}&rdquo;</p>
             </div>
           ))}
         </div>
         <div className="cta-row">
-          <a className="btn-primary" href="/de#contact">Beginnen Sie Ihre eigene Reise</a>
+          <Link className="btn-primary" href="/de#contact">Beginnen Sie Ihre eigene Reise</Link>
         </div>
       </section>
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/de/privacy" style={{color:'inherit'}}>Datenschutz</a> · <a href="/de/terms" style={{color:'inherit'}}>AGB</a> · <a href="/de/impressum" style={{color:'inherit'}}>Impressum</a> · <a href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</a> · <a href="/de/blogs" style={{color:'inherit'}}>Ratgeber</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
     </main>
   );
 }

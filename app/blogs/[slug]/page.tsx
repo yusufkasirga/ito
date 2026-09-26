@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { getPostBySlug, blogPosts } from '../blogData';
 import { getPostBySlugDe } from '../blogDataDe';
@@ -57,10 +59,10 @@ export default async function BlogPostPage(
 
   if (!post) {
     return (
-      <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '20px', textAlign: 'center', padding: '32px' }}>
-        <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#081f35' }}>Post not found</h1>
+      <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '20px', textAlign: 'center', padding: '32px' }}>
+        <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '36px', color: '#081f35' }}>Post not found</h1>
         <p style={{ color: '#647889' }}>This blog post does not exist or may have been moved.</p>
-        <a href="/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Back to all posts</a>
+        <Link href="/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Back to all posts</Link>
       </main>
     );
   }
@@ -92,11 +94,10 @@ export default async function BlogPostPage(
   } : null;
 
   return (
-    <main style={{ fontFamily: "'Inter', system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       {faqJsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />}
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
           --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
@@ -127,14 +128,14 @@ export default async function BlogPostPage(
         .post-crumbs a { color: var(--gold); text-decoration: none; }
         .post-crumbs a:hover { text-decoration: underline; }
         .post-crumbs span { color: rgba(255,250,241,.55); }
-        .post-title { font-family: 'Playfair Display', serif; font-size: clamp(30px, 4.6vw, 52px); color: #fff; line-height: 1.08; margin-bottom: 16px; text-shadow: 0 2px 24px rgba(0,0,0,.35); }
+        .post-title { font-family: var(--font-playfair), serif; font-size: clamp(30px, 4.6vw, 52px); color: #fff; line-height: 1.08; margin-bottom: 16px; text-shadow: 0 2px 24px rgba(0,0,0,.35); }
         .post-meta { display: flex; flex-wrap: wrap; gap: 14px; color: rgba(255,250,241,.75); font-size: 13px; }
 
         .post-layout { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 56px; padding: 56px 32px 70px; align-items: start; background-image: radial-gradient(rgba(8,31,53,.04) 1px, transparent 1px); background-size: 26px 26px; }
         .post-main { min-width: 0; }
         .post-side { position: sticky; top: 110px; display: flex; flex-direction: column; gap: 22px; }
         .side-card { border: 1px solid var(--line); border-radius: 20px; background: #fff; padding: 22px; box-shadow: var(--shadow-sm); }
-        .side-card h3 { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--navy); margin-bottom: 16px; }
+        .side-card h3 { font-family: var(--font-playfair), serif; font-size: 18px; color: var(--navy); margin-bottom: 16px; }
         .side-post { display: flex; gap: 12px; align-items: center; text-decoration: none; padding: 7px 0; }
         .side-post img { width: 64px; height: 64px; border-radius: 12px; object-fit: cover; flex-shrink: 0; }
         .side-post span { font-size: 13px; font-weight: 700; color: var(--navy); line-height: 1.4; transition: color .2s; }
@@ -146,8 +147,8 @@ export default async function BlogPostPage(
 
         .post-body { max-width: 760px; }
         .post-body p { color: #3a4654; font-size: 17px; line-height: 1.95; margin-bottom: 24px; }
-        .post-body > p:first-of-type::first-letter { font-family: 'Playfair Display', serif; font-size: 3.6em; font-weight: 800; float: left; line-height: .82; padding: 6px 12px 0 0; color: var(--gold); }
-        .post-body h2 { font-family: 'Playfair Display', serif; font-size: 27px; color: var(--navy); margin: 44px 0 16px; }
+        .post-body > p:first-of-type::first-letter { font-family: var(--font-playfair), serif; font-size: 3.6em; font-weight: 800; float: left; line-height: .82; padding: 6px 12px 0 0; color: var(--gold); }
+        .post-body h2 { font-family: var(--font-playfair), serif; font-size: 27px; color: var(--navy); margin: 44px 0 16px; }
         .post-body h2::before { content: ''; display: block; width: 44px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--gold), #e8d5a8); margin-bottom: 12px; }
         .post-link { color: #8a6d33; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(201,169,106,.5); }
         .post-link:hover { color: var(--navy); text-decoration-color: var(--navy); }
@@ -162,7 +163,7 @@ export default async function BlogPostPage(
         .post-table td { padding: 12px 16px; color: #3a4654; border-bottom: 1px solid rgba(8,31,53,.07); }
         .post-table tr:last-child td { border-bottom: none; }
         .post-faq { max-width: 760px; margin: 44px 0 0; }
-        .post-faq h2 { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--navy); margin-bottom: 20px; }
+        .post-faq h2 { font-family: var(--font-playfair), serif; font-size: 26px; color: var(--navy); margin-bottom: 20px; }
         .post-faq-item { border: 1px solid var(--line); border-radius: 14px; margin-bottom: 12px; background: #fff; }
         .post-faq-item summary { cursor: pointer; padding: 16px 20px; font-weight: 700; color: var(--navy); font-size: 15px; list-style: none; }
         .post-faq-item summary::-webkit-details-marker { display: none; }
@@ -172,18 +173,18 @@ export default async function BlogPostPage(
 
         .post-cta { max-width: 760px; margin: 48px 0 0; }
         .cta-box { padding: 40px; border-radius: 24px; background: linear-gradient(135deg, #071726, #0c3555); text-align: center; }
-        .cta-box h3 { font-family: 'Playfair Display', serif; color: #fff; font-size: 24px; margin-bottom: 12px; }
+        .cta-box h3 { font-family: var(--font-playfair), serif; color: #fff; font-size: 24px; margin-bottom: 12px; }
         .cta-box p { color: rgba(255,250,241,.7); font-size: 14px; margin-bottom: 24px; }
 
         .related { max-width: 1100px; margin: 0 auto; padding: 0 32px 90px; }
-        .related h3 { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--navy); margin-bottom: 28px; }
+        .related h3 { font-family: var(--font-playfair), serif; font-size: 26px; color: var(--navy); margin-bottom: 28px; }
         .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
         .related-card { display: block; text-decoration: none; border-radius: 18px; overflow: hidden; background: #fff; border: 1px solid var(--line); transition: all 0.3s; }
         .related-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
         .related-img { height: 160px; }
         .related-img img { width: 100%; height: 100%; object-fit: cover; }
         .related-body { padding: 18px; }
-        .related-title { font-family: 'Playfair Display', serif; font-size: 16px; color: var(--navy); font-weight: 800; }
+        .related-title { font-family: var(--font-playfair), serif; font-size: 16px; color: var(--navy); font-weight: 800; }
 
         .footer { background: var(--ink); color: rgba(255,250,241,.6); padding: 40px 0; text-align: center; font-size: 13px; }
 
@@ -214,12 +215,12 @@ export default async function BlogPostPage(
 
       <header className="nav">
         <div className="nav-inner">
-          <a className="brand" href="/"><img src="/logo.png" alt="Itinerary of Türkiye" /></a>
+          <Link className="brand" href="/"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
           <nav className="nav-links">
-            <a href="/about">About Us</a>
-            <a href="/services">Services</a>
-            <a href="/testimonials">Testimonials</a>
-            <a href="/#contact">Contact</a>
+            <Link href="/about">About Us</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/testimonials">Testimonials</Link>
+            <Link href="/#contact">Contact</Link>
                       <a href={deVersion ? `/de/blogs/${slug}` : "/de/blogs"} style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
           </nav>
         </div>
@@ -307,7 +308,7 @@ export default async function BlogPostPage(
         <div className="cta-box">
           <h3>Ready to start your journey?</h3>
           <p>Tell us what you need in Türkiye and we will take care of everything else.</p>
-          <a className="btn-primary" href="/#contact">Request Advisory</a>
+          <Link className="btn-primary" href="/#contact">Request Advisory</Link>
         </div>
       </div>
       </div>
@@ -316,16 +317,16 @@ export default async function BlogPostPage(
         <div className="side-card">
           <h3>More from our guides</h3>
           {otherPosts.map((p) => (
-            <a key={p.slug} className="side-post" href={`/blogs/${p.slug}`}>
+            <Link key={p.slug} className="side-post" href={`/blogs/${p.slug}`}>
               <img loading="lazy" src={p.coverImage} alt="" />
               <span>{p.title}</span>
-            </a>
+            </Link>
           ))}
         </div>
         <div className="side-card side-cta">
           <span className="side-eyebrow">Private Advisory</span>
           <p>Planning a trip, treatment or investment in Türkiye? Tell us what you need — a real person replies within hours.</p>
-          <a className="btn-primary" href="/#contact">Start your journey</a>
+          <Link className="btn-primary" href="/#contact">Start your journey</Link>
         </div>
       </aside>
       </div>
@@ -335,18 +336,18 @@ export default async function BlogPostPage(
           <h3>More from our blog</h3>
           <div className="related-grid">
             {otherPosts.slice(0, 2).map((p) => (
-              <a key={p.slug} className="related-card" href={`/blogs/${p.slug}`}>
+              <Link key={p.slug} className="related-card" href={`/blogs/${p.slug}`}>
                 <div className="related-img"><img loading="lazy" src={p.coverImage} alt={p.title} /></div>
                 <div className="related-body">
                   <p className="related-title">{p.title}</p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
       )}
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <a href="/privacy" style={{color:'inherit'}}>Privacy</a> · <a href="/terms" style={{color:'inherit'}}>Terms</a> · <a href="/legal-notice" style={{color:'inherit'}}>Legal Notice</a> · <a href="/future-services" style={{color:'inherit'}}>Future Services</a> · <a href="/blogs" style={{color:'inherit'}}>Guides</a></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p></footer>
     </main>
   );
 }
