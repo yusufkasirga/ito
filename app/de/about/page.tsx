@@ -152,6 +152,8 @@ export default function AboutPage() {
           </div>
           <div className="about-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="/images/pexels-3889742-800x1000.jpg"
               alt="Heißluftballons über Kappadokien, Türkei"
             />

@@ -48,7 +48,7 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
 
         .ito-hdr .h-bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; max-width: 1200px; margin: 0 auto; padding: 12px 32px; }
         /* Logo kilidi: rozet + serif wordmark (site tipografik diliyle kimliğe bağlanır) */
-        .ito-hdr .h-brand { display: inline-flex; align-items: center; gap: 13px; transition: transform .25s ease; }
+        .ito-hdr .h-brand { text-decoration: none; display: inline-flex; align-items: center; gap: 13px; transition: transform .25s ease; }
         .ito-hdr .h-brand:hover { transform: translateY(-1px); }
         .ito-hdr .h-brand img { height: 76px; width: 76px; object-fit: contain; display: block; background: #fffdf7; border-radius: 50%; padding: 5px; box-shadow: 0 2px 12px rgba(0,0,0,.28); }
         .ito-hdr .h-wm { line-height: 1; white-space: nowrap; }
@@ -85,10 +85,10 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
 
       <div className="h-full">
         <div className="h-bar">
-          <a className="h-brand" href={locale === 'de' ? '/de' : '/'} aria-label="Itinerary of Türkiye">
+          <Link className="h-brand" href={locale === 'en' ? '/' : `/${locale}`} aria-label="Itinerary of Türkiye">
             <Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} />
             <span className="h-wm"><span className="l1">Itinerary</span><span className="l2">of Türkiye</span></span>
-          </a>
+          </Link>
 
           <nav className="h-nav">
             <Link href="/about">About Us</Link>

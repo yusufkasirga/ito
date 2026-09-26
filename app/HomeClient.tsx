@@ -523,8 +523,8 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
         .footer a { display: block; margin: 0 0 9px; color: rgba(255,250,241,.6); text-decoration: none; font-size: 13px; transition: color 0.2s; }
         .footer a:hover { color: var(--gold); }
         .social-row { display: flex; gap: 12px; margin-top: 16px; }
-        .social-btn { width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); color: rgba(255,250,241,.7); display: flex; align-items: center; justify-content: center; font-size: 14px; text-decoration: none; transition: all 0.2s; }
-        .social-btn:hover { background: rgba(201,169,106,.2); border-color: var(--gold); color: var(--gold); }
+        .footer .social-btn, .social-btn { margin: 0; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); color: rgba(255,250,241,.7); display: flex; align-items: center; justify-content: center; font-size: 14px; text-decoration: none; transition: all 0.2s; }
+        .footer .social-btn:hover, .social-btn:hover { background: rgba(201,169,106,.2); border-color: var(--gold); color: var(--gold); }
 
         /* HOW IT WORKS */
         .hiw-section { background: ${dm ? '#111827' : '#fff'}; }
@@ -611,7 +611,6 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
 
         /* RESPONSIVE */
         @media (max-width: 1100px) {
-          .testi-grid { grid-template-columns: 1fr; }
           .std-grid, .form-grid, .about-grid, .inv-grid { grid-template-columns: 1fr; }
           .std-card { position: static; }
           .health-header-row { flex-direction: column; align-items: flex-start; }
@@ -622,10 +621,10 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
           .hero-btns { justify-content: center; }
         }
         @media (max-width: 840px) {
-          .testi-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; padding: 4px 2px 18px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+          .testi-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; margin-inline: -24px; padding: 4px 24px 18px; scroll-padding-inline: 24px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
           .testi-grid::-webkit-scrollbar { display: none; }
-          .testi-card { min-width: 86%; scroll-snap-align: center; }
-          .testi-card:first-child { min-width: 86%; }
+          .testi-card { min-width: min(82%, 520px); scroll-snap-align: start; }
+          .testi-card:first-child { min-width: min(82%, 520px); }
           .hiw-grid { grid-template-columns: 1fr; }
           .hiw-grid::before { display: none; }
           .f-row { grid-template-columns: 1fr; }
@@ -646,6 +645,7 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
           .about-img { height: 320px; }
           .inv-visual { height: 340px; }
           .container { width: calc(100% - 28px); }
+          .testi-grid { margin-inline: -14px; padding-inline: 14px; scroll-padding-inline: 14px; }
           .section { padding: 56px 0; }
           .hero-split { width: calc(100% - 36px); padding: 100px 0 80px; }
           .hero h1 { font-size: clamp(32px, 9vw, 46px); }
