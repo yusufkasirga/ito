@@ -8,7 +8,7 @@ const UTM = '?utm_source=instagram&utm_medium=links-de';
 
 export default function LinksPage() {
   const links = [
-    { emoji: '💬', title: 'Kostenlose Beratung über WhatsApp', sub: 'Ein echter Mensch antwortet in wenigen Stunden', href: whatsAppUrl('Hallo! Ich habe Sie über Instagram gefunden und hätte gern eine kostenlose Beratung.'), external: true, primary: true },
+    { emoji: '💬', title: 'Schreiben Sie uns auf WhatsApp', sub: 'Ein echter Mensch antwortet in wenigen Stunden', href: whatsAppUrl('Hallo! Ich habe Sie über Instagram gefunden und hätte gern eine kostenlose Beratung.'), external: true, primary: true },
     { emoji: '📚', title: 'Ratgeber & Kostenartikel', sub: 'Haare, Zähne, Ästhetik, Reiserouten — ehrliche Ratgeber 2026', href: `/de/blogs${UTM}` },
     { emoji: '🏥', title: 'Beratung für Medizinreisen', sub: 'Wie wir Kliniken prüfen, bevor wir sie empfehlen', href: `/de${UTM}#health` },
     { emoji: '🗺️', title: 'Private Türkei-Erlebnisse', sub: 'Kappadokien, Istanbul, die Ägäis — maßgeschneidert', href: `/de${UTM}#tourism` },
