@@ -8,6 +8,8 @@ import HeroVideo from './components/HeroVideo';
 import Icon from './components/Icon';
 import LeadForm from './components/LeadForm';
 import SiteHeader from './components/SiteHeader';
+import ScrollFx from './components/home/ScrollFx';
+import DestinationRail from './components/home/DestinationRail';
 import { track } from '@vercel/analytics';
 
 export default function Home() {
@@ -56,7 +58,6 @@ export default function Home() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-  const [expandedPillar, setExpandedPillar] = useState<string | null>(null);
   const [expandedTourism, setExpandedTourism] = useState<string | null>(null);
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(false);
@@ -97,25 +98,25 @@ export default function Home() {
       title: 'History & Heritage',
       short: 'Türkiye is not just a destination — it is a living museum. From the ruins of Ephesus to the grandeur of the Hagia Sophia, every corner tells a story.',
       full: 'From the ancient ruins of Ephesus to the Byzantine grandeur of the Hagia Sophia, from the Ottoman splendour of Topkapı Palace to the fairy-tale landscapes of Cappadocia carved by civilisations thousands of years ago, every corner of this land tells a story.\n\nWalking through Türkiye means walking through time — where East meets West, and where empires once rose and left their mark on every stone, street, and skyline.\n\nLet us take you there.',
-      image: '/images/heritage-bluemosque-800x1000.jpg'
+      image: '/images/dest/ephesus.jpg'
     },
     {
       title: 'Nature & Outdoors',
       short: 'Hot air balloons drift over the valleys of Cappadocia. Turquoise coastlines stretch along the Aegean and Mediterranean — all waiting to be explored.',
       full: "Türkiye's natural landscape is as dramatic as it is diverse. Hot air balloons drift over the otherworldly valleys of Cappadocia at sunrise. Turquoise coastlines stretch for thousands of kilometres along the Aegean and Mediterranean.\n\nWhether you are hiking the legendary Lycian Way, sailing a traditional gulet across hidden coves, or simply standing at the edge of Pamukkale's cotton-white terraces — nature in Türkiye has a way of leaving you speechless.",
-      image: '/images/pexels-2419278-800x1200.jpg'
+      image: '/images/dest/fethiye.jpg'
     },
     {
       title: 'Food & Drinks',
       short: 'Turkish cuisine is one of the great culinary traditions of the world. From sizzling kebabs to delicate baklava — every dish carries centuries of tradition.',
       full: "Turkish cuisine is one of the great culinary traditions of the world — and eating here is never just a meal, it is an experience. From the sizzle of freshly grilled kebabs to the delicate layers of a perfectly made baklava, every dish carries centuries of tradition.\n\nStart your morning with a legendary Turkish breakfast — an abundant spread of cheeses, olives, eggs, honey, and fresh bread. Sip on a tulip-shaped glass of çay as the day unfolds, or let the rich aroma of Turkish coffee linger long after the cup is empty.\n\nHere, every meal tells a story. Come hungry.",
-      image: '/images/pexels-3338497-800x1200.jpg'
+      image: '/images/home/turkish-breakfast.jpg'
     },
     {
       title: 'Arts & Culture',
       short: 'Türkiye is a canvas painted by countless civilisations. Where ancient mosaics sit beside contemporary galleries and craftsmanship fills every street.',
       full: "Türkiye is a canvas painted by countless civilisations — Greek, Roman, Byzantine, Seljuk, and Ottoman — each leaving behind a cultural legacy that still breathes today.\n\nLose yourself in the rhythm of a traditional whirling dervish ceremony. Wander through the Grand Bazaar and witness artisans practising crafts passed down through generations — hand-painted ceramics, intricate carpet weaving, and delicate calligraphy.\n\nCome curious. Leave inspired.",
-      image: '/images/pexels-1549326-800x1200.jpg'
+      image: '/images/home/grand-bazaar-lamps.jpg'
     },
   ];
 
@@ -332,28 +333,8 @@ export default function Home() {
         @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 
         /* PILLARS */
-        .pillar-section { padding: 32px 0 48px; background: ${dm ? '#111827' : 'var(--ivory, #fffaf1)'}; }
-        .pillar-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; max-width: 920px; margin: 0 auto; }
-        .pillar-card { padding: 30px; border: 1px solid ${dm ? 'rgba(201,169,106,.2)' : 'rgba(201,169,106,.24)'}; border-radius: var(--r); background: ${dm ? 'rgba(255,255,255,.04)' : 'rgba(255,250,241,.96)'}; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; transition: all 0.3s; }
-        .pillar-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-6px); }
-        .pillar-eyebrow { color: ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; font-size: 11px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
-        .pillar-card h2 { margin: 14px 0 8px; color: ${dm ? '#fff' : 'var(--navy)'}; font-size: 26px; }
-        .pillar-short { color: ${dm ? 'rgba(240,237,232,.65)' : '#647889'}; line-height: 1.68; font-size: 14px; flex: 1; margin: 0; }
-        .pillar-full { margin-top: 12px; color: ${dm ? 'rgba(240,237,232,.65)' : '#647889'}; line-height: 1.72; font-size: 14px; border-top: 1px solid ${dm ? 'rgba(255,255,255,.08)' : 'rgba(8,31,53,.1)'}; padding-top: 12px; animation: fadeUp 0.3s ease; }
 
         /* TOURISM */
-        .tourism-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 48px; padding-bottom: 40px; }
-        .tourism-grid .t-card:nth-child(even) { margin-top: 38px; }
-        .t-card { border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; position: relative; transition: transform .5s cubic-bezier(.22,.61,.36,1), box-shadow .5s ease; }
-        .t-card:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 34px 70px rgba(7,23,38,.35); z-index: 2; }
-        .t-glow { position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0; transform: scale(1.5); transition: opacity .5s ease, transform .5s ease; background: radial-gradient(circle at 28% 18%, rgba(201,169,106,.4), transparent 62%); }
-        .t-card:hover .t-glow { opacity: 1; transform: scale(1); }
-        .t-img { height: 480px; position: relative; }
-        .t-img img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.72) saturate(1.06) sepia(.05); transition: filter 0.3s; }
-        .t-card:hover .t-img img { filter: brightness(.88) saturate(1.06) sepia(.05); }
-        .t-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 28px 22px 20px; background: linear-gradient(180deg, transparent, rgba(0,0,0,.88)); color: #fff; }
-        .t-label h3 { margin: 0 0 7px; font-size: 20px; font-weight: 900; font-family: var(--font-playfair), serif; }
-        .t-label p { margin: 0 0 12px; font-size: 13px; line-height: 1.5; color: rgba(255,255,255,.8); }
         .t-overlay { position: absolute; inset: 0; z-index: 3; padding: 22px; background: rgba(7,23,38,.94); backdrop-filter: blur(6px); color: rgba(255,250,241,.85); font-size: 13px; line-height: 1.75; overflow-y: auto; animation: fadeUp .3s ease; border-radius: var(--r); }
         .t-overlay h3 { margin: 0 0 12px; font-family: var(--font-playfair), serif; font-size: 19px; color: #fff; }
 
@@ -456,6 +437,77 @@ export default function Home() {
         .form-success h3 { margin: 0 0 8px; color: var(--aqua); }
         .form-success p { margin: 0; font-size: 13px; color: rgba(255,250,241,.8); }
 
+        /* İKİ YOL — genişleyen paneller */
+        .split { display: flex; height: min(88vh, 780px); min-height: 560px; background: #071726; }
+        .split-panel { position: relative; flex: 1; overflow: hidden; color: #fff; text-decoration: none; transition: flex 1s var(--fx-ease, cubic-bezier(.22,.61,.36,1)); }
+        .split:hover .split-panel { flex: .78; }
+        .split .split-panel:hover { flex: 1.35; }
+        .split-media { position: absolute; inset: 0; }
+        .split-img { position: absolute; inset: -8% 0; }
+        .split-img img { transition: transform 1.4s var(--fx-ease, ease); }
+        .split-panel:hover .split-img img { transform: scale(1.06); }
+        .split-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7,23,38,.2) 0%, rgba(7,23,38,.25) 40%, rgba(7,23,38,.88) 100%); transition: background .8s; }
+        .split-panel:hover .split-shade { background: linear-gradient(180deg, rgba(7,23,38,.1) 0%, rgba(7,23,38,.2) 40%, rgba(7,23,38,.92) 100%); }
+        .split-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 0 clamp(24px, 4vw, 64px) clamp(36px, 5vw, 64px); max-width: 640px; }
+        .split-k { display: block; font-size: 11.5px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: #d8b878; margin-bottom: 14px; }
+        .split-body h2 { margin: 0 0 14px; font-size: clamp(40px, 5.2vw, 76px); line-height: .96; letter-spacing: -.02em; color: #fff; }
+        .split-body p { margin: 0; font-size: 15.5px; line-height: 1.7; color: rgba(255,255,255,.82); max-width: 460px; max-height: 0; opacity: 0; overflow: hidden; transition: max-height .8s var(--fx-ease, ease), opacity .6s ease, margin .6s; }
+        .split-panel:hover .split-body p, .split-panel:focus-visible .split-body p { max-height: 200px; opacity: 1; margin-bottom: 4px; }
+        .split-cta { display: inline-flex; gap: 8px; margin-top: 18px; padding: 12px 22px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.45); font-size: 13.5px; font-weight: 700; transition: background .35s, border-color .35s, gap .35s; }
+        .split-panel:hover .split-cta { background: #E8956B; border-color: #E8956B; color: #2a1508; gap: 14px; }
+
+        /* KAYAN YAZI BANDI */
+        .mq { overflow: hidden; padding: 30px 0; background: ${dm ? '#0a0f1a' : '#fffaf1'}; border-bottom: 1px solid ${dm ? 'rgba(255,255,255,.06)' : 'rgba(8,31,53,.08)'}; }
+        .mq-track { display: flex; width: max-content; animation: mq-run 48s linear infinite; }
+        .mq:hover .mq-track { animation-play-state: paused; }
+        .mq-group { display: flex; }
+        .mq-word { display: inline-flex; align-items: center; font-family: var(--font-playfair), serif; font-weight: 800; font-size: clamp(46px, 7.5vw, 116px); line-height: 1.1; letter-spacing: -.02em; padding-right: .35em; white-space: nowrap; color: ${dm ? '#f0ede8' : 'var(--navy)'}; }
+        .mq-word:nth-child(even) { color: transparent; -webkit-text-stroke: 1.5px ${dm ? 'var(--gold)' : 'var(--gold-ink)'}; font-style: italic; }
+        .mq-word i { font-style: normal; font-size: .32em; color: var(--gold); margin-left: .5em; -webkit-text-stroke: 0; }
+        @keyframes mq-run { to { transform: translateX(-50%); } }
+
+        /* DENEYİM MOZAİĞİ */
+        .xp { padding: 110px 0 100px; }
+        .xp-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: end; margin-bottom: 48px; }
+        .xp-head .section-copy { margin: 0 0 8px; }
+        .xp-grid { display: grid; grid-template-columns: 1.25fr 1fr 1fr; grid-template-rows: 320px 320px; gap: 18px; }
+        .xp-1 { grid-row: 1 / 3; }
+        .xp-2 { grid-column: 2 / 4; }
+        .xp-tile { position: relative; border-radius: 22px; overflow: hidden; color: #fff; isolation: isolate; box-shadow: var(--shadow-lg); }
+        .xp-media { position: absolute; inset: 0; border-radius: 22px; overflow: hidden; }
+        .xp-img { position: absolute; inset: -8% 0; }
+        .xp-img img { transition: transform 1.4s var(--fx-ease, ease), filter .6s; filter: saturate(1.05); }
+        .xp-tile:hover .xp-img img { transform: scale(1.07); }
+        .xp-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7,23,38,0) 35%, rgba(7,23,38,.35) 60%, rgba(7,23,38,.9) 100%); }
+        .xp-3 .xp-shade, .xp-4 .xp-shade { background: linear-gradient(180deg, rgba(7,23,38,.1) 0%, rgba(7,23,38,.55) 45%, rgba(7,23,38,.94) 100%); }
+        .xp-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 26px 26px 24px; z-index: 1; }
+        .xp-num { display: block; font-size: 12px; font-weight: 800; letter-spacing: .18em; color: #d8b878; margin-bottom: 8px; }
+        .xp-body h3 { margin: 0 0 8px; font-family: var(--font-playfair), serif; font-size: clamp(24px, 2.4vw, 34px); line-height: 1.05; }
+        .xp-1 .xp-body h3 { font-size: clamp(32px, 3.4vw, 48px); }
+        .xp-body p { margin: 0 0 14px; font-size: 14px; line-height: 1.6; color: rgba(255,255,255,.82); max-width: 520px; }
+        .xp-3 .xp-body p, .xp-4 .xp-body p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .about-par { position: absolute; inset: -8% 0; }
+
+        /* FOOTER — yasal satır */
+        .footer-legal { margin-top: 40px; padding-top: 22px; border-top: 1px solid rgba(255,250,241,.08); display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 18px; font-size: 12px; }
+        .footer .footer-legal a { display: inline; margin: 0; font-size: 12px; }
+
+        @media (max-width: 900px) {
+          .split { flex-direction: column; height: auto; min-height: 0; }
+          .split-panel, .split:hover .split-panel, .split .split-panel:hover { flex: none; height: 72vh; min-height: 440px; }
+          .split-body p { max-height: none; opacity: 1; margin-bottom: 4px; }
+          .xp { padding: 80px 0 70px; }
+          .xp-head { grid-template-columns: 1fr; gap: 12px; }
+          .xp-grid { grid-template-columns: 1fr; grid-template-rows: none; }
+          .xp-1, .xp-2 { grid-row: auto; grid-column: auto; }
+          .xp-tile { height: 420px; }
+          .xp-3 .xp-body p, .xp-4 .xp-body p { -webkit-line-clamp: unset; display: block; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .mq-track { animation: none; }
+          .split-panel, .split-img img, .xp-img img { transition: none; }
+        }
+
         /* FOOTER */
         .footer { background: #071726; color: rgba(255,250,241,.6); padding: 56px 0 28px; }
         .footer-grid { display: grid; grid-template-columns: 1.3fr repeat(3,1fr); gap: 32px; }
@@ -521,14 +573,12 @@ export default function Home() {
         .nav { position: fixed; transition: background .4s ease, box-shadow .4s ease, backdrop-filter .4s ease; }
         .nav.nav-scrolled { background: rgba(8,20,38,.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); box-shadow: 0 1px 0 rgba(201,169,106,.25), 0 14px 40px rgba(0,0,0,.28); }
 
-        .t-img img { filter: brightness(.72) saturate(1.07) contrast(1.03); }
         .about-img img { filter: saturate(1.05) contrast(1.02); }
 
         .testi-card { position: relative; }
         .testi-card::before { content: '“'; position: absolute; top: 6px; right: 20px; font-family: var(--font-playfair), serif; font-size: 84px; line-height: 1; color: rgba(201,169,106,.16); pointer-events: none; }
         .testi-card:hover { transform: translateY(-5px); box-shadow: 0 18px 48px rgba(7,23,38,.12); border-color: rgba(201,169,106,.4); }
 
-        .pillar-card:hover { transform: translateY(-6px); box-shadow: 0 18px 44px rgba(7,23,38,.14); border-color: rgba(201,169,106,.5); }
         .faq-item { transition: border-color .3s ease, box-shadow .3s ease; }
         .faq-item:hover { border-color: rgba(201,169,106,.45); box-shadow: 0 8px 26px rgba(7,23,38,.07); }
 
@@ -556,7 +606,6 @@ export default function Home() {
           .testi-grid { grid-template-columns: 1fr; }
           .std-grid, .form-grid, .about-grid, .inv-grid { grid-template-columns: 1fr; }
           .std-card { position: static; }
-          .t-img { height: 430px; }
           .health-header-row { flex-direction: column; align-items: flex-start; }
           .health-stat-badge { text-align: left; width: 100%; }
           .hero-split { grid-template-columns: minmax(0, 1fr); padding: 120px 0 100px; text-align: center; }
@@ -571,7 +620,6 @@ export default function Home() {
           .testi-card:first-child { min-width: 86%; }
           .hiw-grid { grid-template-columns: 1fr; }
           .hiw-grid::before { display: none; }
-          .pillar-grid, .crit-grid { grid-template-columns: 1fr; }
           .f-row { grid-template-columns: 1fr; }
           .footer-grid { grid-template-columns: 1fr 1fr; }
           .nav-links { display: none; }
@@ -583,14 +631,8 @@ export default function Home() {
           .hero-split { padding: 110px 0 90px; }
           .hero-trust-strip { flex-wrap: wrap; gap: 10px 14px; justify-content: center; }
         }
-        @media (max-width: 1024px) { .tourism-grid { grid-template-columns: 1fr 1fr; } .tourism-grid .t-card:nth-child(even) { margin-top: 26px; } }
         @media (max-width: 700px) { .concierge { display: none; } }
         @media (max-width: 640px) {
-          .t-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-          .t-glow { display: none; }
-          .tourism-grid { grid-template-columns: 1fr; gap: 18px; padding-bottom: 8px; }
-          .tourism-grid .t-card:nth-child(even) { margin-top: 0; }
-          .t-img { height: 360px; }
           .footer-grid { grid-template-columns: 1fr; }
           .about-features { grid-template-columns: 1fr; }
           .about-img { height: 320px; }
@@ -614,6 +656,7 @@ export default function Home() {
       {/* CONCIERGE BADGE */}
       <div className="concierge">✓ Replies within hours</div>
 
+      <ScrollFx />
       <SiteHeader overlay />
 
       {/* HERO */}
@@ -654,58 +697,95 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PILLARS */}
-      <section className="pillar-section">
-        <div className="container pillar-grid">
-          {advisoryPillars.map((item) => {
-            const isOpen = expandedPillar === item.title;
-            return (
-              <div key={item.title} className="pillar-card">
-                <span className="pillar-eyebrow">{item.subtitle}</span>
-                <h2 className="serif">{item.title}</h2>
-                <p className="pillar-short">{item.short}</p>
-                {isOpen && <p className="pillar-full">{item.full}</p>}
-                <button className="btn btn-ghost read-btn-light" style={{marginTop:'16px',minHeight:'36px',padding:'0 16px',fontSize:'12px',alignSelf:'flex-start'}} onClick={() => setExpandedPillar(isOpen ? null : item.title)}>
-                  {isOpen ? '▲ Read less' : '▼ Read more'}
-                </button>
+      {/* İKİ YOL — genişleyen görsel paneller */}
+      <section className="split" aria-label="Two ways we help">
+        {[
+          { k: '01', eyebrow: 'Culture · travel · gastronomy', title: 'Private Türkiye', text: advisoryPillars[0].short, cta: 'Explore private travel', href: '/services/tourism', img: '/images/dest/cappadocia.jpg', alt: 'Valleys and rock formations of Cappadocia, Türkiye' },
+          { k: '02', eyebrow: 'Care · access · recovery', title: 'Medical Travel', text: advisoryPillars[1].short, cta: 'How we coordinate care', href: '/services/medical-tourism', img: '/images/hero-galata-1000x1250.jpg', alt: 'Galata Tower above the rooftops of Istanbul' },
+        ].map((pnl, i) => (
+          <Link key={pnl.k} href={pnl.href} className="split-panel">
+            <div className="split-media" data-reveal="clip" style={{ '--d': `${i * 140}ms` } as React.CSSProperties}>
+              <div className="split-img" data-parallax="0.06">
+                <Image src={pnl.img} alt={pnl.alt} fill sizes="(max-width: 900px) 100vw, 60vw" style={{ objectFit: 'cover' }} />
               </div>
-            );
-          })}
-        </div>
+              <span className="split-shade" />
+            </div>
+            <div className="split-body">
+              <span className="split-k">{pnl.k} — {pnl.eyebrow}</span>
+              <h2 className="serif">{pnl.title}</h2>
+              <p>{pnl.text}</p>
+              <span className="split-cta">{pnl.cta} <span aria-hidden="true">→</span></span>
+            </div>
+          </Link>
+        ))}
       </section>
 
-      {/* TOURISM */}
-      <section className="section" id="tourism" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
+      <DestinationRail
+        eyebrow="Discover Türkiye"
+        title="Where will you"
+        accent="begin?"
+        copy="Honest guides to 52 destinations — what to see, when to go, how long to stay, and what to skip."
+        allLabel="All 52 destination guides"
+        guideLabel="Read the guide"
+        prevLabel="Previous destinations"
+        nextLabel="Next destinations"
+      />
+
+      {/* KAYAN YAZI BANDI */}
+      <div className="mq" aria-hidden="true">
+        <div className="mq-track">
+          {[0, 1].map((rep) => (
+            <div className="mq-group" key={rep}>
+              {['Istanbul', 'Cappadocia', 'Aegean', 'Mediterranean', 'Black Sea', 'Mesopotamia', 'Anatolia'].map((w) => (
+                <span key={w} className="mq-word">{w}<i>✦</i></span>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* TOURISM — deneyim mozaiği */}
+      <section className="xp" id="tourism" style={{background: dm ? '#0a0f1a' : '#fffaf1'}}>
         <div className="container">
-          <span className="eyebrow">Tourism Advisory</span>
-          <h2 className="section-title serif">Go Beyond the Tour. <span style={{color:'var(--gold)'}}>Explore Türkiye.</span></h2>
-          <p className="section-copy">Four dimensions of discovery — heritage, nature, food, and arts. Handpicked for travellers who value authentic, deeply personal experiences.</p>
-          <div className="tourism-grid">
-              {tourismVisuals.map((t) => {
-                const isOpen = expandedTourism === t.title;
-                return (
-                  <div key={t.title} className="t-card">
-                    <div className="t-glow" />
-                    <div className="t-img">
-                      <Image src={t.image} alt={t.title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
-                      <div className="t-label">
-                        <h3>{t.title}</h3>
-                        <p>{t.short}</p>
-                        <button className="read-btn" onClick={() => setExpandedTourism(isOpen ? null : t.title)}>
-                          {isOpen ? '▲ Read less' : '▼ Read more'}
-                        </button>
-                      </div>
+          <div className="xp-head">
+            <div>
+              <span className="eyebrow">Tourism Advisory</span>
+              <h2 className="section-title serif" data-reveal="lines">
+                <span><span>Go Beyond the Tour.</span></span>
+                <span><span style={{color:'var(--gold)'}}>Explore Türkiye.</span></span>
+              </h2>
+            </div>
+            <p className="section-copy" data-reveal style={{ '--d': '150ms' } as React.CSSProperties}>Four dimensions of discovery — heritage, nature, food, and arts. Handpicked for travellers who value authentic, deeply personal experiences.</p>
+          </div>
+          <div className="xp-grid">
+            {tourismVisuals.map((t, i) => {
+              const isOpen = expandedTourism === t.title;
+              return (
+                <article key={t.title} className={`xp-tile xp-${i + 1}`}>
+                  <div className="xp-media" data-reveal="clip" style={{ '--d': `${i * 120}ms` } as React.CSSProperties}>
+                    <div className="xp-img" data-parallax="0.05">
+                      <Image src={t.image} alt={`${t.title} in Türkiye`} fill sizes={i === 0 ? '(max-width: 900px) 100vw, 45vw' : '(max-width: 900px) 100vw, 30vw'} style={{ objectFit: 'cover' }} />
                     </div>
-                    {isOpen && (
-                      <div className="t-overlay">
-                        <h3>{t.title}</h3>
-                        {t.full.split('\n\n').map((par, i) => <p key={i} style={{margin:'0 0 10px'}}>{par}</p>)}
-                        <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Close</button>
-                      </div>
-                    )}
+                    <span className="xp-shade" />
                   </div>
-                );
-              })}
+                  <div className="xp-body">
+                    <span className="xp-num">{String(i + 1).padStart(2, '0')}</span>
+                    <h3>{t.title}</h3>
+                    <p>{t.short}</p>
+                    <button className="read-btn" onClick={() => setExpandedTourism(isOpen ? null : t.title)} aria-expanded={isOpen}>
+                      {isOpen ? '▲ Read less' : '▼ Read more'}
+                    </button>
+                  </div>
+                  {isOpen && (
+                    <div className="t-overlay">
+                      <h3>{t.title}</h3>
+                      {t.full.split('\n\n').map((par, j) => <p key={j} style={{margin:'0 0 10px'}}>{par}</p>)}
+                      <button className="read-btn" style={{marginTop:'8px'}} onClick={() => setExpandedTourism(null)}>▲ Close</button>
+                    </div>
+                  )}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -729,7 +809,7 @@ export default function Home() {
             </div>
           </div>
           <div className="about-img">
-            <Image src="/images/about-bluemosque-1200x1040.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" fill sizes="(max-width: 1100px) 100vw, 50vw" />
+            <div className="about-par" data-parallax="0.07"><Image src="/images/about-bluemosque-1200x1040.jpg" alt="The Blue Mosque in Sultanahmet, Istanbul, Türkiye" fill sizes="(max-width: 1100px) 100vw, 50vw" /></div>
           </div>
         </div>
       </section>
@@ -952,8 +1032,11 @@ export default function Home() {
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
-          <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy Policy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms of Service</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link>
+          <div className="footer-legal">
+            <span>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved.</span>
+            <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/terms">Terms of Service</Link>
+            <Link href="/legal-notice">Legal Notice</Link>
           </div>
         </div>
       </footer>
