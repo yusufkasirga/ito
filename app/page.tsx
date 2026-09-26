@@ -625,11 +625,12 @@ export default function Home() {
             pauseLabel="Pause video"
             playLabel="Play video"
             chapters={[
-              { at: 0, label: 'Cappadocia' },
-              { at: 4.5, label: 'Sultanahmet · Istanbul' },
-              { at: 8.5, label: 'Galata · Istanbul' },
-              { at: 12.5, label: 'Cappadocia at sunrise' },
-              { at: 16.5, label: 'İstiklal · Istanbul' },
+              { at: 0, label: 'Sultanahmet · Istanbul' },
+              { at: 4.1, label: 'Galata · Istanbul' },
+              { at: 7.8, label: 'Cappadocia at sunrise' },
+              { at: 11.5, label: 'Cappadocia' },
+              { at: 15.2, label: 'Golden Horn · Istanbul' },
+              { at: 18.9, label: 'The Bosphorus by night' },
             ]}
           />
         <div className="hero-grain" />

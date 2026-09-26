@@ -720,11 +720,12 @@ export default function Home() {
             pauseLabel="Video pausieren"
             playLabel="Video abspielen"
             chapters={[
-              { at: 0, label: 'Kappadokien' },
-              { at: 4.5, label: 'Sultanahmet · Istanbul' },
-              { at: 8.5, label: 'Galata · Istanbul' },
-              { at: 12.5, label: 'Kappadokien bei Sonnenaufgang' },
-              { at: 16.5, label: 'İstiklal · Istanbul' },
+              { at: 0, label: 'Sultanahmet · Istanbul' },
+              { at: 4.1, label: 'Galata · Istanbul' },
+              { at: 7.8, label: 'Kappadokien bei Sonnenaufgang' },
+              { at: 11.5, label: 'Kappadokien' },
+              { at: 15.2, label: 'Goldenes Horn · Istanbul' },
+              { at: 18.9, label: 'Der Bosporus bei Nacht' },
             ]}
           />
         <div className="hero-grain" />
