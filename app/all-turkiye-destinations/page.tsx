@@ -105,7 +105,7 @@ export default function DestinationsPage() {
                 aria-label={`${c.name} — Türkiye`}
                 style={{ ['--acc' as string]: accent }}
               >
-                <CityImage slug={own} accent={accent} alt={c.name} fallback={getDestination(slug)?.cover || undefined} />
+                <CityImage slug={own} accent={accent} alt={c.name} fallback={ALIASES[own] ? `/images/dest/${slug}.jpg` : getDestination(slug)?.cover || undefined} sizes="(max-width: 620px) 85vw, 400px" />
                 <span className="dl-ghost">{c.name.slice(0, 2)}</span>
                 <span style={{ position: 'absolute', inset: 0, zIndex: 1, background: 'linear-gradient(180deg, rgba(7,23,38,.15) 0%, rgba(7,23,38,.35) 50%, rgba(7,23,38,.9) 100%)' }} />
                 {hasPage && <span className="dl-tag">Guide</span>}

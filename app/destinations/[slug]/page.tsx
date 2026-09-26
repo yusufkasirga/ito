@@ -151,7 +151,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       <SiteHeader />
 
       <section className="dt-hero">
-        <CityImage slug={d.slug} accent={d.accent} alt={d.name} fallback={d.cover || undefined} />
+        <CityImage slug={d.slug} accent={d.accent} alt={d.name} fallback={d.cover || undefined} sizes="(max-width: 820px) 200vw, 100vw" priority />
         <span className="dt-hero-ghost">{d.name.slice(0, 3)}</span>
         <span className="dt-hero-tint" />
         <div className="dt-hero-inner dt-anim">

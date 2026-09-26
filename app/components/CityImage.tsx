@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { destFocus } from '@/lib/imageFocus';
 
 /**
  * Şehir görseli — "foto-hazır", çok katmanlı sistem.
@@ -64,7 +65,7 @@ export default function CityImage({
           ref={(el) => {
             if (el && el.complete && el.naturalWidth === 0) setIdx((i) => (sources[i] === src ? i + 1 : i));
           }}
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', objectPosition: src === `/images/dest/${slug}.jpg` ? destFocus(slug) : '50% 50%' }}
         />
       )}
     </span>

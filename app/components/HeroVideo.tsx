@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
-import Image from 'next/image';
+import { getImageProps } from 'next/image';
 
 /**
  * Tam ekran sinematik hero videosu (GoTürkiye referansı).
@@ -22,7 +22,10 @@ export interface HeroChapter {
 
 interface Props {
   poster: string;
+  /** Telefonda (≤768px) gösterilen dikey poster; dikey videonun ilk karesi */
+  posterMobile?: string;
   /** Uzantısız yol; aynı adla .mp4 (H.264) ve .webm (VP9) dosyaları bulunmalı */
+  srcLarge?: string;
   srcDesktop: string;
   srcMobile: string;
   chapters: HeroChapter[];
@@ -35,21 +38,30 @@ type NetInfo = { saveData?: boolean; effectiveType?: string };
 const noSubscribe = () => () => {};
 const isSmallScreen = () => window.matchMedia('(max-width: 768px)').matches;
 
-function pickSource(desktop: string, mobile: string): string {
+function pickSource(desktop: string, mobile: string, large?: string): string {
   const conn = (navigator as Navigator & { connection?: NetInfo }).connection;
   const slowNet = !!conn && (!!conn.saveData || /(^|-)2g$/.test(conn.effectiveType ?? ''));
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (slowNet || reduced) return 'none';
-  return isSmallScreen() ? mobile : desktop;
+  if (isSmallScreen()) return mobile;
+  // Geniş/retina ekranda 720p yumuşak görünür; hızlı bağlantıda 1080p
+  const fast = !conn || !conn.effectiveType || conn.effectiveType === '4g';
+  if (large && fast && window.innerWidth * window.devicePixelRatio >= 1900) return large;
+  return desktop;
 }
 
-export default function HeroVideo({ poster, srcDesktop, srcMobile, chapters, pauseLabel, playLabel }: Props) {
+export default function HeroVideo({ poster, posterMobile, srcLarge, srcDesktop, srcMobile, chapters, pauseLabel, playLabel }: Props) {
+  // Sanat yönetimi: telefona dikey, geniş ekrana yatay poster (next/image optimizasyonuyla)
+  const posterBase = { alt: '', fill: true, sizes: '100vw', fetchPriority: 'high' as const };
+  const { props: deskPoster } = getImageProps({ ...posterBase, src: poster });
+  const mobilePosterSet = posterMobile ? getImageProps({ ...posterBase, src: posterMobile }).props.srcSet : undefined;
+
   const videoRef = useRef<HTMLVideoElement>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
   const barRef = useRef<HTMLSpanElement>(null);
   // Kaynak seçimi + otomatik oynatma kararı yalnız istemcide yapılır; sunucuda
   // (ve hidrasyonda) null → yalnız poster. 'none' = otomatik oynatma yok.
-  const autoSrc = useSyncExternalStore(noSubscribe, () => pickSource(srcDesktop, srcMobile), () => null);
+  const autoSrc = useSyncExternalStore(noSubscribe, () => pickSource(srcDesktop, srcMobile, srcLarge), () => null);
   const [manualSrc, setManualSrc] = useState<string | null>(null);
   const src = manualSrc ?? (autoSrc && autoSrc !== 'none' ? autoSrc : null);
   const [playing, setPlaying] = useState(false);
@@ -116,13 +128,16 @@ export default function HeroVideo({ poster, srcDesktop, srcMobile, chapters, pau
           .hv-chapter { display: none; }
         }
       `}</style>
-      <Image className="hv-media" src={poster} alt="" fill sizes="100vw" preload />
+      <picture>
+        {mobilePosterSet && <source media="(max-width: 768px)" srcSet={mobilePosterSet} sizes="100vw" />}
+        {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+        <img {...deskPoster} className="hv-media" />
+      </picture>
       {src && (
         <video
           key={src}
           ref={videoRef}
           className={`hv-media hv-video ${playing ? 'on' : ''}`}
-          poster={poster}
           muted
           loop
           playsInline

@@ -20,7 +20,7 @@ Not: Pexels foto ID 2678218 kaynağından kaldırıldığı için 4. hero slayt�
 Aşama 2 (lansman sonrası): stok görseller özel çekim/izinli marka görselleriyle değiştirilecek.
 
 ## Hero videosu (26 Eyl 2026 — Pexels stok klipleri)
-`public/videos/hero-turkiye-{720p,480p}.{mp4,webm}` ve `public/images/hero-poster-1280x720.jpg`,
+`public/videos/hero-turkiye-{1080p,720p,portrait}.{mp4,webm}` ve `public/images/hero-poster-{1920x1080,portrait}.jpg`,
 aşağıdaki Pexels videolarından `scripts/build-hero-video.sh` ile üretildi
 (Pexels License — ticari kullanım serbest, atıf zorunlu değil; kayıt için):
 - https://www.pexels.com/video/19163327/ — Sultanahmet, havadan (Volkan Yılmaz)
@@ -50,3 +50,9 @@ rehberinin kapağı ve destinasyon kartı olarak da kullanılır.
 - `public/images/dest/trabzon.jpg` — https://www.pexels.com/photo/aerial-view-of-uzungol-turkey-13124612/ (yıldırım  yiğit)
 - `public/images/home/turkish-breakfast.jpg` — https://www.pexels.com/photo/turkish-breakfast-on-table-18543435/ (Oben Kural)
 - `public/images/home/grand-bazaar-lamps.jpg` — https://www.pexels.com/photo/fashionable-decorated-chandelier-and-lamps-15247983/ (selçuk eraslan)
+- `public/images/home/galata-tower.jpg` — https://www.pexels.com/photo/galata-tower-and-istanbul-skyline-with-cloudy-sky-39243844/ (Niyazi GEDİK)
+- `public/images/home/dental-veneers.jpg` — https://www.pexels.com/photo/different-shades-of-veneers-6812494/ (Pavel Danilyuk)
+- `public/images/home/aesthetic-clinic.jpg` — https://www.pexels.com/photo/blue-and-white-clinic-bed-7789603/ (Ivan Babydov)
+
+Not (26 Eyl, fotoğraf boyutları): şehir fotoğrafları orijinalden 2560 px'e yeniden üretildi.
+Medikal kartlarda stok doktor/hasta yüzü kullanılmaz; ürün ve mekân fotoğrafları tercih edilir.
