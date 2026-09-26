@@ -141,14 +141,14 @@ export default function Home() {
       badge: 'Geprüfte Partnerkliniken',
       desc: 'Veneers, Implantate und Hollywood-Smile-Makeover — präzise Ergebnisse.',
       items: ['Hollywood Smile', 'Veneers', 'Zahnimplantate'],
-      image: '/images/pexels-3779709-700x900.jpg',
+      image: '/images/home/dental-veneers.jpg',
     },
     {
       title: 'Ästhetische Chirurgie',
       badge: 'Geprüfte Spezialisten',
       desc: 'Präzise Ergebnisse durch international anerkannte plastische Chirurgen.',
       items: ['Nasenkorrektur', 'Facelift', 'Fettabsaugung', 'Brustvergrößerung'],
-      image: '/images/pexels-3764013-700x900.jpg',
+      image: '/images/home/aesthetic-clinic.jpg',
     },
   ];
 
@@ -714,9 +714,11 @@ export default function Home() {
       {/* HERO */}
       <section className="hero" id="top">
         <HeroVideo
-            poster="/images/hero-poster-1280x720.jpg"
+            poster="/images/hero-poster-1920x1080.jpg"
+            posterMobile="/images/hero-poster-portrait.jpg"
+            srcLarge="/videos/hero-turkiye-1080p"
             srcDesktop="/videos/hero-turkiye-720p"
-            srcMobile="/videos/hero-turkiye-480p"
+            srcMobile="/videos/hero-turkiye-portrait"
             pauseLabel="Video pausieren"
             playLabel="Video abspielen"
             chapters={[
@@ -884,7 +886,7 @@ export default function Home() {
             <div className="health-bento-side">
               <div className="health-photo-card health-bento-wide">
                 <div className="health-photo-wrap">
-                  <Image src={healthCategories[1].image} alt={healthCategories[1].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
+                  <Image src={healthCategories[1].image} alt={healthCategories[1].title} fill sizes="(max-width: 840px) 100vw, 45vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[1].badge}</span>
                   <div className="health-photo-text">
@@ -900,7 +902,7 @@ export default function Home() {
 
               <div className="health-photo-card health-bento-square">
                 <div className="health-photo-wrap">
-                  <Image src={healthCategories[2].image} alt={healthCategories[2].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
+                  <Image src={healthCategories[2].image} alt={healthCategories[2].title} fill sizes="(max-width: 840px) 100vw, 45vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[2].badge}</span>
                   <div className="health-photo-text">

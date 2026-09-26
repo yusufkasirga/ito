@@ -133,14 +133,14 @@ export default function Home() {
       badge: 'Verified Partner Clinics',
       desc: 'Veneers, implants and Hollywood smile makeovers — flawless results.',
       items: ['Hollywood Smile', 'Veneers', 'Dental Implants'],
-      image: '/images/pexels-3779709-700x900.jpg',
+      image: '/images/home/dental-veneers.jpg',
     },
     {
       title: 'Aesthetic Surgery',
       badge: 'Verified Specialists',
       desc: 'Precision results by internationally recognised plastic surgeons.',
       items: ['Rhinoplasty', 'Facelift', 'Liposuction', 'Breast Augmentation'],
-      image: '/images/pexels-3764013-700x900.jpg',
+      image: '/images/home/aesthetic-clinic.jpg',
     },
   ];
 
@@ -662,9 +662,11 @@ export default function Home() {
       {/* HERO */}
       <section className="hero" id="top">
         <HeroVideo
-            poster="/images/hero-poster-1280x720.jpg"
+            poster="/images/hero-poster-1920x1080.jpg"
+            posterMobile="/images/hero-poster-portrait.jpg"
+            srcLarge="/videos/hero-turkiye-1080p"
             srcDesktop="/videos/hero-turkiye-720p"
-            srcMobile="/videos/hero-turkiye-480p"
+            srcMobile="/videos/hero-turkiye-portrait"
             pauseLabel="Pause video"
             playLabel="Play video"
             chapters={[
@@ -700,13 +702,13 @@ export default function Home() {
       {/* İKİ YOL — genişleyen görsel paneller */}
       <section className="split" aria-label="Two ways we help">
         {[
-          { k: '01', eyebrow: 'Culture · travel · gastronomy', title: 'Private Türkiye', text: advisoryPillars[0].short, cta: 'Explore private travel', href: '/services/tourism', img: '/images/dest/cappadocia.jpg', alt: 'Valleys and rock formations of Cappadocia, Türkiye' },
-          { k: '02', eyebrow: 'Care · access · recovery', title: 'Medical Travel', text: advisoryPillars[1].short, cta: 'How we coordinate care', href: '/services/medical-tourism', img: '/images/hero-galata-1000x1250.jpg', alt: 'Galata Tower above the rooftops of Istanbul' },
+          { k: '01', eyebrow: 'Culture · travel · gastronomy', title: 'Private Türkiye', text: advisoryPillars[0].short, cta: 'Explore private travel', href: '/services/tourism', img: '/images/dest/cappadocia.jpg', pos: '50% 50%', alt: 'Valleys and rock formations of Cappadocia, Türkiye' },
+          { k: '02', eyebrow: 'Care · access · recovery', title: 'Medical Travel', text: advisoryPillars[1].short, cta: 'How we coordinate care', href: '/services/medical-tourism', img: '/images/home/galata-tower.jpg', pos: '47% 45%', alt: 'Galata Tower and the Istanbul skyline' },
         ].map((pnl, i) => (
           <Link key={pnl.k} href={pnl.href} className="split-panel">
             <div className="split-media" data-reveal="clip" style={{ '--d': `${i * 140}ms` } as React.CSSProperties}>
               <div className="split-img" data-parallax="0.06">
-                <Image src={pnl.img} alt={pnl.alt} fill sizes="(max-width: 900px) 100vw, 60vw" style={{ objectFit: 'cover' }} />
+                <Image src={pnl.img} alt={pnl.alt} fill sizes="(max-width: 900px) 280vw, 90vw" style={{ objectFit: 'cover', objectPosition: pnl.pos }} />
               </div>
               <span className="split-shade" />
             </div>
@@ -764,7 +766,7 @@ export default function Home() {
                 <article key={t.title} className={`xp-tile xp-${i + 1}`}>
                   <div className="xp-media" data-reveal="clip" style={{ '--d': `${i * 120}ms` } as React.CSSProperties}>
                     <div className="xp-img" data-parallax="0.05">
-                      <Image src={t.image} alt={`${t.title} in Türkiye`} fill sizes={i === 0 ? '(max-width: 900px) 100vw, 45vw' : '(max-width: 900px) 100vw, 30vw'} style={{ objectFit: 'cover' }} />
+                      <Image src={t.image} alt={`${t.title} in Türkiye`} fill sizes={i === 0 ? '(max-width: 900px) 200vw, 80vw' : i === 1 ? '(max-width: 900px) 200vw, 60vw' : '(max-width: 900px) 200vw, 30vw'} style={{ objectFit: 'cover' }} />
                     </div>
                     <span className="xp-shade" />
                   </div>
@@ -869,7 +871,7 @@ export default function Home() {
             <div className="health-bento-side">
               <div className="health-photo-card health-bento-wide">
                 <div className="health-photo-wrap">
-                  <Image src={healthCategories[1].image} alt={healthCategories[1].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
+                  <Image src={healthCategories[1].image} alt={healthCategories[1].title} fill sizes="(max-width: 840px) 100vw, 45vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[1].badge}</span>
                   <div className="health-photo-text">
@@ -885,7 +887,7 @@ export default function Home() {
 
               <div className="health-photo-card health-bento-square">
                 <div className="health-photo-wrap">
-                  <Image src={healthCategories[2].image} alt={healthCategories[2].title} fill sizes="(max-width: 840px) 100vw, 25vw" />
+                  <Image src={healthCategories[2].image} alt={healthCategories[2].title} fill sizes="(max-width: 840px) 100vw, 45vw" />
                   <div className="health-photo-overlay" />
                   <span className="health-badge-photo">✓ {healthCategories[2].badge}</span>
                   <div className="health-photo-text">

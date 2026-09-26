@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { destFocus } from '@/lib/imageFocus';
 
 /**
  * "Discover Türkiye" — yatay kayan destinasyon şeridi (GoTürkiye referansı).
@@ -166,7 +167,7 @@ export default function DestinationRail({
             data-reveal
             style={{ '--d': `${Math.min(i, 4) * 90}ms` } as React.CSSProperties}
           >
-            <Image src={`/images/dest/${d.slug}.jpg`} alt={`${d.name}, Türkiye`} fill sizes="(max-width: 760px) 78vw, 340px" style={{ objectFit: 'cover' }} draggable={false} />
+            <Image src={`/images/dest/${d.slug}.jpg`} alt={`${d.name}, Türkiye`} fill sizes="(max-width: 760px) 160vw, 700px" style={{ objectFit: 'cover', objectPosition: destFocus(d.slug) }} draggable={false} />
             <span className="dr-shade" />
             <span className="dr-num">{String(i + 1).padStart(2, '0')}</span>
             <div className="dr-body">
