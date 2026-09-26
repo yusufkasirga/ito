@@ -21,8 +21,8 @@
 ## A. İşletme profilleri ve haritalar (15)
 | # | Hedef | Öncelik | Kim | Not | Durum |
 |---|---|---|---|---|---|
-| 1 | Google Business Profile | P1 | S+C | En önemli yerel sinyal; kategori: "Travel agency" yerine uygun danışmanlık kategorisi seçilir | ☐ |
-| 2 | Bing Places for Business | P1 | S | Google profilinden içe aktarılabilir; ChatGPT/Copilot Bing'i kullanır | ☐ |
+| 1 | Google Business Profile | P1 | S+C | En önemli yerel sinyal; kategori: "Travel agency" yerine uygun danışmanlık kategorisi seçilir | ☑ 26 Eyl |
+| 2 | Bing Places for Business | P1 | S | Google profilinden içe aktarılabilir; ChatGPT/Copilot Bing'i kullanır | ☑ 26 Eyl |
 | 3 | Apple Business Connect | P1 | S | Apple Haritalar / Siri | ☐ |
 | 4 | Yandex Business (Yandex Haritalar) | P2 | S | Rus pazarı için | ☐ |
 | 5 | Facebook sayfası | P1 | S+C | Web sitesi alanı + "Hakkında" metni | ☐ |
@@ -143,6 +143,9 @@ Aday bulma: Google'da `"Turkey" "write for us" travel`, `"Istanbul" "guest post"
 | 100 | Mutlu müşterinin kendi blog/sosyal paylaşımı (izinli hikâye) | P2 | S | ☐ |
 
 ---
+
+## İlerleme
+- **26 Eyl 2026:** 2/100 — Google İşletme Profili, Bing Places. Kalan P1'ler (Apple, Facebook, Instagram, LinkedIn, Pinterest, WhatsApp, Cylex, Bulurum, Medium, Quora/Reddit, Qwoted/Featured) sahip tarafından 1–2 hafta içinde.
 
 ## Takvim
 | Ay | Hedef (kümülatif) | Odak |
