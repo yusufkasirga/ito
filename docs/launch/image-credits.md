@@ -53,6 +53,7 @@ rehberinin kapağı ve destinasyon kartı olarak da kullanılır.
 - `public/images/home/galata-tower.jpg` — https://www.pexels.com/photo/galata-tower-and-istanbul-skyline-with-cloudy-sky-39243844/ (Niyazi GEDİK)
 - `public/images/home/dental-veneers.jpg` — https://www.pexels.com/photo/different-shades-of-veneers-6812494/ (Pavel Danilyuk)
 - `public/images/home/aesthetic-clinic.jpg` — https://www.pexels.com/photo/blue-and-white-clinic-bed-7789603/ (Ivan Babydov)
+- `public/images/home/hair-restoration.jpg` — https://www.pexels.com/photo/back-view-of-a-man-in-black-shirt-5337944/ (alexandre saraiva carniato)
 
 Not (26 Eyl, fotoğraf boyutları): şehir fotoğrafları orijinalden 2560 px'e yeniden üretildi.
 Medikal kartlarda stok doktor/hasta yüzü kullanılmaz; ürün ve mekân fotoğrafları tercih edilir.
