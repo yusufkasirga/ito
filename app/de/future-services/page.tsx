@@ -40,45 +40,45 @@ const breadcrumbJsonLd = {
 
 export default function FutureServicesPage() {
   return (
-    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh' }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
-          --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
-          --gold: #c9a96a; --ivory: #fffaf1;
-          --muted: #647889; --line: rgba(8,31,53,.14);
-          --shadow-md: 0 8px 24px rgba(7,23,38,.12);
+          --ink: var(--ito-navy); --navy: var(--ito-navy); --navy-2: var(--ito-navy-lift);
+          --gold: var(--ito-gold); --ivory: var(--ito-ivory);
+          --muted: var(--ito-muted); --line: rgba(16,36,58,.14);
+          --shadow-md: 0 8px 24px rgba(16,36,58,.12);
         }
-        .nav { position: sticky; top: 0; z-index: 50; background: rgba(255,250,241,.95); border-bottom: 1px solid var(--line); backdrop-filter: blur(20px); }
+        .nav { position: sticky; top: 0; z-index: 50; background: rgba(250,247,240,.95); border-bottom: 1px solid var(--line); backdrop-filter: blur(20px); }
         .nav-inner { max-width: 1240px; margin: 0 auto; height: 92px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; }
         .brand { text-decoration: none; display: flex; align-items: center; }
-        .brand img { height: 84px; width: 84px; object-fit: contain; background: #fffdf7; border-radius: 50%; padding: 6px; box-shadow: 0 2px 12px rgba(0,0,0,.22); }
+        .brand img { height: 84px; width: 84px; object-fit: contain; background: var(--ito-ivory); border-radius: 50%; padding: 6px; box-shadow: 0 2px 12px rgba(16,36,58,.22); }
         .nav-links { display: flex; align-items: center; gap: 28px; }
         .nav-links a { color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 600; transition: color 0.2s; }
-        .nav-links a:hover { color: var(--gold); }
+        .nav-links a:hover { color: var(--ito-navy); }
 
         .page { max-width: 760px; margin: 0 auto; padding: 72px 32px 96px; }
-        .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
+        .eyebrow { display: inline-flex; align-items: center; color: var(--ito-navy); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
         h1 { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5vw, 54px); color: var(--navy); line-height: 1.05; margin-bottom: 18px; }
         .lede { color: var(--muted); font-size: 16px; line-height: 1.8; margin-bottom: 56px; }
-        .lede a { color: var(--gold); font-weight: 700; text-decoration: none; }
+        .lede a { color: var(--ito-navy); font-weight: 700; text-decoration: none; }
         .lede a:hover { text-decoration: underline; }
 
         .svc { padding: 32px 0; border-top: 1px solid var(--line); }
         .svc h2 { font-family: var(--font-playfair), serif; font-size: 26px; color: var(--navy); margin-bottom: 14px; }
-        .svc p { color: #3a4654; font-size: 15.5px; line-height: 1.85; margin-bottom: 14px; }
+        .svc p { color: var(--ito-navy); font-size: 15.5px; line-height: 1.85; margin-bottom: 14px; }
         .svc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-        .svc-tag { padding: 5px 13px; background: rgba(201,169,106,.08); color: var(--gold); border: 1px solid rgba(201,169,106,.22); border-radius: 999px; font-size: 11.5px; font-weight: 700; }
+        .svc-tag { padding: 5px 13px; background: rgba(240,202,145,.08); color: var(--ito-navy); border: 1px solid rgba(240,202,145,.22); border-radius: 999px; font-size: 11.5px; font-weight: 700; }
 
-        .cta { margin-top: 56px; padding: 32px; border: 1px solid var(--line); border-radius: 20px; background: #fff; }
+        .cta { margin-top: 56px; padding: 32px; border: 1px solid var(--line); border-radius: 20px; background: var(--ito-ivory); }
         .cta h3 { font-family: var(--font-playfair), serif; font-size: 20px; color: var(--navy); margin-bottom: 10px; }
         .cta p { color: var(--muted); font-size: 14px; line-height: 1.7; margin-bottom: 18px; }
-        .btn-primary { min-height: 46px; padding: 0 24px; border-radius: 999px; background: linear-gradient(135deg, #0f6ea8, var(--navy-2)); color: #fff; font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; box-shadow: var(--shadow-md); }
+        .btn-primary { min-height: 46px; padding: 0 24px; border-radius: 999px; background: linear-gradient(135deg, var(--ito-navy), var(--navy-2)); color: var(--ito-ivory); font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; box-shadow: var(--shadow-md); }
 
-        .footer { background: var(--ink); color: rgba(255,250,241,.6); padding: 40px 0; text-align: center; font-size: 13px; }
-        .footer a { color: rgba(255,250,241,.6); }
+        .footer { background: var(--ink); color: rgba(250,247,240,.6); padding: 40px 0; text-align: center; font-size: 13px; }
+        .footer a { color: rgba(250,247,240,.6); }
 
         @media (prefers-reduced-motion: reduce) {
           *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }

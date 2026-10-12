@@ -74,20 +74,20 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
         .ito-hdr.is-overlay.is-solid { position: fixed; }
 
         .ito-hdr .h-full { transition: background .35s ease, backdrop-filter .35s ease; border-bottom: 0; }
-        .ito-hdr.is-solid .h-full { position: relative; background: rgba(7,23,38,.82); backdrop-filter: blur(14px); border-bottom: 0; box-shadow: none; }
+        .ito-hdr.is-solid .h-full { position: relative; background: rgba(16,36,58,.82); backdrop-filter: blur(14px); border-bottom: 0; box-shadow: none; }
         /* Alt kenarda keskin çizgi oluşmasın: header aşağı doğru yumuşakça erisin. */
-        .ito-hdr.is-solid .h-full::after { content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 26px; pointer-events: none; background: linear-gradient(180deg, rgba(7,23,38,.55) 0%, rgba(7,23,38,0) 100%); }
+        .ito-hdr.is-solid .h-full::after { content: ''; position: absolute; left: 0; right: 0; top: 100%; height: 26px; pointer-events: none; background: linear-gradient(180deg, rgba(16,36,58,.55) 0%, rgba(16,36,58,0) 100%); }
         /* overlay + tepede: şeffaf, sadece okunabilirlik için ince üst scrim */
-        .ito-hdr.is-overlay:not(.is-solid) .h-full { background: linear-gradient(180deg, rgba(7,23,38,.45) 0%, rgba(7,23,38,0) 100%); }
+        .ito-hdr.is-overlay:not(.is-solid) .h-full { background: linear-gradient(180deg, rgba(16,36,58,.45) 0%, rgba(16,36,58,0) 100%); }
 
         .ito-hdr .h-bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; max-width: 1200px; margin: 0 auto; padding: 12px 32px; }
         /* Logo kilidi: rozet + serif wordmark (site tipografik diliyle kimliğe bağlanır) */
         .ito-hdr .h-brand { text-decoration: none; display: inline-flex; align-items: center; gap: 13px; transition: transform .25s ease; }
         .ito-hdr .h-brand:hover { transform: translateY(-1px); }
-        .ito-hdr .h-brand img { height: 76px; width: 76px; object-fit: contain; display: block; background: #fffdf7; border-radius: 50%; padding: 5px; box-shadow: 0 2px 12px rgba(0,0,0,.28); }
+        .ito-hdr .h-brand img { height: 76px; width: 76px; object-fit: contain; display: block; background: var(--ito-ivory); border-radius: 50%; padding: 5px; box-shadow: 0 2px 12px rgba(16,36,58,.28); }
         .ito-hdr .h-wm { line-height: 1; white-space: nowrap; display: flex; flex-direction: column; }
-        .ito-hdr .h-wm .l1 { font-family: var(--font-playfair), Georgia, serif; font-weight: 700; font-size: 32px; letter-spacing: .01em; color: #fffaf1; text-shadow: 0 1px 8px rgba(0,0,0,.3); }
-        .ito-hdr .h-wm .l2 { font-family: var(--font-playfair), Georgia, serif; font-style: italic; font-weight: 600; font-size: 23px; color: #d8b878; margin-top: 4px; }
+        .ito-hdr .h-wm .l1 { font-family: var(--font-playfair), Georgia, serif; font-weight: 700; font-size: 32px; letter-spacing: .01em; color: var(--ito-ivory); text-shadow: 0 1px 8px rgba(16,36,58,.3); }
+        .ito-hdr .h-wm .l2 { font-family: var(--font-playfair), Georgia, serif; font-style: italic; font-weight: 600; font-size: 23px; color: var(--ito-gold); margin-top: 4px; }
         @media (max-width: 1060px) {
           .ito-hdr .h-brand img { height: 60px; width: 60px; padding: 4px; }
           .ito-hdr .h-wm .l1 { font-size: 25px; }
@@ -95,16 +95,16 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
         }
         @media (max-width: 400px) { .ito-hdr .h-wm { display: none; } }
         .ito-hdr .h-nav { display: flex; align-items: center; gap: 23px; }
-        .ito-hdr .h-nav a { color: rgba(255,250,241,.92); text-decoration: none; font-size: 14px; font-weight: 700; transition: color .2s; white-space: nowrap; text-shadow: 0 1px 8px rgba(0,0,0,.25); }
-        .ito-hdr .h-nav a:hover { color: #d8b878; }
-        .ito-hdr a:focus-visible, .ito-hdr button:focus-visible { outline: 2px solid #d8b878; outline-offset: 6px; }
-        .ito-hdr .h-nav .h-contact { padding: 12px 20px; border: 1px solid rgba(216,184,120,.65); border-radius: 999px; color: #ead3a4; text-shadow: none; }
-        .ito-hdr .h-nav .h-contact:hover { background: #d8b878; color: #071726; }
-        .ito-hdr .h-toggle { display: none; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.28); color: #fff; width: 42px; height: 42px; border-radius: 50%; cursor: pointer; align-items: center; justify-content: center; }
-        .ito-hdr .h-mobile { position: fixed; inset: 0; z-index: 120; background: rgba(7,23,38,.98); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; overflow-y: auto; padding: 80px 24px 40px; }
-        .ito-hdr .h-mobile a { color: #fffaf1; font-size: 19px; font-weight: 700; text-decoration: none; cursor: pointer; }
+        .ito-hdr .h-nav a { color: rgba(250,247,240,.92); text-decoration: none; font-size: 14px; font-weight: 700; transition: color .2s; white-space: nowrap; text-shadow: 0 1px 8px rgba(16,36,58,.25); }
+        .ito-hdr .h-nav a:hover { color: var(--ito-gold); }
+        .ito-hdr a:focus-visible, .ito-hdr button:focus-visible { outline: 2px solid var(--ito-turquoise); outline-offset: 6px; }
+        .ito-hdr .h-nav .h-contact { padding: 12px 20px; border: 1px solid rgba(240,202,145,.65); border-radius: 999px; color: var(--ito-gold); text-shadow: none; }
+        .ito-hdr .h-nav .h-contact:hover { background: var(--ito-gold); color: var(--ito-navy); }
+        .ito-hdr .h-toggle { display: none; background: rgba(250,247,240,.12); border: 1px solid rgba(250,247,240,.28); color: var(--ito-ivory); width: 42px; height: 42px; border-radius: 50%; cursor: pointer; align-items: center; justify-content: center; }
+        .ito-hdr .h-mobile { position: fixed; inset: 0; z-index: 120; background: rgba(16,36,58,.98); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; overflow-y: auto; padding: 80px 24px 40px; }
+        .ito-hdr .h-mobile a { color: var(--ito-ivory); font-size: 19px; font-weight: 700; text-decoration: none; cursor: pointer; }
         .ito-hdr .h-mobile .h-service { font-family: var(--font-playfair), Georgia, serif; font-size: 30px; font-weight: 500; }
-        .ito-hdr .h-mobile-close { position: absolute; top: 22px; right: 24px; background: none; border: none; color: #fffaf1; cursor: pointer; }
+        .ito-hdr .h-mobile-close { position: absolute; top: 22px; right: 24px; background: none; border: none; color: var(--ito-ivory); cursor: pointer; }
         @media (max-width: 1060px) {
           .ito-hdr .h-nav { display: none; }
           .ito-hdr .h-toggle { display: inline-flex; }
@@ -142,7 +142,7 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
           <Link href="/how-we-work" onClick={close}>How We Work</Link>
           <Link href="/standard" onClick={close}>Our Standard</Link>
           <Link href="/contact" onClick={close}>Plan your visit</Link>
-          {whatsAppUrl().startsWith('https://wa.me/') && <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{ color: '#d8b878', fontSize: 15 }} onClick={close}>WhatsApp</a>}
+          {whatsAppUrl().startsWith('https://wa.me/') && <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ito-gold)', fontSize: 15 }} onClick={close}>WhatsApp</a>}
         </nav>
       )}
     </div>

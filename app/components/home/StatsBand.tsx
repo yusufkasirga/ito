@@ -70,14 +70,14 @@ export default function StatsBand({ stats, note }: { stats: Stat[]; note: string
   return (
     <section className="sb" ref={ref} aria-label={note}>
       <style>{`
-        .sb { background: #fffaf1; padding: 70px 0 64px; border-bottom: 1px solid rgba(8,31,53,.08); }
+        .sb { background: var(--ito-ivory); padding: 70px 0 64px; border-bottom: 1px solid rgba(16,36,58,.08); }
         .sb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
-        .sb-item { padding: 8px 28px; border-left: 1px solid rgba(8,31,53,.12); }
+        .sb-item { padding: 8px 28px; border-left: 1px solid rgba(16,36,58,.12); }
         .sb-item:first-child { border-left: none; padding-left: 0; }
-        .sb-num { font-family: var(--font-playfair), serif; font-weight: 800; font-size: clamp(52px, 6.4vw, 92px); line-height: 1; color: #081f35; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
-        .sb-num em { font-style: italic; color: #c9a96a; margin-left: 2px; }
-        .sb-label { margin-top: 12px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #647889; max-width: 200px; line-height: 1.5; }
-        .sb-note { margin: 34px 0 0; font-size: 13.5px; color: #8a6d33; font-weight: 600; }
+        .sb-num { font-family: var(--font-playfair), serif; font-weight: 800; font-size: clamp(52px, 6.4vw, 92px); line-height: 1; color: var(--ito-navy); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+        .sb-num em { font-style: italic; color: var(--ito-navy); margin-left: 2px; }
+        .sb-label { margin-top: 12px; font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ito-muted); max-width: 200px; line-height: 1.5; }
+        .sb-note { margin: 34px 0 0; font-size: 13.5px; color: var(--ito-navy); font-weight: 600; }
         .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
         @media (max-width: 820px) {
           .sb-grid { grid-template-columns: 1fr 1fr; row-gap: 36px; }

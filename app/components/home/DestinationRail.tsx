@@ -90,15 +90,15 @@ export default function DestinationRail({
   return (
     <section className="dr" id="destinations" aria-labelledby="dr-title">
       <style>{`
-        .dr { padding: 110px 0 90px; background: #071726; color: #fffaf1; overflow: hidden; }
+        .dr { padding: 110px 0 90px; background: var(--ito-navy); color: var(--ito-ivory); overflow: hidden; }
         .dr-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; margin-bottom: 44px; }
         .dr .eyebrow { color: var(--gold); }
-        .dr h2 { font-family: var(--font-playfair), serif; font-size: clamp(40px, 6vw, 84px); line-height: .98; letter-spacing: -.02em; margin: 14px 0 18px; color: #fffaf1; font-weight: 800; }
+        .dr h2 { font-family: var(--font-playfair), serif; font-size: clamp(40px, 6vw, 84px); line-height: .98; letter-spacing: -.02em; margin: 14px 0 18px; color: var(--ito-ivory); font-weight: 800; }
         .dr h2 em { color: var(--gold); font-style: italic; }
-        .dr-copy { color: rgba(255,250,241,.72); font-size: 16.5px; line-height: 1.75; max-width: 520px; margin: 0; }
+        .dr-copy { color: rgba(250,247,240,.72); font-size: 16.5px; line-height: 1.75; max-width: 520px; margin: 0; }
         .dr-nav { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-        .dr-btn { width: 52px; height: 52px; border-radius: 50%; border: 1px solid rgba(255,250,241,.3); background: transparent; color: #fffaf1; font-size: 20px; cursor: pointer; transition: background .3s, border-color .3s, transform .3s; }
-        .dr-btn:hover { background: rgba(255,250,241,.1); border-color: var(--gold); transform: translateY(-2px); }
+        .dr-btn { width: 52px; height: 52px; border-radius: 50%; border: 1px solid rgba(250,247,240,.3); background: transparent; color: var(--ito-ivory); font-size: 20px; cursor: pointer; transition: background .3s, border-color .3s, transform .3s; }
+        .dr-btn:hover { background: rgba(250,247,240,.1); border-color: var(--gold); transform: translateY(-2px); }
         .dr-all { margin-left: 10px; color: var(--gold); font-weight: 700; font-size: 14px; text-decoration: none; white-space: nowrap; }
         .dr-all:hover { text-decoration: underline; text-underline-offset: 4px; }
         .dr-track { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: max(24px, calc((100vw - 1240px) / 2));
@@ -106,20 +106,20 @@ export default function DestinationRail({
         .dr-track::-webkit-scrollbar { display: none; }
         .dr-track.is-dragging { cursor: grabbing; scroll-snap-type: none; }
         .dr-track.is-dragging a { pointer-events: none; }
-        .dr-card { position: relative; flex: 0 0 clamp(250px, 25vw, 340px); aspect-ratio: 3 / 4; border-radius: 22px; overflow: hidden; scroll-snap-align: start; color: #fffaf1; text-decoration: none; isolation: isolate; box-shadow: 0 24px 60px rgba(0,0,0,.35); }
+        .dr-card { position: relative; flex: 0 0 clamp(250px, 25vw, 340px); aspect-ratio: 3 / 4; border-radius: 22px; overflow: hidden; scroll-snap-align: start; color: var(--ito-ivory); text-decoration: none; isolation: isolate; box-shadow: 0 24px 60px rgba(16,36,58,.35); }
         .dr-card img { transition: transform 1.2s var(--fx-ease, ease); }
         .dr-card:hover img { transform: scale(1.08); }
-        .dr-shade { position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(7,23,38,.05) 30%, rgba(7,23,38,.35) 55%, rgba(7,23,38,.92) 100%); transition: background .6s; }
-        .dr-card:hover .dr-shade { background: linear-gradient(180deg, rgba(7,23,38,.15) 10%, rgba(7,23,38,.5) 45%, rgba(7,23,38,.95) 100%); }
-        .dr-num { position: absolute; top: 18px; left: 20px; z-index: 2; font-size: 12px; font-weight: 800; letter-spacing: .18em; color: rgba(255,250,241,.85); }
+        .dr-shade { position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, rgba(16,36,58,.05) 30%, rgba(16,36,58,.35) 55%, rgba(16,36,58,.92) 100%); transition: background .6s; }
+        .dr-card:hover .dr-shade { background: linear-gradient(180deg, rgba(16,36,58,.15) 10%, rgba(16,36,58,.5) 45%, rgba(16,36,58,.95) 100%); }
+        .dr-num { position: absolute; top: 18px; left: 20px; z-index: 2; font-size: 12px; font-weight: 800; letter-spacing: .18em; color: rgba(250,247,240,.85); }
         .dr-body { position: absolute; left: 0; right: 0; bottom: 0; z-index: 2; padding: 24px 22px 24px; }
         .dr-region { display: block; font-size: 11px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
-        .dr-body h3 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 2.6vw, 36px); line-height: 1; margin: 0 0 10px; color: #fffaf1; }
-        .dr-body p { margin: 0; font-size: 14.5px; line-height: 1.55; color: rgba(255,250,241,.82); }
-        .dr-go { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 700; color: #fffaf1; opacity: 0; transform: translateY(8px); transition: opacity .45s, transform .45s; }
+        .dr-body h3 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 2.6vw, 36px); line-height: 1; margin: 0 0 10px; color: var(--ito-ivory); }
+        .dr-body p { margin: 0; font-size: 14.5px; line-height: 1.55; color: rgba(250,247,240,.82); }
+        .dr-go { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 700; color: var(--ito-ivory); opacity: 0; transform: translateY(8px); transition: opacity .45s, transform .45s; }
         .dr-card:hover .dr-go, .dr-card:focus-visible .dr-go { opacity: 1; transform: none; }
-        .dr-more { position: relative; flex: 0 0 clamp(250px, 25vw, 340px); aspect-ratio: 3 / 4; border-radius: 22px; scroll-snap-align: start; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; text-decoration: none; color: #fffaf1;
-          background: radial-gradient(120% 120% at 20% 10%, #1f4e6b 0%, #0c3555 45%, #071726 100%); border: 1px solid rgba(216,184,120,.35); }
+        .dr-more { position: relative; flex: 0 0 clamp(250px, 25vw, 340px); aspect-ratio: 3 / 4; border-radius: 22px; scroll-snap-align: start; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; text-decoration: none; color: var(--ito-ivory);
+          background: radial-gradient(120% 120% at 20% 10%, var(--ito-navy-lift) 0%, var(--ito-navy-lift) 45%, var(--ito-navy) 100%); border: 1px solid rgba(240,202,145,.35); }
         .dr-more b { font-family: var(--font-playfair), serif; font-size: 64px; line-height: 1; color: var(--gold); }
         .dr-more span { font-family: var(--font-playfair), serif; font-size: 28px; line-height: 1.1; margin: 8px 0 14px; }
         .dr-more i { font-style: normal; font-weight: 700; font-size: 14px; color: var(--gold); }

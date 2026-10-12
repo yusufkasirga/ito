@@ -9,16 +9,16 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh', color: 'var(--ito-navy)' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
-  meta: { fontSize: '13px', color: '#647889', marginBottom: '14px' },
-  note: { fontSize: '12.5px', color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
-  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: 'var(--ito-navy)', marginBottom: '10px' },
+  meta: { fontSize: '13px', color: 'var(--ito-muted)', marginBottom: '14px' },
+  note: { fontSize: '12.5px', color: 'var(--ito-muted)', background: 'rgba(240,202,145,.1)', border: '1px solid rgba(240,202,145,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: 'var(--ito-navy)', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   dl: { fontSize: '15.5px', lineHeight: 1.9, marginBottom: '16px' },
-  back: { display: 'inline-block', color: '#8a6d33', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
-  a: { color: '#8a6d33', fontWeight: 600 },
+  back: { display: 'inline-block', color: 'var(--ito-navy)', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
+  a: { color: 'var(--ito-navy)', fontWeight: 600 },
 };
 
 export default function ImpressumPage() {
@@ -101,7 +101,7 @@ export default function ImpressumPage() {
           Verbraucherschlichtungsstelle teilzunehmen.
         </p>
 
-        <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
+        <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: 'var(--ito-muted)' }}>
           Weitere Angaben: <Link href="/de/privacy" style={S.a}>Datenschutzerklärung</Link> ·{' '}
           <Link href="/de/terms" style={S.a}>AGB / Nutzungsbedingungen</Link> ·{' '}
           <Link href="/legal-notice" style={S.a}>English version</Link>

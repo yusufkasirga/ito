@@ -15,24 +15,24 @@ export default function LinksPage() {
     { emoji: '✦', title: 'So funktioniert es', sub: 'Drei Schritte, null Stress', href: `/de${UTM}#contact` },
   ];
   return (
-    <main style={{ minHeight: '100vh', background: 'linear-gradient(160deg, #071726, #0c3555)', fontFamily: "var(--font-inter), system-ui, sans-serif", padding: '48px 20px 60px' }}>
+    <main style={{ minHeight: '100vh', background: 'linear-gradient(160deg, var(--ito-navy), var(--ito-navy-lift))', fontFamily: "var(--font-inter), system-ui, sans-serif", padding: '48px 20px 60px' }}>
       <style>{`
         .lk-wrap { max-width: 480px; margin: 0 auto; text-align: center; }
         .lk-logo { height: 88px; width: auto; }
-        .lk-name { font-family: var(--font-playfair), serif; color: #fff; font-size: 26px; margin: 14px 0 6px; }
-        .lk-tag { color: rgba(255,250,241,.65); font-size: 13.5px; line-height: 1.6; margin-bottom: 30px; }
-        .lk-tag b { color: #c9a96a; font-weight: 700; }
-        .lk-btn { box-sizing: border-box; display: flex; align-items: center; gap: 14px; text-align: left; width: 100%; padding: 16px 20px; margin-bottom: 14px; border-radius: 18px; text-decoration: none; border: 1px solid rgba(255,250,241,.16); background: rgba(255,255,255,.05); transition: transform .25s ease, border-color .25s ease, background .25s ease; }
-        .lk-btn:hover { transform: translateY(-2px); border-color: rgba(201,169,106,.6); background: rgba(255,255,255,.09); }
-        .lk-btn.primary { background: linear-gradient(135deg, #c9a96a, #b8955a); border: none; }
-        .lk-btn.primary .lk-t { color: #071726; }
-        .lk-btn.primary .lk-s { color: rgba(7,23,38,.75); }
+        .lk-name { font-family: var(--font-playfair), serif; color: var(--ito-ivory); font-size: 26px; margin: 14px 0 6px; }
+        .lk-tag { color: rgba(250,247,240,.65); font-size: 13.5px; line-height: 1.6; margin-bottom: 30px; }
+        .lk-tag b { color: var(--ito-gold); font-weight: 700; }
+        .lk-btn { box-sizing: border-box; display: flex; align-items: center; gap: 14px; text-align: left; width: 100%; padding: 16px 20px; margin-bottom: 14px; border-radius: 18px; text-decoration: none; border: 1px solid rgba(250,247,240,.16); background: rgba(250,247,240,.05); transition: transform .25s ease, border-color .25s ease, background .25s ease; }
+        .lk-btn:hover { transform: translateY(-2px); border-color: rgba(240,202,145,.6); background: rgba(250,247,240,.09); }
+        .lk-btn.primary { background: linear-gradient(135deg, var(--ito-gold), var(--ito-gold)); border: none; }
+        .lk-btn.primary .lk-t { color: var(--ito-navy); }
+        .lk-btn.primary .lk-s { color: rgba(16,36,58,.75); }
         .lk-e { font-size: 24px; }
-        .lk-t { color: #fff; font-weight: 800; font-size: 15px; }
-        .lk-s { color: rgba(255,250,241,.6); font-size: 12.5px; margin-top: 2px; }
-        .lk-foot { color: rgba(255,250,241,.4); font-size: 12px; margin-top: 26px; }
-        .lk-foot a { color: rgba(255,250,241,.6); text-decoration: none; }
-        a:focus-visible { outline: 3px solid #8ed8dc; outline-offset: 2px; border-radius: 8px; }
+        .lk-t { color: var(--ito-ivory); font-weight: 800; font-size: 15px; }
+        .lk-s { color: rgba(250,247,240,.6); font-size: 12.5px; margin-top: 2px; }
+        .lk-foot { color: rgba(250,247,240,.4); font-size: 12px; margin-top: 26px; }
+        .lk-foot a { color: rgba(250,247,240,.6); text-decoration: none; }
+        a:focus-visible { outline: 3px solid var(--ito-turquoise); outline-offset: 2px; border-radius: 8px; }
       `}</style>
       <div className="lk-wrap">
         <Image className="lk-logo" src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} />

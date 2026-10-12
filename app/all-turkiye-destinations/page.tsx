@@ -51,32 +51,32 @@ export default function DestinationsPage() {
   return (
     <main className="dl">
       <style>{`
-        .dl { font-family: var(--font-inter), system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
+        .dl { font-family: var(--font-inter), system-ui, sans-serif; background: var(--ito-navy); min-height: 100vh; color: var(--ito-ivory); }
         .dl * { box-sizing: border-box; }
         .dl-wrap { max-width: 1200px; margin: 0 auto; padding: 56px 40px 90px; }
-        .dl-eyebrow { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+        .dl-eyebrow { color: var(--ito-gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
         .dl-h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px, 7vw, 68px); margin: 12px 0 14px; line-height: 1; letter-spacing: -.02em; }
-        .dl-lede { font-size: 16.5px; line-height: 1.8; color: rgba(255,250,241,.8); max-width: 700px; margin-bottom: 44px; }
+        .dl-lede { font-size: 16.5px; line-height: 1.8; color: rgba(250,247,240,.8); max-width: 700px; margin-bottom: 44px; }
         .dl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
-        .dl-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; aspect-ratio: 4 / 5; border-radius: 16px; overflow: hidden; text-decoration: none; color: #fffaf1;
-          border: 1px solid rgba(255,250,241,.09); transition: transform .3s cubic-bezier(.2,.7,.3,1), border-color .3s; }
+        .dl-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; aspect-ratio: 4 / 5; border-radius: 16px; overflow: hidden; text-decoration: none; color: var(--ito-ivory);
+          border: 1px solid rgba(250,247,240,.09); transition: transform .3s cubic-bezier(.2,.7,.3,1), border-color .3s; }
         .dl-card::before { content: ''; position: absolute; inset: 0; z-index: 0; }
         .dl-card::after { content: ''; position: absolute; inset: 0; z-index: 1;
-          background-image: radial-gradient(rgba(255,250,241,.05) 1px, transparent 1px); background-size: 18px 18px; opacity: .55; }
-        .dl-card:hover { transform: translateY(-5px); border-color: rgba(216,184,120,.5); }
+          background-image: radial-gradient(rgba(250,247,240,.05) 1px, transparent 1px); background-size: 18px 18px; opacity: .55; }
+        .dl-card:hover { transform: translateY(-5px); border-color: rgba(240,202,145,.5); }
         .dl-card-body { position: relative; z-index: 2; padding: 20px; }
         .dl-city { font-family: var(--font-playfair), serif; font-size: 26px; font-weight: 800; line-height: 1.05; letter-spacing: -.01em; }
-        .dl-note { font-size: 12px; color: rgba(255,250,241,.72); margin-top: 5px; }
-        .dl-tag { position: absolute; top: 14px; left: 16px; z-index: 2; font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #d8b878; }
-        .dl-arrow { position: absolute; top: 14px; right: 16px; z-index: 2; color: rgba(255,250,241,.6); transition: transform .3s, color .3s; }
-        .dl-card:hover .dl-arrow { transform: translate(3px,-3px); color: #d8b878; }
-        .dl-ghost { position: absolute; right: -8%; bottom: -18%; z-index: 0; font-family: var(--font-playfair), serif; font-weight: 900; font-size: 150px; color: rgba(255,250,241,.045); line-height: .8; pointer-events: none; }
-        .dl-cta { margin-top: 50px; padding: 44px 36px; border-radius: 22px; background: linear-gradient(150deg, rgba(216,184,120,.14), rgba(142,216,220,.05)); border: 1px solid rgba(216,184,120,.22); text-align: center; }
+        .dl-note { font-size: 12px; color: rgba(250,247,240,.72); margin-top: 5px; }
+        .dl-tag { position: absolute; top: 14px; left: 16px; z-index: 2; font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ito-gold); }
+        .dl-arrow { position: absolute; top: 14px; right: 16px; z-index: 2; color: rgba(250,247,240,.6); transition: transform .3s, color .3s; }
+        .dl-card:hover .dl-arrow { transform: translate(3px,-3px); color: var(--ito-gold); }
+        .dl-ghost { position: absolute; right: -8%; bottom: -18%; z-index: 0; font-family: var(--font-playfair), serif; font-weight: 900; font-size: 150px; color: rgba(250,247,240,.045); line-height: .8; pointer-events: none; }
+        .dl-cta { margin-top: 50px; padding: 44px 36px; border-radius: 22px; background: linear-gradient(150deg, rgba(240,202,145,.14), rgba(143,227,212,.05)); border: 1px solid rgba(240,202,145,.22); text-align: center; }
         .dl-cta h2 { font-family: var(--font-playfair), serif; font-size: 30px; margin: 10px 0 12px; }
-        .dl-cta p { font-size: 15.5px; line-height: 1.8; color: rgba(255,250,241,.8); max-width: 580px; margin: 0 auto 22px; }
-        .dl-btn { display: inline-block; padding: 14px 32px; border-radius: 999px; background: #c9a96a; color: #081f35; font-weight: 800; font-size: 14px; text-decoration: none; }
-        .dl-cta small { display: block; margin-top: 16px; font-size: 13px; color: rgba(255,250,241,.6); }
-        .dl-cta a.link { color: #d8b878; font-weight: 700; }
+        .dl-cta p { font-size: 15.5px; line-height: 1.8; color: rgba(250,247,240,.8); max-width: 580px; margin: 0 auto 22px; }
+        .dl-btn { display: inline-block; padding: 14px 32px; border-radius: 999px; background: var(--ito-gold); color: var(--ito-navy); font-weight: 800; font-size: 14px; text-decoration: none; }
+        .dl-cta small { display: block; margin-top: 16px; font-size: 13px; color: rgba(250,247,240,.6); }
+        .dl-cta a.link { color: var(--ito-gold); font-weight: 700; }
         @media (max-width: 620px) { .dl-wrap { padding: 40px 20px 70px; } .dl-grid { grid-template-columns: repeat(2, 1fr); } }
       `}</style>
 
@@ -84,7 +84,7 @@ export default function DestinationsPage() {
 
       <div className="dl-wrap">
         <span className="dl-eyebrow">All Türkiye Destinations</span>
-        <h1 className="dl-h1">Sixty reasons to come — <span style={{ color: '#d8b878' }}>one</span> way to see them.</h1>
+        <h1 className="dl-h1">Sixty reasons to come — <span style={{ color: 'var(--ito-gold)' }}>one</span> way to see them.</h1>
         <p className="dl-lede">
           Türkiye is far larger than the postcard. These are the places travellers ask us about most —
           from the obvious icons to the quiet coves. Wherever you want to go, we plan it privately,
@@ -107,7 +107,7 @@ export default function DestinationsPage() {
               >
                 <CityImage slug={own} accent={accent} alt={c.name} fallback={ALIASES[own] ? `/images/dest/${slug}.jpg` : getDestination(slug)?.cover || undefined} sizes="(max-width: 620px) 85vw, 400px" />
                 <span className="dl-ghost">{c.name.slice(0, 2)}</span>
-                <span style={{ position: 'absolute', inset: 0, zIndex: 1, background: 'linear-gradient(180deg, rgba(7,23,38,.15) 0%, rgba(7,23,38,.35) 50%, rgba(7,23,38,.9) 100%)' }} />
+                <span style={{ position: 'absolute', inset: 0, zIndex: 1, background: 'linear-gradient(180deg, rgba(16,36,58,.15) 0%, rgba(16,36,58,.35) 50%, rgba(16,36,58,.9) 100%)' }} />
                 {hasPage && <span className="dl-tag">Guide</span>}
                 <span className="dl-arrow" aria-hidden="true">↗</span>
                 <div className="dl-card-body">

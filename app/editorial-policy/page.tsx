@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 
 export default function EditorialPolicyPage() {
   return (
-    <main style={{ minHeight: '100vh', background: '#fffaf1', color: '#243442', fontFamily: "var(--font-inter), system-ui, sans-serif" }}>
+    <main style={{ minHeight: '100vh', background: 'var(--ito-ivory)', color: 'var(--ito-navy)', fontFamily: "var(--font-inter), system-ui, sans-serif" }}>
       <SiteHeader />
       <article style={{ maxWidth: 780, margin: '0 auto', padding: '64px 24px 96px', lineHeight: 1.8 }}>
-        <p style={{ color: '#8a6d33', fontSize: 12, fontWeight: 900, letterSpacing: '.15em', textTransform: 'uppercase' }}>Trust & transparency</p>
-        <h1 style={{ color: '#081f35', fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(36px, 6vw, 56px)', lineHeight: 1.08, margin: '8px 0 18px' }}>Editorial & Review Policy</h1>
-        <p style={{ fontSize: 19, color: '#40505d' }}>
+        <p style={{ color: 'var(--ito-navy)', fontSize: 12, fontWeight: 900, letterSpacing: '.15em', textTransform: 'uppercase' }}>Trust & transparency</p>
+        <h1 style={{ color: 'var(--ito-navy)', fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(36px, 6vw, 56px)', lineHeight: 1.08, margin: '8px 0 18px' }}>Editorial & Review Policy</h1>
+        <p style={{ fontSize: 19, color: 'var(--ito-navy)' }}>
           We publish practical guidance for international visitors planning travel, medical travel and private experiences in Türkiye. Our goal is to make every article useful, clear and honest about what may change.
         </p>
 
@@ -33,7 +33,7 @@ export default function EditorialPolicyPage() {
         <h2>Corrections</h2>
         <p>If you find an error or outdated detail, email <a href="mailto:itineraryofturkiye@gmail.com">itineraryofturkiye@gmail.com</a>. We review correction requests against primary sources and update material errors as quickly as practical.</p>
 
-        <p style={{ marginTop: 42, paddingTop: 20, borderTop: '1px solid rgba(8,31,53,.15)', color: '#687985', fontSize: 14 }}>Last updated: 1 September 2026</p>
+        <p style={{ marginTop: 42, paddingTop: 20, borderTop: '1px solid rgba(16,36,58,.15)', color: 'var(--ito-muted)', fontSize: 14 }}>Last updated: 1 September 2026</p>
       </article>
     </main>
   );

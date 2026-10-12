@@ -13,25 +13,25 @@ export default function ContactPage() {
     : raw;
 
   return (
-    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'linear-gradient(165deg, #071726 0%, #0c3555 100%)', minHeight: '100vh', color: '#fffaf1' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'linear-gradient(165deg, var(--ito-navy) 0%, var(--ito-navy-lift) 100%)', minHeight: '100vh', color: 'var(--ito-ivory)' }}>
       <SiteHeader />
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
         .ct-wrap { max-width: 1040px; margin: 0 auto; padding: 40px 32px 80px; }
-        .ct-back { display: inline-block; color: #c9a96a; font-weight: 700; text-decoration: none; margin-bottom: 30px; font-size: 13px; }
-        .ct-eyebrow { color: #c9a96a; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+        .ct-back { display: inline-block; color: var(--ito-gold); font-weight: 700; text-decoration: none; margin-bottom: 30px; font-size: 13px; }
+        .ct-eyebrow { color: var(--ito-gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
         .ct-h1 { font-family: var(--font-playfair), serif; font-size: clamp(32px, 6vw, 52px); margin: 10px 0 14px; line-height: 1.05; }
-        .ct-lede { font-size: 16.5px; line-height: 1.8; color: rgba(255,250,241,.82); max-width: 620px; margin-bottom: 44px; }
+        .ct-lede { font-size: 16.5px; line-height: 1.8; color: rgba(250,247,240,.82); max-width: 620px; margin-bottom: 44px; }
         .ct-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
         .ct-channels { display: flex; flex-direction: column; gap: 16px; }
-        .ct-chan { display: flex; gap: 14px; align-items: flex-start; padding: 18px 20px; border: 1px solid rgba(255,250,241,.14); border-radius: 16px; background: rgba(255,255,255,.04); text-decoration: none; color: inherit; transition: border-color .2s, background .2s; }
-        .ct-chan:hover { border-color: #c9a96a; background: rgba(255,255,255,.07); }
-        .ct-chan-ico { color: #c9a96a; margin-top: 2px; }
+        .ct-chan { display: flex; gap: 14px; align-items: flex-start; padding: 18px 20px; border: 1px solid rgba(250,247,240,.14); border-radius: 16px; background: rgba(250,247,240,.04); text-decoration: none; color: inherit; transition: border-color .2s, background .2s; }
+        .ct-chan:hover { border-color: var(--ito-gold); background: rgba(250,247,240,.07); }
+        .ct-chan-ico { color: var(--ito-gold); margin-top: 2px; }
         .ct-chan-t { font-weight: 800; font-size: 15px; margin-bottom: 3px; }
-        .ct-chan-s { font-size: 13.5px; color: rgba(255,250,241,.7); line-height: 1.5; word-break: break-word; }
-        .ct-note { margin-top: 22px; font-size: 12.5px; line-height: 1.7; color: rgba(255,250,241,.62); background: rgba(201,169,106,.1); border: 1px solid rgba(201,169,106,.22); border-radius: 12px; padding: 14px 16px; }
+        .ct-chan-s { font-size: 13.5px; color: rgba(250,247,240,.7); line-height: 1.5; word-break: break-word; }
+        .ct-note { margin-top: 22px; font-size: 12.5px; line-height: 1.7; color: rgba(250,247,240,.62); background: rgba(240,202,145,.1); border: 1px solid rgba(240,202,145,.22); border-radius: 12px; padding: 14px 16px; }
         .ct-form-head { font-family: var(--font-playfair), serif; font-size: 22px; margin-bottom: 14px; }
-        .ct-footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid rgba(255,250,241,.1); font-size: 12px; color: rgba(255,250,241,.55); text-align: center; }
+        .ct-footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid rgba(250,247,240,.1); font-size: 12px; color: rgba(250,247,240,.55); text-align: center; }
         .ct-footer a { color: inherit; }
         @media (max-width: 820px) { .ct-grid { grid-template-columns: 1fr; gap: 32px; } }
       `}</style>

@@ -10,23 +10,23 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh', color: 'var(--ito-navy)' },
   wrap: { maxWidth: '820px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '12px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: 'var(--ito-navy)', marginBottom: '12px' },
   lede: { fontSize: '17px', lineHeight: 1.8, marginBottom: '8px' },
-  meta: { fontSize: '13px', color: '#647889', marginBottom: '34px' },
-  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '24px', color: '#081f35', margin: '44px 0 14px' },
-  h3: { fontSize: '16px', fontWeight: 700, color: '#081f35', margin: '0 0 8px' },
+  meta: { fontSize: '13px', color: 'var(--ito-muted)', marginBottom: '34px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '24px', color: 'var(--ito-navy)', margin: '44px 0 14px' },
+  h3: { fontSize: '16px', fontWeight: 700, color: 'var(--ito-navy)', margin: '0 0 8px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
   step: { display: 'flex', gap: '18px', marginBottom: '20px', alignItems: 'flex-start' },
-  stepNum: { fontFamily: "var(--font-playfair), serif", fontSize: '20px', fontWeight: 700, color: '#8a6d33', minWidth: '32px', lineHeight: 1.4 },
-  card: { background: '#fff', border: '1px solid rgba(8,31,53,.1)', borderRadius: '14px', padding: '24px 26px', marginBottom: '16px' },
-  tag: { display: 'inline-block', fontSize: '11px', fontWeight: 800, letterSpacing: '.12em', textTransform: 'uppercase', color: '#8a6d33', marginBottom: '10px' },
+  stepNum: { fontFamily: "var(--font-playfair), serif", fontSize: '20px', fontWeight: 700, color: 'var(--ito-navy)', minWidth: '32px', lineHeight: 1.4 },
+  card: { background: 'var(--ito-ivory)', border: '1px solid rgba(16,36,58,.1)', borderRadius: '14px', padding: '24px 26px', marginBottom: '16px' },
+  tag: { display: 'inline-block', fontSize: '11px', fontWeight: 800, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--ito-navy)', marginBottom: '10px' },
   li: { fontSize: '15px', lineHeight: 1.9, marginBottom: '2px' },
-  note: { fontSize: '13.5px', lineHeight: 1.75, color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '16px 18px', marginTop: '28px' },
-  back: { display: 'inline-block', color: '#8a6d33', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
-  cta: { display: 'inline-block', marginTop: '10px', padding: '15px 30px', borderRadius: '999px', background: '#081f35', color: '#fffaf1', fontWeight: 700, fontSize: '14px', textDecoration: 'none' },
-  a: { color: '#8a6d33', fontWeight: 600 },
+  note: { fontSize: '13.5px', lineHeight: 1.75, color: 'var(--ito-muted)', background: 'rgba(240,202,145,.1)', border: '1px solid rgba(240,202,145,.25)', borderRadius: '12px', padding: '16px 18px', marginTop: '28px' },
+  back: { display: 'inline-block', color: 'var(--ito-navy)', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
+  cta: { display: 'inline-block', marginTop: '10px', padding: '15px 30px', borderRadius: '999px', background: 'var(--ito-navy)', color: 'var(--ito-ivory)', fontWeight: 700, fontSize: '14px', textDecoration: 'none' },
+  a: { color: 'var(--ito-navy)', fontWeight: 600 },
 };
 
 export default function HowWeWorkPage() {
@@ -174,7 +174,7 @@ export default function HowWeWorkPage() {
           <Link href="/#contact" style={S.cta}>Start with a planning consultation</Link>
         </div>
 
-        <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
+        <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: 'var(--ito-muted)' }}>
           See also: <Link href="/standard" style={S.a}>The ITO Standard</Link> ·{' '}
           <Link href="/about" style={S.a}>About us</Link> ·{' '}
           <Link href="/blogs" style={S.a}>Guides &amp; articles</Link>

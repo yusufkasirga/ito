@@ -10,13 +10,13 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh', color: 'var(--ito-navy)' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
-  meta: { fontSize: '13px', color: '#647889', marginBottom: '36px' },
-  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: 'var(--ito-navy)', marginBottom: '10px' },
+  meta: { fontSize: '13px', color: 'var(--ito-muted)', marginBottom: '36px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: 'var(--ito-navy)', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
-  back: { display: 'inline-block', color: '#c9a96a', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
+  back: { display: 'inline-block', color: 'var(--ito-navy)', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
 };
 
 export default function TermsPage() {
@@ -50,7 +50,7 @@ export default function TermsPage() {
 
         <h2 style={S.h2}>8. Contact</h2>
         <p style={S.p}>For any questions about these terms, contact us through the contact section of itineraryofturkiye.com.</p>
-        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'#647889'}}>See also: <Link href="/privacy" style={{color:'#8a6d33',fontWeight:600}}>Privacy Policy</Link> · <Link href="/legal-notice" style={{color:'#8a6d33',fontWeight:600}}>Legal Notice</Link></p>
+        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'var(--ito-muted)'}}>See also: <Link href="/privacy" style={{color:'var(--ito-navy)',fontWeight:600}}>Privacy Policy</Link> · <Link href="/legal-notice" style={{color:'var(--ito-navy)',fontWeight:600}}>Legal Notice</Link></p>
       </div>
     </main>
   );

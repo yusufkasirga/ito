@@ -46,29 +46,29 @@ const categories = [
 ];
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
-  hero: { background: 'linear-gradient(165deg, #071726 0%, #0c3555 100%)', color: '#fffaf1', padding: '48px 0 60px' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh', color: 'var(--ito-navy)' },
+  hero: { background: 'linear-gradient(165deg, var(--ito-navy) 0%, var(--ito-navy-lift) 100%)', color: 'var(--ito-ivory)', padding: '48px 0 60px' },
   wrap: { maxWidth: '1100px', margin: '0 auto', padding: '0 32px' },
   wrapN: { maxWidth: '1100px', margin: '0 auto', padding: '56px 32px 20px' },
-  back: { display: 'inline-block', color: '#c9a96a', fontWeight: 700, textDecoration: 'none', marginBottom: '22px', fontSize: '13px' },
-  eyebrow: { color: '#c9a96a', fontSize: '11px', fontWeight: 900, letterSpacing: '.18em', textTransform: 'uppercase' },
+  back: { display: 'inline-block', color: 'var(--ito-gold)', fontWeight: 700, textDecoration: 'none', marginBottom: '22px', fontSize: '13px' },
+  eyebrow: { color: 'var(--ito-gold)', fontSize: '11px', fontWeight: 900, letterSpacing: '.18em', textTransform: 'uppercase' },
   h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(34px,6vw,56px)', margin: '10px 0 14px', lineHeight: 1.04 },
-  lede: { fontSize: '16.5px', lineHeight: 1.8, color: 'rgba(255,250,241,.82)', maxWidth: '660px' },
-  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '30px', color: '#081f35', marginBottom: '6px' },
-  sub: { fontSize: '15px', color: '#647889', marginBottom: '30px' },
+  lede: { fontSize: '16.5px', lineHeight: 1.8, color: 'rgba(250,247,240,.82)', maxWidth: '660px' },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '30px', color: 'var(--ito-navy)', marginBottom: '6px' },
+  sub: { fontSize: '15px', color: 'var(--ito-muted)', marginBottom: '30px' },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '20px' },
-  card: { position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', minHeight: '380px', borderRadius: '20px', overflow: 'hidden', textDecoration: 'none', color: '#fffaf1', border: '1px solid rgba(8,31,53,.1)' },
+  card: { position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', minHeight: '380px', borderRadius: '20px', overflow: 'hidden', textDecoration: 'none', color: 'var(--ito-ivory)', border: '1px solid rgba(16,36,58,.1)' },
   cardImg: { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' },
-  cardOverlay: { position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(7,23,38,.1) 0%, rgba(7,23,38,.5) 55%, rgba(7,23,38,.94) 100%)' },
+  cardOverlay: { position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(16,36,58,.1) 0%, rgba(16,36,58,.5) 55%, rgba(16,36,58,.94) 100%)' },
   cardBody: { position: 'relative', padding: '26px 26px 28px' },
   cardTitle: { fontFamily: "var(--font-playfair), serif", fontSize: '26px', fontWeight: 800, marginBottom: '8px' },
-  cardDesc: { fontSize: '14px', lineHeight: 1.6, color: 'rgba(255,250,241,.86)', marginBottom: '14px' },
+  cardDesc: { fontSize: '14px', lineHeight: 1.6, color: 'rgba(250,247,240,.86)', marginBottom: '14px' },
   tagRow: { display: 'flex', flexWrap: 'wrap', gap: '7px', marginBottom: '14px' },
-  tag: { fontSize: '11px', fontWeight: 700, padding: '5px 10px', borderRadius: '999px', background: 'rgba(255,255,255,.12)', border: '1px solid rgba(255,255,255,.18)' },
-  more: { fontSize: '13px', fontWeight: 800, color: '#c9a96a' },
-  ctaBand: { background: 'linear-gradient(165deg, #071726 0%, #0c3555 100%)', color: '#fffaf1', marginTop: '54px', padding: '54px 0' },
+  tag: { fontSize: '11px', fontWeight: 700, padding: '5px 10px', borderRadius: '999px', background: 'rgba(250,247,240,.12)', border: '1px solid rgba(250,247,240,.18)' },
+  more: { fontSize: '13px', fontWeight: 800, color: 'var(--ito-gold)' },
+  ctaBand: { background: 'linear-gradient(165deg, var(--ito-navy) 0%, var(--ito-navy-lift) 100%)', color: 'var(--ito-ivory)', marginTop: '54px', padding: '54px 0' },
   ctaGrid: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', alignItems: 'center' },
-  a: { color: '#8a6d33', fontWeight: 600 },
+  a: { color: 'var(--ito-navy)', fontWeight: 600 },
 };
 
 export default function TourismServicePage() {
@@ -113,10 +113,10 @@ export default function TourismServicePage() {
           <div style={S.ctaGrid} className="ct-cta-grid">
             <div>
               <span style={S.eyebrow}>Start here</span>
-              <h2 style={{ ...S.h2, color: '#fffaf1', margin: '10px 0 12px' }}>Tell us how you like to travel.</h2>
-              <p style={{ fontSize: '15.5px', lineHeight: 1.8, color: 'rgba(255,250,241,.82)' }}>
+              <h2 style={{ ...S.h2, color: 'var(--ito-ivory)', margin: '10px 0 12px' }}>Tell us how you like to travel.</h2>
+              <p style={{ fontSize: '15.5px', lineHeight: 1.8, color: 'rgba(250,247,240,.82)' }}>
                 A short message is enough to begin. A real person replies within hours. What you get and how we
-                charge is set out in <Link href="/how-we-work" style={{ color: '#c9a96a', fontWeight: 600 }}>How we work</Link>.
+                charge is set out in <Link href="/how-we-work" style={{ color: 'var(--ito-gold)', fontWeight: 600 }}>How we work</Link>.
               </p>
             </div>
             <LeadForm />
@@ -125,7 +125,7 @@ export default function TourismServicePage() {
       </section>
 
       <div style={{ ...S.wrap, padding: '30px 32px 70px', textAlign: 'center' }}>
-        <p style={{ fontSize: '13px', color: '#647889' }}>
+        <p style={{ fontSize: '13px', color: 'var(--ito-muted)' }}>
           See also: <Link href="/all-turkiye-destinations" style={S.a}>All Türkiye Destinations</Link> ·{' '}
           <Link href="/services/medical-tourism" style={S.a}>Medical travel</Link> ·{' '}
           <Link href="/standard" style={S.a}>The ITO Standard</Link>
