@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useId } from 'react';
 import { whatsAppUrl } from '@/lib/config';
 import Icon from './Icon';
 
@@ -12,13 +12,14 @@ import Icon from './Icon';
  * `overlay` (ana sayfa): başlangıçta ŞEFFAF — hero degradesinin üstünden geçer,
  * bütünleşik durur; aşağı kaydırınca yarı saydam koyu bara dönüşür (scroll dinleyici).
  * Diğer sayfalar: her zaman yarı saydam koyu bar.
- * Dropdown hover boşluğu köprüyle giderildi (margin yerine padding).
+ * Ana hizmetler doğrudan görünür; mobil menü klavye odağını içinde tutar.
  */
 export default function SiteHeader({ locale = 'en', overlay = false }: { locale?: 'en' | 'de' | 'ru'; overlay?: boolean }) {
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuId = useId();
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const menuRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     if (!overlay) return;
@@ -27,6 +28,39 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, [overlay]);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const focusable = menuRef.current?.querySelectorAll<HTMLAnchorElement | HTMLButtonElement>('a, button');
+    focusable?.[0]?.focus();
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setMobileOpen(false);
+      if (event.key !== 'Tab' || !focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    const onResize = () => {
+      if (window.innerWidth > 1060) setMobileOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    window.addEventListener('resize', onResize);
+    const toggle = toggleRef.current;
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', onKeyDown);
+      window.removeEventListener('resize', onResize);
+      toggle?.focus();
+    };
+  }, [mobileOpen]);
 
   const close = () => setMobileOpen(false);
   const solid = !overlay || scrolled;
@@ -51,36 +85,32 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
         .ito-hdr .h-brand { text-decoration: none; display: inline-flex; align-items: center; gap: 13px; transition: transform .25s ease; }
         .ito-hdr .h-brand:hover { transform: translateY(-1px); }
         .ito-hdr .h-brand img { height: 76px; width: 76px; object-fit: contain; display: block; background: #fffdf7; border-radius: 50%; padding: 5px; box-shadow: 0 2px 12px rgba(0,0,0,.28); }
-        .ito-hdr .h-wm { line-height: 1; white-space: nowrap; }
+        .ito-hdr .h-wm { line-height: 1; white-space: nowrap; display: flex; flex-direction: column; }
         .ito-hdr .h-wm .l1 { font-family: var(--font-playfair), Georgia, serif; font-weight: 700; font-size: 32px; letter-spacing: .01em; color: #fffaf1; text-shadow: 0 1px 8px rgba(0,0,0,.3); }
         .ito-hdr .h-wm .l2 { font-family: var(--font-playfair), Georgia, serif; font-style: italic; font-weight: 600; font-size: 23px; color: #d8b878; margin-top: 4px; }
-        @media (max-width: 900px) {
+        @media (max-width: 1060px) {
           .ito-hdr .h-brand img { height: 60px; width: 60px; padding: 4px; }
           .ito-hdr .h-wm .l1 { font-size: 25px; }
           .ito-hdr .h-wm .l2 { font-size: 18px; }
         }
         @media (max-width: 400px) { .ito-hdr .h-wm { display: none; } }
-        .ito-hdr .h-nav { display: flex; align-items: center; gap: 26px; }
+        .ito-hdr .h-nav { display: flex; align-items: center; gap: 23px; }
         .ito-hdr .h-nav a { color: rgba(255,250,241,.92); text-decoration: none; font-size: 14px; font-weight: 700; transition: color .2s; white-space: nowrap; text-shadow: 0 1px 8px rgba(0,0,0,.25); }
         .ito-hdr .h-nav a:hover { color: #d8b878; }
-        .ito-hdr .h-de { font-weight: 800 !important; opacity: .85; font-size: 13px !important; }
-        .ito-hdr .h-drop { position: relative; }
-        .ito-hdr .h-drop-trigger { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
-        .ito-hdr .h-drop-panel { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); padding-top: 14px; z-index: 95; }
-        .ito-hdr .h-drop-inner { background: rgba(7,23,38,.98); border: 1px solid rgba(201,169,106,.25); border-radius: 14px; padding: 8px; min-width: 220px; box-shadow: 0 16px 40px rgba(0,0,0,.45); display: flex; flex-direction: column; gap: 2px; }
-        .ito-hdr .h-drop-inner a { padding: 11px 14px; border-radius: 9px; font-size: 13.5px; font-weight: 600; text-shadow: none; }
-        .ito-hdr .h-drop-inner a:hover { background: rgba(201,169,106,.14); }
+        .ito-hdr a:focus-visible, .ito-hdr button:focus-visible { outline: 2px solid #d8b878; outline-offset: 6px; }
+        .ito-hdr .h-nav .h-contact { padding: 12px 20px; border: 1px solid rgba(216,184,120,.65); border-radius: 999px; color: #ead3a4; text-shadow: none; }
+        .ito-hdr .h-nav .h-contact:hover { background: #d8b878; color: #071726; }
         .ito-hdr .h-toggle { display: none; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.28); color: #fff; width: 42px; height: 42px; border-radius: 50%; cursor: pointer; align-items: center; justify-content: center; }
-        .ito-hdr .h-mobile { position: fixed; inset: 0; z-index: 120; background: rgba(7,23,38,.98); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; opacity: 0; pointer-events: none; transition: opacity .3s; }
-        .ito-hdr .h-mobile.open { opacity: 1; pointer-events: all; }
-        .ito-hdr .h-mobile a, .ito-hdr .h-mobile .h-macc { color: #fffaf1; font-size: 19px; font-weight: 700; text-decoration: none; cursor: pointer; }
+        .ito-hdr .h-mobile { position: fixed; inset: 0; z-index: 120; background: rgba(7,23,38,.98); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; overflow-y: auto; padding: 80px 24px 40px; }
+        .ito-hdr .h-mobile a { color: #fffaf1; font-size: 19px; font-weight: 700; text-decoration: none; cursor: pointer; }
+        .ito-hdr .h-mobile .h-service { font-family: var(--font-playfair), Georgia, serif; font-size: 30px; font-weight: 500; }
         .ito-hdr .h-mobile-close { position: absolute; top: 22px; right: 24px; background: none; border: none; color: #fffaf1; cursor: pointer; }
-        .ito-hdr .h-mobile-sub { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 4px; }
-        .ito-hdr .h-mobile-sub a { font-size: 16px; color: rgba(255,250,241,.72); }
-        @media (max-width: 900px) {
+        @media (max-width: 1060px) {
           .ito-hdr .h-nav { display: none; }
           .ito-hdr .h-toggle { display: inline-flex; }
+          .ito-hdr .h-bar { padding: 12px 24px; }
         }
+        @media (prefers-reduced-motion: reduce) { .ito-hdr *, .ito-hdr *::after { transition: none !important; } }
       `}</style>
 
       <div className="h-full">
@@ -90,49 +120,31 @@ export default function SiteHeader({ locale = 'en', overlay = false }: { locale?
             <span className="h-wm"><span className="l1">Itinerary</span><span className="l2">of Türkiye</span></span>
           </Link>
 
-          <nav className="h-nav">
-            <Link href="/about">About Us</Link>
-
-            <div className="h-drop" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
-              <Link href="/services" className="h-drop-trigger">Services <Icon name="plan" size={13} /></Link>
-              {servicesOpen && (
-                <div className="h-drop-panel">
-                  <div className="h-drop-inner">
-                    <Link href="/services/tourism">Private Travel</Link>
-                    <Link href="/services/medical-tourism">Medical Travel</Link>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            <Link href="/blog">Blog</Link>
-            <Link href="/testimonials">Testimonials</Link>
-            <Link href="/contact">Contact</Link>
+          <nav className="h-nav" aria-label="Main navigation">
+            <Link href="/services/medical-tourism">Medical Travel</Link>
+            <Link href="/services/tourism">Private Travel</Link>
+            <Link href="/how-we-work">How We Work</Link>
+            <Link href="/standard">Our Standard</Link>
+            <Link href="/contact" className="h-contact">Plan your visit</Link>
           </nav>
 
-          <button className="h-toggle" onClick={() => setMobileOpen(true)} aria-label="Open menu">
+          <button ref={toggleRef} className="h-toggle" onClick={() => setMobileOpen(true)} aria-label="Open menu" aria-expanded={mobileOpen} aria-controls={menuId}>
             <Icon name="menu" size={22} />
           </button>
         </div>
       </div>
 
-      <div className={`h-mobile ${mobileOpen ? 'open' : ''}`}>
-        <button className="h-mobile-close" onClick={close} aria-label="Close menu"><Icon name="close" size={26} /></button>
-        <Link href="/about" onClick={close}>About Us</Link>
-        <div style={{ textAlign: 'center' }}>
-          <span className="h-macc" onClick={() => setMobileServicesOpen(!mobileServicesOpen)}>Services {mobileServicesOpen ? '▲' : '▼'}</span>
-          {mobileServicesOpen && (
-            <div className="h-mobile-sub">
-              <Link href="/services/tourism" onClick={close}>Private Travel</Link>
-              <Link href="/services/medical-tourism" onClick={close}>Medical Travel</Link>
-            </div>
-          )}
-        </div>
-        <Link href="/blog" onClick={close}>Blog</Link>
-        <Link href="/testimonials" onClick={close}>Testimonials</Link>
-        <Link href="/contact" onClick={close}>Contact</Link>
-        <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{ color: '#25D366' }} onClick={close}>WhatsApp</a>
-      </div>
+      {mobileOpen && (
+        <nav id={menuId} ref={menuRef} className="h-mobile" aria-label="Mobile navigation" role="dialog" aria-modal="true">
+          <button className="h-mobile-close" onClick={close} aria-label="Close menu"><Icon name="close" size={26} /></button>
+          <Link href="/services/medical-tourism" className="h-service" onClick={close}>Medical Travel</Link>
+          <Link href="/services/tourism" className="h-service" onClick={close}>Private Travel</Link>
+          <Link href="/how-we-work" onClick={close}>How We Work</Link>
+          <Link href="/standard" onClick={close}>Our Standard</Link>
+          <Link href="/contact" onClick={close}>Plan your visit</Link>
+          {whatsAppUrl().startsWith('https://wa.me/') && <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{ color: '#d8b878', fontSize: 15 }} onClick={close}>WhatsApp</a>}
+        </nav>
+      )}
     </div>
   );
 }
