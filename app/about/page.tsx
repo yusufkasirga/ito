@@ -28,36 +28,36 @@ export default function AboutPage() {
   ];
 
   return (
-    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
+    <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh' }}>
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
-          --ink: #071726; --navy: #081f35; --navy-2: #0c3555;
-          --gold: #c9a96a; --aqua: #8ed8dc; --ivory: #fffaf1;
-          --muted: #647889; --line: rgba(8,31,53,.14);
-          --shadow-sm: 0 2px 8px rgba(7,23,38,.08);
-          --shadow-md: 0 8px 24px rgba(7,23,38,.12);
-          --shadow-lg: 0 20px 60px rgba(7,23,38,.16);
+          --ink: var(--ito-navy); --navy: var(--ito-navy); --navy-2: var(--ito-navy-lift);
+          --gold: var(--ito-gold); --aqua: var(--ito-turquoise); --ivory: var(--ito-ivory);
+          --muted: var(--ito-muted); --line: rgba(16,36,58,.14);
+          --shadow-sm: 0 2px 8px rgba(16,36,58,.08);
+          --shadow-md: 0 8px 24px rgba(16,36,58,.12);
+          --shadow-lg: 0 20px 60px rgba(16,36,58,.16);
         }
-        .nav { position: sticky; top: 0; z-index: 50; background: rgba(255,250,241,.95); border-bottom: 1px solid var(--line); backdrop-filter: blur(20px); }
+        .nav { position: sticky; top: 0; z-index: 50; background: rgba(250,247,240,.95); border-bottom: 1px solid var(--line); backdrop-filter: blur(20px); }
         .nav-inner { max-width: 1240px; margin: 0 auto; height: 92px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; }
         .brand { text-decoration: none; display: flex; align-items: center; }
-        .brand img { height: 84px; width: 84px; object-fit: contain; background: #fffdf7; border-radius: 50%; padding: 6px; box-shadow: 0 2px 12px rgba(0,0,0,.22); }
+        .brand img { height: 84px; width: 84px; object-fit: contain; background: var(--ito-ivory); border-radius: 50%; padding: 6px; box-shadow: 0 2px 12px rgba(16,36,58,.22); }
         .nav-links { display: flex; align-items: center; gap: 28px; }
         .nav-links a { color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 600; transition: color 0.2s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-        .btn-primary { min-height: 44px; padding: 0 22px; border-radius: 999px; background: linear-gradient(135deg, #0f6ea8, var(--navy-2)); color: #fff; font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; transition: all 0.3s; box-shadow: var(--shadow-md); }
+        .nav-links a:hover, .nav-links a.active { color: var(--ito-navy); }
+        .btn-primary { min-height: 44px; padding: 0 22px; border-radius: 999px; background: linear-gradient(135deg, var(--ito-navy), var(--navy-2)); color: var(--ito-ivory); font-size: 13px; font-weight: 800; border: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; transition: all 0.3s; box-shadow: var(--shadow-md); }
         .btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
 
         /* HERO */
-        .hero { background: linear-gradient(135deg, #071726 0%, #0c3555 100%); color: #fff; padding: 80px 0 70px; position: relative; overflow: hidden; }
-        .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 80% 20%, rgba(142,216,220,.12), transparent 40%); }
+        .hero { background: linear-gradient(135deg, var(--ito-navy) 0%, var(--ito-navy-lift) 100%); color: var(--ito-ivory); padding: 80px 0 70px; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 80% 20%, rgba(143,227,212,.12), transparent 40%); }
         .hero-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 1; }
         .eyebrow { display: inline-flex; align-items: center; color: var(--gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; margin-bottom: 20px; }
         .eyebrow::before { content: ''; width: 34px; height: 1px; margin-right: 12px; background: currentColor; }
-        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: #fff; margin-bottom: 24px; }
+        .hero h1 { font-family: var(--font-playfair), serif; font-size: clamp(42px, 7vw, 90px); line-height: .88; color: var(--ito-ivory); margin-bottom: 24px; }
         .hero h1 span { color: var(--aqua); }
-        .hero p { max-width: 620px; color: rgba(255,250,241,.75); font-size: 17px; line-height: 1.8; }
+        .hero p { max-width: 620px; color: rgba(250,247,240,.75); font-size: 17px; line-height: 1.8; }
 
         /* CONTENT */
         .content { max-width: 1240px; margin: 0 auto; padding: 80px 32px; }
@@ -72,22 +72,22 @@ export default function AboutPage() {
         /* FEATURES GRID */
         .features-section { background: linear-gradient(135deg, var(--navy), var(--navy-2)); padding: 80px 0; }
         .features-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
-        .features-title { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5vw, 56px); color: #fff; margin: 16px 0 48px; line-height: 1; }
+        .features-title { font-family: var(--font-playfair), serif; font-size: clamp(32px, 5vw, 56px); color: var(--ito-ivory); margin: 16px 0 48px; line-height: 1; }
         .features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-        .feature-card { padding: 28px; border: 1px solid rgba(255,250,241,.12); border-radius: 20px; background: rgba(255,255,255,.06); transition: all 0.3s; }
-        .feature-card:hover { background: rgba(255,255,255,.1); border-color: rgba(201,169,106,.3); transform: translateY(-4px); }
+        .feature-card { padding: 28px; border: 1px solid rgba(250,247,240,.12); border-radius: 20px; background: rgba(250,247,240,.06); transition: all 0.3s; }
+        .feature-card:hover { background: rgba(250,247,240,.1); border-color: rgba(240,202,145,.3); transform: translateY(-4px); }
         .feature-icon { font-size: 32px; margin-bottom: 16px; }
-        .feature-title { color: #fff; font-size: 16px; font-weight: 900; margin-bottom: 8px; }
-        .feature-desc { color: rgba(255,250,241,.65); font-size: 13px; line-height: 1.6; }
+        .feature-title { color: var(--ito-ivory); font-size: 16px; font-weight: 900; margin-bottom: 8px; }
+        .feature-desc { color: rgba(250,247,240,.65); font-size: 13px; line-height: 1.6; }
 
         /* CTA */
-        .cta-section { padding: 80px 0; text-align: center; background: #fff; }
+        .cta-section { padding: 80px 0; text-align: center; background: var(--ito-ivory); }
         .cta-inner { max-width: 640px; margin: 0 auto; padding: 0 32px; }
         .cta-inner h2 { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 48px); color: var(--navy); margin-bottom: 16px; }
         .cta-inner p { color: var(--muted); font-size: 16px; line-height: 1.75; margin-bottom: 32px; }
 
         /* FOOTER */
-        .footer { background: var(--ink); color: rgba(255,250,241,.6); padding: 40px 0; text-align: center; font-size: 13px; }
+        .footer { background: var(--ink); color: rgba(250,247,240,.6); padding: 40px 0; text-align: center; font-size: 13px; }
 
         @media (max-width: 900px) {
           .two-col { grid-template-columns: 1fr; gap: 40px; }
@@ -105,7 +105,7 @@ export default function AboutPage() {
           .nav-links { flex-wrap: wrap; justify-content: center; gap: 12px 16px; }
           .nav-links a { font-size: 13px; }
         }
-        a:focus-visible, button:focus-visible { outline: 3px solid #8ed8dc; outline-offset: 2px; border-radius: 6px; }
+        a:focus-visible, button:focus-visible { outline: 3px solid var(--ito-turquoise); outline-offset: 2px; border-radius: 6px; }
         @media (prefers-reduced-motion: reduce) {
           *, *::before, *::after { animation: none !important; transition: none !important; }
         }
@@ -152,7 +152,7 @@ export default function AboutPage() {
       {/* FEATURES */}
       <section className="features-section">
         <div className="features-inner">
-          <div className="eyebrow" style={{color: 'var(--gold)'}}>What We Offer</div>
+          <div className="eyebrow" style={{color: 'var(--ito-navy)'}}>What We Offer</div>
           <h2 className="features-title">Everything you need,<br />in one place.</h2>
           <div className="features-grid">
             {features.map((f) => (
@@ -177,7 +177,7 @@ export default function AboutPage() {
 
       {/* FOOTER */}
             <section style={{maxWidth:'860px',margin:'0 auto',padding:'0 32px 64px'}}>
-        <h2 style={{fontFamily:"var(--font-playfair), serif",fontSize:'28px',color:'var(--ink, #081f35)',marginBottom:'14px'}}>Who runs Itinerary of Türkiye</h2>
+        <h2 style={{fontFamily:"var(--font-playfair), serif",fontSize:'28px',color:'var(--ink, var(--ito-navy))',marginBottom:'14px'}}>Who runs Itinerary of Türkiye</h2>
         <p style={{fontSize:'15.5px',lineHeight:1.85,color:'inherit',opacity:.9,marginBottom:'12px'}}>
           ITO is run by its two founders — not a call centre, not a franchise. We live here, we build every plan ourselves,
           and on the days that matter we are physically with you: at the airport, at the clinic, at the table we booked
@@ -185,7 +185,7 @@ export default function AboutPage() {
         </p>
         <p style={{fontSize:'15.5px',lineHeight:1.85,color:'inherit',opacity:.9}}>
           We are paid by our clients, never by the places we recommend — a commitment we publish in
-          {' '}<Link href="/standard" style={{color:'#8a6d33',fontWeight:600}}>The ITO Standard</Link>. It is a small team by design:
+          {' '}<Link href="/standard" style={{color:'var(--ito-navy)',fontWeight:600}}>The ITO Standard</Link>. It is a small team by design:
           our goal is to personally manage the first hundred journeys, and to let the standard — not the headcount — be the thing that scales.
         </p>
       </section>

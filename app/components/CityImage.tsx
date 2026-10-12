@@ -39,14 +39,14 @@ export default function CityImage({
         style={{
           position: 'absolute',
           inset: 0,
-          background: `radial-gradient(130% 130% at 20% 15%, ${accent} 0%, #0a1a2b 60%, #071726 100%)`,
+          background: `radial-gradient(130% 130% at 20% 15%, ${accent} 0%, var(--ito-navy) 60%, var(--ito-navy) 100%)`,
         }}
       />
       <span
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'radial-gradient(rgba(255,250,241,.05) 1px, transparent 1px)',
+          backgroundImage: 'radial-gradient(rgba(250,247,240,.05) 1px, transparent 1px)',
           backgroundSize: '18px 18px',
           opacity: 0.5,
         }}

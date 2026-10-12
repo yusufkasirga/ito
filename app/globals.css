@@ -1,1 +1,18 @@
 @tailwind base; @tailwind components; @tailwind utilities;
+
+:root {
+  --ito-navy: #10243A;
+  --ito-ivory: #FAF7F0;
+  --ito-turquoise: #8FE3D4;
+  --ito-sky: #B3D9F2;
+  --ito-stone: #CCD5DC;
+  --ito-gold: #F0CA91;
+  --ito-muted: rgb(16 36 58 / .70);
+  --ito-navy-lift: color-mix(in srgb, var(--ito-navy) 85%, var(--ito-sky));
+  --ito-surface: color-mix(in srgb, var(--ito-ivory) 94%, var(--ito-sky));
+}
+
+body {
+  background: var(--ito-ivory);
+  color: var(--ito-navy);
+}

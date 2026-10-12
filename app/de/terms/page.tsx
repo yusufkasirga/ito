@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 };
 
 const S: Record<string, React.CSSProperties> = {
-  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', color: '#3a4654' },
+  main: { fontFamily: "var(--font-inter), system-ui, sans-serif", background: 'var(--ito-ivory)', minHeight: '100vh', color: 'var(--ito-navy)' },
   wrap: { maxWidth: '760px', margin: '0 auto', padding: '48px 32px 80px' },
-  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: '#081f35', marginBottom: '10px' },
-  meta: { fontSize: '13px', color: '#647889', marginBottom: '14px' },
-  note: { fontSize: '12.5px', color: '#647889', background: 'rgba(201,169,106,.1)', border: '1px solid rgba(201,169,106,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
-  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: '#081f35', margin: '34px 0 12px' },
+  h1: { fontFamily: "var(--font-playfair), serif", fontSize: 'clamp(30px,5vw,44px)', color: 'var(--ito-navy)', marginBottom: '10px' },
+  meta: { fontSize: '13px', color: 'var(--ito-muted)', marginBottom: '14px' },
+  note: { fontSize: '12.5px', color: 'var(--ito-muted)', background: 'rgba(240,202,145,.1)', border: '1px solid rgba(240,202,145,.25)', borderRadius: '12px', padding: '12px 16px', marginBottom: '30px', lineHeight: 1.6 },
+  h2: { fontFamily: "var(--font-playfair), serif", fontSize: '22px', color: 'var(--ito-navy)', margin: '34px 0 12px' },
   p: { fontSize: '15.5px', lineHeight: 1.85, marginBottom: '16px' },
-  back: { display: 'inline-block', color: '#c9a96a', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
+  back: { display: 'inline-block', color: 'var(--ito-navy)', fontWeight: 700, textDecoration: 'none', marginBottom: '28px', fontSize: '13px' },
 };
 
 export default function TermsPageDe() {
@@ -26,7 +26,7 @@ export default function TermsPageDe() {
         <Link href="/de" style={S.back}>← Zur Startseite</Link>
         <h1 style={S.h1}>Nutzungsbedingungen</h1>
         <p style={S.meta}>Zuletzt aktualisiert: 17. Juli 2026</p>
-        <p style={S.note}>Diese Übersetzung dient Ihrer Information. Rechtlich maßgeblich ist die <Link href="/terms" style={{color:'#8a6d33'}}>englische Fassung</Link>.</p>
+        <p style={S.note}>Diese Übersetzung dient Ihrer Information. Rechtlich maßgeblich ist die <Link href="/terms" style={{color:'var(--ito-navy)'}}>englische Fassung</Link>.</p>
 
         <h2 style={S.h2}>1. Wer wir sind</h2>
         <p style={S.p}>Itinerary of Türkiye (Finanzamt Yenibosna, Steuernr. 76003842, Istanbul, Türkei) erbringt Beratungs- und Koordinationsleistungen für Besucher der Türkei, darunter private Reiseerlebnisse, die Organisation von Medizinreisen und verwandte Leistungen auf Anfrage.</p>
@@ -51,7 +51,7 @@ export default function TermsPageDe() {
 
         <h2 style={S.h2}>8. Kontakt</h2>
         <p style={S.p}>Bei Fragen zu diesen Bedingungen kontaktieren Sie uns über den Kontaktbereich von itineraryofturkiye.com.</p>
-        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'#647889'}}>Weitere Angaben: <Link href="/de/privacy" style={{color:'#8a6d33',fontWeight:600}}>Datenschutz</Link> · <Link href="/de/impressum" style={{color:'#8a6d33',fontWeight:600}}>Impressum</Link></p>
+        <p style={{...S.p, marginTop:'34px', fontSize:'13px', color:'var(--ito-muted)'}}>Weitere Angaben: <Link href="/de/privacy" style={{color:'var(--ito-navy)',fontWeight:600}}>Datenschutz</Link> · <Link href="/de/impressum" style={{color:'var(--ito-navy)',fontWeight:600}}>Impressum</Link></p>
       </div>
     </main>
   );

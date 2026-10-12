@@ -106,22 +106,22 @@ export default function HeroVideo({ poster, posterMobile, srcLarge, srcDesktop, 
   return (
     <div className="hv" ref={wrapRef}>
       <style>{`
-        .hv { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: #0d1424; }
+        .hv { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: var(--ito-navy); }
         .hv-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
         .hv-video { opacity: 0; transition: opacity 1.2s ease; }
         .hv-video.on { opacity: 1; }
         .hv-scrim { position: absolute; inset: 0; z-index: 1; pointer-events: none; background:
-          linear-gradient(90deg, rgba(8,14,28,.82) 0%, rgba(8,14,28,.55) 38%, rgba(8,14,28,.12) 72%, rgba(8,14,28,.25) 100%),
-          linear-gradient(180deg, rgba(8,14,28,.55) 0%, transparent 22%, transparent 70%, rgba(8,14,28,.75) 100%); }
-        .hv-bar { position: absolute; left: max(24px, calc((100% - 1280px) / 2)); bottom: 30px; z-index: 3; display: flex; align-items: center; gap: 14px; color: #fff; }
+          linear-gradient(90deg, rgba(16,36,58,.82) 0%, rgba(16,36,58,.55) 38%, rgba(16,36,58,.12) 72%, rgba(16,36,58,.25) 100%),
+          linear-gradient(180deg, rgba(16,36,58,.55) 0%, transparent 22%, transparent 70%, rgba(16,36,58,.75) 100%); }
+        .hv-bar { position: absolute; left: max(24px, calc((100% - 1280px) / 2)); bottom: 30px; z-index: 3; display: flex; align-items: center; gap: 14px; color: var(--ito-ivory); }
         .hv-chapter { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; min-width: 150px; order: 2; }
-        .hv-label { font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.9); text-shadow: 0 1px 8px rgba(0,0,0,.5); }
-        .hv-track { width: 150px; height: 2px; background: rgba(255,255,255,.22); border-radius: 2px; overflow: hidden; }
-        .hv-track span { display: block; height: 100%; background: #E8956B; transform-origin: left; transform: scaleX(0); }
-        .hv-btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,.4); background: rgba(8,14,28,.35); color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); transition: background .25s ease, border-color .25s ease; }
-        .hv-btn:hover { background: rgba(8,14,28,.6); border-color: rgba(255,255,255,.75); }
+        .hv-label { font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: rgba(250,247,240,.9); text-shadow: 0 1px 8px rgba(16,36,58,.5); }
+        .hv-track { width: 150px; height: 2px; background: rgba(179,217,242,.32); border-radius: 2px; overflow: hidden; }
+        .hv-track span { display: block; height: 100%; background: var(--ito-turquoise); transform-origin: left; transform: scaleX(0); }
+        .hv-btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(250,247,240,.4); background: rgba(16,36,58,.35); color: var(--ito-ivory); cursor: pointer; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(10px); transition: background .25s ease, border-color .25s ease; }
+        .hv-btn:hover { background: rgba(16,36,58,.6); border-color: rgba(250,247,240,.75); }
         @media (max-width: 1100px) {
-          .hv-scrim { background: linear-gradient(180deg, rgba(8,14,28,.6) 0%, rgba(8,14,28,.45) 40%, rgba(8,14,28,.55) 70%, rgba(8,14,28,.85) 100%); }
+          .hv-scrim { background: linear-gradient(180deg, rgba(16,36,58,.6) 0%, rgba(16,36,58,.45) 40%, rgba(16,36,58,.55) 70%, rgba(16,36,58,.85) 100%); }
         }
         @media (max-width: 640px) {
           .hv-bar { left: 16px; bottom: 16px; }
@@ -130,7 +130,7 @@ export default function HeroVideo({ poster, posterMobile, srcLarge, srcDesktop, 
       `}</style>
       <picture>
         {mobilePosterSet && <source media="(max-width: 768px)" srcSet={mobilePosterSet} sizes="100vw" />}
-        {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+        {/* eslint-disable-next-line jsx-a11y/alt-text */}
         <img {...deskPoster} className="hv-media" />
       </picture>
       {src && (

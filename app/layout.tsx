@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://itineraryofturkiye.com"),
   alternates: { canonical: "https://itineraryofturkiye.com/", languages: { en: "https://itineraryofturkiye.com/", de: "https://itineraryofturkiye.com/de", ru: "https://itineraryofturkiye.com/ru", "x-default": "https://itineraryofturkiye.com/" } },
   verification: { google: "TnMT4ipicMyjRooHW9Oub_W1Dp7BxLIz5tn_5Bqk_-A" },
-  title: "Itinerary of Türkiye — Medical Travel & Private Türkiye Experiences Advisory",
-  description: "Independent advisory for medical travel and private Türkiye experiences. We plan the journey, verify every provider and stay with you — paid by our clients, never by commissions. Serving clients from UK, UAE, Europe and beyond.",
+  title: "Itinerary of Türkiye — Health Journeys & Private Travel",
+  description: "Personal planning and coordination for health journeys and private Türkiye trips. Provider options, stays, transfers and experiences, with a clearly agreed scope and client-paid fee.",
   openGraph: {
     title: "Itinerary of Türkiye",
     description: "Your trusted local partner for medical travel and private Türkiye experiences.",
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@id": "https://itineraryofturkiye.com/#organization",
               "name": "Itinerary of Türkiye",
               "alternateName": "ITO",
-              "description": "Medical travel coordination and private Türkiye experiences, with investment and business advisory available on request.",
+              "description": "Personal planning and coordination for health journeys and private Türkiye trips, with a clearly agreed scope and client-paid fee.",
               "url": "https://itineraryofturkiye.com",
               "logo": "https://itineraryofturkiye.com/logo.png",
               "image": "https://itineraryofturkiye.com/og-image.png",
@@ -77,11 +77,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 { "@type": "Country", "name": "Russia" }
               ],
               "knowsLanguage": ["en", "tr", "de", "ru"],
-              "priceRange": "Flat planning fee, quoted in advance",
+              "priceRange": "Planning and coordination fee, quoted in advance",
               "makesOffer": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Medical travel coordination", "serviceType": "Hair restoration, dental care and aesthetic surgery coordination with verified partner clinics" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Türkiye experiences", "serviceType": "Tailor-made itineraries, guides and travel coordination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business and investment advisory", "serviceType": "Real estate and business travel advisory, available on request" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Health journey coordination", "serviceType": "Provider options, appointments, accommodation and transfer coordination" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Türkiye trips", "serviceType": "Personal itineraries, guides, accommodation and travel coordination" } }
               ],
               "sameAs": ["https://www.instagram.com/itineraryofturkiye"]
             })
@@ -96,7 +95,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@id": "https://itineraryofturkiye.com/#website",
               "url": "https://itineraryofturkiye.com",
               "name": "Itinerary of Türkiye",
-              "description": "Independent advisory for medical travel and private Türkiye experiences.",
+              "description": "Personal planning and coordination for health journeys and private Türkiye trips.",
               "inLanguage": ["en", "de", "ru"],
               "publisher": { "@id": "https://itineraryofturkiye.com/#organization" }
             })

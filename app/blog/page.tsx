@@ -25,24 +25,24 @@ export default function BlogIndex() {
   return (
     <main className="bj">
       <style>{`
-        .bj { font-family: var(--font-inter), system-ui, sans-serif; background: #071726; min-height: 100vh; color: #fffaf1; }
+        .bj { font-family: var(--font-inter), system-ui, sans-serif; background: var(--ito-navy); min-height: 100vh; color: var(--ito-ivory); }
         .bj * { box-sizing: border-box; }
         .bj-wrap { max-width: 1160px; margin: 0 auto; padding: 56px 40px 96px; }
-        .bj-eyebrow { color: #d8b878; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
+        .bj-eyebrow { color: var(--ito-gold); font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
         .bj-h1 { font-family: var(--font-playfair), serif; font-size: clamp(38px,7vw,62px); margin: 12px 0 14px; line-height: 1.03; letter-spacing: -.02em; }
-        .bj-lede { font-size: 16.5px; line-height: 1.8; color: rgba(255,250,241,.78); max-width: 640px; margin-bottom: 50px; }
+        .bj-lede { font-size: 16.5px; line-height: 1.8; color: rgba(250,247,240,.78); max-width: 640px; margin-bottom: 50px; }
 
         /* Ortak kart yüzeyi */
-        .bj-card { display: flex; flex-direction: column; background: #0d2136; border: 1px solid rgba(255,250,241,.09); border-radius: 16px; overflow: hidden; text-decoration: none; color: #fffaf1; transition: transform .25s ease, border-color .25s ease; }
-        .bj-card:hover { transform: translateY(-4px); border-color: rgba(216,184,120,.5); }
+        .bj-card { display: flex; flex-direction: column; background: var(--ito-navy-lift); border: 1px solid rgba(250,247,240,.09); border-radius: 16px; overflow: hidden; text-decoration: none; color: var(--ito-ivory); transition: transform .25s ease, border-color .25s ease; }
+        .bj-card:hover { transform: translateY(-4px); border-color: rgba(240,202,145,.5); }
         .bj-shot { position: relative; overflow: hidden; }
-        .bj-cat { position: absolute; top: 14px; left: 14px; z-index: 3; background: rgba(7,23,38,.78); backdrop-filter: blur(4px); color: #d8b878; font-size: 10px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; }
+        .bj-cat { position: absolute; top: 14px; left: 14px; z-index: 3; background: rgba(16,36,58,.78); backdrop-filter: blur(4px); color: var(--ito-gold); font-size: 10px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; }
         .bj-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
-        .bj-title { font-family: var(--font-playfair), serif; font-weight: 700; line-height: 1.18; color: #fffaf1; }
-        .bj-ex { font-size: 13.5px; line-height: 1.6; color: rgba(255,250,241,.72); margin-top: 9px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .bj-title { font-family: var(--font-playfair), serif; font-weight: 700; line-height: 1.18; color: var(--ito-ivory); }
+        .bj-ex { font-size: 13.5px; line-height: 1.6; color: rgba(250,247,240,.72); margin-top: 9px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .bj-meta { margin-top: auto; padding-top: 16px; display: flex; align-items: center; justify-content: space-between; }
-        .bj-rt { font-size: 12px; color: rgba(255,250,241,.55); font-weight: 600; }
-        .bj-go { font-size: 12.5px; font-weight: 800; color: #d8b878; }
+        .bj-rt { font-size: 12px; color: rgba(250,247,240,.55); font-weight: 600; }
+        .bj-go { font-size: 12.5px; font-weight: 800; color: var(--ito-gold); }
 
         /* Öne çıkan (ilk) — yatay, geniş */
         .bj-feat { display: grid; grid-template-columns: 1.05fr 1fr; margin-bottom: 30px; }
