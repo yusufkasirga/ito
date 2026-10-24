@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261024-museum-access",
+  "slug": "istanbul-museum-access-planning-checklist",
+  "locale": "en",
+  "status": "published",
+  "title": "Planning an Istanbul Museum Visit Around Your Access Needs",
+  "excerpt": "Ask useful questions about entrances, lifts, seating and sensory information, then build a museum day with a confirmed route and a workable alternative.",
+  "category": "Culture",
+  "cover": "/images/hero-galata-1000x1250.jpg",
+  "dateISO": "2026-10-24",
+  "readTime": "6 min read",
+  "body": [
+    {
+      "type": "p",
+      "text": "A museum’s accessibility page is a useful starting point, but your own route and requirements decide whether a visit will work. Someone using a wheelchair may need precise entrance information; another visitor may need regular seated breaks, less standing or details about light and sound. Plan around those specific needs instead of relying on a single ‘accessible’ label. This checklist helps you ask clear questions without assuming that every building, pavement or service will suit every visitor."
+    },
+    {
+      "type": "h2",
+      "text": "Start with one main museum"
+    },
+    {
+      "type": "p",
+      "text": "Choose the collection or exhibition you most want to see, then give it enough room in the day. Begin with a shortlist of one main visit and one optional activity nearby. This makes it easier to adapt if getting into the building takes longer, a gallery is unavailable or you prefer a slower pace. Our [Istanbul itinerary guide](/blog/istanbul-itinerary-3-5-7-days) can help with the wider stay, but its sightseeing sequence should be adjusted to your confirmed access route rather than followed as a fixed schedule."
+    },
+    {
+      "type": "h2",
+      "text": "Use venue information to prepare precise questions"
+    },
+    {
+      "type": "p",
+      "text": "[Istanbul Modern’s visitor guide](https://www.istanbulmodern.org/en/visit/visitor-guide) mentions loan wheelchairs, portable stools and advance booking for descriptive tours. [Pera Museum’s access page](https://www.peramuzesi.org.tr/blog/disabled-visitors/53) describes lifts and wheelchair-accessible toilets. These are useful leads for planning, not a guarantee that every part of your intended visit is available on the day. Pera’s article is dated 2013, so reconfirm the arrangements directly before relying on them."
+    },
+    {
+      "type": "p",
+      "text": "Write to the venue with your travel date, party size and the part of the exhibition you want to see. Describe the practical requirement: avoiding all stairs, needing a seated rest during a visit, bringing a mobility aid or asking about sensory effects. Share only the information necessary to answer that question. A clear description of the route you need is often more useful than a broad request asking whether the museum is accessible."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Which entrance should I use, and is there a step-free route from the drop-off point to the gallery?",
+        "Are the lifts needed for that route operating, and is any gallery or entrance temporarily unavailable?",
+        "Where are the nearest suitable toilet and seated rest area on my proposed route?",
+        "Does borrowing equipment require advance booking, identification or a deposit, and is availability confirmed?",
+        "Are there flashing images, loud audio, dark spaces or scheduled busy periods relevant to this exhibition?"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Plan the approach as carefully as the gallery"
+    },
+    {
+      "type": "p",
+      "text": "Work backwards from the confirmed entrance to your hotel. A station being close on a map does not establish that the whole walk, crossing and entrance is suitable for you. Ask the venue about the last part of the approach and ask your transport provider about the vehicle and boarding arrangements you need. If using public transport, our [Istanbul transport guide](/blog/istanbul-public-transport-tourist-guide) gives network context; confirm access details with the operator for the particular journey."
+    },
+    {
+      "type": "p",
+      "text": "Keep the exact entrance address and any written instructions in your phone, with an offline copy if useful. If you book a transfer, share that entrance rather than only the museum name. Agree on a pickup point that works for the return journey as well. Leave time between the planned end of the visit and the next reservation, especially if you need assistance or want the option of a longer rest."
+    },
+    {
+      "type": "h2",
+      "text": "Separate admission eligibility from physical access"
+    },
+    {
+      "type": "p",
+      "text": "Ask the venue which ticket category applies to you and any companion, what evidence it accepts from international visitors and whether a booking is still needed. An access page may describe a concession without explaining every document or nationality condition. Confirm the answer before budgeting around it. You can also use our [museum-pass comparison](/blog/istanbul-museum-pass-or-single-tickets) to organise paid admission, but a pass’s coverage does not answer questions about the route inside a building."
+    },
+    {
+      "type": "h2",
+      "text": "Give yourself a workable alternative"
+    },
+    {
+      "type": "p",
+      "text": "A useful alternative is a shorter visit, a different date or another venue whose arrangements you have already checked. Avoid solving an uncertain museum route by adding several unfamiliar stops at the last minute. On the day, check recent venue messages and ask staff about any change affecting the agreed route. Keep the optional part of the day optional. This is travel preparation based on published venue information, not an on-site accessibility audit; your direct confirmation is what turns the shortlist into a practical plan."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Visitor Guide — Accessibility",
+      "url": "https://www.istanbulmodern.org/en/visit/visitor-guide",
+      "publisher": "Istanbul Modern",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "Disabled Visitors",
+      "url": "https://www.peramuzesi.org.tr/blog/disabled-visitors/53",
+      "publisher": "Pera Museum",
+      "accessedISO": "2026-10-24"
+    }
+  ],
+  "seo": {
+    "intent": "Prepare an Istanbul museum visit around individual mobility, rest and sensory requirements.",
+    "keywords": [
+      "Istanbul museum access planning",
+      "Istanbul museum wheelchair questions",
+      "accessible museum visit Istanbul"
+    ],
+    "topicKey": "istanbul-museum-individual-access-planning",
+    "uniqueValue": "A venue-contact question set covering the continuous entrance route, equipment availability, sensory needs and international-document eligibility without asserting universal access."
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Venue-owned Istanbul Modern and Pera pages read on 2026-10-24. Pera page’s 2013 date is explicitly disclosed; no current universal-access or international disability-concession guarantee. Advice concerns practical travel preparation, not medical assessment. Current corpus and closest transport/itinerary/Hagia Sophia bodies reviewed for distinct user intent. Draft awaiting independent review and venue confirmation for any personalised itinerary."
+  }
+}

@@ -1,6 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { blogEntries } from './blog/blogCatalog';
-import { blogPostsDe } from './blogs/blogDataDe';
+import { blogLocales, blogPath, getBlogEntries, getBlogLanguages } from './blog/blogCatalog';
 import { destinationSlugs } from './destinations/destinationData';
 
 const BASE = 'https://itineraryofturkiye.com';
@@ -9,45 +8,37 @@ const DESTINATIONS_UPDATED = '2026-09-25';
 
 const staticPaths = [
   '', '/about', '/services', '/services/tourism', '/services/medical-tourism',
-  '/contact', '/all-turkiye-destinations', '/blog', '/testimonials',
+  '/contact', '/all-turkiye-destinations', '/testimonials',
   '/future-services', '/privacy', '/terms', '/legal-notice', '/standard',
   '/how-we-work', '/editorial-policy', '/de', '/de/impressum', '/de/about',
   '/de/services', '/de/privacy', '/de/terms', '/de/future-services', '/de/links',
-  '/de/blog', '/de/testimonials', '/ru', '/ru/about', '/ru/services',
+  '/de/testimonials', '/ru', '/ru/about', '/ru/services',
   '/ru/future-services', '/links',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const englishSlugs = new Set(blogEntries.map((article) => article.slug));
-  const germanSlugs = new Set(blogPostsDe.map((post) => post.slug));
-  const blogLanguages = (slug = '') => ({
-    en: `${BASE}/blog${slug ? `/${slug}` : ''}`,
-    de: `${BASE}/de/blog${slug ? `/${slug}` : ''}`,
-    'x-default': `${BASE}/blog${slug ? `/${slug}` : ''}`,
-  });
-
   const staticPages: MetadataRoute.Sitemap = staticPaths.map((path) => ({
     url: `${BASE}${path}`,
     lastModified: path === '/editorial-policy' ? '2026-09-01' : SITE_UPDATED,
-    ...(['/blog', '/de/blog'].includes(path) ? { alternates: { languages: blogLanguages() } } : {}),
   }));
 
-  const posts: MetadataRoute.Sitemap = blogEntries.map((article) => ({
-    url: `${BASE}/blog/${article.slug}`,
-    lastModified: article.updatedISO ?? article.dateISO,
-    ...(germanSlugs.has(article.slug) ? { alternates: { languages: blogLanguages(article.slug) } } : {}),
-  }));
-
-  const dePosts: MetadataRoute.Sitemap = blogPostsDe.map((post) => ({
-    url: `${BASE}/de/blog/${post.slug}`,
-    lastModified: post.updatedISO ?? post.dateISO,
-    ...(englishSlugs.has(post.slug) ? { alternates: { languages: blogLanguages(post.slug) } } : {}),
-  }));
+  const blogPages: MetadataRoute.Sitemap = blogLocales.flatMap((locale) => {
+    const entries = getBlogEntries(locale);
+    if (!entries.length) return [];
+    return [
+      { url: `${BASE}${blogPath(locale)}`, lastModified: entries.reduce((latest, entry) => (entry.updatedISO ?? entry.dateISO) > latest ? (entry.updatedISO ?? entry.dateISO) : latest, SITE_UPDATED), alternates: { languages: getBlogLanguages() } },
+      ...entries.map((entry) => ({
+        url: `${BASE}${blogPath(locale, entry.slug)}`,
+        lastModified: entry.updatedISO ?? entry.dateISO,
+        alternates: { languages: getBlogLanguages(entry.slug) },
+      })),
+    ];
+  });
 
   const destinations: MetadataRoute.Sitemap = destinationSlugs.map((slug) => ({
     url: `${BASE}/destinations/${slug}`,
     lastModified: DESTINATIONS_UPDATED,
   }));
 
-  return [...staticPages, ...posts, ...destinations, ...dePosts];
+  return [...staticPages, ...blogPages, ...destinations];
 }

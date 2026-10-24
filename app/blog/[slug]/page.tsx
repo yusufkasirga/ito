@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SITE_URL } from '@/lib/config';
-import { blogEntries, getBlogAlternates, getBlogEntry } from '../blogCatalog';
+import { blogEntries, getBlogAlternates, getBlogEntry, getBlogContentArticle } from '../blogCatalog';
 import JournalBlogArticle from '../JournalBlogArticle';
 import LegacyBlogArticle from '../LegacyBlogArticle';
+import ContentBlogArticle from '../ContentBlogArticle';
+import { contentMetadata } from '../contentPresentation';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -15,6 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const entry = getBlogEntry(slug);
   if (!entry) notFound();
+  const content = getBlogContentArticle('en', slug);
+  if (content) return contentMetadata(content);
   const authorName = entry.author?.name ?? 'Itinerary of Türkiye';
   const image = new URL(entry.cover, SITE_URL).toString();
   return {
@@ -42,6 +46,8 @@ export default async function BlogArticlePage({ params }: Props) {
   const { slug } = await params;
   const entry = getBlogEntry(slug);
   if (!entry) notFound();
+  const content = getBlogContentArticle('en', slug);
+  if (content) return <ContentBlogArticle article={content} />;
   return entry.source === 'journal'
     ? <JournalBlogArticle slug={slug} />
     : <LegacyBlogArticle slug={slug} />;

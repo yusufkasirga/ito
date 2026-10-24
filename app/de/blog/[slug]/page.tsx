@@ -3,6 +3,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getPostBySlugDe as getPostBySlug, blogPostsDe as blogPosts } from '../../../blogs/blogDataDe';
+import { getBlogAlternates, getBlogEntries, getBlogContentArticle } from '../../../blog/blogCatalog';
+import ContentBlogArticle from '../../../blog/ContentBlogArticle';
+import { contentMetadata } from '../../../blog/contentPresentation';
 
 const SITE_URL = 'https://itineraryofturkiye.com';
 
@@ -27,7 +30,7 @@ function renderInline(text: string) {
 
 // Tüm blog yazıları build sırasında statik üretilir (SEO + hız)
 export function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
+  return getBlogEntries('de').map((p) => ({ slug: p.slug }));
 }
 
 // Her yazı için başlık, açıklama ve OG/Twitter kartları
@@ -35,12 +38,14 @@ export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
+  const content = getBlogContentArticle('de', slug);
+  if (content) return contentMetadata(content);
   const post = getPostBySlug(slug);
   if (!post) notFound();
   return {
     title: `${post.title} — Itinerary of Türkiye`,
     description: post.excerpt,
-    alternates: { canonical: `${SITE_URL}/de/blog/${post.slug}`, languages: { en: `${SITE_URL}${enPath(post.slug)}`, de: `${SITE_URL}/de/blog/${post.slug}`, 'x-default': `${SITE_URL}${enPath(post.slug)}` } },
+    alternates: getBlogAlternates(post.slug, 'de'),
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -63,6 +68,8 @@ export default async function BlogPostPage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
+  const content = getBlogContentArticle('de', slug);
+  if (content) return <ContentBlogArticle article={content} />;
   const post = getPostBySlug(slug);
 
   if (!post) notFound();

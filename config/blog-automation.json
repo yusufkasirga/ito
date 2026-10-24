@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Europe/Istanbul",
+  "targetSourceItems": 100,
+  "maxTopicsPerDay": 3,
+  "locales": [
+    "en",
+    "de",
+    "zh-CN",
+    "ko",
+    "es"
+  ],
+  "minimumQualityScore": 85,
+  "minimumWords": {
+    "en": 550,
+    "de": 450,
+    "es": 450
+  },
+  "minimumCharacters": {
+    "zh-CN": 1200,
+    "ko": 1500
+  },
+  "primaryDomains": [
+    "uab.gov.tr",
+    "ktb.gov.tr",
+    "dhmi.gov.tr",
+    "seyahatsagligi.gov.tr",
+    "tcdd.gov.tr",
+    "tcddtasimacilik.gov.tr",
+    "ebilet.tcddtasimacilik.gov.tr",
+    "muze.gov.tr",
+    "millisaraylar.gov.tr",
+    "goturkiye.com",
+    "unesco.org",
+    "kultur.istanbul",
+    "ibb.istanbul",
+    "metro.istanbul",
+    "sehirhatlari.istanbul",
+    "istanbulmodern.org",
+    "sakipsabancimuzesi.org",
+    "peramuzesi.org.tr",
+    "123.gov.tr",
+    "iett.istanbul"
+  ]
+}

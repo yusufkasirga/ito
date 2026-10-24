@@ -1,0 +1,25 @@
+export type ContentLocale = 'en' | 'de' | 'zh-CN' | 'ko' | 'es';
+export type ContentArticle = {
+  schemaVersion: 1;
+  id: string;
+  slug: string;
+  locale: ContentLocale;
+  status: 'draft' | 'review' | 'published';
+  title: string;
+  excerpt: string;
+  category: string;
+  cover: string;
+  dateISO: string;
+  updatedISO?: string;
+  readTime: string;
+  body: ({ type: 'h2' | 'p'; text: string } | { type: 'ul'; items: string[] })[];
+  sources: { title: string; url: string; publisher?: string; accessedISO?: string }[];
+  author?: { name: string; url: string; type?: 'Person' | 'Organization' };
+  seo: { intent: string; keywords: string[]; topicKey: string; uniqueValue: string };
+  quality: { score: number; factChecked: boolean; semanticReviewed: boolean; localizationReviewed: boolean; risk: 'low' | 'sensitive'; reviewNotes: string };
+};
+export const CONTENT_LOCALES: ContentLocale[];
+export const CONTENT_LOCALE_PATHS: Record<ContentLocale, string>;
+export function getContentArticles(locale?: ContentLocale): ContentArticle[];
+export function getContentArticle(locale: ContentLocale, slug: string): ContentArticle | undefined;
+export function getContentLanguages(slug: string): Partial<Record<ContentLocale, string>>;

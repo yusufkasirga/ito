@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261024-museum-pass",
+  "slug": "istanbul-museum-pass-or-single-tickets",
+  "locale": "en",
+  "status": "published",
+  "title": "Istanbul Museum Pass or Single Tickets? Compare Your Actual Visits",
+  "excerpt": "Use a simple itinerary-based calculation to choose museum admission in Istanbul, check coverage and avoid buying a pass for places you will not visit.",
+  "category": "Culture",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-10-24",
+  "readTime": "6 min read",
+  "body": [
+    {
+      "type": "p",
+      "text": "A museum pass is useful when its rules fit the visits you actually want to make. A large attraction count is less useful if the places that interest you are elsewhere, closed on your available day or too much to enjoy in one trip. Before buying admission for Istanbul, make a short list of real visits and compare those. The method below works without relying on a price that may change before your holiday."
+    },
+    {
+      "type": "h2",
+      "text": "Identify the product before comparing the price"
+    },
+    {
+      "type": "p",
+      "text": "The official [MuseumPass İstanbul product page](https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-009) describes a five-day validity period beginning with first museum entry. It also excludes night-museum sessions. Read the current product page when buying. Similar names do not make the ministry’s MuseumPass, a Müzekart product and a commercial sightseeing bundle interchangeable. Record the exact product name and seller so that its coverage and terms can be checked against the offer you are considering."
+    },
+    {
+      "type": "h2",
+      "text": "Build a three-column visit list"
+    },
+    {
+      "type": "p",
+      "text": "Create a line for each museum or attraction, followed by your planned date and the admission product required. Start with the places you would happily visit even if no pass existed. Mark each one ‘confirmed included’, ‘separate ticket’ or ‘needs confirmation’ after checking the live official pages. Leave unresolved items out of the savings calculation. A picture of a palace or monument in a sales page is not a precise statement of which rooms, sections or experiences are covered."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Open the official attraction page and check its exact admission product, visitor category and opening arrangements.",
+        "Match that product to the pass’s current included-site list and any section or session exclusions.",
+        "Check that the visit fits within the activation period and your available sightseeing days.",
+        "Keep extras such as guided visits, special exhibitions or transport separate until the seller explicitly confirms their inclusion."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Calculate savings using confirmed visits only"
+    },
+    {
+      "type": "p",
+      "text": "Add the current single-ticket prices for confirmed included places you intend to visit. Compare that sum with the current pass price in the same currency. Add any unavoidable separate tickets to both options, rather than pretending that a pass removes them. For state museum admission, the ministry’s [museum and archaeological-site tariff page](https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html) is a primary reference; check the venue page too for the actual product and any newer notice."
+    },
+    {
+      "type": "p",
+      "text": "For example, use letters rather than a stale sample price: if A and B are your two confirmed included admissions and P is the pass price, the comparison is A + B versus P. If a third visit C would only happen to make the pass look good, calculate both with and without C. This reveals whether the decision depends on a museum you are not particularly interested in. A small difference may be less valuable than keeping your afternoon flexible."
+    },
+    {
+      "type": "h2",
+      "text": "Test the plan against the calendar"
+    },
+    {
+      "type": "p",
+      "text": "Put your must-see visit on a day it is open before deciding when to activate a pass. Then group other visits into realistic half-days, with meals, queues and travel between them. Do not count your arrival afternoon as a full museum day if your flight or hotel check-in leaves little room. Our [Istanbul itinerary for three, five or seven days](/blog/istanbul-itinerary-3-5-7-days) is a starting point for the wider trip; replace its stops with your own priorities."
+    },
+    {
+      "type": "p",
+      "text": "Coverage can be particularly easy to misread around major monuments, where different institutions or experiences may have similar names. If Hagia Sophia is on your list, read our [Hagia Sophia visitor guide](/blog/hagia-sophia-mosque-visitor-guide) for context, then verify the exact visitor product with its current operator. Do not assume admission from a generic ‘Istanbul museums’ description or from an old PDF that includes a former museum arrangement."
+    },
+    {
+      "type": "h2",
+      "text": "A decision you can explain in one sentence"
+    },
+    {
+      "type": "p",
+      "text": "Choose the pass when your confirmed, wanted visits fit its current terms and the comparison makes sense. Choose single tickets when you have fewer visits, unresolved coverage or a flexible schedule. If a reseller adds tours or other services, price the components you will use and read its own booking and cancellation rules. Save the product page, receipt and activation instructions. A clear reason such as ‘these confirmed visits fit my dates and cost less together’ is a stronger purchase decision than trying to visit every item on a long list."
+    }
+  ],
+  "sources": [
+    {
+      "title": "MuseumPass İstanbul E-Card — official product terms",
+      "url": "https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-009",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "Müze ve Ören Yeri Ücretleri — museum and site admission tariff",
+      "url": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "publisher": "Ministry of Culture and Tourism — DÖSİM",
+      "accessedISO": "2026-10-24"
+    }
+  ],
+  "seo": {
+    "intent": "Choose between the official Istanbul MuseumPass and individual admission based on a personal itinerary.",
+    "keywords": [
+      "Istanbul MuseumPass or tickets",
+      "Istanbul museum pass value",
+      "museum pass coverage"
+    ],
+    "topicKey": "istanbul-museum-admission-choice",
+    "uniqueValue": "A confirmed-coverage ledger and symbolic break-even calculation that excludes speculative visits, separately priced sections and stale example prices."
+  },
+  "quality": {
+    "score": 88,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Live primary product and DÖSİM tariff pages read on 2026-10-24. No fixed price, coverage list, queue-skipping guarantee or assumed discount. Closest itinerary, Hagia Sophia and tourism article bodies reviewed; this is an admission-decision framework rather than a destination list. Draft pending independent review. The live product’s included-museum section was not extracted; no coverage for specific monuments is asserted."
+  }
+}

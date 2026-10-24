@@ -1,0 +1,1614 @@
+{
+  "schemaVersion": 1,
+  "originalScan": {
+    "collectedAt": "2026-10-24T16:38:22.246Z",
+    "screeningDepth": "All 100 titles and available summary previews screened. Selected supporting pages separately researched. This is not a claim that 100 full articles were read or independently fact-checked.",
+    "items": [
+      {
+        "id": "f01fdea9d9d828c4760c57f3",
+        "url": "https://www.uab.gov.tr/haberler/4-pist-ile-1-ayda-284-ton-yakit-tasarrufu",
+        "title": "4. PİST İLE 1 AYDA 284 TON YAKIT TASARRUFU Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, İstanbul Havalimanı’nda 18 Eylül’de hizmete açılan 4. ana pistten 15 Ekim tarihine kadar toplam 1.738 kalkış gerçekleştirildiğini bildirdi. Bakan Uraloğlu, “Yeni pistten gerçekleştirilen 1.738 kalkışın 1.475’inde standart aletli ka… 22 Ekim 2026",
+        "publishedAt": "2026-10-22T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "d5ec371fb4c2afcab8c5fe6d",
+        "url": "https://basin.ktb.gov.tr/TR-475961/hititlerin-devlet-hafizasi-3-bin-400-yil-sonra-gun-isigina-kavustu.html",
+        "title": "HİTİTLERİN DEVLET HAFIZASI 3 BİN 400 YIL SONRA GÜN IŞIĞINA KAVUŞTU",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "ktb-press",
+        "authority": "primary"
+      },
+      {
+        "id": "61ff1d28ac39a0aafef4ebab",
+        "url": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Istanbul/HaberDetay.aspx?q=1329",
+        "title": "CUMHURBAŞKANI ERDOĞAN’IN TALİMATIYLA 4. PİSTTEN İLK UÇAK HAVALANDI",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "sourceId": "dhmi-istanbul",
+        "authority": "primary"
+      },
+      {
+        "id": "79f03850b5e6a821871a09d6",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4144",
+        "title": "SUUDİ ARABİSTAN’DA ORTA DOĞU SOLUNUM YOLU SENDROMU KORONAVİRÜSÜ-MERS-COV",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "660e9ad899e41e62678d7055",
+        "url": "https://www.turizmgunlugu.com/2026/10/24/amazon-ve-hiltondan-seyahat-teknolojisi-girisimlerine-ai-uyarisi-artik-yapay-zeka-kullanmak-yetmiyor",
+        "title": "Amazon ve Hilton’dan Seyahat Teknolojisi Girişimlerine AI Uyarısı: Artık Yapay Zekâ Kullanmak Yetmiyor",
+        "publishedAt": "2026-10-24T06:21:19.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "0e81bd5b18008d8066b5aa2c",
+        "url": "https://www.turizmhabermerkezi.net/istanbul-turizminde-carpici-tablo-turist-sayisi-artarken-otel-fiyatlari-geriledi/25490",
+        "title": "İstanbul Turizminde Çarpıcı Tablo: Turist Sayısı Artarken Otel Fiyatları Geriledi",
+        "publishedAt": "2026-10-24T06:42:24.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "3bb22387599c4b5e2c6dba5f",
+        "url": "https://www.dailysabah.com/sports/football/man-citys-perfect-start-goes-up-in-smoke-with-loss-to-aston-villa",
+        "title": "Man City’s perfect start goes up in smoke with loss to Aston Villa",
+        "publishedAt": "2026-10-24T15:34:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "23fed9dfaf63f1ae0768513e",
+        "url": "https://www.breakingtravelnews.com/news/article/europes-most-underrated-christmas-markets-revealed",
+        "title": "Europe’s most underrated Christmas markets revealed",
+        "publishedAt": "2026-10-24T10:55:20.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6409feeb45306b6e353f6475",
+        "url": "https://www.traveldailynews.com/meetings-events/routes-world-awards-2026-rome-fiumicino-overall-winner",
+        "title": "Rome Fiumicino wins Routes World Awards overall title",
+        "publishedAt": "2026-10-23T10:32:55.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "40dc94a95eb6a38b52877424",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4143",
+        "title": "RUSYA FEDERASYONU’NDA ETİYOLOJİSİ BELİRLENEMEYEN PNÖMONİ",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "684cd8fd2279a1bce1ce154b",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/corendon-tennis-week-2026-uluslararasi-tenis-dunyasini-kemerde-agirladi",
+        "title": "Corendon Tennis Week 2026, Uluslararası Tenis Dünyasını Kemer’de Ağırladı",
+        "publishedAt": "2026-10-23T08:01:39.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "01f61bd7325371cb10cab9f4",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-turizminde-3-milyar-dolari-asan-yeni-otel-yatirimi-280-proje-yolda/25489",
+        "title": "Türkiye Turizminde 3 Milyar Doları Aşan Yeni Otel Yatırımı: 280 Proje Yolda",
+        "publishedAt": "2026-10-23T06:54:28.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "aeb43fb6a97717a6075a9b21",
+        "url": "https://www.dailysabah.com/politics/diplomacy/erdogan-hails-turkiyes-heritage-as-topkapi-opens-5-museums",
+        "title": "Erdoğan hails Türkiye’s heritage as Topkapı opens 5 museums",
+        "publishedAt": "2026-10-24T13:13:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "fceecce7d0e3318805bb40e0",
+        "url": "https://www.breakingtravelnews.com/news/article/jetour-brings-its-travel-ecosystem-to-life",
+        "title": "JETOUR Brings Its “Travel+” Ecosystem to Life",
+        "publishedAt": "2026-10-24T10:41:54.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "5c65a14f38ae6d488d10d03d",
+        "url": "https://www.traveldailynews.com/associations/hotrec-european-commission-booking-com-dsa-proceedings",
+        "title": "HOTREC welcomes EU proceedings against Booking.com under the DSA",
+        "publishedAt": "2026-10-23T10:23:08.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "557dd8a35cdd55faa42e1c41",
+        "url": "https://www.uab.gov.tr/haberler/tanzanyanin-vagonlari-tuerkiyeden",
+        "title": "TANZANYA'NIN VAGONLARI TÜRKİYE'DEN 21 Ekim 2026",
+        "publishedAt": "2026-10-21T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "63709d92ab0de2e804cdc6fb",
+        "url": "https://basin.ktb.gov.tr/TR-475775/antik-romanin-gorkemli-eserleri-asirlar-sonra-dunya-sahnesinde.html",
+        "title": "ANTİK ROMA’NIN GÖRKEMLİ ESERLERİ ASIRLAR SONRA DÜNYA SAHNESİNDE",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "sourceId": "ktb-press",
+        "authority": "primary"
+      },
+      {
+        "id": "c88ca4c9e9f0f9c83ba7a3f4",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4142",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "f5e00e380be75e93d834b950",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/kuyumcu-han-sehir-arastirmalari-merkezi-acildi",
+        "title": "İBB Miras’tan İstanbul’a Yeni Kültür Rotası: Kuyumcu Han Şehir Araştırmaları Merkezi Ziyarete Açıldı",
+        "publishedAt": "2026-10-23T07:30:43.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "a034e855075d7b3fc1b107e3",
+        "url": "https://www.turizmhabermerkezi.net/alacati-port-otel-5-yilligina-kiralanacak-ihale-tarihi-ve-bedeli-aciklandi/25487",
+        "title": "Alaçatı Port Otel 5 Yıllığına Kiralanacak: İhale Tarihi ve Bedeli Açıklandı",
+        "publishedAt": "2026-10-21T05:47:01.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "8c07326e5371345c424e23b6",
+        "url": "https://www.dailysabah.com/world/americas/harris-returns-to-campaign-trail-as-2028-white-house-questions-loom",
+        "title": "Harris returns to campaign trail as 2028 White House questions loom",
+        "publishedAt": "2026-10-24T12:54:06.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "1d8c7a0fce4f2f72f22aff40",
+        "url": "https://www.breakingtravelnews.com/news/article/a-milestone-for-la-dolce-vita-orient-express-connecting-rome-and-istanbul",
+        "title": "A milestone for La Dolce Vita Orient Express, connecting Rome and Istanbul",
+        "publishedAt": "2026-10-24T10:34:39.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6c10e675653b75fedc77ddc3",
+        "url": "https://www.traveldailynews.com/aviation/lafayettes-creole-kitchen-bar-philadelphia-airport",
+        "title": "Lafayette’s Creole Kitchen & Bar οpens at Philadelphia Airport",
+        "publishedAt": "2026-10-23T09:52:35.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "c23a4b7ab40fca2cf4568d1f",
+        "url": "https://www.uab.gov.tr/haberler/tuerksat-3-kat-daha-fazla-veri-depolayacak",
+        "title": "TÜRKSAT 3 KAT DAHA FAZLA VERİ DEPOLAYACAK 20 Ekim 2026",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "8b1b582141137ddd73e4ac72",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4140",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "ea3a1d629a5f3ece4b46b713",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/ensana-furstenhof-yenilendi-almanyada-termal-turizm-ve-saglik-odakli-yeni-donem",
+        "title": "Ensana Fürstenhof Yenilendi: Almanya’da Termal Turizm ve Sağlık Odaklı Yeni Dönem",
+        "publishedAt": "2026-10-23T07:01:26.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "7a2eae62d66c6c31189736a9",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-turizm-gelirlerinde-yeni-rekorlara-hazirlaniyor-2027-ve-2028-hedefleri-belli-oldu/25486",
+        "title": "Türkiye Turizm Gelirlerinde Yeni Rekorlara Hazırlanıyor: 2027 ve 2028 Hedefleri Belli Oldu",
+        "publishedAt": "2026-10-20T06:32:42.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "8ca30b3dd8eabe08c46a7b22",
+        "url": "https://www.dailysabah.com/world/africa/7-trapped-after-16-storey-building-collapses-in-kenyas-nairobi",
+        "title": "7 trapped after 16-storey building collapses in Kenya's Nairobi",
+        "publishedAt": "2026-10-24T12:33:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "06e5e068ba85144bb054e540",
+        "url": "https://www.breakingtravelnews.com/news/article/the-palm-beaches-are-having-a-moment-discover-whats-new-in-2027",
+        "title": "The Palm Beaches are Having a Moment: Discover What’s New in 2027",
+        "publishedAt": "2026-10-24T07:12:06.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "35c2b6f650a9a4fbdff36cad",
+        "url": "https://www.traveldailynews.com/meetings-events/etoa-showcase-outbound-india-2027",
+        "title": "ETOA launches Showcase: Outbound India 2027",
+        "publishedAt": "2026-10-23T09:12:30.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "7cf891cafba04374ea5a9510",
+        "url": "https://www.uab.gov.tr/haberler/kalkinma-yolu-tasimacilikta-20-guen-kazandiracak",
+        "title": "KALKINMA YOLU, TAŞIMACILIKTA 20 GÜN KAZANDIRACAK 19 Ekim 2026",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "b8f05b3525cb18d9ff3a59b5",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4138",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-09-10T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "42477339a453674057c8b559",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/pegasusun-stratejik-yukselisi-ucus-agini-kuresel-guce-donusturmek",
+        "title": "Pegasus’un Stratejik Yükselişi: Uçuş Ağını Küresel Güce Dönüştürmek",
+        "publishedAt": "2026-10-23T05:03:10.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "06789be351f7f835ca4ce600",
+        "url": "https://www.turizmhabermerkezi.net/vize-sirketlerine-operasyon-60-kisi-gozaltinda/25485",
+        "title": "Vize Şirketlerine Operasyon: 60 Kişi Gözaltında",
+        "publishedAt": "2026-10-20T02:08:58.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "32ee4bab5943903fc7e18526",
+        "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-slams-greece-for-violating-western-thrace-minority-rights",
+        "title": "Türkiye slams Greece for violating Western Thrace minority rights",
+        "publishedAt": "2026-10-24T11:52:45.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "9a56d22504a6cad075d6f2db",
+        "url": "https://www.breakingtravelnews.com/news/article/kennedy-space-center-visitor-complex-powers-up-for-max-power",
+        "title": "KENNEDY SPACE CENTER VISITOR COMPLEX POWERS UP FOR MAX POWER",
+        "publishedAt": "2026-10-24T07:09:50.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6fc311b27096c046b30d126f",
+        "url": "https://www.traveldailynews.com/special-interest-travel/antarctica21-2028-29-antarctic-air-cruise-season",
+        "title": "Antarctica21 opens 47 air-cruise departures for 2028-29",
+        "publishedAt": "2026-10-23T09:02:35.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "e0a4df3562a4104934e1ab46",
+        "url": "https://www.uab.gov.tr/haberler/ankara-kayseri-arasi-1-saat-45-dakikaya-duesecek",
+        "title": "ANKARA-KAYSERİ ARASI 1 SAAT 45 DAKİKAYA DÜŞECEK 18 Ekim 2026",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "cfa535cb5ce68fd7de14f60b",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/thy-business-classta-yemek-sikayeti-burkay-adaligdan-7-yolcuyuz-somon-bitti-tepkisi",
+        "title": "THY Business Class’ta Yemek Şikâyeti: Burkay Adalığ’dan “7 Yolcuyuz, Somon Bitti” Tepkisi",
+        "publishedAt": "2026-10-23T03:15:27.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "08a4ff25adb8085d8d4fa670",
+        "url": "https://www.turizmhabermerkezi.net/marmariste-otel-calisanlarini-tasiyan-servis-devrildi-cok-sayida-yarali-var/25484",
+        "title": "Marmaris’te Otel Çalışanlarını Taşıyan Servis Devrildi: Çok Sayıda Yaralı Var",
+        "publishedAt": "2026-10-19T19:16:26.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "dde05f1e87056d96cf5fb88b",
+        "url": "https://www.dailysabah.com/world/africa/more-than-2000-flee-ethiopia-clashes-as-death-toll-reaches-9",
+        "title": "More than 2,000 flee Ethiopia clashes as death toll reaches 9",
+        "publishedAt": "2026-10-24T11:49:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "5a3ddb884eccf624316cb570",
+        "url": "https://www.breakingtravelnews.com/news/article/save-up-to-20-on-bangkokkuala-lumpur-with-vietjet-thailand-tourism-malaysia",
+        "title": "Save Up to 20% on Bangkok–Kuala Lumpur with Vietjet Thailand & Tourism Malaysia",
+        "publishedAt": "2026-10-24T07:05:28.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "eccc2ae3a5c869aefcd68347",
+        "url": "https://www.traveldailynews.com/associations/hotrec-quality-jobs-act-enforcement-social-dialogue",
+        "title": "HOTREC calls for effective enforcement in the EU Quality Jobs Act",
+        "publishedAt": "2026-10-23T08:22:44.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "961978c80341e5f175e5567b",
+        "url": "https://www.uab.gov.tr/haberler/cesmeli-kizkalesi-otoyolu-pazartesi-guenue-trafige-aciliyor",
+        "title": "ÇEŞMELİ-KIZKALESİ OTOYOLU PAZARTESİ GÜNÜ TRAFİĞE AÇILIYOR 17 Ekim 2026",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "29f3e9bd64b0fa783423424b",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/tatil-seyahat-harcamalari-18-taksit-2026",
+        "title": "Tatil ve Tur Harcamalarında 18 Taksit İmkânı: Seyahat Acenteleri ve Tatilciler İçin Yeni Dönem",
+        "publishedAt": "2026-10-22T10:51:24.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "b7ac9008ff623ff24303152b",
+        "url": "https://www.turizmhabermerkezi.net/ayda-ilk-otel-icin-geri-sayim-gru-space-rezervasyon-basvurularini-baslatti/25483",
+        "title": "Ay’da İlk Otel İçin Geri Sayım: GRU Space Rezervasyon Başvurularını Başlattı",
+        "publishedAt": "2026-10-19T14:01:21.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "6eaecdf42e60a57fe075a066",
+        "url": "https://www.dailysabah.com/world/africa/kenya-ebola-outbreak-claims-2nd-life-as-9-cases-confirmed",
+        "title": "Kenya Ebola outbreak claims 2nd life as 9 cases confirmed",
+        "publishedAt": "2026-10-24T11:48:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "902327304eed76f2cd0fb229",
+        "url": "https://www.breakingtravelnews.com/news/article/visa-partners-singapore-tourism-board-to-strengthen-singapores-global-desti",
+        "title": "Visa Partners Singapore Tourism Board to Strengthen Singapore’s Global Destination Appeal",
+        "publishedAt": "2026-10-23T13:21:02.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "9c92c442ed123af57f5617db",
+        "url": "https://www.traveldailynews.com/people/new-appointments/beach-enclave-appoints-kenton-jones-jeffrey-sirota",
+        "title": "Beach Enclave appoints Kenton Jones as Managing Director",
+        "publishedAt": "2026-10-23T08:14:24.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "d7755afee4b8080195425b57",
+        "url": "https://www.uab.gov.tr/haberler/engelli-gazi-ve-sehit-yakinlari-kimlikle-bilet-alip-seyahat-edebilecek",
+        "title": "ENGELLİ, GAZİ VE ŞEHİT YAKINLARI KİMLİKLE BİLET ALIP SEYAHAT EDEBİLECEK 16 Ekim 2026",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "b26a835ec1ab538fbd2c5176",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/otellerde-yapay-zeka-kullaniminin-onundeki-en-buyuk-engel-ne",
+        "title": "Otellerde Yapay Zekâ Kullanımının Önündeki En Büyük Engel Ne?",
+        "publishedAt": "2026-10-22T10:18:45.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "c50efcd2fcc7eaf636056ee6",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-genelindeki-otellerde-ciro-rekoru-kirildi/25482",
+        "title": "Türkiye Genelindeki Otellerde Ciro Rekoru Kırıldı",
+        "publishedAt": "2026-10-19T03:37:55.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "57519ffe2cd4242302dad25a",
+        "url": "https://www.dailysabah.com/world/mid-east/jordan-vows-crackdown-after-church-funeral-attack-kills-8",
+        "title": "Jordan vows crackdown after church funeral attack kills 8",
+        "publishedAt": "2026-10-24T11:43:31.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "37bc54fca3253eeb5bf7b513",
+        "url": "https://www.breakingtravelnews.com/news/article/passenger-traffic-between-mexico-and-the-dominican-republic-grew-423-since",
+        "title": "Passenger Traffic Between Mexico and the Dominican Republic Grew 423% Since Arajet Began Operating",
+        "publishedAt": "2026-10-23T10:28:43.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "a0e0f2215a64a2724e277ec3",
+        "url": "https://www.traveldailynews.com/aviation/el-al-new-inflight-digital-passenger-services",
+        "title": "EL AL announces new onboard and digital passenger services",
+        "publishedAt": "2026-10-23T07:25:09.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "cc9516684db323edf777e2c3",
+        "url": "https://www.uab.gov.tr/haberler/karayolu-ve-demiryolunda-21-ekolojik-koeprue-tamamlandi",
+        "title": "KARAYOLU VE DEMİRYOLUNDA 21 EKOLOJİK KÖPRÜ TAMAMLANDI 15 Ekim 2026",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "ac7788dafb23d8f996c69fe9",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/cumhuriyet-bayrami-tatili-icin-en-anlamli-5-rota",
+        "title": "Cumhuriyet Bayramı Tatili İçin En Anlamlı 5 Rota",
+        "publishedAt": "2026-10-22T08:00:31.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "6c41efafaf363858249b5a99",
+        "url": "https://www.turizmhabermerkezi.net/otel-sahibi-gocmen-kacakcisi-cikti/25481",
+        "title": "Otel Sahibi Göçmen Kaçakçısı Çıktı!",
+        "publishedAt": "2026-10-18T11:23:01.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "4628f7c476800a3d026d4f9a",
+        "url": "https://www.dailysabah.com/world/europe/students-join-albanias-flamingo-revolution-as-unrest-spreads",
+        "title": "Students join Albania’s ‘Flamingo Revolution’ as unrest spreads",
+        "publishedAt": "2026-10-24T11:24:35.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "e27a9b6e2bec6fbb55299c69",
+        "url": "https://www.breakingtravelnews.com/news/article/chta-announces-taste-of-the-caribbean-2026-teams",
+        "title": "CHTA ANNOUNCES TASTE OF THE CARIBBEAN 2026 TEAMS",
+        "publishedAt": "2026-10-23T07:20:59.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "7d79bb4d1db880cf937fa9f4",
+        "url": "https://www.traveldailynews.com/statistics-trends/us-international-tourism-decline-2026",
+        "title": "US overseas arrivals fall 5.7% in first nine months of 2026",
+        "publishedAt": "2026-10-23T07:03:05.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "40d3e45f29809f26455441a3",
+        "url": "https://www.uab.gov.tr/haberler/ankara-samsun-arasi-2-5-saate-duesecek-1",
+        "title": "ANKARA-SAMSUN ARASI 2,5 SAATE DÜŞECEK 14 Ekim 2026",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "c668a015bd1daecc8a5f5811",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/ucak-bileti-fiyatlari-2027de-ne-kadar-artacak",
+        "title": "Uçak Bileti Fiyatları 2027’de Ne Kadar Artacak? Ryanair CEO’su Açıkladı!",
+        "publishedAt": "2026-10-22T07:13:47.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "d384f5c7eafa0bb3e3286d0d",
+        "url": "https://www.turizmhabermerkezi.net/gece-muzeciligine-13-milyon-ziyaretci-iste-en-cok-ilgi-goren-6-muze-ve-oren-yeri/25480",
+        "title": "Gece Müzeciliğine 1,3 Milyon Ziyaretçi: İşte En Çok İlgi Gören 6 Müze ve Ören Yeri",
+        "publishedAt": "2026-10-18T03:01:13.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "c254c9ad947481ac8056bd43",
+        "url": "https://www.dailysabah.com/world/europe/merz-warns-of-threat-from-russia-amid-germanys-political-turmoil",
+        "title": "Merz warns of threat from Russia amid Germany's political turmoil",
+        "publishedAt": "2026-10-24T11:09:35.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "9b06ec409790f749fb6651a4",
+        "url": "https://www.breakingtravelnews.com/news/article/visit-qatar-to-showcase-qatars-tourism-offering-at-world-travel-market-lond",
+        "title": "Visit Qatar to Showcase Qatar’s Tourism Offering at World Travel Market London 2026",
+        "publishedAt": "2026-10-23T07:15:11.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "da40150e9e509b00e0bba4f9",
+        "url": "https://www.traveldailynews.com/hotels-lodging/shaner-hotels-opens-towneplace-suites-state-college",
+        "title": "Shaner Hotels opens TownePlace Suites in State College, Pennsylvania",
+        "publishedAt": "2026-10-23T06:54:44.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "a3ae4d2f47293e5887e94a48",
+        "url": "https://www.uab.gov.tr/haberler/erzurum-rize-arasi-4-6-km-daha-kisaliyor",
+        "title": "ERZURUM-RİZE ARASI 4,6 KM DAHA KISALIYOR 13 Ekim 2026",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "1c5edac6236b39ea43c0e5c3",
+        "url": "https://www.turizmhabermerkezi.net/turkiyeden-dort-resort-otel-avrupanin-en-iyi-25-oteli-listesinde/25479",
+        "title": "Türkiye’den Dört Resort Otel Avrupa’nın en iyi 25 Oteli Listesinde!",
+        "publishedAt": "2026-10-17T07:46:14.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "ea5168188af87c884f2c3aad",
+        "url": "https://www.dailysabah.com/world/europe/french-police-fire-tear-gas-security-personnel-deploy-for-protests",
+        "title": "French police fire tear gas, security personnel deploy for protests",
+        "publishedAt": "2026-10-24T10:41:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "76566f2aa7e4855982bfede8",
+        "url": "https://www.uab.gov.tr/haberler/havayolunda-9-ayda-193-1-milyon-yolcu",
+        "title": "HAVAYOLUNDA 9 AYDA 193,1 MİLYON YOLCU 12 Ekim 2026",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "e8dde6b42827cbc571d2b841",
+        "url": "https://www.turizmhabermerkezi.net/eskisehirde-otel-sahibi-kendi-otelinde-olu-bulundu/25478",
+        "title": "Eskişehir'de Otel Sahibi Kendi Otelinde Ölü Bulundu!",
+        "publishedAt": "2026-10-17T02:29:53.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "9d4cb7e45a3c2c9e21ef33d1",
+        "url": "https://www.dailysabah.com/sports/football/ronaldinho-to-end-11-year-playing-hiatus-with-ravenna-comeback",
+        "title": "Ronaldinho to end 11-year playing hiatus with Ravenna comeback",
+        "publishedAt": "2026-10-24T10:38:07.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "49e687ed6b34505c140ff8ed",
+        "url": "https://www.uab.gov.tr/haberler/turistik-dogu-ekspresi-yeni-sezonda-70-sefer-yapacak",
+        "title": "TURİSTİK DOĞU EKSPRESİ YENİ SEZONDA 70 SEFER YAPACAK 11 Ekim 2026",
+        "publishedAt": "2026-10-11T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "4210304071c4adebe2c06719",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-geneline-26-yeni-termal-otel-geliyor-iste-yatirim-yapilacak-bolge-ve-sehirler/25477",
+        "title": "Türkiye Geneline 26 Yeni Termal Otel Geliyor: İşte Yatırım Yapılacak Bölge Ve Şehirler",
+        "publishedAt": "2026-10-16T00:58:51.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "73cb2aba0517fd002f4a3d4b",
+        "url": "https://www.dailysabah.com/sports/football/messi-becomes-1st-footballer-to-win-asturias-award-individually",
+        "title": "Messi becomes 1st footballer to win Asturias Award individually",
+        "publishedAt": "2026-10-24T10:38:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "146a4594b3226f3b6e9a4363",
+        "url": "https://www.turizmhabermerkezi.net/eskisehire-5-yildizli-termal-otel-geliyor/25476",
+        "title": "Eskişehir’e 5 Yıldızlı Termal Otel Geliyor!",
+        "publishedAt": "2026-10-15T12:41:51.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "db7be2f4d8cf36db31e70b44",
+        "url": "https://www.dailysabah.com/sports/football/madrids-mourinho-rejects-barcelona-comparisons-ahead-of-clasico",
+        "title": "Madrid's Mourinho rejects Barcelona comparisons ahead of Clasico",
+        "publishedAt": "2026-10-24T10:37:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "0b15002fa99c068bf00624aa",
+        "url": "https://www.turizmhabermerkezi.net/oteller-icin-yeni-donem-surdurulebilirlik-kriterleri-geliyor/25475",
+        "title": "Oteller İçin Yeni Dönem: Sürdürülebilirlik Kriterleri Geliyor",
+        "publishedAt": "2026-10-15T07:19:32.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "bb9aa08ce87d446bd3187a5a",
+        "url": "https://www.dailysabah.com/world/europe/paris-closes-museums-as-france-deploys-police-for-fresh-protests",
+        "title": "Paris closes museums as France deploys police for fresh protests",
+        "publishedAt": "2026-10-24T10:11:39.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "c7689186581f5ebaed982f2d",
+        "url": "https://www.turizmhabermerkezi.net/ankara-turizmi-ve-otelleri-icin-yeni-yol-haritasi-doluluk-verileri-degisim-ihtiyacini-ortaya-koydu/25474",
+        "title": "Ankara Turizmi Ve Otelleri İçin Yeni Yol Haritası: Doluluk Verileri Değişim İhtiyacını Ortaya Koydu",
+        "publishedAt": "2026-10-14T06:56:13.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "7a35ada4a3859cdd298d6dca",
+        "url": "https://www.dailysabah.com/politics/diplomacy/fidan-to-meet-yemeni-fm-as-fighting-threatens-key-shipping-routes",
+        "title": "Fidan to meet Yemeni FM as fighting threatens key shipping routes",
+        "publishedAt": "2026-10-24T10:02:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "cd552f0d8820c5eedadb2662",
+        "url": "https://www.turizmhabermerkezi.net/ankara-camliderede-turizm-imarli-arsa-ihaleyle-satilacak-iste-fiyati/25473",
+        "title": "Ankara Çamlıdere’de Turizm İmarlı Arsa İhaleyle Satılacak: İşte Fiyatı",
+        "publishedAt": "2026-10-13T05:36:16.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "a790c7f13b2b3d6742e7ed14",
+        "url": "https://www.dailysabah.com/politics/diplomacy/8-nation-istanbul-talks-urge-diplomacy-to-quell-mideast-conflicts",
+        "title": "8-nation Istanbul talks urge diplomacy to quell Mideast conflicts",
+        "publishedAt": "2026-10-24T09:38:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "a624e2ca5b48ad1c7f248934",
+        "url": "https://www.turizmhabermerkezi.net/maia-perlada-yargi-sureci-sonuclandi-kusadasindaki-otel-gorunumlu-proje-iptal-edildi/25472",
+        "title": "Maia Perla’da Yargı Süreci Sonuçlandı: Kuşadası’ndaki Otel Görünümlü Proje İptal Edildi",
+        "publishedAt": "2026-10-12T02:10:33.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "d32d8af654fb8f192f7656e2",
+        "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-denounces-deadly-shooting-at-greek-orthodox-church-in-jordan",
+        "title": "Türkiye denounces deadly shooting at Greek Orthodox church in Jordan",
+        "publishedAt": "2026-10-24T09:17:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "8da2ca0ce9971cf408cc283a",
+        "url": "https://www.turizmhabermerkezi.net/my-world-turizm-tur-otobusu-akhisarda-faciaya-sebep-oldu-11-kisi-hayatini-kaybetti/25471",
+        "title": "My World Turizm Tur Otobüsü Akhisar’da Faciaya Sebep Oldu: 11 Kişi Hayatını Kaybetti",
+        "publishedAt": "2026-10-11T17:39:18.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "490c849ece25431e94ae8400",
+        "url": "https://www.dailysabah.com/sports/football/bayerns-kompany-out-for-weeks-not-days-after-collapsing-on-pitch",
+        "title": "Bayern's Kompany out for 'weeks, not days' after collapsing on pitch",
+        "publishedAt": "2026-10-24T09:10:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "5d5c5c0384d5e662278c3d7b",
+        "url": "https://www.turizmhabermerkezi.net/bakanlik-sinop-ciftlik-inceburuna-ucretsiz-girisli-halk-plaji-yapmak-icin-dugmeye-basti/25470",
+        "title": "Bakanlık Sinop Çiftlik İnceburun’a Ücretsiz Girişli Halk Plajı Yapmak İçin Düğmeye Bastı",
+        "publishedAt": "2026-10-11T12:18:06.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "82d573655388906f60cef20d",
+        "url": "https://www.dailysabah.com/world/asia-pacific/kims-surprise-china-trip-raises-hopes-of-renewed-us-talks",
+        "title": "Kim’s surprise China trip raises hopes of renewed US talks",
+        "publishedAt": "2026-10-24T07:37:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "15cda873d8a261c2d88a0d97",
+        "url": "https://www.dailysabah.com/opinion/op-ed/why-is-israel-keeping-an-eye-on-turkish-navy",
+        "title": "Why is Israel keeping an eye on Turkish navy?",
+        "publishedAt": "2026-10-23T21:05:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "85cda8f45e31b49b0576f652",
+        "url": "https://www.dailysabah.com/opinion/op-ed/sorry-matt-taibbi-metallica-is-political-too",
+        "title": "Sorry, Matt Taibbi: Metallica is political, too",
+        "publishedAt": "2026-10-23T21:05:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "0b21a266bce9c000bc44b6c8",
+        "url": "https://www.dailysabah.com/opinion/columns/badr-alliance-turkiye-grows-stronger-through-new-alliances",
+        "title": "'Badr' alliance: Türkiye grows stronger through new alliances",
+        "publishedAt": "2026-10-23T21:05:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "d842ec7044fbd557d340b9cb",
+        "url": "https://www.dailysabah.com/opinion/columns/when-self-confidence-fades-language-falls-silent",
+        "title": "When self-confidence fades, language falls silent",
+        "publishedAt": "2026-10-23T21:05:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "f58bda1ced7676be15ccba9a",
+        "url": "https://www.dailysabah.com/politics/turkiye-rules-out-fight-against-houthis-under-saudi-defense-pact-guler/news",
+        "title": "Türkiye rules out fight against Houthis under Saudi defense pact: Güler",
+        "publishedAt": "2026-10-23T19:54:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "606267054c2b9cd061605096",
+        "url": "https://www.dailysabah.com/world/mid-east/us-could-launch-strikes-on-iran-this-weekend-envoy-warns",
+        "title": "US could launch strikes on Iran this weekend, envoy warns",
+        "publishedAt": "2026-10-23T19:32:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "6e0c24de248fe28682d61718",
+        "url": "https://www.dailysabah.com/world/mid-east/iran-plans-to-target-gulf-undersea-cables-if-attacked-report",
+        "title": "Iran plans to target Gulf undersea cables if attacked: Report",
+        "publishedAt": "2026-10-23T19:32:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "bdfa82f6ae9a73f5691d8fd4",
+        "url": "https://www.dailysabah.com/politics/diplomacy/israeli-occupation-main-source-of-regional-instability-r4-nations",
+        "title": "Israeli occupation main source of regional instability: R4 nations",
+        "publishedAt": "2026-10-23T19:30:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "5b3ecd9c33c6c686a81ca480",
+        "url": "https://www.dailysabah.com/business/economy/trump-may-scrap-50-tariffs-on-canadian-goods-to-aid-gop-senator",
+        "title": "Trump may scrap 50% tariffs on Canadian goods to aid GOP senator",
+        "publishedAt": "2026-10-23T18:29:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "879c8a5bd9a9cff85642dbd8",
+        "url": "https://www.dailysabah.com/politics/diplomacy/president-erdogan-hosts-foreign-ministers-after-r4e3-talks",
+        "title": "President Erdoğan hosts foreign ministers after R4+E3 talks",
+        "publishedAt": "2026-10-23T17:54:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      }
+    ]
+  },
+  "scopedRecheck": {
+    "collectedAt": "2026-10-24T16:41:37.521Z",
+    "items": [
+      {
+        "id": "f01fdea9d9d828c4760c57f3",
+        "url": "https://www.uab.gov.tr/haberler/4-pist-ile-1-ayda-284-ton-yakit-tasarrufu",
+        "title": "4. PİST İLE 1 AYDA 284 TON YAKIT TASARRUFU Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, İstanbul Havalimanı’nda 18 Eylül’de hizmete açılan 4. ana pistten 15 Ekim tarihine kadar toplam 1.738 kalkış gerçekleştirildiğini bildirdi. Bakan Uraloğlu, “Yeni pistten gerçekleştirilen 1.738 kalkışın 1.475’inde standart aletli ka… 22 Ekim 2026",
+        "publishedAt": "2026-10-22T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "d5ec371fb4c2afcab8c5fe6d",
+        "url": "https://basin.ktb.gov.tr/TR-475961/hititlerin-devlet-hafizasi-3-bin-400-yil-sonra-gun-isigina-kavustu.html",
+        "title": "HİTİTLERİN DEVLET HAFIZASI 3 BİN 400 YIL SONRA GÜN IŞIĞINA KAVUŞTU",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "ktb-press",
+        "authority": "primary"
+      },
+      {
+        "id": "61ff1d28ac39a0aafef4ebab",
+        "url": "https://www.dhmi.gov.tr/Sayfalar/Havalimani/Istanbul/HaberDetay.aspx?q=1329",
+        "title": "CUMHURBAŞKANI ERDOĞAN’IN TALİMATIYLA 4. PİSTTEN İLK UÇAK HAVALANDI",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "sourceId": "dhmi-istanbul",
+        "authority": "primary"
+      },
+      {
+        "id": "79f03850b5e6a821871a09d6",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4144",
+        "title": "SUUDİ ARABİSTAN’DA ORTA DOĞU SOLUNUM YOLU SENDROMU KORONAVİRÜSÜ-MERS-COV",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "660e9ad899e41e62678d7055",
+        "url": "https://www.turizmgunlugu.com/2026/10/24/amazon-ve-hiltondan-seyahat-teknolojisi-girisimlerine-ai-uyarisi-artik-yapay-zeka-kullanmak-yetmiyor",
+        "title": "Amazon ve Hilton’dan Seyahat Teknolojisi Girişimlerine AI Uyarısı: Artık Yapay Zekâ Kullanmak Yetmiyor",
+        "publishedAt": "2026-10-24T06:21:19.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "0e81bd5b18008d8066b5aa2c",
+        "url": "https://www.turizmhabermerkezi.net/istanbul-turizminde-carpici-tablo-turist-sayisi-artarken-otel-fiyatlari-geriledi/25490",
+        "title": "İstanbul Turizminde Çarpıcı Tablo: Turist Sayısı Artarken Otel Fiyatları Geriledi",
+        "publishedAt": "2026-10-24T06:42:24.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "69d9b3eec5ce5b2cb9d44bde",
+        "url": "https://www.dailysabah.com/life/travel/yellow-summer-keeps-tourism-alive-in-turkiyes-bodrum",
+        "title": "'Yellow summer' keeps tourism alive in Türkiye's Bodrum",
+        "publishedAt": "2026-10-11T21:00:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "23fed9dfaf63f1ae0768513e",
+        "url": "https://www.breakingtravelnews.com/news/article/europes-most-underrated-christmas-markets-revealed",
+        "title": "Europe’s most underrated Christmas markets revealed",
+        "publishedAt": "2026-10-24T10:55:20.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6409feeb45306b6e353f6475",
+        "url": "https://www.traveldailynews.com/meetings-events/routes-world-awards-2026-rome-fiumicino-overall-winner",
+        "title": "Rome Fiumicino wins Routes World Awards overall title",
+        "publishedAt": "2026-10-23T10:32:55.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "ce54d76995d46f73eee633bb",
+        "url": "https://www.dailysabah.com/life/travel/turkiye-sets-sail-for-greater-yachting-opportunities",
+        "title": "Türkiye sets sail for greater yachting opportunities",
+        "publishedAt": "2026-10-22T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      },
+      {
+        "id": "40dc94a95eb6a38b52877424",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4143",
+        "title": "RUSYA FEDERASYONU’NDA ETİYOLOJİSİ BELİRLENEMEYEN PNÖMONİ",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "684cd8fd2279a1bce1ce154b",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/corendon-tennis-week-2026-uluslararasi-tenis-dunyasini-kemerde-agirladi",
+        "title": "Corendon Tennis Week 2026, Uluslararası Tenis Dünyasını Kemer’de Ağırladı",
+        "publishedAt": "2026-10-23T08:01:39.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "01f61bd7325371cb10cab9f4",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-turizminde-3-milyar-dolari-asan-yeni-otel-yatirimi-280-proje-yolda/25489",
+        "title": "Türkiye Turizminde 3 Milyar Doları Aşan Yeni Otel Yatırımı: 280 Proje Yolda",
+        "publishedAt": "2026-10-23T06:54:28.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "fceecce7d0e3318805bb40e0",
+        "url": "https://www.breakingtravelnews.com/news/article/jetour-brings-its-travel-ecosystem-to-life",
+        "title": "JETOUR Brings Its “Travel+” Ecosystem to Life",
+        "publishedAt": "2026-10-24T10:41:54.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "5c65a14f38ae6d488d10d03d",
+        "url": "https://www.traveldailynews.com/associations/hotrec-european-commission-booking-com-dsa-proceedings",
+        "title": "HOTREC welcomes EU proceedings against Booking.com under the DSA",
+        "publishedAt": "2026-10-23T10:23:08.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "e955ba163964c5502aec2868",
+        "url": "https://www.uab.gov.tr/haberler/iha-pilotu-1-milyon-853-bini-gecti",
+        "title": "İHA PİLOTU 1 MİLYON 853 BİNİ GEÇTİ 10 Ekim 2026",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "fa553e916b604838dcf552ae",
+        "url": "https://www.uab.gov.tr/haberler/yht-gar-esenboga-havalimani-arasi-36-kilometrelik-rayli-sistemle-baglanacak",
+        "title": "YHT GAR-ESENBOĞA HAVALİMANI ARASI 36 KİLOMETRELİK RAYLI SİSTEMLE BAĞLANACAK 01 Ekim 2026",
+        "publishedAt": "2026-10-01T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "557dd8a35cdd55faa42e1c41",
+        "url": "https://www.uab.gov.tr/haberler/tanzanyanin-vagonlari-tuerkiyeden",
+        "title": "TANZANYA'NIN VAGONLARI TÜRKİYE'DEN 21 Ekim 2026",
+        "publishedAt": "2026-10-21T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "63709d92ab0de2e804cdc6fb",
+        "url": "https://basin.ktb.gov.tr/TR-475775/antik-romanin-gorkemli-eserleri-asirlar-sonra-dunya-sahnesinde.html",
+        "title": "ANTİK ROMA’NIN GÖRKEMLİ ESERLERİ ASIRLAR SONRA DÜNYA SAHNESİNDE",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "sourceId": "ktb-press",
+        "authority": "primary"
+      },
+      {
+        "id": "c88ca4c9e9f0f9c83ba7a3f4",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4142",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "f5e00e380be75e93d834b950",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/kuyumcu-han-sehir-arastirmalari-merkezi-acildi",
+        "title": "İBB Miras’tan İstanbul’a Yeni Kültür Rotası: Kuyumcu Han Şehir Araştırmaları Merkezi Ziyarete Açıldı",
+        "publishedAt": "2026-10-23T07:30:43.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "a034e855075d7b3fc1b107e3",
+        "url": "https://www.turizmhabermerkezi.net/alacati-port-otel-5-yilligina-kiralanacak-ihale-tarihi-ve-bedeli-aciklandi/25487",
+        "title": "Alaçatı Port Otel 5 Yıllığına Kiralanacak: İhale Tarihi ve Bedeli Açıklandı",
+        "publishedAt": "2026-10-21T05:47:01.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "8b3eefdf2ed5b5e4050f224d",
+        "url": "https://www.dailysabah.com/business/tourism/turkiyes-antalya-welcomes-nearly-125m-tourists-in-9-months",
+        "title": "Türkiye's Antalya welcomes nearly 12.5M tourists in 9 months",
+        "publishedAt": "2026-10-10T21:00:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "1d8c7a0fce4f2f72f22aff40",
+        "url": "https://www.breakingtravelnews.com/news/article/a-milestone-for-la-dolce-vita-orient-express-connecting-rome-and-istanbul",
+        "title": "A milestone for La Dolce Vita Orient Express, connecting Rome and Istanbul",
+        "publishedAt": "2026-10-24T10:34:39.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6c10e675653b75fedc77ddc3",
+        "url": "https://www.traveldailynews.com/aviation/lafayettes-creole-kitchen-bar-philadelphia-airport",
+        "title": "Lafayette’s Creole Kitchen & Bar οpens at Philadelphia Airport",
+        "publishedAt": "2026-10-23T09:52:35.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "13d0a900d1003d407b351da4",
+        "url": "https://www.dailysabah.com/life/travel/turkiyes-red-badlands-offer-a-glimpse-of-arizona-in-kars",
+        "title": "Türkiye's 'red badlands' offer a glimpse of Arizona in Kars",
+        "publishedAt": "2026-10-18T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      },
+      {
+        "id": "a5e27b48ec54687e18667a97",
+        "url": "https://www.uab.gov.tr/haberler/cerkezkoey-kapikule-hizli-demiryolu-hattinda-yolculuk-basladi",
+        "title": "ÇERKEZKÖY–KAPIKULE HIZLI DEMİRYOLU HATTI'NDA YOLCULUK BAŞLADI 10 Ekim 2026",
+        "publishedAt": "2026-10-10T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "4d992ae7460c1369d2c68fd0",
+        "url": "https://www.uab.gov.tr/haberler/genisbant-internet-abone-sayisi-100-8-milyonu-asti",
+        "title": "GENİŞBANT İNTERNET ABONE SAYISI 100,8 MİLYONU AŞTI 30 Eylül 2026",
+        "publishedAt": "2026-09-30T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "c23a4b7ab40fca2cf4568d1f",
+        "url": "https://www.uab.gov.tr/haberler/tuerksat-3-kat-daha-fazla-veri-depolayacak",
+        "title": "TÜRKSAT 3 KAT DAHA FAZLA VERİ DEPOLAYACAK 20 Ekim 2026",
+        "publishedAt": "2026-10-20T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "8b1b582141137ddd73e4ac72",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4140",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "ea3a1d629a5f3ece4b46b713",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/ensana-furstenhof-yenilendi-almanyada-termal-turizm-ve-saglik-odakli-yeni-donem",
+        "title": "Ensana Fürstenhof Yenilendi: Almanya’da Termal Turizm ve Sağlık Odaklı Yeni Dönem",
+        "publishedAt": "2026-10-23T07:01:26.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "7a2eae62d66c6c31189736a9",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-turizm-gelirlerinde-yeni-rekorlara-hazirlaniyor-2027-ve-2028-hedefleri-belli-oldu/25486",
+        "title": "Türkiye Turizm Gelirlerinde Yeni Rekorlara Hazırlanıyor: 2027 ve 2028 Hedefleri Belli Oldu",
+        "publishedAt": "2026-10-20T06:32:42.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "06e5e068ba85144bb054e540",
+        "url": "https://www.breakingtravelnews.com/news/article/the-palm-beaches-are-having-a-moment-discover-whats-new-in-2027",
+        "title": "The Palm Beaches are Having a Moment: Discover What’s New in 2027",
+        "publishedAt": "2026-10-24T07:12:06.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "35c2b6f650a9a4fbdff36cad",
+        "url": "https://www.traveldailynews.com/meetings-events/etoa-showcase-outbound-india-2027",
+        "title": "ETOA launches Showcase: Outbound India 2027",
+        "publishedAt": "2026-10-23T09:12:30.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "ec34af7b02997ba03e88d4c4",
+        "url": "https://www.uab.gov.tr/haberler/cumhurbaskani-erdogan-cerkezkoey-kapikule-demiryolu-hatti-ni-yarin-hizmete-acacak",
+        "title": "CUMHURBAŞKANI ERDOĞAN, ÇERKEZKÖY–KAPIKULE DEMİRYOLU HATTI’NI YARIN HİZMETE AÇACAK 08 Ekim 2026",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "2e445cd24c25cb8ca78d43ed",
+        "url": "https://www.uab.gov.tr/haberler/turistik-karaelmas-ekspresi-yeniden-raylara-iniyor",
+        "title": "TURİSTİK KARAELMAS EKSPRESİ YENİDEN RAYLARA İNİYOR 29 Eylül 2026",
+        "publishedAt": "2026-09-29T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "7cf891cafba04374ea5a9510",
+        "url": "https://www.uab.gov.tr/haberler/kalkinma-yolu-tasimacilikta-20-guen-kazandiracak",
+        "title": "KALKINMA YOLU, TAŞIMACILIKTA 20 GÜN KAZANDIRACAK 19 Ekim 2026",
+        "publishedAt": "2026-10-19T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "b8f05b3525cb18d9ff3a59b5",
+        "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4138",
+        "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+        "publishedAt": "2026-09-10T00:00:00.000Z",
+        "sourceId": "travel-health-turkiye",
+        "authority": "primary"
+      },
+      {
+        "id": "42477339a453674057c8b559",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/pegasusun-stratejik-yukselisi-ucus-agini-kuresel-guce-donusturmek",
+        "title": "Pegasus’un Stratejik Yükselişi: Uçuş Ağını Küresel Güce Dönüştürmek",
+        "publishedAt": "2026-10-23T05:03:10.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "06789be351f7f835ca4ce600",
+        "url": "https://www.turizmhabermerkezi.net/vize-sirketlerine-operasyon-60-kisi-gozaltinda/25485",
+        "title": "Vize Şirketlerine Operasyon: 60 Kişi Gözaltında",
+        "publishedAt": "2026-10-20T02:08:58.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "ac75050b1bb25f30afbe377f",
+        "url": "https://www.dailysabah.com/life/travel/golden-week-brings-surge-of-east-asian-tourists-to-cappadocia",
+        "title": "'Golden Week' brings surge of East Asian tourists to Cappadocia",
+        "publishedAt": "2026-10-07T21:00:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "9a56d22504a6cad075d6f2db",
+        "url": "https://www.breakingtravelnews.com/news/article/kennedy-space-center-visitor-complex-powers-up-for-max-power",
+        "title": "KENNEDY SPACE CENTER VISITOR COMPLEX POWERS UP FOR MAX POWER",
+        "publishedAt": "2026-10-24T07:09:50.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "6fc311b27096c046b30d126f",
+        "url": "https://www.traveldailynews.com/special-interest-travel/antarctica21-2028-29-antarctic-air-cruise-season",
+        "title": "Antarctica21 opens 47 air-cruise departures for 2028-29",
+        "publishedAt": "2026-10-23T09:02:35.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "80525cb34cd0c595c7ac7327",
+        "url": "https://www.uab.gov.tr/haberler/bakan-uraloglu-tuerk-devletleri-isbirligi-guenue-resepsiyonu-na-katildi",
+        "title": "BAKAN URALOĞLU TÜRK DEVLETLERİ İŞBİRLİĞİ GÜNÜ RESEPSİYONU’NA KATILDI 08 Ekim 2026",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "c52d59f0b0a104091fa05f64",
+        "url": "https://www.uab.gov.tr/haberler/malatya-havalimani-yeni-terminali-ilk-yolcularini-agirladi",
+        "title": "MALATYA HAVALİMANI YENİ TERMİNALİ İLK YOLCULARINI AĞIRLADI 28 Eylül 2026",
+        "publishedAt": "2026-09-28T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "e0a4df3562a4104934e1ab46",
+        "url": "https://www.uab.gov.tr/haberler/ankara-kayseri-arasi-1-saat-45-dakikaya-duesecek",
+        "title": "ANKARA-KAYSERİ ARASI 1 SAAT 45 DAKİKAYA DÜŞECEK 18 Ekim 2026",
+        "publishedAt": "2026-10-18T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "cfa535cb5ce68fd7de14f60b",
+        "url": "https://www.turizmgunlugu.com/2026/10/23/thy-business-classta-yemek-sikayeti-burkay-adaligdan-7-yolcuyuz-somon-bitti-tepkisi",
+        "title": "THY Business Class’ta Yemek Şikâyeti: Burkay Adalığ’dan “7 Yolcuyuz, Somon Bitti” Tepkisi",
+        "publishedAt": "2026-10-23T03:15:27.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "08a4ff25adb8085d8d4fa670",
+        "url": "https://www.turizmhabermerkezi.net/marmariste-otel-calisanlarini-tasiyan-servis-devrildi-cok-sayida-yarali-var/25484",
+        "title": "Marmaris’te Otel Çalışanlarını Taşıyan Servis Devrildi: Çok Sayıda Yaralı Var",
+        "publishedAt": "2026-10-19T19:16:26.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "5a3ddb884eccf624316cb570",
+        "url": "https://www.breakingtravelnews.com/news/article/save-up-to-20-on-bangkokkuala-lumpur-with-vietjet-thailand-tourism-malaysia",
+        "title": "Save Up to 20% on Bangkok–Kuala Lumpur with Vietjet Thailand & Tourism Malaysia",
+        "publishedAt": "2026-10-24T07:05:28.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "eccc2ae3a5c869aefcd68347",
+        "url": "https://www.traveldailynews.com/associations/hotrec-quality-jobs-act-enforcement-social-dialogue",
+        "title": "HOTREC calls for effective enforcement in the EU Quality Jobs Act",
+        "publishedAt": "2026-10-23T08:22:44.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "ade7735d5d5d66da482fb6a1",
+        "url": "https://www.uab.gov.tr/haberler/rayli-sistemleri-3-5-milyar-kisi-kullandi",
+        "title": "RAYLI SİSTEMLERİ 3,5 MİLYAR KİŞİ KULLANDI 07 Ekim 2026",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "c37797cfda72e79806132821",
+        "url": "https://www.uab.gov.tr/haberler/2-5-saate-varan-seyahat-sueresi-18-dakikaya-duesecek",
+        "title": "2,5 SAATE VARAN SEYAHAT SÜRESİ 18 DAKİKAYA DÜŞECEK 27 Eylül 2026",
+        "publishedAt": "2026-09-27T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "961978c80341e5f175e5567b",
+        "url": "https://www.uab.gov.tr/haberler/cesmeli-kizkalesi-otoyolu-pazartesi-guenue-trafige-aciliyor",
+        "title": "ÇEŞMELİ-KIZKALESİ OTOYOLU PAZARTESİ GÜNÜ TRAFİĞE AÇILIYOR 17 Ekim 2026",
+        "publishedAt": "2026-10-17T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "29f3e9bd64b0fa783423424b",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/tatil-seyahat-harcamalari-18-taksit-2026",
+        "title": "Tatil ve Tur Harcamalarında 18 Taksit İmkânı: Seyahat Acenteleri ve Tatilciler İçin Yeni Dönem",
+        "publishedAt": "2026-10-22T10:51:24.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "b7ac9008ff623ff24303152b",
+        "url": "https://www.turizmhabermerkezi.net/ayda-ilk-otel-icin-geri-sayim-gru-space-rezervasyon-basvurularini-baslatti/25483",
+        "title": "Ay’da İlk Otel İçin Geri Sayım: GRU Space Rezervasyon Başvurularını Başlattı",
+        "publishedAt": "2026-10-19T14:01:21.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "674de36eb2d423c946c1c818",
+        "url": "https://www.dailysabah.com/business/tourism/turkiye-generated-2575b-from-tourism-in-h1-president-erdogan",
+        "title": "Türkiye generated $25.75B from tourism in H1: President Erdoğan",
+        "publishedAt": "2026-09-26T21:00:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "902327304eed76f2cd0fb229",
+        "url": "https://www.breakingtravelnews.com/news/article/visa-partners-singapore-tourism-board-to-strengthen-singapores-global-desti",
+        "title": "Visa Partners Singapore Tourism Board to Strengthen Singapore’s Global Destination Appeal",
+        "publishedAt": "2026-10-23T13:21:02.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "9c92c442ed123af57f5617db",
+        "url": "https://www.traveldailynews.com/people/new-appointments/beach-enclave-appoints-kenton-jones-jeffrey-sirota",
+        "title": "Beach Enclave appoints Kenton Jones as Managing Director",
+        "publishedAt": "2026-10-23T08:14:24.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "f6eb0f79f544d387a9a2b21e",
+        "url": "https://www.dailysabah.com/life/travel/2000-year-old-roman-bath-in-turkiye-welcomes-visitors-after-dark",
+        "title": "2,000-year-old Roman bath in Türkiye welcomes visitors after dark",
+        "publishedAt": "2026-10-08T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      },
+      {
+        "id": "fc2bda285b09942fc59b7017",
+        "url": "https://www.uab.gov.tr/haberler/deniz-ticaret-filosunda-tarihi-zirve",
+        "title": "DENİZ TİCARET FİLOSUNDA TARİHİ ZİRVE 07 Ekim 2026",
+        "publishedAt": "2026-10-07T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "6ab00c5661c0a2ffa35b8ee7",
+        "url": "https://www.uab.gov.tr/haberler/istanbul-un-600-kilometre-daha-metroya-ihtiyaci-var",
+        "title": "İSTANBUL’UN 600 KİLOMETRE DAHA METROYA İHTİYACI VAR 27 Eylül 2026",
+        "publishedAt": "2026-09-27T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "d7755afee4b8080195425b57",
+        "url": "https://www.uab.gov.tr/haberler/engelli-gazi-ve-sehit-yakinlari-kimlikle-bilet-alip-seyahat-edebilecek",
+        "title": "ENGELLİ, GAZİ VE ŞEHİT YAKINLARI KİMLİKLE BİLET ALIP SEYAHAT EDEBİLECEK 16 Ekim 2026",
+        "publishedAt": "2026-10-16T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "b26a835ec1ab538fbd2c5176",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/otellerde-yapay-zeka-kullaniminin-onundeki-en-buyuk-engel-ne",
+        "title": "Otellerde Yapay Zekâ Kullanımının Önündeki En Büyük Engel Ne?",
+        "publishedAt": "2026-10-22T10:18:45.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "c50efcd2fcc7eaf636056ee6",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-genelindeki-otellerde-ciro-rekoru-kirildi/25482",
+        "title": "Türkiye Genelindeki Otellerde Ciro Rekoru Kırıldı",
+        "publishedAt": "2026-10-19T03:37:55.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "37bc54fca3253eeb5bf7b513",
+        "url": "https://www.breakingtravelnews.com/news/article/passenger-traffic-between-mexico-and-the-dominican-republic-grew-423-since",
+        "title": "Passenger Traffic Between Mexico and the Dominican Republic Grew 423% Since Arajet Began Operating",
+        "publishedAt": "2026-10-23T10:28:43.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "a0e0f2215a64a2724e277ec3",
+        "url": "https://www.traveldailynews.com/aviation/el-al-new-inflight-digital-passenger-services",
+        "title": "EL AL announces new onboard and digital passenger services",
+        "publishedAt": "2026-10-23T07:25:09.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "41f701c9b8f4b1b824c1c200",
+        "url": "https://www.uab.gov.tr/haberler/hizli-trenin-dogrudan-ulastigi-il-sayisi-14-e-cikiyor",
+        "title": "HIZLI TRENİN DOĞRUDAN ULAŞTIĞI İL SAYISI 14’E ÇIKIYOR 06 Ekim 2026",
+        "publishedAt": "2026-10-06T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "e92fb506198aa083f073906e",
+        "url": "https://www.uab.gov.tr/haberler/ilk-yerli-ve-milli-tarama-gemisi-suya-indi",
+        "title": "İLK YERLİ VE MİLLÎ TARAMA GEMİSİ SUYA İNDİ 26 Eylül 2026",
+        "publishedAt": "2026-09-26T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "cc9516684db323edf777e2c3",
+        "url": "https://www.uab.gov.tr/haberler/karayolu-ve-demiryolunda-21-ekolojik-koeprue-tamamlandi",
+        "title": "KARAYOLU VE DEMİRYOLUNDA 21 EKOLOJİK KÖPRÜ TAMAMLANDI 15 Ekim 2026",
+        "publishedAt": "2026-10-15T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "ac7788dafb23d8f996c69fe9",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/cumhuriyet-bayrami-tatili-icin-en-anlamli-5-rota",
+        "title": "Cumhuriyet Bayramı Tatili İçin En Anlamlı 5 Rota",
+        "publishedAt": "2026-10-22T08:00:31.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "6c41efafaf363858249b5a99",
+        "url": "https://www.turizmhabermerkezi.net/otel-sahibi-gocmen-kacakcisi-cikti/25481",
+        "title": "Otel Sahibi Göçmen Kaçakçısı Çıktı!",
+        "publishedAt": "2026-10-18T11:23:01.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "999006b9241affce96524512",
+        "url": "https://www.dailysabah.com/life/travel/venice-considers-raising-tourist-entry-fee-to-34-to-curb-overtourism",
+        "title": "Venice considers raising tourist entry fee to $34 to curb overtourism",
+        "publishedAt": "2026-09-21T21:00:00.000Z",
+        "sourceId": "daily-sabah-tourism",
+        "authority": "secondary"
+      },
+      {
+        "id": "e27a9b6e2bec6fbb55299c69",
+        "url": "https://www.breakingtravelnews.com/news/article/chta-announces-taste-of-the-caribbean-2026-teams",
+        "title": "CHTA ANNOUNCES TASTE OF THE CARIBBEAN 2026 TEAMS",
+        "publishedAt": "2026-10-23T07:20:59.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "7d79bb4d1db880cf937fa9f4",
+        "url": "https://www.traveldailynews.com/statistics-trends/us-international-tourism-decline-2026",
+        "title": "US overseas arrivals fall 5.7% in first nine months of 2026",
+        "publishedAt": "2026-10-23T07:03:05.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "d529fd2df706e27447452578",
+        "url": "https://www.uab.gov.tr/haberler/milli-hizli-tren-filosu-icin-ikinci-set-yolda",
+        "title": "MİLLİ HIZLI TREN FİLOSU İÇİN İKİNCİ SET YOLDA 05 Ekim 2026",
+        "publishedAt": "2026-10-05T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "43a0afa9e1c5acc0fa02a10d",
+        "url": "https://www.uab.gov.tr/haberler/ispartaya-derebogazi-yolu-muejdesi",
+        "title": "ISPARTA'YA DEREBOĞAZI YOLU MÜJDESİ 25 Eylül 2026",
+        "publishedAt": "2026-09-25T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "40d3e45f29809f26455441a3",
+        "url": "https://www.uab.gov.tr/haberler/ankara-samsun-arasi-2-5-saate-duesecek-1",
+        "title": "ANKARA-SAMSUN ARASI 2,5 SAATE DÜŞECEK 14 Ekim 2026",
+        "publishedAt": "2026-10-14T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "c668a015bd1daecc8a5f5811",
+        "url": "https://www.turizmgunlugu.com/2026/10/22/ucak-bileti-fiyatlari-2027de-ne-kadar-artacak",
+        "title": "Uçak Bileti Fiyatları 2027’de Ne Kadar Artacak? Ryanair CEO’su Açıkladı!",
+        "publishedAt": "2026-10-22T07:13:47.000Z",
+        "sourceId": "turizm-gunlugu",
+        "authority": "secondary"
+      },
+      {
+        "id": "d384f5c7eafa0bb3e3286d0d",
+        "url": "https://www.turizmhabermerkezi.net/gece-muzeciligine-13-milyon-ziyaretci-iste-en-cok-ilgi-goren-6-muze-ve-oren-yeri/25480",
+        "title": "Gece Müzeciliğine 1,3 Milyon Ziyaretçi: İşte En Çok İlgi Gören 6 Müze ve Ören Yeri",
+        "publishedAt": "2026-10-18T03:01:13.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "9b06ec409790f749fb6651a4",
+        "url": "https://www.breakingtravelnews.com/news/article/visit-qatar-to-showcase-qatars-tourism-offering-at-world-travel-market-lond",
+        "title": "Visit Qatar to Showcase Qatar’s Tourism Offering at World Travel Market London 2026",
+        "publishedAt": "2026-10-23T07:15:11.000Z",
+        "sourceId": "breaking-travel-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "da40150e9e509b00e0bba4f9",
+        "url": "https://www.traveldailynews.com/hotels-lodging/shaner-hotels-opens-towneplace-suites-state-college",
+        "title": "Shaner Hotels opens TownePlace Suites in State College, Pennsylvania",
+        "publishedAt": "2026-10-23T06:54:44.000Z",
+        "sourceId": "travel-daily-news",
+        "authority": "secondary"
+      },
+      {
+        "id": "46445ecd43c29382f77ebfd3",
+        "url": "https://www.uab.gov.tr/haberler/halkali-kapikule-de-seyahat-sueresi-4-saatten-1-5-saate-duesecek",
+        "title": "HALKALI-KAPIKULE’DE SEYAHAT SÜRESİ 4 SAATTEN 1,5 SAATE DÜŞECEK 04 Ekim 2026",
+        "publishedAt": "2026-10-04T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "4c028ace3fe3f431d2fc99af",
+        "url": "https://www.uab.gov.tr/haberler/orient-express-30-eyluel-de-istanbul-a-geliyor",
+        "title": "ORIENT EXPRESS 30 EYLÜL’DE İSTANBUL’A GELİYOR 24 Eylül 2026",
+        "publishedAt": "2026-09-24T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "a3ae4d2f47293e5887e94a48",
+        "url": "https://www.uab.gov.tr/haberler/erzurum-rize-arasi-4-6-km-daha-kisaliyor",
+        "title": "ERZURUM-RİZE ARASI 4,6 KM DAHA KISALIYOR 13 Ekim 2026",
+        "publishedAt": "2026-10-13T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "1c5edac6236b39ea43c0e5c3",
+        "url": "https://www.turizmhabermerkezi.net/turkiyeden-dort-resort-otel-avrupanin-en-iyi-25-oteli-listesinde/25479",
+        "title": "Türkiye’den Dört Resort Otel Avrupa’nın en iyi 25 Oteli Listesinde!",
+        "publishedAt": "2026-10-17T07:46:14.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "73c29b635f916dfc8da081cf",
+        "url": "https://www.dailysabah.com/life/travel/from-bamboo-villages-to-megacities-my-journey-through-china",
+        "title": "From ancient streets to megacities: My journey through China",
+        "publishedAt": "2026-10-06T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      },
+      {
+        "id": "7187e7038c99157acec9a4b3",
+        "url": "https://www.uab.gov.tr/haberler/konya-cevre-yolu-ile-mevcut-kesim-24-dakika-kisalacak",
+        "title": "KONYA ÇEVRE YOLU İLE MEVCUT KESİM 24 DAKİKA KISALACAK 03 Ekim 2026",
+        "publishedAt": "2026-10-03T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "0c295c1f774f1a3af4b298e5",
+        "url": "https://www.uab.gov.tr/haberler/siirt-havalimani-nin-terminali-3-kat-bueyuedue",
+        "title": "SİİRT HAVALİMANI’NIN TERMİNALİ 3 KAT BÜYÜDÜ 23 Eylül 2026",
+        "publishedAt": "2026-09-23T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "76566f2aa7e4855982bfede8",
+        "url": "https://www.uab.gov.tr/haberler/havayolunda-9-ayda-193-1-milyon-yolcu",
+        "title": "HAVAYOLUNDA 9 AYDA 193,1 MİLYON YOLCU 12 Ekim 2026",
+        "publishedAt": "2026-10-12T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "e8dde6b42827cbc571d2b841",
+        "url": "https://www.turizmhabermerkezi.net/eskisehirde-otel-sahibi-kendi-otelinde-olu-bulundu/25478",
+        "title": "Eskişehir'de Otel Sahibi Kendi Otelinde Ölü Bulundu!",
+        "publishedAt": "2026-10-17T02:29:53.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "df618f71251d6cf896ef3c76",
+        "url": "https://www.uab.gov.tr/haberler/sanliurfa-da-ulastirma-yatirimlari-hizmete-acildi",
+        "title": "ŞANLIURFA’DA ULAŞTIRMA YATIRIMLARI HİZMETE AÇILDI 03 Ekim 2026",
+        "publishedAt": "2026-10-03T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "cad78f70374b7739db37377c",
+        "url": "https://www.uab.gov.tr/haberler/88-kilometrelik-yol-1-saate-duesecek",
+        "title": "88 KİLOMETRELİK YOL 1 SAATE DÜŞECEK 23 Eylül 2026",
+        "publishedAt": "2026-09-23T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "49e687ed6b34505c140ff8ed",
+        "url": "https://www.uab.gov.tr/haberler/turistik-dogu-ekspresi-yeni-sezonda-70-sefer-yapacak",
+        "title": "TURİSTİK DOĞU EKSPRESİ YENİ SEZONDA 70 SEFER YAPACAK 11 Ekim 2026",
+        "publishedAt": "2026-10-11T00:00:00.000Z",
+        "sourceId": "uab-news",
+        "authority": "primary"
+      },
+      {
+        "id": "4210304071c4adebe2c06719",
+        "url": "https://www.turizmhabermerkezi.net/turkiye-geneline-26-yeni-termal-otel-geliyor-iste-yatirim-yapilacak-bolge-ve-sehirler/25477",
+        "title": "Türkiye Geneline 26 Yeni Termal Otel Geliyor: İşte Yatırım Yapılacak Bölge Ve Şehirler",
+        "publishedAt": "2026-10-16T00:58:51.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "e8caa5121cec5b9547a5e375",
+        "url": "https://www.dailysabah.com/life/travel/barcelona-a-city-that-refuses-to-be-ordinary",
+        "title": "Barcelona: A city that refuses to be ordinary",
+        "publishedAt": "2026-10-04T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      },
+      {
+        "id": "ac086de146838f5d6073b2c1",
+        "url": "https://www.uab.gov.tr/haberler/nevsehirin-ulasim-ve-iletisim-altyapisina-20-milyar-liranin-uezerinde-yatirim",
+        "title": "NEVŞEHİR'İN ULAŞIM VE İLETİŞİM ALTYAPISINA 20 MİLYAR LİRANIN ÜZERİNDE YATIRIM 02 Ekim 2026",
+        "publishedAt": "2026-10-02T00:00:00.000Z",
+        "sourceId": "uab-news-page-2",
+        "authority": "primary"
+      },
+      {
+        "id": "66639964c88dde1fa91ed431",
+        "url": "https://www.uab.gov.tr/haberler/siirt-demiryolu-agina-baglanan-47-il-olacak",
+        "title": "SİİRT, DEMİRYOLU AĞINA BAĞLANAN 47. İL OLACAK 23 Eylül 2026",
+        "publishedAt": "2026-09-23T00:00:00.000Z",
+        "sourceId": "uab-news-page-3",
+        "authority": "primary"
+      },
+      {
+        "id": "146a4594b3226f3b6e9a4363",
+        "url": "https://www.turizmhabermerkezi.net/eskisehire-5-yildizli-termal-otel-geliyor/25476",
+        "title": "Eskişehir’e 5 Yıldızlı Termal Otel Geliyor!",
+        "publishedAt": "2026-10-15T12:41:51.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "0b15002fa99c068bf00624aa",
+        "url": "https://www.turizmhabermerkezi.net/oteller-icin-yeni-donem-surdurulebilirlik-kriterleri-geliyor/25475",
+        "title": "Oteller İçin Yeni Dönem: Sürdürülebilirlik Kriterleri Geliyor",
+        "publishedAt": "2026-10-15T07:19:32.000Z",
+        "sourceId": "turizm-haber-merkezi",
+        "authority": "secondary"
+      },
+      {
+        "id": "92d12a31f4709dc211803090",
+        "url": "https://www.dailysabah.com/life/travel/190-year-old-greek-church-set-to-join-cappadocia-tourism-route",
+        "title": "190-year-old Greek church set to join Cappadocia tourism route",
+        "publishedAt": "2026-09-30T21:00:00.000Z",
+        "sourceId": "daily-sabah-travel",
+        "authority": "secondary"
+      }
+    ]
+  }
+}
