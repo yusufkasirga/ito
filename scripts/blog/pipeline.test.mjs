@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { LOCALES, discoverInventory, getJsonRecords, istanbulDate, lexicalSimilarity, rankCandidates, validateRecords, publishBundle } from './pipeline.mjs';
+import { LOCALES, discoverInventory, getJsonRecords, istanbulDate, lexicalSimilarity, rankCandidates, dailyTopicLimit, validateRecords, publishBundle } from './pipeline.mjs';
 
 const date = '2026-10-24';
 const config = {
@@ -234,4 +234,15 @@ test('publish cannot borrow crosslinks from unselected draft files on disk', () 
     assert.ok(getJsonRecords(data.root).every((article) => article.status === 'draft'));
     assert.deepEqual(JSON.parse(readFileSync(data.reviewPath, 'utf8')).publishedSlugs, []);
   } finally { data.cleanup(); }
+});
+
+test('daily topic limit uses a bounded, dated override and falls back to the base limit', () => {
+  const withOverride = { ...config, dailyLimitOverrides: [{ from: '2026-10-25', to: '2026-11-03', maxTopicsPerDay: 10 }] };
+  assert.equal(dailyTopicLimit(withOverride, '2026-10-24'), 3);
+  assert.equal(dailyTopicLimit(withOverride, '2026-10-25'), 10);
+  assert.equal(dailyTopicLimit(withOverride, '2026-11-03'), 10);
+  assert.equal(dailyTopicLimit(withOverride, '2026-11-04'), 3);
+  assert.equal(dailyTopicLimit(config, '2026-10-30'), 3);
+  const unsafe = { ...config, dailyLimitOverrides: [{ from: '2026-10-25', to: '2026-11-03', maxTopicsPerDay: 50 }, { from: '2026-11-03', to: '2026-10-25', maxTopicsPerDay: 5 }, { from: 'bad', to: '2026-11-03', maxTopicsPerDay: 5 }] };
+  assert.equal(dailyTopicLimit(unsafe, '2026-10-30'), 3);
 });
