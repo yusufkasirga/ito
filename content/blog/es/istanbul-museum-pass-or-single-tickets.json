@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261024-museum-pass",
+  "slug": "istanbul-museum-pass-or-single-tickets",
+  "locale": "es",
+  "status": "published",
+  "title": "¿MuseumPass de Estambul o entradas individuales? Compara tus visitas reales",
+  "excerpt": "Decide qué entrada comprar según tu itinerario, comprueba qué incluye cada producto y evita pagar un pase para lugares que no visitarás.",
+  "category": "Cultura",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-10-24",
+  "readTime": "6 min de lectura",
+  "body": [
+    {
+      "type": "p",
+      "text": "Un pase de museos resulta útil cuando sus condiciones encajan con las visitas que realmente quieres hacer. Una lista larga de atracciones sirve de poco si tus lugares favoritos están fuera, cierran el día disponible o exigen un ritmo que no disfrutarías. Antes de comprar entradas en Estambul, prepara una lista breve de visitas concretas y compáralas. El método siguiente evita depender de un precio que podría cambiar antes de tus vacaciones."
+    },
+    {
+      "type": "h2",
+      "text": "Identifica el producto antes de comparar precios"
+    },
+    {
+      "type": "p",
+      "text": "La [página oficial de MuseumPass İstanbul](https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-009) describe una validez de cinco días a partir de la primera entrada en un museo. También excluye las sesiones de museos nocturnos. Lee la página vigente cuando vayas a comprar. Un nombre parecido no convierte el MuseumPass del ministerio, un producto Müzekart y un paquete comercial de visitas en opciones equivalentes. Anota el nombre exacto y el vendedor para comprobar su cobertura y sus condiciones frente a la oferta concreta."
+    },
+    {
+      "type": "h2",
+      "text": "Prepara una lista de visitas con tres columnas"
+    },
+    {
+      "type": "p",
+      "text": "Escribe una línea por museo o atracción, seguida de la fecha prevista y del producto de entrada necesario. Empieza por los lugares que visitarías con gusto aunque no existiera ningún pase. Tras consultar las páginas oficiales, marca cada uno como «inclusión confirmada», «entrada aparte» o «pendiente de confirmar». No incluyas los casos sin resolver en el cálculo del ahorro. La fotografía de un palacio o monumento en una página de venta no especifica qué salas, zonas o experiencias están cubiertas."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Abre la página oficial de cada lugar y revisa el producto de entrada exacto, la categoría de visitante y las condiciones de apertura.",
+        "Compara ese producto con la lista actual de lugares incluidos y con las exclusiones de zonas o sesiones.",
+        "Comprueba que la visita cabe dentro del período de activación y de tus días disponibles para hacer turismo.",
+        "Mantén separados extras como visitas guiadas, exposiciones especiales o transporte hasta que el vendedor confirme expresamente su inclusión."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Calcula el ahorro solo con visitas confirmadas"
+    },
+    {
+      "type": "p",
+      "text": "Suma los precios actuales de las entradas individuales para los lugares incluidos que piensas visitar. Compara el resultado con el precio vigente del pase utilizando la misma moneda. Añade las entradas aparte inevitables a ambas opciones, sin suponer que el pase elimina esos gastos. Para los museos estatales, la [página de tarifas de museos y yacimientos](https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html) del ministerio es una referencia primaria. Consulta también la página del recinto para comprobar el producto concreto y cualquier aviso posterior."
+    },
+    {
+      "type": "p",
+      "text": "Puedes usar letras en vez de un precio de ejemplo que pronto quede desactualizado: si A y B son tus dos entradas incluidas confirmadas y P es el precio del pase, compara A + B con P. Si añadirías una tercera visita C únicamente para que el pase parezca rentable, calcula el resultado con C y sin ella. Así verás si la decisión depende de un museo que no te interesa demasiado. Una diferencia pequeña puede valer menos que conservar la flexibilidad de una tarde."
+    },
+    {
+      "type": "h2",
+      "text": "Pon el plan a prueba con el calendario"
+    },
+    {
+      "type": "p",
+      "text": "Sitúa tu visita imprescindible en un día de apertura antes de decidir cuándo activar el pase. Después agrupa el resto en medias jornadas realistas, con tiempo para comer, esperar y desplazarte. No cuentes la tarde de llegada como un día completo de museos si el vuelo o la entrada al hotel dejan poco margen. Nuestro [itinerario de Estambul de tres, cinco y siete días, en inglés](/blog/istanbul-itinerary-3-5-7-days) puede orientar el conjunto del viaje. Sustituye sus paradas por tus propias prioridades."
+    },
+    {
+      "type": "p",
+      "text": "La cobertura se presta especialmente a confusión en los monumentos conocidos, donde distintas instituciones o experiencias pueden tener nombres similares. Si quieres visitar Santa Sofía, utiliza nuestra [guía de visita de Santa Sofía, en inglés](/blog/hagia-sophia-mosque-visitor-guide) como contexto y confirma después el producto exacto con su operador actual. No deduzcas que la entrada está incluida por una descripción genérica de «museos de Estambul» ni por un documento antiguo que recoja una organización anterior como museo."
+    },
+    {
+      "type": "h2",
+      "text": "Toma una decisión que puedas explicar con claridad"
+    },
+    {
+      "type": "p",
+      "text": "Elige el pase cuando las visitas confirmadas que deseas realizar encajen con sus condiciones actuales y la comparación tenga sentido. Opta por entradas individuales si harás pocas visitas, quedan dudas sobre la cobertura o prefieres un horario flexible. Si un intermediario añade recorridos o servicios, valora solo los componentes que utilizarás y lee sus propias reglas de reserva y cancelación. Guarda la página del producto, el recibo y las instrucciones de activación. Una razón clara como «estas visitas confirmadas encajan con mis fechas y cuestan menos juntas» es más útil que intentar completar toda una lista de atracciones."
+    }
+  ],
+  "sources": [
+    {
+      "title": "MuseumPass İstanbul E-Card — official product terms",
+      "url": "https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-009",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "Müze ve Ören Yeri Ücretleri — museum and site admission tariff",
+      "url": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "publisher": "Ministry of Culture and Tourism — DÖSİM",
+      "accessedISO": "2026-10-24"
+    }
+  ],
+  "seo": {
+    "intent": "Elegir entre el MuseumPass oficial de Estambul y las entradas individuales según un itinerario personal.",
+    "keywords": [
+      "MuseumPass Estambul o entradas",
+      "vale la pena pase museos Estambul",
+      "qué incluye MuseumPass"
+    ],
+    "topicKey": "istanbul-museum-admission-choice",
+    "uniqueValue": "Registro de cobertura confirmada y cálculo simbólico que excluye visitas hipotéticas, zonas con entrada aparte y precios de ejemplo desactualizados."
+  },
+  "quality": {
+    "score": 88,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Live primary product and DÖSİM tariff pages read on 2026-10-24. No fixed price, coverage list, queue-skipping guarantee or assumed discount. Closest itinerary, Hagia Sophia and tourism article bodies reviewed; this is an admission-decision framework rather than a destination list. Draft pending independent review. The live product’s included-museum section was not extracted; no coverage for specific monuments is asserted. Full es localization prepared on 2026-10-24; independent agent localization review completed against the English master on 2026-10-24. Original source URLs, cautious qualifications and article intent preserved; draft remains subject to root publication review; this is AI editorial review, not a human or native-speaker certification."
+  }
+}

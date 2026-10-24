@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261024-yht-booking",
+  "slug": "istanbul-ankara-yht-booking-checklist",
+  "locale": "en",
+  "status": "published",
+  "title": "Istanbul to Ankara by High-Speed Train: A Booking Checklist",
+  "excerpt": "Choose the right station, compare the whole journey and save the booking details that matter before taking Türkiye’s YHT between Istanbul and Ankara.",
+  "category": "Travel",
+  "cover": "/images/dest/ankara.jpg",
+  "dateISO": "2026-10-24",
+  "readTime": "6 min read",
+  "body": [
+    {
+      "type": "p",
+      "text": "An Istanbul–Ankara train journey starts with a station decision, not a fare comparison. A convenient departure for one hotel can be awkward for another, and an appealing arrival time means little until you add the last journey to your destination. Use the checklist below to compare the complete trip before paying. It is a planning method, rather than a fixed timetable: the departure you can actually book for your date is the one that matters."
+    },
+    {
+      "type": "h2",
+      "text": "1. Compare hotel-to-door travel, not train time alone"
+    },
+    {
+      "type": "p",
+      "text": "Write down four parts of the journey: hotel to station, a comfortable station buffer, the booked train, and arrival station to your final address. Add a separate margin if you have a meeting or another departure that day. Choose the buffer around your luggage, familiarity with the station and assistance needs. Do not treat a map’s fastest connection as a guaranteed transfer. If the margin looks uncomfortable, an earlier departure or an overnight stay may be the better plan."
+    },
+    {
+      "type": "h2",
+      "text": "2. Search the station name on the actual departure"
+    },
+    {
+      "type": "p",
+      "text": "TCDD Taşımacılık lists an Ankara–Istanbul YHT corridor with multiple Istanbul stations, including Söğütlüçeşme, Bostancı, Pendik and Halkalı. This does not mean every train serves every station. [Check the operator’s route overview](https://www.tcddtasimacilik.gov.tr/seferler/yuksek-hizli-tren), then read your selected departure carefully. Copy the full departure and arrival station names into your trip notes; ‘Istanbul station’ is too vague for a driver or a last-minute map search."
+    },
+    {
+      "type": "p",
+      "text": "Compare two station options if the booking search offers them. Keep the train fare and the access journey in separate columns. A cheaper ticket can lose its advantage if it creates an inconvenient transfer. For the local part of the trip, our [Istanbul public transport guide](/blog/istanbul-public-transport-tourist-guide) explains the city network; your intercity ticket and the city journey still need their own checks."
+    },
+    {
+      "type": "h2",
+      "text": "3. Start with the operator’s booking channels"
+    },
+    {
+      "type": "p",
+      "text": "The Transport Ministry’s [ALO 123 guidance](https://www.123.gov.tr/sss) identifies the operator’s internet, customer-service and ticket-office channels for YHT tickets. Begin through [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/) and follow its ticket link. Before entering personal or payment details, check the address and the journey again. Keep a note of the seller, especially if you use an intermediary, so you know where to request help."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm the travel date, direction, stations and number of passengers before selecting a departure.",
+        "Enter each traveller’s details exactly as requested by the booking form and check spelling against the travel document.",
+        "Read the change, cancellation and baggage terms shown for that specific purchase; save them with your confirmation.",
+        "Check the final amount and currency before authorising payment. A payment notification alone is not the same as a confirmed ticket."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "4. Resolve uncertainty before building the rest of the day"
+    },
+    {
+      "type": "p",
+      "text": "A missing search result needs investigation. Recheck station spelling, the date and direction; then ask the operator whether that departure is available for sale. Avoid concluding that the whole route has stopped operating from one empty search. Equally, do not promise yourself a particular service before you have a confirmed booking. Published journey times, future infrastructure announcements and a ticket for your chosen date are different kinds of information."
+    },
+    {
+      "type": "p",
+      "text": "If you need help boarding, travel with bulky equipment or have specific luggage requirements, describe the need to the operator before buying. Ask which station entrance and assistance process apply to your departure. These are questions to confirm, not services this guide can promise. For a family or group, check every passenger’s seat and details together rather than assuming that several separate purchases will work as one booking."
+    },
+    {
+      "type": "h2",
+      "text": "5. Create a departure-day note"
+    },
+    {
+      "type": "p",
+      "text": "Save the confirmation offline, the station’s full name, your planned arrival time at the station and the destination address in Ankara. Keep the travel document used for the booking easy to reach. Review the operator’s latest messages before leaving your hotel and allow time to find the correct entrance and boarding area. Arrange a flexible first activity in Ankara so a transport change does not immediately become a missed appointment."
+    },
+    {
+      "type": "p",
+      "text": "If Ankara is being added to a short first visit, reconsider the nights rather than squeezing it into an already full city day. Our [three-, five- and seven-day Istanbul itinerary](/blog/istanbul-itinerary-3-5-7-days) helps you see which Istanbul activities you would be giving up. The best booking is the one that fits the rest of your trip, with a station you can reach comfortably and a clear plan for the journey after arrival."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yüksek Hızlı Tren — route overview",
+      "url": "https://www.tcddtasimacilik.gov.tr/seferler/yuksek-hizli-tren",
+      "publisher": "TCDD Taşımacılık",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "Sıkça Sorulan Sorular — rail ticket channels",
+      "url": "https://www.123.gov.tr/sss",
+      "publisher": "Republic of Türkiye Ministry of Transport and Infrastructure — ALO 123",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "İETT — Yüksek Hızlı Trene Ulaşım",
+      "url": "https://iett.istanbul/icerik/yuksek-hizli-trene-ulasim",
+      "publisher": "İETT",
+      "accessedISO": "2026-10-24"
+    }
+  ],
+  "seo": {
+    "intent": "Plan and book an Istanbul–Ankara YHT journey without choosing the wrong station or an unrealistic connection.",
+    "keywords": [
+      "Istanbul Ankara high speed train",
+      "YHT booking checklist",
+      "Istanbul train station"
+    ],
+    "topicKey": "istanbul-ankara-yht-booking-logistics",
+    "uniqueValue": "A hotel-to-door comparison and five-stage booking checklist; distinguishes bookable departures from corridor overviews and future journey-time announcements."
+  },
+  "quality": {
+    "score": 86,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Editorial source check on 2026-10-24. Current corpus titles/excerpts and closest transport, business-travel, itinerary and tourism bodies reviewed: this intent is intercity ticket/station preparation. No fare, exact journey time, sales window or guaranteed assistance claims. TCDD/ALO123 evidence obtained via official search excerpts; direct fetches were unavailable. Draft pending independent editorial review; score is editorial judgement, not automated evidence of correctness. Root independent check: full ALO123 page retrieved at the www hostname and İETT official YHT station-access page read on 2026-10-24. Operator overview station text independently matched in the indexed official page; direct operator fetch returns a JavaScript shell. No current schedule or fare is asserted."
+  }
+}

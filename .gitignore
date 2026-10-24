@@ -42,3 +42,6 @@ next-env.d.ts
 
 # hero video source clips (downloaded by scripts/build-hero-video.sh)
 /.cache/
+
+# Local source snapshots, pipeline scratch files and preview assets
+/work/

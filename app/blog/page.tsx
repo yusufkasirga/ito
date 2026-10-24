@@ -3,15 +3,13 @@ import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../components/SiteHeader';
 import CityImage from '../components/CityImage';
-import { blogEntries } from './blogCatalog';
+import { blogEntries, getBlogIndexAlternates } from './blogCatalog';
+import BlogLanguageLinks from './BlogLanguageLinks';
 
 export const metadata: Metadata = {
   title: 'The Journal — Itinerary of Türkiye',
   description: 'Honest guides to travelling and treatment in Türkiye — hidden destinations, hair and dental care, property and business — written from the ground by Itinerary of Türkiye.',
-  alternates: {
-    canonical: `${SITE_URL}/blog`,
-    languages: { en: `${SITE_URL}/blog`, de: `${SITE_URL}/de/blog`, 'x-default': `${SITE_URL}/blog` },
-  },
+  alternates: getBlogIndexAlternates(),
   openGraph: {
     title: 'The Journal — Itinerary of Türkiye',
     description: 'Honest guides to travelling and treatment in Türkiye.',
@@ -79,6 +77,7 @@ export default function BlogIndex() {
           Honest, first-hand guides — where to go, what a treatment really involves, how a property deal
           actually works. No brochure gloss; the things we would tell a friend.
         </p>
+        <BlogLanguageLinks locale="en" />
 
         <Link href={`/blog/${featured.slug}`} className="bj-card bj-feat">
           <span className="bj-shot">

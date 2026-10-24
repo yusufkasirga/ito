@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
+import { CONTENT_LOCALES, CONTENT_LOCALE_PATHS, getContentArticles, type ContentArticle, type ContentLocale } from '@/lib/blog-content.mjs';
 import { blogArticles, type BlogAuthor } from './blogPosts';
 import { blogPosts } from '../blogs/blogData';
-import { getPostBySlugDe } from '../blogs/blogDataDe';
+import { blogPostsDe } from '../blogs/blogDataDe';
 
 /** Shared listing metadata; each source keeps its full, original article body. */
 export type BlogEntry = {
-  source: 'journal' | 'guide';
+  source: 'journal' | 'guide' | 'content';
   slug: string;
   title: string;
   category: string;
@@ -18,9 +19,10 @@ export type BlogEntry = {
   updatedISO?: string;
   readTime: string;
   author?: BlogAuthor;
+  locale?: ContentLocale;
 };
 
-const entries: BlogEntry[] = [
+const legacyEnglishEntries: BlogEntry[] = [
   ...blogArticles.map((article): BlogEntry => ({
     source: 'journal',
     slug: article.slug,
@@ -50,32 +52,86 @@ const entries: BlogEntry[] = [
   })),
 ];
 
-const entriesBySlug = new Map<string, BlogEntry>();
-for (const entry of entries) {
-  if (entriesBySlug.has(entry.slug)) {
-    throw new Error(`Duplicate blog slug: ${entry.slug}. Give each article a unique URL.`);
-  }
-  entriesBySlug.set(entry.slug, entry);
-}
-
-// Preserve the Journal's insertion order for equal dates, then sort newest first.
-export const blogEntries = entries
-  .map((entry, insertionOrder) => ({ entry, insertionOrder }))
-  .sort((a, b) => b.entry.dateISO.localeCompare(a.entry.dateISO) || b.insertionOrder - a.insertionOrder)
-  .map(({ entry }) => entry);
-
-export function getBlogEntry(slug: string) {
-  return entriesBySlug.get(slug);
-}
-
-export function getBlogAlternates(slug: string): Metadata['alternates'] {
-  const en = `${SITE_URL}/blog/${slug}`;
+function contentEntry(article: ContentArticle): BlogEntry {
   return {
-    canonical: en,
-    languages: {
-      en,
-      ...(getPostBySlugDe(slug) ? { de: `${SITE_URL}/de/blog/${slug}` } : {}),
-      'x-default': en,
-    },
+    source: 'content', locale: article.locale, slug: article.slug, title: article.title,
+    category: article.category, excerpt: article.excerpt, cover: article.cover,
+    primaryImage: article.cover, accent: '#10243a', dateISO: article.dateISO,
+    updatedISO: article.updatedISO, readTime: article.readTime, author: article.author,
   };
+}
+
+const entriesByLocale = new Map<ContentLocale, BlogEntry[]>();
+const contentByLocale = new Map(CONTENT_LOCALES.map((locale) => [locale, getContentArticles(locale)]));
+for (const locale of CONTENT_LOCALES) {
+  const legacyEntries: BlogEntry[] = locale === 'en' ? legacyEnglishEntries : locale === 'de'
+    ? blogPostsDe.map((post) => ({
+      source: 'guide', slug: post.slug, title: post.title, category: post.category, excerpt: post.excerpt,
+      cover: post.coverImage, primaryImage: post.coverImage, accent: '#10243a', locale,
+      dateISO: post.dateISO, updatedISO: post.updatedISO, readTime: post.readTime,
+    })) : [];
+  const entries = [...legacyEntries, ...(contentByLocale.get(locale) ?? []).map(contentEntry)];
+  const slugs = new Set<string>();
+  for (const entry of entries) {
+    if (slugs.has(entry.slug)) throw new Error(`Duplicate blog slug in ${locale}: ${entry.slug}. Give each article a unique URL.`);
+    slugs.add(entry.slug);
+  }
+  entriesByLocale.set(locale, entries
+    .map((entry, insertionOrder) => ({ entry, insertionOrder }))
+    .sort((a, b) => b.entry.dateISO.localeCompare(a.entry.dateISO) || b.insertionOrder - a.insertionOrder)
+    .map(({ entry }) => entry));
+}
+
+// Translations share the English slug and identity; no placeholder or orphan routes.
+for (const locale of CONTENT_LOCALES.filter((value) => value !== 'en')) {
+  for (const article of contentByLocale.get(locale) ?? []) {
+    if (!entriesByLocale.get('en')?.some((entry) => entry.slug === article.slug)) {
+      throw new Error(`Published ${locale} article has no English counterpart: ${article.slug}`);
+    }
+    const master = contentByLocale.get('en')?.find((entry) => entry.slug === article.slug);
+    if (master && master.id !== article.id) throw new Error(`Translation ID must match English: ${locale}/${article.slug}`);
+  }
+}
+
+export const blogEntries = entriesByLocale.get('en')!;
+export const blogLocales = CONTENT_LOCALES;
+
+export function getBlogEntries(locale: ContentLocale = 'en') {
+  return entriesByLocale.get(locale) ?? [];
+}
+
+export function getBlogEntry(slug: string, locale: ContentLocale = 'en') {
+  return getBlogEntries(locale).find((entry) => entry.slug === slug);
+}
+
+export function getBlogContentArticle(locale: ContentLocale, slug: string) {
+  return contentByLocale.get(locale)?.find((entry) => entry.slug === slug);
+}
+
+export function blogPath(locale: ContentLocale = 'en', slug = '') {
+  return `${CONTENT_LOCALE_PATHS[locale] ? `/${CONTENT_LOCALE_PATHS[locale]}` : ''}/blog${slug ? `/${slug}` : ''}`;
+}
+
+export function localeFromPath(value: string): ContentLocale | undefined {
+  return CONTENT_LOCALES.find((locale) => CONTENT_LOCALE_PATHS[locale] === value);
+}
+
+export function getBlogLanguages(slug = ''): Record<string, string> {
+  const languages: Record<string, string> = {};
+  for (const locale of CONTENT_LOCALES) {
+    if (slug ? getBlogEntry(slug, locale) : getBlogEntries(locale).length) languages[locale] = `${SITE_URL}${blogPath(locale, slug)}`;
+  }
+  if (languages.en) languages['x-default'] = languages.en;
+  return languages;
+}
+
+export function getBlogAlternates(slug: string, locale: ContentLocale = 'en'): Metadata['alternates'] {
+  return {
+    canonical: `${SITE_URL}${blogPath(locale, slug)}`,
+    languages: getBlogLanguages(slug),
+  };
+}
+
+export function getBlogIndexAlternates(locale: ContentLocale = 'en'): Metadata['alternates'] {
+  return { canonical: `${SITE_URL}${blogPath(locale)}`, languages: getBlogLanguages() };
 }

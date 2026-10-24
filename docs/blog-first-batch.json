@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "batchDate": "2026-10-24",
+  "status": "draft",
+  "publicationApproval": "Independent root-agent review and all publication gates remain required. This evidence file is not publication approval.",
+  "sourceScan": {
+    "path": "work/blog-runs/2026-10-24/sources.json",
+    "sha256": "dc066b9519d5544f5bde648c3672f78d49b0fc6ed8f2482364e1624e2f562d99",
+    "collectedAt": "2026-10-24T16:38:22.246Z",
+    "itemsScreened": 100,
+    "sourceEndpointsAttempted": 12,
+    "sourceEndpointsSucceeded": 12,
+    "screeningDepth": "All 100 titles and available summary previews screened. Selected supporting pages separately researched. This is not a claim that 100 full articles were read or independently fact-checked.",
+    "knownLimitation": "A general-news section contributes many politics/sports items; collector category is a feed label, not item-level relevance.",
+    "screenedItemIds": [
+      "f01fdea9d9d828c4760c57f3",
+      "d5ec371fb4c2afcab8c5fe6d",
+      "61ff1d28ac39a0aafef4ebab",
+      "79f03850b5e6a821871a09d6",
+      "660e9ad899e41e62678d7055",
+      "0e81bd5b18008d8066b5aa2c",
+      "3bb22387599c4b5e2c6dba5f",
+      "23fed9dfaf63f1ae0768513e",
+      "6409feeb45306b6e353f6475",
+      "40dc94a95eb6a38b52877424",
+      "684cd8fd2279a1bce1ce154b",
+      "01f61bd7325371cb10cab9f4",
+      "aeb43fb6a97717a6075a9b21",
+      "fceecce7d0e3318805bb40e0",
+      "5c65a14f38ae6d488d10d03d",
+      "557dd8a35cdd55faa42e1c41",
+      "63709d92ab0de2e804cdc6fb",
+      "c88ca4c9e9f0f9c83ba7a3f4",
+      "f5e00e380be75e93d834b950",
+      "a034e855075d7b3fc1b107e3",
+      "8c07326e5371345c424e23b6",
+      "1d8c7a0fce4f2f72f22aff40",
+      "6c10e675653b75fedc77ddc3",
+      "c23a4b7ab40fca2cf4568d1f",
+      "8b1b582141137ddd73e4ac72",
+      "ea3a1d629a5f3ece4b46b713",
+      "7a2eae62d66c6c31189736a9",
+      "8ca30b3dd8eabe08c46a7b22",
+      "06e5e068ba85144bb054e540",
+      "35c2b6f650a9a4fbdff36cad",
+      "7cf891cafba04374ea5a9510",
+      "b8f05b3525cb18d9ff3a59b5",
+      "42477339a453674057c8b559",
+      "06789be351f7f835ca4ce600",
+      "32ee4bab5943903fc7e18526",
+      "9a56d22504a6cad075d6f2db",
+      "6fc311b27096c046b30d126f",
+      "e0a4df3562a4104934e1ab46",
+      "cfa535cb5ce68fd7de14f60b",
+      "08a4ff25adb8085d8d4fa670",
+      "dde05f1e87056d96cf5fb88b",
+      "5a3ddb884eccf624316cb570",
+      "eccc2ae3a5c869aefcd68347",
+      "961978c80341e5f175e5567b",
+      "29f3e9bd64b0fa783423424b",
+      "b7ac9008ff623ff24303152b",
+      "6eaecdf42e60a57fe075a066",
+      "902327304eed76f2cd0fb229",
+      "9c92c442ed123af57f5617db",
+      "d7755afee4b8080195425b57",
+      "b26a835ec1ab538fbd2c5176",
+      "c50efcd2fcc7eaf636056ee6",
+      "57519ffe2cd4242302dad25a",
+      "37bc54fca3253eeb5bf7b513",
+      "a0e0f2215a64a2724e277ec3",
+      "cc9516684db323edf777e2c3",
+      "ac7788dafb23d8f996c69fe9",
+      "6c41efafaf363858249b5a99",
+      "4628f7c476800a3d026d4f9a",
+      "e27a9b6e2bec6fbb55299c69",
+      "7d79bb4d1db880cf937fa9f4",
+      "40d3e45f29809f26455441a3",
+      "c668a015bd1daecc8a5f5811",
+      "d384f5c7eafa0bb3e3286d0d",
+      "c254c9ad947481ac8056bd43",
+      "9b06ec409790f749fb6651a4",
+      "da40150e9e509b00e0bba4f9",
+      "a3ae4d2f47293e5887e94a48",
+      "1c5edac6236b39ea43c0e5c3",
+      "ea5168188af87c884f2c3aad",
+      "76566f2aa7e4855982bfede8",
+      "e8dde6b42827cbc571d2b841",
+      "9d4cb7e45a3c2c9e21ef33d1",
+      "49e687ed6b34505c140ff8ed",
+      "4210304071c4adebe2c06719",
+      "73cb2aba0517fd002f4a3d4b",
+      "146a4594b3226f3b6e9a4363",
+      "db7be2f4d8cf36db31e70b44",
+      "0b15002fa99c068bf00624aa",
+      "bb9aa08ce87d446bd3187a5a",
+      "c7689186581f5ebaed982f2d",
+      "7a35ada4a3859cdd298d6dca",
+      "cd552f0d8820c5eedadb2662",
+      "a790c7f13b2b3d6742e7ed14",
+      "a624e2ca5b48ad1c7f248934",
+      "d32d8af654fb8f192f7656e2",
+      "8da2ca0ce9971cf408cc283a",
+      "490c849ece25431e94ae8400",
+      "5d5c5c0384d5e662278c3d7b",
+      "82d573655388906f60cef20d",
+      "15cda873d8a261c2d88a0d97",
+      "85cda8f45e31b49b0576f652",
+      "0b21a266bce9c000bc44b6c8",
+      "d842ec7044fbd557d340b9cb",
+      "f58bda1ced7676be15ccba9a",
+      "606267054c2b9cd061605096",
+      "6e0c24de248fe28682d61718",
+      "bdfa82f6ae9a73f5691d8fd4",
+      "5b3ecd9c33c6c686a81ca480",
+      "879c8a5bd9a9cff85642dbd8"
+    ]
+  },
+  "editorialSelection": [
+    {
+      "slug": "istanbul-ankara-yht-booking-checklist",
+      "discoveryItemIndices": [
+        37,
+        49,
+        73
+      ],
+      "rationale": "Current rail announcements create a useful planning theme. A station-and-booking checklist addresses international visitor decisions without mistaking future network projects or domestic entitlement changes for present services. Evergreen synthesis, not a report that these announcements changed Istanbul–Ankara operations.",
+      "closestExisting": [
+        "istanbul-public-transport-tourist-guide",
+        "first-time-business-traveller-guide-istanbul",
+        "business-travellers-guide-istanbul",
+        "istanbul-itinerary-3-5-7-days"
+      ],
+      "overlapDecision": "Existing articles address urban lines, etiquette, city scheduling and business travel. New article concerns an intercity ticket, exact station names, whole-journey comparison and booking records."
+    },
+    {
+      "slug": "istanbul-museum-pass-or-single-tickets",
+      "discoveryItemIndices": [
+        12,
+        18,
+        63
+      ],
+      "rationale": "Museum and opening/night-session signals make admission-product verification useful. Selected a durable coverage-ledger calculation instead of repeating unverified new-venue coverage or hard-coded fares. Evergreen synthesis supported by current ministry product pages; not a breaking-news opening claim.",
+      "closestExisting": [
+        "hagia-sophia-mosque-visitor-guide",
+        "istanbul-itinerary-3-5-7-days",
+        "turkiye-tourism-2026",
+        "turkiye-tourism-2026-2027-government-initiatives"
+      ],
+      "overlapDecision": "Existing pages give site context, sightseeing order and broad digital-ticketing discussion. New page focuses on one purchase decision with confirmed coverage and a symbolic calculation."
+    },
+    {
+      "slug": "istanbul-museum-access-planning-checklist",
+      "discoveryItemIndices": [
+        12,
+        18,
+        49
+      ],
+      "rationale": "More cultural visits and entitlement-related transport news highlight the need to separate admission eligibility from a suitable physical route. Chosen as a practical access-contact framework, with venue-owned evidence, without applying Turkish citizen rail benefits to foreign visitors or claiming new venue facilities.",
+      "closestExisting": [
+        "istanbul-public-transport-tourist-guide",
+        "istanbul-itinerary-3-5-7-days",
+        "hagia-sophia-mosque-visitor-guide",
+        "turkiye-tourism-2026"
+      ],
+      "overlapDecision": "Corpus references accessibility only generally. This article supplies a continuous-route question set, sensory/rest requirements, documentation check and workable alternatives; it is not a medical or on-site access assessment."
+    }
+  ],
+  "notSelected": [
+    {
+      "indices": [
+        3,
+        9,
+        17,
+        24,
+        31,
+        46,
+        87
+      ],
+      "reason": "Medical/outbreak or individual-health claims are sensitive and need a distinct verification workflow; do not turn general health headlines into travel reassurance or advice."
+    },
+    {
+      "indices": [
+        6,
+        20,
+        27,
+        34,
+        40,
+        52,
+        58,
+        64,
+        69,
+        72,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "reason": "Politics, sport, security or unrelated incidents do not answer the selected ITO visitor-planning intents. Feed category labels alone are not relevance evidence."
+    },
+    {
+      "indices": [
+        7,
+        8,
+        13,
+        22,
+        25,
+        28,
+        29,
+        35,
+        36,
+        41,
+        42,
+        45,
+        47,
+        48,
+        53,
+        54,
+        59,
+        60,
+        65,
+        66
+      ],
+      "reason": "Mostly non-Türkiye destinations, supplier announcements, trade events or speculative promotion; insufficient relevance to immediate ITO visitor decisions."
+    },
+    {
+      "indices": [
+        11,
+        19,
+        26,
+        33,
+        44,
+        51,
+        57,
+        68,
+        71,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88
+      ],
+      "reason": "Investment, law, hotel-industry data, accidents or projects require separate sourcing; do not assume a planned hotel/beach is an available visitor product."
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        14,
+        15,
+        16,
+        21,
+        23,
+        30,
+        32,
+        38,
+        39,
+        43,
+        50,
+        55,
+        56,
+        61,
+        62,
+        67,
+        70
+      ],
+      "reason": "Potential later research or background. Not selected for this first batch because user-facing practical value, overlap, fresh primary corroboration or topic specificity was weaker than the three chosen intents."
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "url": "https://www.tcddtasimacilik.gov.tr/seferler/yuksek-hizli-tren",
+      "publisher": "TCDD Taşımacılık",
+      "publicationDate": null,
+      "publicationDateNote": "No publication date exposed in official search result. Search index showed a crawl approximately two months before access.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Official-domain search excerpt; direct open failed with timeout/redirect loop.",
+      "supports": "Ankara–Istanbul YHT corridor and the Istanbul station names used in the article.",
+      "limitations": "No actual-date timetable, duration, live seat availability or fare verified. Those are deliberately absent from every locale."
+    },
+    {
+      "url": "https://123.gov.tr/sss",
+      "publisher": "Ministry of Transport and Infrastructure — ALO 123",
+      "publicationDate": null,
+      "publicationDateNote": "Undated FAQ; search index showed crawl approximately three weeks before access.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Official-domain search excerpt; direct open timed out.",
+      "supports": "Operator internet, customer-service and ticket-office sales channels for YHT.",
+      "limitations": "No claim drawn from its detailed fare or refund rules; guide tells readers to check conditions for their own transaction."
+    },
+    {
+      "url": "https://muze.gov.tr/urun-detay?CatalogNo=WEB-MSP01-05-009",
+      "publisher": "Ministry of Culture and Tourism",
+      "publicationDate": null,
+      "publicationDateNote": "Live product page is undated; access date is recorded, not treated as a publication date.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Live primary page opened.",
+      "supports": "Five-day period from first admission; night sessions excluded.",
+      "limitations": "Included-site panel did not expose a reliable extractable list. No specific palace, mosque or museum is asserted to be included; no fixed price is published."
+    },
+    {
+      "url": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "publisher": "Ministry of Culture and Tourism — DÖSİM",
+      "publicationDate": null,
+      "publicationDateNote": "Undated live tariff/status table; no single page publication date exposed.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Live primary tariff page opened from ministry admissions-directive page.",
+      "supports": "Official place to check museum and archaeological-site tariffs and current notices.",
+      "limitations": "No prices or special-eligibility claims copied to article. Müzekart and MuseumPass are not assumed interchangeable."
+    },
+    {
+      "url": "https://www.istanbulmodern.org/en/visit/visitor-guide",
+      "publisher": "Istanbul Modern",
+      "publicationDate": null,
+      "publicationDateNote": "Undated venue visitor guide.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Live venue-owned visitor guide opened.",
+      "supports": "Loan-wheelchair, portable-stool and advance descriptive-tour information as leads for direct visitor confirmation.",
+      "limitations": "Availability and individual suitability are not guaranteed; international concession-document eligibility not inferred."
+    },
+    {
+      "url": "https://www.peramuzesi.org.tr/blog/disabled-visitors/53",
+      "publisher": "Pera Museum",
+      "publicationDate": "2013-04-11",
+      "publicationDateNote": "Date explicitly printed on venue page.",
+      "accessedISO": "2026-10-24",
+      "retrieval": "Live venue-owned page opened.",
+      "supports": "Venue describes lifts and wheelchair-accessible toilets.",
+      "limitations": "Age of page disclosed in every locale; directs traveller to reconfirm, not relied upon as current on-site access audit."
+    }
+  ],
+  "additionalPrimarySignalsRead": [
+    {
+      "url": "https://www.uab.gov.tr/haberler/engelli-gazi-ve-sehit-yakinlari-kimlikle-bilet-alip-seyahat-edebilecek",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "use": "Topical selection context only; no policy or schedule copied into draft."
+    },
+    {
+      "url": "https://www.uab.gov.tr/haberler/turistik-dogu-ekspresi-yeni-sezonda-70-sefer-yapacak",
+      "publishedAt": "2026-10-11T00:00:00.000Z",
+      "use": "Topical selection context only; no policy or schedule copied into draft."
+    }
+  ],
+  "corpusReview": {
+    "inventoryFiles": [
+      "app/blog/blogPosts.ts",
+      "app/blogs/blogData.ts",
+      "app/blogs/blogDataDe.ts"
+    ],
+    "inventoryCount": {
+      "en": 52,
+      "de": 31
+    },
+    "method": "Editorial comparison of the entire legacy slug/title/excerpt inventory, retrieval of relevant body contexts, then reading the closest EN article bodies. This is a manual semantic-intent review, not an embedding-model similarity result.",
+    "closestBodiesRead": [
+      "istanbul-public-transport-tourist-guide",
+      "istanbul-itinerary-3-5-7-days",
+      "hagia-sophia-mosque-visitor-guide",
+      "first-time-business-traveller-guide-istanbul",
+      "business-travellers-guide-istanbul",
+      "best-things-to-do-istanbul-first-time",
+      "7-day-turkey-itinerary-istanbul-cappadocia",
+      "private-turkiye-itinerary-cappadocia-guide",
+      "turkiye-tourism-2026",
+      "turkiye-tourism-2026-2027-government-initiatives"
+    ],
+    "remainingReview": "Root independent review. No keyword scan alone is represented as complete semantic review."
+  },
+  "localization": {
+    "englishMaster": true,
+    "locales": [
+      "en",
+      "de",
+      "zh-CN",
+      "ko",
+      "es"
+    ],
+    "coverage": "Full practical sections and caveats preserved. Chinese and Korean retain Turkish station names, do not assume home-country rail rules or disability-document reciprocity, and link to same-batch local articles. German uses existing German routes. Spanish labels English fallback links where a Spanish legacy translation does not exist.",
+    "reviewType": "AI agent editorial adaptation/review; no native-speaker, human expert, site visit or accessibility certification claimed.",
+    "sameBatchLinkDependency": "Localized new-to-new links must be published as the complete three-topic batch, or repointed before partial publication.",
+    "independentReview": "DE/ES six variants independently compared against EN master by initial_editorial_batch agent on 2026-10-24; all sections, caveats, sources and link-language fallbacks checked. One literal German route-planning sentence corrected. No human/native-speaker certification claimed. EN/zh-CN/KO author self-review complete; root review remains required."
+  },
+  "covers": {
+    "reviewedVisually": true,
+    "files": [
+      "public/images/dest/ankara.jpg",
+      "public/images/dest/istanbul.jpg",
+      "public/images/hero-galata-1000x1250.jpg"
+    ],
+    "use": "Existing city-context photographs; not evidence of actual train facilities or museum-access conditions."
+  },
+  "records": [
+    {
+      "id": "ito-20261024-yht-booking",
+      "slug": "istanbul-ankara-yht-booking-checklist",
+      "topicKey": "istanbul-ankara-yht-booking-logistics",
+      "variants": [
+        {
+          "locale": "en",
+          "path": "content/blog/en/istanbul-ankara-yht-booking-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 722,
+          "characterCount": 4555,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/blog/istanbul-public-transport-tourist-guide",
+            "/blog/istanbul-itinerary-3-5-7-days"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "de",
+          "path": "content/blog/de/istanbul-ankara-yht-booking-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 714,
+          "characterCount": 5258,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/de/blog/istanbul-public-transport-tourist-guide",
+            "/de/blog/istanbul-itinerary-3-5-7-days"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "zh-CN",
+          "path": "content/blog/zh-cn/istanbul-ankara-yht-booking-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 21,
+          "characterCount": 1639,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/zh-cn/blog/istanbul-museum-pass-or-single-tickets",
+            "/zh-cn/blog/istanbul-museum-access-planning-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "ko",
+          "path": "content/blog/ko/istanbul-ankara-yht-booking-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 605,
+          "characterCount": 2483,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/ko/blog/istanbul-museum-pass-or-single-tickets",
+            "/ko/blog/istanbul-museum-access-planning-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "es",
+          "path": "content/blog/es/istanbul-ankara-yht-booking-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 813,
+          "characterCount": 4948,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/blog/istanbul-public-transport-tourist-guide",
+            "/blog/istanbul-itinerary-3-5-7-days"
+          ],
+          "localizationReviewed": true
+        }
+      ]
+    },
+    {
+      "id": "ito-20261024-museum-pass",
+      "slug": "istanbul-museum-pass-or-single-tickets",
+      "topicKey": "istanbul-museum-admission-choice",
+      "variants": [
+        {
+          "locale": "en",
+          "path": "content/blog/en/istanbul-museum-pass-or-single-tickets.json",
+          "status": "draft",
+          "wordCountWhitespace": 696,
+          "characterCount": 4260,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/blog/istanbul-itinerary-3-5-7-days",
+            "/blog/hagia-sophia-mosque-visitor-guide"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "de",
+          "path": "content/blog/de/istanbul-museum-pass-or-single-tickets.json",
+          "status": "draft",
+          "wordCountWhitespace": 692,
+          "characterCount": 5050,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/de/blog/istanbul-itinerary-3-5-7-days",
+            "/de/blog/hagia-sophia-mosque-visitor-guide"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "zh-CN",
+          "path": "content/blog/zh-cn/istanbul-museum-pass-or-single-tickets.json",
+          "status": "draft",
+          "wordCountWhitespace": 18,
+          "characterCount": 1527,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/zh-cn/blog/istanbul-museum-access-planning-checklist",
+            "/zh-cn/blog/istanbul-ankara-yht-booking-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "ko",
+          "path": "content/blog/ko/istanbul-museum-pass-or-single-tickets.json",
+          "status": "draft",
+          "wordCountWhitespace": 570,
+          "characterCount": 2275,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/ko/blog/istanbul-museum-access-planning-checklist",
+            "/ko/blog/istanbul-ankara-yht-booking-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "es",
+          "path": "content/blog/es/istanbul-museum-pass-or-single-tickets.json",
+          "status": "draft",
+          "wordCountWhitespace": 756,
+          "characterCount": 4698,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/blog/istanbul-itinerary-3-5-7-days",
+            "/blog/hagia-sophia-mosque-visitor-guide"
+          ],
+          "localizationReviewed": true
+        }
+      ]
+    },
+    {
+      "id": "ito-20261024-museum-access",
+      "slug": "istanbul-museum-access-planning-checklist",
+      "topicKey": "istanbul-museum-individual-access-planning",
+      "variants": [
+        {
+          "locale": "en",
+          "path": "content/blog/en/istanbul-museum-access-planning-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 704,
+          "characterCount": 4390,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/blog/istanbul-itinerary-3-5-7-days",
+            "/blog/istanbul-public-transport-tourist-guide",
+            "/blog/istanbul-museum-pass-or-single-tickets"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "de",
+          "path": "content/blog/de/istanbul-museum-access-planning-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 677,
+          "characterCount": 5119,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/de/blog/istanbul-itinerary-3-5-7-days",
+            "/de/blog/istanbul-public-transport-tourist-guide",
+            "/de/blog/istanbul-museum-pass-or-single-tickets"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "zh-CN",
+          "path": "content/blog/zh-cn/istanbul-museum-access-planning-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 20,
+          "characterCount": 1577,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/zh-cn/blog/istanbul-museum-pass-or-single-tickets",
+            "/zh-cn/blog/istanbul-ankara-yht-booking-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "ko",
+          "path": "content/blog/ko/istanbul-museum-access-planning-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 620,
+          "characterCount": 2489,
+          "bodyBlocks": 15,
+          "internalLinks": [
+            "/ko/blog/istanbul-museum-pass-or-single-tickets",
+            "/ko/blog/istanbul-ankara-yht-booking-checklist"
+          ],
+          "localizationReviewed": true
+        },
+        {
+          "locale": "es",
+          "path": "content/blog/es/istanbul-museum-access-planning-checklist.json",
+          "status": "draft",
+          "wordCountWhitespace": 781,
+          "characterCount": 4946,
+          "bodyBlocks": 14,
+          "internalLinks": [
+            "/blog/istanbul-itinerary-3-5-7-days",
+            "/blog/istanbul-public-transport-tourist-guide",
+            "/es/blog/istanbul-museum-pass-or-single-tickets"
+          ],
+          "localizationReviewed": true
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "recordsParsed": 15,
+    "statusAllDraft": true,
+    "matchingIdentityAcrossLocales": true,
+    "coverFilesExist": true,
+    "atLeastTwoSourcesAndInternalLinksPerVariant": true,
+    "bodyBlockTypesMatchSchema": true,
+    "reviewCaveat": "Checks are record-integrity checks; no build or rendered-route verification claimed by this author. Root handles application checks."
+  },
+  "rootReview": {
+    "status": "approved-for-local-promotion",
+    "date": "2026-10-24",
+    "notes": "Independent EN/zh-CN/KO review and separate DE/ES review passed; root read museum and venue pages plus full WWW ALO123 and İETT original pages. Direct TCDD request only returns application shell; indexed official overview used only for station names corroborated by İETT. Root added İETT citation and corrected ALO123 host in all5versions. Full build and deployment still required."
+  }
+}
