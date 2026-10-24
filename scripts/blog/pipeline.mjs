@@ -127,6 +127,15 @@ export function lexicalSimilarity(left, right) {
 }
 
 /** A shortlist only: lexical flags and ranking do not certify semantic novelty. */
+export function dailyTopicLimit(config, day) {
+  const base = config.maxTopicsPerDay ?? 3;
+  const overrides = Array.isArray(config.dailyLimitOverrides) ? config.dailyLimitOverrides : [];
+  const active = overrides.find((entry) => entry && validDate(entry.from) && validDate(entry.to) && entry.from <= entry.to
+    && typeof day === 'string' && day >= entry.from && day <= entry.to
+    && Number.isInteger(entry.maxTopicsPerDay) && entry.maxTopicsPerDay > 0 && entry.maxTopicsPerDay <= 10);
+  return active ? active.maxTopicsPerDay : base;
+}
+
 export function rankCandidates(candidates, config, inventory = [], now = new Date()) {
   const today = istanbulDate(now);
   const context = /\b(turkiye|turkey|istanbul|cappadocia|kapadokya|antalya|izmir|ephesus|efes|pamukkale|bosphorus|bogazici|ankara|bodrum|fethiye|mardin|trabzon|rize|gobekli|gobeklitepe|sanliurfa|canakkale|troya|troy|safranbolu|diyarbakir|denizli|aydin|eskisehir|konya)\b/i;
@@ -160,7 +169,7 @@ export function rankCandidates(candidates, config, inventory = [], now = new Dat
     ranked.push({ ...item, url: url.href, preliminaryScore: score, rankingFactors: { travelerRelevance: 35, titleContext: titleRelevance, freshness, primaryAuthority: authority }, lexicalMatches, requiresSemanticReview: true });
   }
   ranked.sort((a, b) => b.preliminaryScore - a.preliminaryScore || a.url.localeCompare(b.url));
-  return { ranked, rejected, shortlist: ranked.slice(0, config.maxTopicsPerDay ?? 3), semanticReviewRequired: true };
+  return { ranked, rejected, shortlist: ranked.slice(0, dailyTopicLimit(config, today)), semanticReviewRequired: true };
 }
 
 function sameRecord(article, existing) {
@@ -298,7 +307,7 @@ export function validateRecords(records, options = {}) {
     const scan = evidence.sourceScan;
     const collectedAt = Date.parse(scan?.collectedAt);
     if (!scan || !Number.isFinite(collectedAt) || istanbulDate(new Date(collectedAt)) > today || !Number.isInteger(scan.itemsInspected) || scan.itemsInspected <= 0 || !Number.isInteger(scan.freshItems) || scan.freshItems < 0 || scan.freshItems > scan.itemsInspected || scan.shortfall !== Math.max(0, (config.targetSourceItems ?? 100) - scan.freshItems)) error(master, 'truthful sourceScan counts, collection time and shortfall are required');
-    if (new Set(evidence.publishedSlugs).size !== evidence.publishedSlugs.length || evidence.publishedSlugs.length > (config.maxTopicsPerDay ?? 3)) error(master, 'ledger publishedSlugs must be unique and within the daily limit');
+    if (new Set(evidence.publishedSlugs).size !== evidence.publishedSlugs.length || evidence.publishedSlugs.length > dailyTopicLimit(config, evidence.date)) error(master, 'ledger publishedSlugs must be unique and within the daily limit');
     const decisions = Array.isArray(evidence.decisions) ? evidence.decisions.filter((entry) => entry.slug === slug) : [];
     const decision = decisions.length === 1 && decisions[0].topicKey === master.seo?.topicKey && decisions[0].decision === 'publish' ? decisions[0] : undefined;
     if (!decision || !nonempty(decision.intent) || !nonempty(decision.reason) || decision.reason.length < 40) { error(master, 'explicit publish decision, intent and reason are required'); continue; }
@@ -313,7 +322,7 @@ export function validateRecords(records, options = {}) {
     if (!counts.has(article.dateISO)) counts.set(article.dateISO, new Set());
     counts.get(article.dateISO).add(article.slug);
   }
-  for (const [day, slugs] of counts) if (slugs.size > (config.maxTopicsPerDay ?? 3)) errors.push(`${day}: daily topic limit exceeded (${slugs.size})`);
+  for (const [day, slugs] of counts) if (slugs.size > dailyTopicLimit(config, day)) errors.push(`${day}: daily topic limit exceeded (${slugs.size})`);
   return { valid: errors.length === 0, errors: [...new Set(errors)], warnings };
 }
 
@@ -328,7 +337,7 @@ export function publishBundle(options) {
   const { root = process.cwd(), date, slugs, reviewPath, config, today = istanbulDate() } = options;
   if (!validDate(date) || date > today) throw new Error('Publish date must be a real date no later than Istanbul today');
   const selected = [...new Set(slugs ?? [])];
-  if (!selected.length || selected.length > (config.maxTopicsPerDay ?? 3) || selected.some((slug) => !SLUG.test(slug))) throw new Error('Select one to three distinct safe article slugs');
+  if (!selected.length || selected.length > dailyTopicLimit(config, date) || selected.some((slug) => !SLUG.test(slug))) throw new Error(`Select between one and ${dailyTopicLimit(config, date)} distinct safe article slugs`);
   const lockPath = path.join(root, '.blog-publish.lock');
   let lock;
   try { lock = openSync(lockPath, 'wx'); writeFileSync(lock, JSON.stringify({ pid: process.pid, date, createdAt: new Date().toISOString() })); }

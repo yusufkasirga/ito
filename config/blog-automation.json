@@ -3,6 +3,14 @@
   "timezone": "Europe/Istanbul",
   "targetSourceItems": 100,
   "maxTopicsPerDay": 3,
+  "dailyLimitOverrides": [
+    {
+      "from": "2026-10-25",
+      "to": "2026-11-03",
+      "maxTopicsPerDay": 10,
+      "reason": "Owner-approved 10-day content sprint (2026-10-24). Same quality, review and sensitive-content gates; fewer than 10 is expected when candidates do not qualify. Base limit applies again automatically from 2026-11-04."
+    }
+  ],
   "locales": [
     "en",
     "de",
