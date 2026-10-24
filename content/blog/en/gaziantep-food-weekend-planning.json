@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261024-gaziantep-food",
+  "slug": "gaziantep-food-weekend-planning",
+  "locale": "en",
+  "status": "published",
+  "title": "A Food Weekend in Gaziantep: How to Plan Türkiye’s City of Gastronomy",
+  "excerpt": "How to shape two days in Gaziantep around breakfast, lunch, the markets and a slow dinner, with timing tips that help first-time visitors eat well rather than eat everything.",
+  "category": "Food",
+  "cover": "/images/dest/gaziantep.jpg",
+  "dateISO": "2026-10-24",
+  "readTime": "6 min read",
+  "body": [
+    {
+      "type": "p",
+      "text": "Ask Turkish friends where to eat in Türkiye and Gaziantep usually comes up quickly. The city joined the UNESCO Creative Cities Network for gastronomy in 2015, and food is not a side attraction there: it is part of how the city works. This guide is not a list of “best restaurants”, which change quickly. It is a way to plan a weekend so that you arrive hungry at the right moments and leave with a sense of why the city’s food culture matters."
+    },
+    {
+      "type": "h2",
+      "text": "Why Gaziantep is a food city"
+    },
+    {
+      "type": "p",
+      "text": "[UNESCO’s profile](https://www.unesco.org/en/creative-cities/gaziantep) describes gastronomy as central to Gaziantep’s identity since the Iron Age and still the main driver of the local economy, with spices, cereals, dried fruits and pistachios at its heart. It also highlights the Pistachio Culture and Art Festival and a three-day Shira Festival where residents share local cuisines, and notes how the city’s place on the old Silk Road shaped its food. For a visitor, that means two things: specialities are tied to particular times of day, and much of the best eating happens in small, focused places that make one thing well."
+    },
+    {
+      "type": "h2",
+      "text": "Day one: breakfast, lunch and the old bazaar"
+    },
+    {
+      "type": "p",
+      "text": "Start early. Katmer, a thin pastry layered with pistachio, sugar and kaymak, is traditionally eaten in the morning; [GoTürkiye’s culinary route](https://goturkiye.com/routes/a-3-day-culinary-route-gaziantep-sanliurfa-diyarbakir) associates its aroma with dawn. Many visitors also try beyran, a rich soup with rice and meat, as a local breakfast. Order one dish, share it, and leave space: the morning sets the pace for the whole day."
+    },
+    {
+      "type": "p",
+      "text": "Spend late morning walking through the historic bazaar area, where copperwork, spice and dried-pepper stalls show how ingredients reach local kitchens. Plan a light lunch around a kebab speciality such as ali nazik, grilled meat served over smoky aubergine and yoghurt. Finish with a visit to the city’s gastronomy museum, which presents historic cooking tools and traditional dishes, then a Turkish coffee in one of the old coffee houses."
+    },
+    {
+      "type": "h2",
+      "text": "Day two: baklava, pistachio and a slower dinner"
+    },
+    {
+      "type": "p",
+      "text": "Gaziantep baklava is the city’s best-known export. Rather than buying the largest box at the first shop, taste a single portion in a sit-down baklava house, ideally mid-morning when trays are fresh, and notice the difference that pistachio quality and syrup make. If you want to bring some home, buy on your final day and ask how to pack it for your journey."
+    },
+    {
+      "type": "p",
+      "text": "Keep the afternoon light, then make dinner the main event. Gaziantep’s menus include vegetable and yoghurt dishes, stuffed vegetables, soups such as yuvalama, and lahmacun. Sharing several small plates is the easiest way to explore. Let the waiter guide you on what is seasonal rather than ordering from memory."
+    },
+    {
+      "type": "h2",
+      "text": "Practical planning tips"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Two full days are enough for a focused food weekend; add a third if you want a slower pace or time at the Zeugma Mosaic Museum.",
+        "Plan meals around the specialities’ natural times — pastry in the morning, kebabs at lunch, baklava when it is freshest.",
+        "Mention allergies or dietary needs clearly, especially nuts: pistachio appears in many sweets and some savoury dishes.",
+        "Check whether a festival is on during your dates; they bring atmosphere, but also crowds.",
+        "Book accommodation within walking distance of the historic centre so you can return between meals."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Gaziantep combines well with other cities in the southeast. GoTürkiye suggests a culinary route that continues to Şanlıurfa and Diyarbakır, and our [hidden gems of Türkiye](/blog/hidden-gems-turkiye-most-tourists-never-find) highlights other places away from the coast. If you are building a longer private trip around food and culture, our [guide to designing a private itinerary](/blog/private-turkiye-itinerary-cappadocia-guide) explains how to link regions without losing days to transfers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gaziantep — UNESCO Creative Cities Network (Gastronomy)",
+      "url": "https://www.unesco.org/en/creative-cities/gaziantep",
+      "publisher": "UNESCO",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "A 3-Day Culinary Route: Gaziantep–Şanlıurfa–Diyarbakır",
+      "url": "https://goturkiye.com/routes/a-3-day-culinary-route-gaziantep-sanliurfa-diyarbakir",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-10-24"
+    },
+    {
+      "title": "Taste the Flavors of Gaziantep",
+      "url": "https://goturkiye.com/gaziantep/taste",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-10-24"
+    }
+  ],
+  "seo": {
+    "intent": "Plan a two-day food-focused visit to Gaziantep and know which specialities to eat when.",
+    "keywords": [
+      "Gaziantep food guide",
+      "Gaziantep city of gastronomy",
+      "katmer baklava Gaziantep"
+    ],
+    "topicKey": "gaziantep-gastronomy-trip-planning",
+    "uniqueValue": "A time-of-day eating plan for a Gaziantep weekend grounded in UNESCO and GoTürkiye sources, without ranking restaurants or claiming first-hand tastings."
+  },
+  "quality": {
+    "score": 86,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Prepared 2026-10-24. UNESCO page checked for 2015 gastronomy membership, Iron Age/economy framing, pistachio and Shira festivals. GoTürkiye route checked for katmer (aroma linked to dawn), ali nazik, culinary museum and coffee house; taste page names beyran, yuvalama and lahmacun (beyran description and bazaar details are common knowledge, not sourced). Independent reviewer fixes applied 2026-10-24. Baklava tasting and timing advice is editorial guidance, not a sourced claim. No restaurant names, prices or first-hand visits. Independent review recorded in the daily ledger."
+  }
+}
