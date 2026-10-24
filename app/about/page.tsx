@@ -191,7 +191,7 @@ export default function AboutPage() {
       </section>
 
 <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blog" style={{color:'inherit'}}>Guides</Link></p>
       </footer>
     </main>
   );

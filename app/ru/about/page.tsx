@@ -190,7 +190,7 @@ export default function AboutPage() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/ru/privacy" style={{color:'inherit'}}>Конфиденциальность</Link> · <Link href="/ru/terms" style={{color:'inherit'}}>Условия</Link> · <Link href="/ru/future-services" style={{color:'inherit'}}>Другие услуги</Link> · <Link href="/blogs" style={{color:'inherit'}}>Статьи</Link></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/ru/privacy" style={{color:'inherit'}}>Конфиденциальность</Link> · <Link href="/ru/terms" style={{color:'inherit'}}>Условия</Link> · <Link href="/ru/future-services" style={{color:'inherit'}}>Другие услуги</Link> · <Link href="/blog" style={{color:'inherit'}}>Статьи</Link></p>
       </footer>
     </main>
   );

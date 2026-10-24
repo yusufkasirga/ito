@@ -146,7 +146,7 @@ export default function FutureServicesPage() {
       </div>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link> · <Link href="/de">Startseite</Link></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/blog" style={{color:'inherit'}}>Ratgeber</Link> · <Link href="/de">Startseite</Link></p>
       </footer>
     </main>
   );

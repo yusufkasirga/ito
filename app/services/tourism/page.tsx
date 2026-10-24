@@ -17,7 +17,7 @@ const categories = [
     image: '/images/pexels-1549326-800x1200.jpg',
     desc: 'Ephesus, Hagia Sophia, the Lycian coast, Nemrut — ten thousand years of Anatolia, walked at the right hour with a guide who makes the stones speak.',
     tags: ['Ancient cities', 'Byzantine & Ottoman', 'Museums'],
-    href: '/blogs/best-things-to-do-istanbul-first-time',
+    href: '/blog/best-things-to-do-istanbul-first-time',
   },
   {
     key: 'culture',
@@ -25,7 +25,7 @@ const categories = [
     image: '/images/pexels-3889742-1920x1080.jpg',
     desc: 'Living crafts and covered bazaars, whirling dervishes and contemporary galleries, hammams and neighbourhood rituals — the Türkiye that happens between the monuments.',
     tags: ['Bazaars & crafts', 'Music & dance', 'Modern art'],
-    href: '/blogs/7-day-turkey-itinerary-istanbul-cappadocia',
+    href: '/blog/7-day-turkey-itinerary-istanbul-cappadocia',
   },
   {
     key: 'gastronomy',
@@ -33,7 +33,7 @@ const categories = [
     image: '/images/pexels-3338497-800x1200.jpg',
     desc: 'One of the world\'s great cuisines, region by region: a Gaziantep kitchen, an Aegean meze table, a Black Sea village breakfast, a chef\'s table you would never find alone.',
     tags: ['Regional kitchens', 'Meze & wine', 'Street food'],
-    href: '/blogs/best-things-to-do-istanbul-first-time',
+    href: '/blog/best-things-to-do-istanbul-first-time',
   },
   {
     key: 'nature',
@@ -41,7 +41,7 @@ const categories = [
     image: '/images/pexels-2419278-800x1200.jpg',
     desc: 'Turquoise coves and gulet decks, Cappadocia\'s valleys at dawn, highland yaylas and fishing towns — the coastline and landscapes that most first visits never reach.',
     tags: ['Aegean & Med coast', 'Cappadocia valleys', 'Gulet cruises'],
-    href: '/blogs/turkish-riviera-antalya-bodrum-fethiye-guide',
+    href: '/blog/turkish-riviera-antalya-bodrum-fethiye-guide',
   },
 ];
 

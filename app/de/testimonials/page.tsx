@@ -82,7 +82,7 @@ export default function TestimonialsPage() {
           <Link className="btn-primary" href="/de#contact">Beginnen Sie Ihre eigene Reise</Link>
         </div>
       </section>
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blog" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
     </main>
   );
 }

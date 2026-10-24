@@ -1045,7 +1045,7 @@ export default function HomeClient({ slots = {} }: { slots?: HomeSlots }) {
               <Link href="/future-services#investment">Investment &amp; Real Estate</Link>
               <Link href="/how-we-work">How We Work</Link>
               <Link href="/standard">The ITO Standard</Link>
-              <Link href="/blogs">Guides &amp; Articles</Link>
+              <Link href="/blog">Guides &amp; Articles</Link>
               <a href="#contact">Contact Us</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>

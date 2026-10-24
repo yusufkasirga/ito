@@ -177,7 +177,7 @@ export default function HowWeWorkPage() {
         <p style={{ ...S.p, marginTop: '34px', fontSize: '13px', color: '#647889' }}>
           See also: <Link href="/standard" style={S.a}>The ITO Standard</Link> ·{' '}
           <Link href="/about" style={S.a}>About us</Link> ·{' '}
-          <Link href="/blogs" style={S.a}>Guides &amp; articles</Link>
+          <Link href="/blog" style={S.a}>Guides &amp; articles</Link>
         </p>
       </div>
     </main>

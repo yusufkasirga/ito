@@ -3,21 +3,27 @@ import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import SiteHeader from '../components/SiteHeader';
 import CityImage from '../components/CityImage';
-import { blogArticles } from './blogPosts';
+import { blogEntries } from './blogCatalog';
 
 export const metadata: Metadata = {
   title: 'The Journal — Itinerary of Türkiye',
   description: 'Honest guides to travelling and treatment in Türkiye — hidden destinations, hair and dental care, property and business — written from the ground by Itinerary of Türkiye.',
-  alternates: { canonical: `${SITE_URL}/blog` },
+  alternates: {
+    canonical: `${SITE_URL}/blog`,
+    languages: { en: `${SITE_URL}/blog`, de: `${SITE_URL}/de/blog`, 'x-default': `${SITE_URL}/blog` },
+  },
+  openGraph: {
+    title: 'The Journal — Itinerary of Türkiye',
+    description: 'Honest guides to travelling and treatment in Türkiye.',
+    url: `${SITE_URL}/blog`,
+    type: 'website',
+    locale: 'en_US',
+    alternateLocale: 'de_DE',
+  },
 };
 
 export default function BlogIndex() {
-  const articles = blogArticles
-    .map((article, insertionOrder) => ({ article, insertionOrder }))
-    .sort((a, b) =>
-      b.article.dateISO.localeCompare(a.article.dateISO) || b.insertionOrder - a.insertionOrder
-    )
-    .map(({ article }) => article);
+  const articles = blogEntries;
   const featured = articles[0];
   const rest = articles.slice(1);
   const clamp = (t: string, n: number) => (t.length > n ? t.slice(0, n).trimEnd() + '…' : t);
@@ -77,7 +83,7 @@ export default function BlogIndex() {
         <Link href={`/blog/${featured.slug}`} className="bj-card bj-feat">
           <span className="bj-shot">
             <span className="bj-cat">{featured.category}</span>
-            <CityImage slug={featured.slug} accent={featured.accent} alt={`${featured.title} — ${featured.category} in Türkiye`} primary={`/images/blog/${featured.slug}.jpg`} fallback={featured.cover} priority />
+            <CityImage slug={featured.slug} accent={featured.accent} alt={`${featured.title} — ${featured.category} in Türkiye`} primary={featured.primaryImage} fallback={featured.cover} priority />
           </span>
           <div className="bj-body">
             <div className="bj-title">{featured.title}</div>
@@ -91,7 +97,7 @@ export default function BlogIndex() {
             <Link key={a.slug} href={`/blog/${a.slug}`} className="bj-card">
               <span className="bj-shot">
                 <span className="bj-cat">{a.category}</span>
-                <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={`/images/blog/${a.slug}.jpg`} fallback={a.cover} />
+                <CityImage slug={a.slug} accent={a.accent} alt={`${a.title} — ${a.category} in Türkiye`} primary={a.primaryImage} fallback={a.cover} />
               </span>
               <div className="bj-body">
                 <div className="bj-title">{a.title}</div>

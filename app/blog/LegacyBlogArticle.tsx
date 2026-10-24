@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import type { Metadata } from 'next';
-import { getPostBySlug, blogPosts } from '../blogData';
-import { getPostBySlugDe } from '../blogDataDe';
+import { notFound } from 'next/navigation';
+import { getPostBySlug, blogPosts } from '../blogs/blogData';
+import { getPostBySlugDe } from '../blogs/blogDataDe';
 
 const SITE_URL = 'https://itineraryofturkiye.com';
 
@@ -11,61 +11,15 @@ function renderInline(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, i) => {
     const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (m) return <a key={i} href={m[2]} className="post-link">{m[1]}</a>;
+    if (m) return <a key={i} href={m[2].replace(/^(https:\/\/itineraryofturkiye\.com)?\/(de\/)?blogs(?=\/|$|[?#])/, '$1/$2blog')} className="post-link">{m[1]}</a>;
     return part;
   });
 }
 
-// Tüm blog yazıları build sırasında statik üretilir (SEO + hız)
-export function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
-}
-
-// Her yazı için başlık, açıklama ve OG/Twitter kartları
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
-  if (!post) {
-    return { title: 'Post not found — Itinerary of Türkiye', robots: { index: false } };
-  }
-  return {
-    title: `${post.title} — Itinerary of Türkiye`,
-    description: post.excerpt,
-    alternates: { canonical: `${SITE_URL}/blogs/${post.slug}`, ...(getPostBySlugDe(post.slug) ? { languages: { en: `${SITE_URL}/blogs/${post.slug}`, de: `${SITE_URL}/de/blogs/${post.slug}` } } : {}) },
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      url: `${SITE_URL}/blogs/${post.slug}`,
-      siteName: 'Itinerary of Türkiye',
-      type: 'article',
-      images: [{ url: `${SITE_URL}${post.coverImage}` }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: post.title,
-      description: post.excerpt,
-      images: [`${SITE_URL}${post.coverImage}`],
-    },
-  };
-}
-
-export default async function BlogPostPage(
-  { params }: { params: Promise<{ slug: string }> }
-) {
-  const { slug } = await params;
+export default async function LegacyBlogArticle({ slug }: { slug: string }) {
   const post = getPostBySlug(slug);
 
-  if (!post) {
-    return (
-      <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '20px', textAlign: 'center', padding: '32px' }}>
-        <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '36px', color: '#081f35' }}>Post not found</h1>
-        <p style={{ color: '#647889' }}>This blog post does not exist or may have been moved.</p>
-        <Link href="/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Back to all posts</Link>
-      </main>
-    );
-  }
+  if (!post) notFound();
 
   const deVersion = getPostBySlugDe(slug);
   const otherPosts = [...blogPosts].sort((a, b) => b.dateISO.localeCompare(a.dateISO)).filter((p) => p.slug !== slug).slice(0, 3);
@@ -80,7 +34,7 @@ export default async function BlogPostPage(
     dateModified: post.updatedISO ?? post.dateISO,
     author: { '@type': 'Organization', name: 'Itinerary of Türkiye', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'Itinerary of Türkiye', url: SITE_URL },
-    mainEntityOfPage: `${SITE_URL}/blogs/${post.slug}`,
+    mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
   };
 
   const faqJsonLd = post.faq && post.faq.length > 0 ? {
@@ -221,7 +175,7 @@ export default async function BlogPostPage(
             <Link href="/services">Services</Link>
             <Link href="/testimonials">Testimonials</Link>
             <Link href="/#contact">Contact</Link>
-                      <a href={deVersion ? `/de/blogs/${slug}` : "/de/blogs"} style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
+                      <a href={deVersion ? `/de/blog/${slug}` : "/de/blog"} style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</a>
           </nav>
         </div>
       </header>
@@ -317,7 +271,7 @@ export default async function BlogPostPage(
         <div className="side-card">
           <h3>More from our guides</h3>
           {otherPosts.map((p) => (
-            <Link key={p.slug} className="side-post" href={`/blogs/${p.slug}`}>
+            <Link key={p.slug} className="side-post" href={`/blog/${p.slug}`}>
               <img loading="lazy" src={p.coverImage} alt="" />
               <span>{p.title}</span>
             </Link>
@@ -336,7 +290,7 @@ export default async function BlogPostPage(
           <h3>More from our blog</h3>
           <div className="related-grid">
             {otherPosts.slice(0, 2).map((p) => (
-              <Link key={p.slug} className="related-card" href={`/blogs/${p.slug}`}>
+              <Link key={p.slug} className="related-card" href={`/blog/${p.slug}`}>
                 <div className="related-img"><img loading="lazy" src={p.coverImage} alt={p.title} /></div>
                 <div className="related-body">
                   <p className="related-title">{p.title}</p>
@@ -347,7 +301,7 @@ export default async function BlogPostPage(
         </div>
       )}
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blog" style={{color:'inherit'}}>Guides</Link></p></footer>
     </main>
   );
 }

@@ -17,7 +17,7 @@ const categories = [
     image: '/images/pexels-2076930-700x900.jpg',
     desc: 'FUE and DHI at the clinics that do the most of them anywhere. We help you compare honestly — technique, graft counts, what a package should really include.',
     tags: ['FUE & DHI', 'Beard & brow', 'Aftercare'],
-    href: '/blogs/hair-transplant-turkey-cost-guide-2026',
+    href: '/blog/hair-transplant-turkey-cost-guide-2026',
   },
   {
     key: 'dental',
@@ -25,7 +25,7 @@ const categories = [
     image: '/images/pexels-3779709-700x900.jpg',
     desc: 'Veneers, implants and the full smile makeover — and a frank conversation about what lasts, what to avoid, and where a cheap quote gets expensive later.',
     tags: ['Veneers', 'Implants', 'Hollywood smile'],
-    href: '/blogs/dental-veneers-implants-turkey-cost-guide-2026',
+    href: '/blog/dental-veneers-implants-turkey-cost-guide-2026',
   },
   {
     key: 'aesthetic',
@@ -33,7 +33,7 @@ const categories = [
     image: '/images/pexels-3764013-700x900.jpg',
     desc: 'Rhinoplasty, facelift, body contouring — with realistic timelines, proper recovery planning, and the questions to ask before you pay any deposit.',
     tags: ['Rhinoplasty', 'Facelift', 'Body contouring'],
-    href: '/blogs/rhinoplasty-turkey-cost-process-recovery-2026',
+    href: '/blog/rhinoplasty-turkey-cost-process-recovery-2026',
   },
   {
     key: 'other',
@@ -41,7 +41,7 @@ const categories = [
     image: '',
     desc: 'Laser eye surgery, weight and metabolic procedures, and comprehensive health check-ups — coordinated with the same care, and the same independence.',
     tags: ['Laser eye (LASIK)', 'Bariatric', 'Check-ups'],
-    href: '/blogs/is-medical-tourism-turkey-safe',
+    href: '/blog/is-medical-tourism-turkey-safe',
   },
 ];
 

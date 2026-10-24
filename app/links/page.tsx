@@ -10,7 +10,7 @@ const UTM = '?utm_source=instagram&utm_medium=links';
 export default function LinksPage() {
   const links = [
     { emoji: 'whatsapp', title: 'Talk to Us on WhatsApp', sub: 'A real person replies within hours', href: whatsAppUrl('Hello! I found you on Instagram and I would like to plan a trip.'), external: true, primary: true },
-    { emoji: 'plan', title: 'Guides & Cost Articles', sub: 'Hair, dental, aesthetics, itineraries — honest 2026 guides', href: `/blogs${UTM}` },
+    { emoji: 'plan', title: 'Guides & Cost Articles', sub: 'Hair, dental, aesthetics, itineraries — honest 2026 guides', href: `/blog${UTM}` },
     { emoji: 'medical', title: 'Medical Travel Advisory', sub: 'How we verify clinics before recommending', href: `/${UTM}#health` },
     { emoji: 'landmark', title: 'Private Türkiye Experiences', sub: 'Cappadocia, Istanbul, the Aegean — tailor-made', href: `/${UTM}#tourism` },
     { emoji: 'sparkle', title: 'How It Works', sub: 'Three steps, zero stress', href: `/${UTM}#contact` },

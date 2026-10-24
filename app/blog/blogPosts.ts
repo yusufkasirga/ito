@@ -1,8 +1,5 @@
-// ============================================================
-// YENİ BLOG (2027 içerik partisi) — sahibin yüklediği 8 yazı.
-// Eski /blogs koleksiyonundan AYRI; /blog rotasında yayınlanır.
-// Menüdeki 'Blog' bunu gösterir; eski bloglar gizli kalır.
-// ============================================================
+// Journal articles retain their structured sections and source metadata.
+// blogCatalog.ts combines these with the guide collection under /blog.
 
 export type BlogSection =
   | { type: 'h2'; text: string }
