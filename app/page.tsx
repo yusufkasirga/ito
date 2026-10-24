@@ -148,12 +148,12 @@ export default function Home() {
               accent="before you land."
               readLabel="Read the guide"
               items={[
-                { icon: 'plane', title: 'Visa & entry', text: 'Who needs an e-Visa, what to prepare and the documents to carry for a smooth arrival.', href: '/blogs/turkey-visa-travel-requirements-2026' },
+                { icon: 'plane', title: 'Visa & entry', text: 'Who needs an e-Visa, what to prepare and the documents to carry for a smooth arrival.', href: '/blog/turkey-visa-travel-requirements-2026' },
                 { icon: 'sun', title: 'When to go', text: 'Month by month: weather, crowds and where Türkiye is at its best in the week you can travel.', href: '/blog/best-time-to-visit-turkiye-month-by-month' },
                 { icon: 'globe', title: 'Getting around Istanbul', text: 'Istanbulkart, the T1 tram, Marmaray and ferries — and when a taxi is still the better choice.', href: '/blog/istanbul-public-transport-tourist-guide' },
                 { icon: 'lock', title: 'Avoiding tourist traps', text: 'The nine tricks first-time visitors actually meet, and the simple habits that prevent them.', href: '/blog/turkey-tourist-scams-how-to-avoid' },
                 { icon: 'landmark', title: 'Is Türkiye safe?', text: 'An honest look at safety for visitors, and what we check before every trip we plan.', href: '/blog/is-turkey-safe-2026' },
-                { icon: 'briefcase', title: 'Costs & budget', text: 'What everyday things cost for visitors and residents, with indicative 2026 ranges.', href: '/blogs/cost-of-living-turkey-foreigners-2026' },
+                { icon: 'briefcase', title: 'Costs & budget', text: 'What everyday things cost for visitors and residents, with indicative 2026 ranges.', href: '/blog/cost-of-living-turkey-foreigners-2026' },
               ]}
             />
             <Journal

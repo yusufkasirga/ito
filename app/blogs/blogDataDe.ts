@@ -1,7 +1,7 @@
 // =====================================================
 // ALMANCA BLOG VERİSİ — İngilizce yazıların Almanca sürümleri.
 // Slug'lar İngilizce ile AYNI kalır (hreflang eşleşmesi için).
-// Partiler halinde genişler; burada olmayan yazılar /de/blogs'ta görünmez.
+// Partiler halinde genişler; burada olmayan yazılar /de/blog'ta görünmez.
 // Medikal dil: HWG-temkinli — "unverbindliche Richtwerte", garanti ifadesi yok.
 // =====================================================
 
@@ -21,7 +21,7 @@ export const blogPostsDe: BlogPost[] = [
     content: [
       'Die Türkei ist zur globalen Hauptstadt der Haarwiederherstellung geworden und zieht jedes Jahr Hunderttausende internationale Patienten an. Die Kombination aus erfahrenen Chirurgen, modernen Kliniken und Preisen, die deutlich unter denen in Deutschland, Großbritannien oder den USA liegen, hat vor allem Istanbul zum bevorzugten Ziel gemacht.',
       '## Warum die Türkei?',
-      'Nirgendwo auf der Welt werden jährlich mehr Haartransplantationen durchgeführt. Dieses Volumen hat ein Ökosystem aus sehr erfahrenen Chirurgen, hochmodernen Kliniken und verfeinerten Techniken wie [FUE (Follicular Unit Extraction) und DHI (Direct Hair Implantation)](/de/blogs/fue-vs-dhi-hair-transplant-comparison) geschaffen.',
+      'Nirgendwo auf der Welt werden jährlich mehr Haartransplantationen durchgeführt. Dieses Volumen hat ein Ökosystem aus sehr erfahrenen Chirurgen, hochmodernen Kliniken und verfeinerten Techniken wie [FUE (Follicular Unit Extraction) und DHI (Direct Hair Implantation)](/de/blog/fue-vs-dhi-hair-transplant-comparison) geschaffen.',
       '## Typische Kosten',
       'Eine vollständige Haartransplantation liegt in der Türkei typischerweise zwischen 1.500 € und 3.500 € — abhängig von Technik, Graft-Anzahl und Klinik. Zum Vergleich: In Deutschland oder Großbritannien kann derselbe Eingriff 8.000 € bis 15.000 € oder mehr kosten. Diese Zahlen sind unverbindliche Richtwerte für 2026 — der endgültige Preis hängt immer von Ihrem individuellen Fall und dem schriftlichen Angebot der Klinik ab.',
       '## Was üblicherweise enthalten ist',
@@ -537,7 +537,7 @@ export const blogPostsDe: BlogPost[] = [
       '## Tag 4: Flug nach Kappadokien',
       'Morgens nach Kayseri oder Nevşehir (rund eine Stunde), Transfer nach Göreme oder Uçhisar, dann ein sanfter Nachmittag: Freilichtmuseum Göreme und ein Aussichtspunkt zum Sonnenuntergang. Früh schlafen — morgen beginnt vor der Dämmerung.',
       '## Tage 5–6: Ballons und Täler',
-      'Tag fünf beginnt mit der [Ballonfahrt bei Sonnenaufgang](/de/blogs/cappadocia-hot-air-balloon-guide) — buchen Sie sie für Ihren ersten möglichen Morgen, damit Wetterausfälle neu angesetzt werden können. Danach langsam: Töpferei in Avanos, ein langes Mittagessen, Terrasse des Höhlenhotels. Tag sechs: geführte Wanderung durch das Rosen- oder Taubental, unterirdische Stadt Kaymaklı oder Derinkuyu, Abschluss an einem ruhigen Aussichtspunkt.',
+      'Tag fünf beginnt mit der [Ballonfahrt bei Sonnenaufgang](/de/blog/cappadocia-hot-air-balloon-guide) — buchen Sie sie für Ihren ersten möglichen Morgen, damit Wetterausfälle neu angesetzt werden können. Danach langsam: Töpferei in Avanos, ein langes Mittagessen, Terrasse des Höhlenhotels. Tag sechs: geführte Wanderung durch das Rosen- oder Taubental, unterirdische Stadt Kaymaklı oder Derinkuyu, Abschluss an einem ruhigen Aussichtspunkt.',
       '## Tag 7: Rückflug',
       'Zurück nach Istanbul für den internationalen Anschluss — oder verlängern: Mit drei weiteren Tagen macht die Ägäisküste (Ephesos, Şirince) daraus das klassische Türkei-Dreieck.',
       '## Buchungsreihenfolge, die Ärger spart',
@@ -802,7 +802,7 @@ export const blogPostsDe: BlogPost[] = [
       'Für einen ersten Besuch sind drei volle Tage das Minimum für Istanbul, fünf sind entspannt, und mit sieben Tagen bleibt Zeit für die Prinzeninseln oder einen Tagesausflug. Entscheidend ist nicht, wie viel Sie sehen, sondern die Reihenfolge: zuerst die historische Halbinsel, dann der Bosporus per Boot, danach je ein Viertel auf beiden Seiten des Wassers.',
       'Die folgenden drei Pläne nutzen wir als Ausgangspunkt für Paare, die Istanbul zum ersten Mal besuchen. Sie orientieren sich an Öffnungszeiten, Gehwegen und Besucherströmen — nicht an einer Checkliste.',
       '## Vor der Planung: Vier Dinge, die jeden Istanbul-Plan bestimmen',
-      '- Wöchentliche Schließtage: Der Topkapı-Palast ist in der Regel dienstags geschlossen, der Dolmabahçe-Palast montags und der Große Basar sonntags. Prüfen Sie immer die offiziellen Zeiten für Ihre Reisewoche.\n- Gebetszeiten: Die [Hagia Sophia](/de/blogs/hagia-sophia-mosque-visitor-guide) und die Blaue Moschee sind aktive Moscheen. Während der Gebete werden Besichtigungen unterbrochen; freitags zur Mittagszeit ist es am vollsten.\n- Verkehr: Eine Autofahrt quer durch die Stadt kann zur Stoßzeit über eine Stunde dauern. [Straßenbahn, Metro und Fähren](/de/blogs/istanbul-public-transport-tourist-guide) sind oft schneller.\n- Die Wahl des Viertels: Sultanahmet liegt direkt bei den historischen Sehenswürdigkeiten; Karaköy und Galata sind besser für Restaurants und Abende.',
+      '- Wöchentliche Schließtage: Der Topkapı-Palast ist in der Regel dienstags geschlossen, der Dolmabahçe-Palast montags und der Große Basar sonntags. Prüfen Sie immer die offiziellen Zeiten für Ihre Reisewoche.\n- Gebetszeiten: Die [Hagia Sophia](/de/blog/hagia-sophia-mosque-visitor-guide) und die Blaue Moschee sind aktive Moscheen. Während der Gebete werden Besichtigungen unterbrochen; freitags zur Mittagszeit ist es am vollsten.\n- Verkehr: Eine Autofahrt quer durch die Stadt kann zur Stoßzeit über eine Stunde dauern. [Straßenbahn, Metro und Fähren](/de/blog/istanbul-public-transport-tourist-guide) sind oft schneller.\n- Die Wahl des Viertels: Sultanahmet liegt direkt bei den historischen Sehenswürdigkeiten; Karaköy und Galata sind besser für Restaurants und Abende.',
       '## Istanbul in 3 Tagen',
       'Tag 1 — Die historische Halbinsel. Beginnen Sie zur Öffnungszeit an der Hagia Sophia, dann folgen die Blaue Moschee und das Hippodrom. Nach dem Mittagessen besuchen Sie die Basilika-Zisterne und beenden den Tag im Topkapı-Palast — planen Sie dafür mindestens drei Stunden ein.',
       'Tag 2 — Basare und Bosporus. Am Morgen durch den Großen Basar, dann bergab durch die Marktgassen zum Gewürzbasar, mit einem Abstecher zur Süleymaniye-Moschee. Am Nachmittag eine Bosporus-Fahrt ab Eminönü, vorbei an Palästen und Holzvillen am Ufer.',
@@ -955,7 +955,7 @@ export const blogPostsDe: BlogPost[] = [
       '## Lohnt sich der Besuch?',
       'Für die meisten Istanbul-Besucher: ja. Selbst ohne besonderes Interesse an Architektur beeindruckt allein die Größe. Wer Geschichte und Kultur liebt, wird noch mehr belohnt — Kuppel, Säulen, Mosaiken und Kalligrafie erzählen die vielen Jahrhunderte, die Istanbul geprägt haben.',
       '## Wie Itinerary of Türkiye hilft',
-      'Wir planen Ihren Istanbul-Aufenthalt nach Ihren Interessen: die Hagia Sophia, die Blaue Moschee, den Topkapı-Palast und den Großen Basar in einer sinnvollen Reihenfolge, dazu Transfers, Übersetzung und Unterstützung vor Ort. Sehen Sie auch unseren [Istanbul-Reiseplan für 3, 5 oder 7 Tage](/de/blogs/istanbul-itinerary-3-5-7-days).',
+      'Wir planen Ihren Istanbul-Aufenthalt nach Ihren Interessen: die Hagia Sophia, die Blaue Moschee, den Topkapı-Palast und den Großen Basar in einer sinnvollen Reihenfolge, dazu Transfers, Übersetzung und Unterstützung vor Ort. Sehen Sie auch unseren [Istanbul-Reiseplan für 3, 5 oder 7 Tage](/de/blog/istanbul-itinerary-3-5-7-days).',
     ],
     faq: [
       { q: 'Wie viel kostet der Eintritt in die Hagia Sophia?', a: 'Nach aktuellem Stand 2026 zahlen ausländische Besucher 25 € pro Person für den Besucherbereich mit der oberen Galerie. Preise können sich ändern; prüfen Sie vor dem Besuch die offiziellen Informationen.' },
@@ -996,12 +996,12 @@ export const blogPostsDe: BlogPost[] = [
       '- Türen freihalten und Aussteigende zuerst hinauslassen.\n- Nicht in volle Züge drängen.\n- Keine Sitzplätze mit Gepäck belegen.\n- Musik und Videos nur mit Kopfhörern.\n- Zum Handy-Check an die Seite treten, nicht mitten im Gang stehen bleiben.\n- Fremde, besonders Kinder, nicht ungefragt fotografieren.\n- Älteren Menschen, Schwangeren und Menschen mit Behinderung den Platz anbieten.\n- Auf Rolltreppen rechts stehen.',
       'Wenn Sie Ihre Haltestelle verpassen: keine Panik. Pläne in den Fahrzeugen und Ansagen zeigen Umstiegspunkte an.',
       '## Sind öffentliche Verkehrsmittel in Istanbul sicher?',
-      'Für die meisten Besucher sind sie praktisch und bequem. Nutzen Sie den gleichen gesunden Menschenverstand wie in jeder Großstadt: Wertsachen sichern, aufmerksam bleiben, kein großes Bargeld zeigen — besonders beim Ein- und Aussteigen in vollen Zügen. Mehr dazu in unserem Ratgeber zu [Touristenfallen in der Türkei](/de/blogs/turkey-tourist-scams-how-to-avoid).',
+      'Für die meisten Besucher sind sie praktisch und bequem. Nutzen Sie den gleichen gesunden Menschenverstand wie in jeder Großstadt: Wertsachen sichern, aufmerksam bleiben, kein großes Bargeld zeigen — besonders beim Ein- und Aussteigen in vollen Zügen. Mehr dazu in unserem Ratgeber zu [Touristenfallen in der Türkei](/de/blog/turkey-tourist-scams-how-to-avoid).',
       '## Öffentliche Verkehrsmittel oder Taxi?',
       'Öffentliche Verkehrsmittel sind meist besser bei dichtem Verkehr, wenn Ihr Ziel nahe einer Station liegt, in Sultanahmet und den zentralen Vierteln und wenn Sie Kosten im Griff behalten möchten. Ein Taxi ist bequemer mit viel Gepäck, wenn Ihr Hotel weit von einer Station entfernt ist, mit älteren Angehörigen oder kleinen Kindern oder spät abends.',
       'Für viele Reisende ist die beste Lösung eine Kombination: öffentliche Verkehrsmittel für die meisten Besichtigungen, ein Taxi dann, wenn es wirklich Zeit spart.',
       '## Fazit',
-      'Ja — öffentliche Verkehrsmittel sind für Touristen in Istanbul sehr empfehlenswert: günstig, gut ausgebaut und oft viel schneller als das Auto. Beginnen Sie mit T1, M2 und Marmaray, meiden Sie wenn möglich die Stoßzeiten und planen Sie für Umstiege etwas mehr Zeit ein. Und wenn das System verwirrend wirkt, helfen wir Ihnen — von der Istanbulkart bis zur besten Route für Ihren Tag. Passend dazu: unser [Istanbul-Reiseplan für 3, 5 oder 7 Tage](/de/blogs/istanbul-itinerary-3-5-7-days).',
+      'Ja — öffentliche Verkehrsmittel sind für Touristen in Istanbul sehr empfehlenswert: günstig, gut ausgebaut und oft viel schneller als das Auto. Beginnen Sie mit T1, M2 und Marmaray, meiden Sie wenn möglich die Stoßzeiten und planen Sie für Umstiege etwas mehr Zeit ein. Und wenn das System verwirrend wirkt, helfen wir Ihnen — von der Istanbulkart bis zur besten Route für Ihren Tag. Passend dazu: unser [Istanbul-Reiseplan für 3, 5 oder 7 Tage](/de/blog/istanbul-itinerary-3-5-7-days).',
     ],
     faq: [
       { q: 'Wie bekomme ich eine Istanbulkart?', a: 'An den Automaten (Biletmatik) und Verkaufsstellen in Metro-, Straßenbahn- und Fährstationen. Dort können Sie die Karte auch aufladen.' },

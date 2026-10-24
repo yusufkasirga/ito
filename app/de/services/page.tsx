@@ -11,11 +11,11 @@ export default function ServicesPage() {
       link: '/#tourism',
       tags: [
         { label: 'Private Guides', href: '/de#tourism' },
-        { label: 'Kuratierte Routen', href: '/de/blogs/7-day-turkey-itinerary-istanbul-cappadocia' },
-        { label: 'Kappadokien & Ballons', href: '/de/blogs/cappadocia-hot-air-balloon-guide' },
-        { label: 'Türkische Riviera', href: '/de/blogs/turkish-riviera-antalya-bodrum-fethiye-guide' },
-        { label: 'Istanbul-Guide', href: '/de/blogs/best-things-to-do-istanbul-first-time' },
-        { label: 'Visum & Einreise', href: '/de/blogs/turkey-visa-travel-requirements-2026' },
+        { label: 'Kuratierte Routen', href: '/de/blog/7-day-turkey-itinerary-istanbul-cappadocia' },
+        { label: 'Kappadokien & Ballons', href: '/de/blog/cappadocia-hot-air-balloon-guide' },
+        { label: 'Türkische Riviera', href: '/de/blog/turkish-riviera-antalya-bodrum-fethiye-guide' },
+        { label: 'Istanbul-Guide', href: '/de/blog/best-things-to-do-istanbul-first-time' },
+        { label: 'Visum & Einreise', href: '/de/blog/turkey-visa-travel-requirements-2026' },
       ],
     },
     {
@@ -26,12 +26,12 @@ export default function ServicesPage() {
       desc: 'Den richtigen Arzt oder die richtige Klinik für einen Eingriff im Ausland zu finden, kann überfordern. Wir nehmen Ihnen diese Last ab — und verbinden Sie mit erfahrenen, akkreditierten Spezialisten in Kliniken, die zu Ihrem Budget passen, damit Sie sich ganz auf Gesundheit und Genesung konzentrieren können.',
       link: '/#health',
       tags: [
-        { label: 'Haartransplantation', href: '/de/blogs/hair-transplant-turkey-cost-guide-2026' },
-        { label: 'Zahnbehandlung', href: '/de/blogs/dental-veneers-implants-turkey-cost-guide-2026' },
-        { label: 'Nasenkorrektur', href: '/de/blogs/rhinoplasty-turkey-cost-process-recovery-2026' },
-        { label: 'Ästhetische Chirurgie', href: '/de/blogs/cosmetic-surgery-consultation-questions' },
-        { label: 'Sicherheit & Verifizierung', href: '/de/blogs/is-medical-tourism-turkey-safe' },
-        { label: 'Planungs-Checkliste', href: '/de/blogs/medical-travel-turkey-planning-checklist' },
+        { label: 'Haartransplantation', href: '/de/blog/hair-transplant-turkey-cost-guide-2026' },
+        { label: 'Zahnbehandlung', href: '/de/blog/dental-veneers-implants-turkey-cost-guide-2026' },
+        { label: 'Nasenkorrektur', href: '/de/blog/rhinoplasty-turkey-cost-process-recovery-2026' },
+        { label: 'Ästhetische Chirurgie', href: '/de/blog/cosmetic-surgery-consultation-questions' },
+        { label: 'Sicherheit & Verifizierung', href: '/de/blog/is-medical-tourism-turkey-safe' },
+        { label: 'Planungs-Checkliste', href: '/de/blog/medical-travel-turkey-planning-checklist' },
       ],
     },
   ];
@@ -177,7 +177,7 @@ export default function ServicesPage() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p>
+        <p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link> · <Link href="/de/blog" style={{color:'inherit'}}>Ratgeber</Link></p>
       </footer>
     </main>
   );

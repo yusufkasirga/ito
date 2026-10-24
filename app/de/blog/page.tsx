@@ -3,16 +3,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { blogPosts } from './blogData';
+import { blogPostsDe as blogPosts } from '../../blogs/blogDataDe';
 
-export default function BlogsPage() {
-  const [filter, setFilter] = useState('All');
-  const categories = ['All', ...Array.from(new Set(blogPosts.map((p) => p.category)))];
+export default function BlogPage() {
+  const [filter, setFilter] = useState('Alle');
+  const categories = ['Alle', ...Array.from(new Set(blogPosts.map((p) => p.category)))];
   const sorted = [...blogPosts].sort((a, b) => b.dateISO.localeCompare(a.dateISO));
   const featuredFour = sorted.slice(0, 4);
   const rest = sorted.slice(4);
-  const visible = filter === 'All' ? rest : sorted.filter((p) => p.category === filter);
-  const showFeatured = filter === 'All';
+  const visible = filter === 'Alle' ? rest : sorted.filter((p) => p.category === filter);
+  const showFeatured = filter === 'Alle';
   return (
     <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh' }}>
       <style>{`
@@ -111,21 +111,21 @@ export default function BlogsPage() {
 
       <header className="nav">
         <div className="nav-inner">
-          <Link className="brand" href="/"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
+          <Link className="brand" href="/de"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
           <nav className="nav-links">
-            <Link href="/about">About Us</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/testimonials">Testimonials</Link>
-            <Link href="/#contact">Contact</Link>
-                      <Link href="/de/blogs" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</Link>
+            <Link href="/de/about">Über uns</Link>
+            <Link href="/de/services">Leistungen</Link>
+            <Link href="/de/testimonials">Referenzen</Link>
+            <Link href="/de#contact">Kontakt</Link>
+                      <Link href="/blog" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
           </nav>
         </div>
       </header>
 
       <section className="hero">
-        <div className="eyebrow">Stories & Insights</div>
-        <h1>Our Blog</h1>
-        <p>Guides, stories and insights about tourism, medical travel, investment and business in Türkiye.</p>
+        <div className="eyebrow">Ratgeber & Einblicke</div>
+        <h1>Unser Blog</h1>
+        <p>Ratgeber, Geschichten und Einblicke zu Tourismus, Medizinreisen, Investment und Business in der Türkei.</p>
       </section>
 
       <section className="content">
@@ -138,14 +138,14 @@ export default function BlogsPage() {
         {showFeatured && (
           <div className="feat-bento">
             {featuredFour.map((f, i) => (
-              <Link key={f.slug} className={`feat-card feat-${i}`} href={`/blogs/${f.slug}`}>
+              <Link key={f.slug} className={`feat-card feat-${i}`} href={`/de/blog/${f.slug}`}>
                 <img src={f.coverImage} alt={f.title} loading="lazy" decoding="async" />
                 <div className="feat-shade" />
                 <div className="feat-text">
-                  <span className="feat-tag">{i === 0 ? 'Latest · ' : ''}{f.category}</span>
+                  <span className="feat-tag">{i === 0 ? 'Neu · ' : ''}{f.category}</span>
                   <h2>{f.title}</h2>
                   {i === 0 && <p>{f.excerpt}</p>}
-                  <span className="feat-more">Read the guide →</span>
+                  <span className="feat-more">Zum Ratgeber →</span>
                 </div>
               </Link>
             ))}
@@ -154,7 +154,7 @@ export default function BlogsPage() {
 
         <div className="blog-grid">
           {visible.map((post) => (
-            <Link key={post.slug} className="blog-card" href={`/blogs/${post.slug}`}>
+            <Link key={post.slug} className="blog-card" href={`/de/blog/${post.slug}`}>
               <div className="blog-img"><img loading="lazy" src={post.coverImage} alt={post.title} /></div>
               <div className="blog-body">
                 <span className="blog-cat">{post.category}</span>
@@ -170,7 +170,7 @@ export default function BlogsPage() {
         </div>
       </section>
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/legal-notice" style={{color:'inherit'}}>Legal Notice</Link> · <Link href="/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/blogs" style={{color:'inherit'}}>Guides</Link></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Datenschutz</Link> · <Link href="/de/terms" style={{color:'inherit'}}>AGB</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Weitere Leistungen</Link></p></footer>
     </main>
   );
 }

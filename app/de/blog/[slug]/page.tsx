@@ -1,14 +1,18 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { getPostBySlugDe as getPostBySlug, blogPostsDe as blogPosts } from '../../../blogs/blogDataDe';
-import { blogSlugs as journalSlugs } from '../../../blog/blogPosts';
 
 const SITE_URL = 'https://itineraryofturkiye.com';
 
-// İngilizce karşılık: yeni Journal yazıları /blog altında, eski yazılar /blogs altında.
+// All German articles have an English counterpart in the unified blog.
 function enPath(slug: string) {
-  return journalSlugs.includes(slug) ? `/blog/${slug}` : `/blogs/${slug}`;
+  return `/blog/${slug}`;
+}
+
+function canonicalBlogLink(href: string) {
+  return href.replace(/^(\/de)?\/blogs(?=\/|[?#]|$)/, '$1/blog');
 }
 
 // Gövde metninde [metin](url) biçimindeki iç linkleri render eder.
@@ -16,7 +20,7 @@ function renderInline(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, i) => {
     const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (m) return <a key={i} href={m[2]} className="post-link">{m[1]}</a>;
+    if (m) return <a key={i} href={canonicalBlogLink(m[2])} className="post-link">{m[1]}</a>;
     return part;
   });
 }
@@ -32,18 +36,17 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) {
-    return { title: 'Beitrag nicht gefunden — Itinerary of Türkiye', robots: { index: false } };
-  }
+  if (!post) notFound();
   return {
     title: `${post.title} — Itinerary of Türkiye`,
     description: post.excerpt,
-    alternates: { canonical: `${SITE_URL}/de/blogs/${post.slug}`, languages: { en: `${SITE_URL}${enPath(post.slug)}`, de: `${SITE_URL}/de/blogs/${post.slug}` } },
+    alternates: { canonical: `${SITE_URL}/de/blog/${post.slug}`, languages: { en: `${SITE_URL}${enPath(post.slug)}`, de: `${SITE_URL}/de/blog/${post.slug}`, 'x-default': `${SITE_URL}${enPath(post.slug)}` } },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `${SITE_URL}/de/blogs/${post.slug}`,
+      url: `${SITE_URL}/de/blog/${post.slug}`,
       siteName: 'Itinerary of Türkiye',
+      locale: 'de_DE',
       type: 'article',
       images: [{ url: `${SITE_URL}${post.coverImage}` }],
     },
@@ -62,15 +65,7 @@ export default async function BlogPostPage(
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
-  if (!post) {
-    return (
-      <main style={{ fontFamily: "var(--font-inter), system-ui, sans-serif", background: '#fffaf1', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '20px', textAlign: 'center', padding: '32px' }}>
-        <h1 style={{ fontFamily: "var(--font-playfair), serif", fontSize: '36px', color: '#081f35' }}>Beitrag nicht gefunden</h1>
-        <p style={{ color: '#647889' }}>Dieser Beitrag existiert nicht oder wurde verschoben.</p>
-        <Link href="/de/blogs" style={{ color: '#c9a96a', fontWeight: 700, textDecoration: 'none' }}>← Alle Beiträge</Link>
-      </main>
-    );
-  }
+  if (!post) notFound();
 
   const otherPosts = [...blogPosts].sort((a, b) => b.dateISO.localeCompare(a.dateISO)).filter((p) => p.slug !== slug).slice(0, 3);
 
@@ -84,7 +79,7 @@ export default async function BlogPostPage(
     dateModified: post.updatedISO ?? post.dateISO,
     author: { '@type': 'Organization', name: 'Itinerary of Türkiye', url: SITE_URL },
     publisher: { '@type': 'Organization', name: 'Itinerary of Türkiye', url: SITE_URL },
-    mainEntityOfPage: `${SITE_URL}/de/blogs/${post.slug}`,
+    mainEntityOfPage: `${SITE_URL}/de/blog/${post.slug}`,
   };
 
   const faqJsonLd = post.faq && post.faq.length > 0 ? {
@@ -237,6 +232,7 @@ export default async function BlogPostPage(
         <div className="post-hero-overlay" />
         <div className="post-hero-content">
           <nav className="post-crumbs" aria-label="Breadcrumb">
+            <Link href="/de/blog">Blog</Link>
             <span>/</span>
             <span>{post.category}</span>
           </nav>
@@ -321,7 +317,7 @@ export default async function BlogPostPage(
         <div className="side-card">
           <h3>Mehr aus unserem Ratgeber</h3>
           {otherPosts.map((p) => (
-            <Link key={p.slug} className="side-post" href={`/de/blogs/${p.slug}`}>
+            <Link key={p.slug} className="side-post" href={`/de/blog/${p.slug}`}>
               <img loading="lazy" src={p.coverImage} alt="" />
               <span>{p.title}</span>
             </Link>
@@ -340,7 +336,7 @@ export default async function BlogPostPage(
           <h3>Mehr aus unserem Blog</h3>
           <div className="related-grid">
             {otherPosts.slice(0, 2).map((p) => (
-              <Link key={p.slug} className="related-card" href={`/de/blogs/${p.slug}`}>
+              <Link key={p.slug} className="related-card" href={`/de/blog/${p.slug}`}>
                 <div className="related-img"><img loading="lazy" src={p.coverImage} alt={p.title} /></div>
                 <div className="related-body">
                   <p className="related-title">{p.title}</p>
@@ -351,7 +347,7 @@ export default async function BlogPostPage(
         </div>
       )}
 
-      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/de/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/de/blogs" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
+      <footer className="footer"><p>© {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/de/privacy" style={{color:'inherit'}}>Privacy</Link> · <Link href="/de/terms" style={{color:'inherit'}}>Terms</Link> · <Link href="/de/impressum" style={{color:'inherit'}}>Impressum</Link> · <Link href="/de/future-services" style={{color:'inherit'}}>Future Services</Link> · <Link href="/de/blog" style={{color:'inherit'}}>Ratgeber</Link></p></footer>
     </main>
   );
 }

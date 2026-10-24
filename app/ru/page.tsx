@@ -1122,7 +1122,7 @@ export default function Home() {
               <h4>Другие услуги</h4>
               <Link href="/ru/future-services#business">Бизнес-консалтинг</Link>
               <Link href="/ru/future-services#investment">Инвестиции и недвижимость</Link>
-              <Link href="/blogs">Статьи и гиды</Link>
+              <Link href="/blog">Статьи и гиды</Link>
               <a href="#contact">Контакты</a>
               <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>

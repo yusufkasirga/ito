@@ -19,7 +19,7 @@ export default function NotFound() {
         </p>
         <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link href="/" style={{ padding: '14px 26px', borderRadius: '999px', background: 'linear-gradient(135deg, #c9a96a, #b8955a)', color: '#071726', fontWeight: 800, fontSize: '14px', textDecoration: 'none' }}>Back to Home</Link>
-          <Link href="/blogs" style={{ padding: '14px 26px', borderRadius: '999px', border: '1px solid rgba(255,250,241,.3)', color: '#fff', fontWeight: 700, fontSize: '14px', textDecoration: 'none' }}>Browse Our Guides</Link>
+          <Link href="/blog" style={{ padding: '14px 26px', borderRadius: '999px', border: '1px solid rgba(255,250,241,.3)', color: '#fff', fontWeight: 700, fontSize: '14px', textDecoration: 'none' }}>Browse Our Guides</Link>
         </div>
       </div>
     </main>
