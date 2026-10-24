@@ -482,7 +482,7 @@
     "touristic-eastern-express-ankara-kars-planning",
     "gaziantep-food-weekend-planning"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Codex agent editorial review; no human/native-speaker/expert certification claimed.",
   "notSelected": [
     {
@@ -645,6 +645,22 @@
         "reason": "Secondary trade-press source only; primary confirmation not obtained in time."
       }
     ],
-    "reviewer": "Independent Claude subagent (did not write the drafts): fetched all 7 cited sources, verified Divriği UNESCO inscription (1985), compared DE/ES/KO/zh-CN with EN. Verdict: publish with fixes for all three. Applied: Edirne excerpt softened and few-regional-connections caveat added, unsupported \"new high-speed station\" removed; Eastern Express 70-departure figure attributed to DHA, DE \"Vorsaison\" corrected, KO \"cabin bag\" corrected; Gaziantep Shira/Silk Road and katmer-dawn overstatements corrected, Zeugma clarified as the museum, ES \"frutos secos\" corrected; missing English-labelled links restored in ES/KO/zh-CN. No human, native-speaker or expert certification claimed."
+    "reviewer": "Independent Claude subagent (did not write the drafts): fetched all 7 cited sources, verified Divriği UNESCO inscription (1985), compared DE/ES/KO/zh-CN with EN. Verdict: publish with fixes for all three. Applied: Edirne excerpt softened and few-regional-connections caveat added, unsupported \"new high-speed station\" removed; Eastern Express 70-departure figure attributed to DHA, DE \"Vorsaison\" corrected, KO \"cabin bag\" corrected; Gaziantep Shira/Silk Road and katmer-dawn overstatements corrected, Zeugma clarified as the museum, ES \"frutos secos\" corrected; missing English-labelled links restored in ES/KO/zh-CN. No human, native-speaker or expert certification claimed.",
+    "publishedSlugs": [
+      "istanbul-edirne-train-cerkezkoy-transfer",
+      "touristic-eastern-express-ankara-kars-planning",
+      "gaziantep-food-weekend-planning"
+    ],
+    "pr": "https://github.com/yusufkasirga/ito/pull/24",
+    "commit": "97cdfb93b1067c9db35a6db06ba88fae015b5baa",
+    "deployment": {
+      "status": "success",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/99Xc3PUmXt1AjMJD9oT4zS9V4JXd",
+      "verifiedAt": "2026-10-24T21:20:00Z",
+      "source": "GitHub commit status from Vercel on the main merge commit; prebuild blog:validate and blog:test ran inside the Vercel build",
+      "canonicalUrlsChecked": 0,
+      "urlCheckNote": "Live URL requests were not possible from this environment (production domain not allowlisted, Vercel share-link access denied, Chrome extension offline). The next scheduled run should request the 15 canonical URLs and record the result."
+    },
+    "githubCI": "success"
   }
 }
