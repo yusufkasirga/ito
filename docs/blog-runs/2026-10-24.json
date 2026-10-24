@@ -477,9 +477,12 @@
   "publishedSlugs": [
     "istanbul-ankara-yht-booking-checklist",
     "istanbul-museum-pass-or-single-tickets",
-    "istanbul-museum-access-planning-checklist"
+    "istanbul-museum-access-planning-checklist",
+    "istanbul-edirne-train-cerkezkoy-transfer",
+    "touristic-eastern-express-ankara-kars-planning",
+    "gaziantep-food-weekend-planning"
   ],
-  "state": "published",
+  "state": "prepared",
   "reviewer": "Independent Codex agent editorial review; no human/native-speaker/expert certification claimed.",
   "notSelected": [
     {
@@ -642,6 +645,6 @@
         "reason": "Secondary trade-press source only; primary confirmation not obtained in time."
       }
     ],
-    "reviewer": "pending"
+    "reviewer": "Independent Claude subagent (did not write the drafts): fetched all 7 cited sources, verified Divriği UNESCO inscription (1985), compared DE/ES/KO/zh-CN with EN. Verdict: publish with fixes for all three. Applied: Edirne excerpt softened and few-regional-connections caveat added, unsupported \"new high-speed station\" removed; Eastern Express 70-departure figure attributed to DHA, DE \"Vorsaison\" corrected, KO \"cabin bag\" corrected; Gaziantep Shira/Silk Road and katmer-dawn overstatements corrected, Zeugma clarified as the museum, ES \"frutos secos\" corrected; missing English-labelled links restored in ES/KO/zh-CN. No human, native-speaker or expert certification claimed."
   }
 }

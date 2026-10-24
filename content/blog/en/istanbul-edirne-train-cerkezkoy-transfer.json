@@ -3,9 +3,9 @@
   "id": "ito-20261024-edirne-rail",
   "slug": "istanbul-edirne-train-cerkezkoy-transfer",
   "locale": "en",
-  "status": "draft",
+  "status": "published",
   "title": "Istanbul to Edirne by Train: How the Çerkezköy Transfer Works",
-  "excerpt": "The new Çerkezköy–Kapıkule high-speed line makes a rail day trip to Edirne realistic, but it starts with a transfer outside Istanbul. Here is how to plan it.",
+  "excerpt": "The new Çerkezköy–Kapıkule high-speed line opens a new rail option for an Edirne day trip, but it starts with a transfer outside Istanbul. Here is how to plan it.",
   "category": "Travel",
   "cover": "/images/dest/edirne.jpg",
   "dateISO": "2026-10-24",
@@ -25,7 +25,7 @@
     },
     {
       "type": "p",
-      "text": "Launch reporting on 10 October 2026 described high-speed trains running between Çerkezköy and Edirne, stopping at Büyükkarıştıran, Lüleburgaz and Babaeski, with the minister citing a Çerkezköy–Edirne time of 54 minutes. Passengers from Halkalı were described as taking a regional train to Çerkezköy and changing there. Treat these as launch details, not a timetable: the departure list for your date is the only reliable plan."
+      "text": "Launch reporting on 10 October 2026 described high-speed trains running between Çerkezköy and Edirne, stopping at Büyükkarıştıran, Lüleburgaz and Babaeski, with the minister citing a Çerkezköy–Edirne time of 54 minutes. Passengers from Halkalı were described as taking a regional train to Çerkezköy and changing there. Launch reports listed only a small number of regional departures a day on the Halkalı line, so the connection, not the fast section, sets the limits of your day. Treat these as launch details, not a timetable: the departure list for your date is the only reliable plan."
     },
     {
       "type": "h2",
@@ -52,7 +52,7 @@
       "items": [
         "Confirm on the operator’s channels, starting at [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/), that both legs run on your date and in both directions.",
         "Check whether the two legs are sold as one journey or as separate tickets, and what happens to the second leg if the first runs late.",
-        "Note the full station names. Edirne’s new high-speed station may not be next to the sights you plan to visit, so map the last kilometres before you go.",
+        "Note the full station names. Edirne’s station may not be next to the sights you plan to visit, so map the last kilometres before you go.",
         "Compare the complete hotel-to-Edirne time with the familiar alternatives, such as an intercity coach or a private driver.",
         "Keep a fallback for the evening return so a missed connection does not leave you improvising late at night."
       ]
@@ -108,6 +108,6 @@
     "semanticReviewed": true,
     "localizationReviewed": true,
     "risk": "low",
-    "reviewNotes": "Prepared 2026-10-24. Facts checked against the Transport Ministry project page (229 km, 153 km first stage, Ispartakule–Çerkezköy under construction in June 2026, 1.5 h projection) and CNBC-e launch report of 10 Oct 2026 (stations, 54 min, Halkalı transfer). Exact departure times and fares deliberately omitted; operator homepage linked for checking, not cited as evidence. No border-entry guidance given. Independent review recorded in the daily ledger."
+    "reviewNotes": "Prepared 2026-10-24. Facts checked against the Transport Ministry project page (229 km, 153 km first stage, Ispartakule–Çerkezköy under construction in June 2026, 1.5 h projection) and CNBC-e launch report of 10 Oct 2026 (stations, 54 min, Halkalı transfer, few regional connections). Independent reviewer fixes applied 2026-10-24. Exact departure times and fares deliberately omitted; operator homepage linked for checking, not cited as evidence. No border-entry guidance given. Independent review recorded in the daily ledger."
   }
 }

@@ -3,7 +3,7 @@
   "id": "ito-20261024-eastern-express",
   "slug": "touristic-eastern-express-ankara-kars-planning",
   "locale": "de",
-  "status": "draft",
+  "status": "published",
   "title": "Touristischer Ostexpress 2026–27: So planen Sie die Schlafwagenreise Ankara–Kars",
   "excerpt": "Saisontermine, die zwei unterschiedlichen Routen mit Zwischenhalten und eine Buchungs-Checkliste für den Winter-Schlafwagenzug zwischen Ankara und Kars – Einzeltickets ab dem 26. Oktober 2026.",
   "category": "Reisen",
@@ -13,7 +13,7 @@
   "body": [
     {
       "type": "p",
-      "text": "Der Touristische Ostexpress (Turistik Doğu Ekspresi) gehört zu den bekanntesten Winterreisen der Türkei: ein Schlafwagenzug von Ankara nach Kars durch verschneite anatolische Landschaften, mit geplanten Besichtigungsstopps unterwegs. Für die Saison 2026–27 hat das Verkehrsministerium 70 Fahrten angekündigt; Einzeltickets sind ab dem 26. Oktober 2026 über die Verkaufskanäle von TCDD Taşımacılık erhältlich. Die Abteile sind begrenzt. Die nützliche Frage ist daher nicht, ob die Reise schön ist, sondern wie man sie gut vorbereitet, bevor man das Buchungsformular öffnet."
+      "text": "Der Touristische Ostexpress (Turistik Doğu Ekspresi) gehört zu den bekanntesten Winterreisen der Türkei: ein Schlafwagenzug von Ankara nach Kars durch verschneite anatolische Landschaften, mit geplanten Besichtigungsstopps unterwegs. Für die Saison 2026–27 meldete die Agentur DHA unter Berufung auf den Verkehrsminister 70 Fahrten; Einzeltickets sind ab dem 26. Oktober 2026 über die Verkaufskanäle von TCDD Taşımacılık erhältlich. Die Abteile sind begrenzt. Die nützliche Frage ist daher nicht, ob die Reise schön ist, sondern wie man sie gut vorbereitet, bevor man das Buchungsformular öffnet."
     },
     {
       "type": "h2",
@@ -43,7 +43,7 @@
     },
     {
       "type": "p",
-      "text": "In der Vorsaison beschrieb die [Mitteilung des Ministeriums](https://www.uab.gov.tr/haberler/turistik-dogu-ekspresi-yeni-sezona-hazir) Aufenthalte von etwa zweieinhalb Stunden in Erzincan und vier Stunden in Erzurum, rund drei Stunden in İliç, zweieinhalb in Divriği und drei in Sivas sowie eine Gesamtreisezeit von etwa 32 Stunden einschließlich Stopps. Diese Zahlen beschreiben die Saison 2025–26. Nutzen Sie sie als Eindruck vom Rhythmus der Reise und prüfen Sie die aktuellen Haltezeiten, bevor Sie an einem Bahnhof ein Essen oder einen Besuch einplanen."
+      "text": "In der vergangenen Saison beschrieb die [Mitteilung des Ministeriums](https://www.uab.gov.tr/haberler/turistik-dogu-ekspresi-yeni-sezona-hazir) Aufenthalte von etwa zweieinhalb Stunden in Erzincan und vier Stunden in Erzurum, rund drei Stunden in İliç, zweieinhalb in Divriği und drei in Sivas sowie eine Gesamtreisezeit von etwa 32 Stunden einschließlich Stopps. Diese Zahlen beschreiben die Saison 2025–26. Nutzen Sie sie als Eindruck vom Rhythmus der Reise und prüfen Sie die aktuellen Haltezeiten, bevor Sie an einem Bahnhof ein Essen oder einen Besuch einplanen."
     },
     {
       "type": "h2",
@@ -103,7 +103,7 @@
       "Turistik Doğu Ekspresi Tickets"
     ],
     "topicKey": "touristic-eastern-express-season-booking-planning",
-    "uniqueValue": "Vergleicht beide Richtungen anhand ihrer Stopps, trennt den bestätigten Kalender 2026–27 von den Haltezeiten der Vorsaison und bietet eine Checkliste vor dem Verkaufsstart."
+    "uniqueValue": "Vergleicht beide Richtungen anhand ihrer Stopps, trennt den bestätigten Kalender 2026–27 von den Haltezeiten der vergangenen Saison und bietet eine Checkliste vor dem Verkaufsstart."
   },
   "quality": {
     "score": 86,
@@ -111,6 +111,6 @@
     "semanticReviewed": true,
     "localizationReviewed": true,
     "risk": "low",
-    "reviewNotes": "Deutsche Fassung des englischen Masters vom 2026-10-24; Termine, Wochentage, 70 Fahrten, Abteile und Verkaufsstart identisch mit DHA; Haltezeiten und 32 Stunden ausdrücklich als Vorsaison gekennzeichnet. Keine Preise. Unabhängige Prüfung im Tagesprotokoll."
+    "reviewNotes": "Deutsche Fassung des englischen Masters vom 2026-10-24; Termine, Wochentage, 70 Fahrten, Abteile und Verkaufsstart identisch mit DHA; Haltezeiten und 32 Stunden ausdrücklich als vergangene Saison gekennzeichnet. Keine Preise. Unabhängige Prüfung im Tagesprotokoll."
   }
 }

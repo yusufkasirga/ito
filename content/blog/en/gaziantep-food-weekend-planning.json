@@ -3,7 +3,7 @@
   "id": "ito-20261024-gaziantep-food",
   "slug": "gaziantep-food-weekend-planning",
   "locale": "en",
-  "status": "draft",
+  "status": "published",
   "title": "A Food Weekend in Gaziantep: How to Plan Türkiye’s City of Gastronomy",
   "excerpt": "How to shape two days in Gaziantep around breakfast, lunch, the markets and a slow dinner, with timing tips that help first-time visitors eat well rather than eat everything.",
   "category": "Food",
@@ -21,7 +21,7 @@
     },
     {
       "type": "p",
-      "text": "[UNESCO’s profile](https://www.unesco.org/en/creative-cities/gaziantep) describes gastronomy as central to Gaziantep’s identity since the Iron Age and still the main driver of the local economy, with spices, cereals, dried fruits and pistachios at its heart. It also highlights the Pistachio Culture and Art Festival and a three-day Shira Festival celebrating the cuisines inherited from the city’s position on the old Silk Road. For a visitor, that means two things: specialities are tied to particular times of day, and much of the best eating happens in small, focused places that make one thing well."
+      "text": "[UNESCO’s profile](https://www.unesco.org/en/creative-cities/gaziantep) describes gastronomy as central to Gaziantep’s identity since the Iron Age and still the main driver of the local economy, with spices, cereals, dried fruits and pistachios at its heart. It also highlights the Pistachio Culture and Art Festival and a three-day Shira Festival where residents share local cuisines, and notes how the city’s place on the old Silk Road shaped its food. For a visitor, that means two things: specialities are tied to particular times of day, and much of the best eating happens in small, focused places that make one thing well."
     },
     {
       "type": "h2",
@@ -29,7 +29,7 @@
     },
     {
       "type": "p",
-      "text": "Start early. Katmer, a thin pastry layered with pistachio, sugar and kaymak, is traditionally eaten in the morning; [GoTürkiye’s culinary route](https://goturkiye.com/routes/a-3-day-culinary-route-gaziantep-sanliurfa-diyarbakir) describes it being served at dawn. Many visitors also try beyran, a rich soup with rice and meat, as a local breakfast. Order one dish, share it, and leave space: the morning sets the pace for the whole day."
+      "text": "Start early. Katmer, a thin pastry layered with pistachio, sugar and kaymak, is traditionally eaten in the morning; [GoTürkiye’s culinary route](https://goturkiye.com/routes/a-3-day-culinary-route-gaziantep-sanliurfa-diyarbakir) associates its aroma with dawn. Many visitors also try beyran, a rich soup with rice and meat, as a local breakfast. Order one dish, share it, and leave space: the morning sets the pace for the whole day."
     },
     {
       "type": "p",
@@ -54,7 +54,7 @@
     {
       "type": "ul",
       "items": [
-        "Two full days are enough for a focused food weekend; add a third if you want a slower pace or a day trip to Zeugma’s mosaics.",
+        "Two full days are enough for a focused food weekend; add a third if you want a slower pace or time at the Zeugma Mosaic Museum.",
         "Plan meals around the specialities’ natural times — pastry in the morning, kebabs at lunch, baklava when it is freshest.",
         "Mention allergies or dietary needs clearly, especially nuts: pistachio appears in many sweets and some savoury dishes.",
         "Check whether a festival is on during your dates; they bring atmosphere, but also crowds.",
@@ -102,6 +102,6 @@
     "semanticReviewed": true,
     "localizationReviewed": true,
     "risk": "low",
-    "reviewNotes": "Prepared 2026-10-24. UNESCO page checked for 2015 gastronomy membership, Iron Age/economy framing, pistachio and Shira festivals. GoTürkiye route checked for katmer at dawn, ali nazik, culinary museum and coffee house; taste page for beyran, yuvalama, lahmacun. Baklava tasting and timing advice is editorial guidance, not a sourced claim. No restaurant names, prices or first-hand visits. Independent review recorded in the daily ledger."
+    "reviewNotes": "Prepared 2026-10-24. UNESCO page checked for 2015 gastronomy membership, Iron Age/economy framing, pistachio and Shira festivals. GoTürkiye route checked for katmer (aroma linked to dawn), ali nazik, culinary museum and coffee house; taste page names beyran, yuvalama and lahmacun (beyran description and bazaar details are common knowledge, not sourced). Independent reviewer fixes applied 2026-10-24. Baklava tasting and timing advice is editorial guidance, not a sourced claim. No restaurant names, prices or first-hand visits. Independent review recorded in the daily ledger."
   }
 }

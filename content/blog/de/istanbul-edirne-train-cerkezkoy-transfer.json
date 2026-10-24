@@ -3,9 +3,9 @@
   "id": "ito-20261024-edirne-rail",
   "slug": "istanbul-edirne-train-cerkezkoy-transfer",
   "locale": "de",
-  "status": "draft",
+  "status": "published",
   "title": "Mit dem Zug von Istanbul nach Edirne: So funktioniert der Umstieg in Çerkezköy",
-  "excerpt": "Die neue Schnellfahrstrecke Çerkezköy–Kapıkule macht einen Tagesausflug nach Edirne per Bahn realistisch – allerdings mit einem Umstieg außerhalb Istanbuls. So planen Sie die Fahrt.",
+  "excerpt": "Die neue Schnellfahrstrecke Çerkezköy–Kapıkule eröffnet eine neue Bahnoption für einen Tagesausflug nach Edirne – allerdings mit einem Umstieg außerhalb Istanbuls. So planen Sie die Fahrt.",
   "category": "Reisen",
   "cover": "/images/dest/edirne.jpg",
   "dateISO": "2026-10-24",
@@ -25,7 +25,7 @@
     },
     {
       "type": "p",
-      "text": "Berichte zum Start am 10. Oktober 2026 beschrieben Schnellzüge zwischen Çerkezköy und Edirne mit Halten in Büyükkarıştıran, Lüleburgaz und Babaeski; der Minister nannte für Çerkezköy–Edirne 54 Minuten. Fahrgäste aus Halkalı fahren demnach mit einem Regionalzug nach Çerkezköy und steigen dort um. Betrachten Sie das als Angaben zum Start, nicht als Fahrplan: Verlässlich ist nur die Verbindungsliste für Ihr Reisedatum."
+      "text": "Berichte zum Start am 10. Oktober 2026 beschrieben Schnellzüge zwischen Çerkezköy und Edirne mit Halten in Büyükkarıştıran, Lüleburgaz und Babaeski; der Minister nannte für Çerkezköy–Edirne 54 Minuten. Fahrgäste aus Halkalı fahren demnach mit einem Regionalzug nach Çerkezköy und steigen dort um. Laut den Berichten zum Start gibt es auf der Strecke ab Halkalı nur wenige Regionalzüge am Tag – der Anschluss, nicht der schnelle Abschnitt, bestimmt also den Rahmen Ihres Tages. Betrachten Sie das als Angaben zum Start, nicht als Fahrplan: Verlässlich ist nur die Verbindungsliste für Ihr Reisedatum."
     },
     {
       "type": "h2",
@@ -50,9 +50,9 @@
     {
       "type": "ul",
       "items": [
-        "Prüfen Sie bei den Kanälen des Betreibers, beginnend bei [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/), ob beide Etappen an Ihrem Datum in beide Richtungen verkehren.",
+        "Prüfen Sie über die Kanäle des Betreibers, beginnend bei [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/), ob beide Etappen an Ihrem Datum in beide Richtungen verkehren.",
         "Klären Sie, ob beide Etappen als eine Reise oder als getrennte Fahrkarten verkauft werden und was bei Verspätung der ersten Etappe mit der zweiten geschieht.",
-        "Notieren Sie die vollständigen Bahnhofsnamen. Der neue Schnellzugbahnhof in Edirne liegt möglicherweise nicht direkt bei den Sehenswürdigkeiten – planen Sie die letzten Kilometer vorab.",
+        "Notieren Sie die vollständigen Bahnhofsnamen. Der Bahnhof in Edirne liegt möglicherweise nicht direkt bei den Sehenswürdigkeiten – planen Sie die letzten Kilometer vorab.",
         "Vergleichen Sie die gesamte Reisezeit vom Hotel bis Edirne mit den bekannten Alternativen wie Fernbus oder privatem Fahrer.",
         "Halten Sie für die abendliche Rückfahrt eine Ausweichlösung bereit, damit ein verpasster Anschluss nicht zu später Improvisation führt."
       ]

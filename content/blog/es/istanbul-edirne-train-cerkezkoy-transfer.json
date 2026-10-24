@@ -3,9 +3,9 @@
   "id": "ito-20261024-edirne-rail",
   "slug": "istanbul-edirne-train-cerkezkoy-transfer",
   "locale": "es",
-  "status": "draft",
+  "status": "published",
   "title": "De Estambul a Edirne en tren: cómo funciona el transbordo en Çerkezköy",
-  "excerpt": "La nueva línea de alta velocidad Çerkezköy–Kapıkule hace realista una excursión en tren a Edirne, pero empieza con un transbordo fuera de Estambul. Así se planifica.",
+  "excerpt": "La nueva línea de alta velocidad Çerkezköy–Kapıkule abre una nueva opción en tren para una excursión a Edirne, pero empieza con un transbordo fuera de Estambul. Así se planifica.",
   "category": "Viajes",
   "cover": "/images/dest/edirne.jpg",
   "dateISO": "2026-10-24",
@@ -25,7 +25,7 @@
     },
     {
       "type": "p",
-      "text": "Las noticias de la inauguración, el 10 de octubre de 2026, describían trenes de alta velocidad entre Çerkezköy y Edirne con paradas en Büyükkarıştıran, Lüleburgaz y Babaeski; el ministro citó 54 minutos entre Çerkezköy y Edirne. Los pasajeros desde Halkalı toman un tren regional hasta Çerkezköy y cambian allí. Tómalo como información del lanzamiento, no como horario: la única planificación fiable es la lista de salidas de tu fecha."
+      "text": "Las noticias de la inauguración, el 10 de octubre de 2026, describían trenes de alta velocidad entre Çerkezköy y Edirne con paradas en Büyükkarıştıran, Lüleburgaz y Babaeski; el ministro citó 54 minutos entre Çerkezköy y Edirne. Los pasajeros desde Halkalı toman un tren regional hasta Çerkezköy y cambian allí. Según esas noticias, en la línea de Halkalı hay muy pocas salidas regionales al día, así que es la conexión, y no el tramo rápido, lo que marca los límites de tu día. Tómalo como información del lanzamiento, no como horario: la única planificación fiable es la lista de salidas de tu fecha."
     },
     {
       "type": "h2",
@@ -52,9 +52,9 @@
       "items": [
         "Confirma en los canales del operador, empezando por [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/), que ambos tramos circulan en tu fecha y en los dos sentidos.",
         "Comprueba si los dos tramos se venden como un solo viaje o como billetes separados, y qué pasa con el segundo si el primero se retrasa.",
-        "Anota los nombres completos de las estaciones. La nueva estación de alta velocidad de Edirne puede no estar junto a los monumentos; planifica los últimos kilómetros antes de salir.",
+        "Anota los nombres completos de las estaciones. La estación de Edirne puede no estar junto a los monumentos; planifica los últimos kilómetros antes de salir.",
         "Compara el tiempo total del hotel a Edirne con las alternativas habituales, como el autobús interurbano o un conductor privado.",
-        "Ten un plan alternativo para el regreso por la tarde, para que una conexión perdida no te obligue a improvisar de noche."
+        "Ten un plan alternativo para el regreso al final del día, para que una conexión perdida no te obligue a improvisar de noche."
       ]
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "type": "p",
-      "text": "Para una decisión similar en la dirección contraria, consulta nuestra [lista para el tren de alta velocidad Estambul–Ankara](/es/blog/istanbul-ankara-yht-booking-checklist). Si necesitas entender la red urbana para llegar a Halkalı, nuestra [guía del transporte público de Estambul](/blog/istanbul-public-transport-tourist-guide) (en inglés) explica cómo llegar a los principales nudos ferroviarios."
+      "text": "Para una decisión similar en la dirección contraria, consulta nuestra [lista para el tren de alta velocidad Estambul–Ankara](/es/blog/istanbul-ankara-yht-booking-checklist). Si necesitas entender la red urbana para llegar a Halkalı, nuestra [guía del transporte público de Estambul](/blog/istanbul-public-transport-tourist-guide) (en inglés) explica cómo llegar a los principales nudos ferroviarios, y nuestro [itinerario de tres, cinco o siete días por Estambul](/blog/istanbul-itinerary-3-5-7-days) (en inglés) te ayuda a decidir qué sacrificar si Edirne compite con otras excursiones."
     },
     {
       "type": "h2",
