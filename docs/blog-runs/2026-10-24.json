@@ -250,7 +250,7 @@
     "istanbul-museum-pass-or-single-tickets",
     "istanbul-museum-access-planning-checklist"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Codex agent editorial review; no human/native-speaker/expert certification claimed.",
   "notSelected": [
     {
@@ -373,5 +373,26 @@
       "reason": "Potential later research or background. Not selected for this first batch because user-facing practical value, overlap, fresh primary corroboration or topic specificity was weaker than the three chosen intents."
     }
   ],
-  "evidence": "docs/blog-first-batch.json"
+  "evidence": "docs/blog-first-batch.json",
+  "pr": "https://github.com/yusufkasirga/ito/pull/21",
+  "commit": "151acd702435a01d7dee367e9ecdc3336b6a388a",
+  "deployment": {
+    "status": "success",
+    "url": "https://vercel.com/yusufkasirgas-projects/ito/7a9DkPniUFNxWxtxL11oAob81f1o",
+    "verifiedAt": "2026-10-24T17:15:00.007Z",
+    "canonicalUrlsChecked": 15,
+    "allReturned200": true,
+    "allCanonicalTagsCorrect": true
+  },
+  "validation": {
+    "blogTests": 35,
+    "lintErrors": 0,
+    "existingLintWarnings": 21,
+    "build": "passed",
+    "generatedPages": 191,
+    "httpCanonicalPages": 103,
+    "legacyRedirects": 69,
+    "missingRoutes404": 4,
+    "githubCI": "success"
+  }
 }
