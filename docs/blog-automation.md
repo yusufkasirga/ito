@@ -26,6 +26,10 @@ Write `content/blog/{en,de,zh-cn,ko,es}/<slug>.json` using the schema in `lib/bl
 
 Localizations must preserve substantive coverage while adapting search language, terminology and traveler context. A short translation summary is not a localized article. Use real internal links: a corresponding localized article where available, otherwise an honestly labelled English reference. Each version needs at least two valid internal links. Do not add alternate tags or route links for an unpublished translation. The application creates canonical, reciprocal hreflang, x-default, BlogPosting schema and sitemap entries from actual published records.
 
+### Page layout (all articles)
+
+Every article — Journal, legacy guide, German guide and the five-locale content records — renders through `app/blog/ArticleLayout.tsx`, the structure of `/blog/turkiye-tourism-2026`: full-bleed hero, two-column body with the sticky "Work with us" card, FAQ, sources, the closing `TurkiyeInfographic` panel ("Türkiye at a glance" cards plus the article's own published/updated/read-time/sources/languages figures), "More from the Journal" cards and the CTA band. New JSON records need no layout work. Infographic copy lives in `app/blog/articleCopy.ts`; keep it to verifiable facts — no unsourced statistics.
+
 ## 4. Review and publication gates
 
 Have an independent agent review the EN factual claims, source support and all language versions for omissions and material translation errors. Set review booleans and the score only after actually conducting the reviews. A number or a boolean is an editorial attestation, not independent proof. Source URLs, reviewed corpus and decision rationale are required in the daily record.
