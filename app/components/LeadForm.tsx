@@ -1,7 +1,7 @@
 'use client';
 
 import { useId, useRef, useState } from 'react';
-import { whatsAppUrl, WEB3FORMS_ACCESS_KEY } from '@/lib/config';
+import { whatsAppUrl } from '@/lib/config';
 import { contactRequirements, normalizeLead, sendLead, validateLeadStep } from '@/lib/lead-form.mjs';
 import type { LeadData, LeadErrorCode } from '@/lib/lead-form.mjs';
 import { track } from '@vercel/analytics';
@@ -24,6 +24,7 @@ const COPY = {
     successTitle: '✓ Thank you — your enquiry has been sent',
     successBody: 'Your request has been accepted. Our team will be in touch using your preferred contact method. You can also message us on WhatsApp.',
     whatsapp: 'Message us on WhatsApp', safety: 'Please do not send medical reports, photos or ID documents in a first message.',
+    privacy: 'We use these details to respond to your enquiry.', privacyLink: 'Privacy policy',
     step: (step: number) => `Step ${step} of 3`,
   },
   de: {
@@ -42,6 +43,7 @@ const COPY = {
     successTitle: '✓ Vielen Dank — Ihre Anfrage wurde gesendet',
     successBody: 'Ihre Anfrage wurde angenommen. Unser Team meldet sich über Ihren gewünschten Kontaktweg. Sie können uns auch über WhatsApp schreiben.',
     whatsapp: 'Über WhatsApp schreiben', safety: 'Bitte senden Sie in Ihrer ersten Nachricht keine medizinischen Berichte, Fotos oder Ausweisdokumente.',
+    privacy: 'Wir verwenden diese Angaben, um Ihre Anfrage zu beantworten.', privacyLink: 'Datenschutzerklärung',
     step: (step: number) => `Schritt ${step} von 3`,
   },
   ru: {
@@ -60,6 +62,7 @@ const COPY = {
     successTitle: '✓ Спасибо — ваша заявка отправлена',
     successBody: 'Ваша заявка принята. Наша команда свяжется с вами выбранным способом. Вы также можете написать нам в WhatsApp.',
     whatsapp: 'Написать в WhatsApp', safety: 'Не отправляйте медицинские заключения, фотографии или документы, удостоверяющие личность, в первом сообщении.',
+    privacy: 'Мы используем эти данные, чтобы ответить на вашу заявку.', privacyLink: 'Политика конфиденциальности',
     step: (step: number) => `Шаг ${step} из 3`,
   },
 };
@@ -67,7 +70,7 @@ const INTERESTS = ['Tourism', 'Medical Tourism', 'Investment / Real Estate', 'Bu
 const TIMELINES = ['Within 2 weeks', '1–2 months', '3–6 months', 'Exploratory only'];
 const CONTACTS = ['Email', 'WhatsApp', 'Phone call', 'Video meeting'];
 
-/** Shared enquiry form. A sent state requires explicit acceptance by the configured provider. */
+/** Shared enquiry form. A sent state requires explicit acceptance by the site. */
 export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru' }) {
   const copy = COPY[locale];
   const formId = useId();
@@ -78,9 +81,12 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
   const [submitError, setSubmitError] = useState(false);
   const [sending, setSending] = useState(false);
   const sendingRef = useRef(false);
+  const requestIdRef = useRef<string | null>(null);
   const required = contactRequirements(data.contact);
   const id = (field: string) => `${formId}-${field}`;
   const update = (field: keyof LeadData, value: string) => {
+    // An edited enquiry is a new request; unchanged retries retain their identity.
+    if (requestIdRef.current && data[field] !== value) requestIdRef.current = null;
     setData((previous) => ({ ...previous, [field]: value }));
     setErrors((previous) => ({ ...previous, [field]: undefined }));
   };
@@ -114,7 +120,8 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
     setSending(true);
     setSubmitError(false);
     try {
-      await sendLead(data, { accessKey: WEB3FORMS_ACCESS_KEY, locale, page: window.location.pathname });
+      requestIdRef.current ??= globalThis.crypto.randomUUID();
+      await sendLead(data, { requestId: requestIdRef.current, locale, page: window.location.pathname });
     } catch {
       setSubmitError(true);
       return;
@@ -152,6 +159,7 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
         .lf-scope .lf-field option { color: #081f35; }
         .lf-scope .lf-err { color: #ffb0b0; font-size: 13px; display: block; margin-top: 2px; line-height: 1.5; }
         .lf-scope .lf-help { color: rgba(255,250,241,.72); font-size: 12px; line-height: 1.6; margin: 0; }
+        .lf-scope .lf-help a { color: inherit; text-underline-offset: 3px; }
         .lf-scope .lf-btn { min-height: 52px; padding: 14px 26px; border-radius: 999px; border: none; font: 800 14px var(--font-inter), sans-serif; cursor: pointer; }
         .lf-scope .lf-btn-primary { background: #c9a96a; color: #081f35; flex: 1; }
         .lf-scope .lf-btn-ghost { background: rgba(255,255,255,.12); color: #fff; }
@@ -229,6 +237,11 @@ export default function LeadForm({ locale = 'en' }: { locale?: 'en' | 'de' | 'ru
                     </div>
                   )}
                 </>
+              )}
+              {step === 3 && (
+                <p className="lf-help" style={{ marginTop: '16px' }}>
+                  {copy.privacy}{' '}<a href={locale === 'de' ? '/de/privacy' : '/privacy'}>{copy.privacyLink}</a>.
+                </p>
               )}
               <div style={{ display: 'flex', gap: '12px', marginTop: '20px' }}>
                 {step > 1 && <button type="button" className="lf-btn lf-btn-ghost" onClick={() => { setStep(step - 1); setErrors({}); setSubmitError(false); }}>{copy.back}</button>}

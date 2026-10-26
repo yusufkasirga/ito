@@ -11,10 +11,11 @@ export type LeadErrorCode = 'select' | 'required' | 'email' | 'phone';
 export function normalizeLead(data: Partial<LeadData>): LeadData;
 export function contactRequirements(contact: string): { email: boolean; phone: boolean };
 export function validateLeadStep(data: Partial<LeadData>, step: number): Partial<Record<keyof LeadData, LeadErrorCode>>;
-export function sendLead(data: LeadData, options: {
-  accessKey: string;
+export function sendLead(data: LeadData, options?: {
+  requestId?: string;
   locale?: 'en' | 'de' | 'ru';
   page?: string;
+  website?: string;
   fetchImpl?: typeof fetch;
   timeoutMs?: number;
 }): Promise<void>;
