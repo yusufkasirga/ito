@@ -288,10 +288,28 @@
     "istanbul-art-exhibitions-november-december-2026",
     "belek-antalya-golf-trip-season-planning"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents (did not write the drafts): one shortlist overlap review across all 58 EN articles; one fact-check + four-locale translation review per article with fixes applied. No human, native-speaker or expert certification claimed.",
   "followUps": [
     "2027 museum and site entry fees (KTB announcement, 2026-09-08) may affect the museum-pass article; check at its existing URL.",
     "Exhibitions calendar expires 31 Dec 2026: retire or redirect in January 2027."
-  ]
+  ],
+  "pr": "https://github.com/yusufkasirga/ito/pull/28",
+  "commit": "6015956e3c1fd1382ef6f61b32102442208dd890",
+  "deployment": {
+    "status": "success",
+    "url": "https://vercel.com/yusufkasirgas-projects/ito/AXdUTa66uaig3LXhmRZ2nN6SAePK",
+    "verifiedAt": "2026-10-26T04:44:12Z",
+    "source": "GitHub commit status from Vercel on the main merge commit; prebuild blog:validate and blog:test ran inside the Vercel build",
+    "canonicalUrlsChecked": 0,
+    "urlCheckNote": "Live URL requests failed from this environment (production domain not allowlisted for the shell proxy, Vercel share-link access 403, WebFetch permission request unanswered). The 15 new canonical URLs still need a 200/canonical check."
+  },
+  "validation": {
+    "blogTests": 36,
+    "lintErrors": 0,
+    "lintWarnings": 13,
+    "blogValidate": "valid (45 published records)",
+    "build": "local next build failed only on Google Fonts download in sandbox; Vercel build succeeded",
+    "githubCI": "quality=success, Vercel=success on PR head db461f9"
+  }
 }
