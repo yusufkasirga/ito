@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
+import { BLOG_SLUG_ALIASES, getCanonicalBlogSlug } from '@/lib/blog-aliases.mjs';
 import { CONTENT_LOCALES, CONTENT_LOCALE_PATHS, getContentArticles, type ContentArticle, type ContentLocale } from '@/lib/blog-content.mjs';
 import { blogArticles, type BlogAuthor } from './blogPosts';
 import { blogPosts } from '../blogs/blogData';
@@ -76,7 +77,17 @@ for (const locale of CONTENT_LOCALES) {
     if (slugs.has(entry.slug)) throw new Error(`Duplicate blog slug in ${locale}: ${entry.slug}. Give each article a unique URL.`);
     slugs.add(entry.slug);
   }
-  entriesByLocale.set(locale, entries
+  const aliases = BLOG_SLUG_ALIASES.filter((alias) => alias.locale === locale);
+  for (const alias of aliases) {
+    if (!slugs.has(alias.slug) || !slugs.has(alias.canonicalSlug)) {
+      throw new Error(`Blog alias in ${locale} must preserve its source and canonical target: ${alias.slug}`);
+    }
+    if (getCanonicalBlogSlug(alias.canonicalSlug, locale) !== alias.canonicalSlug) {
+      throw new Error(`Blog alias chains are not allowed: ${locale}/${alias.slug}`);
+    }
+  }
+  const canonicalEntries = entries.filter((entry) => getCanonicalBlogSlug(entry.slug, locale) === entry.slug);
+  entriesByLocale.set(locale, canonicalEntries
     .map((entry, insertionOrder) => ({ entry, insertionOrder }))
     .sort((a, b) => b.entry.dateISO.localeCompare(a.entry.dateISO) || b.insertionOrder - a.insertionOrder)
     .map(({ entry }) => entry));
@@ -117,18 +128,20 @@ export function localeFromPath(value: string): ContentLocale | undefined {
 }
 
 export function getBlogLanguages(slug = ''): Record<string, string> {
+  const canonicalSlug = getCanonicalBlogSlug(slug);
   const languages: Record<string, string> = {};
   for (const locale of CONTENT_LOCALES) {
-    if (slug ? getBlogEntry(slug, locale) : getBlogEntries(locale).length) languages[locale] = `${SITE_URL}${blogPath(locale, slug)}`;
+    if (canonicalSlug ? getBlogEntry(canonicalSlug, locale) : getBlogEntries(locale).length) languages[locale] = `${SITE_URL}${blogPath(locale, canonicalSlug)}`;
   }
   if (languages.en) languages['x-default'] = languages.en;
   return languages;
 }
 
 export function getBlogAlternates(slug: string, locale: ContentLocale = 'en'): Metadata['alternates'] {
+  const canonicalSlug = getCanonicalBlogSlug(slug, locale);
   return {
-    canonical: `${SITE_URL}${blogPath(locale, slug)}`,
-    languages: getBlogLanguages(slug),
+    canonical: `${SITE_URL}${blogPath(locale, canonicalSlug)}`,
+    languages: getBlogLanguages(canonicalSlug),
   };
 }
 

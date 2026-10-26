@@ -139,7 +139,7 @@ export function Journal({ eyebrow, title, accent, allLabel, readLabel, items }: 
   const [first, ...rest] = items;
   if (!first) return null;
   return (
-    <section className="jr" aria-labelledby="jr-title">
+    <section className="jr" id="journal" aria-labelledby="jr-title">
       <style>{`
         .jr { padding: 110px 0 100px; background: #fff; }
         .jr-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
@@ -161,7 +161,7 @@ export function Journal({ eyebrow, title, accent, allLabel, readLabel, items }: 
         .jr-mini:hover { border-color: rgba(201,169,106,.6); box-shadow: 0 18px 40px rgba(7,23,38,.08); transform: translateY(-3px); }
         .jr-thumb { position: relative; height: 128px; border-radius: 12px; overflow: hidden; }
         .jr-mini .jr-cat { color: #8a6d33; margin-bottom: 6px; }
-        .jr-mini h4 { font-family: var(--font-playfair), serif; font-size: 19px; line-height: 1.2; margin: 0 0 8px; }
+        .jr-mini h3 { font-family: var(--font-playfair), serif; font-size: 19px; line-height: 1.2; margin: 0 0 8px; }
         .jr-date { font-size: 12.5px; color: #647889; }
         @media (max-width: 960px) { .jr-grid { grid-template-columns: 1fr; } .jr-lead { min-height: 420px; } }
         @media (max-width: 520px) { .jr { padding: 80px 0 70px; } .jr-mini { grid-template-columns: 110px 1fr; } .jr-thumb { height: 100px; } }
@@ -176,7 +176,7 @@ export function Journal({ eyebrow, title, accent, allLabel, readLabel, items }: 
         </div>
         <div className="jr-grid">
           <Link href={`/blog/${first.slug}`} className="jr-lead" data-reveal>
-            <Image src={first.cover} alt={first.title} fill sizes="(max-width: 960px) 180vw, 70vw" style={{ objectFit: 'cover' }} />
+            <Image src={first.cover} alt={first.title} fill sizes="(max-width: 960px) 100vw, 60vw" style={{ objectFit: 'cover' }} />
             <span className="jr-lead-shade" />
             <div className="jr-lead-body">
               <span className="jr-cat">{first.category}</span>
@@ -187,10 +187,10 @@ export function Journal({ eyebrow, title, accent, allLabel, readLabel, items }: 
           <div className="jr-list">
             {rest.map((a, i) => (
               <Link key={a.slug} href={`/blog/${a.slug}`} className="jr-mini" data-reveal style={{ '--d': `${80 + i * 90}ms` } as React.CSSProperties}>
-                <span className="jr-thumb"><Image src={a.cover} alt={a.title} fill sizes="(max-width: 520px) 220px, 300px" style={{ objectFit: 'cover' }} /></span>
+                <span className="jr-thumb"><Image src={a.cover} alt={a.title} fill sizes="(max-width: 360px) 85px, (max-width: 520px) 110px, 150px" style={{ objectFit: 'cover' }} /></span>
                 <span>
                   <span className="jr-cat">{a.category}</span>
-                  <h4>{a.title}</h4>
+                  <h3>{a.title}</h3>
                   <span className="jr-date">{a.date} · {readLabel}</span>
                 </span>
               </Link>

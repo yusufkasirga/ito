@@ -13,7 +13,8 @@
     "blog:validate": "node scripts/blog/pipeline.mjs validate",
     "blog:publish": "node scripts/blog/pipeline.mjs publish",
     "blog:test": "node --test scripts/blog/*.test.mjs",
-    "prebuild": "npm run blog:validate && npm run blog:test"
+    "prebuild": "npm run blog:validate && npm run blog:test && npm run form:test",
+    "form:test": "node --test scripts/forms/*.test.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
