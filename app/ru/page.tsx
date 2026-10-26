@@ -6,16 +6,13 @@ import Link from 'next/link';
 import { whatsAppUrl } from '@/lib/config';
 import HeroVideo from '../components/HeroVideo';
 import Icon from '../components/Icon';
-import { track } from '@vercel/analytics';
+import SiteHeader from '../components/SiteHeader';
+import LeadForm from '../components/LeadForm';
 
 export default function Home() {
   // Rusça sürüm — <html lang> istemci tarafında ayarlanır
 
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   useEffect(() => { document.documentElement.lang = 'ru'; return () => { document.documentElement.lang = 'en'; }; }, []);
-  const [servicesOpen, setServicesOpen] = useState(false);
-  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
-  const [selectedPath, setSelectedPath] = useState('');
   // WCAG 2.2.2 — otomatik hareket duraklatılabilir olmalı; reduced-motion'da hiç başlamaz
   const motionPaused = useSyncExternalStore(
     () => () => {},
@@ -40,16 +37,6 @@ export default function Home() {
     return () => io.disconnect();
   }, []);
 
-  // Kaydırınca nav'a buzlu cam zemin
-  useEffect(() => {
-    const nav = document.querySelector('.nav');
-    if (!nav) return;
-    const onS = () => nav.classList.toggle('nav-scrolled', window.scrollY > 40);
-    onS();
-    window.addEventListener('scroll', onS, { passive: true });
-    return () => window.removeEventListener('scroll', onS);
-  }, []);
-
   // Sayfa ilerleme göstergesi (ince altın çizgi)
   useEffect(() => {
     const onScroll = () => {
@@ -61,14 +48,9 @@ export default function Home() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-  const [formStep, setFormStep] = useState(1);
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [formData, setFormData] = useState({ interest: '', country: '', timeline: '', contact: '', name: '', email: '' });
-  const [formErrors, setFormErrors] = useState<Record<string, string>>({});
   const [expandedPillar, setExpandedPillar] = useState<string | null>(null);
   const [expandedTourism, setExpandedTourism] = useState<string | null>(null);
   const [expandedFaq, setExpandedFaq] = useState<string | null>(null);
-  const [darkMode, setDarkMode] = useState(false);
   const [heroTestimonialIdx, setHeroTestimonialIdx] = useState(0);
 
 
@@ -212,47 +194,7 @@ export default function Home() {
     { q: 'Говорите ли вы по-русски?', a: 'Да. Наша команда работает с многоязычными экспертами и переводчиками, поэтому консультации, визиты в клинику и документы могут вестись на удобном вам языке — в том числе на русском.' },
   ];
 
-  const validateStep = (step: number) => {
-    const errors: Record<string, string> = {};
-    if (step === 1 && !formData.interest) errors.interest = 'Пожалуйста, выберите';
-    if (step === 2 && !formData.timeline) errors.timeline = 'Пожалуйста, выберите';
-    if (step === 3) {
-      if (!formData.name) errors.name = 'Обязательное поле';
-      if (!formData.country) errors.country = 'Обязательное поле';
-      if (!formData.contact) errors.contact = 'Обязательное поле';
-    }
-    setFormErrors(errors);
-    return Object.keys(errors).length === 0;
-  };
-
-  // Structured prefilled message built entirely in the browser.
-  // No form data is stored on any server — WhatsApp is the only channel.
-  const waLeadMessage = [
-    'Личный запрос — Itinerary of Türkiye (RU)',
-    `Name: ${formData.name || '-'}`,
-    `Country: ${formData.country || '-'}`,
-    `Area of interest: ${formData.interest || '-'}`,
-    `Timeline: ${formData.timeline || '-'}`,
-    `Preferred contact: ${formData.contact || '-'}`,
-    formData.email ? `Email: ${formData.email}` : '',
-    '',
-    'Примечание: я понимаю, что в этом первом сообщении не следует отправлять медицинские заключения, фотографии, паспортные данные и другие конфиденциальные файлы.',
-  ].filter(Boolean).join('\n');
-
-  const handleFormSubmit = () => {
-    if (validateStep(formStep)) {
-      if (formStep < 3) {
-        setFormStep(formStep + 1);
-      } else {
-        setFormSubmitted(true);
-        // Open WhatsApp with the structured message (client-side only)
-        track('whatsapp_click', { source: 'form_submit', locale: 'ru', path: window.location.pathname });
-        window.open(whatsAppUrl(waLeadMessage), '_blank', 'noopener,noreferrer');
-      }
-    }
-  };
-
-  const dm = darkMode;
+  const dm = false;
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -270,7 +212,8 @@ export default function Home() {
       <div className="scroll-progress" ref={progressRef} aria-hidden="true" />
       <style>{`
         * { box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+        section[id] { scroll-margin-top: 100px; }
         body { margin: 0; }
 
         :root {
@@ -301,29 +244,8 @@ export default function Home() {
         }
 
         /* NAV */
-        .nav { position: absolute; top: 0; left: 0; right: 0; z-index: 50; }
-        .nav-inner { height: 92px; display: flex; align-items: center; justify-content: space-between; padding: 0 32px; }
-        .brand img { height: 83px; width: auto; filter: drop-shadow(0 2px 8px rgba(0,0,0,.4)); transition: transform 0.2s; }
-        .brand img:hover { transform: scale(1.05); }
-        .brand { text-decoration: none; }
-        .nav-links { display: flex; align-items: center; gap: 28px; }
-        .nav-links a { color: rgba(255,255,255,.9); text-decoration: none; font-size: 14px; font-weight: 600; transition: color 0.2s; }
-        .nav-links a:hover { color: var(--gold); }
-        .nav-dropdown { position: relative; }
-        .nav-dropdown-menu { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 14px; background: rgba(7,23,38,.97); border: 1px solid rgba(201,169,106,.25); border-radius: 14px; padding: 10px; min-width: 220px; backdrop-filter: blur(20px); box-shadow: 0 16px 40px rgba(0,0,0,.4); display: flex; flex-direction: column; gap: 2px; z-index: 60; }
-        .nav-dropdown-menu a { padding: 10px 14px; border-radius: 8px; font-size: 13.5px; white-space: nowrap; transition: background 0.2s, color 0.2s; }
-        .nav-dropdown-menu a:hover { background: rgba(201,169,106,.12); color: var(--gold); }
-        .nav-toggle { display: none; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); color: #fff; width: 40px; height: 40px; border-radius: 50%; font-size: 18px; cursor: pointer; align-items: center; justify-content: center; }
-        .dm-toggle { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); color: #fff; width: 36px; height: 36px; border-radius: 50%; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; margin-left: 8px; }
-        .dm-toggle:hover { background: rgba(255,255,255,.25); }
 
         /* MOBILE MENU */
-        .mobile-menu { position: fixed; inset: 0; z-index: 100; background: rgba(7,23,38,.97); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; transition: opacity 0.3s, transform 0.3s; }
-        .mobile-menu.open { opacity: 1; pointer-events: all; transform: translateY(0); }
-        .mobile-menu.closed { opacity: 0; pointer-events: none; transform: translateY(-20px); }
-        .mobile-menu a { color: #fff; text-decoration: none; font-size: 26px; font-weight: 800; font-family: var(--font-playfair), serif; transition: color 0.2s; }
-        .mobile-menu a:hover { color: var(--gold); }
-        .mobile-close { position: absolute; top: 24px; right: 28px; background: none; border: none; color: #fff; font-size: 32px; cursor: pointer; }
 
         /* HERO — TOTAL REDESIGN: mesh gradient + split frame */
         .hero { position: relative; min-height: 100vh; min-height: 100svh; overflow: hidden; color: #fff; display: flex; align-items: center; background: #0d1424; }
@@ -490,20 +412,6 @@ export default function Home() {
         /* FORM */
         .form-section { background: linear-gradient(135deg, rgba(7,23,38,.96), rgba(12,53,85,.92)); color: #fff; }
         .form-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 48px; align-items: start; }
-        .form-box { padding: 28px; border: 1px solid rgba(255,250,241,.16); border-radius: var(--r); background: rgba(255,255,255,.09); backdrop-filter: blur(18px); }
-        .form-prog { height: 4px; background: rgba(255,250,241,.1); border-radius: 999px; overflow: hidden; margin-bottom: 24px; }
-        .form-bar { height: 100%; background: linear-gradient(90deg, var(--gold), var(--aqua)); transition: width 0.35s; }
-        .form-ttl { margin: 0 0 18px; color: #fff; font-size: 18px; font-weight: 900; }
-        .f-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-        .field { display: grid; gap: 8px; }
-        .field label { font-size: 11px; font-weight: 900; color: rgba(255,250,241,.78); }
-        .field input, .field select, .field textarea { width: 100%; min-height: 52px; padding: 0 14px; border: 1px solid rgba(255,250,241,.18); border-radius: 12px; color: #fff; background: rgba(7,23,38,.5); font: 15px var(--font-inter), sans-serif; outline: none; transition: border 0.2s; }
-        .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--aqua); }
-        .field textarea { min-height: 96px; padding-top: 12px; resize: vertical; }
-        .field select option { color: #071726; }
-        .form-success { padding: 20px; text-align: center; background: rgba(142,216,220,.12); border: 1px solid var(--aqua); border-radius: 14px; }
-        .form-success h3 { margin: 0 0 8px; color: var(--aqua); }
-        .form-success p { margin: 0; font-size: 13px; color: rgba(255,250,241,.8); }
 
         /* FOOTER */
         .footer { background: #071726; color: rgba(255,250,241,.6); padding: 56px 0 28px; }
@@ -560,15 +468,14 @@ export default function Home() {
         .hero-split > div > *:nth-child(5) { animation-delay: .48s; }
         @keyframes heroIn { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
 
-        html { scroll-behavior: smooth; }
+        html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+        section[id] { scroll-margin-top: 100px; }
         *:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: ${dm ? '#0a0f1a' : '#f3ede2'}; }
         ::-webkit-scrollbar-thumb { background: linear-gradient(var(--navy-2), var(--navy)); border-radius: 999px; border: 2px solid ${dm ? '#0a0f1a' : '#f3ede2'}; }
         ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
 
-        .nav { position: fixed; transition: background .4s ease, box-shadow .4s ease, backdrop-filter .4s ease; }
-        .nav.nav-scrolled { background: rgba(8,20,38,.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); box-shadow: 0 1px 0 rgba(201,169,106,.25), 0 14px 40px rgba(0,0,0,.28); }
 
         .t-img img { filter: brightness(.72) saturate(1.07) contrast(1.03); }
         .about-img img { filter: saturate(1.05) contrast(1.02); }
@@ -589,9 +496,6 @@ export default function Home() {
         .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.22,.61,.36,1), transform .85s cubic-bezier(.22,.61,.36,1); }
         .rv-in { opacity: 1; transform: none; }
         @keyframes kenburns { from { transform: scale(1); } to { transform: scale(1.08) translateY(-8px); } }
-        .nav-links a { position: relative; }
-        .nav-links a::after { content: ''; position: absolute; left: 0; bottom: -6px; width: 100%; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .35s cubic-bezier(.22,.61,.36,1); }
-        .nav-links a:hover::after { transform: scaleX(1); }
         .btn-primary { position: relative; overflow: hidden; }
         .btn-primary::after { content: ''; position: absolute; top: 0; left: -80%; width: 55%; height: 100%; background: linear-gradient(105deg, transparent, rgba(255,255,255,.32), transparent); transform: skewX(-20deg); transition: left .6s ease; pointer-events: none; }
         .btn-primary:hover::after { left: 135%; }
@@ -621,10 +525,7 @@ export default function Home() {
           .hiw-grid { grid-template-columns: 1fr; }
           .hiw-grid::before { display: none; }
           .pillar-grid, .crit-grid { grid-template-columns: 1fr; }
-          .f-row { grid-template-columns: 1fr; }
           .footer-grid { grid-template-columns: 1fr 1fr; }
-          .nav-links { display: none; }
-          .nav-toggle { display: flex; }
           .health-bento { grid-template-columns: 1fr; }
           .health-bento-main .health-photo-wrap { height: 240px; }
           .health-bento-wide .health-photo-wrap, .health-bento-square .health-photo-wrap { height: 161px; }
@@ -663,55 +564,7 @@ export default function Home() {
       {/* CONCIERGE BADGE */}
       <div className="concierge">✓ Ответ в течение нескольких часов</div>
 
-      {/* MOBILE MENU */}
-      <div className={`mobile-menu ${mobileMenuOpen ? 'open' : 'closed'}`}>
-        <button className="mobile-close" onClick={() => setMobileMenuOpen(false)}><Icon name="close" size={22} /></button>
-        <Link href="/ru/about" onClick={() => setMobileMenuOpen(false)}>О нас</Link>
-        <div style={{textAlign:'center'}}>
-          <Link href="/ru/services" onClick={(e) => { e.preventDefault(); setMobileServicesOpen(!mobileServicesOpen); }}>
-            Услуги {mobileServicesOpen ? '▲' : '▼'}
-          </Link>
-          {mobileServicesOpen && (
-            <div style={{display:'flex',flexDirection:'column',gap:'14px',marginTop:'14px'}}>
-              <a href="#tourism" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Туризм</a>
-              <a href="#health" onClick={() => setMobileMenuOpen(false)} style={{fontSize:'17px',color:'rgba(255,255,255,.75)'}}>Медицинский туризм</a>
-            </div>
-          )}
-        </div>
-        <Link href="/" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>EN</Link>
-        <Link href="/de" onClick={() => setMobileMenuOpen(false)} style={{fontWeight:800}}>DE</Link>
-        <Link href="/testimonials" onClick={() => setMobileMenuOpen(false)}>Отзывы</Link>
-        <Link href="/#contact" onClick={() => setMobileMenuOpen(false)}>Контакты</Link>
-        <a href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{color:'#25D366'}}>WhatsApp</a>
-      </div>
-
-      {/* NAVBAR */}
-      <header className="nav">
-        <div className="nav-inner">
-          <Link className="brand" href="/"><Image src="/logo.png" alt="Itinerary of Türkiye" width={96} height={96} /></Link>
-          <nav className="nav-links">
-            <Link href="/ru/about">О нас</Link>
-            <div className="nav-dropdown" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)} onFocus={() => setServicesOpen(true)} onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setServicesOpen(false); }}>
-              <Link href="/ru/services">Услуги</Link>
-              {servicesOpen && (
-                <div className="nav-dropdown-menu">
-                  <a href="#tourism">Туризм</a>
-                  <a href="#health">Медицинский туризм</a>
-                </div>
-              )}
-            </div>
-            <Link href="/testimonials">Отзывы</Link>
-            <Link href="/#contact">Контакты</Link>
-            <button className="dm-toggle" onClick={() => setDarkMode(!dm)} title="Toggle dark mode"><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
-                      <Link href="/" style={{fontWeight:800, opacity:.85}} aria-label="English version">EN</Link>
-                      <Link href="/de" style={{fontWeight:800, opacity:.85}} aria-label="Deutsche Version">DE</Link>
-          </nav>
-          <div style={{display:'flex',alignItems:'center',gap:'10px'}}>
-            <button className="dm-toggle" onClick={() => setDarkMode(!dm)} style={{display:'none'}}><Icon name={dm ? 'sun' : 'moon'} size={16} /></button>
-            <button className="nav-toggle" onClick={() => setMobileMenuOpen(true)}><Icon name="menu" size={22} /></button>
-          </div>
-        </div>
-      </header>
+      <SiteHeader locale="ru" overlay />
 
       {/* HERO */}
       <section className="hero" id="top">
@@ -927,7 +780,7 @@ export default function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="section" style={{background: dm ? '#111827' : '#fff'}}>
+      <section id="how-it-works" className="section" style={{background: dm ? '#111827' : '#fff'}}>
         <div className="container">
           <span className="eyebrow">Простой процесс</span>
           <h2 className="section-title serif">Как <span style={{color:'var(--gold)'}}>это работает.</span></h2>
@@ -1005,90 +858,7 @@ export default function Home() {
             </p>
             <a className="hero-pill" href={whatsAppUrl()} target="_blank" rel="noopener noreferrer" style={{marginTop:'8px',display:'inline-flex'}}><Icon name="whatsapp" size={17} /> Напишите нам в WhatsApp</a>
           </div>
-          <form className="form-box" onSubmit={e => e.preventDefault()}>
-            {!formSubmitted ? (
-              <>
-                <div className="form-prog"><div className="form-bar" style={{width:`${formStep*33.33}%`}} /></div>
-                {formStep === 1 && (
-                  <div>
-                    <div className="form-ttl">Что приводит вас в Турцию?</div>
-                    <div className="field">
-                      <label>Сфера интереса *</label>
-                      <select value={selectedPath} onChange={e => { setSelectedPath(e.target.value); setFormData({...formData, interest: e.target.value}); }}>
-                        <option value="">Выберите</option>
-                        <option>Туризм</option><option>Медицинский туризм</option>
-                        <option>Инвестиции / Недвижимость</option><option>Бизнес</option><option>Другое</option>
-                      </select>
-                      {formErrors.interest && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.interest}</span>}
-                    </div>
-                  </div>
-                )}
-                {formStep === 2 && (
-                  <div>
-                    <div className="form-ttl">Когда планируете поездку?</div>
-                    <div className="field">
-                      <label>Сроки *</label>
-                      <select value={formData.timeline} onChange={e => setFormData({...formData, timeline: e.target.value})}>
-                        <option value="">Выберите</option>
-                        <option>В течение 2 недель</option><option>1–2 месяца</option>
-                        <option>3–6 месяцев</option><option>Пока просто интересуюсь</option>
-                      </select>
-                      {formErrors.timeline && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.timeline}</span>}
-                    </div>
-                  </div>
-                )}
-                {formStep === 3 && (
-                  <div>
-                    <div className="form-ttl">Как с вами связаться?</div>
-                    <div className="field" style={{marginBottom:'12px'}}>
-                      <label>Ваше имя *</label>
-                      <input type="text" placeholder="Имя и фамилия" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
-                      {formErrors.name && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.name}</span>}
-                    </div>
-                    <div className="f-row">
-                      <div className="field">
-                        <label>Страна *</label>
-                        <input type="text" placeholder="Россия, Казахстан, ОАЭ..." value={formData.country} onChange={e => setFormData({...formData, country: e.target.value})} />
-                        {formErrors.country && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.country}</span>}
-                      </div>
-                      <div className="field">
-                        <label>Способ связи *</label>
-                        <select value={formData.contact} onChange={e => setFormData({...formData, contact: e.target.value})}>
-                          <option value="">Выберите</option>
-                          <option>Эл. почта</option><option>WhatsApp</option>
-                          <option>Телефонный звонок</option><option>Видеозвонок</option>
-                        </select>
-                        {formErrors.contact && <span style={{color:'#ff6b6b',fontSize:'11px'}}>{formErrors.contact}</span>}
-                      </div>
-                    </div>
-                    <div className="field" style={{marginTop:'12px'}}>
-                      <label>Email</label>
-                      <input type="email" placeholder="your@email.com" value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
-                    </div>
-                  </div>
-                )}
-                <div style={{display:'flex',gap:'12px',marginTop:'20px'}}>
-                  {formStep > 1 && <button type="button" className="btn" style={{background:'rgba(255,255,255,.12)',color:'#fff',minHeight:'48px',padding:'0 20px',fontSize:'13px'}} onClick={() => setFormStep(formStep-1)}>Назад</button>}
-                  <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>{formStep < 3 ? 'Далее →' : 'Отправить запрос'}</button>
-                </div>
-              </>
-            ) : (
-              <div className="form-success">
-                <h3>✓ Запрос подготовлен</h3>
-                <p>WhatsApp должен был открыться с вашим готовым сообщением. На наших серверах ничего не сохраняется — ваши данные передаются только в этом сообщении.</p>
-                <a
-                  className="btn btn-primary"
-                  style={{marginTop:'18px', background:'#25D366', minHeight:'48px'}}
-                  href={whatsAppUrl(waLeadMessage)}
-                  data-wa-source="form_reopen"
-                  target="_blank" rel="noopener noreferrer"
-                >
-                  <Icon name="whatsapp" size={17} /> Открыть WhatsApp ещё раз
-                </a>
-                <p style={{marginTop:'14px', fontSize:'11.5px', color:'rgba(255,250,241,.55)'}}>Примечание: пожалуйста, не прикрепляйте к этому первому сообщению медицинские заключения, фотографии или документы, удостоверяющие личность.</p>
-              </div>
-            )}
-          </form>
+          <LeadForm locale="ru" />
         </div>
       </section>
 
@@ -1128,7 +898,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{marginTop:'40px',paddingTop:'22px',borderTop:'1px solid rgba(255,250,241,.08)',textAlign:'center',fontSize:'12px'}}>
-            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/ru/privacy" style={{color:'inherit'}}>Политика конфиденциальности</Link> · <Link href="/ru/terms" style={{color:'inherit'}}>Условия использования</Link>
+            © {new Date().getFullYear()} Itinerary of Türkiye. All rights reserved. · <Link href="/privacy" style={{color:'inherit'}}>Политика конфиденциальности</Link> · <Link href="/terms" style={{color:'inherit'}}>Условия использования</Link>
           </div>
         </div>
       </footer>
