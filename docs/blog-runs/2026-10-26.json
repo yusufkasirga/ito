@@ -10,7 +10,9 @@
     "scanReuse": "Scan collected for the interrupted 2026-10-25 run (no articles were produced that day because of a usage limit); re-screened and reused for the 2026-10-26 run.",
     "collector": "npm run blog:collect reached 0/15 registry endpoints from this cloud environment; collection done with WebSearch/WebFetch.",
     "digest": "docs/blog-runs/2026-10-26.sources.json",
-    "sha256": "d5ee333cf09fdfaa812cfb8e9d21bc287b43d32df591c183e5a1a70a7f6522b8"
+    "sha256": "d5ee333cf09fdfaa812cfb8e9d21bc287b43d32df591c183e5a1a70a7f6522b8",
+    "sha256Calculation": "SHA-256 of the UTF-8 source digest after trimming trailing whitespace; preserved from the morning publisher.",
+    "rawFileSha256": "977bc7cd91d92bb15be528a9b97b2042924718d4f6fc40a12dcdff905e83eecc"
   },
   "dailyLimit": 10,
   "decisions": [
@@ -302,7 +304,15 @@
     "verifiedAt": "2026-10-26T04:44:12Z",
     "source": "GitHub commit status from Vercel on the main merge commit; prebuild blog:validate and blog:test ran inside the Vercel build",
     "canonicalUrlsChecked": 0,
-    "urlCheckNote": "Live URL requests failed from this environment (production domain not allowlisted for the shell proxy, Vercel share-link access 403, WebFetch permission request unanswered). The 15 new canonical URLs still need a 200/canonical check."
+    "urlCheckNote": "Live URL requests failed from this environment (production domain not allowlisted for the shell proxy, Vercel share-link access 403, WebFetch permission request unanswered). The 15 new canonical URLs still need a 200/canonical check.",
+    "subsequentVerification": {
+      "checkedAt": "2026-10-26T05:16:23.684Z",
+      "productionCommit": "e4d95d650e0ea89ddd95e7cae576812dbfde5405",
+      "deploymentUrl": "https://vercel.com/yusufkasirgas-projects/ito/3azfn5RVAZCnezuSj5dB5z8SC8Pq",
+      "canonicalUrlsChecked": 15,
+      "result": "All 125 canonical blog URLs in the production sitemap, including all 15 versions in this batch, passed HTTP 200 and canonical checks.",
+      "evidence": "Independent production smoke checks performed by this chat after PR #27; work/site-flow-review/production-smoke-results.json in the task workspace."
+    }
   },
   "validation": {
     "blogTests": 36,
@@ -311,5 +321,101 @@
     "blogValidate": "valid (45 published records)",
     "build": "local next build failed only on Google Fonts download in sandbox; Vercel build succeeded",
     "githubCI": "quality=success, Vercel=success on PR head db461f9"
+  },
+  "canonicalUrls": [
+    {
+      "locale": "en",
+      "url": "https://itineraryofturkiye.com/blog/topkapi-darphane-museums-archaeology-museums-visit"
+    },
+    {
+      "locale": "de",
+      "url": "https://itineraryofturkiye.com/de/blog/topkapi-darphane-museums-archaeology-museums-visit"
+    },
+    {
+      "locale": "zh-CN",
+      "url": "https://itineraryofturkiye.com/zh-cn/blog/topkapi-darphane-museums-archaeology-museums-visit"
+    },
+    {
+      "locale": "ko",
+      "url": "https://itineraryofturkiye.com/ko/blog/topkapi-darphane-museums-archaeology-museums-visit"
+    },
+    {
+      "locale": "es",
+      "url": "https://itineraryofturkiye.com/es/blog/topkapi-darphane-museums-archaeology-museums-visit"
+    },
+    {
+      "locale": "en",
+      "url": "https://itineraryofturkiye.com/blog/istanbul-art-exhibitions-november-december-2026"
+    },
+    {
+      "locale": "de",
+      "url": "https://itineraryofturkiye.com/de/blog/istanbul-art-exhibitions-november-december-2026"
+    },
+    {
+      "locale": "zh-CN",
+      "url": "https://itineraryofturkiye.com/zh-cn/blog/istanbul-art-exhibitions-november-december-2026"
+    },
+    {
+      "locale": "ko",
+      "url": "https://itineraryofturkiye.com/ko/blog/istanbul-art-exhibitions-november-december-2026"
+    },
+    {
+      "locale": "es",
+      "url": "https://itineraryofturkiye.com/es/blog/istanbul-art-exhibitions-november-december-2026"
+    },
+    {
+      "locale": "en",
+      "url": "https://itineraryofturkiye.com/blog/belek-antalya-golf-trip-season-planning"
+    },
+    {
+      "locale": "de",
+      "url": "https://itineraryofturkiye.com/de/blog/belek-antalya-golf-trip-season-planning"
+    },
+    {
+      "locale": "zh-CN",
+      "url": "https://itineraryofturkiye.com/zh-cn/blog/belek-antalya-golf-trip-season-planning"
+    },
+    {
+      "locale": "ko",
+      "url": "https://itineraryofturkiye.com/ko/blog/belek-antalya-golf-trip-season-planning"
+    },
+    {
+      "locale": "es",
+      "url": "https://itineraryofturkiye.com/es/blog/belek-antalya-golf-trip-season-planning"
+    }
+  ],
+  "eveningCoordination": {
+    "checkedAt": "2026-10-26T18:05:30Z",
+    "timezone": "Europe/Istanbul",
+    "mainCommit": "6bf686068164c0a89b8bca4b2a4d2bdd3df7de06",
+    "sharedTopicLimitForThisChat": 3,
+    "publishedTopicCount": 3,
+    "publishedLocaleVersionCount": 15,
+    "decision": "skip-additional-publication-quota-already-filled",
+    "newTopicsPublished": 0,
+    "newSourceItemsInspected": 0,
+    "reason": "Claude's morning batch already fills the user's shared three-topic limit. No second batch or catch-up publication was created; the morning source scan, editorial decisions and 15 published records are preserved. The repository's dated ten-topic override is not used to enlarge this chat's authorization.",
+    "pendingContentPrs": [],
+    "recordPr": "https://github.com/yusufkasirga/ito/pull/29",
+    "liveRecheck": {
+      "result": "not-reverified-in-evening",
+      "reason": "All 15 shell HTTP requests were blocked by this turn's network sandbox. The earlier successful production verification is preserved with its original timestamp; this is not evidence of a site outage."
+    },
+    "nextRunBacklog": [
+      {
+        "kind": "review-existing-article",
+        "slug": "istanbul-museum-pass-or-single-tickets",
+        "reason": "Revisit the morning publisher's 2027 museum fee follow-up at the existing URL; verify current primary tariffs before changing any copy.",
+        "state": "requires-fresh-primary-source-review"
+      },
+      {
+        "kind": "dated-content-maintenance",
+        "slug": "istanbul-art-exhibitions-november-december-2026",
+        "reason": "Recheck venue dates before any future update and review expiry after 31 December 2026.",
+        "state": "requires-fresh-primary-source-review"
+      }
+    ],
+    "resumedAt": "2026-10-27T06:30:45Z",
+    "resumeAction": "Complete the existing 26 October ledger only after a tool interruption; no new articles or catch-up batch were created on 27 October."
   }
 }
