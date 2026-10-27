@@ -1,0 +1,2808 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-10-27T09:04:12+03:00",
+  "collectedBy": "Three Claude research subagents (transport/aviation, culture/food/events, health-tourism/practical) via WebSearch/WebFetch; shell collector reached 0/15 registry endpoints from this cloud environment. Shared search limit cut each scan short; gaps listed in the daily record.",
+  "freshWindow": "2026-09-12..2026-10-27 (45 days before run date)",
+  "items": [
+    {
+      "title": "Çerkezköy–Kapıkule high-speed line opened to pave way for enhanced Turkey–Europe rail artery",
+      "url": "https://www.railwaygazette.com/turkey/2026/10/12/cerkezkoy-kapikule-line-opened-to-pave-way-for-enhanced-turkey-europe-rail-artery/",
+      "publisher": "Railway Gazette International",
+      "publishedAt": "2026-10-12",
+      "summary": "153 km Çerkezköy–Kapıkule section inaugurated 9 Oct 2026; revenue service began 10 Oct with three pairs of trains Çerkezköy–Edirne; Halkalı–Ispartakule targeted end-2026/opening 2027, Ispartakule–Çerkezköy undated.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "New high-speed rail line connects Tekirdağ and Edirne",
+      "url": "https://www.hurriyetdailynews.com/new-high-speed-rail-line-connects-tekirdag-and-edirne-227985",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-10-11",
+      "summary": "Service began 9-10 Oct with three daily round trips Çerkezköy–Edirne (~54 min) plus regional Halkalı–Uzunköprü trains connecting at Çerkezköy.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy–Edirne Hızlı Tren Seferleri Başladı: Saatler, Duraklar ve Bilet Fiyatları",
+      "url": "https://www.dogayidinle.com/kentlesme/cerkezkoy-edirne-hizli-tren-seferleri-basladi-saatler-duraklar-ve-bilet-fiyatlari/9275",
+      "publisher": "Doğayı Dinle",
+      "publishedAt": "2026-10-10",
+      "summary": "Lists timetable (6 daily trips, ~53-54 min), stops Büyükkarıştıran, Lüleburgaz, Babaeski, and economy fares up to 310 TL Çerkezköy–Edirne.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Cumhurbaşkanı Erdoğan, Çerkezköy-Kapıkule Hızlı Tren Hattı Açılış Töreni'nde konuştu",
+      "url": "https://www.iletisim.gov.tr/turkce/haberler/detay/cumhurbaskani-erdogan-cerkezkoy-kapikule-hizli-tren-hatti-acilis-toreninde-konustu",
+      "publisher": "T.C. İletişim Başkanlığı",
+      "publishedAt": "2026-10-09",
+      "summary": "Official account of the 9 Oct opening of the 153 km, 200 km/h Çerkezköy–Kapıkule section with new stations at Babaeski, Lüleburgaz and Büyükkarıştıran.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Halkalı-Kapıkule Hızlı Tren Hattı'nın Çerkezköy-Kapıkule kesimi hizmete açılıyor",
+      "url": "https://www.cumhuriyet.com.tr/turkiye/halkali-kapikule-hizli-tren-hatti-nin-cerkezkoy-kapikule-kesimi-hizmete-aciliyor-2543580",
+      "publisher": "Cumhuriyet (DHA)",
+      "publishedAt": "2026-10-04",
+      "summary": "Minister Uraloğlu announced the Çerkezköy–Kapıkule section would open on 9 October; remaining Istanbul-side segments still under construction.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule Hızlı Demiryolu Hattı'nda seferler başladı",
+      "url": "https://aa.com.tr/tr/gundem/cerkezkoy-kapikule-hizli-demiryolu-hattinda-seferler-basladi/4084440",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": null,
+      "summary": "AA report that passenger services began on the Çerkezköy–Kapıkule high-speed line (seen in search; page blocked to fetch).",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule Hızlı Tren Hattı'nda ilk yolculuk heyecanı yaşandı",
+      "url": "https://www.aa.com.tr/tr/gundem/cerkezkoy-kapikule-hizli-tren-hattinda-ilk-yolculuk-heyecani-yasandi/4084206",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": null,
+      "summary": "AA report on the first passenger journeys on the new Çerkezköy–Kapıkule high-speed line.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule Hızlı Tren Hattı açıldı, ilk sürüşü Cumhurbaşkanı Erdoğan yaptı",
+      "url": "https://www.ntv.com.tr/gundem/galeri-cerkezkoy-kapikule-hizli-tren-hatti-acildi-ilk-surusu-cumhurbaskani-erdogan-yapti-1745571",
+      "publisher": "NTV",
+      "publishedAt": null,
+      "summary": "Gallery report on the opening of the Çerkezköy–Kapıkule line with Erdoğan driving the first train.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule Hızlı Tren Hattı bugün açılıyor",
+      "url": "https://www.trthaber.com/haber/gundem/cerkezkoy-kapikule-hizli-tren-hatti-bugun-aciliyor-959600.html",
+      "publisher": "TRT Haber",
+      "publishedAt": null,
+      "summary": "Same-day preview of the Çerkezköy–Kapıkule high-speed line opening ceremony.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Türkiye extends high-speed rail network to EU border",
+      "url": "https://www.dailysabah.com/business/economy/turkiye-extends-high-speed-rail-network-to-eu-border",
+      "publisher": "Daily Sabah",
+      "publishedAt": null,
+      "summary": "English report on the high-speed network reaching the Bulgarian (EU) border at Kapıkule.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Türkiye Opens High-Speed Rail Line to Bulgarian Border",
+      "url": "https://railway-news.com/turkiye-opens-high-speed-rail-line-to-bulgarian-border/",
+      "publisher": "Railway News",
+      "publishedAt": null,
+      "summary": "Trade report on the opening of the high-speed line to the Bulgarian border.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Webuild: inaugurated main section of Halkali-Kapikule High-Speed Rail Line in Turkey",
+      "url": "https://www.webuildgroup.com/en/media/press-notes/webuild-inaugurated-main-section-halkali-kapikule-high-speed-rail-line-turkey/",
+      "publisher": "Webuild (press note)",
+      "publishedAt": null,
+      "summary": "Contractor press note on inauguration of the main Halkalı–Kapıkule section.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "President Erdogan Inaugurates New Bulgaria Bound Railway Section",
+      "url": "https://www.bta.bg/en/news/balkans/1221624-president-erdogan-inaugurates-new-bulgaria-bound-railway-section",
+      "publisher": "BTA (Bulgarian News Agency)",
+      "publishedAt": null,
+      "summary": "Bulgarian agency report on the new railway section toward Bulgaria.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule High-Speed Train Section to Open on Friday, October 9",
+      "url": "https://kantan.news/news/cerkezkoy-kapkule-high-speed-train-section-to-open-on-friday-october-9",
+      "publisher": "Kantan News",
+      "publishedAt": null,
+      "summary": "Preview of the 9 October opening of the Çerkezköy–Kapıkule section.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çerkezköy-Kapıkule Hızlı Tren Açıldı, Hamzabeyli'de 30 Km TIR Kuyruğu",
+      "url": "https://www.habergo.com.tr/haber/cerkezkoy-kapikule-hizli-trende-ilk-sefer-avrupa-koridoru-hizlandi-hamzabeyli-de-tir-kuyrugu-30-km-ye-ulasti",
+      "publisher": "HaberGo",
+      "publishedAt": null,
+      "summary": "Reports first service on the line alongside a 30 km truck queue at the Hamzabeyli border gate.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Halkalı Kapıkule demiryolu hattı son durum - 26/09/2026",
+      "url": "https://emlakkulisi.com/guncel/halkali-kapikule-demiryolu-hatti-son-durum/1219397",
+      "publisher": "Emlakkulisi",
+      "publishedAt": "2026-09-26",
+      "summary": "Status update on the Halkalı–Kapıkule railway project (date from page title in search result).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turistik Doğu Ekspresi biletleri yarın satışa çıkıyor! İşte 2026-2027 sezon tarihleri",
+      "url": "https://www.takvim.com.tr/guncel/2026/10/25/turistik-dogu-ekspresi-2026-2027-sezonu-basliyor",
+      "publisher": "Takvim",
+      "publishedAt": "2026-10-25",
+      "summary": "Touristic Eastern Express runs Ankara–Kars 21 Dec 2026–10 Mar 2027 (Mon/Wed/Fri) and Kars–Ankara 23 Dec–12 Mar (Wed/Fri/Sun), 70 trips; tickets on sale 26 Oct 13:55 via TCDD Taşımacılık.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turistik Doğu Ekspresi 2026-2027 biletleri ne zaman satışa çıkıyor? İşte fiyatlar",
+      "url": "https://www.yeniankara.com.tr/guncel/turistik-dogu-ekspresi-2026-2027-biletleri-ne-zaman-satisa-cikiyor-iste-fiyatlar-187634",
+      "publisher": "Yeni Ankara",
+      "publishedAt": null,
+      "summary": "Report on 2026-2027 Touristic Eastern Express ticket sale timing and prices.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turistik Doğu Ekspresi sefer tarihleri belli oldu: 2026-2027",
+      "url": "https://www.yenisafak.com/galeri/ozgun/turistik-dogu-ekspresi-sefer-tarihleri-belli-oldu-2026-2027-dogu-ekspresi-biletleri-ne-zaman-satisa-cikacak-bilet-fiyatlari-ne-kadar-4863440",
+      "publisher": "Yeni Şafak",
+      "publishedAt": null,
+      "summary": "Gallery on 2026-2027 Touristic Eastern Express dates, ticket sale timing and prices.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turistik Doğu Ekspresi 2026-2027 biletleri! TCDD bilet fiyatları, satış ekranı ve sefer tarihleri",
+      "url": "https://www.milligazete.com.tr/turistik-dogu-ekspresi-2026-2027-biletleri-tcdd-bilet-fiyatlari-satis-ekrani-ve-sefer-tarihleri",
+      "publisher": "Milli Gazete",
+      "publishedAt": null,
+      "summary": "Explainer on 2026-2027 Touristic Eastern Express fares, sales channel and dates.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turistik Doğu Ekspresi 2026-2027 sezonu başlıyor: Biletler bugün satışta",
+      "url": "https://www.gucluanadolugazetesi.com/turistik-dogu-ekspresi-2026-2027-sezonu-basliyor-biletler-bugun-satista",
+      "publisher": "Güçlü Anadolu Gazetesi",
+      "publishedAt": null,
+      "summary": "Reports 2026-2027 Touristic Eastern Express tickets going on sale.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Marmaray sefer saatleri değişti! (Galatasaray maçı nedeniyle)",
+      "url": "https://www.takvim.com.tr/haberler/2026/10/13/galatasaray-maci-nedeniyle-marmaray-sefer-saatleri-degisti",
+      "publisher": "Takvim",
+      "publishedAt": "2026-10-13",
+      "summary": "Marmaray Halkalı–Gebze ran a weekend timetable with later evening services on 13 Oct for the Galatasaray–Barcelona match.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Marmaray sefer saatleri 13 Ekim 2026",
+      "url": "https://www.gzt.com/gundem/marmaray-sefer-saatleri-13-ekim-2026-marmaray-saatleri-degisti-mi-marmaray-bugun-kaca-kadar-acik-4269203",
+      "publisher": "GZT",
+      "publishedAt": "2026-10-13",
+      "summary": "Same Marmaray match-day timetable change, with extra trains and last departures past midnight.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Bursa hızlı treni ne zaman açılacak? Bakan Uraloğlu açılış takvimini duyurdu",
+      "url": "https://www.karar.com/sehir-haberleri/bursa-hizli-treni-ne-zaman-acilacak-bakan-uraloglu-acilis-takvimini-2055920",
+      "publisher": "Karar",
+      "publishedAt": "2026-06-24",
+      "summary": "Minister said Osmaneli–Bursa high-speed section would open within ~6 months (second half 2026), giving ~2h15 Bursa–Istanbul/Ankara; not yet open.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul's rail network expands with new metro line",
+      "url": "https://www.dailysabah.com/turkiye/istanbul/istanbuls-rail-network-expands-with-new-metro-line",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-08-18",
+      "summary": "Presidential decree transferred the planned 17 km, 14-station Ümraniye–Kavacık–Beykoz line from IBB to the Transport Ministry; not built yet.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Resmi Gazete'de yayımlandı: 29 Ekim'de bazı hatlarda ulaşım ücretsiz",
+      "url": "https://www.ahaber.com.tr/gundem/2026/10/23/resmi-gazetede-yayimlandi-29-ekimde-bazi-hatlarda-ulasim-ucretsiz",
+      "publisher": "A Haber",
+      "publishedAt": "2026-10-23",
+      "summary": "Official Gazette decision (22 Oct) makes Marmaray, Sirkeci–Kazlıçeşme, Gayrettepe–Istanbul Airport–Halkalı metro, Başkentray and İZBAN free all day on 29 Oct 2026.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "29 Ekim'de ulaşım ücretsiz mi? İZBAN, Marmaray ve Başkentray",
+      "url": "https://www.yeniasir.com.tr/yasam/2026/10/23/29-ekimde-ulasim-ucretsiz-mi-29-ekim-cumhuriyet-bayraminda-izban-marmaray-ve-baskentray-ucretsiz-mi",
+      "publisher": "Yeni Asır",
+      "publishedAt": "2026-10-23",
+      "summary": "Explains which rail services are free on Republic Day 29 October 2026.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "29 Ekim'de toplu taşıma ücretsiz mi, hangi şehirlerde geçerli?",
+      "url": "https://www.sabah.com.tr/yasam/29-ekimde-toplu-tasima-ucretsiz-mi-hangi-sehirlerde-gecerli-cumhuriyet-bayrami-ulasim-tarifesi-belli-oldu-7688023",
+      "publisher": "Sabah",
+      "publishedAt": null,
+      "summary": "Explainer on Republic Day free public transport by city.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "29 Ekim 2026 Perşembe günü toplu taşıma ücretsiz mi?",
+      "url": "https://www.yenisafak.com/galeri/ozgun/29-ekim-2026-persembe-gunu-toplu-tasima-ucretsiz-mi-metro-iett-metrobus-izban-marmaray-bedava-mi-4867490",
+      "publisher": "Yeni Şafak",
+      "publishedAt": null,
+      "summary": "Gallery on whether metro, İETT, Metrobüs, İZBAN and Marmaray are free on 29 Oct 2026.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "29 Ekim toplu taşıma ücretsiz mi, bedava mı?",
+      "url": "https://www.haberturk.com/bilgi/foto/29-ekim-toplu-tasima-ucretsiz-mi-bedava-mi-marmaray-izban-metro-29-ekimde-ucretsiz-mi-3922730",
+      "publisher": "Habertürk",
+      "publishedAt": null,
+      "summary": "Explainer on Republic Day free transit for Marmaray, İZBAN and metro.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "29 Ekim 2026 Cumhuriyet Bayramı vapurlar çalışıyor mu? Sefer saatleri, ücretsiz mi?",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/29-ekim-2026-cumhuriyet-bayrami-vapurlar-calisiyor-mu-sefer-saatleri-ucretsiz-mi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-22",
+      "summary": "Şehir Hatları, İDO, BUDO, İZDENİZ, GESTAŞ operate on 29 Oct on Sunday/holiday timetable with extra Bosphorus trips; free Şehir Hatları fares unconfirmed.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "26 Ekim 2026 İstanbul'da metro seferleri uzatıldı mı? (Galatasaray-Fenerbahçe derbisi)",
+      "url": "https://www.cumhuriyet.com.tr/turkiye/26-ekim-2026-istanbul-da-metro-seferleri-uzatildi-mi-galatasaray-fenerbahce-derbisi-nedeniyle-metrolar-kaca-kadar-acik-2550115",
+      "publisher": "Cumhuriyet",
+      "publishedAt": "2026-10-25",
+      "summary": "Metro Istanbul extended M1A, M1B, M2, M4, M5, M6 to 01:00 on 26 Oct derby night with extra M2 Yenikapı–Seyrantepe trains.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "M2 Yenikapı-Hacıosman Metro Hattında Bakım Çalışması",
+      "url": "https://www.metro.istanbul/duyuru/detay/m2-yenikapi-haciosman-metro-hattinda-bakim-calismasi-161026",
+      "publisher": "Metro İstanbul",
+      "publishedAt": null,
+      "summary": "Official notice of maintenance work on M2 (slug suggests 16 Oct 2026; page not fetchable).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Olumsuz Hava Koşulları Nedeniyle Sefer Düzenlemesi",
+      "url": "https://www.metro.istanbul/duyuru/detay/olumsuz-hava-kosullari-nedeniyle-sefer-duzenlemesi",
+      "publisher": "Metro İstanbul",
+      "publishedAt": null,
+      "summary": "Official notice of service adjustments due to adverse weather (page not fetchable).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul Floods October 2026: What Tourists Should Know",
+      "url": "https://www.guidedistanbultours.com/en/blog/istanbul-floods-october-2026-travel-update",
+      "publisher": "Guided Istanbul Tours",
+      "publishedAt": null,
+      "summary": "14-15 Oct heavy rain flooding; Şehir Hatları cancelled some Golden Horn ferries 16 Oct, M2 night service shortened 16-17 Oct, roads mostly reopened.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Şehir Hatları vapurları bu kış tarifesinde 32 hatta günde 826 sefer yapacak",
+      "url": "https://www.feribotseferleri.com.tr/duyurular/sehir-hatlari-vapurlari-bu-kis-tarifesinde-32-hatta-gunde-826-sefer-yapacak",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-09-10",
+      "summary": "Şehir Hatları winter timetable from 7 Sep 2026 to 27 Jun 2027: 826 daily trips on 32 lines, night ferries, daily Bosphorus tours.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "ŞEHİR HATLARI KIŞ TARİFESİNE GEÇİYOR",
+      "url": "https://sehirhatlari.istanbul/tr/duyurular/sehir-hatlari-kis-tarifesine-geciyor-3620",
+      "publisher": "Şehir Hatları",
+      "publishedAt": null,
+      "summary": "Official announcement of the move to the winter timetable (page did not load).",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İstanbul'da Şehir Hatları'nda kış tarifesi başlıyor",
+      "url": "https://www.birgun.net/haber/istanbul-da-sehir-hatlarinda-kis-tarifesi-basliyor-732623",
+      "publisher": "BirGün",
+      "publishedAt": null,
+      "summary": "News report on Şehir Hatları winter timetable start.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Şehir Hatları kış tarifesi ne zaman başlıyor? 32 hatta günde 826 sefer",
+      "url": "https://www.karar.com/sehir-haberleri/sehir-hatlari-kis-tarifesi-ne-zaman-basliyor-vapurlar-kis-tarifesine-2071001",
+      "publisher": "Karar",
+      "publishedAt": null,
+      "summary": "Explainer on Şehir Hatları winter schedule: 826 daily trips on 32 lines.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İDO Bandırma ferry sailings cancelled (24 Oct-7 Nov)",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/bandirma-feribot-seferleri-iptal-mi-ido-iptal-edilen-seferler-listesi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-10",
+      "summary": "Five İDO Yenikapı–Bandırma sailings cancelled between 24 Oct and 7 Nov 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İDO Yenikapı ferry sailings cancelled (23 Nov-31 Dec)",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/yenikapi-feribot-seferleri-iptal-mi-ido-iptal-edilen-seferler-listesi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-10",
+      "summary": "58 sailings on İDO Bursa–Armutlu–Yenikapı–Kadıköy cancelled 23 Nov–31 Dec 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İDO launches Taşucu–Girne line, first sailing",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/filo-jet-faciasinin-golgesinde-ilk-sefer-ido-tasucu-girne-hattini-baslatti",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-12",
+      "summary": "İDO made its first Taşucu–Girne (Kyrenia) sailing.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İDO Girne sailings cancelled 27-31 Oct",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/girne-feribot-seferleri-iptal-mi-ido-iptal-edilen-seferler-listesi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-10",
+      "summary": "Eight İDO Kyrenia-route sailings cancelled 27–31 Oct 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "GESTAŞ 5 Ekim 2026 tarife değişikliği: Boğaz hatları, Bozcaada, Gökçeada",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/gestas-5-ekim-2026-tarife-degisikligi-bogaz-hatlari-bozcaada-gokceada",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-09-26",
+      "summary": "GESTAŞ winter timetable effective 5 Oct for Dardanelles, Bozcaada and Gökçeada routes.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "GESTAŞ iptal/ek sefer bilgisi 26.10.2026",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/iptalek-sefer-bilgisi-26102026",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-26",
+      "summary": "Status update on Çanakkale Strait ferry services for 26 Oct.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Bodrum'da Datça ve İstanköy feribot seferleri hava muhalefetiyle iptal edildi",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/bodrumda-datca-ve-istankoy-feribot-seferleri-hava-muhalefetiyle-iptal-edildi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-26",
+      "summary": "Bodrum–Datça and Bodrum–Kos ferries cancelled due to strong winds and rain.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Kos'tan Bodrum'a zorlu dönüş: feribot yolcuları zorlandı",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/kostan-bodruma-zorlu-donus-feribot-yolculari-zorlandi",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-25",
+      "summary": "Rough return crossings from Kos to Bodrum/Turgutreis during 14 Oct winds.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Haliç Tersanesi 569 yaşında",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/denizcilik-tarihinin-essiz-mirasi-halic-tersanesi-569-yasinda",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-25",
+      "summary": "Şehir Hatları marked the Haliç Shipyard's 569th anniversary.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İstanbul Şehir Hatları'ndan Dünya Kız Çocukları Günü'nde Boğaz turu",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/istanbul-sehir-hatlarindan-dunya-kiz-cocuklari-gununde-bogaz-turu",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-10-12",
+      "summary": "Special Bosphorus tour for girls and families for International Day of the Girl Child, valid until 26 Oct.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Çanakkale–Aleksandrupoli (Dedeağaç) feribot hattı önerisi",
+      "url": "https://www.feribotseferleri.com.tr/en/announcements/canakkale-aleksandrupoli-dedeagac-feribot-hatti-onerisi-ctso-2026",
+      "publisher": "Feribot Seferleri (info site)",
+      "publishedAt": "2026-09-16",
+      "summary": "Proposal (not a confirmed service) for a Çanakkale–Alexandroupoli ferry line.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Aroya Returns to Turkey for First Winter Season in the Mediterranean",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/aroya-returns-to-turkey-for-first-winter-season-in-the-mediterranean/",
+      "publisher": "Cruise Industry News",
+      "publishedAt": "2026-10-23",
+      "summary": "Aroya is back at Galataport for seven-night winter cruises to Marmaris, Kuşadası and Alexandria through May 2027.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Galataport Goes Year-Round with Aroya's Winter Sailings",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/galataport-goes-year-round-with-aroyas-winter-sailings/",
+      "publisher": "Cruise Industry News",
+      "publishedAt": "2026-09-04",
+      "summary": "25 Aroya winter itineraries from Galataport 10 Oct 2026–24 Apr 2027 make Istanbul cruise season year-round.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul Airport becomes best-connected air hub in world in 2026",
+      "url": "https://www.dailysabah.com/business/transportation/istanbul-airport-becomes-best-connected-air-hub-in-world-in-2026",
+      "publisher": "Daily Sabah / AA",
+      "publishedAt": "2026-10-15",
+      "summary": "OAG Megahubs 2026 ranks IST first globally (337 destinations); fourth runway opened Sept 2026; year-end passenger estimate cut to 86m due to Middle East disruption.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul Airport becomes world's best-connected air hub in 2026",
+      "url": "https://www.dailysabah.com/business/transportation/istanbul-airport-becomes-worlds-best-connected-air-hub-in-2026",
+      "publisher": "Daily Sabah",
+      "publishedAt": null,
+      "summary": "Companion Daily Sabah report on IST's OAG Megahubs ranking.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Erdogan opens Istanbul Airport's fourth runway",
+      "url": "https://en.yenisafak.com/turkiye/erdogan-opens-istanbul-airports-fourth-runway-3723400",
+      "publisher": "Yeni Şafak English",
+      "publishedAt": "2026-09-18",
+      "summary": "Erdoğan inaugurated IST's fourth runway; Türkiye air traffic 167.5m passengers in first eight months of 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Leading European cargo airport Istanbul adds another runway",
+      "url": "https://www.aircargonews.net/cargo-airport/2026/09/leading-european-cargo-airport-istanbul-adds-another-runway/",
+      "publisher": "Air Cargo News",
+      "publishedAt": "2026-09-23",
+      "summary": "New 2,820 m east-west runway 09/27 opened 18 Sep (€890m), expected to cut holding and taxi times.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Busiest Airport in Europe Set to Open 4th Runway This Week",
+      "url": "https://aviationa2z.com/index.php/2026/09/14/busiest-airport-in-europe-set-to-opens-4th-runway-this-week/",
+      "publisher": "Aviation A2Z",
+      "publishedAt": "2026-09-14",
+      "summary": "Preview of the Istanbul Airport fourth runway opening.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Busiest Airport in Europe Unleashes New Era With €890 Million Runway",
+      "url": "https://aviationa2z.com/index.php/2026/09/19/istanbul-airport-hits-six-runways/",
+      "publisher": "Aviation A2Z",
+      "publishedAt": "2026-09-19",
+      "summary": "Report on Istanbul Airport's new €890m runway entering service.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul Airport to Open Fourth Main Runway on September 18",
+      "url": "https://www.rustourismnews.com/2026/09/14/istanbul-airport-to-open-fourth-main-runway-on-september-18/",
+      "publisher": "Russian Tourism News",
+      "publishedAt": "2026-09-14",
+      "summary": "Announcement that IST's fourth main runway opens 18 Sep.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Istanbul Airport set to open its fourth runway on 18 September",
+      "url": "https://hispanatolia.com/en/istanbul-airport-set-to-open-its-fourth-runway-on-18-september/",
+      "publisher": "Hispanatolia",
+      "publishedAt": null,
+      "summary": "Preview of the fourth runway opening at Istanbul Airport.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İstanbul Havalimanı'nda hızlı pasaport geçiş noktaları artıyor",
+      "url": "https://haber.aero/aero-gundem/istanbul-havalimaninda-hizli-pasaport-gecis-noktalari-artiyor/",
+      "publisher": "haber.aero",
+      "publishedAt": "2026-09-21",
+      "summary": "IST is adding e-passport gates (currently 32) targeting 5,000 daily digital checks; e-gates are for adult Turkish passport holders only.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Sabiha Gökçen Havalimanı 9 ayda 38 milyon yolcuya yaklaştı",
+      "url": "https://havahaber.com/sabiha-gokcen-havalimani-9-ayda-38-milyon-yolcuya-yaklasti/",
+      "publisher": "HavaHaber",
+      "publishedAt": "2026-10-15",
+      "summary": "SAW handled 37.9m passengers Jan–Sep 2026, 4.79m in September.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Sabiha Gökçen Havalimanı 9 Ayda 37,9 Milyon Yolcuya Hizmet Verdi",
+      "url": "https://www.airporthaber2.com/sabiha-gokcen-haberleri/sabiha-gokcen-havalimani-9-ayda-379-milyon-yolcuya-hizmet-verdi.html",
+      "publisher": "AirportHaber",
+      "publishedAt": null,
+      "summary": "Same SAW nine-month traffic figures.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Middle East Aviation Shock: cancellations Riyadh, Jeddah, Dubai, Cairo (October 2026)",
+      "url": "https://www.nomadlawyer.org/middle-east-flight-cancellations-riyadh-jeddah-dubai-cairo-disruptions-october-2026",
+      "publisher": "Nomad Lawyer",
+      "publishedAt": "2026-10-13",
+      "summary": "FlightAware snapshot 12 Oct: IST 192 delays/12 cancellations; TK 182 delays, Pegasus 165 delays due to airspace detours.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Middle East airspace restrictions hit 3,500 flights",
+      "url": "https://www.airhelp.com/en-int/flight-disruptions/middle-east-airspace-restrictions-disrupt-flights-turkiye-europe-25082026/",
+      "publisher": "AirHelp",
+      "publishedAt": null,
+      "summary": "AirHelp report on Middle East airspace restrictions disrupting Türkiye–Europe flights.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Is Istanbul Airport Open? Flight Status and Traveller Guide (October 2026)",
+      "url": "https://blog.wego.com/is-istanbul-airport-open-terminals-flight-status-travel-updates/",
+      "publisher": "Wego Travel Blog",
+      "publishedAt": null,
+      "summary": "Rolling traveller guide to IST status (undated update page).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Flight Status (October 2026): Riyadh Airport Operations Suspended",
+      "url": "https://blog.wego.com/turkish-airlines-flight-status/",
+      "publisher": "Wego Travel Blog",
+      "publishedAt": null,
+      "summary": "Rolling TK flight status page noting Riyadh operations suspended (undated update page).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Launches New Sydney–Istanbul Routing Via Singapore Today",
+      "url": "https://aerohaber.com/turkish-airlines-launches-new-sydney-istanbul-routing-via-singapore-today/",
+      "publisher": "AeroHaber",
+      "publishedAt": "2026-10-26",
+      "summary": "From 26 Oct TK023/TK022 Sydney–Singapore–Istanbul, 5 weekly A350-900, with fifth-freedom rights SIN–SYD.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines to Fly Istanbul-Sydney via Singapore from October",
+      "url": "https://www.businesstraveller.com/news/turkish-airlines-sydney-singapore-route/",
+      "publisher": "Business Traveller",
+      "publishedAt": null,
+      "summary": "Announcement of TK's Sydney service switching to a Singapore stop from October.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Revises Nov 2026 Chengdu Operations",
+      "url": "https://www.aeroroutes.com/eng/260911-tknov26tfu",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-11",
+      "summary": "New IST–Chengdu Tianfu service starts 11 Nov 2026, 3 weekly (TK226/227), first flight on 777-300ER.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Permanently Removes 11 destinations into 2027",
+      "url": "https://www.aeroroutes.com/eng/260911-tkyr2627",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-11",
+      "summary": "TK drops 11 destinations from its schedule into 2027.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Will No Longer Fly This 11 Destinations",
+      "url": "https://aviationa2z.com/index.php/2026/09/13/turkish-airlines-will-no-longer-fly-this-11-destinations/",
+      "publisher": "Aviation A2Z",
+      "publishedAt": "2026-09-13",
+      "summary": "Removed: Juba, Kinshasa, Libreville, Luanda, Lusaka, Billund, Ferghana, Kirkuk, Leipzig/Halle, Najaf, Turkistan.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines NS27 Intercontinental Network Changes – 29SEP26",
+      "url": "https://www.aeroroutes.com/eng/260930-tkns27inc",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-30",
+      "summary": "Summer 2027 frequency increases incl. Boston, Dallas, Atlanta, Montreal, Vancouver, Toronto, Tokyo Narita, Hong Kong.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Expands Manila Service in NW26",
+      "url": "https://www.aeroroutes.com/eng/260930-tknw26mnl",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-30",
+      "summary": "TK increases Istanbul–Manila frequency for winter 2026/27.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines 1Q27 Hanoi Network Additions",
+      "url": "https://www.aeroroutes.com/eng/261007-tk1q27han",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-07",
+      "summary": "TK adds an 11th weekly Istanbul–Hanoi A350 flight 8 Jan–27 Mar 2027.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines NS27 Cape Town Operation Changes",
+      "url": "https://www.aeroroutes.com/eng/261009-tkns27cpt",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-09",
+      "summary": "TK changes Istanbul–Cape Town operation for summer 2027.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines NS27 Taipei / Tokyo Narita Service Changes",
+      "url": "https://www.aeroroutes.com/eng/261002-tkns27tpenrt",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-02",
+      "summary": "TK service changes on Taipei and Tokyo Narita for summer 2027.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Expands flynas Codeshare in NW26",
+      "url": "https://www.aeroroutes.com/eng/261005-tkxycodeshare",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-05",
+      "summary": "TK expands codeshare with flynas for winter 2026/27.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "THAI / Turkish Airlines Expands Codeshare From mid-Sep 2026",
+      "url": "https://www.aeroroutes.com/eng/260921-tgtkcodeshare",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-21",
+      "summary": "THAI and Turkish Airlines expand codeshare cooperation.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines 1Q27 Maldives Service Increases",
+      "url": "https://www.aeroroutes.com/eng/260910-tk1q27mle",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-10",
+      "summary": "TK adds Istanbul–Malé frequencies in Q1 2027.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Air Cambodia Adds Turkish Airlines Paris Codeshare in NW26",
+      "url": "https://www.aeroroutes.com/eng/260908-k6tkcodeshare",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-08",
+      "summary": "Air Cambodia places code on TK Paris services.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "AJet Increases Istanbul – Milan Bergamo Flights in NW26",
+      "url": "https://www.aeroroutes.com/eng/261022-vfnw26bgy",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-22",
+      "summary": "AJet SAW–Bergamo rises from 7 to 10 weekly from 13 Nov 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "AJet NW26 Ankara – Central Asia Service Increases",
+      "url": "https://www.aeroroutes.com/eng/261001-vfnw26esb",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-10-01",
+      "summary": "AJet increases Ankara–Central Asia frequencies for winter 2026/27.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "AJet 1Q27 Kazakhstan Network Additions",
+      "url": "https://www.aeroroutes.com/eng/260921-vf1q27kz",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-21",
+      "summary": "AJet adds Kazakhstan routes in Q1 2027.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "FlyArystan Adds Aktau – Istanbul From late-Oct 2026",
+      "url": "https://www.aeroroutes.com/eng/260918-fsnw26scoist",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-18",
+      "summary": "FlyArystan launches Aktau–Istanbul (IST) twice weekly A320 from 22 Oct 2026.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Air Cairo Expands NW26 Istanbul Network",
+      "url": "https://www.aeroroutes.com/eng/260910-smnw26ist",
+      "publisher": "AeroRoutes",
+      "publishedAt": "2026-09-10",
+      "summary": "Air Cairo expands Istanbul network for winter 2026/27.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Air Cairo relocates all Istanbul operations to Istanbul Airport",
+      "url": "https://centreforaviation.com/news/air-cairo-relocates-all-istanbul-operations-to-istanbul-airport-1367455",
+      "publisher": "CAPA",
+      "publishedAt": null,
+      "summary": "Air Cairo moves all its Istanbul flights to Istanbul Airport (IST).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Air Transat to launch Montreal–Istanbul service in Oct 2026",
+      "url": "https://centreforaviation.com/news/air-transat-to-launch-montreal-istanbul-service-in-oct-2026-1361056",
+      "publisher": "CAPA",
+      "publishedAt": null,
+      "summary": "Air Transat plans Montreal–Istanbul from October 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Oman Air'den kışın İstanbul'a haftada 5 uçuş",
+      "url": "https://www.turkiyeturizm.com/oman-airden-kisin-istanbula-haftada-5-ucus-81536h.htm",
+      "publisher": "Türkiye Turizm",
+      "publishedAt": "2026-10-14",
+      "summary": "Oman Air winter schedule from 25 Oct raises Muscat–Istanbul to up to 5 weekly.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Oman Air'den kış tarifesinde büyük genişleme: İstanbul dahil Avrupa seferleri artıyor",
+      "url": "https://www.aeronews24.com/oman-airden-kis-tarifesinde-buyuk-genisleme-istanbul-dahil-avrupa-seferleri-artiyor",
+      "publisher": "AeroNews24",
+      "publishedAt": null,
+      "summary": "Same Oman Air winter expansion including Istanbul.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Pegasus Airlines Completes Acquisition of Czech Airlines and Smartwings Group",
+      "url": "https://www.flypgs.com/en/press-room/press-releases/pegasus-airlines-completes-acquisition-of-czech-airlines-and-smartwings-group",
+      "publisher": "Pegasus Airlines (press release)",
+      "publishedAt": "2026-10-01",
+      "summary": "Pegasus closed its acquisition of Czech Airlines and Smartwings after regulatory approvals.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Pegasus completes acquisition of Czech Airlines and Smartwings",
+      "url": "https://www.flightglobal.com/strategy/2026/10/pegasus-completes-acquisition-of-czech-airlines-and-smartwings/",
+      "publisher": "FlightGlobal",
+      "publishedAt": "2026-10-01",
+      "summary": "Combined group 175+ aircraft; brands remain separate.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Pegasus Airlines Finalizes Smartwings Integration While Royal Air Maroc Expands Fleet",
+      "url": "https://www.aviationnews.eu/news/2026/10/pegasus-airlines-finalizes-smartwings-integration-while-royal-air-maroc-expands-fleet/",
+      "publisher": "AviationNews.eu",
+      "publishedAt": "2026-10-05",
+      "summary": "Pegasus completes Smartwings deal; shared maintenance, training and distribution.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Pegasus Airlines Pilots Turn Wrong Way Onto Frankfurt Runway",
+      "url": "https://aviationa2z.com/index.php/2026/10/24/pegasus-airlines-pilots-turns-wrong-way-onto-frankfurt-runway/",
+      "publisher": "Aviation A2Z",
+      "publishedAt": "2026-10-24",
+      "summary": "Safety incident report: Pegasus A321neo lined up wrong way at Frankfurt.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Orders Up to 150 Boeing 737 MAX Aircraft",
+      "url": "https://aviationa2z.com/index.php/2026/09/23/turkish-airlines-orders-up-to-150-boeing-737-max-aircraft-in-major-fleet-expansion/",
+      "publisher": "Aviation A2Z",
+      "publishedAt": "2026-09-23",
+      "summary": "TK finalised 100 firm + 50 option 737 MAX order.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish reports September results",
+      "url": "https://www.ttrweekly.com/site/2026/10/turkish-reports-september-results/",
+      "publisher": "TTR Weekly",
+      "publishedAt": "2026-10-12",
+      "summary": "TK carried ~9m passengers in Sept 2026, 73m Jan–Sep (+5.2%); fleet 567.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Miles&Smiles 30% Off Upgrade Awards (Oct 19–Dec 12, book by Oct 31)",
+      "url": "https://loyaltylobby.com/2026/10/19/turkish-airlines-milessmiles-30-off-upgrade-awards-select-routes-october-19-december-12-2026-book-by-october-31/",
+      "publisher": "LoyaltyLobby",
+      "publishedAt": "2026-10-19",
+      "summary": "Miles&Smiles 30% discount on upgrade awards on select routes.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines Launches Fall Sale With Fares From $999 CAD",
+      "url": "https://openjaw.com/buzz-board/2026/10/22/turkish-airlines-launches-fall-sale-with-fares-from-999-cad/",
+      "publisher": "Open Jaw",
+      "publishedAt": "2026-10-22",
+      "summary": "TK Canada fall sale with fares from CAD 999.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Turkish Airlines adds more Cape Town and Johannesburg flights from October 2026",
+      "url": "https://www.getaway.co.za/travel-news/turkish-airlines-adds-more-cape-town-and-johannesburg-flights-from-october-2026/",
+      "publisher": "Getaway Magazine",
+      "publishedAt": "2026-07-06",
+      "summary": "JNB and CPT rise from 7 to 10 weekly from 25/26 Oct 2026; mentions Touristanbul and Stopover programmes.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "HOSTECH by TUSİD İstanbul (10–14 Nov 2026)",
+      "url": "https://tuyap.com.tr/fuarlar/hostech-by-tusid-istanbul",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Hospitality equipment fair at Tüyap Fair & Congress Center, 10–14 Nov 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Avrasya Cam 2026 (21–24 Nov 2026)",
+      "url": "https://tuyap.com.tr/fuarlar/avrasya-cam-fuari",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Eurasia Glass fair at Tüyap Istanbul, 21–24 Nov 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Avrasya Pencere ve Avrasya Kapı 2026 (21–24 Nov 2026)",
+      "url": "https://tuyap.com.tr/fuarlar/avrasya-pencere-ve-avrasya-kapi-",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Eurasia Window & Door fair at Tüyap Istanbul, 21–24 Nov 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Plast Eurasia İstanbul (2–5 Dec 2026)",
+      "url": "https://tuyap.com.tr/fuarlar/plast-eurasia-istanbul",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Plastics industry fair at Tüyap Istanbul, 2–5 Dec 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Uluslararası İstanbul Kitap Fuarı (12–20 Dec 2026)",
+      "url": "https://tuyap.com.tr/fuarlar/uluslararasi-istanbul-kitap-fuari",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Istanbul International Book Fair at Tüyap, 12–20 Dec 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "İstanbul Fuar Takvimi",
+      "url": "https://tuyap.com.tr/istanbul/fuar-takvimi",
+      "publisher": "TÜYAP",
+      "publishedAt": null,
+      "summary": "Tüyap Istanbul fair calendar; next fairs from 10 Nov 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "transport"
+    },
+    {
+      "title": "ISTANBUL HIRDAVAT FUARI - 18 / 21 November 2026",
+      "url": "https://www.italyexport.net/en/exhibitions-fact/istanbul-hirdavat-fuari-18-21-november-2026/",
+      "publisher": "Italyexport",
+      "publishedAt": null,
+      "summary": "Listing for the Istanbul hardware fair, 18–21 Nov 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Trade Fairs in İstanbul (Province) October 2026",
+      "url": "https://www.tradefairdates.com/Fairs-stanbul-R3029-T2-S2.html",
+      "publisher": "TradeFairDates",
+      "publishedAt": null,
+      "summary": "Directory of Istanbul trade fairs.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "transport"
+    },
+    {
+      "title": "Türkiye revamps Anatolian Civilizations Museum with new exhibits",
+      "url": "https://www.dailysabah.com/arts/turkiye-revamps-anatolian-civilizations-museum-with-new-exhibits/news",
+      "publisher": "Daily Sabah / AA",
+      "publishedAt": "2026-07-24",
+      "summary": "Ankara's Museum of Anatolian Civilizations is being reorganised with 288 never-displayed artifacts, new visitor routes and guide stops; no reopening date given.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Yoko Ono exhibition opens at Istanbul's Sakıp Sabancı Museum",
+      "url": "https://www.dailysabah.com/arts/events/yoko-ono-exhibition-opens-at-istanbuls-sakip-sabanci-museum",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-06-25",
+      "summary": "'Yoko Ono: Insound and Instructure' runs at Sakıp Sabancı Museum in Emirgan from June 25 to December 27, 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Long-lost Ottoman mosque set to return to Istanbul skyline",
+      "url": "https://www.dailysabah.com/arts/long-lost-ottoman-mosque-set-to-return-to-istanbul-skyline/news",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-10-26",
+      "summary": "Daily Sabah reports reconstruction of a demolished Ottoman mosque on Istanbul's skyline (seen on arts index page, article not opened).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Lost Ottoman mosque to return to Istanbul's skyline after 70 years",
+      "url": "https://www.turkiyetoday.com/culture/lost-ottoman-mosque-to-return-to-istanbuls-skyline-after-70-years-3230817",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-23",
+      "summary": "Fatih Municipality is rebuilding the 16th-century Bostancılar Tabhanesi (Yedekçiler) Mosque at Sarayburnu near Topkapı, demolished in the 1950s, with reopening planned for next Ramadan.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Istanbul's vanished historic mosque to rise again after 70 years",
+      "url": "https://www.anews.com.tr/world/2026/10/22/istanbuls-vanished-historic-mosque-to-rise-again-after-70-years",
+      "publisher": "A News",
+      "publishedAt": "2026-10-22",
+      "summary": "A News reports the donor-funded rebuild of the Bostancılar Tabhanesi Mosque in Sarayburnu.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Erdoğan hails Türkiye's heritage as Topkapı opens 5 museums",
+      "url": "https://www.dailysabah.com/politics/diplomacy/erdogan-hails-turkiyes-heritage-as-topkapi-opens-5-museums",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-10-24",
+      "summary": "President Erdoğan inaugurated five new museums in Topkapı Palace's Darphane complex (already covered on site).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Erdoğan opens five new museums at Topkapı Palace",
+      "url": "https://www.hurriyetdailynews.com/erdogan-opens-five-new-museums-at-topkapi-palace-228549",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-10-24",
+      "summary": "Five Darphane museums (porcelain, calligraphy, weapons, maps, minting) at Topkapı opened to visitors from October 25 (already covered on site).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Istanbul's Topkapı Palace to showcase over 10,000 artifacts in 5 new museums",
+      "url": "https://www.turkiyetoday.com/culture/istanbuls-topkapi-palace-to-showcase-over-10000-artifacts-in-5-new-museums-3230704",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-21",
+      "summary": "The five new Darphane museums at Topkapı are included in the regular palace ticket (already covered on site).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Topkapı Sarayı'nda 10 bini aşkın eserin bulunduğu 5 müze ziyarete açılıyor",
+      "url": "https://www.dha.com.tr/gundem/topkapi-sarayinda-10-bini-askin-eserin-bulundugu-5-muze-ziyarete-aciliyor-2966353",
+      "publisher": "DHA",
+      "publishedAt": "2026-10-20",
+      "summary": "DHA reports five restored museums with 10,000+ artifacts in Topkapı's Darphane-i Amire open to visitors on October 25.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Istanbul to screen 20 climate documentaries ahead of COP31",
+      "url": "https://www.dailysabah.com/arts/cinema/istanbul-to-screen-20-climate-documentaries-ahead-of-cop31",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-10-26",
+      "summary": "Istanbul will host screenings of 20 climate documentaries ahead of COP31 (seen on index; details not opened).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "'ALLATINI' brings Abdülhamid II's final years to Istanbul stage",
+      "url": "https://www.dailysabah.com/arts/performing-arts/allatini-brings-abdulhamid-iis-final-years-to-istanbul-stage",
+      "publisher": "Daily Sabah",
+      "publishedAt": null,
+      "summary": "A new Istanbul stage production about Sultan Abdülhamid II's final years in Thessaloniki's Allatini mansion (seen on index; not opened).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "When art, music, artificial intelligence meet at Istanbul's AKM",
+      "url": "https://www.dailysabah.com/arts/events/when-art-music-artificial-intelligence-meet-at-istanbuls-akm",
+      "publisher": "Daily Sabah",
+      "publishedAt": null,
+      "summary": "Feature on an art/music/AI event at Istanbul's Atatürk Cultural Center (seen on index; not opened).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "2,800-year-old bone flute, 4,500-year-old idol head unearthed at ancient Troy",
+      "url": "https://www.turkiyetoday.com/culture/2800-year-old-bone-flute-4500-year-old-idol-head-unearthed-at-ancient-troy-in-turkiye-3230806?s=1",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-22",
+      "summary": "2026 excavations at Troy found the site's first musical instrument, a 2,800-year-old bone flute, plus a 4,500-year-old idol head near the Troy II gate.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Istanbul stages and galleries fill up for Oct. 19-25",
+      "url": "https://www.turkiyetoday.com/culture/istanbul-stages-and-galleries-fill-up-for-oct-19-25-3230646",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-19",
+      "summary": "Weekly Istanbul listings including 'Verses of the Sultanate' at Dolmabahçe Art Gallery, Ara Güler 'Little Hungary' (to Feb 12, 2027) and Arter's show to Mar 28, 2027.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "How a small village museum in Türkiye won 5 major awards in 5 years",
+      "url": "https://www.turkiyetoday.com/culture/how-a-small-village-museum-in-turkiye-won-five-major-awards-in-5-years-3230449",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-17",
+      "summary": "Kenan Yavuz Ethnography Museum in Bespınar village, Bayburt, has won five awards including a Europa Nostra Grand Prix and expects 50,000+ visitors in 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye marks 20 years of UNESCO intangible cultural heritage protection",
+      "url": "https://www.turkiyetoday.com/culture/turkiye-marks-20-years-of-unesco-intangible-cultural-heritage-protection-3230752",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-22",
+      "summary": "An Istanbul meeting on October 20 marked 20 years since Türkiye joined UNESCO's intangible heritage convention.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Culture Route Festival moves to İzmir",
+      "url": "https://www.hurriyetdailynews.com/culture-route-festival-moves-to-izmir-228385",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-10-21",
+      "summary": "İzmir hosts the 24th Culture Route Festival stop from October 24 to November 1 with concerts, opera, exhibitions and a children's village.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Diyarbakır ready to host the Culture Route Festival",
+      "url": "https://www.hurriyetdailynews.com/diyarbakir-ready-to-host-the-culture-route-festival-227854",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-10-08",
+      "summary": "Diyarbakır hosted the Culture Route Festival October 10-18 with free concerts and a 40-venue gastronomy route.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Where sparrowhawks are family, Türkiye's Rize celebrates its living heritage",
+      "url": "https://www.turkiyetoday.com/culture/where-sparrowhawks-are-family-turkiyes-rize-celebrates-its-living-heritage-3230931",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-25",
+      "summary": "Rize held its Sparrowhawk Festival on October 23 celebrating the Black Sea tradition of keeping and training sparrowhawks.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Gece müzeciliğinde ziyaretçi sayısı yüzde 32 arttı",
+      "url": "https://www.dha.com.tr/gundem/gece-muzeciliginde-ziyaretci-sayisi-yuzde-32-artti-2964495",
+      "publisher": "DHA",
+      "publishedAt": "2026-10-17",
+      "summary": "Night museum visits rose 32% to 1.33 million (June 1-Oct 1, 22 sites); Ephesus/Side were extended to Oct 15, Göreme to end-October, Galata Tower runs year-round.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Bakan Ersoy: Gece müzeciliğinde ziyaretçi sayısı 1,3 milyonu aştı",
+      "url": "https://tr.euronews.com/2026/10/18/bakan-ersoy-gece-muzeciliginde-ziyaretci-sayisi-13-milyonu-asti",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-10-18",
+      "summary": "Minister Ersoy announced night-museum visitors exceeded 1.3 million in 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Bakan Ersoy, gece müzeciliğinde ziyaretçi sayısının 1,3 milyonu aştığını açıkladı",
+      "url": "https://www.aa.com.tr/tr/kultur/bakan-ersoy-gece-muzeciliginde-ziyaretci-sayisinin-1-3-milyonu-astigini-acikladi/4091716",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": null,
+      "summary": "AA report on the 2026 night-museum results (page failed to load).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Ocak köyündeki 3 bin eserlik müze ziyaretçileri geçmişe götürüyor",
+      "url": "https://www.dha.com.tr/foto-galeri/ocak-koyundeki-3-bin-eserlik-muze-ziyaretcileri-gecmise-goturuyor-2961631",
+      "publisher": "DHA",
+      "publishedAt": "2026-10-13",
+      "summary": "The private Ali Gürer Museum in Ocak village, Kemaliye (Erzincan), displays about 3,000 ethnographic items.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Göbeklitepe'nin kuzeyinde ilk kazı",
+      "url": "https://www.hurriyet.com.tr/gundem/gobeklitepenin-kuzeyinde-ilk-kazi-80e-70-metrelik-yeni-alanda-tarihin-izleri-araniyor-43271506",
+      "publisher": "Hürriyet",
+      "publishedAt": "2026-08-13",
+      "summary": "Excavation began for the first time on an 80x70 m area north of Göbeklitepe; renovated walking paths are expected to open to visitors soon.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Akbank Caz Festivali ne zaman 2026, kimler var",
+      "url": "https://www.milligazete.com.tr/akbank-caz-festivali-ne-zaman-2026-kimler-var-konserler-nerede-festival-ne-zaman-bitecek",
+      "publisher": "Milli Gazete",
+      "publishedAt": "2026-09-26",
+      "summary": "The 36th Akbank Jazz Festival ran in Istanbul September 26-October 11, 2026 with Arturo Sandoval, James Carter and others.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "36. Akbank Caz Festivali 26 Eylül'de İstanbul'da başlıyor",
+      "url": "https://tr.euronews.com/kultur/2026/09/02/36-akbank-caz-festivali-26-eylulde-istanbulda-basliyor",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-09-02",
+      "summary": "Announcement of the 36th Akbank Jazz Festival starting September 26.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "36. Akbank Caz Festivali 26 Eylül'de başlıyor",
+      "url": "https://gazeteoksijen.com/o2/36-akbank-caz-festivali-26-eylulde-basliyor-288201",
+      "publisher": "Gazete Oksijen",
+      "publishedAt": "2026-09-03",
+      "summary": "Programme announcement for the 36th Akbank Jazz Festival.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "10 Works that stood out at Contemporary Istanbul 2026",
+      "url": "https://fadmagazine.com/2026/09/27/contemporary-istanbul-2026-10-works/",
+      "publisher": "FAD Magazine",
+      "publishedAt": "2026-09-27",
+      "summary": "Contemporary Istanbul's 21st edition took place September 23-27, 2026 at Tersane Istanbul on the Golden Horn.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Michelin Guide Türkei 2027: Erste landesweite Auswahl wird in Istanbul verkündet",
+      "url": "https://www.hurriyet.de/news/essen-trinken/michelin-guide-tuerkei-2027-erste-landesweite-auswahl-wird-in-istanbul-verkuendet-133742840",
+      "publisher": "Hürriyet.de",
+      "publishedAt": "2026-10-13",
+      "summary": "The first nationwide MICHELIN Guide Türkiye selection (2027) will be revealed on December 3, 2026 at Divan Kuruçeşme, Istanbul.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye: Die erste landesweite Auswahl des MICHELIN-GUIDE Türkiye wird am 3. Dezember 2026 bekannt gegeben",
+      "url": "https://www.eventemotion.ch/tuerkiye-die-erste-landesweite-auswahl-des-michelin-guide-tuerkiye-wird-am-3-dezember-2026-bekannt-gegeben/",
+      "publisher": "EventEmotion",
+      "publishedAt": null,
+      "summary": "Confirms the December 3, 2026 reveal of the first nationwide Michelin Guide Türkiye selection.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "MICHELIN Guide Ceremony",
+      "url": "https://guide.michelin.com/tr/en/articles/michelin-guide-ceremony",
+      "publisher": "MICHELIN Guide",
+      "publishedAt": null,
+      "summary": "Michelin Guide Türkiye ceremony article hub (primary source for the selections).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "The MICHELIN Guide Türkiye Reveals its 2026 Restaurant Selection",
+      "url": "https://guide.michelin.com/gb/en/article/michelin-guide-ceremony/the-michelin-guide-turkiye-reveals-its-2026-restaurant-selection",
+      "publisher": "MICHELIN Guide",
+      "publishedAt": "2025-12-04",
+      "summary": "The current (2026) Türkiye selection, including Cappadocia, announced December 2025.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "COP31 puts Antalya's local cuisine on global stage",
+      "url": "https://www.dailysabah.com/turkiye/cop31-puts-antalyas-local-cuisine-on-global-stage/news",
+      "publisher": "Daily Sabah / AA",
+      "publishedAt": "2026-10-23",
+      "summary": "Antalya dishes such as piyaz and grilled meatballs will be served at COP31 (Antalya, November 9-20, 2026), with an 'Antalya House' showcasing regional products.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Fried squid tops online ranking of Türkiye's best-rated dishes",
+      "url": "https://www.turkiyetoday.com/lifestyle/fried-squid-tops-online-ranking-of-turkiyes-best-rated-dishes-3230763",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-21",
+      "summary": "TasteAtlas's updated Top 100 Turkish Foods puts kalamar tava first, followed by Antakya künefe.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Turkish chef says Gaziantep should market regional products abroad, not just baklava",
+      "url": "https://www.turkiyetoday.com/lifestyle/turkish-chef-gaziantep-should-market-its-regional-products-abroad-not-just-baklava-3230031",
+      "publisher": "Türkiye Today / AA",
+      "publishedAt": "2026-10-10",
+      "summary": "Chef Mehmet Yalçınkaya at GastroAntep urged promoting Gaziantep's wider pantry beyond baklava.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Erciyes Kayak Merkezi 2026-2027 sezonu ne zaman açılıyor?",
+      "url": "https://kayserihaber.com.tr/haber/erciyes-kayak-merkezi-2026-2027-sezonu-ne-zaman-aciliyor-otobus-saatleri-belli-oldu-97659",
+      "publisher": "Kayseri Haber",
+      "publishedAt": "2026-09-23",
+      "summary": "Erciyes 2026-27 opening date not yet set; weekend bus service to the resort operates in season.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Sarıkamış Kayak Merkezi'nin 2026-2027 sezonu hazırlıkları toplantıda ele alındı",
+      "url": "https://www.sondakika.com/yerel/haber-sarikamis-kayak-merkezi-nin-2026-2027-sezonu-hazir-20323437/",
+      "publisher": "Son Dakika / İHA",
+      "publishedAt": "2026-10-13",
+      "summary": "Kars governor chaired a planning meeting on snowmaking, infrastructure and marketing for Sarıkamış's 2026-27 season; no opening date.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Palandöken'e kar yağdı: Zirvede kar kalınlığı 5 santimetreye ulaştı",
+      "url": "https://www.gzt.com/gundem/palandokene-kar-yagdi-zirvede-kar-kalinligi-5-santimetreye-ulasti-4267586",
+      "publisher": "GZT / DHA",
+      "publishedAt": "2026-10-07",
+      "summary": "First snow of the season fell on Palandöken's summit from October 4.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Palandöken'de kar kalınlığı 10 santimetreye ulaştı",
+      "url": "https://dokuz8haber.net/palandokende-kar-kalinligi-10-santimetreye-ulasti",
+      "publisher": "dokuz8HABER",
+      "publishedAt": "2026-10-07",
+      "summary": "Snow depth at Palandöken's upper elevations reached about 10 cm.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Erciyes'e beyaz örtü indi: Gözler aralık ayına çevrildi",
+      "url": "https://www.kayserihaber.com/kayseri-erciyes-kayak-merkezi-aralik-kar-1",
+      "publisher": "Kayseri Haber",
+      "publishedAt": "2026-10-05",
+      "summary": "Erciyes targets an early-December opening, weather permitting; last season ran Dec 18, 2025-May 15, 2026 with 3.3 million visitors.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Erciyes 2026-2027 Sezonu Ne Zaman Açılacak?",
+      "url": "https://www.erciyeskayakegitimi.com/erciyes-2026-2027-kayak-sezonu-ne-zaman-acilacak/",
+      "publisher": "Erciyes Kayak Eğitimi (blog)",
+      "publishedAt": "2026-08-25",
+      "summary": "Ski-school blog estimates Erciyes opening around December 12-18, 2026 (unofficial).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye ski season kicks off: Erzurum & Kayseri early snow",
+      "url": "https://turkeytripplanner.com/blog/turkiye-ski-season-kicks-off-erzurum-kayseri-early-snow",
+      "publisher": "Turkey Trip Planner",
+      "publishedAt": "2026-10-08",
+      "summary": "Blog note on early snow at Palandöken and Erciyes with indicative rental and package prices.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Kültür ve Turizm Bakanlığı 2027 müze giriş ücretlerini açıkladı",
+      "url": "https://www.turizmaktuel.com/haber/kultur-ve-turizm-bakanligi-2027-muze-giris-ucretlerini-acikladi",
+      "publisher": "Turizm Aktüel",
+      "publishedAt": "2026-09-12",
+      "summary": "Ministry's 2027 foreign-visitor fees in euros: Ephesus €45, Pamukkale €35, Galata Tower €35, Göreme €22, Sümela €22, Istanbul Archaeology €16; Mevlana and Anatolian Civilizations free.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Müze ve ören yerlerine giriş ücretlerine zam! 2027 tarifesi belli oldu",
+      "url": "https://www.turizmguncel.com/haber/muze-ve-oren-yerlerine-giris-ucretlerine-zam-2027-tarifesi-belli-oldu",
+      "publisher": "Turizm Güncel",
+      "publishedAt": "2026-09-09",
+      "summary": "Reports increases in 2027 museum and site fees, including Museum Pass prices.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Kültür ve Turizm Bakanlığı 2027 müze giriş ücretlerini açıkladı",
+      "url": "https://www.bha.net.tr/gundem/kultur-ve-turizm-bakanligi-2027-muze-giris-ucretlerini-acikladi/465129",
+      "publisher": "BHA",
+      "publishedAt": null,
+      "summary": "Agency copy of the 2027 museum fee announcement.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Konya'da Şeb-i Arûs törenleri için bilet satış tarihi belli oldu",
+      "url": "https://www.pusulahaber.com.tr/konyada-seb-i-arus-torenleri-icin-bilet-satis-tarihi-belli-oldu-1838149h.htm",
+      "publisher": "Pusula Haber",
+      "publishedAt": "2026-10-06",
+      "summary": "Şeb-i Arus (Mevlana's 753rd anniversary) ceremonies run December 7-17, 2026 at Konya Mevlana Cultural Center; tickets on Biletinial from October 9.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Şeb-i Arûs 2026 biletleri satışa çıktı",
+      "url": "https://www.dogayidinle.com/etkinlikler/seb-i-arus-2026-biletleri-satisa-cikti-konyada-torenler-ne-zaman-saat-kacta/9243",
+      "publisher": "Doğayı Dinle",
+      "publishedAt": "2026-10-09",
+      "summary": "Sema session times for December 7-17 published; tickets from 300 TL on Biletinial.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Hz. Mevlâna'nın Vuslat Yıldönümü Uluslararası Anma Törenleri - Şeb-i Arus",
+      "url": "https://biletinial.com/tr-tr/muzik/hz-mevlananin-751-vuslat-yildonumu-uluslararasi-anma-torenleri-seb-i-arus",
+      "publisher": "Biletinial",
+      "publishedAt": null,
+      "summary": "Official ticketing page for the Şeb-i Arus sema ceremonies in Konya.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "30. İstanbul Tiyatro Festivali 22 Ekim'de başlıyor",
+      "url": "https://www.haberturk.com/kultur-sanat/30-istanbul-tiyatro-festivali-22-ekim-de-basliyor-3911500",
+      "publisher": "Habertürk",
+      "publishedAt": "2026-09-10",
+      "summary": "The 30th Istanbul Theatre Festival (İKSV) runs October 22-December 3 with 17 productions including NDT 2 and Dmitry Krymov's 'Requiem'.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "İstanbul Tiyatro Festivali başladı",
+      "url": "https://www.haberturk.com/kultur-sanat/istanbul-tiyatro-festivali-basladi-3922061",
+      "publisher": "Habertürk",
+      "publishedAt": "2026-10-23",
+      "summary": "The 30th Istanbul Theatre Festival opened on October 22 with 'Lacrima' and runs until December 3.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "İstanbul Tiyatro Festivali 2026 başlıyor",
+      "url": "https://www.dogayidinle.com/etkinlikler/istanbul-tiyatro-festivali-2026-basliyor-hangi-oyunlar-sahnelenecek/9313",
+      "publisher": "Doğayı Dinle",
+      "publishedAt": "2026-10-12",
+      "summary": "Guide to the 30th Istanbul Theatre Festival programme, October 22-December 3.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "İstanbul Tiyatro Festivali 22 Ekim'de başlıyor, programda 17 gösteri var",
+      "url": "https://www.evrensel.net/haber/6005069/istanbul-tiyatro-festivali-22-ekimde-basliyor-programda-17-gosteri-var",
+      "publisher": "Evrensel",
+      "publishedAt": "2026-10-15",
+      "summary": "Istanbul Theatre Festival programme of 17 productions (date from search listing).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya'da Sinema Şöleni: 24-31 Ekim Altın Portakal Programı",
+      "url": "https://www.akdenizgercek.com.tr/antalya/antalyada-sinema-soleni-24-31-ekim-altin-portakal-programi/387571",
+      "publisher": "Akdeniz Gerçek",
+      "publishedAt": "2026-10-19",
+      "summary": "63rd Antalya Golden Orange Film Festival runs October 24-31 at AKM and city cinemas, with closing ceremony at Cam Piramit on October 31.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "63'üncü kez kapılarını açacak Altın Portakal'ın karbon ayak izi ölçülecek",
+      "url": "https://www.dha.com.tr/gundem/63uncu-kez-kapilarini-acacak-altin-portakalin-karbon-ayak-izi-olculecek-2967353",
+      "publisher": "DHA",
+      "publishedAt": "2026-10-22",
+      "summary": "The 63rd Golden Orange shows 115 films and will measure its carbon footprint ahead of COP31.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Altın Portakal'da yarışma dışı kısa ve belgesel filmler açıklandı",
+      "url": "https://tr.euronews.com/2026/10/02/altin-portakalda-yarisma-disi-kisa-ve-belgesel-filmler-aciklandi",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-10-02",
+      "summary": "Golden Orange announced its non-competition short and documentary lineups.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Altın Portakal'da en iyi filme 5 milyon TL ödül",
+      "url": "https://www.ekonomigazetesi.com/sehirler/altin-portakalda-en-iyi-filme-5-milyon-tl-odul-88430",
+      "publisher": "Ekonomi Gazetesi",
+      "publishedAt": "2026-09-28",
+      "summary": "Twelve films compete nationally at Golden Orange 2026; best film wins 5 million lira.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya Altın Portakal'da uluslararası yarışma filmleri belli oldu",
+      "url": "https://www.evrensel.net/haber/6001890/antalya-altin-portakalda-uluslararasi-yarisma-filmleri-belli-oldu",
+      "publisher": "Evrensel",
+      "publishedAt": "2026-09-24",
+      "summary": "13 films selected for Golden Orange's international feature competition.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "63. Antalya Altın Portakal Ulusal Uzun Metraj Film Yarışması Finalistleri Belli Oldu",
+      "url": "https://www.beyazperde.com/haberler/filmler/haberler-1000224634/",
+      "publisher": "Beyazperde",
+      "publishedAt": "2026-09-25",
+      "summary": "Twelve national competition finalists announced, eight as world premieres.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "63. Altın Portakal Film Festivali 24 Ekim'de başlayacak",
+      "url": "https://www.evrensel.net/haber/6005762/63-altin-portakal-film-festivali-24-ekimde-baslayacak",
+      "publisher": "Evrensel",
+      "publishedAt": "2026-10-20",
+      "summary": "Announcement that Golden Orange begins October 24 (date from search listing; page failed to load).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Altın Portakal için heyecan dorukta: Jüri başkanı Derviş Zaim oldu",
+      "url": "https://www.ntv.com.tr/yasam/altin-portakal-icin-heyecan-dorukta-juri-baskani-dervis-zaim-oldu-1736071",
+      "publisher": "NTV",
+      "publishedAt": "2026-08-05",
+      "summary": "Derviş Zaim named jury head for Golden Orange's national competition.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Ephesus 2026: Best Insider Visit & Tour Guide",
+      "url": "https://exploremoreturkey.com/destinations-guides/ephesus-uncovered-2026-new-excavations-virtual-tours-and-crowd-avoiding-visit-strategies/",
+      "publisher": "Explore More Türkiye",
+      "publishedAt": "2026-08-24",
+      "summary": "Blog roundup of 2026 Ephesus excavations, AR visits and crowd tips.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Gaziantep'te GastroAntep Kültür Yolu Festivali başladı",
+      "url": "https://www.hurriyet.com.tr/gundem/gaziantepte-gastroantep-kultur-yolu-festivali-basladi-43328236",
+      "publisher": "Hürriyet",
+      "publishedAt": "2026-10-03",
+      "summary": "GastroAntep ran October 3-11 with 246 events and 70+ taste points (Gaziantep food already covered on site).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Gaziantep'te Gastroantep Kültür Yolu Festivali başladı",
+      "url": "https://www.yenisafak.com/gundem/gaziantepte-gastroantep-kultur-yolu-festivali-basladi-4861204",
+      "publisher": "Yeni Şafak",
+      "publishedAt": "2026-10-03",
+      "summary": "Agency copy of GastroAntep opening, October 3-11.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "İzmir Kültür Yolu Festivali 2026 ne zaman? İşte dev program",
+      "url": "https://www.gzt.com/kultur/izmir-kultur-yolu-festivali-2026-ne-zaman-bakan-ersoy-mujdeyi-verdi-izmir-kultur-yolu-festivali-kapilarini-aciyor-iste-dev-program-4271138",
+      "publisher": "GZT",
+      "publishedAt": "2026-10-20",
+      "summary": "İzmir Culture Route Festival October 24-November 1 includes 80+ taste points across İzmir, Çeşme, Urla, Tire and Ödemiş and a Republic Day concert.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye Kültür Yolu Festivali (official site)",
+      "url": "https://kulturyolufestivali.com/",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+      "publishedAt": null,
+      "summary": "Official festival site listing remaining 2026 stops: Antalya October 31-November 8 and Adana November 7-15.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya Kültür Yolu Festivali'nin konser takvimi belli oldu: 9 gün, 9 konser",
+      "url": "https://www.haberantalya.com/antalya-kultur-yolu-festivalinin-konser-takvimi-belli-oldu-9-gun-9-konser/532312",
+      "publisher": "Haber Antalya",
+      "publishedAt": "2026-10-21",
+      "summary": "Antalya Culture Route Festival October 31-November 8: nightly free concerts at Konyaaltı Beach Park, plus opera/ballet at Haşim İşcan Culture Center.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya'da 9 günlük Kültür Yolu Festivali başlıyor",
+      "url": "https://www.kemergozcu.com/haber/antalyada-9-gunluk-kultur-yolu-festivali-basliyor-32278.html",
+      "publisher": "Kemer Gözcü",
+      "publishedAt": "2026-10-22",
+      "summary": "Antalya hosts a nine-day Culture Route Festival from October 31 to November 8.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "New museum explores the transformation of Bosphorus",
+      "url": "https://www.hurriyetdailynews.com/new-museum-explores-the-transformation-of-bosphorus-226869",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-09-15",
+      "summary": "IBB opened the Istanbul Bosphorus Museum at Kabataş Transfer Center on September 12 with the exhibition 'A Bosphorus Story'; IBB also floated 1-lira entry for citizens at its museums.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Hisart Living History Museum: Second to Topkapı, but almost on no one's list",
+      "url": "https://www.turkiyetoday.com/culture/second-to-topkapi-but-almost-on-no-ones-list-3228948",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-01",
+      "summary": "Profile of Kağıthane's Hisart diorama museum, with a rare Messerschmitt Bf 109 and Ottoman swords.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "What to do in Istanbul when it rains: Museums, art and hidden gems",
+      "url": "https://www.turkiyetoday.com/nation/what-to-do-in-istanbul-when-it-rains-museums-art-and-hidden-gems-3230319",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-14",
+      "summary": "Rainy-day Istanbul guide covering art museums, the Basilica Cistern and performing arts venues.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye brings Istanbul's art scene to Paris",
+      "url": "https://www.turkiyetoday.com/culture/turkiye-brings-istanbuls-art-scene-to-paris-3230472",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-17",
+      "summary": "Two-day Paris exhibition 'Istanbul: One City, A Thousand Perspectives' on October 19-20.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Canadian PM Mark Carney visits Istanbul Modern",
+      "url": "https://www.turkiyetoday.com/culture/canadian-pm-mark-carney-visits-istanbul-modern-with-wife-diana-fox-carney-3230921",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-24",
+      "summary": "Canadian PM Mark Carney toured Istanbul Modern's galleries.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Turkish culture, cuisine draw visitors at Nations Day Festival in Beirut",
+      "url": "https://www.turkiyetoday.com/culture/turkish-culture-cuisine-draw-visitors-at-nations-day-festival-in-beirut-3230923",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-24",
+      "summary": "Yunus Emre Institute stand with Turkish sweets and marbling art at a Beirut festival.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Mardin'de turizmin güçlü tarafı kalış süresi: Ağustosta 60 bin geceleme",
+      "url": "https://www.mardinhaberportali.com/haber-mardinde-turizmin-guclu-tarafi-kalis-suresi-agustosta-60-bin-geceleme-88794.html",
+      "publisher": "Mardin Haber Portalı",
+      "publishedAt": "2026-10-19",
+      "summary": "Mardin recorded 60,095 overnight stays in August 2026 with longer average stays than Gaziantep or Şanlıurfa.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Mardin'de turist rekoru: Uzak Şehir etkisi",
+      "url": "https://www.hurriyet.com.tr/dunya/mardinde-turist-rekoru-uzak-sehir-etkisi-43018718",
+      "publisher": "Hürriyet",
+      "publishedAt": "2025-11-14",
+      "summary": "Mardin drew about 3.5 million visitors in ten months of 2025, boosted by the TV series 'Uzak Şehir'.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya'da gece müzeciliği sezonu kapandı: Antik kentler",
+      "url": "https://www.dirilispostasi.com/antalyada-gece-muzeciligi-sezonu-kapandi-antik-kentler",
+      "publisher": "Diriliş Postası / AA",
+      "publishedAt": "2026-10-16",
+      "summary": "Antalya's night-opening of ancient cities closed October 1 (Side October 15); Patara's lighthouse reconstructed and Phaselis next for lighting.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Antalya'da 2 bin yıllık Hıdırlık Kulesi kapılarını açtı",
+      "url": "https://www.hurriyet.com.tr/gundem/antalyada-2-bin-yillik-hidirlik-kulesi-kapilarini-acti-turistlerin-yeni-gozdesi-oldu-43287675",
+      "publisher": "Hürriyet / DHA",
+      "publishedAt": "2026-08-28",
+      "summary": "Kaleiçi's Hıdırlık Tower reopened in July 2026 after excavation, with a new sea-view terrace.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Hıdırlık Kulesi yeniden ziyarete açıldı",
+      "url": "https://www.haberturk.com/gundem/foto/hidirlik-kulesi-yeniden-ziyarete-acildi-3900052",
+      "publisher": "Habertürk",
+      "publishedAt": "2026-07-21",
+      "summary": "Antalya municipality reopened the Hıdırlık Tower area to visitors.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Hatay lezzette tescile doymuyor! 5 tescil daha geldi ve sayı 75'e çıktı",
+      "url": "https://www.milliyet.com.tr/7645281",
+      "publisher": "Milliyet",
+      "publishedAt": "2026-08-20",
+      "summary": "Five more Hatay dishes received geographical indication status, bringing the total to 75.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "10. Uluslararası Adana Lezzet Festivalinin tarihi 9-10-11 Ekim 2026 olarak belirlendi",
+      "url": "https://www.adana.gov.tr/bfk-71236547",
+      "publisher": "T.C. Adana Valiliği",
+      "publishedAt": null,
+      "summary": "Adana Governorship set the 10th International Adana Taste Festival for October 9-11, 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "10th International Adana Taste Festival",
+      "url": "https://adanalezzetfestivali.tr/en",
+      "publisher": "Adana Lezzet Festivali",
+      "publishedAt": null,
+      "summary": "Official site of the 10th International Adana Taste Festival.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "308 bin yolcu balona bindi",
+      "url": "https://www.ntv.com.tr/ntvpara/308-bin-yolcu-balona-bindi-1731394",
+      "publisher": "NTV",
+      "publishedAt": "2026-07-04",
+      "summary": "About 308,000 passengers took some 13,000 hot-air balloon flights in Türkiye in H1 2026.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Turkey digital museum access replaces MüzeKart",
+      "url": "https://restproperty.com/news-en/gizn-v-turcii/turkey-digital-museum-access-muzekart-replacement/",
+      "publisher": "Restproperty",
+      "publishedAt": "2026-05-26",
+      "summary": "Since May 22, 2026 Turkish citizens can enter 216 state museums with ID card or app QR; foreigners still use Museum Pass Türkiye.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye's Tunceli Museum nominated for 2026 DASA award",
+      "url": "https://www.dailysabah.com/arts/turkiyes-tunceli-museum-nominated-for-2026-dasa-award/news",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-07-06",
+      "summary": "Tunceli Museum, in a restored barracks, was nominated for a 2026 DASA award.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "2026 takvimi: Yabancı müzisyenlerin vereceği 38 konserin tarihi belli oldu",
+      "url": "https://www.diken.com.tr/2026-takvimi-yabanci-muzisyenlerin-verecegi-38-konserin-tarihi-belli-oldu/",
+      "publisher": "Diken",
+      "publishedAt": "2025-12-31",
+      "summary": "2026 foreign concert calendar incl. Jethro Tull (Nov 14) and Jan Garbarek (Dec 4) at Zorlu PSM.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "GoTürkiye press releases",
+      "url": "https://goturkiye.com/branding/press-releases",
+      "publisher": "GoTürkiye",
+      "publishedAt": null,
+      "summary": "Official GoTürkiye press-release index (items undated).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye Enhances Cultural Heritage Efforts with Restored Ancient Sites in Antalya",
+      "url": "https://goturkiye.com/branding/press-releases/turkiye-enhances-cultural-heritage-efforts-with-restored-ancient-sites-in-antalya",
+      "publisher": "GoTürkiye",
+      "publishedAt": null,
+      "summary": "GoTürkiye press release on restored ancient sites in Antalya (body text not available).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye's Michelin-starred restaurants rise to 17 as 2026 guide expands nationwide",
+      "url": "https://www.turkiyetoday.com/lifestyle/turkiyes-michelin-starred-restaurants-rise-to-17-as-2026-guide-expands-nationwide-3210846",
+      "publisher": "Türkiye Today",
+      "publishedAt": null,
+      "summary": "Report on the 2026 Michelin Türkiye selection with 17 starred restaurants.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Athena Tapınağı ziyaretçilerini ağırlıyor",
+      "url": "https://www.lidergazete.com/kultur-sanat/athena-tapinagi-ziyaretcilerini-agirliyor/236864",
+      "publisher": "Lider Gazete / AA",
+      "publishedAt": "2025-03-06",
+      "summary": "Side's restored Temple of Athena is open to visitors; Apollo temple restoration planned.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Türkiye to turn Neolithic Sayburç settlement into open-air museum",
+      "url": "https://www.dailysabah.com/life/turkiye-to-turn-neolithic-sayburc-settlement-into-open-air-museum/news",
+      "publisher": "Daily Sabah / IHA",
+      "publishedAt": "2026-08-19",
+      "summary": "Şanlıurfa's Sayburç Neolithic site will become an open-air museum on the Taş Tepeler route.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Fresh snowfall brings early skiing to eastern Türkiye",
+      "url": "https://www.dailysabah.com/life/travel/fresh-snowfall-brings-early-skiing-to-eastern-turkiye",
+      "publisher": "Daily Sabah / AA",
+      "publishedAt": "2025-12-14",
+      "summary": "Last season's early skiing at Palandöken and Sarıkamış (reference for typical mid-December start).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "culture"
+    },
+    {
+      "title": "Gece müzeciliği yeniden başladı: 20 müze ve ören yeri gece açılıyor",
+      "url": "https://tr.euronews.com/kultur/2026/06/01/gece-muzeciligi-yeniden-basladi-20-muze-ve-oren-yeri-gece-aciliyor",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-06-01",
+      "summary": "2026 night-museum season launched June 1 at 20 museums and sites.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "culture"
+    },
+    {
+      "title": "Meteoroloji'den alarm üstüne alarm! İstanbul dahil 11 ile sarı ve turuncu kodlu uyarı",
+      "url": "https://www.ahaber.com.tr/gundem/2026/10/27/meteorolojiden-alarm-ustune-alarm-o-illerde-yasayanlar-dikkat",
+      "publisher": "A Haber",
+      "publishedAt": "2026-10-27",
+      "summary": "MGM issued yellow warnings for 10 provinces including Istanbul, Antalya and İzmir and an orange warning for Muğla on 27 October, flagging flash floods, transport disruption and 40-70 km/h gusts.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "27 Ekim 2026 hava durumu: Meteoroloji sarı ve turuncu kodlu uyarı verdi",
+      "url": "https://www.tgrthaber.com/gundem/27-ekim-2026-hava-durumu-meteoroloji-sari-ve-turuncu-kodlu-uyari-verdi-saganak-yagis-3367710",
+      "publisher": "TGRT Haber",
+      "publishedAt": "2026-10-27",
+      "summary": "Forecast of showers and thunderstorms across most of Türkiye on 27 October with yellow codes for 10 provinces and orange for Muğla, plus a 3-5°C temperature drop.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Bu illerde yaşayanlar dikkat: Turuncu ve sarı kodlu alarm verildi, kuvvetli sağanak geliyor",
+      "url": "https://www.hurriyet.com.tr/gundem/bu-illerde-yasayanlar-dikkat-turuncu-ve-sari-kodlu-alarm-verildi-kuvvetli-saganak-geliyor-43354953",
+      "publisher": "Hürriyet",
+      "publishedAt": "2026-10-26",
+      "summary": "Istanbul Governorate warned of heavy rain into 27 October with northern districts (Sarıyer, Beykoz, Şile, Arnavutköy, Eyüp) most at risk; orange alerts for Muğla and Aydın on 26 October.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "İstanbul'da hava karardı! Beklenen sağanak başladı... Valilikten yeni uyarı",
+      "url": "https://www.hurriyet.com.tr/gundem/meteoroloji-saat-verdi-saganak-yagis-ve-firtina-etkili-olacak-gunlerce-surecek-istanbul-dahil-bircok-ile-sari-ve-turuncu-yagis-alarmi-43340722",
+      "publisher": "Hürriyet",
+      "publishedAt": null,
+      "summary": "Report on heavy rain beginning in Istanbul and a new Istanbul Governorate warning during the October 2026 storm period.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye'ye kuvvetli sağanak geliyor: İstanbul dahil çok sayıda il için kritik uyarı",
+      "url": "https://boldmedya.com/2026/10/26/meteoroloji-saganak-yagis-uyarisi-istanbul-27-ekim-2026/",
+      "publisher": "Bold Medya",
+      "publishedAt": "2026-10-26",
+      "summary": "Weather warning article about heavy showers forecast for Istanbul and other provinces on 27 October 2026.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "29 Ekim'de bazı toplu taşıma hizmetleri ücretsiz olacak",
+      "url": "https://www.trthaber.com/haber/turkiye/29-ekimde-bazi-toplu-tasima-hizmetleri-ucretsiz-olacak-960957.html",
+      "publisher": "TRT Haber",
+      "publishedAt": "2026-10-23",
+      "summary": "A Presidential decision in the Official Gazette makes Marmaray, the Sirkeci-Kazlıçeşme line, the Gayrettepe-Istanbul Airport-Halkalı metro, Başkentray and İZBAN free on 29 October.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "29 Ekim'de ulaşım ücretsiz mi? Cumhuriyet Bayramı'nda metro ve Marmaray bedava mı?",
+      "url": "https://www.cnnturk.com/turkiye/29-ekimde-ulasim-ucretsiz-mi-cumhuriyet-bayraminda-metro-ve-marmaray-bedava-mi-29-ekim-toplu-tasima-ucretsiz-olacak-mi-istanbul-3483530",
+      "publisher": "CNN Türk",
+      "publishedAt": "2026-10-26",
+      "summary": "Explains that only ministry-run rail lines (including the M11 airport metro and Marmaray) are free on 29 October, not all Istanbul municipal transit.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya Turizm Fuarı ATF 2026 kapılarını açtı",
+      "url": "https://www.turkiyeturizm.com/antalya-turizm-fuari-atf-2026-kapilarini-acti-81744h.htm",
+      "publisher": "Türkiye Turizm",
+      "publishedAt": "2026-10-26",
+      "summary": "The Antalya Tourism Fair (ATF26) opened at ANFAŞ on 26-28 October targeting 40,000+ professionals and 2,500 hosted buyers.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "ATF26 Türkiye, ANFAŞ Antalya Fuar Merkezi'nde başladı",
+      "url": "https://www.haberantalya.com/turizm-dunyasinin-gozu-antalyada-atf26-kapilarini-acti/532534",
+      "publisher": "Haber Antalya",
+      "publishedAt": "2026-10-26",
+      "summary": "ATF26 under the theme 'Hospitality Intelligence' opened with 335+ stands and hotel brands representing 240,000+ beds; figures are organiser targets.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kamu Hastaneleri İle Sağlık Turizmi Aracı Kuruluşları Ankara'da Buluştu",
+      "url": "https://turizmgazetesi.com/haber/kamu-hastaneleri-ile-saglik-turizmi-araci-kuruluslari-ankara-da-bulustu/95364",
+      "publisher": "Turizm Gazetesi",
+      "publishedAt": "2026-10-24",
+      "summary": "USHAŞ and Ankara Provincial Health Directorate held a first International Health Tourism Promotion Program linking public hospitals with authorised intermediaries; 382 Ankara facilities are authorised.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Turkish youth rank 3rd-lowest for income as affordability crisis rocks Europe: Report",
+      "url": "https://www.turkiyetoday.com/business/turkish-youth-rank-3rd-lowest-for-income-as-affordability-crisis-rocks-europe-report-3231051",
+      "publisher": "Türkiye Today",
+      "publishedAt": null,
+      "summary": "Business report on youth income rankings in Europe; only tangentially related to visitor costs.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Karar: Kızamık salgını mı var? Kızamık vaka sayısı neden artıyor?",
+      "url": "https://www.karar.com/guncel-haberler/kizamik-salgini-mi-var-kizamik-vaka-sayisi-neden-artiyor-resmi-kizamik-2080757",
+      "publisher": "Karar",
+      "publishedAt": "2026-10-26",
+      "summary": "Reports 1,103 measles cases in Türkiye in the first nine months of 2026 per official records/TTB, with experts criticising vaccine policy; no Health Ministry statement quoted.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Vaka sayıları binleri aştı! Çocukların kâbusu sonbaharda geri döndü",
+      "url": "https://www.turkiyegazetesi.com.tr/yasam/vaka-sayilari-binleri-asti-oksuruk-burun-akintisi-halsizlik-ilk-belirtileri-grip-gibi-1824413",
+      "publisher": "Türkiye Gazetesi (İHA)",
+      "publishedAt": "2026-10-22",
+      "summary": "A doctor citing TTB data says measles cases exceeded several thousand in autumn 2026 and recommends vaccination.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Bodrum'da sarı yaz keyfi",
+      "url": "https://www.bodrumgundem.com/2026/10/22/bodrumda-sari-yaz-keyfi/",
+      "publisher": "Bodrum Gündem",
+      "publishedAt": "2026-10-22",
+      "summary": "Bodrum reached 32°C while much of Türkiye turned cold; hoteliers say the season is still running with beach tourism continuing.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Bodrum'da sarı yaz sezonu uzattı, sahiller doldu",
+      "url": "https://www.aksiyon.com.tr/bodrum-da-sari-yaz-sezonu-uzatti-sahiller-doldu-380316",
+      "publisher": "Aksiyon",
+      "publishedAt": "2026-10-22",
+      "summary": "Same-day report that warm late-October weather in Bodrum is extending the season, per the Bodrum Hoteliers Association head.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye targets $70B tourism revenue in 2027, eyes spot among world's top 5",
+      "url": "https://www.turkiyetoday.com/business/turkiye-targets-70b-tourism-revenue-in-2027-eyes-spot-among-worlds-top-5-3230711",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-10-21",
+      "summary": "The 2027 budget draft raises tourism spending to $244.5M and the Medium-Term Program targets $70B tourism revenue in 2027; the 2026 target was cut from $68B to $65B.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Bodrum'da turizm sezonu uzadı: Yabancı turist sayısı 1 milyona dayandı",
+      "url": "https://www.ankaramasasi.com.tr/haber/2224740/bodrum-da-turizm-sezonu-uzadi-993-bini-askin-yabanci-turist-geldi",
+      "publisher": "Ankara Masası (DHA)",
+      "publishedAt": "2026-10-21",
+      "summary": "Bodrum received 993,144 foreign tourists by air and cruise to 18 October; direct international flights expected to run until about 5 November.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Alanya'ya 2026'da 10 kruvaziyerle 12 bin 876 turist geldi",
+      "url": "https://www.yenialanya.com/alanyaya-2026da-10-kruvaziyerle-12-bin-876-turist-geldi",
+      "publisher": "Yeni Alanya",
+      "publishedAt": "2026-10-21",
+      "summary": "Alanya port recorded 10 cruise calls and 12,876 passengers in 2026, with Jan-Sep passengers down 32.7% year on year per maritime directorate data.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye targets earning $70B from tourism in 2027",
+      "url": "https://www.dailysabah.com/business/economy/turkiye-targets-earning-70b-from-tourism-in-2027",
+      "publisher": "Daily Sabah (AA)",
+      "publishedAt": "2026-10-20",
+      "summary": "AA report on 2027-2029 tourism revenue targets ($70B, $73.5B, $78.5B) and a goal of becoming the sixth-highest-earning tourism country.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kızamık salgını: Türkiye'de vakalar 3 bine ulaştı",
+      "url": "https://tr.euronews.com/2026/10/20/kizamik-salgini-turkiyede-vakalar-3-bine-ulasti-bangladeste-1200den-fazla-cocuk-oldu",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-10-20",
+      "summary": "Euronews reports Türkiye's measles cases approaching 3,000 in 2026 and vaccine coverage around 92%, without naming a Turkish government source for the count.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık Turizminde Hasta Sayısı Düşerken Gelir Arttı: Kişi Başı Harcama 2 Bin 600 Dolara Yükseldi",
+      "url": "https://www.saglikaktuel.com/haber/saglik-turizminde-hasta-sayisi-duserken-gelir-artti-kisi-basi-harcama-2-bin-600-108695.htm",
+      "publisher": "Sağlık Aktüel",
+      "publishedAt": "2026-10-19",
+      "summary": "Per TÜRSAB, Türkiye had 563,327 health tourists generating about $1.58B in H1 2026, with average revenue per patient rising to about $2,600.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Vakalar hızla tırmanıyor, sayı binleri aştı! Bir hasta 18 kişiye bulaştırabiliyor",
+      "url": "https://www.hurriyet.com.tr/gundem/vakalar-hizla-tirmaniyor-sayi-binleri-asti-bulastiriciligi-en-yuksek-virus-bir-hasta-18-kisiye-bulastirabiliyor-43340327",
+      "publisher": "Hürriyet",
+      "publishedAt": "2026-10-19",
+      "summary": "Hürriyet cites TTB/expert data: 877 measles cases in the first five months of 2026, 1,103 by September and nearly 3,000 by October.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "İlk 6 ayda 563 bin 327 sağlık turisti Türkiye'ye 1,58 milyar dolar gelir bıraktı",
+      "url": "https://www.sondakika.com/guncel/haber-ilk-6-ayda-563-bin-327-saglik-turisti-turkiye-ye-1-20341212/",
+      "publisher": "Son Dakika",
+      "publishedAt": "2026-10-18",
+      "summary": "Health tourism H1 2026 figures with an industry expectation of busier demand from 15 November to 30 December.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya sağlık turizminde öne çıkıyor: Diş kliniklerinde yabancı hasta oranı yüzde 90'a ulaştı",
+      "url": "https://www.yenialanya.com/antalya-saglik-turizminde-one-cikiyor-dis-kliniklerinde-yabanci-hasta-orani-yuzde-90a-ulasti",
+      "publisher": "Yeni Alanya (DHA)",
+      "publishedAt": "2026-10-18",
+      "summary": "TÜRSAB health tourism representative says Antalya is the second market after Istanbul, with foreign patients making up about 90% at dental clinics (unverified claim).",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Gece müzeciliğinde rekor! Zirvede Efes var",
+      "url": "https://www.haberturk.com/kultur-sanat/gece-muzeciliginde-ziyaretci-sayisi-yuzde-32-artti-3920413",
+      "publisher": "Habertürk (DHA)",
+      "publishedAt": "2026-10-17",
+      "summary": "Ephesus led night museum visits with 501,811, followed by Galata Tower and Hierapolis; Ephesus and Side extended to 15 October, Göreme to 31 October.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya Valiliği, COP31 için 9-13 Kasım'da kentte trafik tedbirleri uygulayacak",
+      "url": "https://www.haberler.com/cevre/antalya-valiligi-cop31-icin-9-13-kasim-da-kentte-20337187-haberi/",
+      "publisher": "Haberler.com (İHA)",
+      "publishedAt": "2026-10-16",
+      "summary": "Antalya Governorship plans traffic measures on the D-400 between Belek-Kadriye and Altınova on 9-13 November, with intercity buses shifted to 22:00-06:00.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "COP31 nedeniyle Antalya'da trafik düzenlemesi yapılacak",
+      "url": "https://www.yenisafak.com/galeri/hayat/cop31-nedeniyle-antalyada-trafik-duzenlemesi-yapilacak-4864923",
+      "publisher": "Yeni Şafak (İHA)",
+      "publishedAt": "2026-10-16",
+      "summary": "Same Governorship COP31 traffic plan; drivers advised to allow extra time and passengers to check bus schedules.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "COP31 Antalya'da ulaşımı kilitledi! Şehirden çıkışlara sınır",
+      "url": "https://www.antalyakorfez.com/cop31-antalyada-ulasimi-kilitledi-sehirden-cikislara-sinir-yola-cikanlara-yasak-geldi",
+      "publisher": "Antalya Körfez Gazetesi",
+      "publishedAt": "2026-10-16",
+      "summary": "Local report on planned COP31 traffic restrictions around Belek on 9-13 November, including two-way flow on part of the D-400.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "COP31 Antalya trafiğini nasıl etkileyecek? Valilik ayrıntıları açıkladı",
+      "url": "https://www.akdenizmanset.com.tr/cop31-antalya-trafigini-nasil-etkileyecek-valilik-ayrintilari-acikladi",
+      "publisher": "Akdeniz Manşet",
+      "publishedAt": null,
+      "summary": "Local report on the Governorship's COP31 traffic details for Antalya.",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya 14 milyon yabancı turisti ağırladı: İşte öne çıkan pazarlar",
+      "url": "https://www.cnnturk.com/ekonomi/antalya-14-milyon-yabanci-turisti-agirladi-iste-one-cikan-pazarlar-3479573",
+      "publisher": "CNN Türk (AA)",
+      "publishedAt": "2026-10-15",
+      "summary": "AKTOB says Antalya hosted about 14 million foreign tourists so far in 2026, 5% below last year, with October prices lower than July-August.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye kruvaziyer turizminde yeni döneme girdi",
+      "url": "https://www.konyaaktuel.com.tr/haber/turkiye-kruvaziyer-turizminde-yeni-doneme-girdi-1792070730/",
+      "publisher": "Konya Aktüel",
+      "publishedAt": null,
+      "summary": "Turkish ports handled 976 cruise calls and 1,640,172 passengers in Jan-Sep 2026 (+4.1%), led by Kuşadası (765,400) and Istanbul (390,387); page shows update 15.10.2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "1.6 milyon yolcuya ulaşan kruvaziyer turizminde gözler 2027'ye çevrildi",
+      "url": "https://haberaktif07.com/haber/16-milyon-yolcuya-ulasan-kruvaziyer-turizminde-gozler-2027ye-cevrildi-65111",
+      "publisher": "Haber Aktif 07",
+      "publishedAt": "2026-10-14",
+      "summary": "Ministry of Transport data: 1.64M cruise passengers Jan-Sep 2026; Marmaris roughly tripled and departures from Turkish ports rose 11%.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya 2026'da ne kadar turist kaybetti? Oran açıklandı",
+      "url": "https://www.turizmguncel.com/haber/antalya-2026da-ne-kadar-turist-kaybetti-oran-aciklandi",
+      "publisher": "Turizm Güncel",
+      "publishedAt": "2026-10-14",
+      "summary": "AKTOB president says Antalya is 5% behind last year after 9.5 months with about 14 million international visitors; COP31 preparations under way in Belek.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Antalya'da Rekor Turist Sayısı: 14 Milyon Yabancı Ziyaretçi Ağırladı",
+      "url": "https://rayhaber.com/2026/10/antalyada-rekor-turist-sayisi-14-milyon-yabanci-ziyaretci-agirladi/",
+      "publisher": "RayHaber",
+      "publishedAt": "2026-10-14",
+      "summary": "Antalya ~14 million international visitors in 2026; headline says 'record' though body says 5% below last year.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kış Turizminin Gözdesi Uludağ'da Yeni İmar Planları Yürürlüğe Girdi",
+      "url": "https://www.turizmgunlugu.com/2026/10/14/uludagda-yeni-imar-planlari-yururluge-girdi/",
+      "publisher": "Turizm Günlüğü",
+      "publishedAt": "2026-10-14",
+      "summary": "New Uludağ zoning plans took effect, introducing managed parking, controlled vehicle access and a 4 km pedestrian route separated from the main road.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye's airports handle 193.1 million passengers in first nine months of 2026",
+      "url": "https://www.azernews.az/region/265487.html",
+      "publisher": "AzerNews",
+      "publishedAt": "2026-10-13",
+      "summary": "DHMİ data: 25.6M passengers in September 2026 (+3.4%) and 193.16M Jan-Sep; Antalya Airport served 30.1M passengers in nine months.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kuşadası'na 4 kruvaziyerle 6 bin turist",
+      "url": "https://www.denizcihaber.com/2026/10/3290/kusadasina-4-kruvaziyerle-6-bin-turist/",
+      "publisher": "Denizci Haber",
+      "publishedAt": "2026-10-13",
+      "summary": "Four cruise ships brought about 6,000 mostly American tourists to Kuşadası Ege Port, many heading to Ephesus and the House of the Virgin Mary.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Chasing beauty abroad: is Turkey the right choice for cosmetic surgery or should you look to Poland?",
+      "url": "https://www.warrington-worldwide.co.uk/2026/10/13/chasing-beauty-abroad-is-turkey-the-right-choice-for-cosmetic-surgery-or-should-you-look-to-poland/",
+      "publisher": "Warrington Worldwide (sponsored)",
+      "publishedAt": "2026-10-13",
+      "summary": "Sponsored UK article promoting a Polish clinic over Turkey for cosmetic surgery; cites BAAPS complication data. Not a neutral source.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kuşadası Limanı'na kruvaziyer akını: 4 gemi, 6 bin turist",
+      "url": "https://www.ekonomist.com.tr/turizm/kusadasi-limani-na-kruvaziyer-akini-4-gemi-6-bin-turist-79761",
+      "publisher": "Ekonomist (AA)",
+      "publishedAt": "2026-10-12",
+      "summary": "AA report of Arcadia, MSC Divina, Wind Star and Variety Voyager calling at Kuşadası with about 6,000 passengers.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Bodrum Belediye Başkanı Mandalinci, turizm sezonunu 12 aya yaymayı hedefliyor",
+      "url": "https://www.haberler.com/guncel/bodrum-belediye-baskani-mandalinci-turizm-sezonunu-20318095-haberi/",
+      "publisher": "Haberler.com (AA)",
+      "publishedAt": "2026-10-11",
+      "summary": "Bodrum's mayor aims to stretch the season toward 12 months via autumn festivals and sports events; cruise sailings run until 5 November.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "East Asian tourists fuel autumn tourism boom in Cappadocia",
+      "url": "https://www.hurriyetdailynews.com/east-asian-tourists-fuel-autumn-tourism-boom-in-cappadocia-227898",
+      "publisher": "Hürriyet Daily News (AA)",
+      "publishedAt": "2026-10-09",
+      "summary": "Chinese Golden Week (1-7 Oct) pushed Cappadocia hotels and balloon tours to near-100% occupancy, per local operators.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Is Istanbul Airport Open? Flight Status and Traveller Guide (October 2026)",
+      "url": "https://blog.wego.com/is-istanbul-airport-open/",
+      "publisher": "Wego Travel Blog",
+      "publishedAt": null,
+      "summary": "Traveller guide (first published 9 Apr 2026, updated 9 Oct 2026) confirming IST operating normally, with notes on transit visas, M11 metro and US Level 2 advisory.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "'Golden Week' brings surge of East Asian tourists to Cappadocia",
+      "url": "https://www.dailysabah.com/life/travel/golden-week-brings-surge-of-east-asian-tourists-to-cappadocia",
+      "publisher": "Daily Sabah (AA)",
+      "publishedAt": "2026-10-08",
+      "summary": "East Asian visitors crowd Cappadocia balloon rides, ATV and horseback tours in early October with near-full occupancy.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "AKTOB'dan sahte rezervasyon sitelerine karşı uyarı",
+      "url": "https://www.turizmguncel.com/haber/aktobdan-sahte-rezervasyon-sitelerine-karsi-uyari",
+      "publisher": "Turizm Güncel",
+      "publishedAt": "2026-10-07",
+      "summary": "Mediterranean hoteliers' association AKTOB warned of fake booking and campaign sites copying real hotel pages as early-booking season starts.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "İstanbul otel doluluğu ağustosta geçen yılı ilk kez geçti, TÜROB verisi %76,56 oldu",
+      "url": "https://www.sondakika.com/ekonomi/haber-istanbul-otel-dolulugu-agustosta-gecen-yili-ilk-ke-20288844/",
+      "publisher": "Son Dakika",
+      "publishedAt": "2026-10-01",
+      "summary": "Istanbul hotel occupancy hit 76.56% in August 2026 with an average rate of €103.82; Jan-Aug average rate fell to €97.5.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Russia, Germany lead foreign arrivals to Türkiye as visitor numbers edge down",
+      "url": "https://www.turkiyetoday.com/business/russia-germany-lead-foreign-arrivals-to-turkiye-as-visitor-numbers-edge-down-3229227",
+      "publisher": "Türkiye Today",
+      "publishedAt": "2026-09-29",
+      "summary": "Jan-Aug 2026 foreign arrivals were 34.8M (-1.84%); August nearly 7M; Russia, Germany and the UK top markets.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Yurt dışından telefon getirene kötü haber! IMEI harcı 70 bin liraya dayanıyor",
+      "url": "https://www.haberler.com/ekonomi/yurt-disi-cep-telefonu-imei-harci-2027-de-69-bin-20280535-haberi/",
+      "publisher": "Haberler.com (ANKA)",
+      "publishedAt": "2026-09-29",
+      "summary": "Economist projects the IMEI registration fee rising from 54,258 TL (2026) to about 69,450 TL in 2027; official revaluation rate due 3 November.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Yurt dışından getirilen cep telefonu IMEI harcı 2027'de 69 bin 450 liraya çıkacak",
+      "url": "https://www.gercekhaberci.com/ekonomi/yurt-disindan-getirilen-cep-telefonu-imei-harci-2027de-69-bin-450-liraya-cikacak/267073",
+      "publisher": "Gerçek Haberci",
+      "publishedAt": "2026-09-29",
+      "summary": "Same projection of 69,450 TL IMEI fee for 2027 (estimate, not yet official), noting the abroad-purchase price advantage is shrinking.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye's Travel Appeal Now Shines as Nearly 35 Million Foreign Visitors Explore the Country",
+      "url": "https://www.micetraveladvisor.com/news/article/turkiyes-travel-appeal-now-shines-as-nearly-35-million-foreign-visitors-explore-the-country/",
+      "publisher": "MICE Travel Advisor",
+      "publishedAt": "2026-09-26",
+      "summary": "Secondary write-up of Jan-Aug 2026 arrivals (34.83M) highlighting Istanbul, Antalya and Cappadocia.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Yabancı Ziyaretçi İstatistikleri – Ağustos 2026",
+      "url": "https://www.alomaliye.com/2026/09/25/yabanci-ziyaretci-istatistikleri-agustos-2026/",
+      "publisher": "Alomaliye (KTB data)",
+      "publishedAt": "2026-09-25",
+      "summary": "Provisional KTB data: 6,963,065 foreign visitors in August 2026 (-0.03%); Antalya 36.24% and Istanbul 27.71% of entries.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "İlk Sekiz Ayda Kaç Ziyaretçi Geldi?",
+      "url": "https://www.turizmgazetesi.com/haber/ilk-sekiz-ayda-kac-ziyaretci-geldi/94873",
+      "publisher": "Turizm Gazetesi",
+      "publishedAt": "2026-09-25",
+      "summary": "August 2026 market breakdown: Russia +6.2%, UK -7.5%, Iran +15.1%, China +64.8%.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Turkey Tourist Arrivals (data page)",
+      "url": "https://tradingeconomics.com/turkey/tourist-arrivals",
+      "publisher": "Trading Economics",
+      "publishedAt": null,
+      "summary": "Data page shows August 2026 as latest (6,963,065) and lists September 2026 arrivals release for 30 October 2026.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Vergi, harç ve cezalarda 2027 hesabı: Yeni tutarlar ne kadar olacak?",
+      "url": "https://www.ekoturk.com/haberler/vergi-harc-ve-cezalarda-2027-hesabi-yeni-tutarlar-ne-kadar-olacak/",
+      "publisher": "Ekotürk",
+      "publishedAt": "2026-09-14",
+      "summary": "Estimates (not official) for 2027: revaluation ~28%, departure fee 1,250→~1,580 TL, IMEI fee to ~69,000 TL.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sabiha Gökçen'de Tekerlekli Sandalyeli Yolcular İçin Yeni Uygulama",
+      "url": "https://havasosyalmedya.com/sabiha-gokcende-tekerlekli-sandalyeli-yolcular-icin-yeni-uygulama/",
+      "publisher": "HavaSosyalMedya",
+      "publishedAt": "2026-09-12",
+      "summary": "Sabiha Gökçen routes wheelchair-assisted passengers via designated gates (AJet 501A, Pegasus 307D) to centralise tracking.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye 2026 yazında 'turizm vahası' olmayı sürdürdü",
+      "url": "https://www.aa.com.tr/tr/kultur/turkiye-2026-yazinda-turizm-vahasi-olmayi-surdurdu/4052854",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": "2026-09-10",
+      "summary": "TÜRSAB president says Türkiye stayed a holiday 'oasis' in summer 2026 and urged travellers to use TÜRSAB's Digital Verification System when buying trips.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye museum fees 2027: new rates from April",
+      "url": "https://ftnnews.com/travel-news/news-from-turkey/turkiye-museum-fees-2027/",
+      "publisher": "FTNnews",
+      "publishedAt": "2026-09-09",
+      "summary": "2027 foreign-visitor museum tariffs in euros take effect 1 April 2027 (e.g. Ephesus €45, Pamukkale €35, Galata Tower €35, MuseumPass Türkiye €185).",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Kuşadası'na 2 kruvaziyerle 7 bin 818 turist geldi",
+      "url": "https://aydinhavadisleri.com/kusadasina-2-kruvaziyerle-7-bin-818-turist-geldi/",
+      "publisher": "Aydın Havadisleri (İHA)",
+      "publishedAt": "2026-09-09",
+      "summary": "Odyssey of the Seas and Celebrity Xcel brought 7,818 tourists; association expects ~750 calls and a season through end-November.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "2027 Yılı Müze ve Örenyeri Giriş Ücretleri Açıklandı",
+      "url": "https://www.alomaliye.com/2026/09/08/2027-yili-muze-ve-orenyeri-giris-ucretleri-aciklandi/amp/",
+      "publisher": "Alomaliye",
+      "publishedAt": "2026-09-08",
+      "summary": "Reposts DÖSİMM's 2027 museum and archaeological site tariff schedules approved by board decisions of 27 Aug and 4 Sep 2026 (amounts in attached PDFs).",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "2027 müze örenyeri yabancı (tariff PDF)",
+      "url": "https://www.alomaliye.com/wp-content/uploads/2026/09/2027-muze-orenyeri-yabanci.pdf",
+      "publisher": "Alomaliye (DÖSİMM schedule)",
+      "publishedAt": null,
+      "summary": "PDF schedule of 2027 foreign visitor museum/site admission fees.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "İstanbul kruvaziyerde ana liman konumunu güçlendiriyor",
+      "url": "https://tr.euronews.com/gezi/2026/09/04/istanbul-kruvaziyerde-ana-liman-konumunu-guclendiriyor",
+      "publisher": "Euronews Türkçe",
+      "publishedAt": "2026-09-04",
+      "summary": "Report on Istanbul strengthening its role as a cruise home port.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık Turizminde Akreditasyon ve Sertifika İçin Son Tarih: 31 Aralık 2026",
+      "url": "https://www.uste.org.tr/saglik-turizminde-akreditasyon-ve-sertifika-icin-son-tarih-31-aralik-2026/",
+      "publisher": "Uluslararası Sağlık Turizmi Enstitüsü",
+      "publishedAt": "2026-09-04",
+      "summary": "Authorised health tourism facilities must complete TÜSKA accreditation/certification by 31 December 2026 or risk certificate cancellation.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık Turizmi Yapan Hastaneler Dikkat: TÜSKA'da Yeni Dönem, 31 Aralık 2026 Kritik Tarih",
+      "url": "https://www.turizmgunlugu.com/2026/08/30/ozel-hastaneler-yonetmeligi-tuska/",
+      "publisher": "Turizm Günlüğü",
+      "publishedAt": "2026-08-30",
+      "summary": "Private Hospitals Regulation amendment (OG 29 Aug 2026) adds inspection exemptions for TÜSKA-accredited hospitals; health tourism deadline remains 31 Dec 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye, Istanbul and Tourists Face New Passport Checks Under Strict Identity Rules",
+      "url": "https://www.micetraveladvisor.com/news/article/turkiye-istanbul-and-tourists-face-new-passport-checks-under-strict-identity-rules/",
+      "publisher": "MICE Travel Advisor",
+      "publishedAt": "2026-08-13",
+      "summary": "Explains that foreign visitors must carry passports for identity checks and overstays can bring entry bans; secondary source.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye reports 2026 first half arrivals, revenue results",
+      "url": "https://www.travelpress.com/turkiye-reports-2026-first-half-arrival-revenue-results/",
+      "publisher": "TravelPress",
+      "publishedAt": "2026-08-11",
+      "summary": "H1 2026: 25.8M international visitors and $25.8B revenue; spending per night up 2.6% to $109.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Ticaret Bakanlığı'ndan Restoran ve Kafelere Uyarı: Gizli Ücretlere Geçit Yok",
+      "url": "https://www.turizmgazetesi.com/haber/ticaret-bakanligi-ndan-restoran-ve-kafelere-uyari-gizli-ucretlere-gecit-yok/93979",
+      "publisher": "Turizm Gazetesi",
+      "publishedAt": "2026-07-29",
+      "summary": "Trade Ministry: service/cover charges not on the price list cannot be charged, tipping is optional, and QR menus must be backed by printed price lists.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Yurt dışı telefonlarda yeni dönem başladı!",
+      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/yurt-disi-telefonlarda-yeni-donem-basladi-7616067",
+      "publisher": "Milliyet Uzmanpara",
+      "publishedAt": "2026-07-02",
+      "summary": "BTK changed IMEI registration rules: registration via e-Devlet only; unregistered devices generally get 120 days per IMEI.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Yolcu beraberi eşya limitleri değişti mi? Bakanlıktan açıklama",
+      "url": "https://www.turkiyegazetesi.com.tr/ekonomi/yolcu-beraberi-esya-limitleri-degisti-mi-bakanliktan-aciklama-1799735",
+      "publisher": "Türkiye Gazetesi (AA)",
+      "publishedAt": "2026-06-27",
+      "summary": "Trade Ministry says passenger duty-free allowances (e.g. €430 gift value, 1 kg tea/coffee) are unchanged since 2009.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Turizme taksici darbesi! Yine bir turistten fahiş ödeme alındı",
+      "url": "https://www.cnnturk.com/turkiye/turizme-taksici-darbesi-yine-bir-turistten-fahis-odeme-alindi-3426447",
+      "publisher": "CNN Türk",
+      "publishedAt": "2026-06-02",
+      "summary": "Istanbul taxi driver who overcharged a US tourist by card was arrested and fined.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Istanbul essentials: Emergency access, visitor safety framework",
+      "url": "https://www.dailysabah.com/turkiye/istanbul-essentials-emergency-access-visitor-safety-framework/news",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-04-19",
+      "summary": "Visitor guide to 112 emergency line, Tourist Police number and KADES app in Istanbul.",
+      "visitorRelevance": "high",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye's health tourism faces rival campaigns amid global rise",
+      "url": "https://www.hurriyetdailynews.com/turkiyes-health-tourism-faces-rival-campaigns-amid-global-rise-221256",
+      "publisher": "Hürriyet Daily News",
+      "publishedAt": "2026-04-20",
+      "summary": "Sector says 'cheap but risky' campaigns abroad cut patient numbers; 2025 saw 1.39M health tourists and $3.02B.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Fewer Patients, Higher Fees: Türkiye's Medical Tourism Warning Signs in 2026",
+      "url": "https://medicaltourismwatch.com/turkiye-medical-tourism-fewer-patients-higher-fees/",
+      "publisher": "MedicalTourismWatch",
+      "publishedAt": "2026-02-08",
+      "summary": "Analysis of USHAŞ/TurkStat data showing health tourist numbers falling 2023-2025 and a HealthTürkiye portal fee rise contested by TÜRSAB (updated 26 Aug 2026).",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık turizmi tesislerine akreditasyon zorunluluğu: Son tarih 31 Aralık 2026",
+      "url": "http://www.turizmajansi.com/haber/saglik-turizminde-yeni-donem-h72244",
+      "publisher": "Turizm Ajansı",
+      "publishedAt": "2026-05-01",
+      "summary": "TÜSKA says unaccredited health-tourism-authorised facilities cannot accept international patients after 31 December 2026.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık Bakanlığından 'sağlık turizmi yönetmeliği'ne ilişkin açıklama",
+      "url": "https://www.aa.com.tr/tr/gundem/saglik-bakanligindan-saglik-turizmi-yonetmeligine-iliskin-aciklama/3551536",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": null,
+      "summary": "Health Ministry outlines the April 2025 regulation: HealthTürkiye portal registration, mandatory complication insurance, USHAŞ authorisation and accreditation deadlines.",
+      "visitorRelevance": "medium",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Sağlık Turizmi Daire Başkanlığı",
+      "url": "https://shgmturizmdb.saglik.gov.tr/",
+      "publisher": "T.C. Sağlık Bakanlığı",
+      "publishedAt": null,
+      "summary": "Official Health Ministry health tourism department site (primary reference for authorised facilities).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Türkiye'de 56 seyahat sağlığı merkezi ile bireysel danışmanlık hizmeti sunuluyor",
+      "url": "https://www.aa.com.tr/tr/saglik/turkiyede-56-seyahat-sagligi-merkezi-ile-bireysel-danismanlik-hizmeti-sunuluyor/3559688",
+      "publisher": "Anadolu Ajansı",
+      "publishedAt": "2025-05-07",
+      "summary": "56 Travel Health Centres offer pre-travel advice and vaccines; helpline 444 77 34 and seyahatsagligi.gov.tr.",
+      "visitorRelevance": "low",
+      "opened": true,
+      "scan": "practical"
+    },
+    {
+      "title": "Foreign travel advice: Turkey",
+      "url": "https://www.gov.uk/foreign-travel-advice/turkey",
+      "publisher": "UK FCDO (GOV.UK)",
+      "publishedAt": null,
+      "summary": "Official UK travel advice page for Türkiye; fetch blocked, so latest update date could not be verified.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Turkey Travel Advisory",
+      "url": "https://travel.state.gov/en/international-travel/travel-advisories/turkey.html",
+      "publisher": "US Department of State",
+      "publishedAt": null,
+      "summary": "Official US advisory page for Türkiye (Wego cites a Level 2 advisory dated 9 June 2026; not opened).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Resmi Gazete'de yayımlandı: Turistik amaçlı kiralık konutlarda yeni dönem",
+      "url": "https://www.cnbce.com/turizm/resmi-gazetede-yayimlandi-turistik-amacli-kiralik-konutlarda-yeni-donem-h40381",
+      "publisher": "CNBC-e",
+      "publishedAt": null,
+      "summary": "Report on Official Gazette rules for tourist-rental homes (short-term rental permits).",
+      "visitorRelevance": "medium",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Ticaret Bakanlığı Restoran ve Kafelerde Alınan Servis Ücretlerini Denetliyor",
+      "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-restoran-ve-kafelerde-alinan-servis-ucretlerini-denetliyor",
+      "publisher": "T.C. Ticaret Bakanlığı",
+      "publishedAt": null,
+      "summary": "Official Trade Ministry notice on inspections of service charges at restaurants and cafés.",
+      "visitorRelevance": "high",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Year of the Horse: Why Chinese travelers are choosing Cappadocia in 2026",
+      "url": "https://www.turkiyetoday.com/lifestyle/year-of-the-horse-why-chinese-travelers-are-choosing-cappadocia-in-2026-3215223",
+      "publisher": "Türkiye Today",
+      "publishedAt": null,
+      "summary": "Feature on Chinese travel demand for Cappadocia in 2026.",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "practical"
+    },
+    {
+      "title": "Fall foliage turns Kagizman orchards yellow, orange and red in Türkiye's Kars",
+      "url": "https://www.turkiyetoday.com/lifestyle/fall-foliage-turns-kagizman-orchards-yellow-orange-and-red-in-turkiyes-kars-3230990",
+      "publisher": "Türkiye Today",
+      "publishedAt": null,
+      "summary": "Autumn foliage feature from Kağızman, Kars (listed on Türkiye Today latest page late Oct 2026).",
+      "visitorRelevance": "low",
+      "opened": false,
+      "scan": "practical"
+    }
+  ]
+}
