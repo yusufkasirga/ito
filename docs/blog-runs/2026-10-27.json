@@ -306,7 +306,7 @@
     "antalya-november-2026-culture-route-festival-cop31",
     "turkiye-museum-site-fees-2027"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents (did not write the drafts): one shortlist overlap review across all EN articles; one fact-check + four-locale translation review per article with fixes applied. No human, native-speaker or expert certification claimed.",
   "followUps": [
     "Belek golf article: add a dated note linking the Antalya November article (D-400 Belek–Altınova measures 9–13 Nov 2026).",
@@ -314,5 +314,20 @@
     "Museum fees 2027: re-check against muze.gov.tr once the ministry publishes the 2027 list; retire/refresh after 1 April 2027.",
     "Antalya November article expires after 20 Nov 2026.",
     "Konya Şeb-i Arus: update session times when the official programme booklet is published; refresh for 2027."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/31",
+    "headCommit": "736583ff5a5b64ad4b93c46ca13ba4b167bb2778",
+    "mergeCommit": "73b2898d1ac2cb1af703258432e8f61ffbd2a556",
+    "mergedBy": "Claude after the owner's explicit approval in chat (the automatic merge was first blocked by the session permission check)",
+    "checks": "quality: success; Vercel Preview: success",
+    "deployment": {
+      "provider": "Vercel",
+      "status": "success",
+      "inspectorUrl": "https://vercel.com/yusufkasirgas-projects/ito/B29E2hMFrjKdDKPghgx8U11mrQW9"
+    },
+    "verifiedAt": "2026-10-27",
+    "verification": "WebFetch on the production domain: EN, DE, zh-CN, KO and ES article pages load with full localized bodies; the new slugs appear in sitemap.xml. Shell curl to the production domain is blocked in this environment.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); the build was verified by CI and Vercel."
+  }
 }
