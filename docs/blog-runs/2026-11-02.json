@@ -350,5 +350,12 @@
     "Consider (owner decision) whether turkishmuseums.com / kultur.gov.tr, tuyap.com.tr and ifm.com.tr should be approved primary domains; two drafts are held for this reason.",
     "Touristic Eastern Express article: refresh with the 2026–27 season (21 Dec–12 Mar, tickets on sale 26 Oct).",
     "Michelin Guide Türkiye 2027: revisit after 3 Dec 2026."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/33",
+    "headCommit": "b1acc15f958266b5e5b4b0b15a2140061960d4be",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/DmAwGAugeQbGMvB7nyBVAZVxuMyb)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review). Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview."
+  }
 }
