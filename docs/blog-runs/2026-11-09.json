@@ -248,5 +248,12 @@
     "PR #33 (2026-11-02 winter hours) is still open and unmerged: the automatic merge was blocked by the session permission check; owner merge needed.",
     "Istanbul exhibitions article: consider updating with Pera 'Cumhuriyetin Kamera Arkası', Istanbul Modern Manuel Çıtak and Locarno-in-Istanbul (26 Nov–6 Dec).",
     "Troy/Assos: add MüzeKart validity and 2027 fees once muze.gov.tr is reachable."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/34",
+    "headCommit": "7152b21a47eaa4c714ab740a2afd35cf1e16e2b0",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/FeE4FHzU8HS55YgX2BukVxSQiudf)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production; Vercel MCP lacks team access."
+  }
 }
