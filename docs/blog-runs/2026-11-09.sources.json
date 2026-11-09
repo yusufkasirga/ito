@@ -1,0 +1,1546 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-11-09T12:30:00+03:00",
+  "collectedBy": "Two Claude research subagents (tourism/news feeds; official primary sources) via WebSearch/WebFetch; shell collector (npm run blog:collect) reached 0/15 registry endpoints from this cloud environment.",
+  "freshWindow": "2026-09-25..2026-11-09 (45 days before run date)",
+  "failedEndpoints": [
+    {
+      "url": "https://www.turizmekonomi.com/rss",
+      "error": "WebFetch PROVENANCE_REQUIRED: permission request not answered (URL not user-provided); curl blocked by proxy (CONNECT 403)"
+    },
+    {
+      "url": "https://www.turizmgunlugu.com/feed/",
+      "error": "WebFetch PROVENANCE_REQUIRED: permission request not answered (URL not user-provided); curl blocked by proxy (CONNECT 403)"
+    },
+    {
+      "url": "https://www.turizmhabermerkezi.net/rss/type/news",
+      "error": "WebFetch PROVENANCE_REQUIRED: permission request not answered (URL not user-provided); curl blocked by proxy (CONNECT 403)"
+    },
+    {
+      "url": "https://www.dailysabah.com/tourism",
+      "error": "WebFetch PROVENANCE_REQUIRED: permission request not answered (URL not user-provided); curl blocked by proxy (CONNECT 403)"
+    },
+    {
+      "url": "https://www.dailysabah.com/travel",
+      "error": "WebFetch PROVENANCE_REQUIRED: permission request not answered (URL not user-provided); curl blocked by proxy (CONNECT 403)"
+    },
+    {
+      "url": "https://www.traveldailynews.com/feed/",
+      "error": "curl via proxy: CONNECT tunnel failed 403; not retried via WebFetch"
+    },
+    {
+      "url": "https://www.aa.com.tr/en",
+      "error": "curl via proxy: CONNECT tunnel failed 403; not retried via WebFetch"
+    },
+    {
+      "url": "https://www.trthaber.com",
+      "error": "curl via proxy: CONNECT tunnel failed 403; not retried via WebFetch"
+    },
+    {
+      "url": "https://www.hurriyetdailynews.com/rss",
+      "error": "curl via proxy: CONNECT tunnel failed 403; not retried via WebFetch"
+    },
+    {
+      "url": "https://ftnnews.com/travel-news/news-from-turkey/page/2/",
+      "error": "Fetched but listing exposed no article URLs or dates; items not usable"
+    },
+    {
+      "url": "https://tourexpi.com/en-tr/news.html",
+      "error": "Partial: listing shows no dates for latest 20 items; only 4 verified by opening articles"
+    }
+  ],
+  "domainFetchability": [
+    {
+      "domain": "uab.gov.tr",
+      "fetchable": true,
+      "note": "The first attempt at /haberler hit the permission gate. The homepage and /haberler/ fetched fine once a search had surfaced them, and so did the detail pages. ?page=2 returns page 1."
+    },
+    {
+      "domain": "basin.ktb.gov.tr",
+      "fetchable": false,
+      "note": "Blocked by the permission gate. ktb.gov.tr news detail pages redirect here."
+    },
+    {
+      "domain": "ktb.gov.tr",
+      "fetchable": true,
+      "note": "The homepage fetched once a search had surfaced it. The kvmgm.ktb.gov.tr 2026 announcements index fetched, but its detail pages were blocked by the permission gate."
+    },
+    {
+      "domain": "istanbul.ktb.gov.tr",
+      "fetchable": true,
+      "note": "The root hit the permission gate. The yearly archive pages fetched once a search had surfaced them; few items are dated."
+    },
+    {
+      "domain": "muze.gov.tr",
+      "fetchable": false,
+      "note": "The root was blocked by the permission gate. Search returned only museum detail pages, with no dated news."
+    },
+    {
+      "domain": "turkishmuseums.com",
+      "fetchable": false,
+      "note": "The root was blocked by the permission gate. Search returned only one museum page."
+    },
+    {
+      "domain": "millisaraylar.gov.tr",
+      "fetchable": true,
+      "note": "The root was blocked by the permission gate. A news detail page fetched, but it has no publication date, and no dated listing was found."
+    },
+    {
+      "domain": "goturkiye.com",
+      "fetchable": true,
+      "note": "The root was blocked by the permission gate. /turkiye-events and /istanbul-events fetched; the events carry no publication dates."
+    },
+    {
+      "domain": "kultur.istanbul",
+      "fetchable": false,
+      "note": "Blocked by the permission gate. Search returned no kultur.istanbul results."
+    },
+    {
+      "domain": "ibb.istanbul",
+      "fetchable": false,
+      "note": "The root was blocked by the permission gate. A www.ibb.istanbul/News/Detail page returned client_error."
+    },
+    {
+      "domain": "metro.istanbul",
+      "fetchable": false,
+      "note": "robots_disallowed on both /Home/Duyurular and the detail pages. Search shows a T3 Kadıköy–Moda notice (-250926) that could not be read."
+    },
+    {
+      "domain": "iett.istanbul",
+      "fetchable": false,
+      "note": "Blocked by the permission gate. Search returned only tender and report pages."
+    },
+    {
+      "domain": "sehirhatlari.istanbul",
+      "fetchable": false,
+      "note": "client_error on /tr/duyurular and the detail pages. Search shows a 'Kış tarifesine geçiyor' notice (id 3620) whose date is unknown."
+    },
+    {
+      "domain": "dhmi.gov.tr",
+      "fetchable": true,
+      "note": "The root was blocked by the permission gate. News pages fetched once a search had surfaced them, and they list dated news."
+    },
+    {
+      "domain": "tcddtasimacilik.gov.tr",
+      "fetchable": false,
+      "note": "No fetch attempted. Search returned only ticketing and route pages."
+    },
+    {
+      "domain": "tcdd.gov.tr",
+      "fetchable": false,
+      "note": "/duyurular and /haberler fetched but need JavaScript, so no content came back."
+    },
+    {
+      "domain": "seyahatsagligi.gov.tr",
+      "fetchable": true,
+      "note": "The homepage and detail pages fetched, with dated news."
+    },
+    {
+      "domain": "istanbulmodern.org",
+      "fetchable": true,
+      "note": "The /en homepage and exhibition pages fetched."
+    },
+    {
+      "domain": "sakipsabancimuzesi.org",
+      "fetchable": true,
+      "note": "The /en homepage and press pages fetched."
+    },
+    {
+      "domain": "peramuzesi.org.tr",
+      "fetchable": true,
+      "note": "The /basin-bultenleri and /sergi listings fetched. One detail page was blocked by the permission gate."
+    },
+    {
+      "domain": "unesco.org",
+      "fetchable": false,
+      "note": "No fetch attempted. Search on whc.unesco.org found no dated Türkiye news in the window."
+    },
+    {
+      "domain": "123.gov.tr",
+      "fetchable": true,
+      "note": "Fetched, but it is the ALO 123 citizen-complaint portal with no news; the only posts are embedded tweets from 2023."
+    }
+  ],
+  "items": [
+    {
+      "title": "Batuhan Şahin reveals hotel revenue growth strategies",
+      "url": "https://www.turizmekonomi.com/batuhan-sahin-reveals-hotel-revenue-growth-strategies",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-11-05",
+      "fresh": true,
+      "category": "hotels",
+      "summary": "Maxx Royal and Voyage Hotels' revenue director outlines four core hotel marketing principles.",
+      "scan": "news"
+    },
+    {
+      "title": "Mehmet Nuri Ersoy flags two key tourism challenges for 2027",
+      "url": "https://www.turizmekonomi.com/mehmet-nuri-ersoy-flags-two-key-tourism-challenges-for-2027",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-11-05",
+      "fresh": true,
+      "category": "tourism-policy",
+      "summary": "Tourism minister warns of rising airfares and a shift to more last-minute bookings in 2027.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya Expo's transformation into a convention centre",
+      "url": "https://www.turizmekonomi.com/antalya-expos-transformation-into-a-convention-centre",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "business-travel",
+      "summary": "Post-COP31 plans would turn Antalya's Expo site into a major venue for exhibitions, congresses and events to grow year-round MICE tourism.",
+      "scan": "news"
+    },
+    {
+      "title": "Tunç Batum: Tourism's former profit margins are gone",
+      "url": "https://www.turizmekonomi.com/tunc-batum-tourisms-former-profit-margins-are-gone",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "Gürok Tourism GM cites rising costs, weak pricing power and falling arrivals from key markets as threats to profitability.",
+      "scan": "news"
+    },
+    {
+      "title": "Münci Karakaya: UK market outlook for 2027 is negative",
+      "url": "https://www.turizmekonomi.com/munci-karakaya-uk-market-outlook-for-2027-is-negative",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "MTS Globe chairman expects weaker British demand for Türkiye in 2027 due to costs, currency policy, UK economy and higher airfares.",
+      "scan": "news"
+    },
+    {
+      "title": "Ryanair drops all flights to Türkiye",
+      "url": "https://www.turizmekonomi.com/ryanair-drops-all-flights-to-turkiye",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "flights",
+      "summary": "Ryanair has withdrawn its Bodrum and Dalaman services from Dublin, London Stansted and Bratislava.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye welcomes 41 million foreign visitors in 9 months",
+      "url": "https://www.turizmekonomi.com/turkiye-welcomes-41-million-foreign-visitors-in-9-months",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Foreign arrivals dipped slightly in January-September 2026, with European markets declining most.",
+      "scan": "news"
+    },
+    {
+      "title": "Armin Zerunyan: Turkish hoteliers missed Booking.com case",
+      "url": "https://www.turizmekonomi.com/armin-zerunyan-turkish-hoteliers-missed-bookingcom-case",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-22",
+      "fresh": true,
+      "category": "hotels",
+      "summary": "A planned Turkish hoteliers' claim against Booking.com stalled for lack of participation while the wider European case continues.",
+      "scan": "news"
+    },
+    {
+      "title": "ANEX Germany revenue set to reach €1 billion",
+      "url": "https://www.turizmekonomi.com/anex-germany-revenue-set-to-reach-eur1-billion",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-21",
+      "fresh": true,
+      "category": "tour-operators",
+      "summary": "ANEX Group projects about 800,000 German visitors to Türkiye in 2026 and roughly €1 billion revenue in Germany.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya, Muğla and Izmir lose 7,500 international flights in 9 months",
+      "url": "https://www.turizmekonomi.com/antalya-mugla-and-izmir-lose-7500-international-flights-in-9-months",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-14",
+      "fresh": true,
+      "category": "flights",
+      "summary": "International flights to Antalya, Dalaman and İzmir fell in the first nine months of 2026.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye introduces new social media age verification rules",
+      "url": "https://www.turizmekonomi.com/turkiye-introduces-new-social-media-age-verification-rules",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-13",
+      "fresh": true,
+      "category": "entry-practical",
+      "summary": "From 1 November 2026 new social media rules require age checks, with passport-based verification for foreign visitors.",
+      "scan": "news"
+    },
+    {
+      "title": "Flight delays put pressure on tourism operations in Russia",
+      "url": "https://www.turizmekonomi.com/flight-delays-put-pressure-on-tourism-operations-in-russia",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-12",
+      "fresh": true,
+      "category": "flights",
+      "summary": "Drone-related airport closures in Russia are causing delays and cancellations that disrupt Türkiye-bound tour operations.",
+      "scan": "news"
+    },
+    {
+      "title": "FUN&SUN confirms no changes to Türkiye operations",
+      "url": "https://www.turizmekonomi.com/funsun-confirms-no-changes-to-turkiye-operations",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-10",
+      "fresh": true,
+      "category": "tour-operators",
+      "summary": "FUN&SUN says its Türkiye hotel and incoming services remain unchanged despite new senior management.",
+      "scan": "news"
+    },
+    {
+      "title": "Why TÜRSAB considers the new OTA law dangerous for the sector",
+      "url": "https://www.turizmekonomi.com/why-tursab-considers-the-new-ota-law-dangerous-for-the-sector",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-08",
+      "fresh": true,
+      "category": "tourism-policy",
+      "summary": "TÜRSAB's legal adviser argues the proposed OTA bill could undermine local agencies and weaken consumer protections.",
+      "scan": "news"
+    },
+    {
+      "title": "Kaan Kavaloğlu: Tourism margins remain under pressure",
+      "url": "https://www.turizmekonomi.com/kaan-kavaloglu-tourism-margins-remain-under-pressure",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-08",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "AKTOB president says lower inflation has not relieved squeezed tourism margins as currency gains trail costs.",
+      "scan": "news"
+    },
+    {
+      "title": "Bağlıkaya: Foreign OTAs could control domestic tourism",
+      "url": "https://www.turizmekonomi.com/baglikaya-foreign-otas-could-control-domestic-tourism",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-05",
+      "fresh": true,
+      "category": "tourism-policy",
+      "summary": "TÜRSAB president warns foreign OTAs could dominate domestic tourism if the proposed law passes.",
+      "scan": "news"
+    },
+    {
+      "title": "Hande Tibuk calls on Turkish Airlines for TRNC",
+      "url": "https://www.turizmekonomi.com/hande-tibuk-calls-on-turkish-airlines-for-trnc",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-05",
+      "fresh": true,
+      "category": "flights",
+      "summary": "Calls on Turkish Airlines to rethink pricing for flights to Türkiye and Northern Cyprus.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye's 2027 flight map signals a capacity decline",
+      "url": "https://www.turizmekonomi.com/turkiyes-2027-flight-map-signals-a-capacity-decline",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-02",
+      "fresh": true,
+      "category": "flights",
+      "summary": "Airlines plan frequency cuts to Türkiye in 2027 from the UK, Germany, Switzerland and other European markets.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya tourism declines continue through September",
+      "url": "https://www.turizmekonomi.com/antalya-tourism-declines-continue-through-september",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-02",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Antalya Airport international arrivals fell about 5% in the first nine months of 2026.",
+      "scan": "news"
+    },
+    {
+      "title": "Murat Alpman: Türkiye is not an expensive destination",
+      "url": "https://www.turizmekonomi.com/murat-alpman-turkiye-is-not-an-expensive-destination",
+      "publisher": "Turizm Ekonomi",
+      "publishedAt": "2026-10-01",
+      "fresh": true,
+      "category": "prices",
+      "summary": "A Rixos executive argues Türkiye's prices are justified by service quality.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya to showcase nomadic Yörük culture at COP31",
+      "url": "https://www.hurriyetdailynews.com/amp/antalya-to-showcase-nomadic-yoruk-culture-at-cop31-229163",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-08",
+      "fresh": true,
+      "category": "culture",
+      "summary": "A renovated 'Antalya House' displays Yörük heritage with gözleme/bazlama tasting and QR-code English explanations during COP31.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye's airports handle 216.8 million passengers in 10 months",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiyes-airports-handle-216-8-million-passengers-in-10-months-229130",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-07",
+      "fresh": true,
+      "category": "airports",
+      "summary": "Turkish airports handled ~216.8M passengers Jan-Oct 2026 (+2.5%); Istanbul's two main airports accounted for ~53%.",
+      "scan": "news"
+    },
+    {
+      "title": "Adana to host Türkiye Culture Route Festival's final stop",
+      "url": "https://www.hurriyetdailynews.com/amp/adana-to-host-turkiye-culture-route-festivals-final-stop-229120",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-07",
+      "fresh": true,
+      "category": "festivals",
+      "summary": "Adana hosts the festival's final leg Nov 7-15 with 252 events at 23 venues, incl. a Çukurova State Symphony concert on Nov 10.",
+      "scan": "news"
+    },
+    {
+      "title": "Gaziantep's archaeological artifact on display in Italy",
+      "url": "https://www.hurriyetdailynews.com/amp/gazianteps-archaeological-artifact-on-display-in-italy-229123",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-07",
+      "fresh": true,
+      "category": "museums",
+      "summary": "The Dexiosis Stele from Gaziantep Archaeology Museum is on loan to Fondazione Prada in Milan and will return afterwards.",
+      "scan": "news"
+    },
+    {
+      "title": "Akdamar Island draws 250,000 visitors in eastern Türkiye",
+      "url": "https://www.hurriyetdailynews.com/amp/akdamar-island-draws-250-000-visitors-in-eastern-turkiye-229115",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-06",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Akdamar Island on Lake Van drew nearly 250,000 visitors in nine months; it is a World Heritage candidate.",
+      "scan": "news"
+    },
+    {
+      "title": "Major restoration project revives 40 ruins in Side",
+      "url": "https://www.hurriyetdailynews.com/amp/major-restoration-project-revives-40-ruins-in-side-229075",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-06",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "Heritage for the Future project has excavated/restored 40+ ruins in ancient Side since 2022, boosting visitor numbers.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye plans tourism corridor linking 7 southeastern provinces",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiye-plans-tourism-corridor-linking-7-southeastern-provinces-229052",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-06",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Planned corridor would link Gaziantep, Kilis, Hatay, Osmaniye, Kahramanmaraş, Adıyaman and Şanlıurfa with joint routes.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye's archaeological heritage project wins 2026 Paestum Award",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiyes-archaeological-heritage-project-wins-2026-paestum-award-229053",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-06",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "Heritage for the Future project won Italy's 2026 Paestum Award at the Mediterranean Archaeological Tourism Exchange.",
+      "scan": "news"
+    },
+    {
+      "title": "World's oldest shipwreck enters Guinness World Records",
+      "url": "https://www.hurriyetdailynews.com/amp/worlds-oldest-shipwreck-enters-guinness-world-records-229010",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-05",
+      "fresh": true,
+      "category": "museums",
+      "summary": "A ~4,700-year-old Kekova wreck is recognized as oldest; finds will be shown at Istanbul's upcoming Four Seas, One Museum and a planned Kemer museum.",
+      "scan": "news"
+    },
+    {
+      "title": "WWI trenches in northeastern Türkiye remain remarkably intact",
+      "url": "https://www.hurriyetdailynews.com/amp/wwi-trenches-in-northeastern-turkiye-remain-remarkably-intact-229013",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-05",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "Gümüşhane University is mapping the WWI Harşit Defense lines; well-preserved high-altitude trenches may be excavated.",
+      "scan": "news"
+    },
+    {
+      "title": "30th Ankara Jazz Festival to open on Nov 16",
+      "url": "https://www.hurriyetdailynews.com/amp/30th-ankara-jazz-festival-to-open-on-nov-16-228952",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-04",
+      "fresh": true,
+      "category": "festivals",
+      "summary": "The 30th Ankara International Jazz Festival runs Nov 16-30, opening with the Richard Baratta Quartet.",
+      "scan": "news"
+    },
+    {
+      "title": "Interest in Troy and surrounding cultural route rises",
+      "url": "https://www.hurriyetdailynews.com/amp/interest-in-troy-and-surrounding-cultural-route-rises-228951",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-04",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "Troy Museum, Troy and Assos drew 860,834 visitors in 9 months of 2026 (+32.2%), helped by Nolan's 'The Odyssey'.",
+      "scan": "news"
+    },
+    {
+      "title": "Dalyan's beauty to be viewed from hot air balloon",
+      "url": "https://www.hurriyetdailynews.com/amp/dalyans-beauty-to-be-viewed-from-hot-air-balloon-228907",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-03",
+      "fresh": true,
+      "category": "activities",
+      "summary": "Dalyan now offers a 30 m tethered balloon with views of rock tombs, Lake Köyceğiz and the river, often combined with boat tours.",
+      "scan": "news"
+    },
+    {
+      "title": "Restoration continues to open Hagia Sophia's underground chambers to visitors",
+      "url": "https://www.hurriyetdailynews.com/amp/restoration-continues-to-open-hagia-sophias-underground-chambers-to-visitors-228913",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-03",
+      "fresh": true,
+      "category": "museums",
+      "summary": "Minister says Hagia Sophia's sealed tunnels and chambers will eventually open to visitors after conservation; no date given.",
+      "scan": "news"
+    },
+    {
+      "title": "'No Escape: Boubon' exhibition brings scattered heritage together",
+      "url": "https://www.hurriyetdailynews.com/amp/no-escape-boubon-exhibition-brings-scattered-heritage-together-228916",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-03",
+      "fresh": true,
+      "category": "exhibitions",
+      "summary": "New exhibition at Istanbul Archaeological Museums reunites Boubon bronzes; 100 artifacts repatriated from the US.",
+      "scan": "news"
+    },
+    {
+      "title": "Minister sees tourism revenues exceeding $65 billion by year-end",
+      "url": "https://www.hurriyetdailynews.com/amp/minister-sees-tourism-revenues-exceeding-65-billion-by-year-end-228902",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Q3 revenue rose 5% to $25.53bn; 9-month revenue $51.28bn (+2.4%); year-end expected above $65bn.",
+      "scan": "news"
+    },
+    {
+      "title": "From street food to starred chefs: İzmir's flavor stops",
+      "url": "https://www.hurriyetdailynews.com/amp/opinion/aylin-oney-tan/from-street-food-to-starred-chefs-izmirs-flavor-stops-228871",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "food",
+      "summary": "Column on İzmir's food scene from Urla's Michelin restaurants to street eats; TGA program lists 110 flavor stops.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya Culture Road Festival kicks off",
+      "url": "https://www.hurriyetdailynews.com/amp/antalya-culture-road-festival-kicks-off-228862",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "festivals",
+      "summary": "Antalya Culture Road Festival opened Oct 31: 440+ events at 40+ venues over nine days, incl. 85-stop gastronomy routes.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye expands share in million-dollar Indian wedding market",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiye-expands-share-in-million-dollar-indian-wedding-market-228859",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "events",
+      "summary": "Türkiye is winning more Indian destination weddings thanks to luxury hotels and flight links.",
+      "scan": "news"
+    },
+    {
+      "title": "Turks spend $8.2 billion on overseas travel in nine months",
+      "url": "https://www.hurriyetdailynews.com/amp/turks-spend-8-2-billion-on-overseas-travel-in-nine-months-228854",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Turkish residents spent $8.23bn abroad in Jan-Sep 2026 (+7%); outbound travelers rose 18.4% to 10.57M.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye's third-quarter tourism revenue rises 5 percent to $25.5 billion",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiyes-third-quarter-tourism-revenue-rises-5-percent-to-25-5-billion-228797",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Q3 2026 tourism revenue $25.53bn (+5%); average spend per visitor $1,088 (+6.7%).",
+      "scan": "news"
+    },
+    {
+      "title": "Grass seeding aims to extend ski season at Ergan Mountain",
+      "url": "https://www.hurriyetdailynews.com/amp/grass-seeding-aims-to-extend-ski-season-at-ergan-mountain-228758",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "winter",
+      "summary": "Ergan Mountain ski center (Erzincan) plants grass to retain snow longer and targets 2M+ visitors this season.",
+      "scan": "news"
+    },
+    {
+      "title": "Tomb discovered among seating at ancient theater",
+      "url": "https://www.hurriyetdailynews.com/amp/tomb-discovered-among-seating-at-ancient-theater-228762",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "First-century cremation tomb found in the theater of Apollonia ad Rhyndacum at Gölyazı, Bursa.",
+      "scan": "news"
+    },
+    {
+      "title": "3 killed as fairy chimney collapses in Cappadocia",
+      "url": "https://www.hurriyetdailynews.com/amp/fairy-chimney-collapses-in-tourism-hub-cappadocia-228777",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-29",
+      "fresh": true,
+      "category": "safety",
+      "summary": "Rockfall from a fairy chimney near Göreme Open-Air Museum killed three after heavy rain; area evacuated as precaution.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya welcomes more than 15 million foreign tourists this year",
+      "url": "https://www.hurriyetdailynews.com/amp/antalya-welcomes-more-than-15-million-foreign-tourists-this-year-228737",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-29",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Antalya recorded ~15.07M foreign arrivals Jan 1-Oct 27 while preparing for COP31.",
+      "scan": "news"
+    },
+    {
+      "title": "Photography competition showcasing Aladağlar's autumn scenery begins",
+      "url": "https://www.hurriyetdailynews.com/amp/photography-competition-showcasing-aladaglars-autumn-scenery-begins-228720",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-29",
+      "fresh": true,
+      "category": "events",
+      "summary": "Six-day photo contest in Niğde's Aladağlar (Oct 27-Nov 1) with ~200 photographers promotes autumn tourism.",
+      "scan": "news"
+    },
+    {
+      "title": "Korkut Ata Turkish World Film Festival returns to Istanbul",
+      "url": "https://www.hurriyetdailynews.com/amp/korkut-ata-turkish-world-film-festival-returns-to-istanbul-228680",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-28",
+      "fresh": true,
+      "category": "festivals",
+      "summary": "6th edition runs Nov 3-7 in Istanbul with 56 films; opening at Atlas Cinema, closing at AKM.",
+      "scan": "news"
+    },
+    {
+      "title": "4,000-year-old dog paw prints found at Kütahya's Tavşanlı Mound",
+      "url": "https://www.hurriyetdailynews.com/amp/4-000-year-old-dog-paw-prints-found-at-kutahyas-tavsanli-mound-228679",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-28",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "Dog prints preserved in a Bronze Age mudbrick found at Tavşanlı Mound, Kütahya.",
+      "scan": "news"
+    },
+    {
+      "title": "Investors favor existing hotels over new builds in Türkiye",
+      "url": "https://www.hurriyetdailynews.com/amp/investors-favor-existing-hotels-over-new-builds-in-turkiye-228649",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-27",
+      "fresh": true,
+      "category": "hotels",
+      "summary": "Rising costs and scarce land push investors and international brands to buy operating hotels, especially in Istanbul.",
+      "scan": "news"
+    },
+    {
+      "title": "First Olympic flame legend attracts tourists",
+      "url": "https://www.hurriyetdailynews.com/amp/first-olympic-flame-legend-attracts-tourists-228630",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-27",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Yanartaş flames at Çıralı on the Lycian Way draw hikers; some flames have gone out for unknown reasons.",
+      "scan": "news"
+    },
+    {
+      "title": "Edirne unveils major library and restored Ottoman-era lodge",
+      "url": "https://www.hurriyetdailynews.com/amp/edirne-unveils-major-library-and-restored-ottoman-era-lodge-228567",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-25",
+      "fresh": true,
+      "category": "culture",
+      "summary": "Edirne opened a 160,000-book library and reopened the rebuilt Muradiye Mevlevi Lodge as a cultural center.",
+      "scan": "news"
+    },
+    {
+      "title": "From luxury hotels to gastronomic tourism",
+      "url": "https://www.hurriyetdailynews.com/amp/from-luxury-hotels-to-gastronomic-tourism-228564",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-25",
+      "fresh": true,
+      "category": "food",
+      "summary": "Column on North Cyprus' luxury and gastronomy potential around Girne (Kyrenia).",
+      "scan": "news"
+    },
+    {
+      "title": "2,800-year-old bone flute found at Troy, the first in 160 years",
+      "url": "https://www.hurriyetdailynews.com/amp/2-800-year-old-bone-flute-found-at-troy-the-first-in-160-years-228492",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-23",
+      "fresh": true,
+      "category": "heritage",
+      "summary": "2026 Troy excavations found a 2,800-year-old bone flute and a 4,500-year-old idol head.",
+      "scan": "news"
+    },
+    {
+      "title": "AJet to launch direct flights to five German cities next summer",
+      "url": "https://www.hurriyetdailynews.com/amp/ajet-to-launch-direct-flights-to-five-german-cities-next-summer-228411",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-21",
+      "fresh": true,
+      "category": "flights",
+      "summary": "AJet: Dalaman to Düsseldorf, Frankfurt, Stuttgart, Hannover, Munich from April 2027; Bodrum to three German cities from July 2027.",
+      "scan": "news"
+    },
+    {
+      "title": "Uludağ plans shift toward year-round tourism",
+      "url": "https://www.hurriyetdailynews.com/amp/uludag-plans-shift-toward-year-round-tourism-228089",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-14",
+      "fresh": true,
+      "category": "winter",
+      "summary": "Bursa's Uludağ plans controlled vehicle access, a pedestrian route and repurposed hotel sites for year-round tourism.",
+      "scan": "news"
+    },
+    {
+      "title": "Touristic Eastern Express to make 70 trips in 2026-2027 winter season",
+      "url": "https://www.hurriyetdailynews.com/amp/touristic-eastern-express-to-make-70-trips-in-2026-2027-winter-season-228028",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-13",
+      "fresh": true,
+      "category": "rail",
+      "summary": "Ankara-Kars Touristic Eastern Express: departures from Ankara Dec 21-Mar 10, from Kars Dec 23-Mar 12; tickets on sale Oct 26 via TCDD.",
+      "scan": "news"
+    },
+    {
+      "title": "A new dawn for Didim",
+      "url": "https://www.hurriyetdailynews.com/amp/opinion/aylin-oney-tan/a-new-dawn-for-didim-227999",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-12",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Column says Didim and the Mid-Aegean are gaining appeal beyond beach tourism (Temple of Apollo, olive-focused dining).",
+      "scan": "news"
+    },
+    {
+      "title": "Istanbul generates more than $800 million from congress tourism since 2022",
+      "url": "https://www.hurriyetdailynews.com/amp/istanbul-generates-more-than-800-million-from-congress-tourism-since-2022-227974",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-11",
+      "fresh": true,
+      "category": "business-travel",
+      "summary": "67 congresses drew ~30,000 attendees and ~$120M in Istanbul in the first eight months of 2026.",
+      "scan": "news"
+    },
+    {
+      "title": "Istanbul Airport tops global connectivity ranking",
+      "url": "https://www.hurriyetdailynews.com/amp/istanbul-airport-tops-global-connectivity-ranking-227905",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-09",
+      "fresh": true,
+      "category": "airports",
+      "summary": "Istanbul Airport overtook Heathrow to top OAG's Megahubs 2026 international connectivity ranking.",
+      "scan": "news"
+    },
+    {
+      "title": "Turkish Airlines carries 73 million passengers in January-September",
+      "url": "https://www.hurriyetdailynews.com/amp/turkish-airlines-carries-73-million-passengers-in-january-september-227909",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-09",
+      "fresh": true,
+      "category": "flights",
+      "summary": "THY carried 73M passengers in Jan-Sep 2026 (+5.2%), load factor 85%, fleet 567 aircraft.",
+      "scan": "news"
+    },
+    {
+      "title": "East Asian tourists fuel autumn tourism boom in Cappadocia",
+      "url": "https://www.hurriyetdailynews.com/amp/east-asian-tourists-fuel-autumn-tourism-boom-in-cappadocia-227898",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-09",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Chinese and East Asian demand filled Cappadocia hotels and balloon tours in early October; demand expected into winter.",
+      "scan": "news"
+    },
+    {
+      "title": "German air travelers favor Istanbul over Frankfurt on flights to Asia, Africa",
+      "url": "https://www.hurriyetdailynews.com/amp/german-air-travelers-favor-istanbul-over-frankfurt-on-flights-to-asia-africa-227773",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-06",
+      "fresh": true,
+      "category": "flights",
+      "summary": "BDL/DLR study: 54% of German traffic to Far East/SE Asia transfers via non-EU hubs like Istanbul.",
+      "scan": "news"
+    },
+    {
+      "title": "Tourists explore Istanbul streets on retro sidecar motorcycles",
+      "url": "https://www.hurriyetdailynews.com/amp/tourists-explore-istanbul-streets-on-retro-sidecar-motorcycles-227752",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-05",
+      "fresh": true,
+      "category": "activities",
+      "summary": "Sunrise sidecar tours (3-4 hrs) run Sarayburnu-Galata-Dolmabahçe-Bosphorus Bridge-Kuzguncuk, returning by ferry.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye needs destination diversity, industry representative says",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiye-needs-destination-diversity-industry-representative-says-227722",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-05",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "AKTOB head says Antalya and Istanbul generate ~80% of tourism activity; calls for new concepts and destinations.",
+      "scan": "news"
+    },
+    {
+      "title": "Setting a table two millennia later",
+      "url": "https://www.hurriyetdailynews.com/amp/opinion/aylin-oney-tan/setting-a-table-two-millennia-later-227704",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-05",
+      "fresh": true,
+      "category": "food",
+      "summary": "Column on a 2,100-year-old Adrasan shipwreck carrying tableware, and Roman garum revival.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya hosts global space community for congress",
+      "url": "https://www.hurriyetdailynews.com/amp/antalya-hosts-global-space-community-for-congress-227695",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-04",
+      "fresh": true,
+      "category": "business-travel",
+      "summary": "77th International Astronautical Congress in Belek, Antalya, Oct 5-9, ~35,000 attendees expected.",
+      "scan": "news"
+    },
+    {
+      "title": "Gökçeada emerges as Türkiye's top pet-friendly destination",
+      "url": "https://www.hurriyetdailynews.com/amp/gokceada-emerges-as-turkiyes-top-pet-friendly-destination-227656",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-03",
+      "fresh": true,
+      "category": "destinations",
+      "summary": "Gökçeada is attracting dog owners with hikes, boat tours and organized dog-friendly programs.",
+      "scan": "news"
+    },
+    {
+      "title": "Turkish carrier Pegasus acquires Czech Airlines, Smartwings Group",
+      "url": "https://www.hurriyetdailynews.com/amp/turkish-carrier-pegasus-acquires-czech-airlines-smartwings-group-227620",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-02",
+      "fresh": true,
+      "category": "flights",
+      "summary": "Pegasus completed its takeover of Czech Airlines/Smartwings; combined 175+ aircraft.",
+      "scan": "news"
+    },
+    {
+      "title": "Historic church aims to join Cappadocia tourism route",
+      "url": "https://www.hurriyetdailynews.com/amp/historic-church-aims-to-join-cappadocia-tourism-route-227564",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-10-01",
+      "fresh": true,
+      "category": "museums",
+      "summary": "190-year-old İncesu (Kayseri) church becoming İncesu City Museum, to be linked with Cappadocia routes.",
+      "scan": "news"
+    },
+    {
+      "title": "Iranian passenger jet seized over debt at Istanbul Airport",
+      "url": "https://www.hurriyetdailynews.com/amp/caspian-airlines-plane-seized-at-istanbul-airport-over-debt-227484",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-09-29",
+      "fresh": true,
+      "category": "airports",
+      "summary": "A Caspian Airlines jet was impounded at Istanbul Airport over a ~€3M debt; passengers deplaned.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye draws nearly 35 million foreign visitors in January-August",
+      "url": "https://www.hurriyetdailynews.com/amp/turkiye-draws-nearly-35-million-foreign-visitors-in-january-august-227337",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-09-25",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Foreign arrivals fell 1.84% to ~34.83M in Jan-Aug 2026.",
+      "scan": "news"
+    },
+    {
+      "title": "Istanbul Airport expands as international traffic grows",
+      "url": "https://www.hurriyetdailynews.com/amp/istanbul-airport-expands-as-international-traffic-grows-226862",
+      "publisher": "Hurriyet Daily News",
+      "publishedAt": "2026-09-14",
+      "fresh": false,
+      "category": "airports",
+      "summary": "Istanbul Airport adding a fourth main runway and cargo expansion; capacity target 120M passengers.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye Reports Record Tourism Revenue of $51.3 Billion in First Nine Months of 2026",
+      "url": "https://tourexpi.com/en-tr/news/turkiye-reports-record-tourism-revenue-of-513-billion-in-first-nine-months-of-2026-219699.html",
+      "publisher": "TourExpi",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Record $51.28bn tourism revenue Jan-Sep 2026 (+2.4%) with 49.13M visitors; Russia, Germany, UK top markets.",
+      "scan": "news"
+    },
+    {
+      "title": "Rixos Chairman Fettah Tamince Calls for a New Tourism Strategy in Türkiye",
+      "url": "https://tourexpi.com/en-tr/news/rixos-chairman-fettah-tamince-calls-for-a-new-tourism-strategy-in-turkiye-219677.html",
+      "publisher": "TourExpi",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "At Antalya Tourism Fair 2026, Tamince urged prioritizing revenue per visitor and warned of labor shortages.",
+      "scan": "news"
+    },
+    {
+      "title": "Türkiye targets $70 billion in tourism revenue for 2027",
+      "url": "https://tourexpi.com/en-tr/news/turkiye-targets-70-billion-in-tourism-revenue-for-2027-219528.html",
+      "publisher": "TourExpi",
+      "publishedAt": "2026-10-21",
+      "fresh": true,
+      "category": "tourism-policy",
+      "summary": "2027 target set at $70bn; 2026 target cut from $68bn to $65bn citing regional conflicts.",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya Welcomes 14 Million Foreign Tourists as Autumn Demand Remains Strong",
+      "url": "https://tourexpi.com/en-tr/news/antalya-welcomes-14-million-foreign-tourists-as-autumn-demand-remains-strong-219439.html",
+      "publisher": "TourExpi",
+      "publishedAt": "2026-10-15",
+      "fresh": true,
+      "category": "tourism-stats",
+      "summary": "Antalya ~14M foreign tourists in 2026 (-5%); autumn demand from Germany, UK, Russia offsets weaker markets.",
+      "scan": "news"
+    },
+    {
+      "title": "COP31 in Antalya must turn climate pledges into action: UNEP official",
+      "url": "https://en.yenisafak.com/turkiye/cop31-in-antalya-must-turn-climate-pledges-into-action-unep-official-3725226",
+      "publisher": "Yeni Safak",
+      "publishedAt": "2026-11-05",
+      "fresh": true,
+      "category": "events",
+      "summary": "UNEP official comments on COP31 in Antalya (headline seen in listing; article not opened).",
+      "scan": "news"
+    },
+    {
+      "title": "Antalya's historic Kaleici district nears full occupancy for COP31",
+      "url": "https://en.yenisafak.com/turkiye/antalyas-kaleici-district-fills-up-for-cop31-climate-summit-3721206",
+      "publisher": "Yeni Safak",
+      "publishedAt": "2026-07-24",
+      "fresh": false,
+      "category": "hotels",
+      "summary": "Kaleiçi boutique hotels are nearly fully booked for COP31 in November; some stopped taking reservations.",
+      "scan": "news"
+    },
+    {
+      "title": "Istanbul's rail network expands with new metro line",
+      "url": "https://www.dailysabah.com/turkiye/istanbul/istanbuls-rail-network-expands-with-new-metro-line",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-08-18",
+      "fresh": false,
+      "category": "istanbul-transit",
+      "summary": "17 km, 14-station Ümraniye-Kavacık-Beykoz line transferred to the Transport Ministry; will connect to M5.",
+      "scan": "news"
+    },
+    {
+      "title": "Culture Route festivals turn Türkiye into year-round destination",
+      "url": "https://www.dailysabah.com/arts/events/culture-route-festivals-turn-turkiye-into-year-round-destination",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2026-05-19",
+      "fresh": false,
+      "category": "festivals",
+      "summary": "Minister Ersoy outlines year-round destination strategy built on Culture Route festivals.",
+      "scan": "news"
+    },
+    {
+      "title": "Tourist arrivals in Türkiye approach 6 million in October",
+      "url": "https://www.dailysabah.com/business/tourism/tourist-arrivals-in-turkiye-approach-6-million-in-october",
+      "publisher": "Daily Sabah",
+      "publishedAt": "2025-11-21",
+      "fresh": false,
+      "category": "tourism-stats",
+      "summary": "October 2025 arrivals ~5.68M (+4.3%) (prior-year article).",
+      "scan": "news"
+    },
+    {
+      "title": "HIZLI TREN İLE MERSİN-GAZİANTEP ARASI 2 SAAT 15 DAKİKAYA DÜŞECEK",
+      "url": "https://www.uab.gov.tr/haberler/hizli-tren-ile-mersin-gaziantep-arasi-2-saat-15-dakikaya-duesecek/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "rail",
+      "summary": "Construction continues on the 312.5 km Mersin–Adana–Osmaniye–Gaziantep high-speed line (200 km/h), which will cut Mersin–Gaziantep to 2h15m. The Mersin–Adana section is targeted for 2027; no opening date is given for the full line.",
+      "scan": "primary"
+    },
+    {
+      "title": "DİYARBAKIR HAVALİMANI'NDA GÜVENLİ İNİŞ SİSTEMİ",
+      "url": "https://www.uab.gov.tr/haberler/diyarbakir-havalimani-nda-guevenli-inis-sistemi/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "airport",
+      "summary": "Ministry announcement about a safe-landing (instrument landing) system at Diyarbakır Airport. Only the headline was read; details were not fetched.",
+      "scan": "primary"
+    },
+    {
+      "title": "ANTALYA-ALANYA ARASI 114 DAKİKA KISALACAK",
+      "url": "https://www.uab.gov.tr/haberler/antalya-alanya-arasi-114-dakika-kisalacak/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-11-01",
+      "fresh": true,
+      "category": "road",
+      "summary": "The 122 km Antalya–Alanya Motorway (Serik to Alanya West) is about 35% built and will cut the trip from about 2.5 hours to 36 minutes. No completion date is given.",
+      "scan": "primary"
+    },
+    {
+      "title": "ERZURUM-RİZE YOLU'NDA 8 KESKİN VİRAJ TARİH OLDU",
+      "url": "https://www.uab.gov.tr/haberler/erzurum-rize-yolu-nda-8-keskin-viraj-tarih-oldu/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-31",
+      "fresh": true,
+      "category": "road",
+      "summary": "Eight sharp bends on the Erzurum–Rize road have been taken out of service (see the Dallıkavak Tunnel item). Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "OTOYOL AĞI 3 BİN 848 KİLOMETREYE ULAŞTI",
+      "url": "https://www.uab.gov.tr/haberler/otoyol-agi-3-bin-848-kilometreye-ulasti/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "road",
+      "summary": "The ministry says Türkiye's motorway network now covers 3,848 km. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "DALLIKAVAK TÜNELİ YARIN HİZMETE AÇILIYOR",
+      "url": "https://www.uab.gov.tr/haberler/dallikavak-tueneli-yarin-hizmete-aciliyor/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "road",
+      "summary": "The 3,105 m twin-tube Dallıkavak Tunnel on the Erzurum–Rize road was due to open on 31 October 2026. With its connecting roads, a 9 km section now takes about 5 minutes instead of about 20.",
+      "scan": "primary"
+    },
+    {
+      "title": "13 YILDA 1,6 MİLYAR YOLCU",
+      "url": "https://www.uab.gov.tr/haberler/13-yilda-1-6-milyar-yolcu/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-29",
+      "fresh": true,
+      "category": "rail",
+      "summary": "A ministry ridership milestone of 1.6 billion passengers in 13 years. Only the headline was read; the article was not opened to confirm which service it refers to.",
+      "scan": "primary"
+    },
+    {
+      "title": "BAKAN URALOĞLU MİLLİ HIZLI TRENİ TEST ETTİ",
+      "url": "https://www.uab.gov.tr/haberler/bakan-uraloglu-milli-hizli-treni-test-etti/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-29",
+      "fresh": true,
+      "category": "rail",
+      "summary": "The transport minister test-rode Türkiye's domestically built high-speed train. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "667 KİLOMETRELİK DEMİRYOLU HATTI MODERNİZE EDİLECEK",
+      "url": "https://www.uab.gov.tr/haberler/667-kilometrelik-demiryolu-hatti-modernize-edilecek/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-28",
+      "fresh": true,
+      "category": "rail",
+      "summary": "A 667 km railway line is set for modernization. Only the headline was read; the line and dates were not checked.",
+      "scan": "primary"
+    },
+    {
+      "title": "İZMİR'İN ULAŞIMI İÇİN ORTAK ADIM",
+      "url": "https://www.uab.gov.tr/haberler/izmir-in-ulasimi-icin-ortak-adim/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-27",
+      "fresh": true,
+      "category": "urban-transport",
+      "summary": "A joint step on İzmir urban transport between the ministry and local partners. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "TRABZON YENİ HAVALİMANI'NDA ŞANTİYE ÇALIŞMALARI BAŞLADI",
+      "url": "https://www.uab.gov.tr/haberler/trabzon-yeni-havalimaninda-santiye-calismalari-basladi/",
+      "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+      "publishedAt": "2026-10-26",
+      "fresh": true,
+      "category": "airport",
+      "summary": "Site works have begun at the new Trabzon Airport. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "HAVA YOLUNDA 9 AYDA 193,1 MİLYON YOLCU",
+      "url": "https://dhmi.gov.tr/Sayfalar/Haber/havayolunda-9-ayda-1931-milyon-yolcu.aspx",
+      "publisher": "DHMİ (Devlet Hava Meydanları İşletmesi)",
+      "publishedAt": "2026-10-12",
+      "fresh": true,
+      "category": "airport",
+      "summary": "Turkish airports handled 193.16M passengers in January–September 2026 (+2.9%), including 25.6M in September. Istanbul Airport handled 64.5M, Sabiha Gökçen 37.9M and Antalya 30.1M.",
+      "scan": "primary"
+    },
+    {
+      "title": "DHMİ-EUROCONTROL ÜST DÜZEY İKİLİ TOPLANTISI GERÇEKLEŞTİRİLDİ",
+      "url": "https://www.dhmi.gov.tr/Sayfalar/Haber/dhmi-eurocontrol-ust-duzey-ikili-toplantisi-gerceklestirildi.aspx",
+      "publisher": "DHMİ (Devlet Hava Meydanları İşletmesi)",
+      "publishedAt": "2026-10-27",
+      "fresh": true,
+      "category": "airport",
+      "summary": "High-level bilateral meeting between DHMİ and EUROCONTROL on air navigation. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "CUMHURBAŞKANI ERDOĞAN'IN TALİMATIYLA 4. PİSTTEN İLK UÇAK HAVALANDI",
+      "url": "https://www.dhmi.gov.tr/Sayfalar/Haber/cumhurbaskani-erdoganin-talimatiyla-4-pistten-ilk-ucak-havalandi.aspx",
+      "publisher": "DHMİ (Devlet Hava Meydanları İşletmesi)",
+      "publishedAt": "2026-09-18",
+      "fresh": false,
+      "category": "airport",
+      "summary": "First departure from a new 4th runway (the listing gives no context; most likely Istanbul Airport). Only the headline was read. Published before the freshness window.",
+      "scan": "primary"
+    },
+    {
+      "title": "SİİRT HAVALİMANI'NIN TERMİNALİ 3 KAT BÜYÜDÜ",
+      "url": "https://www.dhmi.gov.tr/Sayfalar/Haber/siirt-havalimaninin-terminali-3-kat-buyudu.aspx",
+      "publisher": "DHMİ (Devlet Hava Meydanları İşletmesi)",
+      "publishedAt": "2026-09-23",
+      "fresh": false,
+      "category": "airport",
+      "summary": "Siirt Airport's terminal is now three times its former size. Only the headline was read. Published before the freshness window.",
+      "scan": "primary"
+    },
+    {
+      "title": "30. ULUSLARARASI ANKARA CAZ FESTİVALİ BAŞLIYOR",
+      "url": "https://www.ktb.gov.tr/TR-476885/30-uluslararasi-ankara-caz-festivali-basliyor.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+      "publishedAt": "2026-11-02",
+      "fresh": true,
+      "category": "festival",
+      "summary": "The ministry announces the start of the 30th International Ankara Jazz Festival. The detail page redirects to basin.ktb.gov.tr, which could not be fetched, so the festival dates are unconfirmed.",
+      "scan": "primary"
+    },
+    {
+      "title": "2 BİN 800 YILLIK KEMİK FLÜTÜN YANINDA 4 BİN 500 YILLIK İDOL BAŞI DA GÜN IŞIĞINA ÇIKTI",
+      "url": "https://www.ktb.gov.tr/TR-476771/2-bin-800-yillik-kemik-flutun-yaninda-4-bin-500-yillik-idol-basi-da-gun-isigina-cikti.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "archaeology",
+      "summary": "An excavation has found a 4,500-year-old idol head alongside a 2,800-year-old bone flute. Only the headline was read; the site is not named in it.",
+      "scan": "primary"
+    },
+    {
+      "title": "Konaklama Tesislerine Yönelik Sigorta Prim Desteği",
+      "url": "https://www.ktb.gov.tr/TR-474586/konaklama-tesislerine-yonelik-sigorta-prim-destegi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+      "publishedAt": "2026-09-29",
+      "fresh": true,
+      "category": "tourism-industry",
+      "summary": "Ministry announcement of social-insurance premium support for accommodation businesses. This matters to the industry rather than directly to travellers.",
+      "scan": "primary"
+    },
+    {
+      "title": "Side Ören Yerinde, 9-20 Kasım 2026 tarihleri arasında Gece Müzeciliği uygulamasına devam edilecektir.",
+      "url": "https://kvmgm.ktb.gov.tr/TR-477163/side-oren-yerinde-9-20-kasim-2026-tarihleri-arasinda-gece-muzeciligi-uygulamasina-devam-edilecektir.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Side ancient site keeps its evening (night museum) opening from 9 to 20 November 2026. The hours were not retrievable because the detail page was blocked.",
+      "scan": "primary"
+    },
+    {
+      "title": "Side Örenyeri'nin 11 Kasım 2026 Tarihinde,16:00-18:00 Saatleri Arasında Ziyarete Kapatılması",
+      "url": "https://kvmgm.ktb.gov.tr/TR-476874/side-orenyeri39nin-11-kasim-2026-tarihinde1600-1800-saatleri-arasinda-ziyarete-kapatilmasi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "closure",
+      "summary": "Side ancient site is closed to visitors from 16:00 to 18:00 on 11 November 2026.",
+      "scan": "primary"
+    },
+    {
+      "title": "Zonguldak Maden Müzesi ve Kömür Deneyim Ocağı 3, 17, 31 Ekim ve 14 Kasım 2026 tarihlerinde saat 19:30'a kadar ziyarete açık",
+      "url": "https://kvmgm.ktb.gov.tr/TR-475942/zonguldak-muzesi-mudurlugu39ne-bagli-maden-muzesi-ve-muze-alani-icinde-yer-alan-komur-deneyim-ocagi-3-ekim-17-ekim-31-ekim-ve-14-kasim-2026-tarihlerinde-saat-193039a-kadar-ziyarete-acik-bulundurulacaktir.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Zonguldak Mining Museum and its Coal Experience Mine stay open until 19:30 on 3, 17 and 31 October and 14 November 2026.",
+      "scan": "primary"
+    },
+    {
+      "title": "İshakpaşa Sarayı pazartesi günleri ziyarete açık bulundurullacaktır.",
+      "url": "https://kvmgm.ktb.gov.tr/TR-475911/ishakpasa-sarayi-pazartesi-gunleri-ziyarete-acik-bulundurullacaktir.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "İshak Paşa Palace (Doğubayazıt) will open on Mondays. The announcement is undated; it sits among the October 2026 items on the index.",
+      "scan": "primary"
+    },
+    {
+      "title": "Göreme Örenyerinde, Gece Müzeciliği uygulamasının 31 Ekim 2026 tarihine kadar uzatılması",
+      "url": "https://kvmgm.ktb.gov.tr/TR-475912/goreme-orenyerinde-gece-muzeciligi-uygulamasinin-31-ekim--2026--tarihine--kadar-uzatilmasi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Göreme Open-Air Museum's evening opening was extended to 31 October 2026 and has now ended.",
+      "scan": "primary"
+    },
+    {
+      "title": "Didim Apollon Tapınağının 28 Ekim 2026 tarihinde saat 12.00'den itibaren ziyarete kapatılması",
+      "url": "https://kvmgm.ktb.gov.tr/TR-474167/didim-apollon-tapinaginin-28-ekim-2026-tarihinde-saat-120039denitibaren--ziyarete--kapatilmasi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "closure",
+      "summary": "The Temple of Apollo at Didyma closed to visitors from 12:00 on 28 October 2026 (past).",
+      "scan": "primary"
+    },
+    {
+      "title": "3 Ekim 2026 tarihinde Efes Örenyerinde Gece Müzeciliğine bir gün süreyle ara verilmesi",
+      "url": "https://kvmgm.ktb.gov.tr/TR-474739/3-ekim-2026-tarihinde-efes-orenyerinde-gece-muzeciligine-bir-gun-sureyle-ara-verilmesi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Ephesus paused its night opening for one day on 3 October 2026 (past).",
+      "scan": "primary"
+    },
+    {
+      "title": "Antalya Müzesi Müdürlüğüne bağlı Aspendos Örenyerinde ziyaret saatlerinin değiştirilmesi",
+      "url": "https://kvmgm.ktb.gov.tr/TR-474198/antalya-muzesi-mudurlugune-bagli-aspendos-orenyerinde-ziyaret-saatlerinin-degistirilmesi.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Visiting hours at Aspendos have changed. The new hours were not retrievable.",
+      "scan": "primary"
+    },
+    {
+      "title": "30 Eylül 2026 Aspendos Örenyeri Gece Müzeciliği Saatleri",
+      "url": "https://kvmgm.ktb.gov.tr/TR-459103/30-eylul-2026-aspendos-orenyeri-gece-muzeciligi-saatleri.html",
+      "publisher": "T.C. Kültür ve Turizm Bakanlığı – Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "museum-hours",
+      "summary": "Night-opening hours at Aspendos for 30 September 2026 (past).",
+      "scan": "primary"
+    },
+    {
+      "title": "Manuel Çıtak: An Island of One's Own",
+      "url": "https://www.istanbulmodern.org/en/exhibitions/manuel-citak-an-island-of-one-s-own",
+      "publisher": "Istanbul Modern",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "exhibition",
+      "summary": "New Istanbul Modern exhibition running 5 November 2026 to 23 May 2027.",
+      "scan": "primary"
+    },
+    {
+      "title": "Beneath the Same Blue",
+      "url": "https://www.istanbulmodern.org/en/exhibitions/beneath-the-same-blue",
+      "publisher": "Istanbul Modern",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "exhibition",
+      "summary": "Istanbul Modern's 10th collection exhibition, covering modern and contemporary art in Türkiye since the 1940s alongside international works. The only date shown is 8 September 2026.",
+      "scan": "primary"
+    },
+    {
+      "title": "Semiha Berksoy: Aria of All Colors",
+      "url": "https://www.istanbulmodern.org/en/exhibitions/semiha-berksoy-aria-of-all-colors",
+      "publisher": "Istanbul Modern",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "exhibition",
+      "summary": "Runs 22 January to 22 November 2026 and closes soon.",
+      "scan": "primary"
+    },
+    {
+      "title": "Locarno Film Festival in Istanbul",
+      "url": "https://www.istanbulmodern.org/en/cinema/locarno-film-festival-in-istanbul-ct-4253",
+      "publisher": "Istanbul Modern",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "film-festival",
+      "summary": "Locarno Film Festival selection screens at Istanbul Modern Cinema from 26 November to 6 December 2026.",
+      "scan": "primary"
+    },
+    {
+      "title": "Long Friday: Vocal Painting Workshop",
+      "url": "https://www.istanbulmodern.org/en/events/long-friday-vocal-painting-workshop",
+      "publisher": "Istanbul Modern",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "event",
+      "summary": "A Long Friday workshop at Istanbul Modern on 13 November 2026.",
+      "scan": "primary"
+    },
+    {
+      "title": "Yoko Ono at Sakıp Sabancı Museum with the support of Akbank",
+      "url": "https://www.sakipsabancimuzesi.org/en/press-and-media/yoko-ono-sakip-sabanci-museum-support-akbank",
+      "publisher": "Sakıp Sabancı Museum",
+      "publishedAt": "2026-06-25",
+      "fresh": false,
+      "category": "exhibition",
+      "summary": "A 67-work Yoko Ono exhibition, 'Insound and Instructure', runs 25 June to 27 December 2026. It is open daily except Mondays, 10:00–18:00. The press release predates the window, but the show is still running.",
+      "scan": "primary"
+    },
+    {
+      "title": "Pera Müzesi, Cumhuriyet Bayramı'nda Kapılarını Ücretsiz Açıyor",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/pera-muzesi-cumhuriyet-bayrami%E2%80%99nda-kapilarini-ucretsiz-aciyor-cumhuriyetin-hafizasindan-sanatin-renklerine-uzanan-bir-bayram/9029",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-28",
+      "fresh": true,
+      "category": "museum-fees",
+      "summary": "Pera Museum opened free of charge for Republic Day (29 October).",
+      "scan": "primary"
+    },
+    {
+      "title": "Pera Müzesi, Pera Engelsiz Programı Kapsamında: Türkçe İşaret Diliyle Ücretsiz Sergi Turları",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/pera-muzesi-pera-engelsiz-programi-kapsaminda-turkce-isaret-diliyle-ucretsiz-sergi-turlari/9027",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-23",
+      "fresh": true,
+      "category": "accessibility",
+      "summary": "Free exhibition tours in Turkish Sign Language under the Pera Engelsiz accessibility programme.",
+      "scan": "primary"
+    },
+    {
+      "title": "Pera Müzesi'nde Koleksiyon Sergilerine Ücretsiz Rehberli Tur",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/pera-muzesi%E2%80%99nde-koleksiyon-sergilerine-ucretsiz-rehberli-tur-dort-sergi-dort-farkli-hikaye/9022",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-14",
+      "fresh": true,
+      "category": "museum-tours",
+      "summary": "Free guided tours of Pera Museum's four collection exhibitions.",
+      "scan": "primary"
+    },
+    {
+      "title": "Pera Müzesi Türk Müziği Konserleri yeni sezona başlıyor",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/pera-muzesi-turk-muzigi-konserleri-yeni-sezona-basliyor-cumhuriyet-donemi-bestekarlari/9021",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-13",
+      "fresh": true,
+      "category": "event",
+      "summary": "Pera Museum's Turkish music concert series starts its new season with Republic-era composers.",
+      "scan": "primary"
+    },
+    {
+      "title": "İAE'nin 20. Yılına Özel Yeni Sergi \"Cumhuriyetin Kamera Arkası\" Pera Müzesi'nde",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/iae%E2%80%99nin-20-yilina-ozel-yeni-sergi-cumhuriyetin-kamera-arkasi-pera-muzesi%E2%80%99nde/9012",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-09-28",
+      "fresh": true,
+      "category": "exhibition",
+      "summary": "New exhibition 'Cumhuriyetin Kamera Arkası' (Behind the Camera of the Republic), 29 September 2026 to 28 March 2027. Museum hours: Tuesday–Saturday 10:00–19:00, Friday until 22:00, Sunday 12:00–18:00, closed Mondays.",
+      "scan": "primary"
+    },
+    {
+      "title": "Pera Müzesi'nden Yeni Sergi Frank Bowling: Yaratım ve Yıkım",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/pera-muzesi%E2%80%99nden-yeni-sergi-frank-bowling-yaratim-ve-yikim-francis-bacon-ve-victor-willing-mudahalesiyle/9015",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-09-28",
+      "fresh": true,
+      "category": "exhibition",
+      "summary": "Frank Bowling exhibition, with works by Francis Bacon and Victor Willing, 29 September 2026 to 31 January 2027 (dates from the exhibitions page).",
+      "scan": "primary"
+    },
+    {
+      "title": "Genovefa'nın Edebiyattan Çiniye Yolculuğu Pera Müzesi'nde Konuşulacak",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/genovefa%E2%80%99nin-edebiyattan-ciniye-yolculugu-pera-muzesi%E2%80%99nde-konusulacak-siradisi-minasta-bir-efsanenin-izleri/9030",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-30",
+      "fresh": true,
+      "category": "event",
+      "summary": "A talk on the Genovefa legend, from literature to tiles, linked to the 'Sıradışı Minas' collection display.",
+      "scan": "primary"
+    },
+    {
+      "title": "Frank Bowling'den ilhamla ... Pera Öğrenme'den yetişkinlere \"Dönüşümün Katmanları\"",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/frank-bowling%E2%80%99den-ilhamla-yaratmak-bozmak-yeniden-kurmak-pera-ogrenme%E2%80%99den-yetiskinlere-donusumun-katmanlari/9031",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-11-03",
+      "fresh": true,
+      "category": "event",
+      "summary": "An adult workshop programme ('Dönüşümün Katmanları') inspired by the Frank Bowling exhibition.",
+      "scan": "primary"
+    },
+    {
+      "title": "Cumhuriyet Bayramı'nda erken cumhuriyet İstanbul'una bir bakış",
+      "url": "https://www.peramuzesi.org.tr/basin-bultenleri/cumhuriyet-bayrami%E2%80%99nda-erken-cumhuriyet-istanbul%E2%80%99una-bir-bakis/9028",
+      "publisher": "Pera Museum",
+      "publishedAt": "2026-10-28",
+      "fresh": true,
+      "category": "exhibition",
+      "summary": "A Republic Day press release highlighting early-Republic Istanbul in Pera's programme.",
+      "scan": "primary"
+    },
+    {
+      "title": "COP31",
+      "url": "https://goturkiye.com/events/cop31",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "event",
+      "summary": "The UN climate conference COP31 takes place at Antalya EXPO from 9 to 20 November 2026. Expect heavy demand on Antalya hotels and transport.",
+      "scan": "primary"
+    },
+    {
+      "title": "Mevlana Whirling Dervishes Festival (Şeb-i Arus)",
+      "url": "https://goturkiye.com/events/mevlana-whirling-dervishes-festival-seb-i-arus",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "festival",
+      "summary": "Şeb-i Arus commemorations in Konya, 7 to 17 December.",
+      "scan": "primary"
+    },
+    {
+      "title": "Sinop Lakerda Festival",
+      "url": "https://goturkiye.com/events/sinop-lakerda-festival",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "festival",
+      "summary": "Sinop Lakerda (cured bonito) festival, 12 to 15 November, at the Sabahattin Ali Culture Center and Park.",
+      "scan": "primary"
+    },
+    {
+      "title": "Sinopale 10th, International Sinop Biennial",
+      "url": "https://goturkiye.com/events/sinopale-10th-international-sinop-biennial",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "festival",
+      "summary": "The 10th Sinop Biennial runs citywide from 25 September to 15 November.",
+      "scan": "primary"
+    },
+    {
+      "title": "Adana Culture Route Festival",
+      "url": "https://goturkiye.com/events/adana-culture-route-festival",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "festival",
+      "summary": "Adana Culture Route Festival, 7 to 15 November, with events across the city.",
+      "scan": "primary"
+    },
+    {
+      "title": "30. İstanbul Theatre Festival",
+      "url": "https://goturkiye.com/events/30-istanbul-theatre-festival",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "festival",
+      "summary": "The 30th Istanbul Theatre Festival runs from 22 October to 3 December at venues across Istanbul.",
+      "scan": "primary"
+    },
+    {
+      "title": "Alex Červený \"Atlas of Encounters\"",
+      "url": "https://goturkiye.com/events/alex-cerveny-atlas-of-encounters",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "exhibition",
+      "summary": "Exhibition at Zeyrek Çinili Hamam and the Byzantine Cistern, 24 September to 31 January, from 10:00.",
+      "scan": "primary"
+    },
+    {
+      "title": "Eifman Ballet St. Petersburg / Anna Karenina – İstanbul",
+      "url": "https://goturkiye.com/events/eifman-ballet-st-petersburg-anna-karenina-istanbul",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "event",
+      "summary": "Anna Karenina at the Atatürk Cultural Centre (AKM) on 17 November, 21:00. The Ankara show is on 20 November.",
+      "scan": "primary"
+    },
+    {
+      "title": "LANG LANG & YOUNG MUSICIANS",
+      "url": "https://goturkiye.com/events/lang-lang-and-young-musicians",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "publishedAt": null,
+      "fresh": false,
+      "category": "event",
+      "summary": "Lang Lang concert at AKM Istanbul on 2 December, 21:00.",
+      "scan": "primary"
+    },
+    {
+      "title": "KONGO DEMOKRATİK CUMHURİYETİ, KENYA VE NİJERYA'DA BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+      "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4145",
+      "publisher": "T.C. Sağlık Bakanlığı – Seyahat Sağlığı",
+      "publishedAt": "2026-10-23",
+      "fresh": true,
+      "category": "travel-health",
+      "summary": "Update on the Bundibugyo Ebola outbreak in DR Congo, with imported cases reported in Kenya and Nigeria. WHO advises against travel or trade restrictions. This concerns outbound travellers, not Türkiye itself.",
+      "scan": "primary"
+    },
+    {
+      "title": "SUUDİ ARABİSTAN'DA ORTA DOĞU SOLUNUM YOLU SENDROMU KORONAVİRÜSÜ-MERS-COV",
+      "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4144",
+      "publisher": "T.C. Sağlık Bakanlığı – Seyahat Sağlığı",
+      "publishedAt": "2026-10-15",
+      "fresh": true,
+      "category": "travel-health",
+      "summary": "MERS-CoV update for Saudi Arabia, relevant to travellers going on to Umrah or Hajj. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "RUSYA FEDERASYONU'NDA ETİYOLOJİSİ BELİRLENEMEYEN PNÖMONİ",
+      "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4143",
+      "publisher": "T.C. Sağlık Bakanlığı – Seyahat Sağlığı",
+      "publishedAt": "2026-10-10",
+      "fresh": true,
+      "category": "travel-health",
+      "summary": "Notice on pneumonia of unknown cause in the Russian Federation. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+      "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4142",
+      "publisher": "T.C. Sağlık Bakanlığı – Seyahat Sağlığı",
+      "publishedAt": "2026-10-08",
+      "fresh": true,
+      "category": "travel-health",
+      "summary": "Earlier update on the DR Congo Bundibugyo Ebola outbreak. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "KONGO DEMOKRATİK CUMHURİYETİ'NDE BUNDİBUGYO VİRÜSÜNÜN NEDEN OLDUĞU EBOLA HASTALIĞI",
+      "url": "https://www.seyahatsagligi.gov.tr/Site/HaberDetayi/4140",
+      "publisher": "T.C. Sağlık Bakanlığı – Seyahat Sağlığı",
+      "publishedAt": "2026-09-25",
+      "fresh": true,
+      "category": "travel-health",
+      "summary": "Earlier update on the DR Congo Bundibugyo Ebola outbreak. Only the headline was read.",
+      "scan": "primary"
+    },
+    {
+      "title": "GNÇ Türkiye Sinema Festivali",
+      "url": "https://istanbul.ktb.gov.tr/TR-474507/gnc-turkiye-sinema-festivali.html",
+      "publisher": "İstanbul İl Kültür ve Turizm Müdürlüğü",
+      "publishedAt": "2026-09-25",
+      "fresh": true,
+      "category": "film-festival",
+      "summary": "Announcement of the GNÇ Türkiye Film Festival. Only the headline was read; the festival dates were not confirmed.",
+      "scan": "primary"
+    }
+  ]
+}
