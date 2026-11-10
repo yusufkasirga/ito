@@ -414,5 +414,12 @@
     "Akdamar: add an official boat timetable/fare if Gevaş municipality publishes one.",
     "İzmir food article: refresh Michelin figures after the 2027 Türkiye selection (due early December 2026).",
     "Link side-ancient-city-visit-planning to turkiye-museum-site-winter-hours-2026-27 once PR #33 is merged."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/35",
+    "headCommit": "f833785ebe6213f238414bf56b5d8b9cf446e819",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/2xWmR3iknd7EiLj4dpmavSVuc6mL)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02 and 2026-11-09. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+  }
 }
