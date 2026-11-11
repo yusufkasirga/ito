@@ -357,5 +357,12 @@
   "followUps": [
     "Open PRs #33 (2026-11-02), #34 (2026-11-09) and #35 (2026-11-10) are green but unmerged; their articles are not live.",
     "Uludağ 18 Dec opening and Diyanet 2027 dates should be re-checked against operator/Diyanet pages when reachable."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/36",
+    "headCommit": "250cd347d44d5ddde7a6fc821281e066e4b07827",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/GX8PrYZj4ubWpLnZJVKcEgpYt8se)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02, 2026-11-09 and 2026-11-10. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+  }
 }
