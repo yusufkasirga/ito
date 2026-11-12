@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261112-gi-foods",
+  "slug": "turkiye-geographical-indication-foods-guide",
+  "locale": "ko",
+  "status": "published",
+  "title": "튀르키예 지리적 표시 음식 가이드: 여행 경로의 주별 등록 특산물을 확인하고 먹을 것을 계획하는 법",
+  "excerpt": "튀르키예 공식 지리적 표시 등록부를 이용해 여행 경로에 있는 각 주의 등록 음식을 찾고, 항목이 무엇을 뜻하는지 읽어 낸 뒤 현실적인 식사 계획으로 바꾸는 방법을 정리했습니다.",
+  "category": "음식",
+  "cover": "/images/dest/trabzon.jpg",
+  "dateISO": "2026-11-12",
+  "readTime": "8분 분량",
+  "body": [
+    {
+      "type": "p",
+      "text": "2026년 11월 초, 하타이(Hatay)주 현지 언론은 안타키아 커피(Antakya kahvesi)가 지리적 표시로 등록되었다고 보도하며 이를 하타이주의 79번째 등록 제품으로 소개했습니다. 11월 11일에는 아나돌루 통신(Anadolu Ajansı)이 튀르키예 특허상표청(TÜRKPATENT)이 2026년 첫 10개월 동안 102개 제품에 지리적 표시를 부여했으며, 이로써 전국 등록 건수가 1,912건에 이르렀다고 보도했습니다. 여행자에게 이것은 단순한 경제 뉴스가 아닙니다. 이 이름들이 기록된 공공 등록부는 각 주가 ‘우리 것’이라고 여기는 음식을 보여 주는 무료 공식 지도이기 때문입니다. 이 글에서는 각 표시가 무엇을 뜻하는지, 주별로 어떻게 찾아보는지, 그리고 찾은 결과를 여행을 체크리스트로 만들지 않으면서 실제 식사로 연결하는 방법을 설명합니다."
+    },
+    {
+      "type": "h2",
+      "text": "지리적 표시란 무엇인가"
+    },
+    {
+      "type": "p",
+      "text": "[TÜRKPATENT 지리적 표시 포털](https://ci.turkpatent.gov.tr/sayfa/co%C4%9Frafi-i%C5%9Faret-nedir)은 지리적 표시(coğrafi işaret)를 고유한 품질, 명성 또는 기타 특성 때문에 제품을 그 산지와 연결해 주는 표지로 정의합니다. 식품과 농산물뿐 아니라 광산물, 수공예품, 공산품도 대상이므로, 검색해서 나오는 항목이 모두 먹을 수 있는 것은 아닙니다. 지리적 표시는 두 종류로 나뉘며, 관련된 세 번째 표시가 하나 더 있습니다."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "원산지 명칭(menşe adı): 제품의 품질이 본질적으로 또는 전적으로 특정 지역의 자연적·인적 요인에서 비롯되며, 생산·가공을 비롯한 모든 단계가 그 지역 안에서 이루어집니다.",
+        "산지 표시(mahreç işareti): 제품이 명성이나 기타 특성으로 특정 지역과 연결되어 있으며, 생산이나 가공 단계 중 적어도 하나는 그 지역에서 이루어져야 합니다. 나머지 단계는 다른 곳에서 진행될 수 있습니다.",
+        "전통 제품명(geleneksel ürün adı): 원산지 표시가 아니라, 전통 방식으로 만든 제품에 대해 최소 30년 이상 시장에서 쓰여 온 이름입니다. 아나돌루 통신에 따르면 튀르키예 커피(Türk kahvesi)가 2026년에 이 범주로 등록되었습니다."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "포털의 [일반 구매자 안내 페이지(Tüketiciler İçin)](https://ci.turkpatent.gov.tr/sayfa/t%C3%BCketiciler-i%C3%A7in)는 장을 볼 때 유용한 정보도 알려 줍니다. 2018년 1월부터 등록 제품에는 해당 엠블럼을 표시해야 하므로, 포장 식품의 이름 옆에서 원산지 명칭이나 산지 표시를 나타내는 작은 로고를 볼 수 있습니다."
+    },
+    {
+      "type": "h2",
+      "text": "공식 등록부에서 주별로 찾아보는 법"
+    },
+    {
+      "type": "p",
+      "text": "등록부는 TÜRKPATENT의 지리적 표시 포털(Coğrafi İşaretler Portalı, ci.turkpatent.gov.tr)에 있으며 튀르키예어로 되어 있습니다. 2026년 11월에 확인했을 때 포털의 주별 목록 페이지에는 주(州)별로 지리적 표시를 검색할 수 있다는 안내(“İl bazında coğrafi işaret arayabilirsiniz”)가 있었고, 메뉴는 Coğrafi İşaretler(지리적 표시)와 Geleneksel Ürün Adları(전통 제품명)를 따로 구분하고 있었습니다. [데이터베이스 페이지](https://ci.turkpatent.gov.tr/veri-tabani)는 각 항목을 이름, 파일 번호, 출원일, 등록 번호, 등록일, 유형(Türü), 제품군(Ürün grubu), 주(İl), 상태(Durumu)로 보여 줍니다."
+    },
+    {
+      "type": "p",
+      "text": "항목 하나를 열면 같은 정보에 더해 등록 주체와 등록증 PDF 링크가 나옵니다. 등록 주체는 지역 상공회의소나 시청인 경우가 많습니다. 예를 들어 아피온 카이막(Afyon kaymağı)은 아피온 상공회의소가, 아피온 로쿰(Afyon lokumu)은 아피온카라히사르 시청이 등록했습니다. 실용적인 팁 두 가지를 드리면, 먼저 주로 걸러 낸 다음 제품군 열을 훑어보며 요리만 궁금하다면 수공예품과 원재료 작물은 건너뛰세요. 그리고 각 항목이 어느 단계에 있는지 보여 주는 상태 열을 꼭 확인하세요. 아나돌루 통신은 102건 발표 당시 805건의 출원이 아직 처리 중이라고 보도했습니다. 안타키아 커피처럼 막 등록된 제품은 데이터베이스에서 쉽게 찾기 전에 뉴스에 먼저 나올 수 있으니, 이름으로 검색해 보고 항목이 나타날 때까지는 언론 보도를 참고 자료로 삼으세요."
+    },
+    {
+      "type": "h2",
+      "text": "먹을 것을 계획하는 4단계 방법"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "도시가 아니라 경로상의 주를 적으세요. 주 항목에는 하위 군·구의 제품이 함께 들어 있는 경우가 많아서, 트라브존(Trabzon)에 들른다는 것은 아크차아바트(Akçaabat)나 함시쾨이(Hamsiköy)라는 이름이 붙은 제품을 만날 수 있다는 뜻이기도 합니다.",
+        "각 주의 등록 음식을 모아 대략 세 묶음으로 나누세요. 자리에 앉아 먹는 요리(수프, 만트, 케밥), 아침에 만나는 것(빵, 시미트, 카이막, 치즈, 수죽), 그리고 무게로 사는 것(꿀, 말린 과일, 단과자)입니다.",
+        "각 묶음을 하루의 특정 시간대와 연결하세요. 아침 식탁, 빵집과 디저트 가게, 시장 거리는 대부분의 여행자가 두 번째와 세 번째 묶음을 자연스럽게 만나는 곳입니다. 첫 번째 묶음은 제대로 된 식사 시간이 필요하니, 그 도시에서 시간이 가장 넉넉한 날에 넣으세요.",
+        "한 곳마다 두세 가지만 고르고 나머지는 내려놓으세요. 목록이 길면 서두르게 되지만, 짧으면 요리를 정확한 이름으로 주문하고 내가 알던 것과 어떻게 다른지 느낄 여유가 생깁니다."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "이것은 일반적인 안내일 뿐 시간표가 아닙니다. 아침에 무엇이 나오는지, 어느 빵집이 일찍 여는지, 어떤 요리가 제철인지는 지역마다 다르니 숙소 주인에게 묻거나 당일 현지에서 확인하세요."
+    },
+    {
+      "type": "h2",
+      "text": "자주 가는 경로의 예시"
+    },
+    {
+      "type": "p",
+      "text": "아래 항목은 등록부와 튀르키예 공식 여행 포털 GoTürkiye에서 가져온 것입니다. 방법이 어떻게 작동하는지 보여 주기 위한 예시일 뿐, 전체 목록이나 순위가 아닙니다."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "아피온카라히사르(Afyonkarahisar): 아피온 카이막(Afyon kaymağı)은 원산지 명칭(2009년), 아피온 수죽(Afyon sucuğu)은 산지 표시(2005년), 아피온 로쿰(Afyon lokumu)도 산지 표시(2021년)로 등록되어 있습니다. GoTürkiye의 [아피온 2일 미식 코스](https://goturkiye.com/routes/2-day-gastronomy-route-in-afyonkarahisar)는 수죽과 카이막을 시골 빵과 함께 아침 식탁에 올리며, 이 도시가 2019년 유네스코 창의도시 네트워크 미식 분야에 가입했다고 소개합니다. 자세한 내용은 [아피온 여행지 페이지(영문)](/destinations/afyon)를 보세요.",
+        "카이세리(Kayseri): 카이세리 만트(Kayseri mantısı)는 ‘요리 및 수프’ 제품군의 산지 표시로 등록되어 있습니다(2009년). 아나돌루 통신이 보도한 2026년 등록분에는 Kayseri purov mantısı와 pöç kebabı가 추가되었습니다. 카파도키아로 가는 길에 카이세리를 지난다면 만트 점심을 넣기 좋습니다. 나머지 일정은 [카파도키아 프라이빗 일정 가이드(영문)](/blog/private-turkiye-itinerary-cappadocia-guide)를 참고하세요.",
+        "트라브존(Trabzon): 아크차아바트 쾨프테(Akçaabat köftesi, 2010년)와 함시쾨이 쉬틀라치(Hamsiköy sütlacı, 2017년)는 모두 산지 표시이며, 2026년에는 트라브존 아이스크림(Trabzon dondurması)이 추가되었습니다. [트라브존 페이지(영문)](/destinations/trabzon)도 참고하세요.",
+        "하타이(Hatay): 안타키아 퀴네페(Antakya künefesi)는 2008년부터 등록된 산지 표시입니다. 2026년 등록분에는 Hatay abugannuş, Hatay Arap kebabı, Hatay haytalı, Hatay müşebbek tatlısı가 포함되며, 이는 하타이가 올해 받은 15건의 등록 가운데 일부입니다.",
+        "에게해와 아나톨리아: GoTürkiye의 [지리적 표시 인증 제품 목록](https://goturkiye.com/blog/7-gi-certified-turkish-products)에는 아이든(Aydın) 무화과, 말라티아(Malatya) 살구, 카스타모누 타쉬쾨프뤼(Taşköprü) 마늘, 무라 밀라스(Milas) 올리브유, 그리고 여름 과일로 소개된 차낙칼레의 흰 천도복숭아 Bayramiç beyazı가 실려 있습니다."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "가지안테프(Gaziantep)에도 2026년 신규 항목을 포함해 등록 음식이 많습니다. 그곳에서 일정을 어떻게 짜면 좋을지는 [가지안테프 미식 주말 가이드](/ko/blog/gaziantep-food-weekend-planning)를 참고하세요."
+    },
+    {
+      "type": "h2",
+      "text": "안타키아 커피에 관한 실용 팁"
+    },
+    {
+      "type": "p",
+      "text": "Söz Gazetesi의 2026년 11월 9일 보도에 따르면 안타키아 커피는 색이 진하고 두 번 볶으며 향이 강한 것으로 알려져 있고, 작은 커피잔이 아니라 허리가 잘록한 찻잔에 담겨 나오며 현지에서는 ‘쉬바리(süvari)’라고도 부릅니다. 여행자에게 실용적인 점은 단순합니다. 튀르키예 커피와 같은 주문이 아니라는 것이죠. 안타키아에서 현지 방식을 맛보고 싶다면 이름을 콕 집어 주문하세요. 하타이주 전반은 [하타이 페이지(영문)](/destinations/hatay)에서 볼 수 있습니다."
+    },
+    {
+      "type": "h2",
+      "text": "지리적 표시가 알려 주지 않는 것"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "식당, 카페, 가게의 등급이 아닙니다. 등록부는 제품명, 유형, 등록 주체를 기록할 뿐, 오늘 어느 주방이 그 음식을 잘 만드는지는 말해 주지 않습니다.",
+        "TÜRKPATENT는 이 제도를 산지와 특성에 결부된 품질 표지라고 설명하지만, 항목 하나가 눈앞의 접시나 병이 그 설명에 맞는지까지 알려 주지는 않습니다. 포장 식품에서는 엠블럼을 확인하고, 식당에서는 스스로 판단하세요.",
+        "튀르키예에서의 등록은 국내 기록입니다. 유럽연합(EU) 등록은 별도의 절차로, 예를 들어 GoTürkiye는 밀라스 올리브유가 EU 지리적 표시를 받은 최초의 튀르키예 올리브유라고 소개하지만, 다른 제품도 그렇다고 단정하지는 마세요.",
+        "계절, 영업시간, 가격은 알려 주지 않습니다. 등록된 여름 과일은 1월 노점에 없고, 어떤 요리는 특정 가정이나 특정 달에만 만들어집니다.",
+        "항목이 없다고 해서 그 지역에 특별한 것이 없다는 뜻은 아닙니다. 많은 향토 음식이 등록되어 있지 않으며, 2026년 말에도 수백 건의 출원이 처리 중이었습니다."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "떠나기 전 체크리스트"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "경로가 지나는 모든 주(il)를 숙박지까지 포함해 적어 두세요.",
+        "TÜRKPATENT 포털에서 하나씩 검색하고 음식 항목과 유형, 상태를 메모하세요.",
+        "튀르키예어 이름은 등록된 그대로 옮겨 적으세요. 주문할 때 바로 그 이름을 쓰게 됩니다.",
+        "목록을 아침·빵류, 식사 요리, 무게로 사는 것으로 나누세요.",
+        "한 곳마다 두세 가지를 골라 실제로 시간이 있는 식사에 배정하세요.",
+        "포장 제품은 원산지 명칭 또는 산지 표시 엠블럼을 확인하세요.",
+        "뉴스로 막 발표된 등록은 항목을 직접 확인할 때까지 잠정적인 것으로 여기세요."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "이렇게 활용하면 등록부는 트로피 목록이 아니라 대화의 출발점이 됩니다. 한 주가 어떤 이름을 지키기로 했는지 알려 주고, 그것이 그 지역의 부엌으로 들어가는 가장 빠른 길인 경우가 많습니다. 이런 음식이 일상의 일부인 조용한 곳을 찾는다면 [튀르키예 숨은 명소 가이드(영문)](/blog/hidden-gems-turkiye-most-tourists-never-find)를 다음으로 읽어 보세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Coğrafi İşaret Nedir?",
+      "url": "https://ci.turkpatent.gov.tr/sayfa/co%C4%9Frafi-i%C5%9Faret-nedir",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Tüketiciler İçin (emblems and what they signal)",
+      "url": "https://ci.turkpatent.gov.tr/sayfa/t%C3%BCketiciler-i%C3%A7in",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Veritabanı (register database)",
+      "url": "https://ci.turkpatent.gov.tr/veri-tabani",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Kaymağı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37936",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Sucuğu – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37934",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Lokumu – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38311",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Kayseri Mantısı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37972",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Akçaabat Köftesi – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38002",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Hamsiköy Sütlacı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38380",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Antakya Künefesi – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37968",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Anadolu'nun 102 yöresel değerine coğrafi işaret koruması",
+      "url": "https://www.aa.com.tr/tr/ekonomi/anadolunun-102-yoresel-degerine-cografi-isaret-korumasi/4119855",
+      "publisher": "Anadolu Ajansı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Anadolu'nun 102 yöresel değerine coğrafi işaret koruması (AA report)",
+      "url": "https://www.adanapost.com/ekonomi/anadolunun-102-yoresel-degerine-cografi-isaret-korumasi-224930h",
+      "publisher": "Adana Post",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Antakya Kahvesi tescillendi",
+      "url": "https://sozgazetesi.com.tr/2026/11/09/antakya-kahvesi-tescillendi/",
+      "publisher": "Söz Gazetesi",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "7 GI-Certified Turkish Products",
+      "url": "https://goturkiye.com/blog/7-gi-certified-turkish-products",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "2-Day Gastronomy Route in Afyonkarahisar",
+      "url": "https://goturkiye.com/routes/2-day-gastronomy-route-in-afyonkarahisar",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-11-12"
+    }
+  ],
+  "seo": {
+    "intent": "튀르키예 여행 경로에 있는 각 주의 지리적 표시 음식을 찾아 확인하고 식사 계획에 활용하기.",
+    "keywords": [
+      "튀르키예 지리적 표시 음식",
+      "터키 지역 특산물",
+      "TÜRKPATENT 지리적 표시 검색",
+      "안타키아 커피",
+      "아피온 카이막 수죽"
+    ],
+    "uniqueValue": "TÜRKPATENT 공식 등록부를 주별로 읽는 여행자용 방법과 출처가 확인된 예시 항목, 그리고 지리적 표시가 말해 주는 것과 말해 주지 않는 것을 명확히 정리했습니다.",
+    "topicKey": "turkiye-geographical-indication-food-route-planning"
+  },
+  "quality": {
+    "score": 88,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Full Korean localization of the 2026-11-12 EN master; all facts identical to EN (TÜRKPATENT portal definitions, emblem rule since 01/2018, database columns, register entries with number/year/type; AA 2026-11-11: 102, 1,912, 805, Hatay 15, Türk kahvesi as traditional product name; Söz Gazetesi 2026-11-09: Antakya coffee as Hatay's 79th; GoTürkiye Afyon route, UNESCO 2019, Milas olive oil). Four-step method is editorial synthesis. English-only targets labelled (영문). Cover trabzon.jpg because Trabzon is an example province; shows no dish. Independent review 2026-11-12: re-opened all cited TÜRKPATENT entries (types, numbers, dates, registrants), definitions/emblem pages, AA text via Adana Post (aa.com.tr fetch failed), Söz Gazetesi and both GoTürkiye pages; all figures confirmed. Antakya coffee registration now attributed to local press; unsupported claims that the database lists pending applications and that unregistered dishes explain the pending list were softened; 'main page' corrected to province listing. Same fixes applied in all locales."
+  }
+}
