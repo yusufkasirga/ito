@@ -413,5 +413,12 @@
     "Antakya coffee GI entry not yet visible in the TÜRKPATENT register when checked; article treats it as reported/provisional.",
     "Process note: the Cappadocia reviewer read four goturkiye.com pages via curl after WebFetch could not open them; the same pages had been read by the writer. Facts used are supported by those official pages.",
     "turkey-in-winter-premium-travel-guide contains the line 'pairs naturally with a wellness- or recovery-focused itinerary' — consider a later edit."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/37",
+    "headCommit": "581b2120214e0cff9eb1805c7a50333b7ab34ed2",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/2TKKpoEe2jtrNLYUKmh4Q4PF3nT1)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02, 11-09, 11-10 and 11-11. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+  }
 }
