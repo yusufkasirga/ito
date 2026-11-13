@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261113-istanbul-ferry-weather",
+  "slug": "istanbul-ferry-cancellations-bad-weather",
+  "locale": "es",
+  "status": "published",
+  "title": "¿Ferris de Estambul cancelados por viento o niebla? Cómo comprobarlo y tu plan B",
+  "excerpt": "Cuando el lodos o la niebla paran Şehir Hatları, İDO o BUDO: cómo leer el aviso meteorológico, confirmar la cancelación con el operador y cruzar el Bósforo o llegar a las Islas de los Príncipes, Yalova o Bursa por otra vía.",
+  "category": "Transporte",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-13",
+  "readTime": "7 min de lectura",
+  "body": [
+    {
+      "type": "p",
+      "text": "Los ferris son la forma más agradable de cruzar el agua en Estambul y el primer servicio que se detiene cuando sopla un viento fuerte en el mar de Mármara. El 13 de noviembre de 2026, por ejemplo, [Türkiye Gazetesi informó](https://www.turkiyegazetesi.com.tr/haberler/vapur-seferleri-iptal-mi-son-dakika-13-kasim-sehir-hatlari-ido-budo-iptal-seferler-li-1829000) de que Şehir Hatları canceló los servicios a las Islas de los Príncipes y la línea Bostancı–Moda–Karaköy–Kabataş por el mal tiempo durante un temporal de lodos (viento del suroeste). İDO canceló los catamaranes matinales Yenikapı–Yalova, a Bandırma y a Bursa, y BUDO suprimió 10 salidas en sus rutas de Mudanya, Armutlu y Kabataş. Esta guía es un plan de decisión para días así. Para lo básico sobre la Istanbulkart, el metro y el tranvía, consulta nuestra [guía del transporte público de Estambul](/blog/istanbul-public-transport-tourist-guide) (en inglés)."
+    },
+    {
+      "type": "h2",
+      "text": "Paso 1: lee el aviso meteorológico la noche anterior"
+    },
+    {
+      "type": "p",
+      "text": "El Servicio Meteorológico del Estado turco (MGM, mgm.gov.tr) emite avisos por colores. Antes del temporal del 13 de noviembre, [Takvim](https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina) informó de un aviso amarillo del servicio meteorológico para Estambul y otras diez provincias, entre ellas Bursa, Yalova, Kocaeli y Çanakkale. Citando a la Gobernación de Estambul, indicó que se esperaba viento de 60–90 km/h desde la mañana del viernes, con breves episodios de temporal fuerte. [Milli Gazete](https://milligazete.com.tr/meteoroloji-marmarayi-uyardi-firtina-12-kasimda-basliyor) informó de que el MGM emitió el 11 de noviembre su aviso de viento fuerte y temporal para la región de Mármara: viento del sur y suroeste desde el jueves, 50–75 km/h desde la mañana del viernes y amaine previsto a partir de la tarde-noche del sábado. Un meteorólogo citado por Takvim advirtió de posibles cancelaciones de ferris en todo el mar de Mármara, sobre todo por la tarde, y la previsión marítima del MGM recogida en el mismo artículo daba olas de 1–2 m, hasta 2,5 m en algunos puntos."
+    },
+    {
+      "type": "p",
+      "text": "La lección práctica: si hay aviso de viento en Estambul, planifica el día como si el ferri pudiera no salir. Al leer un aviso, fíjate en cuatro cosas:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "El color y las provincias afectadas (solo Estambul o también Yalova, Bursa y Balıkesir, destino de las rutas marítimas más largas).",
+        "La dirección y la velocidad del viento: el lodos es el viento del suroeste y el poyraz el del noreste.",
+        "La franja horaria, incluido cuándo se espera que amaine.",
+        "Si la previsión menciona el transporte marítimo o la altura de las olas."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Paso 2: confírmalo con el operador, no en el muelle"
+    },
+    {
+      "type": "p",
+      "text": "Cada operador anuncia sus propias cancelaciones y no todos paran a la vez. El 5 de noviembre, [Milli Gazete](https://www.milligazete.com.tr/5-kasim-vapur-seferlerinde-son-durum-ido-bandirma-seferi-iptal-edildi-sehir-hatlari-ve-budo-calisiyor-mu) señaló que İDO había cancelado salidas a Bandırma, mientras que la página de Şehir Hatları no mostraba ninguna cancelación general nueva y BUDO no anunciaba nuevas supresiones. El diario remitía a sehirhatlari.istanbul, ido.com.tr y budo.burulas.com.tr, que permite consultar horarios en línea. Turyol y Dentur son operadores privados independientes, así que revisa sus propios canales; las noticias del 13 de noviembre que leímos no los mencionaban."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Comprueba el operador de cada tramo del viaje, no solo del primero.",
+        "Fíjate en la redacción. El 13 de noviembre Şehir Hatları canceló servicios «hasta nuevo aviso», así que una cancelación por la mañana no te dice cuándo se reanudará. Vuelve a comprobarlo antes del regreso.",
+        "Algunas líneas se desvían en lugar de cancelarse: ese mismo día, el circuito Aşiyan–Anadolu Hisarı–Küçüksu y la línea Aşiyan–Üsküdar cambiaron de recorrido.",
+        "Lee bien las horas. La [lista de Milliyet](https://www.milliyet.com.tr/bilgi-rehberi/ido-iptal-seferler-13-kasim-cuma-istanbul-deniz-otobusleri-ido-iptal-olan-seferleri-duyurdu-7699734) de cancelaciones de İDO se refería a salidas concretas (por ejemplo, 07:45 Bandırma–Yenikapı–Kadıköy y 09:05 Kabataş–Kadıköy–Yenikapı–Armutlu–Bursa). Una salida posterior puede operar, o cancelarse más tarde."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Qué rutas cayeron primero en los últimos días de viento"
+    },
+    {
+      "type": "p",
+      "text": "No tenemos datos a largo plazo sobre qué líneas se suspenden primero, así que toma esto como un patrón de dos días recientes, no como una regla. El 5 de noviembre solo se informó de la cancelación de salidas de İDO a Bandırma. El 13 de noviembre las cancelaciones se concentraron en las travesías más largas: Islas de los Príncipes, Yalova, Armutlu, Mudanya/Bursa y Bandırma. Las líneas del Bósforo dentro de la ciudad se vieron afectadas en parte (Bostancı–Moda–Karaköy–Kabataş) y en parte desviadas. Si tu día depende de cruzar a las islas o el Mármara, esa es la parte más frágil del plan."
+    },
+    {
+      "type": "h2",
+      "text": "Plan B para cruzar el Bósforo: tren y carretera"
+    },
+    {
+      "type": "p",
+      "text": "Pasar de Europa a Asia no depende de los ferris. El Marmaray cruza bajo el Bósforo en tren, y por los puentes circulan autobuses y el metrobús. Cuando el puente 15 Temmuz Şehitler se cerró al tráfico por el Maratón de Estambul el 1 de noviembre, [İETT anunció](https://iett.istanbul/Announcement/Detail/3347) que el metrobús no circularía entre Zincirlikuyu y Söğütlüçeşme durante la carrera. Para llegar a la orilla asiática, propuso los autobuses que usan el puente Fatih Sultan Mehmet, el metro M2 hasta Yenikapı para enlazar con el Marmaray, o el transbordo al Marmaray en la estación de metrobús de Küçükçekmece. Aquel aviso trataba de un corte de carretera por el maratón, no del tiempo ni de los ferris; lo citamos solo para mostrar qué rutas terrestres existen. Son las opciones que conviene valorar cuando no hay ferri."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Marmaray (túnel ferroviario): no le afectan las olas. Puede ir más lleno cuando los pasajeros del ferri se pasan al tren, y desde zonas de hoteles como Sultanahmet, Karaköy o Kadıköy a menudo necesitarás un transbordo o caminar hasta la estación.",
+        "Metrobús por el puente 15 Temmuz Şehitler: frecuente, pero va por carretera y en hora punta suele ir lleno.",
+        "Autobuses urbanos por el puente Fatih Sultan Mehmet: útiles para el norte del Bósforo, pero lentos con mucho tráfico.",
+        "Taxi: lo más sencillo con equipaje, aunque un temporal con lluvia suele traer más atasco en los puentes. No cuentes con una duración fija."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "No damos tiempos puerta a puerta porque dependen de tu hotel y de la hora. Antes de salir, consulta la ruta en un planificador de trayectos y deja un margen generoso. Un cruce en ferri que parecía de 20 minutos con el mar en calma puede convertirse por tierra en un trayecto con varios transbordos."
+    },
+    {
+      "type": "h2",
+      "text": "Islas de los Príncipes: no hay plan B por tierra"
+    },
+    {
+      "type": "p",
+      "text": "Las islas no tienen puente ni túnel con el continente. Si Şehir Hatları cancela los servicios a las islas, como hizo el 13 de noviembre en las rutas a las islas desde Kabataş, Beşiktaş, Kadıköy, Bostancı y Maltepe, no hay otra forma de llegar en transporte público. Pasa el día de islas a una fecha más tranquila y mantenlo flexible. Si te alojas en una isla, habla con tu alojamiento sobre una salida más tardía y sigue los avisos del operador sobre la reanudación. Alquilar una barca privada no es una alternativa sensata mientras esté vigente un aviso de temporal."
+    },
+    {
+      "type": "h2",
+      "text": "Yalova, Bursa y Bandırma: cambia a la carretera o replantea el día"
+    },
+    {
+      "type": "p",
+      "text": "Para Yalova, Mudanya/Bursa y Bandırma, la alternativa es la carretera, en autobús interurbano o en coche. Compara ese mismo día los horarios de las empresas de autobuses y da por hecho que el tiempo y el precio no serán los del catamarán. En una excursión de un día a Bursa, la cancelación del barco de la mañana puede significar que el día ya no funciona. Aplazarla puede ser mejor que pasar la mayor parte en la carretera."
+    },
+    {
+      "type": "p",
+      "text": "Si ya tienes billete de catamarán, pregunta al operador por sus canales oficiales qué ocurre con él. No pudimos verificar ninguna norma publicada de reembolso o cambio por cancelaciones meteorológicas, así que no des por hecho un reembolso automático."
+    },
+    {
+      "type": "h2",
+      "text": "Márgenes para excursiones y vuelos"
+    },
+    {
+      "type": "p",
+      "text": "Según el meteorólogo [citado por Takvim](https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina), el viento fuerte alarga sobre todo los intervalos entre despegues y aterrizajes, de modo que el efecto principal en los vuelos son esperas más largas y retrasos más que cancelaciones. Planifica con eso en mente:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "No programes las islas, Yalova o Bursa el día antes de un vuelo internacional; ponlas al principio del viaje para poder moverlas.",
+        "Elige excursiones con una política clara de mal tiempo y pregunta antes de pagar qué pasa si se cancela el barco.",
+        "Ve al aeropuerto por tierra. En un día con aviso, no incluyas un tramo en ferri en tu traslado.",
+        "Vuelve a consultar el MGM y al operador la noche anterior y la mañana del viaje."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Días de niebla"
+    },
+    {
+      "type": "p",
+      "text": "La niebla también puede retrasar o detener las salidas. Las incidencias recientes de nuestras fuentes se debieron al viento, así que no podemos decir qué líneas suelen verse afectadas por la niebla. El método es el mismo: revisa los avisos del operador para cada tramo y ten el Marmaray o una ruta por puente como respaldo. Para reservar un día flexible, consulta nuestro [itinerario de tres, cinco o siete días por Estambul](/blog/istanbul-itinerary-3-5-7-days) (en inglés). Y si buscas una excursión que no dependa del ferri, mira [cómo ir de Estambul a Edirne en tren](/es/blog/istanbul-edirne-train-cerkezkoy-transfer). Para más sobre viajar en la temporada fría, consulta [Turquía en invierno](/blog/turkey-in-winter-premium-travel-guide) (en inglés)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vapur seferleri iptal mi? Son dakika 13 Kasım Şehir Hatları, İDO, BUDO iptal seferler listesi",
+      "url": "https://www.turkiyegazetesi.com.tr/haberler/vapur-seferleri-iptal-mi-son-dakika-13-kasim-sehir-hatlari-ido-budo-iptal-seferler-li-1829000",
+      "publisher": "Türkiye Gazetesi",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "İDO İPTAL SEFERLER 13 KASIM CUMA! İstanbul Deniz Otobüsleri (İDO) iptal olan seferleri duyurdu",
+      "url": "https://www.milliyet.com.tr/bilgi-rehberi/ido-iptal-seferler-13-kasim-cuma-istanbul-deniz-otobusleri-ido-iptal-olan-seferleri-duyurdu-7699734",
+      "publisher": "Milliyet",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "5 Kasım vapur seferlerinde son durum: İDO Bandırma seferi iptal edildi, Şehir Hatları ve BUDO çalışıyor mu?",
+      "url": "https://www.milligazete.com.tr/5-kasim-vapur-seferlerinde-son-durum-ido-bandirma-seferi-iptal-edildi-sehir-hatlari-ve-budo-calisiyor-mu",
+      "publisher": "Milli Gazete",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Meteoroloji Marmara'yı uyardı: Fırtına 12 Kasım'da başlıyor",
+      "url": "https://milligazete.com.tr/meteoroloji-marmarayi-uyardi-firtina-12-kasimda-basliyor",
+      "publisher": "Milli Gazete",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Meteoroloji'den 11 ile sarı kodlu alarm! İstanbul'da 90 km hızla fırtına: Hafta sonu hava nasıl olacak?",
+      "url": "https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina",
+      "publisher": "Takvim",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Türkiye İş Bankası 48. İstanbul Maratonu Nedeniyle Metrobüs ve Otobüs Hatlarımızda Sefer Düzenlemesi",
+      "url": "https://iett.istanbul/Announcement/Detail/3347",
+      "publisher": "İETT (Istanbul Metropolitan Municipality)",
+      "accessedISO": "2026-11-13"
+    }
+  ],
+  "seo": {
+    "intent": "Saber si los ferris y catamaranes de Estambul están cancelados por viento o niebla, dónde confirmarlo y cómo cruzar el Bósforo o llegar a las Islas de los Príncipes, Yalova o Bursa por otra vía.",
+    "keywords": [
+      "ferri Estambul cancelado",
+      "ferri Estambul viento lodos",
+      "Şehir Hatları cancelaciones",
+      "İDO catamarán cancelado",
+      "Marmaray en lugar de ferri",
+      "Islas de los Príncipes ferri tiempo"
+    ],
+    "uniqueValue": "Plan de decisión para días de mal tiempo: cómo leer un aviso del MGM, qué página de operador revisar en cada tramo, un plan B por tren y carretera para cruzar el Bósforo con sus costes reales, y consejos aparte para las islas (sin opción terrestre) y Yalova/Bursa, basado en las cancelaciones del 5 y 13 de noviembre de 2026.",
+    "topicKey": "istanbul-ferry-weather-cancellation-plan-b"
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Versión española del máster inglés. Un agente de IA independiente verificó el 2026-11-13 los datos de la versión EN con las seis fuentes abiertas (se corrigieron la atribución de la velocidad del viento y de las olas, el patrón del 5 de noviembre, el contexto del aviso de İETT y los títulos de las fuentes) y revisó esta traducción frente al máster EN. Sin revisión humana ni de hablantes nativos. No se abrieron directamente las webs de operadores ni mgm.gov.tr; sin horarios, precios ni reembolsos."
+  }
+}
