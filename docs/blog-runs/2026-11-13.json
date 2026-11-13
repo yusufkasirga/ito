@@ -326,5 +326,12 @@
     "Open PRs #33–#37 (2026-11-02, 11-09, 11-10, 11-11, 11-12) still unmerged at the start of this run; their articles are not live. Overlap checked against them anyway.",
     "Göbeklitepe drafts held for primary-source verification (UNESCO WHC 1572, muze.gov.tr).",
     "Ferry article: fog paragraph and lodos/poyraz glosses are general knowledge, labelled as such; operator sites and mgm.gov.tr were not opened."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/38",
+    "headCommit": "3250466cf7733a11d08e583e3e97cc5202c64056",
+    "checks": "quality: success; Vercel Preview: success",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02 and 11-09 to 11-12. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and the Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the article is not deployed to production."
+  }
 }
