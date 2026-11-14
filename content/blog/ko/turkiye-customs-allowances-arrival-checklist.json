@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261114-customs-allowances",
+  "slug": "turkiye-customs-allowances-arrival-checklist",
+  "locale": "ko",
+  "status": "published",
+  "title": "튀르키예 입국 시 무엇을 가져갈 수 있을까: 세관 면세 한도와 짐 싸기 체크리스트",
+  "excerpt": "담배, 주류, 선물, 식품, 휴대폰, 의약품까지. 튀르키예에 입국하는 여행자 1인당 현재 세관 면세 한도와, 2026년 11월 무역부의 설명 이후 €430 선물 한도가 어떻게 적용되는지, 그리고 다른 사이트마다 숫자가 다른 이유를 정리했습니다.",
+  "category": "여행",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-14",
+  "readTime": "7분 분량",
+  "body": [
+    {
+      "type": "p",
+      "text": "튀르키예 세관은 대부분의 여행자가 멈춰 서지 않고 그대로 통과합니다. 원래 그래야 하는 곳이기도 합니다. 문제는 가방 안에 옷과 칫솔 말고 다른 물건이 들어 있을 때 생깁니다. 친구에게 줄 선물, 두 번째 휴대폰, 담배 한 보루, 공항 면세점에서 산 술 한 병, 집에서 챙겨 온 향신료나 치즈 같은 것들입니다. 2026년 11월 초 튀르키예 무역부는 여행자 1인당 €430 면세 한도가 어떻게 적용되는지 다시 한번 설명했고, 이 내용은 [Türkiye Today가 11월 2일 보도](https://www.turkiyetoday.com/nation/turkiye-clarifies-430-customs-exemption-for-travelers-what-is-excluded-3231551)했습니다. 이 글은 현재 공식 면세 한도를 출국 전에 직접 점검할 수 있는 짐 싸기 체크리스트로 정리하고, 다른 웹사이트에서 서로 다른 숫자가 보이는 이유도 함께 설명합니다."
+    },
+    {
+      "type": "h2",
+      "text": "숫자가 서로 다를 때 어느 자료를 믿어야 할까"
+    },
+    {
+      "type": "p",
+      "text": "여행자 세관 규정의 근거는 관세법 제4458호와 여행자 면세에 관한 정부 결정이며, 이를 운영하는 곳은 튀르키예 무역부입니다. 무역부는 ‘부록 9(Appendix-9)’라고 불리는 개인 휴대품 목록을 포함한 [여행자 통관 FAQ](https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/english/passenger-transactions)를 영어로 공개하고 있습니다. 외교부도 [튀르키예 세관 안내 페이지](https://www.mfa.gov.tr/turkiye_ye-ait-gumruk-bilgileri.en.mfa)에서 같은 핵심 수치를 반복해 싣고 있습니다. 반면 [문화관광부 사이트의 오래된 면세품 페이지](https://www.ktb.gov.tr/EN-120416/duty-free-goods.html)에는 아직도 담배 200개비, 와인 또는 증류주 한두 병, 커피 1.5kg 같은 예전 수치가 올라 있고, 휴대용 타자기나 128MB 램을 갖춘 포켓 PC 같은 품목까지 함께 적혀 있어 얼마나 오래된 자료인지 짐작할 수 있습니다. 그런데도 이런 수치는 여전히 많은 여행 사이트에 돌아다닙니다. 자료끼리 내용이 다르면 이 글은 무역부 문서를 따릅니다. 면세 한도는 바뀔 수 있고 최종 판단은 국경에서 세관 직원이 내리므로, 출발 직전에 무역부 페이지를 한 번 더 확인하세요."
+    },
+    {
+      "type": "h2",
+      "text": "담배와 주류: 1인당 반입 한도"
+    },
+    {
+      "type": "p",
+      "text": "무역부 FAQ에 따르면 만 18세 이상 여행자는 1인당 다음 물품을 동반 수하물로 관세 없이 반입할 수 있습니다."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "궐련 600개비, 또는 시가릴로 100개비(개당 3g 이하), 또는 시가 50개비, 또는 썬 담배 250g과 말이용 종이 200장, 또는 파이프 담배 250g;",
+        "알코올 도수 22%를 넘는 주류 1리터, 또는 22% 이하 주류 2리터;",
+        "만 18세 미만이라면 전혀 허용되지 않습니다. 담배와 주류 면세 한도는 미성년자에게 적용되지 않습니다;",
+        "이 물품들은 우편이나 특송 화물로 미리 보낼 수 없으며, 반드시 본인이 직접 가지고 입국해야 합니다."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "외교부 페이지는 각 품목을 서로 별개로, 각자의 한도 안에서 사용할 수 있다고 덧붙입니다. 면세 한도는 여행자 1인 기준이므로, 가족 전체를 한 묶음으로 계산하지 말고 일행 중 성인 한 명 한 명을 따로 계산해야 합니다."
+    },
+    {
+      "type": "h2",
+      "text": "선물과 기타 물품: €430 한도에 포함되는 것"
+    },
+    {
+      "type": "p",
+      "text": "위에 나열한 개인 휴대품 외에, 판매 목적이 아닌 선물과 기타 물품은 여행자 1인당 합계 €430까지 면세됩니다. 만 15세 미만 여행자는 €150까지입니다. 11월 무역부 설명에 따르면, 본인이 입을 의류는 따로 판단하며 이 합계에 포함되지 않습니다. 물품 가격은 인보이스나 영수증을 기준으로 하며, 영수증이 없거나 가격이 지나치게 낮아 보이면 세관이 가격을 직접 정합니다."
+    },
+    {
+      "type": "p",
+      "text": "한도를 넘으면 한도까지의 금액만 면세됩니다. 만 18세 이상 여행자의 경우, 물품 가격이 €1,500 이하라면 초과분에 단일 정액 세율이 매겨집니다. EU 국가에서 직접 들여오는 물품은 30%, 그 밖의 지역에서 오는 물품은 60%이며, 외교부 페이지에 따르면 특별히 지정된 일부 물품에는 20%가 추가로 붙습니다. €1,500을 넘으면 일반 수입 관세율이 적용됩니다. 상업용으로 볼 수 있는 수량이라면 애초에 면세 대상이 아닙니다."
+    },
+    {
+      "type": "h2",
+      "text": "식품, 커피, 향수"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "차, 커피, 인스턴트커피, 초콜릿, 설탕이 들어간 과자류: 각 1kg. 외교부 페이지에 따르면 초콜릿이나 설탕 기반 식품 중 한 가지로 2kg 전체를 채워도 됩니다.",
+        "식물성 식품: 무역부 FAQ는 합계 3kg 단일 한도로 안내하고, 외교부 페이지는 신선하거나 말린 과일과 채소 최대 3kg, 그 밖의 식물성 제품 최대 1kg으로 안내합니다.",
+        "육류, 유제품 등 동물성 제품: 직접 가져가든 우편으로 보내든 반입할 수 없습니다. 치즈와 소시지는 집에 두고 오세요.",
+        "향수, 오드콜로뉴, 로션: 무역부 FAQ는 120ml 이하 5병으로 안내하고, 외교부 페이지는 총 600ml 이하에 스킨케어·메이크업 제품 최대 5개로 설명합니다. 어느 기준이든 일반적인 여행용 분량이라면 문제없습니다."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "휴대폰, 노트북, 카메라"
+    },
+    {
+      "type": "p",
+      "text": "본인이 쓰는 노트북, 카메라, 비디오카메라, 게임기, 휴대폰 1대는 개인 휴대품으로 봅니다. 외교부 페이지에 따르면 고가 물품은 출국 시 다시 가지고 나가는지 세관이 확인할 수 있도록 입국 때 신고가 필요할 수 있으며, 여행용 개인 휴대품은 튀르키예에 두고 갈 수 없습니다. 특히 휴대폰은 예외적인 경우입니다. 무역부 FAQ는 여행자 1인당 3개 역년(달력 기준 연도)마다 휴대폰 1대만 허용하며, 휴대폰은 선물이나 우편으로, 또는 관세를 내는 방식으로도 반입할 수 없습니다. 해외에서 산 휴대폰에 튀르키예 유심을 넣어 쓰려면 먼저 기기를 등록하고 등록비를 내야 하며, 외교부 페이지는 이 금액을 \"2025년 기준\" TRY 45,614.20으로 안내합니다. 해외에서 산 휴대폰으로 현지 회선을 쓸 계획이라면 공식 채널에서 최신 금액을 먼저 확인하세요."
+    },
+    {
+      "type": "h2",
+      "text": "의약품과 반려동물"
+    },
+    {
+      "type": "p",
+      "text": "두 부처 모두에 따르면, 본인이 복용할 의약품은 의사 소견서나 처방전을 세관에 보여 줄 수 있다면 합리적인 분량까지 반입할 수 있습니다. 외교부 페이지는 허용되는 분량이 체류 기간에 따라 달라진다고 덧붙입니다. 약은 원래 포장 그대로 두고, 관련 서류는 기내 수하물에 넣어 다니세요. 반려동물은 최대 2마리(고양이, 개, 새) 또는 관상어 10마리까지 함께 입국할 수 있으며, 수의사 건강 증명서, 예방접종 및 출처 서류, 신원 확인 서류가 필요합니다. 도착 시 수의사의 검사를 받습니다."
+    },
+    {
+      "type": "h2",
+      "text": "녹색 통로와 적색 통로"
+    },
+    {
+      "type": "p",
+      "text": "가지고 온 물품이 모두 면세 한도 안에 있고, 판매 목적이 아니며, 반입 금지나 제한 품목이 아닐 때만 녹색 통로(신고할 물품 없음)를 이용하세요. 한도를 넘었거나, 반입 가능 여부가 애매한 물건이 있거나, 등록해 두고 싶은 고가 물품이 있다면 적색 통로(신고할 물품 있음)로 가서 신고하세요. 외교부 페이지는 면세 한도를 넘기거나 금지 품목을 가지고 오면 벌금 이상의 불이익을 받을 수 있다고 경고합니다. 신고하는 데 드는 시간은 몇 분이면 충분합니다."
+    },
+    {
+      "type": "h2",
+      "text": "5분이면 끝나는 짐 싸기 체크리스트"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "담배와 술은 가족 단위가 아니라 성인 1인당으로 세고, 아이 가방에는 담배와 주류를 넣지 마세요.",
+        "선물 가격(본인 옷은 제외)을 합산하고 영수증을 보관하세요. 만 15세 이상 여행자는 1인당 €430, 만 15세 미만 어린이는 €150 이하로 맞추는 것이 목표입니다.",
+        "육류, 치즈 등 동물성 제품은 빼 두세요.",
+        "의약품은 원래 포장 그대로, 처방전이나 의사 소견서와 함께 챙기세요.",
+        "비싼 카메라, 노트북, 보석류가 있다면 출국 절차가 간단하도록 입국 시 신고할지 미리 정해 두세요.",
+        "해외에서 산 휴대폰에 튀르키예 유심을 꽂아 오래 쓸 계획이라면, 먼저 최신 등록비를 확인하세요.",
+        "입국 후 첫 며칠을 더 넓게 계획하고 싶다면 [안전하게 여행하고 흔한 사기를 피하는 방법(영문)](/blog/turkey-tourist-scams-how-to-avoid)과 [이스탄불·카파도키아 7일 일정(영문)](/blog/7-day-turkey-itinerary-istanbul-cappadocia)도 참고하세요."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "이 글은 튀르키예로 들여오는 물품만 다룹니다. 골동품, 오래된 카펫, 역사적 유물 등을 반출하는 규정은 별개이며, 이번 글에서는 공식 안내를 확인할 수 없어 다루지 않았습니다. 이런 물건을 살 계획이라면 값을 치르기 전에 세관에서 요구할 서류를 판매자에게 먼저 요청하세요. 여행 일정에 맞춘 질문이 있다면 [저희 팀에 문의](/contact)해 주세요."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Passenger Transactions — Frequently Asked Questions",
+      "url": "https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/english/passenger-transactions",
+      "publisher": "Republic of Türkiye Ministry of Trade",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Information on Turkish Customs",
+      "url": "https://www.mfa.gov.tr/turkiye_ye-ait-gumruk-bilgileri.en.mfa",
+      "publisher": "Republic of Türkiye Ministry of Foreign Affairs",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Duty-Free Goods (older allowance list)",
+      "url": "https://www.ktb.gov.tr/EN-120416/duty-free-goods.html",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Türkiye clarifies €430 customs exemption for travelers: What is excluded?",
+      "url": "https://www.turkiyetoday.com/nation/turkiye-clarifies-430-customs-exemption-for-travelers-what-is-excluded-3231551",
+      "publisher": "Türkiye Today",
+      "publishedISO": "2026-11-02",
+      "accessedISO": "2026-11-14"
+    }
+  ],
+  "seo": {
+    "intent": "튀르키예 입국 시 관세 없이 반입할 수 있는 물품, 선물, 담배, 주류, 식품, 휴대폰, 의약품의 한도와 세관 신고가 필요한 경우를 알고 싶은 여행자.",
+    "keywords": [
+      "튀르키예 입국 면세 한도",
+      "튀르키예 세관 반입",
+      "튀르키예 €430 면세 한도",
+      "튀르키예 담배 주류 반입 한도",
+      "튀르키예 휴대폰 반입 등록"
+    ],
+    "topicKey": "turkiye-arrival-customs-allowances",
+    "uniqueValue": "무역부와 외교부의 현행 면세 한도를 아직도 널리 복사되는 옛 목록과 대조하고, 2026년 11월 €430 한도 설명을 반영해 1인 기준 짐 싸기 체크리스트로 정리한다."
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Independent review 2026-11-14 (separate agent opened all four sources: ticaret.gov.tr passenger FAQ, mfa.gov.tr customs page, ktb.gov.tr duty-free page, Türkiye Today 2026-11-02). All tobacco/alcohol, €430/€150, 30%/60% up to €1,500, food, perfume (Trade vs MFA discrepancy shown), electronics, one phone per three years, TRY 45,614.20 'as of 2025', medicines and pets figures confirmed against Trade and MFA. Fixes applied in all five locales after review: KTB alcohol wording ('one or two bottles'), plant-food limits attributed (Trade 3 kg vs MFA 3 kg/1 kg), €430 'per traveller aged 15 or over', phone registration tied to Turkish SIM use without unsourced duration/annual-revision claims, Ministry of Trade 'administers and publishes' rather than 'sets', added 'allowances can change; customs makes the final assessment' and MFA's length-of-stay note for medicines. Reviewer pre-fix score 84; 87 after fixes. Risk judged low: attributed travel-logistics information, no individual legal, medical or financial advice. Export rules (antiques, carpets) and cash thresholds deliberately not covered: ktb.gov.tr customs guide blocked by robots.txt. Note: the approved-primary-domain list contains ktb.gov.tr but not ticaret.gov.tr or mfa.gov.tr, which are the authoritative sources here. Translations DE/zh-CN/KO/ES reviewed block by block: no omissions, number changes or material errors; English-only link targets labelled."
+  }
+}
