@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-09",
+  "sourceScan": {
+    "collectedAt": "2026-11-09T12:30:00+03:00",
+    "itemsInspected": 138,
+    "freshItems": 107,
+    "shortfall": 0,
+    "screeningDepth": "All 138 unique titles and agent-written summaries screened; items without a stated publication date kept as reference only and not counted as fresh. Not a claim that every item was read in full.",
+    "collector": "npm run blog:collect reached 0/15 registry endpoints from this cloud environment; collection done with WebSearch/WebFetch by two subagents. Not fetchable: basin.ktb.gov.tr, muze.gov.tr, kultur.istanbul, ibb.istanbul, metro.istanbul (robots), iett.istanbul, sehirhatlari.istanbul, tcdd/tcddtasimacilik, unesco.org; several Turkish RSS feeds and dailysabah.com listings refused (permission timeouts).",
+    "digest": "docs/blog-runs/2026-11-09.sources.json",
+    "sha256": "71fc114f9bbf3262c197e8736ce2dde19e626f4ef2312e27d0c5f132a1f12c00"
+  },
+  "dailyLimit": 3,
+  "decisions": [
+    {
+      "slug": "troy-assos-canakkale-visit-planning",
+      "topicKey": "troy-assos-canakkale-visit-planning",
+      "decision": "publish",
+      "intent": "How do I get to Troy (site and museum) and Assos from Istanbul or Çanakkale, what are the seasonal hours and tickets, and how do I combine them in winter or summer?",
+      "reason": "Scan items: HDN 2026-11-04 (Troy Museum +32.9%, three sites 860,834 visitors, +32.2% in Jan–Sep 2026) and HDN 2026-10-23 (new finds at Troy). Evergreen-but-timely visitor question with no existing coverage; ministry pages (ktb.gov.tr, turkishmuseums.com portal), GoTürkiye and KGM opened for hours, fees, distances and access.",
+      "semanticReview": {
+        "reviewedSlugs": [
+          "5-reasons-foreign-investors-buying-property-turkiye",
+          "7-day-turkey-itinerary-istanbul-cappadocia",
+          "antalya-november-2026-culture-route-festival-cop31",
+          "attend-a-turkish-wedding",
+          "belek-antalya-golf-trip-season-planning",
+          "best-real-estate-deal-turkiye",
+          "best-things-to-do-istanbul-first-time",
+          "best-time-to-visit-turkiye-month-by-month",
+          "business-travellers-guide-istanbul",
+          "buying-property-turkey-foreigner-guide",
+          "cappadocia-hot-air-balloon-guide",
+          "combining-multiple-procedures-one-trip",
+          "cosmetic-surgery-consultation-questions",
+          "cost-of-living-turkey-foreigners-2026",
+          "dental-veneers-implants-turkey-cost-guide-2026",
+          "first-time-business-traveller-guide-istanbul",
+          "foreign-investors-property-turkiye",
+          "fue-vs-dhi-hair-transplant-comparison",
+          "gaziantep-food-weekend-planning",
+          "hagia-sophia-mosque-visitor-guide",
+          "hair-transplant-aftercare-first-30-days",
+          "hair-transplant-recovery-timeline",
+          "hair-transplant-turkey-cost-guide-2026",
+          "hidden-gems-turkiye",
+          "hidden-gems-turkiye-most-tourists-never-find",
+          "hollywood-smile-turkey-process-cost-2026",
+          "hollywood-smile-turkiye",
+          "hollywood-smile-turkiye-complete-guide",
+          "how-to-choose-hair-transplant-clinic-istanbul",
+          "how-to-get-the-best-real-estate-deal-turkiye",
+          "implants-veneers-crowns-which-do-you-need",
+          "is-medical-tourism-turkey-safe",
+          "is-turkey-safe-2026",
+          "is-turkiye-safe-to-visit-2026",
+          "istanbul-ankara-yht-booking-checklist",
+          "istanbul-art-exhibitions-november-december-2026",
+          "istanbul-edirne-train-cerkezkoy-transfer",
+          "istanbul-itinerary-3-5-7-days",
+          "istanbul-museum-access-planning-checklist",
+          "istanbul-museum-pass-or-single-tickets",
+          "istanbul-public-transport-tourist-guide",
+          "istanbul-vs-antalya-property-foreign-buyers",
+          "konya-seb-i-arus-ceremonies-december-2026",
+          "medical-tourism-insurance-complications-coverage",
+          "medical-travel-turkey-planning-checklist",
+          "private-turkiye-itinerary-cappadocia-guide",
+          "rhinoplasty-turkey-cost-process-recovery-2026",
+          "rhinoplasty-turkiye",
+          "rhinoplasty-turkiye-choosing-the-right-surgeon",
+          "topkapi-darphane-museums-archaeology-museums-visit",
+          "touristic-eastern-express-ankara-kars-planning",
+          "turkey-in-winter-premium-travel-guide",
+          "turkey-tourist-scams-how-to-avoid",
+          "turkey-visa-travel-requirements-2026",
+          "turkish-riviera-antalya-bodrum-fethiye-guide",
+          "turkiye-business-destination",
+          "turkiye-museum-site-fees-2027",
+          "turkiye-tourism-2026",
+          "turkiye-tourism-2026-2027-government-initiatives",
+          "what-to-pack-medical-trip-turkey",
+          "why-turkiye-attractive-business-destination",
+          "why-turkiye-hair-transplant-capital-of-the-world",
+          "why-turkiye-hair-transplants",
+          "zirconium-emax-porcelain-veneers-compared"
+        ],
+        "closestSlugs": [
+          "turkiye-museum-site-fees-2027",
+          "private-turkiye-itinerary-cappadocia-guide",
+          "istanbul-edirne-train-cerkezkoy-transfer"
+        ],
+        "whyDifferent": "No existing body covers Troy, Assos, Çanakkale or Gallipoli access; Troy appears only in passing lists (turkiye-tourism-2026). turkiye-museum-site-fees-2027 covers national fees and passes without Troy/Assos prices and is linked rather than repeated; the private itinerary guide's Aegean section covers Ephesus/Şirince only. Pending (unmerged) winter-hours article of 2026-11-02 explicitly omits Troy times. Independent subagent overlap review: distinct."
+      },
+      "sourceUrls": [
+        "https://www.hurriyetdailynews.com/amp/interest-in-troy-and-surrounding-cultural-route-rises-228951",
+        "https://www.ktb.gov.tr/EN-99790/canakkale---troia-troy-national-park.html",
+        "https://goturkiye.com/canakkales-museum-of-troy:-what-to-expect",
+        "https://turkishmuseums.com/museum/detail/2020-canakkale-archaeological-site-of-troy/2020/4",
+        "https://turkishmuseums.com/museum/detail/2021-troy-museum-canakkale/2021/4",
+        "https://turkishmuseums.com/museum/detail/2019-canakkale-assos-archaeological-site/2019/4",
+        "https://kgm.gov.tr/Sayfalar/KGM/SiteEng/Projeler/ProjelerDetay.aspx?q=62"
+      ]
+    },
+    {
+      "slug": "turkiye-resort-flights-summer-2027-booking",
+      "topicKey": "turkiye-resort-flights-2027-booking-strategy",
+      "decision": "publish",
+      "intent": "How should UK, Irish and German travellers book summer 2027 flights to Bodrum, Dalaman, Antalya or İzmir now that Ryanair has no Türkiye flights on sale and capacity is shifting?",
+      "reason": "Scan items: Ryanair Bodrum/Dalaman exit reports (Turizm Ekonomi, Sözcü 2026-10-30), AJet Germany routes (HDN 2026-10-21), DHMİ-based flight declines (Turizm Ekonomi 2026-10-14), minister's WTM 2027 fare/booking forecast (2026-11-05). DHMİ passenger data opened as primary. Article distinguishes confirmed/reported/forecast; booking logistics only.",
+      "semanticReview": {
+        "reviewedSlugs": [
+          "5-reasons-foreign-investors-buying-property-turkiye",
+          "7-day-turkey-itinerary-istanbul-cappadocia",
+          "antalya-november-2026-culture-route-festival-cop31",
+          "attend-a-turkish-wedding",
+          "belek-antalya-golf-trip-season-planning",
+          "best-real-estate-deal-turkiye",
+          "best-things-to-do-istanbul-first-time",
+          "best-time-to-visit-turkiye-month-by-month",
+          "business-travellers-guide-istanbul",
+          "buying-property-turkey-foreigner-guide",
+          "cappadocia-hot-air-balloon-guide",
+          "combining-multiple-procedures-one-trip",
+          "cosmetic-surgery-consultation-questions",
+          "cost-of-living-turkey-foreigners-2026",
+          "dental-veneers-implants-turkey-cost-guide-2026",
+          "first-time-business-traveller-guide-istanbul",
+          "foreign-investors-property-turkiye",
+          "fue-vs-dhi-hair-transplant-comparison",
+          "gaziantep-food-weekend-planning",
+          "hagia-sophia-mosque-visitor-guide",
+          "hair-transplant-aftercare-first-30-days",
+          "hair-transplant-recovery-timeline",
+          "hair-transplant-turkey-cost-guide-2026",
+          "hidden-gems-turkiye",
+          "hidden-gems-turkiye-most-tourists-never-find",
+          "hollywood-smile-turkey-process-cost-2026",
+          "hollywood-smile-turkiye",
+          "hollywood-smile-turkiye-complete-guide",
+          "how-to-choose-hair-transplant-clinic-istanbul",
+          "how-to-get-the-best-real-estate-deal-turkiye",
+          "implants-veneers-crowns-which-do-you-need",
+          "is-medical-tourism-turkey-safe",
+          "is-turkey-safe-2026",
+          "is-turkiye-safe-to-visit-2026",
+          "istanbul-ankara-yht-booking-checklist",
+          "istanbul-art-exhibitions-november-december-2026",
+          "istanbul-edirne-train-cerkezkoy-transfer",
+          "istanbul-itinerary-3-5-7-days",
+          "istanbul-museum-access-planning-checklist",
+          "istanbul-museum-pass-or-single-tickets",
+          "istanbul-public-transport-tourist-guide",
+          "istanbul-vs-antalya-property-foreign-buyers",
+          "konya-seb-i-arus-ceremonies-december-2026",
+          "medical-tourism-insurance-complications-coverage",
+          "medical-travel-turkey-planning-checklist",
+          "private-turkiye-itinerary-cappadocia-guide",
+          "rhinoplasty-turkey-cost-process-recovery-2026",
+          "rhinoplasty-turkiye",
+          "rhinoplasty-turkiye-choosing-the-right-surgeon",
+          "topkapi-darphane-museums-archaeology-museums-visit",
+          "touristic-eastern-express-ankara-kars-planning",
+          "turkey-in-winter-premium-travel-guide",
+          "turkey-tourist-scams-how-to-avoid",
+          "turkey-visa-travel-requirements-2026",
+          "turkish-riviera-antalya-bodrum-fethiye-guide",
+          "turkiye-business-destination",
+          "turkiye-museum-site-fees-2027",
+          "turkiye-tourism-2026",
+          "turkiye-tourism-2026-2027-government-initiatives",
+          "what-to-pack-medical-trip-turkey",
+          "why-turkiye-attractive-business-destination",
+          "why-turkiye-hair-transplant-capital-of-the-world",
+          "why-turkiye-hair-transplants",
+          "zirconium-emax-porcelain-veneers-compared"
+        ],
+        "closestSlugs": [
+          "turkish-riviera-antalya-bodrum-fethiye-guide",
+          "belek-antalya-golf-trip-season-planning",
+          "best-time-to-visit-turkiye-month-by-month"
+        ],
+        "whyDifferent": "The Riviera guide chooses a coast and only lists airport codes; the Belek article covers the AYT transfer and sports-equipment rules; the month-by-month guide covers weather and crowds. No article covers carriers, Ryanair's absence, via-Istanbul connections or booking timing for 2027. Independent subagent overlap review: distinct; links to those guides instead of repeating them."
+      },
+      "sourceUrls": [
+        "https://dhmi.gov.tr/Sayfalar/Haber/havayolunda-9-ayda-1931-milyon-yolcu.aspx",
+        "https://www.turizmekonomi.com/ryanair-drops-all-flights-to-turkiye",
+        "https://www.sozcu.com.tr/avrupa-nin-en-buyuk-havayolu-sirketi-turkiye-yi-listesine-almadi-p374367",
+        "https://www.turizmekonomi.com/antalya-mugla-and-izmir-lose-7500-international-flights-in-9-months",
+        "https://www.turizmekonomi.com/mehmet-nuri-ersoy-flags-two-key-tourism-challenges-for-2027",
+        "https://www.hurriyetdailynews.com/amp/ajet-to-launch-direct-flights-to-five-german-cities-next-summer-228411"
+      ]
+    },
+    {
+      "slug": "ski-season-2026-27-uludag-ergan",
+      "decision": "reject",
+      "reason": "Scan items (Uludağ year-round plan, Ergan grass seeding) are not season-opening facts; evidence too thin for a planning article."
+    },
+    {
+      "slug": "istanbul-exhibitions-winter-2026",
+      "decision": "reject",
+      "reason": "Pera, Istanbul Modern, Sakıp Sabancı items overlap istanbul-art-exhibitions-november-december-2026; candidate for an update of that URL rather than a new one."
+    },
+    {
+      "slug": "touristic-eastern-express-2026-27",
+      "decision": "reject",
+      "reason": "Already covered by touristic-eastern-express-ankara-kars-planning; refresh that article instead."
+    },
+    {
+      "slug": "turkiye-social-media-age-verification-visitors",
+      "decision": "reject",
+      "reason": "Legal/regulatory topic (passport verification for social-media sign-ups from 1 Nov); would require review state and no approved primary source reachable."
+    },
+    {
+      "slug": "hagia-sophia-underground-opening",
+      "decision": "reject",
+      "reason": "Plan only; no opening date announced."
+    },
+    {
+      "slug": "cappadocia-goreme-fairy-chimney-collapse",
+      "decision": "reject",
+      "reason": "News-driven safety story without an official closure/status notice; already rejected 2026-11-02."
+    },
+    {
+      "slug": "adana-culture-route-festival-2026",
+      "decision": "reject",
+      "reason": "Runs 7–15 Nov, already under way; overlaps the culture-route framing in antalya-november-2026-culture-route-festival-cop31."
+    },
+    {
+      "slug": "ankara-jazz-festival-2026",
+      "decision": "reject",
+      "reason": "Festival dates/programme not confirmed from an openable primary source."
+    },
+    {
+      "slug": "dalyan-tethered-balloon",
+      "decision": "reject",
+      "reason": "Single commercial operator promotion; supplier promotion is not an article opportunity."
+    }
+  ],
+  "publishedSlugs": [
+    "troy-assos-canakkale-visit-planning",
+    "turkiye-resort-flights-summer-2027-booking"
+  ],
+  "state": "prepared",
+  "reviewer": "Independent Claude subagents (did not write the drafts): shortlist overlap review across all EN articles; EN fact check of both articles against all 13 cited sources (one required fix applied: single-booking/rebooking wording; optional hedges applied); four-locale translation review for both articles (DE flights: removed an unsupported added sentence and restored hedges in excerpt/labels; zh-CN/ko/es: restored 'reported' hedges). No human, native-speaker or expert certification claimed.",
+  "followUps": [
+    "PR #33 (2026-11-02 winter hours) is still open and unmerged: the automatic merge was blocked by the session permission check; owner merge needed.",
+    "Istanbul exhibitions article: consider updating with Pera 'Cumhuriyetin Kamera Arkası', Istanbul Modern Manuel Çıtak and Locarno-in-Istanbul (26 Nov–6 Dec).",
+    "Troy/Assos: add MüzeKart validity and 2027 fees once muze.gov.tr is reachable."
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/34",
+    "headCommit": "7152b21a47eaa4c714ab740a2afd35cf1e16e2b0",
+    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/FeE4FHzU8HS55YgX2BukVxSQiudf)",
+    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02. Awaiting owner merge; not live.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production; Vercel MCP lacks team access."
+  }
+}
