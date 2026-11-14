@@ -222,7 +222,7 @@
   "publishedSlugs": [
     "turkiye-customs-allowances-arrival-checklist"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": {
     "factCheck": "Independent general-purpose agent, 2026-11-14: opened all four EN sources; verdict 'publish after listed fixes'; all required fixes applied.",
     "localization": "Four independent localization agents (DE, zh-CN, KO, ES); the same reviewer compared every block against EN: no omissions or number changes."
@@ -231,5 +231,25 @@
     "Six earlier batch PRs (#33–#38) are still open and unmerged; their articles are not live.",
     "Consider adding ticaret.gov.tr and mfa.gov.tr to primaryDomains (owner decision; config not changed in this run).",
     "Export rules for antiques/carpets and cash declaration thresholds need a readable official source before a companion article."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/39",
+    "headCommit": "4c55f27e29b9dba495ed441f27e86a5091474568",
+    "checks": "quality: success; Vercel Preview: success",
+    "mergeCommit": "32433af95d09b681d7b56c45e23eff129ca5e0f1",
+    "merge": "Squash-merged via REST on 2026-11-14 after checks passed on the exact head SHA.",
+    "deployment": {
+      "vercelStatus": "success",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/H6qwcSiHA4BzLMPg7RyLFnR77JgY"
+    },
+    "verifiedUrls": {
+      "https://itineraryofturkiye.com/blog/turkiye-customs-allowances-arrival-checklist": 200,
+      "https://itineraryofturkiye.com/de/blog/turkiye-customs-allowances-arrival-checklist": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/turkiye-customs-allowances-arrival-checklist": 200,
+      "https://itineraryofturkiye.com/ko/blog/turkiye-customs-allowances-arrival-checklist": 200,
+      "https://itineraryofturkiye.com/es/blog/turkiye-customs-allowances-arrival-checklist": 200
+    },
+    "seoChecks": "Each live page has a single self-referencing canonical; EN page lists hreflang en/de/zh-CN/ko/es/x-default; sitemap.xml includes the new URLs. Fetched via Vercel MCP (direct shell egress unavailable).",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel."
+  }
 }
