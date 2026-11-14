@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261113-istanbul-ferry-weather",
+  "slug": "istanbul-ferry-cancellations-bad-weather",
+  "locale": "zh-CN",
+  "status": "published",
+  "title": "伊斯坦布尔渡轮因大风或大雾停航？如何确认，以及备选方案",
+  "excerpt": "当西南风（lodos）或大雾让Şehir Hatları、İDO或BUDO停航时，如何读懂气象预警、向运营方确认停航，并改走其他方式穿越博斯普鲁斯海峡，或前往王子群岛、亚洛瓦和布尔萨。",
+  "category": "交通",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-13",
+  "readTime": "7分钟阅读",
+  "body": [
+    {
+      "type": "p",
+      "text": "在伊斯坦布尔，渡轮是最惬意的过海方式，也是马尔马拉海一起大风就最先停运的交通工具。以2026年11月13日为例，[Türkiye Gazetesi报道](https://www.turkiyegazetesi.com.tr/haberler/vapur-seferleri-iptal-mi-son-dakika-13-kasim-sehir-hatlari-ido-budo-iptal-seferler-li-1829000)，由于西南风（lodos）风暴带来的恶劣天气，Şehir Hatları（城市渡轮）取消了前往王子群岛的航班以及博斯坦哲—莫达—卡拉柯伊—卡巴塔什航线；İDO取消了早上耶尼卡帕—亚洛瓦、班德尔马和布尔萨方向的海上巴士；BUDO则取消了穆达尼亚、阿尔木特卢和卡巴塔什航线上的10个班次。本文是为这类日子准备的决策方案。关于伊斯坦布尔交通卡、地铁和有轨电车的基础知识，请参阅我们的[伊斯坦布尔公共交通指南](/blog/istanbul-public-transport-tourist-guide)（英文）。"
+    },
+    {
+      "type": "h2",
+      "text": "第一步：前一晚读懂气象预警"
+    },
+    {
+      "type": "p",
+      "text": "土耳其国家气象局（MGM，mgm.gov.tr）发布分颜色等级的预警。11月13日风暴来临前，[Takvim报道](https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina)气象部门对伊斯坦布尔以及布尔萨、亚洛瓦、科贾埃利、恰纳卡莱等另外十个省份发布了黄色预警。该报援引伊斯坦布尔省长办公室的说法称，周五上午起预计风速为每小时60至90公里，并有短时强风暴。[Milli Gazete](https://milligazete.com.tr/meteoroloji-marmarayi-uyardi-firtina-12-kasimda-basliyor)报道称，MGM于11月11日对马尔马拉地区发布了强风和风暴预警：周四起刮南风和西南风，周五上午起风速达每小时50至75公里，风暴预计从周六傍晚开始减弱。Takvim引述的一位气象学家提醒，整个马尔马拉海都可能出现渡轮停航，尤其是下午；同一报道引用的MGM海况预报显示浪高1至2米，局部可达2.5米。"
+    },
+    {
+      "type": "p",
+      "text": "实用结论：只要伊斯坦布尔处于大风预警范围内，就按“渡轮可能不开”来安排当天行程。阅读预警时留意四点："
+    },
+    {
+      "type": "ul",
+      "items": [
+        "预警颜色和覆盖省份（只有伊斯坦布尔，还是也包括亚洛瓦、布尔萨、巴勒克埃西尔等较长海上航线的目的地）。",
+        "风向和风速：lodos是西南风，poyraz是东北风。",
+        "时间范围，包括预计何时减弱。",
+        "预报是否提到海上交通或浪高。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "第二步：向运营方确认，而不是听码头传言"
+    },
+    {
+      "type": "p",
+      "text": "各运营方分别发布自己的停航通知，而且不会同时停运。[Milli Gazete](https://www.milligazete.com.tr/5-kasim-vapur-seferlerinde-son-durum-ido-bandirma-seferi-iptal-edildi-sehir-hatlari-ve-budo-calisiyor-mu)指出，11月5日İDO取消了班德尔马航班，但Şehir Hatları页面上没有新的整体停航公告，BUDO也没有新的取消。该报建议读者查看sehirhatlari.istanbul、ido.com.tr以及可在线查询时刻表的budo.burulas.com.tr。Turyol和Dentur是独立的私营运营方，需查看它们自己的渠道；我们读到的11月13日报道没有涉及这两家。"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "行程的每一段都要查对应运营方，而不只是第一段。",
+        "留意措辞。11月13日Şehir Hatları的停航是“直至另行通知”，所以早上停航并不能告诉你何时恢复。返程前请再查一次。",
+        "有些航线是改道而不是取消：同一天，阿希扬—安纳托利亚堡—屈楚克苏环线和阿希扬—于斯屈达尔航线改走其他路线。",
+        "仔细看时间。[Milliyet列出](https://www.milliyet.com.tr/bilgi-rehberi/ido-iptal-seferler-13-kasim-cuma-istanbul-deniz-otobusleri-ido-iptal-olan-seferleri-duyurdu-7699734)的İDO取消是具体到班次的（如07:45班德尔马—耶尼卡帕—卡德柯伊、09:05卡巴塔什—卡德柯伊—耶尼卡帕—阿尔木特卢—布尔萨），较晚的班次可能照常开航，也可能稍后被取消。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "最近大风天哪些航线先停"
+    },
+    {
+      "type": "p",
+      "text": "我们没有关于哪些航线最先停运的长期数据，因此以下只是最近两天的规律，并非定律。11月5日的报道中只有İDO的班德尔马航班被取消；11月13日，停航集中在较长的航线：王子群岛、亚洛瓦、阿尔木特卢、穆达尼亚/布尔萨和班德尔马。市内博斯普鲁斯航线部分受影响（博斯坦哲—莫达—卡拉柯伊—卡巴塔什），部分改道。如果你当天的安排依赖去岛上或横渡马尔马拉海，那就是计划中最脆弱的一环。"
+    },
+    {
+      "type": "h2",
+      "text": "穿越博斯普鲁斯海峡的备选：铁路和公路"
+    },
+    {
+      "type": "p",
+      "text": "往返欧亚两岸并不依赖渡轮。Marmaray（马尔马拉铁路）在海峡下方以隧道通行，跨海大桥上则有公交和快速公交（metrobus）。11月1日伊斯坦布尔马拉松期间，7月15日烈士大桥禁止车辆通行，[İETT公告](https://iett.istanbul/Announcement/Detail/3347)称比赛期间津吉尔利库尤至瑟于特吕切什梅之间的快速公交停驶；前往亚洲一侧，可改乘走法提赫苏丹穆罕默德大桥的公交，或乘M2地铁到耶尼卡帕换乘Marmaray，或在屈楚克切克梅杰快速公交站换乘Marmaray。这份公告针对的是马拉松封路，与天气或渡轮无关；我们引用它只是为了说明有哪些陆路选择。渡轮停航时，可以考虑的正是这些路线。"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Marmaray（海底铁路）：不受风浪影响；但渡轮乘客转乘后可能更拥挤，而且从苏丹艾哈迈德、卡拉柯伊或卡德柯伊等酒店区出发，往往需要换乘或步行一段才能到站。",
+        "经7月15日烈士大桥的快速公交：班次多，但走公路，高峰时段常常非常拥挤。",
+        "经法提赫苏丹穆罕默德大桥的市内公交：适合海峡北部，但交通拥堵时较慢。",
+        "出租车：带行李最省心，但风雨天桥上通常更堵，不要指望固定的行程时间。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "我们不给出门到门的时间，因为这取决于你的酒店位置和出发时段。出发前请用路线规划工具查好路线，并留出充足余量。风平浪静时感觉只要20分钟的渡轮，换成陆路可能变成要多次换乘的行程。"
+    },
+    {
+      "type": "h2",
+      "text": "王子群岛：没有陆路备选"
+    },
+    {
+      "type": "p",
+      "text": "王子群岛与大陆之间没有桥梁或隧道。如果Şehir Hatları取消前往岛上的航班——如11月13日从卡巴塔什、贝西克塔什、卡德柯伊、博斯坦哲和马尔泰佩出发的上岛航线——你就无法通过公共交通以其他方式前往。请把上岛日改到天气较平静的日子，并保持灵活。如果你住在岛上，请与住处商量延后离开，并关注运营方的复航通知。在风暴预警生效期间，租用私人船只并不是明智的替代办法。"
+    },
+    {
+      "type": "h2",
+      "text": "亚洛瓦、布尔萨和班德尔马：改走公路，或重新考虑行程"
+    },
+    {
+      "type": "p",
+      "text": "前往亚洛瓦、穆达尼亚/布尔萨和班德尔马，备选是乘长途大巴或自驾走公路。当天比较各大巴公司的时刻表，并预计公路行程的时间和价格与海上巴士不同。如果是布尔萨一日游，早班船取消可能意味着这一天已经不太可行；与其把大半天花在路上，不如改期。"
+    },
+    {
+      "type": "p",
+      "text": "如果你已经买了海上巴士船票，请通过运营方的官方渠道询问如何处理。我们无法核实针对天气停航的公开退款或改签规定，因此不要默认会自动退款。"
+    },
+    {
+      "type": "h2",
+      "text": "为旅游团和航班留出缓冲"
+    },
+    {
+      "type": "p",
+      "text": "据[Takvim引述](https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina)的气象学家所说，强风主要会拉长起飞和降落的间隔，因此对航班的主要影响是等待时间变长和延误，而不是取消。请据此安排："
+    },
+    {
+      "type": "ul",
+      "items": [
+        "不要把王子群岛、亚洛瓦或布尔萨行程安排在国际航班的前一天；放在旅程前段，方便调整。",
+        "选择有明确天气政策的旅游团，付款前问清船班取消时如何处理。",
+        "走陆路去机场。预警当天不要把渡轮纳入机场接送路线。",
+        "出发前一晚和当天早上再查一次MGM和运营方信息。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "大雾天"
+    },
+    {
+      "type": "p",
+      "text": "大雾同样可能导致航班延误或停航。我们资料中最近的停航都由大风引起，因此无法说明大雾时通常哪些航线受影响。方法相同：逐段查看运营方公告，并把Marmaray或过桥路线作为后备。若想在行程中预留一个灵活日，可参考我们的[伊斯坦布尔3、5、7日行程](/blog/istanbul-itinerary-3-5-7-days)（英文）；从中文页面出发，也可以看看[伊斯坦布尔到埃迪尔内的火车换乘攻略](/zh-cn/blog/istanbul-edirne-train-cerkezkoy-transfer)，那是一条不依赖渡轮的一日游选择。更多寒冷季节的旅行建议，请参阅[冬季土耳其](/blog/turkey-in-winter-premium-travel-guide)（英文）。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vapur seferleri iptal mi? Son dakika 13 Kasım Şehir Hatları, İDO, BUDO iptal seferler listesi",
+      "url": "https://www.turkiyegazetesi.com.tr/haberler/vapur-seferleri-iptal-mi-son-dakika-13-kasim-sehir-hatlari-ido-budo-iptal-seferler-li-1829000",
+      "publisher": "Türkiye Gazetesi",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "İDO İPTAL SEFERLER 13 KASIM CUMA! İstanbul Deniz Otobüsleri (İDO) iptal olan seferleri duyurdu",
+      "url": "https://www.milliyet.com.tr/bilgi-rehberi/ido-iptal-seferler-13-kasim-cuma-istanbul-deniz-otobusleri-ido-iptal-olan-seferleri-duyurdu-7699734",
+      "publisher": "Milliyet",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "5 Kasım vapur seferlerinde son durum: İDO Bandırma seferi iptal edildi, Şehir Hatları ve BUDO çalışıyor mu?",
+      "url": "https://www.milligazete.com.tr/5-kasim-vapur-seferlerinde-son-durum-ido-bandirma-seferi-iptal-edildi-sehir-hatlari-ve-budo-calisiyor-mu",
+      "publisher": "Milli Gazete",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Meteoroloji Marmara'yı uyardı: Fırtına 12 Kasım'da başlıyor",
+      "url": "https://milligazete.com.tr/meteoroloji-marmarayi-uyardi-firtina-12-kasimda-basliyor",
+      "publisher": "Milli Gazete",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Meteoroloji'den 11 ile sarı kodlu alarm! İstanbul'da 90 km hızla fırtına: Hafta sonu hava nasıl olacak?",
+      "url": "https://www.takvim.com.tr/meteoroloji/2026/11/12/meteorolojiden-11-ile-sari-kodlu-uyari-istanbulda-90-km-hizla-firtina",
+      "publisher": "Takvim",
+      "accessedISO": "2026-11-13"
+    },
+    {
+      "title": "Türkiye İş Bankası 48. İstanbul Maratonu Nedeniyle Metrobüs ve Otobüs Hatlarımızda Sefer Düzenlemesi",
+      "url": "https://iett.istanbul/Announcement/Detail/3347",
+      "publisher": "İETT (Istanbul Metropolitan Municipality)",
+      "accessedISO": "2026-11-13"
+    }
+  ],
+  "seo": {
+    "intent": "确认伊斯坦布尔渡轮和海上巴士是否因大风或大雾停航、在哪里核实，以及如何改道穿越博斯普鲁斯海峡或前往王子群岛、亚洛瓦、布尔萨。",
+    "keywords": [
+      "伊斯坦布尔渡轮停航",
+      "伊斯坦布尔 大风 渡轮",
+      "Şehir Hatları 停航",
+      "İDO 海上巴士 取消",
+      "Marmaray 代替渡轮",
+      "王子群岛 渡轮 天气"
+    ],
+    "uniqueValue": "恶劣天气日的决策方案：如何读MGM预警、每段行程查哪个运营方页面、以铁路和公路穿越海峡的备选及其真实代价，并分别说明王子群岛（无陆路选项）和亚洛瓦/布尔萨，依据2026年11月5日和13日的停航情况。",
+    "topicKey": "istanbul-ferry-weather-cancellation-plan-b"
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "2026-11-13英文原文的简体中文版。一个独立的AI代理于2026-11-13根据已打开的六个来源核查了英文版事实（修正了风速与浪高的出处、11月5日的情况、İETT公告的背景及来源标题），并对照英文原文审阅了本译文。未经人工或母语者审校。未直接打开运营方网站和mgm.gov.tr，未写时刻、票价或退款规定。"
+  }
+}
