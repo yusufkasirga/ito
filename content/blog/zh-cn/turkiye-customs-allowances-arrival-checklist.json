@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261114-customs-allowances",
+  "slug": "turkiye-customs-allowances-arrival-checklist",
+  "locale": "zh-CN",
+  "status": "published",
+  "title": "土耳其入境海关规定：免税额度一览与行李自查清单",
+  "excerpt": "香烟、酒、礼品、食品、手机和药品：入境土耳其的旅客每人可以带多少？本文整理现行的每人免税额度，解读贸易部2026年11月说明后430欧元礼品额度的计算方式，并解释为什么其他网站给出的数字不一样。",
+  "category": "旅行",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-14",
+  "readTime": "7分钟阅读",
+  "body": [
+    {
+      "type": "p",
+      "text": "大多数游客过土耳其海关时都不用停下来，本来也该如此。问题往往出在行李里装了衣服和牙刷之外的东西：送朋友的礼物、第二部手机、一条香烟、机场免税店买的酒、从家里带的香料或奶酪。2026年11月初，土耳其贸易部重新说明了每位旅客430欧元免税额度的适用方式，[Türkiye Today 在11月2日对此作了报道](https://www.turkiyetoday.com/nation/turkiye-clarifies-430-customs-exemption-for-travelers-what-is-excluded-3231551)。本文把现行的官方免税额度整理成一份出发前就能逐项核对的行李清单，并解释为什么你在其他网站上会看到不一样的数字。"
+    },
+    {
+      "type": "h2",
+      "text": "数字对不上时，该信哪个来源"
+    },
+    {
+      "type": "p",
+      "text": "旅客入境的海关规定来自《第4458号海关法》和一项关于旅客免税的政府决定；具体由土耳其贸易部执行管理，并发布了英文版的[旅客通关常见问题](https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/english/passenger-transactions)，其中包括被称为“附件9”（Appendix-9）的个人物品清单。外交部在其[土耳其海关信息页面](https://www.mfa.gov.tr/turkiye_ye-ait-gumruk-bilgileri.en.mfa)上也列出了相同的核心数字。而文化和旅游部网站上一个较早的[免税物品页面](https://www.ktb.gov.tr/EN-120416/duty-free-goods.html)仍在沿用旧数字——200支香烟、一到两瓶葡萄酒或烈酒、1.5公斤咖啡——同页还列着便携式打字机、内存128 MB的掌上电脑之类的物品，一看就知道年头不短了，但类似的数字至今仍在不少旅游网站上流传。各页面说法不一致时，本文以贸易部的文本为准；出发前不久请再查看一次该页面，因为免税额度可能调整，而且最终以口岸海关人员的现场认定为准。"
+    },
+    {
+      "type": "h2",
+      "text": "烟草和酒类：每人限额"
+    },
+    {
+      "type": "p",
+      "text": "根据贸易部的常见问题解答，每位年满18岁的旅客可随身携带以下物品免税入境："
+    },
+    {
+      "type": "ul",
+      "items": [
+        "香烟600支，或小雪茄100支（每支不超过3克），或雪茄50支，或烟丝250克加卷烟纸200张，或烟斗丝250克；",
+        "酒精度高于22%的酒1升，或酒精度22%及以下的酒2升；",
+        "未满18岁的旅客一律不享受——烟酒免税额度不适用于未成年人；",
+        "这些物品不能通过邮寄或快递提前寄送，必须随身携带入境。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "外交部页面补充说明，每类产品可以在各自的限额内分别使用。免税额度按人计算，所以要按同行的每位成年人分别核算，而不是按整个家庭合计。"
+    },
+    {
+      "type": "h2",
+      "text": "礼品及其他物品：430欧元额度包括什么"
+    },
+    {
+      "type": "p",
+      "text": "除上面列出的个人物品外，非商业用途的礼品和其他物品，每位旅客合计价值不超过430欧元的可以免税；15岁以下旅客的额度为150欧元。根据11月的说明，个人自用的衣物另行认定，不计入这个总额。物品价值以发票或收据为准；如果没有票据，或者票据金额明显偏低，则由海关核定价值。"
+    },
+    {
+      "type": "p",
+      "text": "超出额度时，只有限额以内的部分免税。对于18岁以上的旅客，价值在1,500欧元以内的物品，超出部分按统一的单一税率征收：直接来自欧盟国家的物品为30%，来自其他地区的为60%；外交部页面还提到，部分特别列明的商品另加20%。价值超过1,500欧元的，按正常的进口关税税率征收。凡达到商业数量的物品，一概不适用上述免税规定。"
+    },
+    {
+      "type": "h2",
+      "text": "食品、咖啡和香水"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "茶叶、咖啡、速溶咖啡、巧克力和糖制甜食：各1公斤。外交部页面指出，巧克力或糖制食品可以任选一种，把2公斤的总额全部用在它上面。",
+        "植物性食品：贸易部常见问题只给出一个统一的3公斤限额；外交部页面则规定新鲜或干制的水果和蔬菜不超过3公斤，其他植物产品不超过1公斤。",
+        "肉类、乳制品及其他动物产品：不允许入境，随身携带和邮寄都不行。奶酪和香肠就留在家里吧。",
+        "香水、古龙水和乳液：贸易部常见问题列明的是5瓶，每瓶不超过120毫升；外交部页面的说法是总量不超过600毫升，另加最多5件护肤品或化妆品。无论按哪种说法，正常度假的用量都没有问题。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "手机、笔记本电脑和相机"
+    },
+    {
+      "type": "p",
+      "text": "你自己的笔记本电脑、相机、摄像机、游戏机和一部手机都属于个人物品。外交部页面称，贵重物品可能需要申报，以便海关在你离境时确认你把它们带走了；旅行用的个人物品不能留在土耳其境内。手机是个特例：贸易部常见问题规定，每位旅客每三个日历年只能带入一部手机，而且手机不能作为礼品入境，也不能通过邮寄或缴纳关税的方式进口。在国外买的手机如果要插土耳其SIM卡使用，必须先为设备登记注册并缴纳费用；外交部页面给出的金额为45,614.20土耳其里拉（TRY），标注为“截至2025年”。如果你打算给在国外买的手机办一张土耳其本地号码，请先通过官方渠道查询当前金额。"
+    },
+    {
+      "type": "h2",
+      "text": "药品和宠物"
+    },
+    {
+      "type": "p",
+      "text": "根据两个部的说明，自用药品只要数量合理，并能向海关出示医生的诊断证明或处方，就可以携带入境；外交部页面补充说，可接受的数量取决于你的停留时长。药品请保留原包装，相关文件放在随身行李里。旅客最多可携带两只宠物（猫、狗或鸟）或十条观赏鱼同行，需备齐兽医健康证明、疫苗接种及来源证明文件和身份证明文件；入境时由兽医进行检查。"
+    },
+    {
+      "type": "h2",
+      "text": "走绿色通道还是红色通道"
+    },
+    {
+      "type": "p",
+      "text": "只有当你携带的所有物品都在免税额度以内、非商业用途、且不属于禁止或限制入境的物品时，才可以走绿色通道（无申报通道）。如果超出了某项限额、带了拿不准的东西，或者有贵重物品想要登记，就走红色通道（申报通道）主动申报。外交部页面提醒，超出额度或携带违禁物品可能会被罚款，甚至承担更严重的后果；而申报只需要花几分钟。"
+    },
+    {
+      "type": "h2",
+      "text": "五分钟行李自查清单"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "香烟和酒按每位成年人计算，而不是按家庭计算；孩子的行李里不要放烟酒。",
+        "把礼品（不含自己的衣物）的价值加总，并保留购物凭证；尽量控制在每位15岁及以上旅客430欧元、每位15岁以下儿童150欧元以内。",
+        "取出肉类、奶酪和其他动物产品。",
+        "药品保留原包装，并附上处方或医生诊断证明。",
+        "想一想是否有昂贵的相机、笔记本电脑或首饰需要在入境时申报，这样离境时会更顺利。",
+        "如果打算长期停留、在国外买的手机里插土耳其SIM卡，先查清当前的登记费。",
+        "想为最初几天做更全面的规划？可以看看我们的[旅行安全与常见骗局防范指南（英文）](/blog/turkey-tourist-scams-how-to-avoid)，以及[伊斯坦布尔和卡帕多奇亚7日行程（英文）](/blog/7-day-turkey-itinerary-istanbul-cappadocia)。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "本文只涉及带入土耳其的物品。带出土耳其的规定——尤其是古董、老地毯和历史文物——是另一套规则，由于本文未能核实相关官方指引，这里不作介绍。如果你打算购买这类物品，请在付款前向卖家索取海关可能要求的文件。如有与具体行程相关的问题，欢迎[联系我们的团队](/contact)。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Passenger Transactions — Frequently Asked Questions",
+      "url": "https://ticaret.gov.tr/gumruk-islemleri/sikca-sorulan-sorular/english/passenger-transactions",
+      "publisher": "Republic of Türkiye Ministry of Trade",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Information on Turkish Customs",
+      "url": "https://www.mfa.gov.tr/turkiye_ye-ait-gumruk-bilgileri.en.mfa",
+      "publisher": "Republic of Türkiye Ministry of Foreign Affairs",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Duty-Free Goods (older allowance list)",
+      "url": "https://www.ktb.gov.tr/EN-120416/duty-free-goods.html",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-14"
+    },
+    {
+      "title": "Türkiye clarifies €430 customs exemption for travelers: What is excluded?",
+      "url": "https://www.turkiyetoday.com/nation/turkiye-clarifies-430-customs-exemption-for-travelers-what-is-excluded-3231551",
+      "publisher": "Türkiye Today",
+      "publishedISO": "2026-11-02",
+      "accessedISO": "2026-11-14"
+    }
+  ],
+  "seo": {
+    "intent": "旅客想了解入境土耳其时，哪些物品、礼品、烟酒、食品、手机和药品可以免税携带，以及什么情况下需要申报。",
+    "keywords": [
+      "土耳其入境海关规定",
+      "土耳其免税额度",
+      "入境土耳其能带什么",
+      "土耳其海关430欧元",
+      "土耳其入境烟酒限额"
+    ],
+    "topicKey": "turkiye-arrival-customs-allowances",
+    "uniqueValue": "对照贸易部和外交部的现行免税额度与仍被广泛转抄的过时清单，结合2026年11月对430欧元额度的说明，整理成一份按人核对的行李自查清单。"
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Independent review 2026-11-14 (separate agent opened all four sources: ticaret.gov.tr passenger FAQ, mfa.gov.tr customs page, ktb.gov.tr duty-free page, Türkiye Today 2026-11-02). All tobacco/alcohol, €430/€150, 30%/60% up to €1,500, food, perfume (Trade vs MFA discrepancy shown), electronics, one phone per three years, TRY 45,614.20 'as of 2025', medicines and pets figures confirmed against Trade and MFA. Fixes applied in all five locales after review: KTB alcohol wording ('one or two bottles'), plant-food limits attributed (Trade 3 kg vs MFA 3 kg/1 kg), €430 'per traveller aged 15 or over', phone registration tied to Turkish SIM use without unsourced duration/annual-revision claims, Ministry of Trade 'administers and publishes' rather than 'sets', added 'allowances can change; customs makes the final assessment' and MFA's length-of-stay note for medicines. Reviewer pre-fix score 84; 87 after fixes. Risk judged low: attributed travel-logistics information, no individual legal, medical or financial advice. Export rules (antiques, carpets) and cash thresholds deliberately not covered: ktb.gov.tr customs guide blocked by robots.txt. Note: the approved-primary-domain list contains ktb.gov.tr but not ticaret.gov.tr or mfa.gov.tr, which are the authoritative sources here. Translations DE/zh-CN/KO/ES reviewed block by block: no omissions, number changes or material errors; English-only link targets labelled."
+  }
+}
