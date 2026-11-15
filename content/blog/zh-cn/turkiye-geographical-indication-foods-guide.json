@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261112-gi-foods",
+  "slug": "turkiye-geographical-indication-foods-guide",
+  "locale": "zh-CN",
+  "status": "published",
+  "title": "土耳其地理标志美食指南：出发前如何查询沿途各省的注册特产并规划吃什么",
+  "excerpt": "教你使用土耳其官方地理标志登记库，查出旅行路线上每个省的注册食品，读懂每条记录的含义，再把结果变成一份切实可行的用餐计划。",
+  "category": "美食",
+  "cover": "/images/dest/trabzon.jpg",
+  "dateISO": "2026-11-12",
+  "readTime": "8分钟阅读",
+  "body": [
+    {
+      "type": "p",
+      "text": "2026年11月初，哈塔伊省（Hatay）当地媒体报道，安塔基亚咖啡（Antakya kahvesi）已获得地理标志注册，并称它是该省第79个注册产品。11月11日，土耳其阿纳多卢通讯社（Anadolu Ajansı）报道称，土耳其专利商标局（TÜRKPATENT）在2026年前十个月为102种产品授予了地理标志，全国总数由此达到1912个。对旅行者来说，这不只是一条经济新闻：记录这些名称的公共登记库，本身就是一张免费、官方的“各省自认家底”地图。本文说明这些标签是什么意思、如何按省查询，以及如何把查询结果变成一顿顿饭，而不是把旅行变成打卡清单。"
+    },
+    {
+      "type": "h2",
+      "text": "地理标志到底是什么"
+    },
+    {
+      "type": "p",
+      "text": "[TÜRKPATENT地理标志门户](https://ci.turkpatent.gov.tr/sayfa/co%C4%9Frafi-i%C5%9Faret-nedir)将地理标志（coğrafi işaret）定义为：因独特品质、声誉或其他特征而把产品与其产地联系起来的标志。它不仅涵盖食品和农产品，也包括矿产品、手工艺品和工业品，所以你查到的条目并非都能吃。地理标志分为两类，另有一种相关的第三种标签："
+    },
+    {
+      "type": "ul",
+      "items": [
+        "原产地名称（menşe adı）：产品的品质主要或完全来自某一地区的自然和人文因素，生产、加工及其他所有环节都在该地区内完成。",
+        "产地标志（mahreç işareti）：产品因声誉或其他特征与某一地区相关联，生产或加工中至少有一个环节必须在当地进行，其余环节可以在别处完成。",
+        "传统产品名称（geleneksel ürün adı）：它不是产地标签，而是一个以传统方式制作的产品在市场上使用至少30年的名称。据阿纳多卢通讯社报道，土耳其咖啡（Türk kahvesi）于2026年以这一类别注册。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "门户的[消费者页面](https://ci.turkpatent.gov.tr/sayfa/t%C3%BCketiciler-i%C3%A7in)还提供了一个对购物很有用的细节：自2018年1月起，注册产品必须使用相应的标识。因此在包装食品上，你可能会在名称旁看到一个小小的原产地名称或产地标志图标。"
+    },
+    {
+      "type": "h2",
+      "text": "如何在官方登记库中按省查询"
+    },
+    {
+      "type": "p",
+      "text": "登记库位于TÜRKPATENT的地理标志门户（Coğrafi İşaretler Portalı，ci.turkpatent.gov.tr），界面为土耳其语。我们在2026年11月查看时，门户的分省列表页面提示可以按省搜索地理标志（“İl bazında coğrafi işaret arayabilirsiniz”），菜单把“Coğrafi İşaretler”（地理标志）和“Geleneksel Ürün Adları”（传统产品名称）分开列出。[数据库页面](https://ci.turkpatent.gov.tr/veri-tabani)的每条记录包括：名称、档案号、申请日期、注册号、注册日期、类型（Türü）、产品类别（Ürün grubu）、省份（İl）和状态（Durumu）。"
+    },
+    {
+      "type": "p",
+      "text": "点开单条记录，除了上述字段，还能看到注册方以及注册证书的PDF链接。注册方通常是当地商会或市政府，例如阿菲永奶油（Afyon kaymağı）由阿菲永商会注册，阿菲永软糖（Afyon lokumu）由阿菲永卡拉希萨尔市政府注册。两个实用建议：先按省筛选，再看“产品类别”一栏，如果你只关心菜肴，就可以跳过手工艺品和农作物原料；另外要留意“状态”一栏，它显示每条记录目前所处的阶段。阿纳多卢通讯社在公布102项注册时报道，当时仍有805项申请在处理中。像安塔基亚咖啡这样刚刚注册的产品，可能先出现在新闻里，之后才能在数据库中轻松找到。请按名称搜索，在条目出现之前，以新闻报道作为参考。"
+    },
+    {
+      "type": "h2",
+      "text": "四步法：规划沿途吃什么"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "列出路线经过的省份，而不只是城市。一个省的条目往往包含下辖县区的产品，所以在特拉布宗（Trabzon）停留，也可能意味着以阿克恰阿巴特（Akçaabat）或哈姆西柯伊（Hamsiköy）命名的产品。",
+        "整理每个省的注册食品，大致分成三组：需要坐下来吃的菜（汤、曼特饺子、烤肉），早上会遇到的东西（面包、芝麻圈simit、kaymak奶油、奶酪、sucuk香肠），以及按重量购买的东西（蜂蜜、果干、甜点）。",
+        "把每一组对应到一天中的某个时段。早餐桌、面包店和甜点铺、市场街，是大多数旅行者自然会碰到第二、三组食品的地方；第一组则需要一顿正式的饭，最好安排在你在该城市时间最充裕的那天。",
+        "每站只选两三样，其余放下。清单太长会让人赶场；清单短，你才能用全名点菜，并留意它和你熟悉的版本有什么不同。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "以上只是一般性建议，不是时刻表：早餐吃什么、哪家面包店开得早、哪些菜有季节性，各地都不一样，请当天询问住处主人或在当地确认。"
+    },
+    {
+      "type": "h2",
+      "text": "常见路线上的例子"
+    },
+    {
+      "type": "p",
+      "text": "以下条目来自登记库和土耳其官方旅游门户GoTürkiye，仅用来说明方法如何运作，既不完整，也不是排名。"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "阿菲永卡拉希萨尔（Afyonkarahisar）：阿菲永奶油（Afyon kaymağı）注册为原产地名称（2009年），阿菲永香肠（Afyon sucuğu）注册为产地标志（2005年），阿菲永软糖（Afyon lokumu）同样注册为产地标志（2021年）。GoTürkiye的[阿菲永两日美食路线](https://goturkiye.com/routes/2-day-gastronomy-route-in-afyonkarahisar)把sucuk香肠和kaymak奶油与乡村面包一起放在早餐桌上，并提到该市于2019年以美食类别加入联合国教科文组织创意城市网络。详见我们的[阿菲永目的地页面（英文）](/destinations/afyon)。",
+        "开塞利（Kayseri）：开塞利曼特饺子（Kayseri mantısı）以产地标志注册，归入“菜肴与汤品”类别（2009年）。阿纳多卢通讯社报道的2026年新一批注册又增加了Kayseri purov mantısı和pöç kebabı。如果你经开塞利前往卡帕多奇亚，安排一顿曼特饺子午餐很方便；其余行程可参考我们的[卡帕多奇亚私人行程指南（英文）](/blog/private-turkiye-itinerary-cappadocia-guide)。",
+        "特拉布宗（Trabzon）：阿克恰阿巴特肉丸（Akçaabat köftesi，2010年）和哈姆西柯伊米布丁（Hamsiköy sütlacı，2017年）均为产地标志，2026年又新增了特拉布宗冰淇淋（Trabzon dondurması）。请看[特拉布宗页面（英文）](/destinations/trabzon)。",
+        "哈塔伊（Hatay）：安塔基亚奶酪丝饼（Antakya künefesi）自2008年起就是注册产地标志。2026年的新注册包括Hatay abugannuş、Hatay Arap kebabı、Hatay haytalı和Hatay müşebbek tatlısı，属于哈塔伊今年获得的15项注册之列。",
+        "爱琴海沿岸与安纳托利亚：GoTürkiye的[地理标志产品清单](https://goturkiye.com/blog/7-gi-certified-turkish-products)收录了艾登（Aydın）无花果、马拉蒂亚（Malatya）杏、卡斯塔莫努省塔什柯普吕（Taşköprü）大蒜、穆拉省米拉斯（Milas）橄榄油，以及恰纳卡莱的Bayramiç beyazı——一种被介绍为夏季水果的白色油桃。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "加济安泰普（Gaziantep）也有一长串注册食品，其中包括2026年的几项新条目；如何安排在那里的节奏，请看我们的[加济安泰普美食周末指南](/zh-cn/blog/gaziantep-food-weekend-planning)。"
+    },
+    {
+      "type": "h2",
+      "text": "关于安塔基亚咖啡的实用提示"
+    },
+    {
+      "type": "p",
+      "text": "据《Söz Gazetesi》2026年11月9日的报道，安塔基亚咖啡颜色深、经过两次烘焙，以浓郁香气著称，用细腰茶杯而不是小咖啡杯盛装，当地也称它为“süvari”。对游客来说，实用的一点是：它和土耳其咖啡不是同一种点法。如果你在安塔基亚想喝当地风格，请直接说出它的名字。我们的[哈塔伊页面（英文）](/destinations/hatay)对该省有更全面的介绍。"
+    },
+    {
+      "type": "h2",
+      "text": "地理标志不能告诉你的事"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "它不是对餐厅、咖啡馆或商店的评级。登记库记录的是产品名称、类型和注册方，并不说明如今哪家厨房做得好。",
+        "TÜRKPATENT把这一制度描述为与产地和特征相关的品质标志，但一条记录并不能告诉你眼前这盘菜或这罐东西是否符合描述。购买包装食品时留意标识，在餐厅则相信自己的判断。",
+        "在土耳其注册属于国内登记，在欧盟注册是另一套程序。例如GoTürkiye提到，米拉斯橄榄油是第一个获得欧盟地理标志的土耳其橄榄油，但不要想当然地认为其他产品也有。",
+        "它不提供季节、营业时间或价格。注册的夏季水果一月份不会出现在摊位上，有些菜只在特定人家或特定月份才做。",
+        "没有条目不代表当地没有特色。许多地方菜并未注册，而且到2026年底仍有数百项申请在处理中。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "出发前检查清单"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "写下路线经过的每一个省（il），包括过夜的地点。",
+        "在TÜRKPATENT门户逐一搜索，记下食品条目及其类型和状态。",
+        "照登记原样抄下土耳其语名称，点菜时就用这些名字。",
+        "把清单分成早餐与烘焙、正餐菜肴、按重量购买三类。",
+        "每站选两三样，分配到你真正有时间的那一餐。",
+        "购买包装产品时，留意原产地名称或产地标志的标识。",
+        "新闻里刚宣布的注册，在你看到条目之前都先视为暂定。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "这样使用，登记库就不是一份战利品清单，而是一个开启对话的起点：它告诉你一个省选择保护哪些名字，而这往往是走进当地厨房最快的路。如果你想找些更安静、这些产品融入日常生活的去处，可以接着读我们的[土耳其小众目的地指南（英文）](/blog/hidden-gems-turkiye-most-tourists-never-find)。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Coğrafi İşaret Nedir?",
+      "url": "https://ci.turkpatent.gov.tr/sayfa/co%C4%9Frafi-i%C5%9Faret-nedir",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Tüketiciler İçin (emblems and what they signal)",
+      "url": "https://ci.turkpatent.gov.tr/sayfa/t%C3%BCketiciler-i%C3%A7in",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Veritabanı (register database)",
+      "url": "https://ci.turkpatent.gov.tr/veri-tabani",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Kaymağı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37936",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Sucuğu – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37934",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Afyon Lokumu – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38311",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Kayseri Mantısı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37972",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Akçaabat Köftesi – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38002",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Hamsiköy Sütlacı – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/38380",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Antakya Künefesi – register entry",
+      "url": "https://ci.turkpatent.gov.tr/cografi-isaretler/detay/37968",
+      "publisher": "TÜRKPATENT – Coğrafi İşaretler Portalı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Anadolu'nun 102 yöresel değerine coğrafi işaret koruması",
+      "url": "https://www.aa.com.tr/tr/ekonomi/anadolunun-102-yoresel-degerine-cografi-isaret-korumasi/4119855",
+      "publisher": "Anadolu Ajansı",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Anadolu'nun 102 yöresel değerine coğrafi işaret koruması (AA report)",
+      "url": "https://www.adanapost.com/ekonomi/anadolunun-102-yoresel-degerine-cografi-isaret-korumasi-224930h",
+      "publisher": "Adana Post",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "Antakya Kahvesi tescillendi",
+      "url": "https://sozgazetesi.com.tr/2026/11/09/antakya-kahvesi-tescillendi/",
+      "publisher": "Söz Gazetesi",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "7 GI-Certified Turkish Products",
+      "url": "https://goturkiye.com/blog/7-gi-certified-turkish-products",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-11-12"
+    },
+    {
+      "title": "2-Day Gastronomy Route in Afyonkarahisar",
+      "url": "https://goturkiye.com/routes/2-day-gastronomy-route-in-afyonkarahisar",
+      "publisher": "GoTürkiye (Türkiye Tourism Promotion and Development Agency)",
+      "accessedISO": "2026-11-12"
+    }
+  ],
+  "seo": {
+    "intent": "查找并核实土耳其旅行路线上各省的地理标志食品，并据此规划用餐。",
+    "keywords": [
+      "土耳其地理标志美食",
+      "土耳其各省特产",
+      "TÜRKPATENT 地理标志查询",
+      "安塔基亚咖啡",
+      "阿菲永 kaymak 奶油 香肠"
+    ],
+    "uniqueValue": "教旅行者按省阅读TÜRKPATENT官方登记库的方法，附有据可查的示例条目，并清楚说明地理标志能说明什么、不能说明什么。",
+    "topicKey": "turkiye-geographical-indication-food-route-planning"
+  },
+  "quality": {
+    "score": 88,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Full Simplified Chinese localization of the 2026-11-12 EN master; all facts identical to EN (TÜRKPATENT portal definitions, emblem rule since 01/2018, database columns, register entries with number/year/type; AA 2026-11-11: 102, 1,912, 805, Hatay 15, Türk kahvesi as traditional product name; Söz Gazetesi 2026-11-09: Antakya coffee as Hatay's 79th; GoTürkiye Afyon route, UNESCO 2019, Milas olive oil). Four-step method is editorial synthesis. English-only targets labelled （英文）. Cover trabzon.jpg because Trabzon is an example province; shows no dish. Independent review 2026-11-12: re-opened all cited TÜRKPATENT entries (types, numbers, dates, registrants), definitions/emblem pages, AA text via Adana Post (aa.com.tr fetch failed), Söz Gazetesi and both GoTürkiye pages; all figures confirmed. Antakya coffee registration now attributed to local press; unsupported claims that the database lists pending applications and that unregistered dishes explain the pending list were softened; 'main page' corrected to province listing. Same fixes applied in all locales."
+  }
+}
