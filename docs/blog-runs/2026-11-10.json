@@ -406,7 +406,7 @@
     "akdamar-island-lake-van-visit-planning",
     "izmir-food-two-day-planning"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents (did not write the drafts): one shortlist overlap review across all EN content, legacy and destination pages plus the three unmerged-PR articles; one EN fact check per article re-opening every cited source (required fixes applied); one four-locale translation review per article with fixes applied. No human, native-speaker or expert certification claimed.",
   "followUps": [
     "PR #33 (2026-11-02) and PR #34 (2026-11-09) remain open and unmerged: both green, automatic merge was blocked by the session permission check; owner merge needed.",
@@ -419,7 +419,9 @@
     "pr": "https://github.com/yusufkasirga/ito/pull/35",
     "headCommit": "f833785ebe6213f238414bf56b5d8b9cf446e819",
     "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/2xWmR3iknd7EiLj4dpmavSVuc6mL)",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02 and 2026-11-09. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+    "merge": "Merged by the owner (yusufkasirga) on 2026-11-15T08:15:03Z as b2ba186c7b891bb3b9f89015bf846356e6ac6de7 (squash).",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production.",
+    "deployment": "Production deployment for b2ba186 was superseded and canceled while PRs #33–#38 were merged in sequence; the batch went live with production deployment dpl_A5KxMDn5XoFBrrg7ACSW8ZED3xLD (main 65606bc, READY).",
+    "verification": "2026-11-15: /blog/side-ancient-city-visit-planning, /zh-cn/blog/akdamar-island-lake-van-visit-planning and /ko/blog/izmir-food-two-day-planning returned 200 with a single self-canonical; the EN page lists en/de/zh-CN/ko/es + x-default alternates; sitemap.xml contains all five locale URLs for each of the three slugs."
   }
 }
