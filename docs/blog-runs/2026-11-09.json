@@ -246,7 +246,7 @@
     "troy-assos-canakkale-visit-planning",
     "turkiye-resort-flights-summer-2027-booking"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents (did not write the drafts): shortlist overlap review across all EN articles; EN fact check of both articles against all 13 cited sources (one required fix applied: single-booking/rebooking wording; optional hedges applied); four-locale translation review for both articles (DE flights: removed an unsupported added sentence and restored hedges in excerpt/labels; zh-CN/ko/es: restored 'reported' hedges). No human, native-speaker or expert certification claimed.",
   "followUps": [
     "PR #33 (2026-11-02 winter hours) is still open and unmerged: the automatic merge was blocked by the session permission check; owner merge needed.",
@@ -255,9 +255,27 @@
   ],
   "publication": {
     "pr": "https://github.com/yusufkasirga/ito/pull/34",
-    "headCommit": "7152b21a47eaa4c714ab740a2afd35cf1e16e2b0",
-    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/FeE4FHzU8HS55YgX2BukVxSQiudf)",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production; Vercel MCP lacks team access."
+    "headCommit": "32c48907c6fc8be207190b7246289af816e125ae",
+    "checks": "quality: success; Vercel Preview: success",
+    "mergeCommit": "727b721cb921f05f77520e249a77391fbcb0f1fe",
+    "merge": "Squash-merged via REST on 2026-11-15 on Yusuf's explicit request to publish all pending batches, after checks passed on the exact head SHA and a combined validation of main plus PRs #33–#38 (blog:validate 145 checked, 0 errors; blog:test 41/41).",
+    "deployment": {
+      "vercelStatus": "success",
+      "commit": "65606bc63b009a379894c72d642216cd51e270db",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD"
+    },
+    "verifiedUrls": {
+      "https://itineraryofturkiye.com/blog/troy-assos-canakkale-visit-planning": 200,
+      "https://itineraryofturkiye.com/de/blog/troy-assos-canakkale-visit-planning": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/troy-assos-canakkale-visit-planning": 200,
+      "https://itineraryofturkiye.com/ko/blog/troy-assos-canakkale-visit-planning": 200,
+      "https://itineraryofturkiye.com/es/blog/troy-assos-canakkale-visit-planning": 200,
+      "https://itineraryofturkiye.com/blog/turkiye-resort-flights-summer-2027-booking": 200,
+      "https://itineraryofturkiye.com/de/blog/turkiye-resort-flights-summer-2027-booking": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/turkiye-resort-flights-summer-2027-booking": 200,
+      "https://itineraryofturkiye.com/ko/blog/turkiye-resort-flights-summer-2027-booking": 200,
+      "https://itineraryofturkiye.com/es/blog/turkiye-resort-flights-summer-2027-booking": 200
+    },
+    "seoChecks": "Single self-referencing canonical, full hreflang set incl. x-default, URL present in sitemap.xml; fetched via Vercel MCP on 2026-11-15."
   }
 }

@@ -320,7 +320,7 @@
   "publishedSlugs": [
     "istanbul-ferry-cancellations-bad-weather"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents: one shortlist/overlap reviewer for all three topics; one EN fact-check + four-locale translation reviewer for the published article (separate from the writer). All six sources reopened by the reviewer; corrections applied in all five locales before flags were set. No human or native-speaker certification claimed.",
   "followUps": [
     "Open PRs #33–#37 (2026-11-02, 11-09, 11-10, 11-11, 11-12) still unmerged at the start of this run; their articles are not live. Overlap checked against them anyway.",
@@ -329,9 +329,22 @@
   ],
   "publication": {
     "pr": "https://github.com/yusufkasirga/ito/pull/38",
-    "headCommit": "3250466cf7733a11d08e583e3e97cc5202c64056",
+    "headCommit": "df1b93fb10a5fa0a72e7471e73f30853387bfbef",
     "checks": "quality: success; Vercel Preview: success",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02 and 11-09 to 11-12. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and the Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the article is not deployed to production."
+    "mergeCommit": "65606bc63b009a379894c72d642216cd51e270db",
+    "merge": "Squash-merged via REST on 2026-11-15 on Yusuf's explicit request to publish all pending batches, after checks passed on the exact head SHA and a combined validation of main plus PRs #33–#38 (blog:validate 145 checked, 0 errors; blog:test 41/41).",
+    "deployment": {
+      "vercelStatus": "success",
+      "commit": "65606bc63b009a379894c72d642216cd51e270db",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD"
+    },
+    "verifiedUrls": {
+      "https://itineraryofturkiye.com/blog/istanbul-ferry-cancellations-bad-weather": 200,
+      "https://itineraryofturkiye.com/de/blog/istanbul-ferry-cancellations-bad-weather": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/istanbul-ferry-cancellations-bad-weather": 200,
+      "https://itineraryofturkiye.com/ko/blog/istanbul-ferry-cancellations-bad-weather": 200,
+      "https://itineraryofturkiye.com/es/blog/istanbul-ferry-cancellations-bad-weather": 200
+    },
+    "seoChecks": "Single self-referencing canonical, full hreflang set incl. x-default, URL present in sitemap.xml; fetched via Vercel MCP on 2026-11-15."
   }
 }
