@@ -356,11 +356,11 @@
     "headCommit": "759c4764a0df436d371129ccbf030ba1db3c6ef6",
     "checks": "quality: success; Vercel Preview: success",
     "mergeCommit": "f3b6ce6bd3e03b252c6723840d8bd291f6ed5f49",
-    "merge": "Squash-merged via REST on 2026-11-15 on Yusuf's explicit request to publish all pending batches, after checks passed on the exact head SHA and a combined validation of main plus PRs #33–#38 (blog:validate 145 checked, 0 errors; blog:test 41/41).",
+    "merge": "Merged by the owner on 2026-11-15.",
     "deployment": {
-      "vercelStatus": "success",
-      "commit": "65606bc63b009a379894c72d642216cd51e270db",
-      "url": "https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD"
+      "provider": "Vercel",
+      "status": "success",
+      "inspectorUrl": "https://vercel.com/yusufkasirgas-projects/ito/DegycTsnVgLVQ7jo91mgVLadCQG6"
     },
     "verifiedUrls": {
       "https://itineraryofturkiye.com/blog/turkiye-museum-site-winter-hours-2026-27": 200,
@@ -369,6 +369,10 @@
       "https://itineraryofturkiye.com/ko/blog/turkiye-museum-site-winter-hours-2026-27": 200,
       "https://itineraryofturkiye.com/es/blog/turkiye-museum-site-winter-hours-2026-27": 200
     },
-    "seoChecks": "Single self-referencing canonical, full hreflang set incl. x-default, URL present in sitemap.xml; fetched via Vercel MCP on 2026-11-15."
+    "seoChecks": "Single self-referencing canonical, full hreflang set incl. x-default, URL present in sitemap.xml; fetched via Vercel MCP on 2026-11-15.",
+    "mergedAt": "2026-11-15T08:14:44Z",
+    "mergedBy": "yusufkasirga (owner merged manually; the automatic merge had been blocked by the session permission check)",
+    "verifiedAt": "2026-11-15",
+    "verification": "Vercel MCP fetch of the production domain: EN, DE, zh-CN, KO and ES article pages return 200 with full localized bodies and a single self-canonical; EN page carries reciprocal hreflang for all 5 locales plus x-default; slug present in sitemap.xml; held drafts (trade fairs, storm plan) absent."
   }
 }
