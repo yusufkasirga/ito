@@ -352,7 +352,7 @@
     "turkiye-ski-resort-choice-winter-2026-27",
     "ramadan-2027-turkiye-trip-planning"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents: one shortlist/overlap + EN fact check + four-locale translation review per article (separate from the writer subagents). Corrections applied before flags were set. No human or native-speaker certification claimed.",
   "followUps": [
     "Open PRs #33 (2026-11-02), #34 (2026-11-09) and #35 (2026-11-10) are green but unmerged; their articles are not live.",
@@ -360,9 +360,32 @@
   ],
   "publication": {
     "pr": "https://github.com/yusufkasirga/ito/pull/36",
-    "headCommit": "250cd347d44d5ddde7a6fc821281e066e4b07827",
-    "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/GX8PrYZj4ubWpLnZJVKcEgpYt8se)",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02, 2026-11-09 and 2026-11-10. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+    "headCommit": "04e0d90c8c91b626bc664f47784a4b099cc92bc5",
+    "checks": "quality: success; Vercel Preview: success",
+    "mergeCommit": "34737b3fb3ba76539ba85758975fedb5262b1186",
+    "merge": "Squash-merged via REST on 2026-11-15 on Yusuf's explicit request to publish all pending batches, after checks passed on the exact head SHA and a combined validation of main plus PRs #33–#38 (blog:validate 145 checked, 0 errors; blog:test 41/41).",
+    "deployment": {
+      "vercelStatus": "success",
+      "commit": "65606bc63b009a379894c72d642216cd51e270db",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD"
+    },
+    "verifiedUrls": {
+      "https://itineraryofturkiye.com/blog/istanbul-airport-or-sabiha-gokcen": 200,
+      "https://itineraryofturkiye.com/de/blog/istanbul-airport-or-sabiha-gokcen": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/istanbul-airport-or-sabiha-gokcen": 200,
+      "https://itineraryofturkiye.com/ko/blog/istanbul-airport-or-sabiha-gokcen": 200,
+      "https://itineraryofturkiye.com/es/blog/istanbul-airport-or-sabiha-gokcen": 200,
+      "https://itineraryofturkiye.com/blog/turkiye-ski-resort-choice-winter-2026-27": 200,
+      "https://itineraryofturkiye.com/de/blog/turkiye-ski-resort-choice-winter-2026-27": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/turkiye-ski-resort-choice-winter-2026-27": 200,
+      "https://itineraryofturkiye.com/ko/blog/turkiye-ski-resort-choice-winter-2026-27": 200,
+      "https://itineraryofturkiye.com/es/blog/turkiye-ski-resort-choice-winter-2026-27": 200,
+      "https://itineraryofturkiye.com/blog/ramadan-2027-turkiye-trip-planning": 200,
+      "https://itineraryofturkiye.com/de/blog/ramadan-2027-turkiye-trip-planning": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/ramadan-2027-turkiye-trip-planning": 200,
+      "https://itineraryofturkiye.com/ko/blog/ramadan-2027-turkiye-trip-planning": 200,
+      "https://itineraryofturkiye.com/es/blog/ramadan-2027-turkiye-trip-planning": 200
+    },
+    "seoChecks": "Single self-referencing canonical, full hreflang set incl. x-default, URL present in sitemap.xml; fetched via Vercel MCP on 2026-11-15."
   }
 }
