@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261115-gobeklitepe-sanliurfa",
+  "slug": "gobeklitepe-sanliurfa-visit-planning",
+  "locale": "de",
+  "status": "published",
+  "title": "Göbeklitepe und Şanlıurfa: Den Besuch planen – Ticket für Ticket",
+  "excerpt": "Öffnungszeiten, das 20-€-Ticket für Göbeklitepe, das auch für Karahantepe gilt, die Entfernungen der Stätten von Şanlıurfa und vom Flughafen sowie ein Plan für einen oder zwei Tage, der das Archäologische Museum und Harran ohne unnötige Fahrten einbindet.",
+  "category": "Reisen",
+  "cover": "/images/dest/sanliurfa.jpg",
+  "dateISO": "2026-11-15",
+  "readTime": "7 Min. Lesezeit",
+  "body": [
+    {
+      "type": "p",
+      "text": "Göbeklitepe ist einer der wenigen Orte in der Türkei, zu denen Menschen eigens für eine einzige Stätte anreisen. Die steinernen Anlagen mit ihren T-förmigen Pfeilern stammen laut dem [Eintrag in der UNESCO-Welterbeliste](https://whc.unesco.org/en/list/1572/) aus dem präkeramischen Neolithikum, etwa 9600–8200 v. Chr. Sie sind also älter als die Töpferei und gehören in die Zeit, in der sich Jäger und Sammler den ersten bäuerlichen Gemeinschaften annäherten. Planen Sie Zeit für die Stätte selbst und für die Anfahrt ein. Ob die Reise entspannt oder gehetzt wirkt, entscheidet die Logistik drumherum: welches Ticket Sie kaufen, wann die Tore schließen, wie Sie einen Hügel 15 km außerhalb der Stadt erreichen und was in Şanlıurfa sonst noch Ihre Zeit verdient."
+    },
+    {
+      "type": "p",
+      "text": "Dieser Ratgeber stützt sich für Öffnungszeiten und Eintrittspreise auf die Seiten des Ministeriums für Kultur und Tourismus zu den einzelnen Stätten (geprüft am 15. November 2026) und sagt klar, wo offizielle Angaben fehlen oder mehrdeutig sind."
+    },
+    {
+      "type": "h2",
+      "text": "Das Wichtigste auf einen Blick"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Lage: etwa 15 km nordöstlich der Stadt Şanlıurfa, nahe dem Dorf Örencik (offizielle [Seite zu Göbeklitepe](https://muze.gov.tr/muze-detay?SectionId=SGT01&DistId=SGT)).",
+        "Öffnungszeiten: täglich 08:30–17:30 Uhr; die Ticketkasse schließt um 17:00 Uhr. Die Seite des Ministeriums nennt keine gesonderten Winterzeiten.",
+        "Ticket: 20 € für ausländische Besucher; laut der Seite gilt dieses Ticket auch für den Eintritt in Karahantepe.",
+        "Weitere Stätten in einem typischen Plan: Karahantepe (Bezirk Haliliye), das Archäologische Museum Şanlıurfa (in der Stadt) und Harran (44 km südlich), alle mit 08:30–17:30 Uhr angegeben, Kassenschluss jeweils 17:00 Uhr. Die Seite zu Harran nennt keinen Eintrittspreis und trägt einen mehrdeutigen Vermerk „Geschlossen“; klären Sie das, bevor Sie hinausfahren.",
+        "Die Eintrittspreise werden regelmäßig angepasst; werfen Sie einen Blick in [unseren Planer für Museumsgebühren 2027](/de/blog/turkiye-museum-site-fees-2027), bevor Sie das Budget für eine Reise im Jahr 2027 festlegen."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Welches Ticket brauchen Sie wirklich?"
+    },
+    {
+      "type": "p",
+      "text": "Für die meisten Besucher lautet die Antwort: ein einziges Göbeklitepe-Ticket. Die Ministeriumsseite zu Göbeklitepe nennt 20 € und erklärt, dass es auch für Karahantepe gilt – wer beide Stätten sehen will, muss Karahantepe also nicht separat kaufen. Die [Seite zu Karahantepe](https://muze.gov.tr/muze-detay?SectionId=KRH01&DistId=MRK) führt ein Ticket für 3 €, das laut der Seite auch für Göbeklitepe gilt; bei unserer Prüfung stand in der Zeile mit dem Preis allerdings auch das Wort „geschlossen“. Betrachten Sie den Status von Karahantepe daher als etwas, das Sie am Besuchstag bestätigen sollten, statt ihn vorauszusetzen."
+    },
+    {
+      "type": "p",
+      "text": "Das Ministerium verkauft außerdem ein Kombiprodukt, das die archäologische Stätte mit einem Göbeklitepe-Animationsbereich verbindet. Der [Katalogeintrag](https://muze.gov.tr/urun-detay?CatalogNo=WEB-MUS23-87-008) nennt jedoch weder Preis noch Einzelheiten, daher können wir nicht sagen, ob es sich lohnt. Museumspässe sind eine eigene Frage: Die offizielle [Seite zu den Pässen](https://muze.gov.tr/museumpass) führt den MuseumPass Türkiye und regionale Pässe auf, nennt Göbeklitepe aber nicht unter den abgedeckten Stätten, und die MüzeKart ist nur für türkische Staatsangehörige gedacht. Wenn Sie für eine größere Rundreise bereits einen Pass besitzen, fragen Sie an der Ticketkasse nach; kaufen Sie aber keinen Pass nur für Şanlıurfa in der Annahme, dass er die Stätte abdeckt."
+    },
+    {
+      "type": "h2",
+      "text": "Anreise"
+    },
+    {
+      "type": "p",
+      "text": "Der Flughafen Şanlıurfa GAP liegt rund 35 km vom Stadtzentrum entfernt. Ein lokaler Nachrichtenratgeber, der sich bei der Entfernung auf die Flughafenbehörde beruft, gibt die Fahrzeit mit dem Auto mit etwa 30–40 Minuten und mit dem Flughafen-Shuttlebus mit etwa 45 Minuten an ([Urfanatik, Juli 2026](https://www.urfanatik.com/gap-havalimani-ile-sanliurfa-arasi-kac-km-arabayla-kac-saat-otobusle-kac-saat-surer)). Laut derselben Quelle verbinden städtische Busse den Flughafen mit einer Haltestelle an der Kreuzung Göbeklitepe Abide in der Stadt; zur Stätte selbst gibt es keinen offiziellen öffentlichen Nahverkehr. Karahantepe liegt laut seiner offiziellen Seite etwa 55 km vom Zentrum Şanlıurfas entfernt, daher setzen die meisten Reisepläne auf Taxi, Mietwagen oder einen gebuchten Fahrer, um beide Stätten zu verbinden."
+    },
+    {
+      "type": "p",
+      "text": "Eine einfache Faustregel: Wenn Sie nur einen Tag haben, übernachten Sie in der Stadt und besuchen die beiden neolithischen Stätten am Vormittag, wenn es auf dem Hügel im Sommer kühler und das Licht weicher ist; nach dem Mittagessen kehren Sie für das Museum zurück."
+    },
+    {
+      "type": "h2",
+      "text": "Ein Plan für einen und einer für zwei Tage"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ein Tag: Göbeklitepe zur Öffnung (08:30 Uhr), Karahantepe am späten Vormittag, sofern geöffnet (rechnen Sie mit etwa einer Stunde Fahrt pro Strecke), Mittagessen in der Stadt, am Nachmittag das Archäologische Museum Şanlıurfa, in der Abenddämmerung Balıklıgöl und das Viertel um den alten Basar.",
+        "Zwei Tage: Tag eins wie oben, nur gemächlicher; an Tag zwei nach Harran (44 km südlich, gleiche Öffnungszeiten 08:30–17:30 Uhr) und zurück zu einem Abend in der Stadt.",
+        "Ankunft per Flugzeug am selben Morgen: Fahren Sie direkt zum Museum oder nach Harran und heben Sie sich Göbeklitepe für den ersten Termin am nächsten Morgen auf, damit Sie nicht gegen den Kassenschluss um 17:00 Uhr anrennen müssen.",
+        "Kombination mit Gaziantep: Şanlıurfa passt gut zu einem [kulinarischen Wochenende in Gaziantep](/de/blog/gaziantep-food-weekend-planning); legen Sie Göbeklitepe auf den Şanlıurfa-Tag mit dem meisten Tageslicht."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Lassen Sie das Archäologische Museum nicht aus"
+    },
+    {
+      "type": "p",
+      "text": "Das [Archäologische Museum Şanlıurfa](https://muze.gov.tr/muze-detay?SectionId=SUM02&DistId=SUM) ist täglich von 08:30 bis 17:30 Uhr geöffnet, der Eintritt ist mit 10 € angegeben. Hier sind viele Funde aus den neolithischen Stätten der Region ausgestellt, was den Hügel verständlicher macht, sobald Sie die Pfeiler an Ort und Stelle sehen. Das Haleplibahçe-Mosaikmuseum befindet sich in einem separaten Gebäude im selben Garten; die Ministeriumsseite sagt nicht, ob das 10-€-Ticket es einschließt, fragen Sie also an der Kasse nach."
+    },
+    {
+      "type": "h2",
+      "text": "Winter und Wetter"
+    },
+    {
+      "type": "p",
+      "text": "Von November bis März ist es ruhiger, und die Mittagssonne brennt weniger – passend für eine Stätte mit wenig Schatten. Der Haken ist das Wetter. Karahantepe war Anfang 2026 wegen Starkregens und heftigen Windes vorübergehend geschlossen und hatte bis zum 4. März 2026 wieder geöffnet, wie [Sabah berichtete](https://www.sabah.com.tr/sanliurfa/2026/03/04/karahantepe-yeniden-ziyaretcilere-kapilarini-acti). Ist Regen oder starker Wind vorhergesagt, prüfen Sie den Status der Stätte, bevor Sie losfahren, und halten Sie den Museumstag flexibel. Nehmen Sie eine zusätzliche Schicht Kleidung mit: Der Hügel liegt ungeschützt."
+    },
+    {
+      "type": "h2",
+      "text": "Checkliste vor der Abreise"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Seien Sie vor 17:00 Uhr an der Ticketkasse von Göbeklitepe; im Sommer besser früher.",
+        "Kaufen Sie das 20-€-Ticket für Göbeklitepe und bewahren Sie es für Karahantepe auf.",
+        "Vergewissern Sie sich, dass Karahantepe am Besuchstag geöffnet ist; der offizielle Eintrag war bei unserer Prüfung mehrdeutig.",
+        "Organisieren Sie eine Fahrt, die beide neolithischen Stätten verbindet; mit Bussen allein klappt das nicht.",
+        "Prüfen Sie die Eintrittspreise kurz vor Ihrem Reisedatum noch einmal.",
+        "Möchten Sie die Region mit Fahrer in eine längere Route einbauen? [Fragen Sie uns](/contact)."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Göbeklitepe Archaeological Site",
+      "url": "https://muze.gov.tr/muze-detay?SectionId=SGT01&DistId=SGT",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Karahantepe Archaeological Site",
+      "url": "https://muze.gov.tr/muze-detay?SectionId=KRH01&DistId=MRK",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Şanlıurfa Archaeology Museum",
+      "url": "https://muze.gov.tr/muze-detay?SectionId=SUM02&DistId=SUM",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Harran Archaeological Site",
+      "url": "https://muze.gov.tr/muze-detay?SectionId=HAR01&DistId=MRK",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Museum passes",
+      "url": "https://muze.gov.tr/museumpass",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Göbeklitepe combined ticket (catalogue entry)",
+      "url": "https://muze.gov.tr/urun-detay?CatalogNo=WEB-MUS23-87-008",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Göbekli Tepe — World Heritage List",
+      "url": "https://whc.unesco.org/en/list/1572/",
+      "publisher": "UNESCO World Heritage Centre",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Karahantepe yeniden ziyaretçilere kapılarını açtı",
+      "url": "https://www.sabah.com.tr/sanliurfa/2026/03/04/karahantepe-yeniden-ziyaretcilere-kapilarini-acti",
+      "publisher": "Sabah",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2026-03-04"
+    },
+    {
+      "title": "GAP Havalimanı ile Şanlıurfa arası kaç km?",
+      "url": "https://www.urfanatik.com/gap-havalimani-ile-sanliurfa-arasi-kac-km-arabayla-kac-saat-otobusle-kac-saat-surer",
+      "publisher": "Urfanatik",
+      "accessedISO": "2026-11-15"
+    }
+  ],
+  "seo": {
+    "intent": "Reisende, die von Şanlıurfa aus einen Besuch in Göbeklitepe planen, suchen Öffnungszeiten, das richtige Ticket, die Anreise und eine Möglichkeit, Karahantepe, das Archäologische Museum und Harran einzubinden.",
+    "keywords": [
+      "Göbeklitepe Besuch",
+      "Göbekli Tepe Tickets",
+      "Göbekli Tepe Öffnungszeiten",
+      "Karahantepe",
+      "Şanlıurfa Reiseplan",
+      "Anreise Göbekli Tepe"
+    ],
+    "topicKey": "gobeklitepe-sanliurfa-visit-logistics",
+    "uniqueValue": "Erklärt anhand der Ministeriumsseiten zu den einzelnen Stätten, dass ein 20-€-Ticket für Göbeklitepe auch Karahantepe abdeckt, benennt, was die offiziellen Seiten offenlassen (Museumspässe, Status von Karahantepe, Kombiticket), und macht aus Öffnungszeiten und Entfernungen Pläne für einen und zwei Tage."
+  },
+  "quality": {
+    "score": 87,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Deutsche Fassung Block für Block mit dem englischen Master abgeglichen (16 Blöcke): alle Absätze, Listen und Überschriften vollständig übertragen, keine Auslassungen oder neuen Fakten. Öffnungszeiten (08:30–17:30/17:00 Uhr), Preise (20 €, 3 €, 10 €), Entfernungen (15, 35, 44, 55 km), Fahrzeiten und Daten unverändert in deutscher Schreibweise. Interne Links auf /de/blog umgestellt (Museumsgebühren 2027, Gaziantep), /contact beibehalten; Quellenliste identisch. Türkische Eigennamen beibehalten."
+  }
+}

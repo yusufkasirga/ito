@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261115-mobile-data-visitors",
+  "slug": "turkiye-mobile-data-sim-esim-visitors",
+  "locale": "de",
+  "status": "published",
+  "title": "Mobiles Internet in der Türkei für Reisende: Roaming, Touristen-SIM oder eSIM und die 120-Tage-Regel für Handys",
+  "excerpt": "Das EU-Roaming zu Inlandspreisen gilt nicht für die Türkei, Touristen-Datenpakete der drei Netzbetreiber gibt es ab einigen hundert Lira, und aus dem Ausland mitgebrachte Handys funktionieren 120 Tage, bevor sie registriert werden müssen. So treffen Sie die richtige Wahl für eine Kurzreise, einen längeren Aufenthalt oder einen erneuten Besuch.",
+  "category": "Reisen",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-15",
+  "readTime": "7 Min. Lesezeit",
+  "body": [
+    {
+      "type": "p",
+      "text": "Online zu bleiben ist in der Türkei einfach, sobald Sie drei Tatsachen kennen, über die viele Besucher stolpern. Erstens liegt die Türkei außerhalb der EU-Roamingzone, sodass ein europäischer Tarif teuer werden kann, sofern Ihr Anbieter die Türkei nicht einschließt. Zweitens verkaufen alle drei türkischen Netzbetreiber Touristenpakete, die Sie mit Reisepass am Flughafen kaufen können. Drittens registriert die Türkei Handys über ihre IMEI-Nummer, und ein aus dem Ausland mitgebrachtes Gerät darf nur für einen begrenzten Zeitraum genutzt werden, bevor es registriert werden muss. Dieser Ratgeber macht aus diesen Fakten eine einfache Entscheidung für Ihre Reise und stützt sich auf Seiten von Netzbetreibern und Behörden, geprüft am 15. November 2026."
+    },
+    {
+      "type": "h2",
+      "text": "Option 1: die eigene SIM im Roaming behalten"
+    },
+    {
+      "type": "p",
+      "text": "Die [Roaming-Seite von „Ihr Europa“](https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm) der EU listet die Länder auf, in denen „Roam like at home“ gilt: die EU, Island, Liechtenstein, Norwegen, Moldau und die Ukraine. Die Türkei steht nicht auf der Liste; sofern Ihr Anbieter keine eigene Türkei-Option hat, gelten die Standardtarife. Tarife aus Großbritannien, den Golfstaaten und anderen Nicht-EU-Ländern unterscheiden sich ebenso stark. Prüfen Sie vor der Landung den Türkei-Preis Ihres Anbieters pro Tag oder pro GB und lassen Sie das Daten-Roaming bis dahin ausgeschaltet."
+    },
+    {
+      "type": "p",
+      "text": "Roaming lohnt sich für ein Wochenende, für Anrufe und SMS-Codes Ihrer Bank auf Ihrer gewohnten Nummer oder wenn Ihr Tarif bereits ein Türkei-Kontingent zu einem fairen Tagespreis enthält."
+    },
+    {
+      "type": "h2",
+      "text": "Option 2: eine türkische Touristen-SIM oder -eSIM"
+    },
+    {
+      "type": "p",
+      "text": "Jedes der drei Netze veröffentlicht ein Angebot für Touristen. Die folgenden Preise entsprechen dem, was die offiziellen Seiten bei unserer Prüfung zeigten; sie ändern sich häufig."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Vodafone: eine Prepaid-Touristen-SIM oder -eSIM mit dem Paket „Welcome to Turkey“ mit 20 GB, 750 Minuten, 250 SMS und unbegrenzter Nutzung von Messenger-Apps, erhältlich in Vodafone-Shops einschließlich der Flughafenshops; beim Antrag wird Ihre Reisepassnummer abgefragt ([Vodafone-Touristen-SIM](https://www.vodafone.com.tr/en/tourist-sim-card-turkey)). Laut Vodafones Ratgeber für ausländische Staatsangehörige (März 2025) wird ein mit Reisepass eröffneter Prepaid-Anschluss nach 60 Tagen automatisch geschlossen, sofern Sie nichts anderes beantragen; drei Tage vorher kommt eine Warnung per SMS ([Vodafone-Ratgeber für ausländische Staatsangehörige](https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim)).",
+        "Turkcell: ein „Tourist Welcome Pack“ mit 20 GB plus 200 Minuten für 1.800 TRY für 28 Tage, ausgewiesen als gültig bis 31. Dezember 2026 ([Turkcell](https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack)).",
+        "Türk Telekom: einmalige Datenpakete wie 10 GB für 320 TRY (7 Tage), 25 GB für 420 TRY (28 Tage) und 50 GB für 550 TRY (28 Tage), erhältlich bei Händlern am Flughafen und in Türk-Telekom-Geschäften ([Türk-Telekom-Prepaid-Touristen-SIM](https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey))."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nehmen Sie Ihren Reisepass mit in den Shop. Nach einem Beschluss der Telekommunikationsbehörde BTK vom 11. Mai 2026 kann eine ausländische Person, die sich nur mit Reisepass anmeldet, einen Anschluss pro Netzbetreiber haben ([BTK-Vorstandsbeschluss](https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf)). Die Flughafenshops sind praktisch, zu den Hauptankunftszeiten aber voll; die Geschäfte desselben Netzbetreibers in der Stadt verkaufen die gleichen Pakete."
+    },
+    {
+      "type": "h2",
+      "text": "Option 3: eine internationale Reise-eSIM-App"
+    },
+    {
+      "type": "p",
+      "text": "Reine Daten-eSIMs globaler Wiederverkäufer sind beliebt, weil Sie sie schon vor dem Abflug installieren können. Sie bieten meist nur Daten und keine türkische Nummer – das spielt eine Rolle, wenn ein Restaurant, ein Fahrer oder ein Kurier Sie anrufen möchte. Wenn Sie sich dafür entscheiden, lassen Sie Ihre heimische SIM für Bankcodes aktiv und prüfen Sie vor dem Kauf, ob Ihr Handy entsperrt und eSIM-fähig ist."
+    },
+    {
+      "type": "h2",
+      "text": "Die 120-Tage-Regel für Handys, einfach erklärt"
+    },
+    {
+      "type": "p",
+      "text": "Das zentrale Geräteregister der Türkei wird im Rahmen des BTK-Systems betrieben. Die offizielle IMEI-Hilfeseite besagt, dass aus dem Ausland mitgebrachte Handys 120 Tage ohne Registrierung genutzt werden können und dass ein Gerät, das nicht innerhalb von 120 Tagen registriert wird, vom Netz getrennt wird ([FAQ auf 123.gov.tr](https://123.gov.tr/sayfa?s=sss)). Die Registrierungsanleitung von e-Devlet beschreibt das Verfahren für Reisende, die ein Handy für den persönlichen Gebrauch mitbringen: Sie registrieren es innerhalb von 120 Tagen nach der Einreise über den Dienst „BTK IMEI Kaydet“, nachdem Sie eine Registrierungsgebühr bezahlt haben ([e-Devlet-Anleitung, PDF](https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf))."
+    },
+    {
+      "type": "p",
+      "text": "Was das in der Praxis bedeutet:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Eine Reise von weniger als 120 Tagen: Laut den offiziellen Seiten ist in diesem Zeitraum keine Registrierung nötig; nutzen Sie Roaming oder einen Touristenanschluss.",
+        "Mehrmals im Jahr wiederkommen: Laut der e-Devlet-Anleitung kann ein Handy nicht registriert werden, wenn in den vorangegangenen drei Jahren bereits eines aus dem Ausland eingeführt wurde, und laut der [Abfrage des Registrierungsrechts](https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama) ist eine erneute Registrierung im Jahr einer Registrierung und im darauffolgenden Jahr nicht möglich; die Abfrage zeigt, ob bzw. wann Sie registrieren können, und erfordert eine e-Devlet-Anmeldung. Prüfen Sie Ihre eigene Situation, bevor Sie sich bei einem längeren Aufenthalt auf einen türkischen Anschluss verlassen.",
+        "Länger bleiben und das Handy mit einem türkischen Anschluss nutzen: Laut der offiziellen Anleitung sind für die Registrierung eine türkische Identitätsnummer und eine e-Devlet-Anmeldung erforderlich, und die Gebühr ist hoch. Ein Technologie-Nachrichtenportal bezifferte sie für 2026 auf etwa 54.260 TRY und schätzte sie für 2027 auf etwa 69.360 TRY – ein Betrag, der laut dem Bericht noch nicht endgültig war ([Webrazzi, 3. November 2026](https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/)). Lassen Sie sich den aktuellen Betrag offiziell bestätigen, bevor Sie entscheiden.",
+        "Ihre IMEI finden Sie, indem Sie *#06# wählen; bewahren Sie sie bei Ihren Reiseunterlagen auf, falls das Handy verloren geht."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Welche Option passt zu Ihnen?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Zwei bis vier Tage, geringer Datenverbrauch: Roaming, wenn Ihr Tarif einen vernünftigen Türkei-Preis hat; andernfalls ein kleines Paket von Türk Telekom oder eine Daten-eSIM.",
+        "Eine bis vier Wochen: eine Touristen-SIM oder -eSIM eines der drei Netzbetreiber, bei der Ankunft mit Reisepass gekauft.",
+        "Anrufe mit örtlichen Fahrern, Guides und Hotels nötig: ein türkischer Touristenanschluss statt einer reinen Daten-eSIM.",
+        "Zwei Monate oder länger: Prüfen Sie, wie lange Ihr Touristenanschluss aktiv bleibt (laut Vodafones Ratgeber vom März 2025 sind es 60 Tage für einen Prepaid-Anschluss mit Reisepass), und behalten Sie die 120-Tage-Grenze für das Gerät im Blick.",
+        "Geschenke oder ein zweites Handy im Gepäck: Lesen Sie zuerst unseren [Check zu den Zollfreimengen](/de/blog/turkiye-customs-allowances-arrival-checklist); für die Einfuhr von Handys gilt eine eigene Grenze."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Öffentliches WLAN in Hotels, Cafés und Flughäfen ist weit verbreitet, sollte aber nur als Reserve dienen. Unser [Ratgeber zu Touristenfallen](/de/blog/turkey-tourist-scams-how-to-avoid) beschreibt sinnvolle Vorsichtsmaßnahmen bei Kartenzahlungen und unbekannten Netzwerken. Wenn Sie mit uns reisen, [bitten Sie uns](/contact), vor Ihrer Landung eine lokale Kontaktnummer bereitzuhalten."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mobile roaming costs",
+      "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm",
+      "publisher": "European Union — Your Europe",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Tourist SIM card Turkey",
+      "url": "https://www.vodafone.com.tr/en/tourist-sim-card-turkey",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Yabancı uyrukluyum, nasıl hat alabilirim?",
+      "url": "https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2025-03-17"
+    },
+    {
+      "title": "Tourist Welcome Pack",
+      "url": "https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack",
+      "publisher": "Turkcell",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Prepaid tourist SIM Turkey",
+      "url": "https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey",
+      "publisher": "Türk Telekom",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK Board decision on subscriber identity rules for foreign nationals (11.05.2026)",
+      "url": "https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf",
+      "publisher": "Information and Communication Technologies Authority (BTK)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Sıkça Sorulan Sorular (IMEI)",
+      "url": "https://123.gov.tr/sayfa?s=sss",
+      "publisher": "BTK central device register (123.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt user guide",
+      "url": "https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt Hakkı Sorgulama",
+      "url": "https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "2027 yılı IMEI kayıt ücreti",
+      "url": "https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/",
+      "publisher": "Webrazzi",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2026-11-03"
+    }
+  ],
+  "seo": {
+    "intent": "Reisende in die Türkei möchten wissen, ob sie Roaming, eine türkische Touristen-SIM oder eine eSIM nutzen sollten, was das kostet und ob ihr Handy eine IMEI-Registrierung braucht.",
+    "keywords": [
+      "Türkei Touristen-SIM",
+      "Türkei eSIM",
+      "Roaming Türkei EU",
+      "IMEI Registrierung Türkei 120 Tage",
+      "Turkcell Touristenpaket",
+      "Vodafone Türkei Touristen-SIM"
+    ],
+    "topicKey": "turkiye-visitor-mobile-connectivity",
+    "uniqueValue": "Verbindet den Ausschluss der Türkei vom EU-Roaming, die aktuellen Touristenangebote der drei Netzbetreiber und die offizielle 120-Tage-IMEI-Regel zu einer Entscheidungshilfe nach Reisedauer und trennt offizielle Zahlen von Schätzungen aus Nachrichtenberichten."
+  },
+  "quality": {
+    "score": 86,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Deutsche Fassung Block für Block mit dem englischen Master abgeglichen (19 Blöcke): Roaming, alle drei Netzbetreiberangebote, BTK-Beschluss, 120-Tage-Regel und Entscheidungsliste vollständig übertragen, keine Auslassungen oder neuen Fakten. Paketgrößen, Laufzeiten und Preise (1.800, 320, 420, 550, 54.260, 69.360 TRY), 60 Tage, drei Jahre und Daten im deutschen Zahlen- und Datumsformat geprüft; Paket- und Dienstnamen beibehalten. Interne Links nach /de/blog umgestellt (Zollfreimengen, Touristenfallen), /contact beibehalten; Quellen identisch."
+  }
+}

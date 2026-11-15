@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261115-mobile-data-visitors",
+  "slug": "turkiye-mobile-data-sim-esim-visitors",
+  "locale": "ko",
+  "status": "published",
+  "title": "튀르키예 여행자 모바일 데이터: 로밍, 관광객용 유심·eSIM, 그리고 휴대폰 120일 규정",
+  "excerpt": "EU의 로밍 추가 요금 없는 '로밍 라이크 앳 홈'은 튀르키예에 적용되지 않고, 3대 통신사의 관광객용 데이터 팩은 수백 리라부터 시작하며, 해외에서 가져온 휴대폰은 120일 동안 쓸 수 있고 그 뒤에는 등록이 필요합니다. 짧은 여행, 장기 체류, 재방문별로 고르는 방법을 정리했습니다.",
+  "category": "여행",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-15",
+  "readTime": "7분 분량",
+  "body": [
+    {
+      "type": "p",
+      "text": "튀르키예에서 인터넷을 쓰는 일은 많은 여행자가 놓치는 세 가지 사실만 알면 어렵지 않습니다. 첫째, 튀르키예는 EU 로밍 구역 밖에 있어서, 통신사가 튀르키예를 포함해 주지 않는 한 유럽 요금제로는 요금이 크게 나올 수 있습니다. 둘째, 튀르키예의 3대 통신사는 모두 여권만 있으면 공항에서 살 수 있는 관광객용 패키지를 판매합니다. 셋째, 튀르키예는 휴대폰을 IMEI 번호로 등록하며, 해외에서 가져온 휴대폰은 정해진 기간만 쓸 수 있고 그 뒤에는 등록해야 합니다. 이 글은 2026년 11월 15일에 확인한 통신사와 정부 페이지를 바탕으로, 이 사실들을 여행에 맞는 간단한 선택지로 정리했습니다."
+    },
+    {
+      "type": "h2",
+      "text": "선택지 1: 쓰던 유심으로 로밍하기"
+    },
+    {
+      "type": "p",
+      "text": "EU의 [Your Europe 로밍 안내 페이지](https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm)는 '로밍 라이크 앳 홈(국내 요금 그대로 로밍)'이 적용되는 나라로 EU 회원국, 아이슬란드, 리히텐슈타인, 노르웨이, 몰도바, 우크라이나를 꼽습니다. 튀르키예는 이 목록에 없으므로, 통신사에 별도의 튀르키예 부가 상품이 없다면 표준 로밍 요금이 적용됩니다. 영국, 걸프 지역 등 EU 밖의 요금제도 마찬가지로 천차만별입니다. 도착 전에 이용 중인 통신사의 튀르키예 하루 요금이나 GB당 요금을 확인하고, 확인하기 전까지는 데이터 로밍을 꺼 두세요."
+    },
+    {
+      "type": "p",
+      "text": "로밍은 주말 여행, 평소 번호로 전화와 은행 인증 문자를 받아야 할 때, 또는 요금제에 이미 적당한 하루 요금의 튀르키예 데이터가 포함되어 있을 때 쓸 만합니다."
+    },
+    {
+      "type": "h2",
+      "text": "선택지 2: 튀르키예 관광객용 유심 또는 eSIM"
+    },
+    {
+      "type": "p",
+      "text": "세 통신사 모두 관광객용 상품을 공개하고 있습니다. 아래 가격은 저희가 확인한 시점에 공식 페이지에 나와 있던 것이며, 자주 바뀝니다."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "보다폰(Vodafone): 선불 관광객용 유심 또는 eSIM에 20GB, 통화 750분, 문자 250건, 메신저 앱 무제한으로 구성된 \"Welcome to Turkey\" 패키지를 제공하며, 공항 매장을 포함한 보다폰 매장에서 판매합니다. 신청할 때 여권 번호가 필요합니다([보다폰 관광객용 유심](https://www.vodafone.com.tr/en/tourist-sim-card-turkey)). 보다폰의 외국인 대상 안내(2025년 3월)에 따르면 여권으로 개통한 선불 회선은 따로 신청하지 않으면 60일 후 자동으로 해지되며, 3일 전에 문자로 알려 줍니다([보다폰 외국인 안내](https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim)).",
+        "투르크셀(Turkcell): 20GB와 통화 200분으로 구성된 \"Tourist Welcome Pack\"이 28일 TRY 1,800이며, 2026년 12월 31일까지 유효하다고 표시되어 있습니다([투르크셀](https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack)).",
+        "튀르크 텔레콤(Türk Telekom): 10GB TRY 320(7일), 25GB TRY 420(28일), 50GB TRY 550(28일) 같은 1회용 데이터 팩을 공항 대리점과 튀르크 텔레콤 매장에서 판매합니다([튀르크 텔레콤 선불 관광객용 유심](https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey))."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "매장에는 여권을 꼭 가져가세요. 통신 규제 기관 BTK의 2026년 5월 11일 결정에 따라, 여권만으로 가입하는 외국인은 통신사당 회선 1개를 보유할 수 있습니다([BTK 위원회 결정](https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf)). 공항 매장은 편리하지만 도착 승객이 몰리는 시간에는 붐빕니다. 같은 통신사의 시내 매장에서도 같은 패키지를 판매합니다."
+    },
+    {
+      "type": "h2",
+      "text": "선택지 3: 글로벌 여행용 eSIM 앱"
+    },
+    {
+      "type": "p",
+      "text": "글로벌 재판매 업체의 데이터 전용 eSIM은 출국 전에 미리 설치할 수 있어 인기가 많습니다. 다만 대개 데이터만 제공하고 튀르키예 전화번호는 없어서, 식당이나 기사, 배달원이 전화를 걸어야 할 때 문제가 될 수 있습니다. 이 방법을 택한다면 은행 인증 코드를 받을 수 있도록 원래 유심을 살려 두고, 구매 전에 휴대폰이 컨트리 락이 해제되어 있고 eSIM을 지원하는지 확인하세요."
+    },
+    {
+      "type": "h2",
+      "text": "휴대폰 120일 규정, 쉽게 풀어 보기"
+    },
+    {
+      "type": "p",
+      "text": "튀르키예의 중앙 단말기 등록 시스템은 BTK 체계 아래 운영됩니다. 공식 IMEI 도움말 페이지에 따르면 해외에서 가져온 휴대폰은 등록 없이 120일 동안 쓸 수 있으며, 120일 안에 등록하지 않은 단말기는 통신망에서 차단됩니다([123.gov.tr 자주 묻는 질문](https://123.gov.tr/sayfa?s=sss)). e-Devlet(전자정부) 등록 안내서는 개인용 휴대폰을 가지고 들어온 여행자의 절차를 설명합니다. 입국 후 120일 안에 등록 수수료를 낸 뒤 \"BTK IMEI Kaydet\" 서비스로 등록하는 방식입니다([e-Devlet 안내서, PDF](https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf))."
+    },
+    {
+      "type": "p",
+      "text": "실제로는 이런 뜻입니다."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "120일보다 짧은 여행: 공식 페이지에 따르면 이 기간에는 등록이 필요 없습니다. 로밍이나 관광객용 회선을 쓰세요.",
+        "1년에 여러 번 다시 방문하는 경우: e-Devlet 안내서에 따르면 지난 3년 안에 해외에서 휴대폰을 들여온 적이 있으면 휴대폰을 등록할 수 없고, [등록 가능 여부 조회 페이지](https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama)에 따르면 등록한 해와 그 이듬해에는 다시 등록할 수 없습니다. 이 페이지는 등록할 수 있는지, 또는 언제 할 수 있는지를 보여 주며 e-Devlet 로그인이 필요합니다. 장기 체류에 튀르키예 회선을 쓸 생각이라면 먼저 본인 상황을 확인하세요.",
+        "더 오래 머물면서 그 휴대폰을 튀르키예 회선으로 계속 쓰고 싶은 경우: 공식 안내서에 따르면 등록에는 튀르키예 신원 번호와 e-Devlet 로그인이 필요하며, 수수료도 비쌉니다. 한 IT 뉴스 보도는 2026년 수수료를 약 TRY 54,260으로 제시하고 2027년은 약 TRY 69,360으로 추산하면서, 2027년 금액은 아직 확정되지 않았다고 밝혔습니다([Webrazzi, 2026년 11월 3일](https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/)). 결정하기 전에 현재 금액을 공식 채널에서 확인하세요.",
+        "IMEI는 *#06#을 눌러 확인할 수 있습니다. 휴대폰을 잃어버릴 때를 대비해 여행 서류와 함께 보관하세요."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "나에게 맞는 선택지는?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "2~4일, 데이터를 적게 쓰는 경우: 요금제의 튀르키예 로밍 요금이 적당하다면 로밍, 그렇지 않다면 튀르크 텔레콤의 소용량 팩이나 데이터 eSIM.",
+        "1~4주: 도착 후 여권으로 구입하는 3대 통신사 중 한 곳의 관광객용 유심 또는 eSIM.",
+        "현지 기사, 가이드, 호텔과 통화해야 하는 경우: 데이터 전용 eSIM보다는 튀르키예 관광객용 회선.",
+        "두 달 이상: 관광객용 회선이 얼마 동안 유지되는지 확인하고(보다폰의 2025년 3월 안내에 따르면 여권으로 개통한 선불 회선은 60일), 120일 단말기 사용 기한을 챙기세요.",
+        "선물이나 두 번째 휴대폰을 가져가는 경우: 먼저 [세관 면세 한도 체크리스트](/ko/blog/turkiye-customs-allowances-arrival-checklist)를 읽어 보세요. 휴대폰 반입에는 별도의 한도가 있습니다."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "호텔, 카페, 공항의 공용 와이파이는 흔하지만 보조 수단으로만 생각하세요. 카드 결제와 낯선 네트워크에 대한 기본적인 주의 사항은 [관광객 대상 사기 피하기 가이드(영문)](/blog/turkey-tourist-scams-how-to-avoid)에서 다룹니다. 저희와 함께 여행하신다면 도착 전에 현지 연락처 번호를 준비해 두도록 [요청해 주세요](/contact)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mobile roaming costs",
+      "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm",
+      "publisher": "European Union — Your Europe",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Tourist SIM card Turkey",
+      "url": "https://www.vodafone.com.tr/en/tourist-sim-card-turkey",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Yabancı uyrukluyum, nasıl hat alabilirim?",
+      "url": "https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2025-03-17"
+    },
+    {
+      "title": "Tourist Welcome Pack",
+      "url": "https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack",
+      "publisher": "Turkcell",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Prepaid tourist SIM Turkey",
+      "url": "https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey",
+      "publisher": "Türk Telekom",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK Board decision on subscriber identity rules for foreign nationals (11.05.2026)",
+      "url": "https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf",
+      "publisher": "Information and Communication Technologies Authority (BTK)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Sıkça Sorulan Sorular (IMEI)",
+      "url": "https://123.gov.tr/sayfa?s=sss",
+      "publisher": "BTK central device register (123.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt user guide",
+      "url": "https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt Hakkı Sorgulama",
+      "url": "https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "2027 yılı IMEI kayıt ücreti",
+      "url": "https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/",
+      "publisher": "Webrazzi",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2026-11-03"
+    }
+  ],
+  "seo": {
+    "intent": "튀르키예를 방문하는 여행자가 로밍, 튀르키예 관광객용 유심, eSIM 중 무엇을 쓸지, 비용은 얼마인지, 휴대폰 IMEI 등록이 필요한지 알고 싶어 한다.",
+    "keywords": [
+      "튀르키예 유심",
+      "튀르키예 eSIM",
+      "튀르키예 로밍",
+      "튀르키예 IMEI 등록 120일",
+      "투르크셀 관광객 패키지",
+      "보다폰 튀르키예 유심"
+    ],
+    "topicKey": "turkiye-visitor-mobile-connectivity",
+    "uniqueValue": "EU 로밍 제외, 3대 통신사의 현행 관광객용 상품, 공식 120일 IMEI 규정을 여행 기간별 선택 가이드로 묶고, 공식 수치와 뉴스 추정치를 구분해 보여 준다."
+  },
+  "quality": {
+    "score": 86,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "Korean localization 2026-11-15 from the English master, checked block by block (intro, 5 sections, 4 lists, closing paragraph): no omissions or added facts; all prices (TRY 1,800, 320, 420, 550, ~54,260, ~69,360), data/minute/SMS amounts, 7/28/60/120-day periods, three-year limit and dates (11 May 2026, 31 Dec 2026, March 2025, 3 Nov 2026) unchanged. Registration fee rendered as 등록 수수료; bank SMS codes as 은행 인증 문자. Customs link rewritten to /ko/blog; scams guide kept at /blog/ and labelled (영문); /contact kept; sources identical. English master notes: Independent fact-check 2026-11-15 (separate agent opened all ten sources including the BTK decision PDF and the e-Devlet IMEI guide PDF). Verified EU roam-like-at-home country list (Türkiye excluded), Vodafone pack contents and passport form, 60-day passport prepaid closure, Turkcell 1,800 TL/28 days to 31 Dec 2026, Türk Telekom pack prices, 120-day rule (123.gov.tr), registration requirements, Webrazzi 2027 estimate marked not final. Fixes applied: BTK limit is one line per operator, registration-right page described correctly, three-year and repeat-registration limits added, 2026 fee rounded given source inconsistency, unconfirmed 'Turist Kolay' name removed, excerpt now says data packs. Reviewer pre-fix score 80. Risk low: attributed practical information, readers told to confirm officially; not legal advice. Follow-up: customs article's older 2025 fee wording could be reconciled in a later update."
+  }
+}
