@@ -349,7 +349,7 @@
     "istanbul-trade-fair-venues-business-trip",
     "turkiye-mobile-data-sim-esim-visitors"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": {
     "semantic": "Independent general-purpose agent compared all three candidates against every English inventory article and the 13 pending PR slugs: all distinct, no mutual overlap.",
     "factCheck": "Three independent agents, one per article, opened every EN source (2026-11-15); verdicts 'publish after fixes' (scores 72, 82, 80 pre-fix); all required fixes applied.",
@@ -359,5 +359,35 @@
     "Six earlier batch PRs (#33–#38) are still open and unmerged; their articles are not live.",
     "turkiye-customs-allowances-arrival-checklist still quotes the 2025 IMEI fee and says registration is needed before using a Turkish SIM; reconcile with the new connectivity article in a later update.",
     "Consider adding turkiye.gov.tr, btk.gov.tr, ifm.com.tr to primaryDomains (owner decision; config not changed)."
-  ]
+  ],
+  "publication": {
+    "pr": "https://github.com/yusufkasirga/ito/pull/41",
+    "headCommit": "e78c336c17d9645fa912520336be99804c569db4",
+    "checks": "quality: success; Vercel Preview: success",
+    "mergeCommit": "c39b4ade70001e637d2ed0f2b9c6ba8bfb45b0f4",
+    "merge": "Squash-merged via REST on 2026-11-15 after checks passed on the exact head SHA.",
+    "deployment": {
+      "vercelStatus": "success",
+      "url": "https://vercel.com/yusufkasirgas-projects/ito/ASWFrbjhahnFPjgyjBstk2T7Kd5V"
+    },
+    "verifiedUrls": {
+      "https://itineraryofturkiye.com/blog/gobeklitepe-sanliurfa-visit-planning": 200,
+      "https://itineraryofturkiye.com/de/blog/gobeklitepe-sanliurfa-visit-planning": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/gobeklitepe-sanliurfa-visit-planning": 200,
+      "https://itineraryofturkiye.com/ko/blog/gobeklitepe-sanliurfa-visit-planning": 200,
+      "https://itineraryofturkiye.com/es/blog/gobeklitepe-sanliurfa-visit-planning": 200,
+      "https://itineraryofturkiye.com/blog/istanbul-trade-fair-venues-business-trip": 200,
+      "https://itineraryofturkiye.com/de/blog/istanbul-trade-fair-venues-business-trip": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/istanbul-trade-fair-venues-business-trip": 200,
+      "https://itineraryofturkiye.com/ko/blog/istanbul-trade-fair-venues-business-trip": 200,
+      "https://itineraryofturkiye.com/es/blog/istanbul-trade-fair-venues-business-trip": 200,
+      "https://itineraryofturkiye.com/blog/turkiye-mobile-data-sim-esim-visitors": 200,
+      "https://itineraryofturkiye.com/de/blog/turkiye-mobile-data-sim-esim-visitors": 200,
+      "https://itineraryofturkiye.com/zh-cn/blog/turkiye-mobile-data-sim-esim-visitors": 200,
+      "https://itineraryofturkiye.com/ko/blog/turkiye-mobile-data-sim-esim-visitors": 200,
+      "https://itineraryofturkiye.com/es/blog/turkiye-mobile-data-sim-esim-visitors": 200
+    },
+    "seoChecks": "All 15 pages: single self-referencing canonical, hreflang en/de/zh-CN/ko/es/x-default, localized h1; sitemap.xml lists all 15 URLs. Fetched via Vercel MCP (direct shell egress unavailable).",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel."
+  }
 }
