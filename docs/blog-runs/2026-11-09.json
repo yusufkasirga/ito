@@ -78,6 +78,7 @@
           "turkish-riviera-antalya-bodrum-fethiye-guide",
           "turkiye-business-destination",
           "turkiye-museum-site-fees-2027",
+          "turkiye-museum-site-winter-hours-2026-27",
           "turkiye-tourism-2026",
           "turkiye-tourism-2026-2027-government-initiatives",
           "what-to-pack-medical-trip-turkey",
@@ -91,7 +92,8 @@
           "private-turkiye-itinerary-cappadocia-guide",
           "istanbul-edirne-train-cerkezkoy-transfer"
         ],
-        "whyDifferent": "No existing body covers Troy, Assos, Çanakkale or Gallipoli access; Troy appears only in passing lists (turkiye-tourism-2026). turkiye-museum-site-fees-2027 covers national fees and passes without Troy/Assos prices and is linked rather than repeated; the private itinerary guide's Aegean section covers Ephesus/Şirince only. Pending (unmerged) winter-hours article of 2026-11-02 explicitly omits Troy times. Independent subagent overlap review: distinct."
+        "whyDifferent": "No existing body covers Troy, Assos, Çanakkale or Gallipoli access; Troy appears only in passing lists (turkiye-tourism-2026). turkiye-museum-site-fees-2027 covers national fees and passes without Troy/Assos prices and is linked rather than repeated; the private itinerary guide's Aegean section covers Ephesus/Şirince only. Pending (unmerged) winter-hours article of 2026-11-02 explicitly omits Troy times. Independent subagent overlap review: distinct.",
+        "addendum2026-11-15": "Re-checked on 2026-11-15 before merging alongside PR #33: turkiye-museum-site-winter-hours-2026-27 is a cross-site winter opening-hours and ticket cut-off planner (Ephesus, Pamukkale, Göreme, Termessos; Troy mentioned once). It does not answer this article's question, so no overlap."
       },
       "sourceUrls": [
         "https://www.hurriyetdailynews.com/amp/interest-in-troy-and-surrounding-cultural-route-rises-228951",
@@ -168,6 +170,7 @@
           "turkish-riviera-antalya-bodrum-fethiye-guide",
           "turkiye-business-destination",
           "turkiye-museum-site-fees-2027",
+          "turkiye-museum-site-winter-hours-2026-27",
           "turkiye-tourism-2026",
           "turkiye-tourism-2026-2027-government-initiatives",
           "what-to-pack-medical-trip-turkey",
@@ -181,7 +184,8 @@
           "belek-antalya-golf-trip-season-planning",
           "best-time-to-visit-turkiye-month-by-month"
         ],
-        "whyDifferent": "The Riviera guide chooses a coast and only lists airport codes; the Belek article covers the AYT transfer and sports-equipment rules; the month-by-month guide covers weather and crowds. No article covers carriers, Ryanair's absence, via-Istanbul connections or booking timing for 2027. Independent subagent overlap review: distinct; links to those guides instead of repeating them."
+        "whyDifferent": "The Riviera guide chooses a coast and only lists airport codes; the Belek article covers the AYT transfer and sports-equipment rules; the month-by-month guide covers weather and crowds. No article covers carriers, Ryanair's absence, via-Istanbul connections or booking timing for 2027. Independent subagent overlap review: distinct; links to those guides instead of repeating them.",
+        "addendum2026-11-15": "Re-checked on 2026-11-15 before merging alongside PR #33: turkiye-museum-site-winter-hours-2026-27 is a cross-site winter opening-hours and ticket cut-off planner (Ephesus, Pamukkale, Göreme, Termessos; Troy mentioned once). It does not answer this article's question, so no overlap."
       },
       "sourceUrls": [
         "https://dhmi.gov.tr/Sayfalar/Haber/havayolunda-9-ayda-1931-milyon-yolcu.aspx",
