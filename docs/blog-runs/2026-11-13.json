@@ -320,7 +320,7 @@
   "publishedSlugs": [
     "istanbul-ferry-cancellations-bad-weather"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents: one shortlist/overlap reviewer for all three topics; one EN fact-check + four-locale translation reviewer for the published article (separate from the writer). All six sources reopened by the reviewer; corrections applied in all five locales before flags were set. No human or native-speaker certification claimed.",
   "followUps": [
     "Open PRs #33–#37 (2026-11-02, 11-09, 11-10, 11-11, 11-12) still unmerged at the start of this run; their articles are not live. Overlap checked against them anyway.",
@@ -331,7 +331,10 @@
     "pr": "https://github.com/yusufkasirga/ito/pull/38",
     "headCommit": "3250466cf7733a11d08e583e3e97cc5202c64056",
     "checks": "quality: success; Vercel Preview: success",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02 and 11-09 to 11-12. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and the Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the article is not deployed to production."
+    "merge": "Squash-merged by the owner on 2026-11-15T08:15:34Z (the automatic merge on 2026-11-13 was blocked by the session permission check).",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and the Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the article is not deployed to production.",
+    "mergeCommit": "65606bc63b009a379894c72d642216cd51e270db",
+    "deployment": "Vercel production status success for 65606bc (https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD)",
+    "liveVerification": "2026-11-15: /blog, /ko/blog istanbul-ferry-cancellations-bad-weather returned 200 with a single self-canonical and reciprocal hreflang (en, de, zh-CN, ko, es, x-default) on the EN page; sitemap.xml lists all five locale URLs. Fetched via the Vercel MCP; the cloud shell cannot reach the site directly."
   }
 }
