@@ -352,7 +352,7 @@
     "turkiye-ski-resort-choice-winter-2026-27",
     "ramadan-2027-turkiye-trip-planning"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents: one shortlist/overlap + EN fact check + four-locale translation review per article (separate from the writer subagents). Corrections applied before flags were set. No human or native-speaker certification claimed.",
   "followUps": [
     "Open PRs #33 (2026-11-02), #34 (2026-11-09) and #35 (2026-11-10) are green but unmerged; their articles are not live.",
@@ -362,7 +362,10 @@
     "pr": "https://github.com/yusufkasirga/ito/pull/36",
     "headCommit": "250cd347d44d5ddde7a6fc821281e066e4b07827",
     "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/GX8PrYZj4ubWpLnZJVKcEgpYt8se)",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02, 2026-11-09 and 2026-11-10. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+    "merge": "Squash-merged by the owner on 2026-11-15T08:14Z as 34737b3fb3ba76539ba85758975fedb5262b1186 (PR #36). The automatic merge had been blocked by the session permission check.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel.",
+    "mergeCommit": "34737b3fb3ba76539ba85758975fedb5262b1186",
+    "deployment": "The Vercel build for 34737b3 was cancelled because later merges replaced it. Production deployment for main 65606bc63b (which contains this batch) succeeded: https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD",
+    "liveVerification": "2026-11-15: EN /blog/istanbul-airport-or-sabiha-gokcen 200 with a single self canonical and en/de/zh-CN/ko/es/x-default hreflang; ko ski and zh-cn Ramadan pages 200 with their own canonical; sitemap.xml lists all 15 URLs."
   }
 }
