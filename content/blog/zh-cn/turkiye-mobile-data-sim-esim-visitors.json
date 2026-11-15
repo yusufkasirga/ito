@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-20261115-mobile-data-visitors",
+  "slug": "turkiye-mobile-data-sim-esim-visitors",
+  "locale": "zh-CN",
+  "status": "published",
+  "title": "土耳其旅行上网指南：漫游、游客SIM卡还是eSIM，以及手机“120天规定”",
+  "excerpt": "欧盟“漫游如在家”不包括土耳其；三家运营商的游客流量包几百里拉起；从国外带来的手机可使用120天，之后需要登记。本文告诉你短途旅行、长期停留或再次到访时该怎么选。",
+  "category": "旅行",
+  "cover": "/images/dest/istanbul.jpg",
+  "dateISO": "2026-11-15",
+  "readTime": "7分钟阅读",
+  "body": [
+    {
+      "type": "p",
+      "text": "在土耳其保持在线其实很简单，只要先弄清三件常让游客栽跟头的事。第一，土耳其不在欧盟漫游区内，所以欧洲的套餐可能会收取高额费用，除非你的运营商把土耳其包含在内。第二，土耳其三家运营商都出售游客套餐，凭护照就能在机场买到。第三，土耳其按IMEI码（每部手机唯一的设备识别号）登记手机，从国外带来的手机只能在一定期限内使用，之后必须登记。本文依据2026年11月15日查阅的运营商和政府页面，把这些事实整理成一个简单的选择，帮你决定这趟旅行怎么上网。"
+    },
+    {
+      "type": "h2",
+      "text": "方案一：继续用国内SIM卡漫游"
+    },
+    {
+      "type": "p",
+      "text": "欧盟的[“Your Europe”漫游页面](https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm)列出了适用“漫游如在家”（roam-like-at-home，即在这些国家漫游按本国资费计费）的国家：欧盟各国、冰岛、列支敦士登、挪威、摩尔多瓦和乌克兰。土耳其不在名单上，所以除非你的运营商有专门的土耳其附加包，否则按标准漫游资费计费。英国、海湾国家及其他非欧盟国家的套餐，差别同样很大。落地前请先查清你的运营商在土耳其每天或每GB的价格，在弄清楚之前先关闭数据漫游。"
+    },
+    {
+      "type": "p",
+      "text": "如果只是度个周末，需要用原号码接打电话、接收银行短信验证码，或者你的套餐本来就含有价格合理的土耳其每日流量，漫游就很划算。"
+    },
+    {
+      "type": "h2",
+      "text": "方案二：土耳其游客SIM卡或eSIM"
+    },
+    {
+      "type": "p",
+      "text": "三家运营商都公布了各自的游客套餐。以下价格是我们查阅时官方页面显示的价格，变动频繁。（eSIM是内置在手机里的电子SIM卡，扫码或在应用内下载即可开通，不用插实体卡。）"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Vodafone：预付费游客SIM卡或eSIM，搭配“Welcome to Turkey”套餐，含20 GB流量、750分钟通话、250条短信，即时通讯应用不限量；在Vodafone门店（包括机场门店）出售，办理时需要填写护照号码（[Vodafone游客SIM卡](https://www.vodafone.com.tr/en/tourist-sim-card-turkey)）。Vodafone面向外国人的指南（2025年3月）称，凭护照开通的预付费号码会在60天后自动停用，除非另行申请；停用前三天会发短信提醒（[Vodafone外国人办卡指南](https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim)）。",
+        "Turkcell：“Tourist Welcome Pack”游客欢迎套餐，20 GB流量加200分钟通话，1,800土耳其里拉（TRY），有效期28天，标注有效至2026年12月31日（[Turkcell](https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack)）。",
+        "Türk Telekom：一次性流量包，例如10 GB售320里拉（7天）、25 GB售420里拉（28天）、50 GB售550里拉（28天），由机场代理商和Türk Telekom门店出售（[Türk Telekom预付费游客SIM卡](https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey)）。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "去门店时请带上护照。根据土耳其电信监管机构BTK于2026年5月11日作出的决定，仅凭护照办理的外国人，在每家运营商只能持有一个号码（[BTK委员会决定](https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf)）。机场门店方便，但在航班到达高峰时人很多；同一家运营商的市区门店也卖同样的套餐。"
+    },
+    {
+      "type": "h2",
+      "text": "方案三：国际旅行eSIM应用"
+    },
+    {
+      "type": "p",
+      "text": "全球经销商提供的纯流量eSIM很受欢迎，因为出发前就能装好。它们通常只有流量，没有土耳其本地号码——如果餐厅、司机或快递员要给你打电话，这一点就很重要。如果选择这种方式，请保留国内SIM卡以接收银行验证码，购买前确认手机已解锁（无网络锁）且支持eSIM。"
+    },
+    {
+      "type": "h2",
+      "text": "通俗解读“120天手机规定”"
+    },
+    {
+      "type": "p",
+      "text": "土耳其的中央设备登记系统由BTK运营管理。官方IMEI帮助页面说明，从国外带入的手机可以在不登记的情况下使用120天；120天内未登记的设备将被断开网络（[123.gov.tr常见问题](https://123.gov.tr/sayfa?s=sss)）。e-Devlet（土耳其政府电子政务门户）的登记指南介绍了旅客携带个人自用手机的办理流程：在入境后120天内，缴纳登记费用后，通过“BTK IMEI Kaydet”服务完成登记（[e-Devlet指南，PDF](https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf)）。"
+    },
+    {
+      "type": "p",
+      "text": "实际意味着什么："
+    },
+    {
+      "type": "ul",
+      "items": [
+        "行程短于120天：官方页面表示这段时间内无需登记；用漫游或游客号码即可。",
+        "一年来好几次：e-Devlet指南称，如果过去三年内已经从国外带入过一部手机，就不能再登记；[登记资格查询页面](https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama)则说明，在完成登记的当年及次年都不能再次登记；该页面会显示你能否登记、何时可以登记，需要登录e-Devlet。在打算长期依赖土耳其号码之前，请先查清自己的情况。",
+        "停留更久，并想让这部手机一直用土耳其号码：根据官方指南，登记需要土耳其身份号码和e-Devlet登录账号，而且费用很高。一篇科技新闻报道称，2026年的费用约为54,260里拉，并估计2027年约为69,360里拉，同时说明这一数字尚未最终确定（[Webrazzi，2026年11月3日](https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/)）。做决定前请通过官方渠道确认当前金额。",
+        "在手机上拨打*#06#即可查到IMEI码；把它和旅行证件放在一起，以防手机丢失。"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "哪种方案适合你？"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "两到四天、流量用得少：如果你的套餐在土耳其的资费合理，就用漫游；否则买一个小的Türk Telekom流量包或纯流量eSIM。",
+        "一到四周：落地后凭护照，从三家运营商中任选一家买游客SIM卡或eSIM。",
+        "需要和当地司机、导游、酒店通电话：选土耳其游客号码，而不是纯流量eSIM。",
+        "两个月或更久：查清你的游客号码能保持多久（Vodafone 2025年3月的指南称凭护照开通的预付费号码为60天），并留意设备120天的期限。",
+        "带礼品或第二部手机：请先阅读我们的[入境海关免税额度清单](/zh-cn/blog/turkiye-customs-allowances-arrival-checklist)；携带手机入境有单独的限额。"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "酒店、咖啡馆和机场普遍有公共Wi-Fi，但最好只当作备用。我们的[游客骗局防范指南（英文）](/blog/turkey-tourist-scams-how-to-avoid)介绍了刷卡支付和使用陌生网络时的合理防范措施。如果你和我们一起出行，可以[联系我们](/contact)，在你落地前准备好一个本地联系电话。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mobile roaming costs",
+      "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm",
+      "publisher": "European Union — Your Europe",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Tourist SIM card Turkey",
+      "url": "https://www.vodafone.com.tr/en/tourist-sim-card-turkey",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Yabancı uyrukluyum, nasıl hat alabilirim?",
+      "url": "https://www.vodafone.com.tr/mobil-hat/blog/yabanci-uyrukluyum-nasil-hat-alabilirim",
+      "publisher": "Vodafone Türkiye",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2025-03-17"
+    },
+    {
+      "title": "Tourist Welcome Pack",
+      "url": "https://www.turkcell.com.tr/kampanyalar/yeni-turkcell-musterisi/tourist-welcome-pack",
+      "publisher": "Turkcell",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Prepaid tourist SIM Turkey",
+      "url": "https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey",
+      "publisher": "Türk Telekom",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK Board decision on subscriber identity rules for foreign nationals (11.05.2026)",
+      "url": "https://www.btk.gov.tr/s3/web-btk-site/7708c26c-5161-4919-8b3d-daa31d4ac8fb/2026/06/fe7097fa-2600-4624-b761-e87dc5ffdbdd.pdf",
+      "publisher": "Information and Communication Technologies Authority (BTK)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "Sıkça Sorulan Sorular (IMEI)",
+      "url": "https://123.gov.tr/sayfa?s=sss",
+      "publisher": "BTK central device register (123.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt user guide",
+      "url": "https://static.turkiye.gov.tr/themes/ankara/assets/manuals/BTK-IMEI-Kayit.pdf",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "BTK IMEI Kayıt Hakkı Sorgulama",
+      "url": "https://www.turkiye.gov.tr/btk-imei-kayit-hakki-sorgulama",
+      "publisher": "e-Devlet Kapısı (turkiye.gov.tr)",
+      "accessedISO": "2026-11-15"
+    },
+    {
+      "title": "2027 yılı IMEI kayıt ücreti",
+      "url": "https://webrazzi.com/2026/11/03/2027-yili-imei-kayit-ucreti-69-bin-358-tl-oldu/",
+      "publisher": "Webrazzi",
+      "accessedISO": "2026-11-15",
+      "publishedISO": "2026-11-03"
+    }
+  ],
+  "seo": {
+    "intent": "前往土耳其的游客想知道该用漫游、土耳其游客SIM卡还是eSIM，各要花多少钱，以及自己的手机是否需要进行IMEI登记。",
+    "keywords": [
+      "土耳其电话卡",
+      "土耳其eSIM",
+      "土耳其漫游",
+      "土耳其IMEI登记120天",
+      "Turkcell游客套餐",
+      "Vodafone土耳其游客卡"
+    ],
+    "topicKey": "turkiye-visitor-mobile-connectivity",
+    "uniqueValue": "把欧盟漫游不含土耳其、三家运营商现行游客套餐和官方120天IMEI规定整合成按行程长短选择的指南，并区分官方数据与新闻估算。"
+  },
+  "quality": {
+    "score": 86,
+    "factChecked": true,
+    "semanticReviewed": true,
+    "localizationReviewed": true,
+    "risk": "low",
+    "reviewNotes": "zh-CN localization 2026-11-15, checked block by block against the English master: all 17 body blocks rendered in full with no omissions or added facts; 20 GB/750/250, 60 days, TRY 1,800/28 days to 31 Dec 2026, Türk Telekom TRY 320/420/550 packs, 11 May 2026 BTK decision, 120 days, three-year limit, TRY 54,260 and 69,360 and *#06# unchanged. eSIM, IMEI, e-Devlet and roam-like-at-home explained. Customs link points to /zh-cn/blog/; scams link labelled 英文. Sources copied unchanged."
+  }
+}
