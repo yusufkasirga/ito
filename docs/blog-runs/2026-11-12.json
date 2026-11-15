@@ -406,7 +406,7 @@
     "turkiye-thermal-towns-winter-break",
     "cappadocia-where-to-stay-base-town"
   ],
-  "state": "prepared",
+  "state": "published",
   "reviewer": "Independent Claude subagents: one shortlist/overlap reviewer for all three topics; one EN fact-check + four-locale translation reviewer per article (separate from the writer subagents). Corrections applied before flags were set. No human or native-speaker certification claimed.",
   "followUps": [
     "Open PRs #33 (2026-11-02), #34 (2026-11-09), #35 (2026-11-10) and #36 (2026-11-11) were still unmerged at the start of this run; their articles are not live. Overlap was checked against them anyway.",
@@ -418,7 +418,10 @@
     "pr": "https://github.com/yusufkasirga/ito/pull/37",
     "headCommit": "581b2120214e0cff9eb1805c7a50333b7ab34ed2",
     "checks": "quality: success; Vercel Preview: success (https://vercel.com/yusufkasirgas-projects/ito/2TKKpoEe2jtrNLYUKmh4Q4PF3nT1)",
-    "merge": "Not merged: the automatic squash merge was blocked by the session permission check (Merge Without Review), as on 2026-11-02, 11-09, 11-10 and 11-11. Awaiting owner merge; not live.",
-    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel preview. Canonical/hreflang/sitemap not checked on a live page because the articles are not deployed to production."
+    "merge": "Squash-merged by the owner (yusufkasirga) on 2026-11-15T08:15:24Z as 602dde4d3029224bfdf51e97541e950e9bda3110 (PR #37), after the session's automatic merge had been blocked by the permission check.",
+    "localBuild": "next build failed locally (Google Fonts download blocked); build verified by CI and Vercel.",
+    "mergeCommit": "602dde4d3029224bfdf51e97541e950e9bda3110",
+    "deployment": "Vercel status on 602dde4 reported failure; the next main commit 65606bc63b009a379894c72d642216cd51e270db (PR #38, includes this batch) deployed with Vercel success (https://vercel.com/yusufkasirgas-projects/ito/A5KxMDn5XoFBrrg7ACSW8ZED3xLD).",
+    "liveVerification": "2026-11-15: the three EN canonical URLs returned 200 with a single self canonical and reciprocal hreflang en/de/zh-CN/ko/es/x-default; sitemap.xml (200) lists all five locale URLs of each slug."
   }
 }
