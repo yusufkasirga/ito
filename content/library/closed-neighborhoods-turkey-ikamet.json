@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-566",
+  "no": 566,
+  "slug": "closed-neighborhoods-turkey-ikamet",
+  "plannedPath": "/blog/closed-neighborhoods-turkey-ikamet",
+  "status": "published",
+  "title": "Closed Neighborhoods (Mahalleler) for Foreign Residence Permits: How to Check",
+  "seoTitle": "Closed Neighborhoods (Mahalleler) for Foreign Residence…",
+  "metaDescription": "Türkiye's Ministry of Interior restricts new foreign residence permit registrations in neighborhoods (mahalleler) where the registered foreign…",
+  "imageIdeas": [],
+  "quickAnswer": "Türkiye's Ministry of Interior restricts new foreign residence permit registrations in neighborhoods (mahalleler) where the registered foreign population exceeds 20% of the Turkish-citizen population. Before signing any lease, you must verify the exact mahalle name against official Göç İdaresi announcements and the live e-Ikamet system, because renting in a closed pocket can trigger an automatic permit refusal.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "closed neighborhoods turkey ikamet",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-11",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders organize flat-fee scouting trips, neighborhood orientation, and independent local introductions across Istanbul, Antalya, and other Turkish cities. Paid by our clients and independent of provider commissions, we do not issue legal determinations, review leases, or file immigration applications—those belong exclusively to licensed Turkish attorneys and official authorities (Göç İdaresi and Nüfus)."
+    },
+    {
+      "type": "h2",
+      "text": "Why are neighborhoods with >20% foreign population closed to new Ikamet registrations?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye introduced a neighborhood-level foreign density cap to prevent localized demographic concentration and keep municipal services balanced. Initially set at 25% across 781 neighborhoods in early 2022, the threshold was lowered to 20% on July 1, 2022, expanding the official [Göç İdaresi Closed Neighborhoods List](https://www.goc.gov.tr/mahalle-kapatma-duyurusu-hk2) to 1,169 neighborhoods nationwide."
+    },
+    {
+      "type": "p",
+      "text": "Under this administrative policy, closures block new foreign residence permit applications and new address registrations into restricted mahalleler. Existing permit holders renewing at the exact same address, newborns, and nuclear-family reunification cases have historically been treated differently from first-time applicants. Because these closures are administrative decisions rather than permanent statutes, authorities can adjust or reinstate restrictions without advance legislative debate."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check the official Directorate of Migration Management (Göç İdaresi) closed list before signing a lease?"
+    },
+    {
+      "type": "p",
+      "text": "Never rely on a landlord's or broker's verbal assurance that an area is \"open.\" Verify the exact administrative mahalle name—not the informal marketing name of a residential complex—against the official [Göç İdaresi Mahalle Kapatma Duyurusu](https://www.goc.gov.tr/mahalle-kapatma-duyurusu-hk2), the [Istanbul Provincial Migration Announcement](https://istanbul.goc.gov.tr/-mahalle-kapatma-duyurusu-hk-), and the live address screen on [e-Ikamet](https://e-ikamet.goc.gov.tr/)."
+    },
+    {
+      "type": "p",
+      "text": "Use this verification sequence before paying a deposit or realtor fee:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm the exact mahalle: Ask the landlord for the official 10-digit UAVT address code from a recent utility bill or title deed (Tapu).",
+        "Cross-check the official list: Search the downloadable Excel/PDF attachment on [goc.gov.tr](https://www.goc.gov.tr/mahalle-kapatma-duyurusu-hk2) using Turkish spelling (for example, Şişli, Beyoğlu, Konyaaltı).",
+        "Verify current provincial practice: Call the Foreigners Communication Center (YİMER 157) or ask a licensed Turkish immigration lawyer to confirm whether e-Ikamet currently accepts first-time filings for that specific building.",
+        "Add a written contingency: Ask your lawyer to review any deposit agreement before you sign so you understand your options if address eligibility changes."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which popular Istanbul (Fatih, Beyoğlu, Şişli, Esenyurt) and Antalya areas have closed pockets?"
+    },
+    {
+      "type": "p",
+      "text": "In Istanbul, Göç İdaresi's July 2022 list closed 54 individual neighborhoods across 15 districts—with the highest counts in Fatih, Beyoğlu, and Esenyurt—plus selected pockets in Şişli (such as Mecidiyeköy) and Beşiktaş. Separately, a 2023 [Göç İdaresi Istanbul Press Release](https://www.goc.gov.tr/istanbulda-39-ilcenin-yabancilarin-ikamet-izinlerine-kapatildigi-iddialarina-iliskin-basin-aciklamasi) confirmed district-wide first-application restrictions in Fatih and Esenyurt alongside eight other European-side districts."
+    },
+    {
+      "type": "p",
+      "text": "Even where provincial enforcement shifts over time—as legal practitioners reported across parts of Istanbul and Alanya in mid-2026—treat historically restricted districts with caution until confirmed on the day you apply. Antalya also had prominent closed pockets on the 2022 list, particularly in Konyaaltı, Muratpaşa, and Alanya (Mahmutlar, Kestel, Avsallar, Kargıcak)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "City",
+        "District",
+        "Historical Closure Pattern",
+        "Practical Scouting Tip"
+      ],
+      "rows": [
+        [
+          "Istanbul",
+          "Fatih & Esenyurt",
+          "District-wide first-permit restrictions since Jan 2021 plus multiple closed mahalleler",
+          "Verify live e-Ikamet status via counsel before committing"
+        ],
+        [
+          "Istanbul",
+          "Beyoğlu",
+          "10 closed mahalleler on the 2022 list (e.g., Cihangir, Katip Mustafa Çelebi pockets)",
+          "Check adjacent open mahalleler block by block"
+        ],
+        [
+          "Istanbul",
+          "Şişli",
+          "Selected pockets (e.g., Mecidiyeköy, Ergenekon) closed while nearby areas stayed open",
+          "Never assume the whole district shares one status"
+        ],
+        [
+          "Antalya",
+          "Konyaaltı & Muratpaşa",
+          "Multiple coastal mahalleler restricted on the 2022 list",
+          "Confirm UAVT code directly with Antalya Göç İdaresi"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What happens if you rent in a closed neighborhood by mistake?"
+    },
+    {
+      "type": "p",
+      "text": "If you submit a first-time Ikamet application using a restricted address, Göç İdaresi will reject the application on address grounds—even if your lease is notarized, your rent is paid a year upfront, or you purchased property. A refusal does not legally void your private rental contract, leaving you liable for lease obligations unless you negotiate an exit."
+    },
+    {
+      "type": "p",
+      "text": "Your landlord is not automatically required to refund your deposit or realtor commission simply because your permit was refused. You would typically have to find a compliant apartment in an open mahalle, sign and notarize a new lease, and reapply before your legal stay expires."
+    },
+    {
+      "type": "p",
+      "text": "When you are ready to scout open neighborhoods in person with independent, commission-free guidance, learn more [about Itinerary of Türkiye](https://itineraryofturkiye.com/about) and send us a brief note. Please never include passport or ID scans, medical or financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a closed neighborhood ban foreigners from buying property there?",
+      "a": "No. Neighborhood closures restrict new foreign residence permit registrations and address entries, not property ownership or title deed (Tapu) transfers."
+    },
+    {
+      "q": "Can existing Ikamet holders renew their permit in a closed neighborhood?",
+      "a": "Generally yes, provided you already hold a valid residence permit registered at that exact address and renew on time without moving to a different closed mahalle."
+    },
+    {
+      "q": "Are foreign university students exempt from closed neighborhood rules?",
+      "a": "Exemptions have historically varied by permit type and provincial directive, so students should confirm their exact dormitory or apartment address with their university international office and Göç İdaresi before signing."
+    },
+    {
+      "q": "Why do two apartments on the same street sometimes have different Ikamet eligibility?",
+      "a": "Because Turkish administrative boundaries follow mahalle lines—one side of a boulevard can sit in a closed mahalle while the opposite side belongs to an open one."
+    },
+    {
+      "q": "How can I find the official mahalle name for an apartment listing?",
+      "a": "Request the property's official UAVT address code from the owner or check the address printed on a recent water, electricity, or natural gas utility bill."
+    },
+    {
+      "q": "Can Itinerary of Türkiye guarantee that a neighborhood is open for Ikamet?",
+      "a": "No. [Itinerary of Türkiye](https://itineraryofturkiye.com/) leads independent orientation and scouting visits; official address eligibility must be verified with Göç İdaresi and a licensed Turkish attorney."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Göç İdaresi Closed Neighborhoods List",
+      "url": "https://www.goc.gov.tr/mahalle-kapatma-duyurusu-hk2"
+    },
+    {
+      "title": "Istanbul Provincial Migration Announcement",
+      "url": "https://istanbul.goc.gov.tr/-mahalle-kapatma-duyurusu-hk-"
+    },
+    {
+      "title": "e-Ikamet",
+      "url": "https://e-ikamet.goc.gov.tr/"
+    },
+    {
+      "title": "Göç İdaresi Istanbul Press Release",
+      "url": "https://www.goc.gov.tr/istanbulda-39-ilcenin-yabancilarin-ikamet-izinlerine-kapatildigi-iddialarina-iliskin-basin-aciklamasi"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

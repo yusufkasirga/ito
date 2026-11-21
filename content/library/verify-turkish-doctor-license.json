@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-530",
+  "no": 530,
+  "slug": "verify-turkish-doctor-license",
+  "plannedPath": "/services/verify-turkish-doctor-license",
+  "status": "published",
+  "title": "How to Verify a Turkish Doctor's License (TTB) & Specialty Board",
+  "seoTitle": "How to Verify a Turkish Doctor's License (TTB) & Board",
+  "metaDescription": "Verify a Turkish doctor's license via TTB and Ministry of Health records, distinguish GPs from Op. Dr. specialists, and check surgical credentials.",
+  "imageIdeas": [],
+  "quickAnswer": "To verify a Turkish doctor's license, confirm both their Ministry of Health diploma registration (Doktor Bilgi Bankası) and their provincial chamber membership under the Turkish Medical Association (Türk Tabipleri Birliği, TTB). Always check whether the physician holds a surgical specialty title (Op. Dr. or Uzman Doktor) rather than a general practitioner license.",
+  "category": "Inner Pages — 20 Deep Medical Travel Solo, Legal & Cost Breakdown Guides",
+  "focusKeyword": "verify turkish doctor license",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-10-29",
+  "readTime": "5 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders work exclusively on a client-paid, flat-fee basis—paid by our clients and independent of provider commissions. We do not receive referral fees from doctors or hospitals. We coordinate your visit. Your licensed medical team makes clinical decisions. This guide shares practical verification steps for international travelers and does not constitute medical, legal, or insurance brokerage advice."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check a physician's Turkish Medical Association (TTB) registration and specialty?"
+    },
+    {
+      "type": "p",
+      "text": "The [Turkish Medical Association (TTB)](https://www.ttb.org.tr/) is Türkiye's statutory medical association, organized through regional provincial medical chambers (Tabip Odaları) across the country. Because there is no open public English lookup by passport number, ask the clinic for the doctor's full Turkish name, diploma registration number (diploma tescil numarası), and provincial chamber affiliation—then confirm membership via the relevant [TTB Provincial Medical Chamber directory](https://www.ttb.org.tr/tabipodalari.php)."
+    },
+    {
+      "type": "p",
+      "text": "In parallel, Turkish physicians are registered in the Ministry of Health's official [Doktor Bilgi Bankası (Doctor Information Bank)](https://www.saglik.gov.tr/TR-99594/doktor-bilgi--bankasi.html), accessible to practitioners via [e-Devlet](https://www.turkiye.gov.tr/saglik-bakanligi-doktor-bilgi-bankasi). A transparent physician or hospital international patient desk can share a current verification printout or specialty diploma copy showing the Ministry of Health registration stamp and exact specialty branch."
+    },
+    {
+      "type": "h2",
+      "text": "What is the difference between a GP (Pratisyen Hekim) and a Board-Certified Specialist (Uzman Doktor / Op. Dr.)?"
+    },
+    {
+      "type": "p",
+      "text": "In Türkiye, a Pratisyen Hekim (general practitioner) holds a six-year medical degree and is licensed to practice general medicine, whereas an Uzman Doktor (Uzm. Dr.) or Operatör Doktor (Op. Dr.) has completed an additional four to six years of accredited residency training and passed national specialty board exams in a specific medical or surgical branch."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Turkish Title",
+        "English Equivalent",
+        "Training Level",
+        "Typical Clinical Scope"
+      ],
+      "rows": [
+        [
+          "Dr. / Pratisyen Hekim",
+          "General Practitioner (GP)",
+          "6-year medical degree",
+          "General medical care; not a surgical specialist"
+        ],
+        [
+          "Uzm. Dr. (Uzman Doktor)",
+          "Board-Certified Specialist",
+          "Medical degree + 4–5 yr residency",
+          "Non-surgical specialties (e.g., dermatology, internal medicine)"
+        ],
+        [
+          "Op. Dr. (Operatör Doktor)",
+          "Board-Certified Surgical Specialist",
+          "Medical degree + 5–6 yr surgical residency",
+          "Surgical branches (e.g., plastic surgery, ENT, orthopedics, OB-GYN)"
+        ],
+        [
+          "Doç. Dr. / Prof. Dr.",
+          "Associate / Full Professor",
+          "Specialist + academic board rank",
+          "Senior specialist; still verify exact clinical branch"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Do not confuse a general \"aesthetic medicine certificate\" or international workshop diploma with a Turkish Ministry of Health surgical residency."
+    },
+    {
+      "type": "h2",
+      "text": "Which surgical procedures legally require a specialist in Türkiye?"
+    },
+    {
+      "type": "p",
+      "text": "Under Türkiye's Law No. 1219 on the Practice of Medicine (Articles 1, 3, and 23), practicing medicine requires a registered medical diploma, surgical operations require the corresponding statutory specialist qualification, and major surgeries under general or regional anesthesia require a qualified specialist working with a second physician, as outlined in [Turkish medical law analyses of Law No. 1219](https://oranpartners.com/articles/plastic-surgery-malpractice-turkey/)."
+    },
+    {
+      "type": "p",
+      "text": "Importantly, Turkish law does not recognize a standalone specialty called \"cosmetic surgeon.\" Procedures such as rhinoplasty, abdominoplasty, breast surgery, liposuction, and facelifts fall under recognized specialties—primarily Plastic, Reconstructive and Aesthetic Surgery (Plastik, Rekonstrüktif ve Estetik Cerrahi) or, for specific nasal/facial structures, Otorhinolaryngology (Kulak Burun Boğaz, ENT). Bariatric, orthopedic, and ophthalmic surgeries likewise require board-certified specialists in those exact branches."
+    },
+    {
+      "type": "h2",
+      "text": "What credentials should be verified before your consultation?"
+    },
+    {
+      "type": "p",
+      "text": "Before paying a booking deposit or confirming flights, verify the exact individual who will physically perform your surgery—not just the famous medical director featured in clinic advertisements. Ask for written confirmation of the lead surgeon's full Turkish name, specialty registration, operating hospital privileges, and the anesthesiologist's credentials."
+    },
+    {
+      "type": "p",
+      "text": "The [Turkish Society of Plastic, Reconstructive and Aesthetic Surgeons patient checklist](https://turkplasticsurgery.org/?p=checklist) recommends reviewing surgeon qualifications, hospital stay length, and consent forms well before traveling. You can also check whether the surgeon holds national specialty society membership or European board fellowship (such as EBOPRAS for plastic surgery), while keeping in mind that Turkish Ministry of Health specialty registration is the binding legal baseline."
+    },
+    {
+      "type": "h3",
+      "text": "Pre-Consultation Doctor Credential Checklist"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Obtain the lead physician's exact Turkish full name and diploma tescil numarası (registration number).",
+        "Confirm their official Ministry of Health specialty branch matches your planned procedure.",
+        "Verify active membership in the local [TTB Provincial Medical Chamber](https://www.ttb.org.tr/tabipodalari.php) (such as the Istanbul Medical Chamber).",
+        "Ask in writing which steps the named specialist performs personally versus assistants or nurses.",
+        "Confirm the operating hospital holds an active Ministry of Health Health Tourism Authorization Certificate."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Our [medical tourism advisory service](https://itineraryofturkiye.com/services/medical-tourism) helps international visitors structure these verification requests alongside realistic appointment scheduling and recovery logistics. Learn about our independent two-founder model at [About Itinerary of Türkiye](https://itineraryofturkiye.com/about). If you would like flat-fee, commission-free coordination for your trip to Türkiye, contact us through our website enquiry form—and please do not send passport or ID scans, medical records, financial documents, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is \"Op. Dr.\" always a plastic surgeon in Türkiye?",
+      "a": "No. Op. Dr. (Operatör Doktor) denotes any surgical specialist—including general surgery, ENT, ophthalmology, gynecology, or orthopedics—so always check the exact specialty branch listed on the doctor's registration."
+    },
+    {
+      "q": "Can a general practitioner legally perform major cosmetic surgery in Türkiye?",
+      "a": "No. Under Law No. 1219, surgical operations require the corresponding statutory specialist qualification; general practitioners are not legally permitted to perform specialist surgical procedures."
+    },
+    {
+      "q": "Does a \"Prof. Dr.\" title guarantee the right specialty for my surgery?",
+      "a": "No. Prof. Dr. indicates academic rank, not which medical branch the physician trained in. Confirm that the professor's board specialty directly matches your procedure."
+    },
+    {
+      "q": "How can a foreign patient verify a doctor if Doktor Bilgi Bankası requires e-Devlet?",
+      "a": "Ask the hospital's international patient department for a dated copy of the physician's Ministry of Health specialty registration (uzmanlık tescil belgesi) and cross-check membership with the relevant provincial TTB chamber."
+    },
+    {
+      "q": "Should I also check the anesthesiologist's credentials?",
+      "a": "Yes. For any procedure requiring sedation or general anesthesia, confirm that a board-certified anesthesiology and reanimation specialist (Anesteziyoloji ve Reanimasyon Uzmanı) will be present throughout the operation."
+    },
+    {
+      "q": "Does Itinerary of Türkiye select or endorse doctors for a commission?",
+      "a": "No. Itinerary of Türkiye is paid solely by our clients on a flat-fee basis, accepts zero provider commissions, and coordinates your visit while your licensed medical team makes clinical decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Turkish Medical Association (TTB)",
+      "url": "https://www.ttb.org.tr/"
+    },
+    {
+      "title": "TTB Provincial Medical Chamber directory",
+      "url": "https://www.ttb.org.tr/tabipodalari.php"
+    },
+    {
+      "title": "Doktor Bilgi Bankası (Doctor Information Bank)",
+      "url": "https://www.saglik.gov.tr/TR-99594/doktor-bilgi--bankasi.html"
+    },
+    {
+      "title": "e-Devlet",
+      "url": "https://www.turkiye.gov.tr/saglik-bakanligi-doktor-bilgi-bankasi"
+    },
+    {
+      "title": "Turkish medical law analyses of Law No. 1219",
+      "url": "https://oranpartners.com/articles/plastic-surgery-malpractice-turkey/"
+    },
+    {
+      "title": "Turkish Society of Plastic, Reconstructive and Aesthetic Surgeons patient checklist",
+      "url": "https://turkplasticsurgery.org/?p=checklist"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

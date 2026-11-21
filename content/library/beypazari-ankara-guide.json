@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-409",
+  "no": 409,
+  "slug": "beypazari-ankara-guide",
+  "plannedPath": "/destinations/beypazari-ankara-guide",
+  "status": "published",
+  "title": "Beypazarı Historic Town Guide: Silverwork, Mansions & Carrot Sweets",
+  "seoTitle": "Beypazarı Historic Town Guide: Silver, Mansions & Food",
+  "metaDescription": "Plan a Beypazarı day trip from Ankara. Explore Ottoman mansions, Living Museum, genuine telkari silverwork, yaprak sarma, and carrot sweets.",
+  "imageIdeas": [],
+  "quickAnswer": "Beypazarı sits about 100 km northwest of Ankara—roughly 90 minutes by car—making it an easy half-day or full-day excursion. Listed on the UNESCO World Heritage Tentative List, the town preserves timber-framed Ottoman mansions, the interactive Living Museum, hand-soldered telkari silverwork, pencil-thin yaprak sarma, 80-layer baklava, and fresh carrot sweets.",
+  "category": "Inner Pages — 20 More Boutique Destinations (ITO 52-Destination Hub)",
+  "focusKeyword": "beypazari ankara guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-09-13",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "beypazari-ottoman-timber-mansions-alaaddin-street.webp — Alt text: \"Restored whitewashed Ottoman timber-framed mansions with cantilevered upper bays lining cobblestone Alaaddin Street in Beypazarı\"",
+        "beypazari-telkari-silver-filigree-workshop.webp — Alt text: \"Artisan soldering delicate 925 sterling silver telkari filigree wirework at a workbench in Beypazarı\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How far is Beypazarı from Ankara for a half-day or full-day trip?"
+    },
+    {
+      "type": "p",
+      "text": "Beypazarı is approximately 100 km northwest of central Ankara along the D140 highway, taking 1 hour 20 minutes to 1 hour 40 minutes by car depending on weekday exit traffic ([Beypazarı Practical Info](https://neresigezilir.com.tr/en/turkey/ankara/beypazari-anatolian-open-air-museum-living-village)). Regular municipal and regional buses also depart Ankara throughout the day, making both half-day cultural visits and relaxed full-day itineraries practical."
+    },
+    {
+      "type": "p",
+      "text": "For a focused half-day trip from Ankara, leave by 08:30 AM, walk the restored Alaaddin Street quarter, visit the Living Museum and Suluhan, eat lunch in a converted konak, and return by late afternoon. With a full day, add Hıdırlık Hill for panoramic town views and drive eight kilometers outside town to Macun Village for the Anatolian Open Air Museum (\"Living Village\"). Weekdays are markedly quieter than Saturdays and Sundays, when Ankara families pack the bazaars and bakeries."
+    },
+    {
+      "type": "h2",
+      "text": "What Ottoman mansions and museums stand in the old quarter?"
+    },
+    {
+      "type": "p",
+      "text": "Beypazarı's old quarter preserves hundreds of 19th-century two- and three-story Ottoman konaks built with stone ground floors, whitewashed adobe-and-timber upper stories, and distinctive rooftop drying gables called guşgana. Added to the UNESCO World Heritage Tentative List in 2020 ([Anadolu Agency UNESCO Report](https://www.aa.com.tr/en/culture/turkey-historic-beypazari-district-enters-unesco-list/1809040)), the district pairs walkable architecture with compact, well-kept museums."
+    },
+    {
+      "type": "p",
+      "text": "Key stops sit within a 15-minute walking loop around Alaaddin Sokak and the historic bazaar:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Yaşayan Müze (Living Museum): Housed in the restored Abbaszade Mansion, this interactive cultural museum lets visitors try marbling (ebru), woodblock printing, and Karagöz shadow puppetry rather than viewing objects strictly behind glass.",
+        "Beypazarı City History Museum (Kent Tarihi Müzesi): Displays archaeological finds from Hittite, Phrygian, Roman, and Ottoman eras alongside scale models of traditional carpentry.",
+        "Turkish Bath Museum (Türk Hamam Müzesi): Located in a historic 16th-century Rüstem Paşa hammam, tracing Anatolian bathing rituals, copper bowls, and woven peştamal textiles.",
+        "Suluhan Caravanserai: A 17th-century stone inn rebuilt around a quiet courtyard that now houses small silver workshops, tea tables, and craft stalls."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What is telkari silverwork and how do you spot genuine pieces?"
+    },
+    {
+      "type": "p",
+      "text": "Telkari is fine silver filigree formed by drawing pure or 925 sterling silver into hair-thin twisted wires, shaping tiny scrolls by hand, and soldering them onto delicate frames. To spot genuine Beypazarı telkari, check for a stamped 925 hallmark, inspect solder points under bright light for subtle handmade variation, and avoid heavy cast imitations."
+    },
+    {
+      "type": "p",
+      "text": "Because Beypazarı is one of Türkiye's two historic filigree centers alongside Mardin, workshops around Gümüşçüler Çarşısı (Silversmiths' Bazaar) and Suluhan still demonstrate wire-twisting at open benches. Mass-produced cast pieces sold in souvenir stalls often mimic filigree patterns but look thicker on the reverse side and lack crisp air gaps between the twisted wires. Ask the smith to explain the wire gauge and request a proper receipt stating silver purity rather than buying unmarked trays on the street."
+    },
+    {
+      "type": "h2",
+      "text": "What regional dishes (yaprak sarma, baklava) stand out?"
+    },
+    {
+      "type": "p",
+      "text": "Beypazarı's kitchen is known across Central Anatolia for painstaking handwork: pencil-thin yaprak sarma rolled from tender local vine leaves, 80-layer homemade walnut baklava, slow-baked clay-pot güveç, and crunchy Beypazarı kurusu rusks scented with butter and cinnamon. Because the district supplies a large share of Türkiye's carrots, fresh carrot juice and havuç lokumu (carrot delight) appear at every market stall."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Local Specialty",
+        "What Makes It Distinct",
+        "Where to Try or Buy"
+      ],
+      "rows": [
+        [
+          "Beypazarı Yaprak Sarma",
+          "Rolled as thin as a pencil using sour, veinless spring vine leaves",
+          "Historic konak restaurants (e.g., Taş Mektep or Bağ Evi)"
+        ],
+        [
+          "80-Layer Ev Baklavası",
+          "Paper-thin hand-rolled phyllo sheets layered with crushed walnuts",
+          "Traditional family bakeries off Alaaddin Sokak"
+        ],
+        [
+          "Beypazarı Kurusu",
+          "Twice-baked savory-spiced butter biscuit that keeps for weeks",
+          "Wood-fired bakeries near the central market"
+        ],
+        [
+          "Havuç Lokumu & Cevizli Sucuk",
+          "Soft carrot delight rolled in coconut or walnuts; fresh-pressed carrot juice",
+          "Women's cooperative stalls along the main pedestrian lane"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Half-Day Beypazarı Walking Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Park near the municipal lot below Alaaddin Sokak; narrow cobblestones restrict cars inside the core.",
+        "Visit Yaşayan Müze first before midday school and weekend tour groups arrive.",
+        "Stop at a working telkari bench in Suluhan to see wire soldering before purchasing jewelry.",
+        "Order a shared platter of yaprak sarma, tarhana soup, and güveç for lunch, saving room for warm baklava.",
+        "Buy Beypazarı kurusu and vacuum-sealed havuç lokumu last so boxes stay fresh on the drive back to Ankara."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Adding Beypazarı to an Ankara business trip or Central Anatolia road itinerary? [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye—Paid by our clients. Independent of provider commissions. Review how we plan trips on our [About page](https://itineraryofturkiye.com/about) before reaching out. For your privacy, please do not share passport or ID scans, medical or financial records, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Beypazarı worth visiting if you have already seen Safranbolu?",
+      "a": "Yes, especially if you are based in Ankara. While Safranbolu is larger and more famous for Ottoman timber architecture, Beypazarı is much closer to the capital (90 minutes) and has its own distinct food culture, carrot sweets, and telkari silver craft."
+    },
+    {
+      "q": "When is the best time of year to visit Beypazarı?",
+      "a": "April through June and September through October bring mild walking weather without Central Anatolia's winter frost or peak July heat. Spring also brings the freshest vine leaves for yaprak sarma."
+    },
+    {
+      "q": "Can you reach Beypazarı by public bus from Ankara?",
+      "a": "Yes. Regular minibuses and regional buses run from Ankara's AŞTİ bus terminal and designated northwest stops throughout the day, taking roughly 1.5 to 2 hours depending on stops."
+    },
+    {
+      "q": "Is Beypazarı on the UNESCO World Heritage List?",
+      "a": "Beypazarı is on Türkiye's UNESCO World Heritage Tentative List, submitted in April 2020 ([UNESCO Türkiye Tentative List](https://www.unesco.org.tr/Pages/659/314/UNESCO-World-Heritage-List)), rather than the permanent World Heritage List."
+    },
+    {
+      "q": "How much does a genuine telkari silver piece cost?",
+      "a": "Simple handmade 925 sterling silver earrings or pendants typically start around €20–€45 depending on silver weight and intricacy, while detailed bracelets or necklaces cost significantly more."
+    },
+    {
+      "q": "Should you stay overnight in Beypazarı?",
+      "a": "Most travelers cover the old quarter comfortably on a day trip from Ankara. Staying one night in a restored konak makes sense if you want quiet evening streets or are continuing west toward Mudurnu, Göynük, and Bolu."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Beypazarı Practical Info",
+      "url": "https://neresigezilir.com.tr/en/turkey/ankara/beypazari-anatolian-open-air-museum-living-village"
+    },
+    {
+      "title": "Anadolu Agency UNESCO Report",
+      "url": "https://www.aa.com.tr/en/culture/turkey-historic-beypazari-district-enters-unesco-list/1809040"
+    },
+    {
+      "title": "UNESCO Türkiye Tentative List",
+      "url": "https://www.unesco.org.tr/Pages/659/314/UNESCO-World-Heritage-List"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

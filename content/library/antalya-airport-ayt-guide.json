@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-443",
+  "no": 443,
+  "slug": "antalya-airport-ayt-guide",
+  "plannedPath": "/services/antalya-airport-ayt-guide",
+  "status": "published",
+  "title": "Antalya Airport (AYT) Guide: Terminals 1, 2 & Domestic Transfers",
+  "seoTitle": "Antalya Airport (AYT) Guide: Terminals & Transfers (2026)",
+  "metaDescription": "Antalya Airport (AYT) guide covering Terminal 1, Terminal 2, Domestic, AntRay tram to Kaleiçi, driver pickups, and coastal transfer times.",
+  "imageIdeas": [],
+  "quickAnswer": "Antalya Airport (AYT) operates three main passenger buildings—International Terminal 1, International Terminal 2, and the Domestic Terminal—plus a dedicated CIP Terminal. Terminal 1 and Domestic sit side by side near the AntRay T1A tram station, while Terminal 2 lies 2.5 kilometers away by road. Confirm your terminal before booking ground transfers so your driver waits at the correct exit.",
+  "category": "Inner Pages — 20 Airport, Cruise Port & Terminal Arrival Guides",
+  "focusKeyword": "antalya airport ayt guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-09-26",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "antalya-airport-ayt-terminal-pickup-zone.webp — Alt Text: Arriving passengers walking out of Antalya Airport Terminal 2 toward the shaded private transfer meeting columns.",
+        "antalya-airport-antray-t1a-tram-platform.webp — Alt Text: AntRay T1A tram waiting at the elevated Antalya Airport station outside Terminal 1 and the Domestic Terminal."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Planning an arrival on Türkiye's Mediterranean coast starts with knowing which terminal your airline uses and how traffic behaves along the D400 coastal highway. This antalya airport ayt guide breaks down terminal checks, realistic resort drive times, curbside pickup rules, and rail access into the Old Town."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check whether your flight uses Terminal 1, Terminal 2 or Domestic?"
+    },
+    {
+      "type": "p",
+      "text": "Check your airline's live arrival listing on the [Fraport TAV Antalya Airport Terminals page](https://www.antalya-airport.aero/passengers-visitors/flight-info/terminals) 24 hours before departure, because seasonal charter carriers frequently shift between International Terminal 1 and Terminal 2. All flights arriving from Turkish cities use the Domestic Terminal, which connects directly to Terminal 1 via a short covered walkway."
+    },
+    {
+      "type": "p",
+      "text": "Per [Fraport TAV Antalya Airport](https://www.antalya-airport.aero/b2b/ayt-the-place-to-be/terminal-facts), the airport manages four distinct passenger buildings: International Terminal 1, International Terminal 2, the Domestic Terminal, and the CIP Terminal. Walking between Terminal 1 and Terminal 2 is not practical; they sit roughly 2.5 kilometers apart and require a short taxi ride or public bus hop. Always verify your flight number on the [AYT International Arrivals board](https://www.antalya-airport.aero/passengers-visitors/flight-info/international-arrivals) before confirming pickup instructions with your hotel or driver."
+    },
+    {
+      "type": "h2",
+      "text": "How far is AYT from Kaleiçi, Lara, Belek, Side and Kemer?"
+    },
+    {
+      "type": "p",
+      "text": "Antalya Airport sits about 13 kilometers east of central Antalya, placing Kaleiçi and Lara Beach 20 to 30 minutes away in normal traffic. Resort transfers take 35 to 45 minutes to Belek, 60 to 70 minutes to Side, and 60 to 75 minutes to Kemer, extending by 15 to 25 minutes during summer afternoon peaks."
+    },
+    {
+      "type": "p",
+      "text": "Road timing along the D400 highway depends heavily on Friday–Sunday changeover waves and Antalya city ring-road congestion. The [Fraport TAV Antalya Airport Transportation guide](https://www.antalya-airport.aero/passengers-visitors/transportation) notes an average 20-minute car run to central Muratpaşa, though narrow pedestrianized lanes inside Kaleiçi often require a short walk from the nearest vehicle drop-off point."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Destination",
+        "Approximate Distance",
+        "Off-Peak Drive Time",
+        "Peak Summer Drive Time"
+      ],
+      "rows": [
+        [
+          "Lara Beach",
+          "15–18 km",
+          "20–25 min",
+          "30–35 min"
+        ],
+        [
+          "Kaleiçi (Old Town)",
+          "14–16 km",
+          "25–30 min",
+          "35–45 min"
+        ],
+        [
+          "Belek",
+          "33–38 km",
+          "35–45 min",
+          "50–60 min"
+        ],
+        [
+          "Side",
+          "65–70 km",
+          "60–70 min",
+          "75–90 min"
+        ],
+        [
+          "Kemer",
+          "55–60 km",
+          "60–75 min",
+          "75–95 min"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where do private drivers meet arriving passengers outside customs?"
+    },
+    {
+      "type": "p",
+      "text": "Licensed private transfer drivers are not permitted inside the baggage reclaim or customs halls at AYT. After exiting the sliding glass doors into the outdoor arrivals forecourt, walk toward the numbered welcome desks and meeting columns directly across the pedestrian lane, where drivers hold printed name boards or agency signage."
+    },
+    {
+      "type": "p",
+      "text": "Because AYT handles dense waves of European charter landings, the forecourt outside Terminal 2 can feel crowded between 11:00 and 18:00. Follow this arrival checklist to locate your driver quickly:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm your exact terminal building: Send your flight number—not just the airline name—so your driver tracks gate changes between Terminal 1 and Terminal 2.",
+        "Keep mobile data active upon landing: Airport Wi-Fi requires SMS verification; an eSIM lets you message your driver immediately after passport control.",
+        "Verify the license plate and company name: Match both the driver's printed sign and the vehicle registration sent in your booking voucher before loading luggage.",
+        "Allow 45 minutes for baggage and passports: International arrivals during July and August routinely take 30 to 45 minutes from touchdown to curb."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Does the AntRay tram reach the Old Town?"
+    },
+    {
+      "type": "p",
+      "text": "Yes, the AntRay T1A tram connects Antalya Airport directly to the edge of Kaleiçi in roughly 35 minutes, stopping at İsmetpaşa and Muratpaşa stations just above the historic district. The elevated airport tram platform sits directly opposite Terminal 1 and the Domestic Terminal, making it the most economical public rail option into central Antalya."
+    },
+    {
+      "type": "p",
+      "text": "According to [Fraport TAV Antalya Airport public transport listings](https://www.antalya-airport.aero/passengers-visitors/transportation/buses-and-mass-transport) and [2026 Antalya transit fare updates](https://www.welcomepickups.com/antalya/airport-to-city/), a single AntRay ride costs TRY 50 using an AntalyaKart or contactless bank card at the turnstiles. However, passengers landing at Terminal 2 cannot walk straight onto the platform; they must take local bus 600 or a quick taxi over to the Terminal 1 tram stop. If you are carrying large suitcases or staying down near the Kaleiçi yacht harbor, expect a 10-minute downhill walk over cobblestones from İsmetpaşa station."
+    },
+    {
+      "type": "h2",
+      "text": "Planning Your Arrival With Itinerary of Türkiye"
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye. Paid by our clients. Independent of provider commissions. Learn more on our [About page](https://itineraryofturkiye.com/about) or reach out when you need vetted airport logistics, multi-stop coastal routing, or coordinated family transfers without commission-driven markups. Please do not share passport or ID scans, medical or financial records, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to transfer between Terminal 1 and Terminal 2 at Antalya Airport?",
+      "a": "Plan 10 to 15 minutes by taxi or municipal bus 600 between Terminal 1 and Terminal 2. There is no airside shuttle linking the two international terminals, so allow at least 2.5 to 3 hours if self-connecting between separate tickets."
+    },
+    {
+      "q": "Can I pay for the AntRay tram with a foreign contactless credit card?",
+      "a": "Yes. AntRay turnstiles accept contactless Visa and Mastercard debit or credit cards directly, though foreign cards may incur a small surcharge above the standard TRY 50 AntalyaKart fare."
+    },
+    {
+      "q": "Are taxis available 24/7 outside all three terminals at AYT?",
+      "a": "Yes. Official yellow airport taxis queue 24/7 outside Domestic, Terminal 1, and Terminal 2 arrivals. Confirm the meter is running or verify the posted fixed-zone board before departing."
+    },
+    {
+      "q": "Does the Havaş shuttle bus go to Lara Beach or Belek?",
+      "a": "No. Havaş airport coaches run from AYT toward central Antalya, the intercity bus terminal (Otogar), and Konyaaltı. Reaching Lara, Belek, Side, or Kemer requires a private transfer, taxi, or rental car."
+    },
+    {
+      "q": "How early should I arrive at Antalya Airport for an international departure?",
+      "a": "Arrive at least 3 hours before international flights between May and October. Terminal entrance security screening precedes check-in, adding 15 to 25 minutes during weekend charter peaks."
+    },
+    {
+      "q": "Is there luggage storage at Antalya Airport?",
+      "a": "Yes. Left-luggage offices operate inside the arrivals halls of International Terminal 1, International Terminal 2, and the Domestic Terminal, charging daily rates per bag based on size."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fraport TAV Antalya Airport Terminals page",
+      "url": "https://www.antalya-airport.aero/passengers-visitors/flight-info/terminals"
+    },
+    {
+      "title": "Fraport TAV Antalya Airport",
+      "url": "https://www.antalya-airport.aero/b2b/ayt-the-place-to-be/terminal-facts"
+    },
+    {
+      "title": "AYT International Arrivals board",
+      "url": "https://www.antalya-airport.aero/passengers-visitors/flight-info/international-arrivals"
+    },
+    {
+      "title": "Fraport TAV Antalya Airport Transportation guide",
+      "url": "https://www.antalya-airport.aero/passengers-visitors/transportation"
+    },
+    {
+      "title": "Fraport TAV Antalya Airport public transport listings",
+      "url": "https://www.antalya-airport.aero/passengers-visitors/transportation/buses-and-mass-transport"
+    },
+    {
+      "title": "2026 Antalya transit fare updates",
+      "url": "https://www.welcomepickups.com/antalya/airport-to-city/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

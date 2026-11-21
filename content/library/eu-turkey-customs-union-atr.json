@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-560",
+  "no": 560,
+  "slug": "eu-turkey-customs-union-atr",
+  "plannedPath": "/services/eu-turkey-customs-union-atr",
+  "status": "published",
+  "title": "EU–Türkiye Customs Union (ATR Certificate): What European Buyers Should Know",
+  "seoTitle": "EU–Türkiye Customs Union & A.TR Certificate Guide (2026)",
+  "metaDescription": "How European buyers use A.TR vs EUR.1 certificates under the EU–Türkiye Customs Union, sector exclusions, and road freight times to DE, IT, and UK.",
+  "imageIdeas": [],
+  "quickAnswer": "The EU–Türkiye Customs Union eliminates customs duties on qualifying industrial goods moving in free circulation between the 27 EU Member States and Türkiye when backed by an A.TR movement certificate. Agricultural commodities, coal and steel products, and services sit outside the union—and UK shipments follow the separate UK–Türkiye FTA using origin declarations rather than A.TR.",
+  "category": "Inner Pages — 20 Deep Business, Sourcing & Industry Sector Guides",
+  "focusKeyword": "eu turkey customs union atr",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-09",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "How does the EU–Türkiye Customs Union eliminate tariffs on most industrial goods?"
+    },
+    {
+      "type": "p",
+      "text": "In force since 1996, the [EU–Türkiye Customs Union](https://trade.ec.europa.eu/access-to-markets/en/content/eu-turkiye-customs-union) removes customs duties and quantitative restrictions on industrial products and processed agricultural goods in free circulation between Türkiye and the EU. Because Türkiye aligns its external tariff on covered industrial goods with the EU Common Customs Tariff, qualifying shipments clear EU borders at 0% customs duty."
+    },
+    {
+      "type": "p",
+      "text": "Note two practical boundaries: duty-free status does not remove destination-country import VAT, and goods must genuinely be in free circulation (either produced in Türkiye or previously cleared into Türkiye with applicable third-country duties paid). According to the [European Commission Customs Union notice](https://taxation-customs.ec.europa.eu/news/new-atr-movement-certificate-rules-eu-turkiye-customs-cooperation-2024-07-05_en) and [Decision No 1/2025 of the EU–Türkiye Customs Cooperation Committee](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:22025D1239), EU customs authorities accept electronically issued Turkish A.TR certificates bearing a QR code without wet-ink signatures, speeding up border release."
+    },
+    {
+      "type": "h2",
+      "text": "What is an A.TR movement certificate vs EUR.1 certificate?"
+    },
+    {
+      "type": "p",
+      "text": "An A.TR movement certificate proves free-circulation status for industrial goods within the EU–Türkiye Customs Union, regardless of where raw components originated. By contrast, an EUR.1 certificate (or invoice origin declaration) proves preferential country of origin under a free trade agreement, such as for agricultural goods, coal and steel, or shipments to non-EU partners like the UK."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Document",
+        "Legal Function",
+        "Primary Use Case",
+        "Valid Destination"
+      ],
+      "rows": [
+        [
+          "A.TR Movement Certificate",
+          "Proves free circulation",
+          "Industrial & processed agricultural goods",
+          "27 EU Member States"
+        ],
+        [
+          "EUR.1 / Origin Declaration",
+          "Proves preferential origin",
+          "Basic agriculture, ECSC steel/coal, or FTA trade",
+          "EU (excluded sectors) & FTA partners"
+        ],
+        [
+          "Certificate of Origin",
+          "Proves non-preferential origin",
+          "Trade-defense checks, letters of credit",
+          "Requested by buyer/bank/customs"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For full official framework details, consult the [European Commission Türkiye Customs Union page](https://taxation-customs.ec.europa.eu/turkey-customs-unions-and-preferential-arrangements_en) and the [UK Government summary of the UK–Türkiye Trade Agreement](https://www.gov.uk/guidance/summary-of-the-uk-turkey-trade-agreement)."
+    },
+    {
+      "type": "h2",
+      "text": "Which sectors (agriculture, services) fall outside the Customs Union?"
+    },
+    {
+      "type": "p",
+      "text": "Basic agricultural products, coal and steel products formerly under the ECSC treaty, services, and public procurement fall outside the EU–Türkiye Customs Union. As confirmed by the [Republic of Türkiye Ministry of Trade](https://www.trade.gov.tr/customs-formalities/frequently-asked-questions/origin-of-goods), preferential duty treatment for basic agriculture and coal and steel products relies on separate bilateral rules of origin using EUR.1 documentation rather than A.TR."
+    },
+    {
+      "type": "p",
+      "text": "If a European buyer consolidates industrial hardware alongside unprocessed food or steel-code items in one truck, customs brokers typically split the commercial invoice and customs declarations so each HS code travels under its legally valid certificate."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Verify HS codes early: Confirm with your customs broker whether each product falls under A.TR free circulation or EUR.1 origin rules.",
+        "Check anti-dumping exposure: A.TR removes standard customs duty, not EU trade-defense duties tied to third-country non-preferential origin.",
+        "Watch the 4-month window: Present the A.TR certificate to importing EU customs within four months of issuance."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How fast is road freight from Istanbul to Germany, Italy or the UK?"
+    },
+    {
+      "type": "p",
+      "text": "Full-truckload (FTL) road freight from Istanbul typically reaches northern Italy in 3 to 5 days via overland transit or Pendik–Trieste Ro-Ro ferry, Germany in 3 to 6 days, and the UK in 6 to 8 days depending on Kapıkule border queues and English Channel crossings. Partial-load (LTL) groupage consolidations generally add 2 to 4 days."
+    },
+    {
+      "type": "p",
+      "text": "Short overland lead times allow European procurement teams to run smaller, more frequent replenishment cycles from Istanbul, Bursa, or Kocaeli factories compared to multi-week Asian sea freight—provided export paperwork, EORI numbers, and electronic A.TR QR codes are cleared before the trailer leaves the loading bay."
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. Read about our structure on our [About page](https://itineraryofturkiye.com/about). ITO coordinates supplier factory visits, delegation schedules, and independent introductions only; customs classifications, A.TR or EUR.1 declarations, visa adjudications, and legal or tax advice belong strictly to licensed customs brokers, Turkish consulates, Turkish attorneys, and licensed SMMMs (CPAs). In your first enquiry, please share your target factory regions and visit dates—do not send passport/ID scans, financial or medical records, or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does an A.TR certificate exempt European buyers from import VAT?",
+      "a": "No. An A.TR movement certificate eliminates customs duties on qualifying industrial goods, but the importing EU country’s standard import VAT still applies at customs clearance."
+    },
+    {
+      "q": "Can I still use an A.TR certificate for shipments from Türkiye to the UK?",
+      "a": "No. Since Brexit, the UK is outside the EU Customs Union. Preferential duty-free trade between Türkiye and the UK operates under the UK–Türkiye Free Trade Agreement using origin declarations rather than A.TR."
+    },
+    {
+      "q": "Are electronic A.TR certificates with QR codes accepted across the EU in 2026?",
+      "a": "Yes. Following the European Commission’s July 2024 notice and Decision No 1/2025 of the EU–Türkiye Customs Cooperation Committee, EU Member States accept electronically issued Turkish A.TR certificates bearing a QR code."
+    },
+    {
+      "q": "How long is an A.TR movement certificate valid?",
+      "a": "An A.TR certificate must normally be submitted to the customs authorities of the importing EU Member State within four months from the date of issue in Türkiye."
+    },
+    {
+      "q": "Does an A.TR prove that a product was manufactured in Türkiye?",
+      "a": "No. A.TR proves free-circulation status within the Customs Union, not manufacturing origin. If a buyer or bank requires proof of where goods were made, request a separate Certificate of Origin."
+    },
+    {
+      "q": "Can Itinerary of Türkiye clear my commercial shipment through Turkish customs?",
+      "a": "No. ITO arranges factory visits, executive schedules, and independent introductions. All customs declarations and HS code filings must be executed by a licensed customs broker."
+    }
+  ],
+  "sources": [
+    {
+      "title": "EU–Türkiye Customs Union",
+      "url": "https://trade.ec.europa.eu/access-to-markets/en/content/eu-turkiye-customs-union"
+    },
+    {
+      "title": "European Commission Customs Union notice",
+      "url": "https://taxation-customs.ec.europa.eu/news/new-atr-movement-certificate-rules-eu-turkiye-customs-cooperation-2024-07-05_en"
+    },
+    {
+      "title": "Decision No 1/2025 of the EU–Türkiye Customs Cooperation Committee",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:22025D1239"
+    },
+    {
+      "title": "European Commission Türkiye Customs Union page",
+      "url": "https://taxation-customs.ec.europa.eu/turkey-customs-unions-and-preferential-arrangements_en"
+    },
+    {
+      "title": "UK Government summary of the UK–Türkiye Trade Agreement",
+      "url": "https://www.gov.uk/guidance/summary-of-the-uk-turkey-trade-agreement"
+    },
+    {
+      "title": "Republic of Türkiye Ministry of Trade",
+      "url": "https://www.trade.gov.tr/customs-formalities/frequently-asked-questions/origin-of-goods"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

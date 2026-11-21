@@ -12,6 +12,7 @@ import { articleCopy } from './articleCopy';
 
 export type ArticleBlock =
   | { type: 'h2'; text: string }
+  | { type: 'h3'; text: string }
   | { type: 'p'; text: string }
   | { type: 'ul'; items: string[] }
   | { type: 'table'; head: string[]; rows: string[][] }
@@ -33,6 +34,10 @@ export type ArticleView = {
   images?: string[];
   places?: string[];
   faq?: { q: string; a: string }[];
+  /** 40–60 word direct answer shown in a highlighted box before the body (GEO). */
+  quickAnswer?: string;
+  /** Owner-library covers: photo credit shown under the hero (e.g. Pexels). */
+  coverCredit?: { name: string; url: string; sourceUrl: string };
   sources?: { title: string; url: string; publisher?: string }[];
   guides?: { slug: string; name: string }[];
   related: BlogEntry[];
@@ -94,6 +99,7 @@ export default function ArticleLayout({ view }: { view: ArticleView }) {
   const body: ReactNode[] = [];
   view.blocks.forEach((block, i) => {
     if (block.type === 'h2') { body.push(<h2 key={i}>{block.text}</h2>); return; }
+    if (block.type === 'h3') { body.push(<h3 key={i}>{block.text}</h3>); return; }
     if (block.type === 'ul') { body.push(<ul key={i}>{block.items.map((item, j) => <li key={j}>{inline(item)}</li>)}</ul>); return; }
     if (block.type === 'table') {
       body.push(
@@ -157,6 +163,11 @@ export default function ArticleLayout({ view }: { view: ArticleView }) {
         .ar-body ul li { position: relative; font-size: 17px; line-height: 1.6; color: #33414d; padding: 7px 0 7px 26px; border-bottom: 1px solid rgba(8,31,53,.07); }
         .ar-body ul li:last-child { border-bottom: none; }
         .ar-body ul li::before { content: ''; position: absolute; left: 4px; top: 15px; width: 7px; height: 7px; border-radius: 50%; background: #8a6d33; }
+        .ar-body h3 { font-family: var(--font-playfair), serif; font-size: 21px; color: #081f35; margin: 30px 0 10px; line-height: 1.3; }
+        .ar-quick { margin: 0 0 34px; padding: 20px 22px; border-left: 4px solid #8a6d33; background: #fff; border-radius: 0 14px 14px 0; box-shadow: 0 1px 0 rgba(8,31,53,.06); }
+        .ar-quick .k { display: block; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; color: #8a6d33; margin-bottom: 8px; }
+        .ar-body .ar-quick p { margin: 0; font-size: 17.5px; line-height: 1.7; color: #1e2a35; }
+        .ar-body p.ar-credit { font-size: 12.5px; color: #647889; margin-top: 30px; }
         .ar-table-wrap { overflow-x: auto; margin: 10px 0 26px; border: 1px solid rgba(8,31,53,.12); border-radius: 14px; background: #fff; }
         .ar-table { width: 100%; border-collapse: collapse; font-size: 15px; }
         .ar-table th { text-align: left; padding: 12px 16px; background: rgba(201,169,106,.12); color: #081f35; font-weight: 800; border-bottom: 1px solid rgba(8,31,53,.14); }
@@ -243,7 +254,16 @@ export default function ArticleLayout({ view }: { view: ArticleView }) {
       <div className="ar-shell">
         <article className="ar-body">
           {languageCount > 1 && <div className="ar-langs"><BlogLanguageLinks locale={locale} slug={view.slug} /></div>}
+          {view.quickAnswer && (
+            <aside className="ar-quick" aria-label="Quick answer">
+              <span className="k">Quick answer</span>
+              <p>{inline(view.quickAnswer)}</p>
+            </aside>
+          )}
           {body}
+          {view.coverCredit && (
+            <p className="ar-credit">Cover photo: <a href={view.coverCredit.sourceUrl} target="_blank" rel="noopener noreferrer">{view.coverCredit.name}</a> on <a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a></p>
+          )}
 
           {guides.length > 0 && (
             <nav className="ar-guides" aria-label={copy.guides}>

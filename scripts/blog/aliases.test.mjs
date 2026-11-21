@@ -6,6 +6,7 @@ import vm from 'node:vm';
 import ts from 'typescript';
 import * as aliases from '../../lib/blog-aliases.mjs';
 import * as content from '../../lib/blog-content.mjs';
+import * as library from '../../lib/library-content.mjs';
 import { discoverInventory } from './pipeline.mjs';
 
 // Load the production TypeScript catalog/config without relying on Next's build output.
@@ -19,6 +20,7 @@ function loadTs(relative) {
   const require = (specifier) => {
     if (specifier.endsWith('/blog-aliases.mjs') || specifier === './lib/blog-aliases.mjs') return aliases;
     if (specifier === '@/lib/blog-content.mjs') return content;
+    if (specifier === '@/lib/library-content.mjs') return library;
     const target = specifier.startsWith('@/') ? path.join(root, specifier.slice(2)) : path.resolve(path.dirname(filename), specifier);
     const resolved = [target, `${target}.ts`, `${target}.tsx`].find(existsSync);
     if (!resolved) throw new Error(`Unexpected catalog dependency: ${specifier}`);
@@ -55,7 +57,10 @@ test('reviewed aliases preserve the whole original body and choose the richer sa
 test('every original and JSON record has exactly one public entry or an explicit retained alias', () => {
   for (const locale of catalog.blogLocales) {
     const original = inventory.filter((entry) => entry.locale === locale);
-    const publicEntries = catalog.getBlogEntries(locale);
+    // Owner library articles (content/library) are counted separately below.
+    const publicEntries = catalog.getBlogEntries(locale).filter((entry) => entry.source !== 'library');
+    const libraryEntries = catalog.getBlogEntries(locale).filter((entry) => entry.source === 'library');
+    assert.equal(libraryEntries.length, locale === 'en' ? library.getLibraryArticles('blog').length : 0);
     const hiddenAliases = aliases.BLOG_SLUG_ALIASES.filter((alias) => alias.locale === locale);
     assert.equal(publicEntries.length + hiddenAliases.length, original.length);
     assert.equal(new Set(publicEntries.map((entry) => entry.slug)).size, publicEntries.length);

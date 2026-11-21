@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/config';
 import { BLOG_SLUG_ALIASES, getCanonicalBlogSlug } from '@/lib/blog-aliases.mjs';
 import { CONTENT_LOCALES, CONTENT_LOCALE_PATHS, getContentArticles, type ContentArticle, type ContentLocale } from '@/lib/blog-content.mjs';
+import { getLibraryArticles } from '@/lib/library-content.mjs';
 import { blogArticles, type BlogAuthor } from './blogPosts';
 import { blogPosts } from '../blogs/blogData';
 import { blogPostsDe } from '../blogs/blogDataDe';
 
 /** Shared listing metadata; each source keeps its full, original article body. */
 export type BlogEntry = {
-  source: 'journal' | 'guide' | 'content';
+  source: 'journal' | 'guide' | 'content' | 'library';
   slug: string;
   title: string;
   category: string;
@@ -50,6 +51,20 @@ const legacyEnglishEntries: BlogEntry[] = [
     dateISO: post.dateISO,
     updatedISO: post.updatedISO,
     readTime: post.readTime,
+  })),
+  // Owner library articles that live under /blog (services/destinations pages have their own routes).
+  ...getLibraryArticles('blog').map((article): BlogEntry => ({
+    source: 'library',
+    slug: article.slug,
+    title: article.title,
+    category: article.category,
+    excerpt: article.metaDescription,
+    cover: article.cover,
+    primaryImage: article.cover || `/images/dest/${article.slug}.jpg`,
+    accent: '#10243a',
+    dateISO: article.dateISO,
+    updatedISO: article.updatedISO,
+    readTime: article.readTime,
   })),
 ];
 

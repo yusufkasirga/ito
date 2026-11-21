@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-562",
+  "no": 562,
+  "slug": "turkey-tax-residency-183-days",
+  "plannedPath": "/blog/turkey-tax-residency-183-days",
+  "status": "published",
+  "title": "183-Day Tax Residency Rule in Türkiye: What Remote Workers & Expats Must Know",
+  "seoTitle": "183-Day Tax Residency Rule in Türkiye: 2026 Expat Guide",
+  "metaDescription": "Understand Türkiye's 183-day tax residency rule, GİB double taxation treaties, foreign vs Turkish remote income, and when to hire a Turkish SMMM.",
+  "imageIdeas": [],
+  "quickAnswer": "Under Turkish Income Tax Law No. 193, foreigners with a legal domicile in Türkiye or over six months (183 days) of continuous stay in a calendar year become full tax residents taxed on worldwide income. Double Taxation Treaties and a 2026 foreign-income exemption can limit overlap, making early SMMM advice essential.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "turkey tax residency 183 days",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-10",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "When does a foreigner become a Turkish tax resident (183 days in a calendar year)?"
+    },
+    {
+      "type": "p",
+      "text": "Under Articles 3 and 4 of [Income Tax Law No. 193](https://serkalaw.com/income-tax-in-turkey/), an individual is treated as a full Turkish tax resident (tam mükellef) if their legal domicile is in Türkiye or if they remain in Türkiye continuously for more than six months within a single calendar year. Brief temporary departures do not reset the six-month clock."
+    },
+    {
+      "type": "p",
+      "text": "Two statutory exceptions matter to newcomers: foreigners arriving strictly for a specific temporary assignment—such as foreign business representatives, specialists, press correspondents, or medical patients—may remain limited taxpayers under Article 5 even beyond six months. Conversely, signing a long-term residential lease and registering an address can establish domicile before day 183, so counting entry stamps alone is never enough."
+    },
+    {
+      "type": "h2",
+      "text": "How do Double Taxation Treaties (UK, US, Germany, EU) prevent paying tax twice?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye maintains active Double Taxation Agreements (DTAs) with the UK, the US, Germany, and most EU Member States, published on the [Turkish Revenue Administration (GİB) treaty portal](https://www.gib.gov.tr/mevzuat/tur/4/anlasma/3). When two countries both claim you as a resident, treaty tie-breaker tests—permanent home, center of vital interests, habitual abode, and nationality—assign primary residency to one state."
+    },
+    {
+      "type": "p",
+      "text": "Treaties prevent double taxation through either foreign tax credits or income exemptions, while disputes can be escalated under GİB’s [Mutual Agreement Procedure (MAP) guidelines](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/MAP_Guidelines2024.pdf). To claim treaty protection, taxpayers must submit an official tax residency certificate (mukimlik belgesi) certified per [GİB Circular No. 3 on Double Taxation Agreements](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/cvoa_sirkuler_3.htm); without it, local domestic withholding rates apply by default."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Taxpayer Status",
+        "Statutory Trigger",
+        "Taxable Scope in Türkiye",
+        "Treaty Relief Mechanism"
+      ],
+      "rows": [
+        [
+          "Limited Taxpayer (Dar Mükellef)",
+          "Under 6 months & no Turkish domicile",
+          "Turkish-source income only",
+          "Source-country withholding limits"
+        ],
+        [
+          "Full Taxpayer (Tam Mükellef)",
+          "Domicile in Türkiye or >6 months/year",
+          "Worldwide income (subject to exemptions)",
+          "Tax credit / exemption + tie-breaker"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What rules apply to foreign-sourced remote income vs Turkish-sourced income?"
+    },
+    {
+      "type": "p",
+      "text": "Turkish-sourced income—such as local rental income, Turkish-client consulting fees, or local payroll—is taxable in Türkiye regardless of how many days you stay. For full residents earning foreign-sourced remote income, tax treatment depends on whether services are physically performed in Türkiye, applicable DTA rules, and eligibility under Türkiye’s [2026 20-year foreign-income exemption (Repeated Article 20/D)](https://www.erdem-erdem.av.tr/en/insights/income-tax-exemption-for-twenty-years-and-the-requirement-to-be-deemed-resident-in-turkiye)."
+    },
+    {
+      "type": "p",
+      "text": "Effective June 2026, Repeated Article 20/D exempts qualifying foreign-source revenues for individuals becoming Turkish tax residents without Turkish domicile or Turkish tax liability in the prior three calendar years—yet income from work physically performed inside Türkiye still requires careful treaty analysis under [GİB General Communiqué No. 4](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/GENTEB_4.htm)."
+    },
+    {
+      "type": "h2",
+      "text": "When should you hire a licensed Turkish CPA (SMMM)?"
+    },
+    {
+      "type": "p",
+      "text": "Engage a licensed Turkish Certified Public Accountant (Serbest Muhasebeci Mali Müşavir, or SMMM) before crossing day 120 in a calendar year, before invoicing any Turkish entity, or before purchasing rental property. Verify your accountant’s active license through the [Union of Chambers of Certified Public Accountants of Türkiye (TÜRMOB)](https://www.turmob.org.tr/English) and its [official member lookup](https://www.turmob.org.tr/MeslekMensubu/sorgulama)."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Before day 120: Review travel logs, lease registration, and home-country tax exit rules with an SMMM.",
+        "Before billing clients: Confirm whether your remote work creates a Turkish permanent establishment or sole-proprietorship filing duty.",
+        "Before March filing season: Gather notarized and apostilled foreign tax residency certificates ahead of Türkiye’s annual personal income tax return deadline in March."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. See how we operate on our [About page](https://itineraryofturkiye.com/about). ITO coordinates relocation scouting visits, schedules, and independent introductions only; this article is general orientation, and all tax rulings, filings, visa adjudications, customs declarations, and legal advice belong strictly to licensed Turkish SMMMs (CPAs), Turkish tax attorneys, Turkish consulates, and licensed customs brokers. When contacting ITO, please do not include passport/ID scans, financial or medical records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does holding a Turkish residence permit (Ikamet) automatically make me a tax resident?",
+      "a": "Not automatically, though maintaining a registered residential address and living in Türkiye beyond six months in a calendar year typically triggers full tax residency unless a statutory or treaty exception applies."
+    },
+    {
+      "q": "Do short trips outside Türkiye reset the 183-day count?",
+      "a": "No. Under Income Tax Law No. 193, brief temporary departures do not interrupt continuous stay in a calendar year, so weekend flights out of Istanbul will not reset the six-month threshold."
+    },
+    {
+      "q": "Does Türkiye have a Double Taxation Treaty with the US and the UK?",
+      "a": "Yes. Türkiye has active Double Taxation Agreements with the United States, the United Kingdom, Germany, and all EU Member States, listed on the GİB website."
+    },
+    {
+      "q": "What is a mukimlik belgesi and why does it matter?",
+      "a": "A mukimlik belgesi is an official tax residency certificate issued by your home tax authority (or GİB). Without a certified copy and sworn Turkish translation, Turkish tax offices apply domestic rates instead of treaty relief."
+    },
+    {
+      "q": "Does Türkiye’s digital nomad visa exempt remote workers from Turkish income tax?",
+      "a": "No. Immigration status and tax residency are legally separate; a digital nomad visa or residence permit does not by itself override Income Tax Law No. 193 or applicable tax treaties."
+    },
+    {
+      "q": "Can Itinerary of Türkiye file my Turkish tax return or give tax advice?",
+      "a": "No. ITO is an independent travel and business advisory firm. All tax advice, residency determinations, and filings must be handled by a licensed Turkish SMMM or tax attorney."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Income Tax Law No. 193",
+      "url": "https://serkalaw.com/income-tax-in-turkey/"
+    },
+    {
+      "title": "Turkish Revenue Administration (GİB) treaty portal",
+      "url": "https://www.gib.gov.tr/mevzuat/tur/4/anlasma/3"
+    },
+    {
+      "title": "Mutual Agreement Procedure (MAP) guidelines",
+      "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/MAP_Guidelines2024.pdf"
+    },
+    {
+      "title": "GİB Circular No. 3 on Double Taxation Agreements",
+      "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/cvoa_sirkuler_3.htm"
+    },
+    {
+      "title": "2026 20-year foreign-income exemption (Repeated Article 20/D)",
+      "url": "https://www.erdem-erdem.av.tr/en/insights/income-tax-exemption-for-twenty-years-and-the-requirement-to-be-deemed-resident-in-turkiye"
+    },
+    {
+      "title": "GİB General Communiqué No. 4",
+      "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/GENTEB_4.htm"
+    },
+    {
+      "title": "Union of Chambers of Certified Public Accountants of Türkiye (TÜRMOB)",
+      "url": "https://www.turmob.org.tr/English"
+    },
+    {
+      "title": "official member lookup",
+      "url": "https://www.turmob.org.tr/MeslekMensubu/sorgulama"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

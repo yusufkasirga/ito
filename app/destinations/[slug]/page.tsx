@@ -6,14 +6,18 @@ import LeadForm from '../../components/LeadForm';
 import CityImage from '../../components/CityImage';
 import Link from 'next/link';
 import { getDestination, destinationSlugs } from '../destinationData';
+import { getLibraryArticle, getLibraryArticles } from '@/lib/library-content.mjs';
+import LibraryArticle, { libraryMetadata } from '../../blog/LibraryArticle';
 
 export function generateStaticParams() {
-  return destinationSlugs.map((slug) => ({ slug }));
+  return [...destinationSlugs, ...getLibraryArticles('destinations').map((a) => a.slug)].map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const d = getDestination(slug);
+  const library = d ? undefined : getLibraryArticle('destinations', slug);
+  if (library) return libraryMetadata(library);
   if (!d) return {};
   return {
     title: `${d.name}, Türkiye — What to See & How We Plan It`,
@@ -26,6 +30,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function DestinationPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const d = getDestination(slug);
+  const library = d ? undefined : getLibraryArticle('destinations', slug);
+  if (library) return <LibraryArticle article={library} />;
   if (!d) notFound();
 
   const url = `${SITE_URL}/destinations/${d.slug}`;

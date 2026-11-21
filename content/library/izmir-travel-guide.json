@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-052",
+  "no": 52,
+  "slug": "izmir-travel-guide",
+  "plannedPath": "/blog/izmir-travel-guide",
+  "status": "published",
+  "title": "İzmir City Guide: Kemeraltı, Alsancak & Gateway to the Aegean",
+  "seoTitle": "İzmir City Guide: Kemeraltı, Alsancak & Aegean Base",
+  "metaDescription": "Plan your İzmir stay: why 2 nights beats a quick transit, Kemeraltı Bazaar and Agora highlights, İZBAN airport train tips, and top Aegean day trips.",
+  "imageIdeas": [],
+  "quickAnswer": "Stay two nights in İzmir if you want real Aegean city life—Kemeraltı's Ottoman hans, the Roman Agora, and Kordon seafront evenings—plus easy day trips to Urla or Pergamon. Use İzmir strictly as a transit hub only when your schedule prioritizes Ephesus, Şirince, or Alaçatı overnight stays.",
+  "category": "Aegean Coast — Ephesus, İzmir, Alaçatı, Bodrum & Pamukkale",
+  "focusKeyword": "izmir travel guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-05-18",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "Is İzmir worth staying 2 nights or just a transit hub?"
+    },
+    {
+      "type": "p",
+      "text": "İzmir rewards a two-night stay for travellers who enjoy lived-in Mediterranean port cities rather than resort towns. It is Türkiye's third-largest city, with relaxed evening energy along the Alsancak Kordon, strong street food (boyoz, kumru, and midye dolma), and zero tourist-trap pressure compared to Istanbul's Sultanahmet."
+    },
+    {
+      "type": "p",
+      "text": "However, skip an overnight in central İzmir if you have fewer than seven days in Türkiye and plan to see Ephesus, Pamukkale, and Cappadocia. In that tighter window, landing at Adnan Menderes Airport (ADB) and transferring straight to Selçuk, Şirince, or [Urla](https://itineraryofturkiye.com/blog/urla-wine-route-izmir) saves two hotel check-ins and avoids city commuter traffic."
+    },
+    {
+      "type": "h2",
+      "text": "What are the highlights of Kemeraltı Bazaar and Agora?"
+    },
+    {
+      "type": "p",
+      "text": "Pair the [Agora of Smyrna](https://muze.gov.tr/muze-detay?sectionId=AGR01&distId=MRK) with Kemeraltı Bazaar in a single three-to-four-hour morning loop, starting at the ruins before midday heat builds. The Agora preserves vaulted Roman basilica substructures, the reconstructed Faustina Gate, and rare ancient Greek wall graffiti, sitting directly beside Kemeraltı's historic commercial lanes."
+    },
+    {
+      "type": "p",
+      "text": "Walking downhill from the Agora drops you straight into Kemeraltı, which has functioned as İzmir's trading heart since the 17th century. Focus on specific pockets rather than wandering aimlessly:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kızlarağası Han: An 18th-century Ottoman caravanserai courtyard ideal for a sand-brewed Turkish coffee break and browsing antique brass, rugs, and silver without aggressive sales pitches.",
+        "Abacıoğlu Han & Havra Sokağı: Historic synagogues along Havra Street sit steps from produce stalls, aged tulum cheese sellers, and tucked-away courtyard lokantas serving olive-oil Aegean plates.",
+        "Konak Square & Clock Tower: Finish at the waterfront to see the 25-meter octagonal 1901 İzmir Clock Tower, then board a municipal ferry across the bay to Karşıyaka or Bostanlı for sunset."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How easy is the İZBAN train from ADB airport?"
+    },
+    {
+      "type": "p",
+      "text": "Taking the [İZBAN commuter train](https://www.izban.com.tr/sayfalar/SeferSaatleri.aspx?MenuId=22) from Adnan Menderes Airport (ADB) to central İzmir is straightforward, reliable, and far cheaper than a taxi. The station connects directly outside the Domestic Terminal via a covered walkway, and northbound trains reach Alsancak in roughly 28 to 35 minutes, running every 12 to 15 minutes during the day."
+    },
+    {
+      "type": "p",
+      "text": "Buy an İzmirim Kart or multi-ride ticket at the station kiosk before passing the turnstiles, and check the [İZBAN network map](https://www.izban.com.tr/sayfalar/AgHaritasi.aspx?MenuId=97) and [fare tariff](https://www.izban.com.tr/FiyatTarifesi.html) if you are heading to Konak or Çankaya—you transfer directly onto the İzmir Metro at Hilal or Halkapınar. For late-night arrivals after midnight or travellers carrying heavy suitcases, a pre-booked transfer or metered airport taxi takes 25 to 35 minutes to Alsancak."
+    },
+    {
+      "type": "h2",
+      "text": "Which day trips work best from İzmir?"
+    },
+    {
+      "type": "p",
+      "text": "Four classic Aegean excursions sit within 50 to 95 minutes of central İzmir, making the city a practical rail-and-road base if you dislike packing every second morning. Choose your day trips by interest—wine, Greco-Roman ruins, or coastal villages—rather than trying to cram two directions into one day."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Day Trip Destination",
+        "Distance & Drive Time",
+        "Best Transport Mode",
+        "Recommended Time"
+      ],
+      "rows": [
+        [
+          "[Urla Wine Route](https://guide.michelin.com/tr/en/izmir/urla_2808630/restaurants)",
+          "45 km / 45–55 min",
+          "Private driver (for tastings)",
+          "Full day (or 1 night)"
+        ],
+        [
+          "Ephesus & Şirince",
+          "80 km / 60–75 min",
+          "Private car or İZBAN to Selçuk",
+          "Full day"
+        ],
+        [
+          "[Pergamon (Bergama)](https://whc.unesco.org/en/list/1457/)",
+          "105 km / 90 min",
+          "Private car or rental",
+          "Full day"
+        ],
+        [
+          "Eski Foça (Old Phocaea)",
+          "65 km / 60–70 min",
+          "Car or summer ferry",
+          "Half to full day"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you plan to visit [Pergamon](https://itineraryofturkiye.com/blog/pergamon-bergama-guide) and continue north toward Ayvalık or Assos, treat İzmir as your starting point rather than doubling back south at night."
+    },
+    {
+      "type": "p",
+      "text": "Deciding whether to sleep in Alsancak, Urla, or Selçuk on your Aegean route? [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee advisory run by its two founders—paid by our clients and independent of provider commissions. When you message us for route sequencing and neighborhood matching, share only your dates, pace, and interests; do not send passport or ID scans, medical records, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which neighborhood is best to stay in İzmir for first-time visitors?",
+      "a": "Alsancak is the most practical base for first-timers: walkable to the Kordon seafront, cafés, restaurants, the İZBAN station, and ferries, while Konak suits travellers prioritizing Kemeraltı access."
+    },
+    {
+      "q": "Does the İZBAN train go directly from İzmir Airport to Ephesus (Selçuk)?",
+      "a": "Yes, southbound İZBAN trains reach Selçuk with a single platform transfer at Tepeköy, taking roughly 70 to 90 minutes total depending on connection timing."
+    },
+    {
+      "q": "Is Kemeraltı Bazaar open on Sundays?",
+      "a": "Most wholesale and traditional artisan shops in Kemeraltı close on Sundays, though Kızlarağası Han cafés and several central lanes remain open. Visit Monday through Saturday for full atmosphere."
+    },
+    {
+      "q": "How many hours do you need at the Agora of Smyrna?",
+      "a": "Plan 60 to 90 minutes for the Agora Open Air Museum, including the vaulted basement arches and restored porticoes, before walking straight into Kemeraltı."
+    },
+    {
+      "q": "Is İzmir safe to walk around at night?",
+      "a": "Central seafront districts like Alsancak, Kordon, Bostanlı, and Karşıyaka are lively and safe well into the evening. Use normal urban awareness in quieter backstreets around Basmane after dark."
+    },
+    {
+      "q": "What local İzmir foods should I try in 48 hours?",
+      "a": "Start with flaky boyoz pastry and a boiled egg for breakfast, grab a toasted kumru sandwich or stuffed mussels (midye dolma) along the Kordon, and sit down for Aegean meze with fresh sea bass."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Agora of Smyrna",
+      "url": "https://muze.gov.tr/muze-detay?sectionId=AGR01&distId=MRK"
+    },
+    {
+      "title": "İZBAN commuter train",
+      "url": "https://www.izban.com.tr/sayfalar/SeferSaatleri.aspx?MenuId=22"
+    },
+    {
+      "title": "İZBAN network map",
+      "url": "https://www.izban.com.tr/sayfalar/AgHaritasi.aspx?MenuId=97"
+    },
+    {
+      "title": "fare tariff",
+      "url": "https://www.izban.com.tr/FiyatTarifesi.html"
+    },
+    {
+      "title": "Urla Wine Route",
+      "url": "https://guide.michelin.com/tr/en/izmir/urla_2808630/restaurants"
+    },
+    {
+      "title": "Pergamon (Bergama)",
+      "url": "https://whc.unesco.org/en/list/1457/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

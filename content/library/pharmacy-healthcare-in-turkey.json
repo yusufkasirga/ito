@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-100",
+  "no": 100,
+  "slug": "pharmacy-healthcare-in-turkey",
+  "plannedPath": "/blog/pharmacy-healthcare-in-turkey",
+  "status": "published",
+  "title": "Pharmacies (Eczane), Prescriptions & Emergency Healthcare in Türkiye",
+  "seoTitle": "Pharmacies (Eczane) & Emergency Healthcare in Türkiye",
+  "metaDescription": "Navigate Turkish pharmacies (Eczane), 24-hour Nöbetçi Eczane, 112 emergency care, English-speaking hospitals, and travel insurance reimbursement.",
+  "imageIdeas": [
+    "Illuminated red and white Eczane pharmacy sign on a quiet Istanbul street at dusk (istanbul-eczane-sign.webp) | Alt Text: Red-and-white Eczane sign outside a neighbourhood pharmacy in Istanbul at dusk",
+    "Exterior entrance of a modern private hospital in central Istanbul with international patient signage (istanbul-private-hospital-entrance.webp) | Alt Text: Main entrance of a private hospital with international patient services in central Istanbul"
+  ],
+  "quickAnswer": "Turkish pharmacies (Eczane) dispense everyday painkillers, antihistamines, and rehydration salts over the counter, while antibiotics and sedatives strictly require a Turkish doctor's prescription. For overnight medication, look up the nearest rotating 24-hour Nöbetçi Eczane. In a medical emergency, dial 112 nationwide or go directly to a private hospital's Acil (ER).",
+  "category": "Practical Travel Logistics, Money, Visas & Transport",
+  "focusKeyword": "pharmacy healthcare in turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-06-05",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Healthcare in Türkiye's major cities and coastal hubs is modern, fast, and far more accessible than many first-time visitors expect. Knowing how neighbourhood pharmacies operate—and what paperwork private hospitals issue for travel insurance claims—saves hours of stress if a minor ailment or sudden injury interrupts your trip."
+    },
+    {
+      "type": "h2",
+      "text": "What medications can you buy over the counter at a Turkish Eczane?"
+    },
+    {
+      "type": "p",
+      "text": "Licensed Turkish pharmacists (eczacı) can sell standard paracetamol, ibuprofen, oral rehydration salts, antacids, throat lozenges, motion-sickness tablets, and non-drowsy antihistamines over the counter without a prescription. Under regulations enforced by the Turkish Medicines and Medical Devices Agency (TİTCK), antibiotics, sedatives, opioid painkillers, and injectables are strictly prescription-only nationwide."
+    },
+    {
+      "type": "p",
+      "text": "Brand names differ from those in North America or the UK, so write down the generic active ingredient (for example, ibuprofen or cetirizine) rather than a commercial label. As outlined in [Acıbadem International's OTC medicine guide](https://acibademinternational.com/patient-guides/over-the-counter-medicines-in-turkey-what-is-safe-to-buy/), pharmacists cannot legally hand over antibiotics without a physician's reçete (prescription)—a policy enforced to curb antimicrobial resistance ([Istanbul Medical Center](https://istanbulmedicalcenter.com/en/servisler/buy-antibiotics-in-turkey-without-prescription/))."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Standard hours: Most urban pharmacies open Monday to Saturday, 09:00–19:00, and close on Sundays and public holidays.",
+        "Bring chronic medications: Pack enough of your regular prescriptions in original labelled containers plus a copy of your doctor's letter, as foreign prescriptions cannot be filled directly at Turkish pharmacies.",
+        "Pricing transparency: Medicine prices are regulated nationwide by the Ministry of Health, meaning a box of paracetamol costs the same in Sultanahmet as in a residential suburb."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you find a 24-hour duty pharmacy (Nöbetçi Eczane)?"
+    },
+    {
+      "type": "p",
+      "text": "Every Turkish district operates a mandatory overnight and Sunday rotation of 24-hour duty pharmacies called Nöbetçi Eczane. You can find the closest open branch by checking the illuminated digital sign posted in any closed pharmacy's front window, searching the official [e-Devlet / TİTCK Duty Pharmacy Locator](https://www.turkiye.gov.tr/saglik-titck-nobetci-eczane-sorgulama), or checking the [Istanbul Chamber of Pharmacists](https://www.istanbuleczaciodasi.org.tr/)."
+    },
+    {
+      "type": "p",
+      "text": "After 19:00, a Nöbetçi Eczane locks its main door and serves customers through a small street-facing service window (nöbet penceresi) with a doorbell. In Istanbul, Bodrum, and Antalya, hotel receptionists also keep the nightly duty list on hand and can call ahead to confirm stock before you take a taxi."
+    },
+    {
+      "type": "h2",
+      "text": "What emergency numbers (112) and English-speaking hospitals exist?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye uses 112 as its unified, toll-free national emergency number for ambulance, police, and fire services, operating 24/7 with English-speaking dispatchers available ([Acıbadem International Emergency Guide](https://acibademinternational.com/patient-guides/emergency-contacts-for-medical-travelers-in-turkey/)). For urgent non-life-threatening care in Istanbul, private hospitals maintain dedicated international patient desks with fluent English coordinators."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Hospital",
+        "Central Location",
+        "24/7 Emergency & International Desk",
+        "Official Reference"
+      ],
+      "rows": [
+        [
+          "American Hospital (Amerikan Hastanesi)",
+          "Nişantaşı, Şişli (European side)",
+          "Yes; 24/7 ER & Mayo Clinic Care Network member",
+          "[American Hospital International](https://www.amerikanhastanesi.org/plan-your-visit/international-visitors)"
+        ],
+        [
+          "Acıbadem Taksim Hospital",
+          "Taksim, Beyoğlu (central Istanbul)",
+          "Yes; 24/7 ER minutes from Taksim Square",
+          "[Acıbadem Taksim](https://acibademinternational.com/hospital/taksim-hospital/)"
+        ],
+        [
+          "Koç University Hospital",
+          "Topkapı, Zeytinburnu",
+          "Yes; 24/7 ER & academic specialist centre",
+          "[Koç University Hospital](https://www.kuh.ku.edu.tr/plan-your-visit/international-visitors)"
+        ],
+        [
+          "Memorial Şişli Hospital",
+          "Şişli (European side)",
+          "Yes; 24/7 ER & international patient centre",
+          "[Memorial Şişli](https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Always carry your passport (or a clear photo plus your physical passport when heading to a hospital), as Turkish private hospitals require passport registration to open a medical chart."
+    },
+    {
+      "type": "h2",
+      "text": "How does travel insurance reimbursement work at private Turkish hospitals?"
+    },
+    {
+      "type": "p",
+      "text": "Most outpatient and minor ER visits at private Turkish hospitals work on a pay-and-claim basis: pay by card at discharge and submit the English medical report and itemised bill to your insurer. For hospital admissions or major procedures, call your insurer's 24/7 line to request a Guarantee of Payment (GOP) for direct billing."
+    },
+    {
+      "type": "p",
+      "text": "Before leaving the hospital cashier, ask the international patient desk for three documents in English:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Epikriz (discharge/clinical summary): States the diagnosis, ICD-10 code, and treatment provided.",
+        "Itemised invoice (detaylı fatura): Breaks down doctor consultation, lab tests, imaging, and medications line by line.",
+        "Payment receipt and stamped prescription: Proof of settlement plus any pharmacy receipts from an external Eczane."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For everyday prevention—including drinking-water habits and what to pack before you fly—read our companion guide on [tap water, food hygiene, and travel health kits in Türkiye](https://itineraryofturkiye.com/blog/can-you-drink-tap-water-in-turkey)."
+    },
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders design independent, flat-fee trips across the country (Paid by our clients. Independent of provider commissions.). When healthcare logistics arise during a trip, we keep a strict non-clinical boundary: We coordinate your visit. Your licensed medical team makes clinical decisions. Please do not send passport or ID scans, medical records, or payment details in a first enquiry—share only your general travel dates and logistical questions."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a Turkish pharmacist refill my US, UK, or EU prescription?",
+      "a": "No. Turkish pharmacies can only dispense prescription-only medicines against a prescription issued by a doctor licensed in Türkiye. If you run out of a prescription drug, book a quick outpatient consultation at a private hospital to obtain a local reçete."
+    },
+    {
+      "q": "Are Turkish pharmacies open on Sundays and during Bayram holidays?",
+      "a": "Regular pharmacies close on Sundays and public holidays, including Ramazan Bayramı and Kurban Bayramı. However, designated Nöbetçi Eczane duty pharmacies remain open 24 hours a day in every district throughout holidays."
+    },
+    {
+      "q": "Do public hospitals in Türkiye treat foreign tourists in emergencies?",
+      "a": "Yes. Under Turkish law, state hospitals provide emergency stabilisation regardless of nationality, though English-speaking staff are far less common than at private hospitals such as American Hospital, Acıbadem, or Memorial."
+    },
+    {
+      "q": "Should I call 112 or take a taxi to the hospital?",
+      "a": "For life-threatening symptoms—chest pain, severe trauma, breathing difficulty, or loss of consciousness—call 112 immediately. For minor fractures, high fevers, or dehydration when you can travel safely, a taxi to a private hospital's Acil department is often faster in heavy Istanbul traffic."
+    },
+    {
+      "q": "How much does an outpatient ER visit cost at a private hospital in Istanbul?",
+      "a": "A standard emergency consultation at a top-tier private Istanbul hospital typically runs €100–€250 before labs or imaging, with transparent quotes provided upfront at the international patient desk."
+    },
+    {
+      "q": "Do I need travel insurance that covers private hospitals in Türkiye?",
+      "a": "Yes. Your home public health plan (including the UK NHS, Canadian provincial plans, US Medicare, and EU EHIC/GHIC cards) does not cover private medical care in Türkiye, so comprehensive travel medical insurance is essential."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Acıbadem International's OTC medicine guide",
+      "url": "https://acibademinternational.com/patient-guides/over-the-counter-medicines-in-turkey-what-is-safe-to-buy/"
+    },
+    {
+      "title": "Istanbul Medical Center",
+      "url": "https://istanbulmedicalcenter.com/en/servisler/buy-antibiotics-in-turkey-without-prescription/"
+    },
+    {
+      "title": "e-Devlet / TİTCK Duty Pharmacy Locator",
+      "url": "https://www.turkiye.gov.tr/saglik-titck-nobetci-eczane-sorgulama"
+    },
+    {
+      "title": "Istanbul Chamber of Pharmacists",
+      "url": "https://www.istanbuleczaciodasi.org.tr/"
+    },
+    {
+      "title": "Acıbadem International Emergency Guide",
+      "url": "https://acibademinternational.com/patient-guides/emergency-contacts-for-medical-travelers-in-turkey/"
+    },
+    {
+      "title": "American Hospital International",
+      "url": "https://www.amerikanhastanesi.org/plan-your-visit/international-visitors"
+    },
+    {
+      "title": "Acıbadem Taksim",
+      "url": "https://acibademinternational.com/hospital/taksim-hospital/"
+    },
+    {
+      "title": "Koç University Hospital",
+      "url": "https://www.kuh.ku.edu.tr/plan-your-visit/international-visitors"
+    },
+    {
+      "title": "Memorial Şişli",
+      "url": "https://www.memorial.com.tr/en/hospitals/memorial-sisli-hospital"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

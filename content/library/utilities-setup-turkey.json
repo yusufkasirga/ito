@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-376",
+  "no": 376,
+  "slug": "utilities-setup-turkey",
+  "plannedPath": "/blog/utilities-setup-turkey",
+  "status": "published",
+  "title": "Setting Up Utilities (Electricity, Water, Gas, Fibre) & DASK in Türkiye",
+  "seoTitle": "Setting Up Utilities & DASK in Türkiye: Step-by-Step",
+  "metaDescription": "Check required documents for electricity, water, gas, fibre internet, and DASK in Türkiye, refundable deposits, and one-day local setup logistics.",
+  "imageIdeas": [],
+  "quickAnswer": "To open electricity, water, and natural gas accounts in Türkiye, you must first hold an active [DASK earthquake policy](https://dask.gov.tr/tr/police-sorgulama) linked to your 10-digit UAVT address code, plus your TAPU or notarized lease, passport (or residence permit), Turkish tax ID, and meter installation numbers. Fibre internet requires an infrastructure check and an on-site technician visit.",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "utilities setup turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-09-01",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "turkey-utility-documents-folder-dask.webp — Alt text: New homeowner organizing a DASK policy printout, TAPU copy, and utility meter numbers before visiting Istanbul electricity and gas offices.",
+        "istanbul-fibre-internet-router-installation.webp — Alt text: Telecom technician testing a newly installed fibre optic modem inside an apartment in Istanbul."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Getting basic utilities connected promptly after closing on an apartment or signing a long-term lease saves days of back-and-forth across municipal counters. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate relocation ground logistics, appointment sequencing, and bilingual on-the-ground assistance on a flat client fee (\"Paid by our clients. Independent of provider commissions.\"). We do not act as attorneys, tax advisors, or insurance brokers; legal title (TAPU), lease drafting, tax, and insurance underwriting decisions belong strictly to licensed Turkish professionals and official authorities."
+    },
+    {
+      "type": "h2",
+      "text": "What documents (TAPU or notarized lease, DASK policy, passport) are needed for utility subscriptions?"
+    },
+    {
+      "type": "p",
+      "text": "Turkish electricity, water, and natural gas providers will not activate a residential contract without a valid DASK policy number tied to the property's official 10-digit [UAVT address code](https://dask.gov.tr/adreskodu). Alongside DASK, every branch requires proof of occupancy (your TAPU title deed if you own, or a signed lease—notarized when requested for foreign tenants), photo identification, and the unit's meter/installation number (tesisat numarası)."
+    },
+    {
+      "type": "p",
+      "text": "Regional providers differ by city and neighborhood. On Istanbul's European side, retail electricity runs through [CK Enerji Boğaziçi Elektrik](https://www.ckbogazici.com.tr/tr/evde-enerji-abonelik-islemleri) (and [CK Enerji Akdeniz](https://online.ckenerji.com.tr/) in Antalya), natural gas in Istanbul runs through [İGDAŞ](https://igdas.istanbul/musteri-hizmetleri/abonelik-islemleri/abonelik-sozlesmesi), and Istanbul water is managed by [İSKİ](https://www.turkiye.gov.tr/istanbul-su-ve-kanalizasyon-idaresi-genel-mudurlugu)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Utility Service",
+        "Mandatory Prerequisite",
+        "Core Documents Required",
+        "Typical Activation Time"
+      ],
+      "rows": [
+        [
+          "DASK Policy",
+          "10-digit UAVT address code",
+          "TAPU details, owner/insured ID, square meters",
+          "Same day (digital policy)"
+        ],
+        [
+          "Electricity",
+          "Active DASK policy",
+          "TAPU or lease, passport/ikamet, tax ID, tesisat no.",
+          "24–48 hours"
+        ],
+        [
+          "Water (e.g., İSKİ)",
+          "Active DASK policy",
+          "TAPU or lease, passport/ikamet, meter serial no.",
+          "1–2 business days"
+        ],
+        [
+          "Natural Gas (e.g., İGDAŞ)",
+          "Active DASK + gas project approval",
+          "TAPU or lease, passport/ikamet, boiler/installation no.",
+          "2–4 business days (safety check)"
+        ],
+        [
+          "Fibre Internet",
+          "Address port availability",
+          "Residence permit (or provider-approved ID), lease/TAPU",
+          "2–7 business days"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How long does fibre internet installation take in Istanbul and Antalya?"
+    },
+    {
+      "type": "p",
+      "text": "When a building already has an active fibre distribution box and open port, installation in central Istanbul or Antalya typically takes 2 to 5 business days from application to technician visit. Before choosing an apartment or signing a contract, verify exact line speed and fibre availability using an official address tool such as [Türk Telekom's infrastructure checker](https://www.turktelekom.com.tr/altyapi-sorgulama) and review current [fibre package requirements](https://bireysel.turktelekom.com.tr/evde-internet/fiber-internet)."
+    },
+    {
+      "type": "p",
+      "text": "Foreign residents should note that most Turkish telecom operators require a valid Turkish Foreigner ID (Yabancı Kimlik Numarası on a residence permit) for standard 12- or 24-month fixed broadband contracts. If you have just closed on a home before receiving residency, confirm short-term or passport-eligible options in advance so you are not left relying solely on mobile hotspots during your first month."
+    },
+    {
+      "type": "h2",
+      "text": "What security deposits are refundable when you leave?"
+    },
+    {
+      "type": "p",
+      "text": "Electricity, water, and natural gas providers collect a statutory security deposit (güvence bedeli) when opening a new residential account—for example, [İGDAŞ](https://igdas.istanbul/musteri-hizmetleri/abonelik-islemleri/abonelik-sozlesmesi) collects a refundable deposit for mechanical gas meters, and electricity and water utilities hold similar regulated deposits. These deposits are 100% refundable (adjusted for statutory indexation where applicable, minus any final unpaid bill) when you formally terminate the subscription (abonelik feshi)."
+    },
+    {
+      "type": "p",
+      "text": "Never walk away from an apartment without closing utility accounts in your name. If a subsequent tenant uses power or gas on your open contract, the legal debt remains attached to your tax ID or residence number. When terminating, provide your Turkish IBAN so the utility can wire the refunded deposit directly to your account—usually within 5 to 15 business days after the final meter reading."
+    },
+    {
+      "type": "h2",
+      "text": "How can a local coordinator handle utility visits in one day?"
+    },
+    {
+      "type": "p",
+      "text": "Because DASK must be issued before utility counters can process applications—and branch queues across electricity, water, and gas offices can sit in different neighborhoods—sequencing stops in the right order turns a three-day errand into a single structured day."
+    },
+    {
+      "type": "p",
+      "text": "One-Day Utility Setup Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Morning (Before 09:30): Issue or verify the active DASK policy via a licensed insurer and print three copies alongside the 10-digit UAVT address code.",
+        "Photograph Meters First: Take clear smartphone photos of the electricity, water, and gas meter serial plates and current readings before leaving the apartment.",
+        "Bring Complete Copies: Pack originals and photocopies of your TAPU (or notarized lease), passport, Turkish tax ID (or ikamet), Turkish mobile number for SMS codes, and Turkish IBAN.",
+        "Sequence Branches: Complete electricity, water, and gas counter filings back-to-back, scheduling the mandatory gas safety inspection window at the apartment.",
+        "Confirm Auto-Pay: Once subscriber numbers (abone numarası) are issued, link them to your Turkish bank's automatic bill-payment instruction (otomatik ödeme talimatı) so service is never cut while you are abroad."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Learn how [our two-founder team](https://itineraryofturkiye.com/about) coordinates arrival-week logistics and bilingual accompaniment on a transparent flat client fee."
+    },
+    {
+      "type": "p",
+      "text": "Arriving in Türkiye to Set Up Your New Home?If you need structured, client-paid ground coordination for your arrival week in Istanbul, Izmir, or Antalya, reach out through [Itinerary of Türkiye](https://itineraryofturkiye.com/). For your privacy and security, please do not share passport or ID scans, bank account credentials, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I open Turkish utilities online via e-Devlet as a foreigner?",
+      "a": "Foreigners who hold a Turkish residence permit (ikamet) and an active e-Devlet password can submit many electricity, water, and gas applications online. New buyers without e-Devlet access typically complete initial registration in person at regional customer centers."
+    },
+    {
+      "q": "What is a tesisat numarası and where do I find it?",
+      "a": "A tesisat numarası is the unique installation number assigned to your apartment's electricity, water, or gas connection. You can find it on any previous utility bill for the flat or printed on the physical meter label."
+    },
+    {
+      "q": "Do I need a Turkish bank account to set up utilities?",
+      "a": "You can pay initial security deposits by card or cash at most branches, but having a Turkish bank account is strongly recommended for receiving refundable deposits back upon cancellation and setting up automatic monthly bill payments."
+    },
+    {
+      "q": "Why does İGDAŞ require an in-person technician visit after I sign the gas contract?",
+      "a": "Natural gas distribution rules require an authorized technician to inspect the apartment's gas valves, ventilation, and combi boiler seal before unsealing the meter and turning on the supply."
+    },
+    {
+      "q": "Can someone else open utilities for me using Power of Attorney?",
+      "a": "Yes. A Turkish notarized Power of Attorney (vekaletname) that explicitly includes utility subscription and termination authority allows an appointed representative to complete counter filings on your behalf."
+    },
+    {
+      "q": "Does Itinerary of Türkiye issue DASK policies or act as a legal proxy?",
+      "a": "No. Itinerary of Türkiye coordinates on-the-ground logistics, scheduling, and bilingual accompaniment on a flat client fee. Insurance underwriting, legal power of attorney, and title matters belong strictly to licensed Turkish professionals and official authorities."
+    }
+  ],
+  "sources": [
+    {
+      "title": "UAVT address code",
+      "url": "https://dask.gov.tr/adreskodu"
+    },
+    {
+      "title": "CK Enerji Boğaziçi Elektrik",
+      "url": "https://www.ckbogazici.com.tr/tr/evde-enerji-abonelik-islemleri"
+    },
+    {
+      "title": "CK Enerji Akdeniz",
+      "url": "https://online.ckenerji.com.tr/"
+    },
+    {
+      "title": "İGDAŞ",
+      "url": "https://igdas.istanbul/musteri-hizmetleri/abonelik-islemleri/abonelik-sozlesmesi"
+    },
+    {
+      "title": "İSKİ",
+      "url": "https://www.turkiye.gov.tr/istanbul-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+    },
+    {
+      "title": "Türk Telekom's infrastructure checker",
+      "url": "https://www.turktelekom.com.tr/altyapi-sorgulama"
+    },
+    {
+      "title": "fibre package requirements",
+      "url": "https://bireysel.turktelekom.com.tr/evde-internet/fiber-internet"
+    },
+    {
+      "title": "DASK earthquake policy",
+      "url": "https://dask.gov.tr/tr/police-sorgulama"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

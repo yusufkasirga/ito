@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { blogLocales, blogPath, getBlogEntries, getBlogLanguages } from './blog/blogCatalog';
 import { destinationSlugs } from './destinations/destinationData';
+import { getLibraryArticles } from '@/lib/library-content.mjs';
 
 const BASE = 'https://itineraryofturkiye.com';
 const SITE_UPDATED = '2026-08-26';
@@ -40,5 +41,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: DESTINATIONS_UPDATED,
   }));
 
-  return [...staticPages, ...blogPages, ...destinations];
+  // /blog library pages are already in blogPages via the catalog.
+  const libraryPages: MetadataRoute.Sitemap = [...getLibraryArticles('services'), ...getLibraryArticles('destinations')].map((a) => ({
+    url: `${BASE}${a.plannedPath}`,
+    lastModified: a.updatedISO ?? a.dateISO,
+  }));
+
+  return [...staticPages, ...blogPages, ...destinations, ...libraryPages];
 }

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-531",
+  "no": 531,
+  "slug": "verify-turkish-dentist-tdb",
+  "plannedPath": "/services/verify-turkish-dentist-tdb",
+  "status": "published",
+  "title": "How to Verify a Turkish Dentist (TDB) & Specialist Prosthodontist",
+  "seoTitle": "How to Verify a Turkish Dentist (TDB) & Prosthodontist",
+  "metaDescription": "Learn how to verify a Turkish dentist on the TDB registry, compare specialists vs general dentists, and request implant passports and lab records.",
+  "imageIdeas": [],
+  "quickAnswer": "To verify a Turkish dentist, search their exact Turkish name on the Turkish Dental Association (Türk Dişhekimleri Birliği, TDB) directory and confirm their provincial chamber registration. For complex implant or full-mouth cases, check whether your care involves a board-certified oral surgeon and a specialist prosthodontist, and always request implant passports and lab certificates.",
+  "category": "Inner Pages — 20 Deep Medical Travel Solo, Legal & Cost Breakdown Guides",
+  "focusKeyword": "verify turkish dentist tdb",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-10-29",
+  "readTime": "5 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders operate on a client-paid, flat-fee model—paid by our clients and independent of provider commissions. We never accept kickbacks from dental clinics or laboratories. We coordinate your visit. Your licensed medical team makes clinical decisions. This guide offers practical verification information for dental travelers and is not medical, legal, or insurance brokerage advice."
+    },
+    {
+      "type": "h2",
+      "text": "How do you verify registration with the Turkish Dental Association (TDB)?"
+    },
+    {
+      "type": "p",
+      "text": "Every dentist practicing privately in Türkiye must hold a recognized dentistry diploma and register with their regional dental chamber under the [Turkish Dental Association (TDB)](https://tdb.org.tr/dishekimi-bul). Using the official [TDB Find a Dentist (](https://tdb.org.tr/dishekimi-bul)[Dişhekimi Bul](https://tdb.org.tr/dishekimi-bul)[) portal](https://tdb.org.tr/dishekimi-bul), enter the clinician's exact Turkish first and last name—including Turkish characters such as ç, ğ, ı, ö, ş, ü—to confirm active registration and city."
+    },
+    {
+      "type": "p",
+      "text": "If a clinician works in a large clinic chain, ask for the full name of the specific dentist who will prepare your teeth or place your implants rather than the clinic owner's name. You can also cross-check chamber contact details via the [TDB Provincial Dental Chambers map](https://tdb.org.tr/odalar/harita) and verify that the dental clinic itself holds an active [Ministry of Health Health Tourism Authorization Certificate](https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html)."
+    },
+    {
+      "type": "h2",
+      "text": "What distinguishes a prosthodontist, oral/maxillofacial surgeon and general dentist?"
+    },
+    {
+      "type": "p",
+      "text": "In Türkiye, a general dentist (Diş Hekimi, Dt.) completes a five-year dentistry degree covering routine restorative and preventive care. By contrast, a specialist (Uzman Diş Hekimi, Uzm. Dt.) completes an additional three to four years of residency training—either through the national DUS specialty exam or a university PhD—in a dedicated discipline such as prosthodontics or oral and maxillofacial surgery."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Dental Title in Türkiye",
+        "Specialty Focus",
+        "Post-Graduate Residency",
+        "Primary Role in Complex Cases"
+      ],
+      "rows": [
+        [
+          "General Dentist (Dt.)",
+          "Broad preventive and restorative care",
+          "5-year DDS/DMD degree",
+          "Routine fillings, single crowns, cleanings, general exams"
+        ],
+        [
+          "Oral & Maxillofacial Surgeon (Ağız, Diş ve Çene Cerrahisi Uzmanı)",
+          "Bone, sinus, and surgical implantology",
+          "+4 years surgical residency",
+          "Complex extractions, bone grafts, sinus lifts, implant placement"
+        ],
+        [
+          "Prosthodontist (Protetik Diş Tedavisi Uzmanı)",
+          "Bite mechanics, crowns, bridges, dentures",
+          "+3–4 years prosthodontic residency",
+          "Full-arch occlusion design, zirconia/porcelain prosthetics, TMJ balance"
+        ],
+        [
+          "Periodontist (Periodontoloji Uzmanı)",
+          "Gums and supporting bone health",
+          "+3–4 years periodontal residency",
+          "Gum disease stabilization, soft-tissue grafting around implants"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why should multi-implant cases involve both a surgeon and a prosthodontist?"
+    },
+    {
+      "type": "p",
+      "text": "Full-arch rehabilitations and multi-implant bridges demand two distinct skill sets: surgical precision in bone and biomechanical precision in bite alignment. Pairing an oral and maxillofacial surgeon with a specialist prosthodontist ensures implants are positioned at the exact angle, depth, and load distribution required to support durable, balanced prosthetics over the long term."
+    },
+    {
+      "type": "p",
+      "text": "When one generalist rushes both surgery and bite engineering inside a compressed five-day trip, patients face higher risks of misaligned occlusion, screw loosening, jaw-joint strain, or premature ceramic fractures. Planning two staged visits—allowing proper osseointegration between implant placement and final prosthetic loading when clinically indicated—also protects long-term stability."
+    },
+    {
+      "type": "h2",
+      "text": "What lab traceability documents should you request?"
+    },
+    {
+      "type": "p",
+      "text": "Before leaving Türkiye, request complete material traceability records in English so your home dentist can service your work safely years later. Under [EU Medical Device Regulation (EU) 2017/745 Article 18](https://eur-lex.europa.eu/eli/reg/2017/745/2026-11-09/eng), implantable medical devices carry strict identification and implant-card expectations across Europe—standards reputable international dental clinics in Türkiye mirror through formal implant passports and manufacturer batch documentation."
+    },
+    {
+      "type": "h3",
+      "text": "Dental Traceability & Discharge Document Checklist"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Implant Passport: Official manufacturer booklet with original peel-off lot/batch stickers showing brand, diameter, length, and tooth position for every implant.",
+        "Abutment & Screw Specifications: Written details of multi-unit abutments and prosthetic screw systems so a dentist at home knows which driver fits.",
+        "Dental Lab Material Certificate: Lab work order stating the exact ceramic or zirconia block brand (e.g., monolithic zirconia vs. lithium disilicate) and shade code.",
+        "Pre- and Post-Op Imaging: Digital copies of your panoramic X-ray and 3D CBCT scan (DICOM files) on USB or secure download.",
+        "Itemized Written Warranty: Clear terms stating what is covered, required home hygiene checkups, and whether flights or hotel nights are excluded in a warranty claim."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "As the [CDC Yellow Book on medical tourism](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html) emphasizes, bringing complete English records back to your local clinician is essential for safe follow-up care. Through our [medical tourism coordination service](https://itineraryofturkiye.com/services/medical-tourism), our two-founder team helps clients build realistic multi-visit dental schedules and organize non-clinical logistics without clinic commissions. Read more at [About Itinerary of Türkiye](https://itineraryofturkiye.com/about). If you would like independent, flat-fee travel planning for a dental consultation in Türkiye, send us an enquiry—and please do not include passport or ID scans, medical or dental X-rays, financial documents, or payment details in your first message."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a general dentist legally place dental implants in Türkiye?",
+      "a": "Yes, general dentists in Türkiye can legally place implants, but complex cases involving bone grafting, sinus lifts, or full-arch prosthetics benefit strongly from board-certified oral surgeons and prosthodontists."
+    },
+    {
+      "q": "Why didn't my dentist's name appear on the TDB search tool?",
+      "a": "Double-check Turkish spelling and special characters (ş, ğ, ç, ı, ö, ü) and verify whether the clinic gave you a coordinator's name instead of the treating clinician's legal name."
+    },
+    {
+      "q": "What if a clinic refuses to provide an implant passport with original batch stickers?",
+      "a": "Treat that refusal as a serious red flag. Without manufacturer batch stickers and exact implant dimensions, a dentist in your home country cannot easily order compatible replacement parts."
+    },
+    {
+      "q": "Are dental crowns and veneers covered by EU MDR implant cards?",
+      "a": "Article 18 of Regulation (EU) 2017/745 exempts standard tooth crowns and fillings from statutory implant cards, so for crowns and veneers you should request the dental laboratory's written material certificate and shade record instead."
+    },
+    {
+      "q": "How many trips to Türkiye do dental implants usually require?",
+      "a": "Many multi-implant plans involve two visits separated by three to six months of bone healing, though your licensed surgical and prosthodontic team will determine whether staged or immediate loading is appropriate."
+    },
+    {
+      "q": "Does Itinerary of Türkiye receive referral fees from Turkish dental clinics?",
+      "a": "No. Itinerary of Türkiye is paid exclusively by our clients on a flat-fee basis, stays independent of provider commissions, and coordinates your visit while your licensed medical team makes clinical decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Turkish Dental Association (TDB)",
+      "url": "https://tdb.org.tr/dishekimi-bul"
+    },
+    {
+      "title": "TDB Provincial Dental Chambers map",
+      "url": "https://tdb.org.tr/odalar/harita"
+    },
+    {
+      "title": "Ministry of Health Health Tourism Authorization Certificate",
+      "url": "https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html"
+    },
+    {
+      "title": "EU Medical Device Regulation (EU) 2017/745 Article 18",
+      "url": "https://eur-lex.europa.eu/eli/reg/2017/745/2026-11-09/eng"
+    },
+    {
+      "title": "CDC Yellow Book on medical tourism",
+      "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-367",
+  "no": 367,
+  "slug": "apostille-documents-turkey",
+  "plannedPath": "/blog/apostille-documents-turkey",
+  "status": "published",
+  "title": "Apostille, Consular Legalization & Sworn Translation for Türkiye",
+  "seoTitle": "Apostille Documents for Türkiye: Legalization Guide",
+  "metaDescription": "Prepare apostilled documents and sworn Turkish translations before flying. Covers Hague Apostille countries, notary steps, timelines, and budgets.",
+  "imageIdeas": [],
+  "quickAnswer": "Before flying to Türkiye for company setup, banking, property, or residency filings, authenticate foreign public documents in their issuing country with a Hague Apostille (for member states listed on the [HCCH Status Table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41)) or Turkish consular legalization (for non-member states). On arrival, have them translated by a Turkish sworn translator and certified by a Turkish notary (Noter).",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "apostille documents turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-28",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "apostille-documents-turkey-notary-folder.webp — Alt text: Organized folder containing an apostilled birth certificate, corporate power of attorney, and Turkish notary-certified sworn translation stamps.",
+        "istanbul-notary-sworn-translation-desk.webp — Alt text: Sworn translator reviewing foreign corporate documents with a licensed Turkish notary office stamp in Istanbul."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "One missing stamp can stall an entire Istanbul business trip. Foreign civil records, corporate certificates, and powers of attorney have no automatic legal effect in Türkiye until they pass two distinct checkpoints: authentication in the country of origin and notarized Turkish translation on arrival. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate business visits, scheduling, and independent introductions on a client-paid, flat-fee basis (\"Paid by our clients. Independent of provider commissions.\"). Formal legal, corporate, notary, and immigration advice or filings belong strictly to licensed Turkish attorneys, certified public accountants (SMMM), and official authorities."
+    },
+    {
+      "type": "h2",
+      "text": "Which countries are part of the Hague Apostille Convention for Türkiye?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye has been a contracting party to the 1961 Hague Apostille Convention since September 1985, as recorded on the [HCCH Apostille Status Table](https://www.hcch.net/en/instruments/conventions/status-table/?cid=41). Over 125 contracting states—including the United States, United Kingdom, EU member states, Canada (since 2024), Australia, China, India, and Saudi Arabia—exchange apostilled documents directly with Türkiye without embassy legalization."
+    },
+    {
+      "type": "p",
+      "text": "If your document originates from a country that is not a Hague Convention party (such as the UAE, Qatar, Kuwait, Egypt, or Vietnam), an Apostille is not available. Instead, you must complete a multi-step consular legalization chain: certification by your home country's Ministry of Foreign Affairs followed by legalization at the Turkish Embassy or Consulate listed via the [Republic of Türkiye Ministry of Foreign Affairs](https://www.mfa.gov.tr/). For Turkish documents being sent abroad, Türkiye's designated competent authorities (district governorships and judicial commissions) are listed on the [HCCH Türkiye Competent Authorities page](https://www.hcch.net/en/states/authorities/details3/?aid=350)."
+    },
+    {
+      "type": "h2",
+      "text": "What documents (birth/marriage certificates, POAs, diplomas) need Apostille before flying?"
+    },
+    {
+      "type": "p",
+      "text": "Any official foreign document you plan to submit to a Turkish trade registry, bank, university, land registry, or immigration office must be apostilled or consular-legalized in its country of origin before you board your flight. Turkish authorities cannot apostille a foreign-issued document inside Türkiye."
+    },
+    {
+      "type": "p",
+      "text": "Use this pre-departure document checklist to confirm what applies to your trip:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Corporate setup & banking: Certificate of Incorporation, Good Standing Certificate, Board Resolution authorizing a Turkish subsidiary, and parent-company ownership/UBO extracts.",
+        "Powers of Attorney (POA): If signed before a foreign notary abroad, the POA requires an Apostille (or Turkish consular execution directly at a Turkish consulate abroad, which removes the need for an Apostille).",
+        "Family & residency (İkamet): Long-form birth certificates for children, marriage certificates, and divorce decrees if applicable.",
+        "Employment & university filings: University diplomas, academic transcripts, and criminal record certificates (Adli Sicil equivalents) when requested for specific work permits or equivalency (Denklik)."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Remember that an Apostille certifies only the authenticity of the official signature or seal on the original document; it does not validate the underlying content or replace Turkish translation."
+    },
+    {
+      "type": "h2",
+      "text": "How do Turkish notary-certified sworn translations work on arrival?"
+    },
+    {
+      "type": "p",
+      "text": "Once your apostilled original arrives in Türkiye, a sworn translator (Yeminli Tercüman) registered with a specific Turkish Notary Public (Noter) translates both the main document and the Apostille certificate itself into Turkish. The notary then binds, stamps, and certifies the translation so Turkish institutions can legally accept it."
+    },
+    {
+      "type": "p",
+      "text": "Translating documents abroad before flying often backfires. Turkish banks, trade registries, and immigration offices almost universally require the translation to bear a Turkish notary seal (Noter Onayı), which can only be affixed by a notary inside Türkiye (or at a Turkish consulate abroad)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Stage",
+        "Where It Happens",
+        "Responsible Authority",
+        "Typical Turnaround"
+      ],
+      "rows": [
+        [
+          "1. Apostille / Legalization",
+          "Issuing country (before travel)",
+          "Home-country competent authority ([HCCH](https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille)) or Turkish Consulate",
+          "2 business days to 3 weeks"
+        ],
+        [
+          "2. Sworn Translation",
+          "Türkiye (after arrival)",
+          "Registered Turkish Sworn Translator (Yeminli Tercüman)",
+          "Same day to 2 business days"
+        ],
+        [
+          "3. Notary Certification",
+          "Türkiye (same district as translator)",
+          "Licensed Turkish Notary Public (Noter)",
+          "30 to 90 minutes on-site"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How much time and budget should you plan?"
+    },
+    {
+      "type": "p",
+      "text": "Allow two to four weeks before departure for home-country Apostille or consular legalization, plus one to two business days in Istanbul for sworn translation and notary certification. In 2026, standard one-page sworn translation plus Turkish notary certification typically ranges from roughly 1,500 to 3,500 TRY per document, while multi-page corporate charters cost more based on page count and character volume."
+    },
+    {
+      "type": "p",
+      "text": "Notary fees in Türkiye are set by an official national tariff and calculated per page, stamp, and binding, meaning a 15-page corporate articles of association costs significantly more to notarize than a one-page marriage certificate. When coordinating a multi-appointment business visit, [Itinerary of Türkiye](https://itineraryofturkiye.com/about) schedules translation hand-offs and notary visits cleanly around your bank, office, or supplier meetings, and can introduce you to independent Turkish attorneys to confirm exact document lists before you spend money on unnecessary certifications."
+    },
+    {
+      "type": "p",
+      "text": "Organizing a business setup, property, or relocation visit to Türkiye and want your on-the-ground appointments sequenced cleanly? Contact [Itinerary of Türkiye](https://itineraryofturkiye.com/) for independent, flat-fee travel coordination. For your privacy, please do not share passport or ID scans, financial or medical records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I get a US, UK, or EU document apostilled at my embassy in Istanbul?",
+      "a": "Usually no. Under the [HCCH Apostille Convention](https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille), Apostilles are issued by designated domestic authorities in the country where the document originated, not by foreign embassies abroad."
+    },
+    {
+      "q": "Does the Apostille stamp itself need to be translated into Turkish?",
+      "a": "Yes. Turkish notaries and government offices require the sworn translator to translate both the underlying document and the attached Apostille certificate."
+    },
+    {
+      "q": "Do electronic Apostilles (e-Apostilles) work in Türkiye?",
+      "a": "Yes, provided the issuing country's e-Apostille can be verified online via its official QR code or registry link, though some traditional Turkish notaries still ask for a clear color printout alongside the verification URL."
+    },
+    {
+      "q": "How old can an apostilled document be when submitted in Türkiye?",
+      "a": "While an Apostille itself does not expire, many Turkish banks, trade registries, and immigration offices require underlying corporate good-standing certificates or civil extracts to be issued within the last 3 to 6 months."
+    },
+    {
+      "q": "Is it faster to sign a Power of Attorney at a Turkish notary in Istanbul?",
+      "a": "Yes. If you are physically in Istanbul, signing a POA directly at a Turkish notary with a sworn interpreter takes one to two hours and requires no Apostille."
+    },
+    {
+      "q": "Does Itinerary of Türkiye provide sworn translation or legal certification?",
+      "a": "No. We coordinate visit schedules, logistics, and independent introductions. Sworn translations, notarizations, and legal document verification are performed strictly by registered Turkish translators, notaries, licensed attorneys, and official authorities."
+    }
+  ],
+  "sources": [
+    {
+      "title": "HCCH Apostille Status Table",
+      "url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=41"
+    },
+    {
+      "title": "Republic of Türkiye Ministry of Foreign Affairs",
+      "url": "https://www.mfa.gov.tr/"
+    },
+    {
+      "title": "HCCH Türkiye Competent Authorities page",
+      "url": "https://www.hcch.net/en/states/authorities/details3/?aid=350"
+    },
+    {
+      "title": "HCCH",
+      "url": "https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

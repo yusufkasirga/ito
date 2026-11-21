@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-567",
+  "no": 567,
+  "slug": "turkey-rental-contract-traps",
+  "plannedPath": "/blog/turkey-rental-contract-traps",
+  "status": "published",
+  "title": "Turkish Rental Contracts & Tahliye Taahhütnamesi: Protecting Yourself",
+  "seoTitle": "Turkish Rental Contracts & Tahliye Taahhütnamesi",
+  "metaDescription": "Under the Turkish Code of Obligations (Law No. 6098), tenants enjoy strong tenure protection—which is why landlords frequently request a separate…",
+  "imageIdeas": [],
+  "quickAnswer": "Under the Turkish Code of Obligations (Law No. 6098), tenants enjoy strong tenure protection—which is why landlords frequently request a separate eviction undertaking (Tahliye Taahhütnamesi). Annual rent increases are capped by the 12-month average TÜFE inflation rate, security deposits cannot exceed three months' rent, realtor commissions cap at one month's rent plus VAT, and Ikamet filings require notarization.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "turkey rental contract traps",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-12",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate flat-fee scouting trips, neighborhood orientation, and independent local introductions across Türkiye. Paid by our clients and independent of provider commissions, we do not draft leases, negotiate rental terms, or provide legal advice. Lease reviews, eviction-undertaking disputes, and residence filings belong strictly to licensed Turkish attorneys and official authorities (Göç İdaresi and Nüfus)."
+    },
+    {
+      "type": "h2",
+      "text": "What is a Tahliye Taahhütnamesi (eviction undertaking) and why do landlords ask for it?"
+    },
+    {
+      "type": "p",
+      "text": "A Tahliye Taahhütnamesi is a written promise by a tenant to vacate a rented home on a specific future date. Under Article 352(1) of the [Turkish Code of Obligations (Law No. 6098)](http://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf), landlords cannot otherwise evict a residential tenant at the end of a one-year lease without statutory cause for up to ten extension years."
+    },
+    {
+      "type": "p",
+      "text": "Because Turkish law protects tenants from arbitrary non-renewal, many landlords ask foreign newcomers to sign an eviction undertaking alongside the lease. Legally, Article 352(1) requires the undertaking to be signed after the property has been handed over, with a clear execution date and vacate date. Signing an undated or blank eviction form is a major hazard—a landlord could fill in a later date and initiate enforcement within one month of that vacate date. Always have a licensed Turkish lawyer review any eviction undertaking before signing."
+    },
+    {
+      "type": "h2",
+      "text": "Why must a lease be notarized to be valid for Ikamet?"
+    },
+    {
+      "type": "p",
+      "text": "While an ordinary signed rental contract is legally binding between landlord and tenant under Turkish private law, provincial migration offices require a notarized lease (Noter Onaylı Kira Sözleşmesi) to verify genuine residency for first-time Ikamet applications. Notarization confirms the landlord's identity and title deed (Tapu) match the contract submitted via [e-Ikamet](https://e-ikamet.goc.gov.tr/)."
+    },
+    {
+      "type": "p",
+      "text": "Both the landlord (or a person holding a specific notarized power of attorney) and the tenant attend a Turkish notary (Noter) with passports, Turkish ID or tax number, and the Tapu copy. If you do not speak fluent Turkish, the notary will require a sworn translator (Yeminli Tercüman) so your signature is legally valid. Check the current address-document rules on [e-Ikamet Required Documents](https://e-ikamet.goc.gov.tr/Ikamet/IstenenBelgeler) before booking your notary visit."
+    },
+    {
+      "type": "h2",
+      "text": "How do Türkiye's official annual rent-increase caps (TÜFE) work?"
+    },
+    {
+      "type": "p",
+      "text": "Under Article 344 of the [Turkish Code of Obligations (Law No. 6098)](http://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf), annual residential rent increases on renewal cannot exceed the 12-month average change in the Consumer Price Index (TÜFE) published monthly by the [Turkish Statistical Institute (TÜİK)](https://www.tuik.gov.tr/en/) for the month preceding your renewal date. The temporary 25% statutory residential cap expired in July 2024."
+    },
+    {
+      "type": "p",
+      "text": "Even if a lease mentions a higher fixed percentage or foreign-currency escalation, Turkish law enforces the 12-month TÜFE average as the legal ceiling for Turkish lira residential leases. Foreign-currency leases face separate statutory restrictions and a five-year adjustment rule, making legal review essential before agreeing to non-lira rent."
+    },
+    {
+      "type": "h2",
+      "text": "What maximum security deposit (up to 3 months) and realtor commission (1 month + VAT) are legal?"
+    },
+    {
+      "type": "p",
+      "text": "Under Article 342 of [Law No. 6098](http://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf), residential security deposits cannot exceed three months' rent and must be held in a joint-release bank savings account. Separately, the [Ministry of Trade Regulation on Real Estate Trade](https://bolu.ticaret.gov.tr/duyurular/tasinmaz-ticareti-hakkinda-yonetmelik-resmi-gazetede-yayimlanarak-yururluge-gir) caps licensed realtor rental commissions at one month's rent plus 20% VAT under [VAT Law No. 3065](https://www.gib.gov.tr/mevzuat/kanun/436)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Tenancy Cost / Clause",
+        "Legal Cap or Rule",
+        "Governing Authority / Law"
+      ],
+      "rows": [
+        [
+          "Security Deposit",
+          "Maximum 3 months' rent (bank escrow rule)",
+          "Turkish Code of Obligations Art. 342"
+        ],
+        [
+          "Annual Rent Increase",
+          "12-month average TÜFE rate",
+          "Turkish Code of Obligations Art. 344 & TÜİK"
+        ],
+        [
+          "Realtor Commission",
+          "Maximum 1 month's rent + VAT (20%)",
+          "Regulation on Real Estate Trade"
+        ],
+        [
+          "Eviction Undertaking",
+          "Valid only in writing, dated after handover",
+          "Turkish Code of Obligations Art. 352(1)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Before transferring any money, run through this quick tenant-protection checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Verify ownership: Match the landlord's ID directly against the property's Tapu (title deed).",
+        "Check neighborhood status: Confirm the mahalle is open for Ikamet before paying a holding deposit.",
+        "Pay via bank transfer: Send rent and deposits to the landlord's named IBAN with a clear Turkish payment description (e.g., Kira Bedeli or Depozito).",
+        "Inspect for undated forms: Never sign a blank or undated Tahliye Taahhütnamesi.",
+        "Demand an invoice: Request an official receipt/fatura for any realtor commission paid."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "If you are scheduling a scouting visit to explore residential districts before hiring a local real estate lawyer, learn more [about Itinerary of Türkiye](https://itineraryofturkiye.com/about) and reach out. Please do not share passport or ID scans, medical or financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is an undated Tahliye Taahhütnamesi legally risky for tenants?",
+      "a": "Yes. Although Turkish law requires an eviction undertaking to be signed after handover, proving an undated document was signed simultaneously with the lease can be difficult in court."
+    },
+    {
+      "q": "Can a landlord legally ask for a 6-month security deposit in Türkiye?",
+      "a": "No. Article 342 of the Turkish Code of Obligations caps residential security deposits at a maximum of three months' rent."
+    },
+    {
+      "q": "Does the 25% residential rent increase cap still apply in Türkiye?",
+      "a": "No. The temporary 25% cap expired in July 2024; residential renewals follow the 12-month average TÜFE inflation rate published by [TÜİK](https://www.tuik.gov.tr/en/)."
+    },
+    {
+      "q": "How much can a real estate agent legally charge for a rental in Türkiye?",
+      "a": "Under the Ministry of Trade's Regulation on Real Estate Trade, licensed realtors may charge up to one month's rent plus 20% VAT, billed with an official invoice."
+    },
+    {
+      "q": "Do I need a sworn translator to notarize my rental contract?",
+      "a": "Yes. Turkish notaries require an accredited sworn translator whenever a foreign signatory does not read and speak Turkish fluently."
+    },
+    {
+      "q": "Can Itinerary of Türkiye review my rental contract or represent me at the notary?",
+      "a": "No. [Itinerary of Türkiye](https://itineraryofturkiye.com/) provides flat-fee orientation and independent introductions; licensed Turkish attorneys handle lease reviews and legal representation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Turkish Code of Obligations (Law No. 6098)",
+      "url": "http://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf"
+    },
+    {
+      "title": "e-Ikamet",
+      "url": "https://e-ikamet.goc.gov.tr/"
+    },
+    {
+      "title": "e-Ikamet Required Documents",
+      "url": "https://e-ikamet.goc.gov.tr/Ikamet/IstenenBelgeler"
+    },
+    {
+      "title": "Turkish Statistical Institute (TÜİK)",
+      "url": "https://www.tuik.gov.tr/en/"
+    },
+    {
+      "title": "Ministry of Trade Regulation on Real Estate Trade",
+      "url": "https://bolu.ticaret.gov.tr/duyurular/tasinmaz-ticareti-hakkinda-yonetmelik-resmi-gazetede-yayimlanarak-yururluge-gir"
+    },
+    {
+      "title": "VAT Law No. 3065",
+      "url": "https://www.gib.gov.tr/mevzuat/kanun/436"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

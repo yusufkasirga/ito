@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-373",
+  "no": 373,
+  "slug": "istanbul-earthquake-building-check",
+  "plannedPath": "/blog/istanbul-earthquake-building-check",
+  "status": "published",
+  "title": "Earthquake Building-Code & Structural Safety Checks When Buying in Istanbul",
+  "seoTitle": "Istanbul Earthquake Building Code & Safety Checks",
+  "metaDescription": "Compare Türkiye's 1999, 2007, and 2018 seismic codes, Istanbul soil maps, Iskan structural checks, and DASK vs private home insurance.",
+  "imageIdeas": [],
+  "quickAnswer": "Before buying an Istanbul apartment, verify its construction permit year against Türkiye's 1999, 2007, and 2018 seismic codes, check parcel-level soil class (zemin etüdü) via [AFAD](https://www.afad.gov.tr/turkiye-deprem-tehlike-haritasi) and [İBB](https://ibb.istanbul/deprem-ve-zemin-inceleme-sube-mudurlugu/), confirm municipal Iskan approval, and hire a licensed civil engineer to inspect the structure before signing.",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "istanbul earthquake building check",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-31",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "istanbul-seismic-structural-inspection.webp — Alt text: Civil engineer inspecting reinforced concrete columns and reviewing municipal structural plans in an Istanbul residential building.",
+        "istanbul-geological-soil-map-review.webp — Alt text: Property buyer examining Istanbul district soil survey maps and AFAD seismic hazard data before scheduling apartment viewings."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Seismic safety is the single most consequential technical factor when evaluating property in Istanbul. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders organize neighborhood tours, ground logistics, and independent specialist introductions on a flat client fee (\"Paid by our clients. Independent of provider commissions.\"). We do not perform structural engineering, legal, or insurance underwriting work; all building-safety assessments, title (TAPU) reviews, and policy decisions belong strictly to licensed Turkish civil engineers, attorneys, and official authorities."
+    },
+    {
+      "type": "h2",
+      "text": "What changed in Türkiye's 1999, 2007 and 2018 seismic building codes?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye's modern seismic standards tightened sharply after the 1999 Marmara earthquake, introducing stricter ready-mix concrete, ribbed rebar, and independent building supervision (yapı denetim) rules. The 2007 code expanded retrofitting and performance criteria, while the [2018 Türkiye Building Earthquake Code (TBDY-2018)](https://www.afad.gov.tr/turkiye-bina-deprem-yonetmeligi)—effective 1 January 2019—replaced broad zone maps with site-specific ground-motion parameters."
+    },
+    {
+      "type": "p",
+      "text": "Under TBDY-2018, engineers pull exact coordinate-based spectral acceleration values from the [AFAD Türkiye Earthquake Hazard Map](https://www.afad.gov.tr/turkiye-deprem-tehlike-haritasi) rather than relying on legacy four-zone averages. The 2018 standard also added detailed rules for tall buildings, seismic base isolation, and soil-structure interaction. Critically, a building's compliance is governed by its building permit (yapı ruhsatı) date, not the year an apartment was renovated or resold."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Permit Era",
+        "Governing Code",
+        "Key Structural Shifts",
+        "Buyer Inspection Priority"
+      ],
+      "rows": [
+        [
+          "Pre-1999",
+          "Legacy pre-Marmara codes",
+          "Lower concrete/rebar standards; limited supervision",
+          "Mandatory independent core-test & engineer audit"
+        ],
+        [
+          "2000–2007",
+          "Post-1999 reforms & Law 4708",
+          "Ready-mix concrete, ribbed steel, yapı denetim checks",
+          "Verify supervision logs and column integrity"
+        ],
+        [
+          "2007–2018",
+          "2007 Earthquake Code",
+          "Stronger ductility and performance-based retrofitting",
+          "Confirm full Iskan and no unpermitted alterations"
+        ],
+        [
+          "2019–Present",
+          "TBDY-2018 (AFAD hazard map)",
+          "Parcel-specific acceleration & stricter soil analysis",
+          "Verify yapı ruhsatı date, soil study, and Iskan"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do soil maps (zemin etüdü) differ across Istanbul districts?"
+    },
+    {
+      "type": "p",
+      "text": "Istanbul's bedrock varies dramatically over short distances, meaning two buildings of the same age can face very different ground amplification during a tremor. Northern and central upland belts—such as parts of Sarıyer, Beşiktaş, Şişli, Beykoz, and inner Üsküdar—generally sit on firmer rock formations, whereas coastal alluvial zones along the Marmara Sea (including parts of Avcılar, Bakırköy, Küçükçekmece, Zeytinburnu, and waterfront Maltepe) often feature softer clay or fill soils."
+    },
+    {
+      "type": "p",
+      "text": "Buyers should never rely on district-wide generalizations alone. The [Istanbul Metropolitan Municipality (İBB) Earthquake and Ground Investigation Directorate](https://ibb.istanbul/deprem-ve-zemin-inceleme-sube-mudurlugu/) publishes district-level microzonation and loss-estimation studies across all 39 districts, and the [e-Devlet AFAD hazard portal](https://www.turkiye.gov.tr/afad-turkiye-deprem-tehlike-haritalari) shows parcel-level acceleration data. Even on softer soil, a post-2019 building engineered with deep piles (fore kazık) and verified zemin etüdü can outperform an uninspected older walk-up on firmer ground."
+    },
+    {
+      "type": "h2",
+      "text": "How do you verify a building's Iskan and structural inspection report?"
+    },
+    {
+      "type": "p",
+      "text": "Start by requesting the building's occupancy permit (yapı kullanma izin belgesi, or Iskan), the original building permit (yapı ruhsatı), and the geological ground survey (zemin etüdü) from the seller or district municipality archive. A full Iskan confirms that the municipality inspected the completed building against its approved architectural and structural blueprints."
+    },
+    {
+      "type": "p",
+      "text": "Pre-Purchase Structural Verification Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm the yapı ruhsatı issue date at the district municipality (belediye imar müdürlüğü) to establish which seismic code applied.",
+        "Check whether any ground-floor commercial shop removed load-bearing columns or altered structural walls—a well-known hazard in older mixed-use blocks.",
+        "For pre-2000 buildings, commission a licensed Turkish civil engineer or Ministry-accredited laboratory to perform a non-destructive rebar scan and concrete core strength test (karot testi) where permitted by the building management.",
+        "Verify that the yapı denetim (building inspection) sign-off is closed with no unresolved municipal fines.",
+        "Pair technical checks with independent title verification by a Baro-registered Turkish attorney."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What does mandatory DASK earthquake insurance cover vs private home insurance?"
+    },
+    {
+      "type": "p",
+      "text": "Mandatory earthquake insurance through [DASK (Natural Catastrophe Insurance Pool)](https://dask.gov.tr/tr/teminat-ve-kapsami) covers structural earthquake damage—and directly resulting fire, explosion, tsunami, or landslide damage—up to a statutory per-square-meter ceiling published on [DASK's official tariff schedule](https://dask.gov.tr/tr/tarife). It does not cover furniture, personal belongings, temporary housing, or market land value."
+    },
+    {
+      "type": "p",
+      "text": "Because Istanbul rebuilding and replacement costs frequently exceed the statutory DASK maximum cap, homeowners typically pair DASK with a voluntary private home policy (konut sigortası). Private policies can bridge the gap above DASK's statutory ceiling, insure interior fixtures and contents, and add cover for water damage, fire, or liability. Buyers can verify whether an existing policy is active using [DASK's policy inquiry tool](https://dask.gov.tr/tr/police-sorgulama). Learn how [our two-founder advisory team](https://itineraryofturkiye.com/about) coordinates neutral Istanbul neighborhood visits and specialist scheduling without developer ties."
+    },
+    {
+      "type": "p",
+      "text": "Planning an Istanbul Property Visit?If you need neutral neighborhood comparisons, logistics coordination, or introductions to independent engineers and attorneys in Istanbul, contact [Itinerary of Türkiye](https://itineraryofturkiye.com/). For your privacy and security, please do not share passport or ID scans, financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is every building constructed after 2000 automatically earthquake-safe in Istanbul?",
+      "a": "No. While post-2000 buildings were built under stricter codes and supervision rules, safety still depends on actual construction quality, soil engineering (zemin etüdü), full Iskan completion, and whether later owners made illegal structural modifications."
+    },
+    {
+      "q": "Can I look up an Istanbul building's soil class online before visiting?",
+      "a": "Yes. You can review coordinate-level seismic hazard values through AFAD's official hazard map portal and check İBB's published district microzonation studies, then request the parcel's specific zemin etüdü report from the seller or municipality."
+    },
+    {
+      "q": "What is the difference between a rapid visual check and a karot (core) test?",
+      "a": "A rapid visual inspection assesses visible cracks, corrosion, soft-story design, and blueprint compliance without damaging finishes. A karot test extracts small cylindrical concrete samples for laboratory compression testing and requires owner or building-board consent."
+    },
+    {
+      "q": "Does DASK cover an apartment that lacks an Iskan?",
+      "a": "DASK policies are issued against a valid 10-digit UAVT address code and TAPU record, so many kat irtifakı units hold DASK. However, missing Iskan can complicate private home insurance underwriting, mortgage approval, and resale liquidity."
+    },
+    {
+      "q": "Why are ground-floor shops a red flag during structural checks?",
+      "a": "Some older residential blocks with retail ground floors suffer from \"soft-story\" vulnerability—tall, open frontages with fewer infill walls—or unauthorized column cuts made during shop renovations. Always inspect ground-floor framing against original blueprints."
+    },
+    {
+      "q": "Does Itinerary of Türkiye inspect buildings or certify structural safety?",
+      "a": "No. Itinerary of Türkiye handles travel planning, neighborhood logistics, and independent introductions. Structural safety audits, core tests, and engineering sign-offs must be carried out by licensed Turkish civil engineers and accredited laboratories."
+    }
+  ],
+  "sources": [
+    {
+      "title": "2018 Türkiye Building Earthquake Code (TBDY-2018)",
+      "url": "https://www.afad.gov.tr/turkiye-bina-deprem-yonetmeligi"
+    },
+    {
+      "title": "AFAD Türkiye Earthquake Hazard Map",
+      "url": "https://www.afad.gov.tr/turkiye-deprem-tehlike-haritasi"
+    },
+    {
+      "title": "Istanbul Metropolitan Municipality (İBB) Earthquake and Ground Investigation Directorate",
+      "url": "https://ibb.istanbul/deprem-ve-zemin-inceleme-sube-mudurlugu/"
+    },
+    {
+      "title": "e-Devlet AFAD hazard portal",
+      "url": "https://www.turkiye.gov.tr/afad-turkiye-deprem-tehlike-haritalari"
+    },
+    {
+      "title": "DASK (Natural Catastrophe Insurance Pool)",
+      "url": "https://dask.gov.tr/tr/teminat-ve-kapsami"
+    },
+    {
+      "title": "DASK's official tariff schedule",
+      "url": "https://dask.gov.tr/tr/tarife"
+    },
+    {
+      "title": "DASK's policy inquiry tool",
+      "url": "https://dask.gov.tr/tr/police-sorgulama"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}
