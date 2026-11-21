@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-302",
+  "no": 302,
+  "slug": "gokceada-travel-guide",
+  "plannedPath": "/destinations/gokceada-travel-guide",
+  "status": "published",
+  "title": "Gökçeada (Imbros) Guide: Organic Villages & Slow Island Life",
+  "seoTitle": "Gökçeada (Imbros) Guide: Organic Villages & Slow Island Life",
+  "metaDescription": "Türkiye's largest island and the world's first Cittaslow island, Gökçeada (Imbros) is reached via a 75-to-90-minute GESTAŞ ferry from Kabatepe on the…",
+  "imageIdeas": [],
+  "quickAnswer": "Türkiye's largest island and the world's first Cittaslow island, Gökçeada (Imbros) is reached via a 75-to-90-minute GESTAŞ ferry from Kabatepe on the Gallipoli Peninsula. Rent a car to explore hilltop Greek stone villages like Zeytinliköy and Tepeköy, taste organic Ladolia olive oil, and ride steady Meltemi winds at Aydıncık Beach.",
+  "category": "Inner Pages — 20 Boutique Destination Guides (ITO 52-Destination Hub)",
+  "focusKeyword": "gokceada travel guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-04",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "How do you reach Gökçeada from Kabatepe?"
+    },
+    {
+      "type": "p",
+      "text": "GESTAŞ car ferries depart from Kabatepe Pier on the Gallipoli Peninsula and arrive at Kuzulimanı Port on Gökçeada in roughly 75 to 90 minutes, running six to eight daily crossings in summer and four daily crossings from early October through winter."
+    },
+    {
+      "type": "p",
+      "text": "Crossing schedules shift sharply by season. According to the [Gökçeada Municipality 2026 ferry timetable](https://www.gokceada.bel.tr/feribot-saatleri/) and [2026 Kabatepe–Kuzulimanı schedule data](https://www.granikos.com.tr/gokceada-feribot-ulasim-rehberi-2026-kabatepe-saatler-fiyatlar.html), summer weekdays offer six departures and weekends offer eight, whereas the winter schedule starting October 5 runs four daily crossings (09:00, 13:00, 17:00, and 21:00 from Kabatepe; 07:00, 11:00, 15:00, and 19:00 from the island). Always verify weather cancellations on the [GESTAŞ schedule page](https://gdu.com.tr/sefer-tarifeleri) and pre-book vehicles online during summer weekends, when unreserved wait times can stretch for hours."
+    },
+    {
+      "type": "h2",
+      "text": "Which historic Greek villages (Zeytinliköy, Tepeköy) are unmissable?"
+    },
+    {
+      "type": "p",
+      "text": "Zeytinliköy (Agios Theodoros), Tepeköy (Agridia), Kaleköy (Kastro), and Eski Bademli (Gliki) preserve Gökçeada's stone-built Greek (Rum) architectural heritage, offering quiet cobblestone alleys, traditional stone coffeehouses, wide hilltop sunset views, and family-run tavernas far removed from mainland resort strips and package-tour crowds."
+    },
+    {
+      "type": "p",
+      "text": "Each village sits on higher ground historically chosen for shelter from coastal raids and winds:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Zeytinliköy: Famous for mortar-pounded dibek Turkish coffee and warm sakızlı muhallebi (mastic pudding) served in shaded stone courtyards; it is also the birthplace of Ecumenical Patriarch Bartholomew I.",
+        "Tepeköy: Perched on the slopes of Mount İlyas, Tepeköy is the island's highest inhabited Greek village, known for its centuries-old plane tree (Çınaraltı), quiet stone homes, and Barba Yorgo's hillside taverna overlooking Samothrace.",
+        "Kaleköy and Eski Bademli: Upper Kaleköy pairs castle ruins with dramatic sunsets over the North Aegean, while Eski Bademli rewards morning walks past stone laundry houses and olive groves."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why is Gökçeada known for organic farming and kitesurfing?"
+    },
+    {
+      "type": "p",
+      "text": "Gökçeada earned global recognition in June 2011 as the first island admitted to the international Cittaslow network, pairing long-running state-backed organic olive, honey, and goat-dairy farming with reliable northern Meltemi wind conditions along Aydıncık and Kefaloz beaches from May through October."
+    },
+    {
+      "type": "p",
+      "text": "Under the international [Cittaslow movement](https://www.cittaslow.org/association) and the [Gökçeada District Governorship's organic agriculture program](https://www.gokceada.gov.tr/dunyanin-ilk-ve-tek-sakin-adasi-cittaslow-gokceada), local smallholders transitioned toward certified organic viticulture, beekeeping (pine and wild thyme honey), free-grazing goat dairy, and olive oil pressed from the endemic Ladolia olive tree—a cultivar grown in Türkiye exclusively on Gökçeada."
+    },
+    {
+      "type": "p",
+      "text": "On the island's southeastern shore, steady summer Meltemi winds create two distinct [kitesurfing and windsurfing zones](https://lets-kite.com/en/spots/9000/kitesurf/aydincik-gokceada). As noted by [local surf guides](https://e-gokceada.com.tr/gokceada-kitesurf/), Kefaloz Bay features onshore winds suited to beginners, while adjacent Aydıncık Beach offers flatter offshore-wind water preferred by intermediate and advanced riders—with the natural Salt Lake (Tuz Gölü) right behind the dunes."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Island Highlight",
+        "Location on Gökçeada",
+        "Best Time of Day / Year",
+        "What to Expect"
+      ],
+      "rows": [
+        [
+          "Zeytinliköy",
+          "3 km west of town center",
+          "Late morning or mid-afternoon",
+          "Cobblestone lanes, dibek coffee, mastic pudding"
+        ],
+        [
+          "Tepeköy",
+          "Mountain slope, 10 km west",
+          "Late afternoon into sunset",
+          "Sweeping Aegean views, historic plane tree, tavernas"
+        ],
+        [
+          "Aydıncık & Kefaloz",
+          "Southeast coast (15 km from town)",
+          "May–October (peak wind July–Aug)",
+          "Kitesurfing schools, Salt Lake, long sandy bay"
+        ],
+        [
+          "Gizli Liman & Uğurlu",
+          "Far western tip (25 km from town)",
+          "Morning to early afternoon",
+          "Türkiye's westernmost point, calm turquoise coves"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Do you need a car on the island?"
+    },
+    {
+      "type": "p",
+      "text": "Yes—bringing a rental car from Istanbul, Çanakkale, or Gallipoli (or renting locally on arrival) is essential on Gökçeada because the island spans nearly 280 square kilometers, and villages, organic farms, and western beaches sit 15 to 30 kilometers apart."
+    },
+    {
+      "type": "p",
+      "text": "Public minibuses connect the main town (Çınarlı) to Kuzulimanı, Kaleköy, and Aydıncık on limited seasonal timetables, but they rarely align with sunset dinners in Tepeköy or early-morning swims at Gizli Liman. Use this quick logistics checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Reserve your ferry vehicle slot early: Book online with GESTAŞ for June–September crossings.",
+        "Fuel up in Çınarlı (center): Gas stations are concentrated near the main town rather than western villages.",
+        "Watch for free-roaming goats: Slow down on rural curves, especially near Dereköy and Uğurlu.",
+        "Carry some Turkish Lira cash: Small village coffeehouses and roadside organic honey stalls do not always accept cards."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Plan Your Slow Island Route with ITO"
+    },
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders build flat-fee, client-paid itineraries—Paid by our clients. Independent of provider commissions.—pairing Gökçeada with Gallipoli, Bozcaada, or Thrace wine routes. Read how we work on our [About page](https://itineraryofturkiye.com/about) and send us your travel window and interests. For your privacy, please do not share passport or ID scans, medical records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long is the Kabatepe to Gökçeada ferry?",
+      "a": "The GESTAŞ car and passenger ferry from Kabatepe Pier on the Gallipoli Peninsula to Kuzulimanı Port on Gökçeada takes roughly 1 hour and 15 to 30 minutes depending on sea conditions."
+    },
+    {
+      "q": "Why is Gökçeada a Cittaslow destination?",
+      "a": "In June 2011, Gökçeada became the world's first Cittaslow island, recognized for preserving slow-paced village life, organic agriculture, renewable energy, and local culinary traditions."
+    },
+    {
+      "q": "Which historic Greek villages should I visit first on Gökçeada?",
+      "a": "Start with Zeytinliköy for dibek coffee and stone lanes, continue to hilltop Tepeköy for island views and traditional tavernas, and add Kaleköy for harbor sunsets."
+    },
+    {
+      "q": "When is the best season for kitesurfing at Aydıncık Beach?",
+      "a": "Consistent northern Meltemi winds blow from May through October, with July and August delivering the strongest, most reliable conditions for kitesurfing and windsurfing at Aydıncık and Kefaloz."
+    },
+    {
+      "q": "Is a rental car necessary on Gökçeada?",
+      "a": "Yes. Gökçeada is Türkiye's largest island, with historic villages, organic farms, and southern beaches spread 15 to 30 kilometers apart and limited public minibus schedules."
+    },
+    {
+      "q": "Can I visit Gökçeada as a day trip from Çanakkale?",
+      "a": "While technically possible in summer, Gökçeada rewards at least two to three nights so you can explore the villages unhurriedly and avoid tight ferry turnaround windows."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gökçeada Municipality 2026 ferry timetable",
+      "url": "https://www.gokceada.bel.tr/feribot-saatleri/"
+    },
+    {
+      "title": "2026 Kabatepe–Kuzulimanı schedule data",
+      "url": "https://www.granikos.com.tr/gokceada-feribot-ulasim-rehberi-2026-kabatepe-saatler-fiyatlar.html"
+    },
+    {
+      "title": "GESTAŞ schedule page",
+      "url": "https://gdu.com.tr/sefer-tarifeleri"
+    },
+    {
+      "title": "Cittaslow movement",
+      "url": "https://www.cittaslow.org/association"
+    },
+    {
+      "title": "Gökçeada District Governorship's organic agriculture program",
+      "url": "https://www.gokceada.gov.tr/dunyanin-ilk-ve-tek-sakin-adasi-cittaslow-gokceada"
+    },
+    {
+      "title": "kitesurfing and windsurfing zones",
+      "url": "https://lets-kite.com/en/spots/9000/kitesurf/aydincik-gokceada"
+    },
+    {
+      "title": "local surf guides",
+      "url": "https://e-gokceada.com.tr/gokceada-kitesurf/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

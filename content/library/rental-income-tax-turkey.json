@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-375",
+  "no": 375,
+  "slug": "rental-income-tax-turkey",
+  "plannedPath": "/blog/rental-income-tax-turkey",
+  "status": "published",
+  "title": "Managing Rental Income, Contracts & Taxes in Türkiye From Abroad",
+  "seoTitle": "Rental Income Tax, Contracts & Bank Rules in Türkiye",
+  "metaDescription": "Understand 2026 Turkish rental income tax brackets, TÜFE rent caps, mandatory bank payment rules, and property management fees for foreign landlords.",
+  "imageIdeas": [],
+  "quickAnswer": "Foreign landlords renting out Turkish residential property must route all rent through a Turkish bank or PTT account under [GİB Communiqué No. 328](https://gib.gov.tr/mevzuat/kanun/433/teblig/6661), cap annual rent increases at TÜİK's 12-month TÜFE average, and file annual income tax returns in March under [GİB's 2026 progressive brackets](https://www.gib.gov.tr/vergi-konulari/1_bireysel/9_kira_geliri/9) (15%–40% above the 58,000 TL exemption).",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "rental income tax turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-31",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "turkey-rental-tax-filing-consultation.webp — Alt text: Foreign property owner reviewing annual Turkish rental income tax brackets and bank transfer statements with a licensed SMMM accountant.",
+        "istanbul-notarized-lease-agreement.webp — Alt text: Signed Turkish residential lease agreement and bank IBAN payment schedule prepared for a remote landlord in Istanbul."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Owning a rental apartment in Istanbul, Izmir, or Antalya from overseas requires structured legal and accounting compliance rather than informal arrangements. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate property-visit logistics and independent local introductions on a transparent, client-paid flat fee (\"Paid by our clients. Independent of provider commissions.\"). We do not act as tax advisors, attorneys, or real estate agencies; all lease drafting, tax filings, and compliance decisions belong strictly to licensed Turkish attorneys, SMMM certified public accountants, and the [Revenue Administration (GİB)](https://www.gib.gov.tr/vergi-konulari/1_bireysel/9_kira_geliri/9)."
+    },
+    {
+      "type": "h2",
+      "text": "How are residential rental contracts notarized and regulated (annual TÜFE rent cap)?"
+    },
+    {
+      "type": "p",
+      "text": "Residential leases in Türkiye are governed by the Turkish Code of Obligations (TBK Law No. 6098). While a standard written lease is legally valid between landlord and tenant, notarizing the lease through a [Union of Notaries of Türkiye (TNB)](https://portal.tnb.org.tr/Sayfalar/AnaSayfa.aspx) office—and executing any separate eviction undertaking (tahliye taahhütnamesi) properly with legal counsel—strengthens evidentiary proof for residency applications and enforcement."
+    },
+    {
+      "type": "p",
+      "text": "Under TBK Article 344, annual residential rent renewals cannot exceed the 12-month average Consumer Price Index (TÜFE) published by TÜİK for the preceding period. Landlords cannot unilaterally raise rent above the statutory TÜFE ceiling during the first five years of a tenancy; after five full years, a landlord may petition a Turkish court for a rent-determination adjustment (kira tespit davası) aligned with neighborhood market rates."
+    },
+    {
+      "type": "h2",
+      "text": "What income tax brackets apply to foreign landlords in Türkiye?"
+    },
+    {
+      "type": "p",
+      "text": "Foreign individuals earning residential rental income in Türkiye are taxed on Turkish-source net rental income under Income Tax Law No. 193, Article 103. For 2026 residential rental income, [GİB](https://www.gib.gov.tr/vergi-konulari/1_bireysel/9_kira_geliri/9) sets an annual residential exemption (mesken kira geliri istisnası) of 58,000 TL (up from 47,000 TL for 2025 income), provided the landlord qualifies and files on time."
+    },
+    {
+      "type": "p",
+      "text": "Landlords choose between the lump-sum expense deduction (götürü gider, 15% of remaining taxable rent after exemption) or the actual expense method (gerçek gider, deducting documented repairs, insurance, municipal property tax, and eligible depreciation). Net taxable income is then taxed progressively under [GİB's 2026 non-wage income tax tariff](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/yardim-kaynaklar/yararli-bilgiler/gelir-vergisi-tarifeleri/gelir-vergisi-tarifesi-2026.pdf) (calculable via [GİB's Digital Tax Office](https://dijital.gib.gov.tr/hesaplamalar/GelirVergisiHesaplama)):"
+    },
+    {
+      "type": "table",
+      "head": [
+        "2026 Taxable Non-Wage Income Bracket (TL)",
+        "Marginal Tax Rate",
+        "Filing & Payment Schedule"
+      ],
+      "rows": [
+        [
+          "Up to 190,000 TL",
+          "15%",
+          "Annual return filed in March of following year"
+        ],
+        [
+          "190,001 – 400,000 TL",
+          "20%",
+          "First installment due end of March"
+        ],
+        [
+          "400,001 – 1,000,000 TL",
+          "27%",
+          "Second installment due end of July"
+        ],
+        [
+          "1,000,001 – 5,300,000 TL",
+          "35%",
+          "Verify double-taxation treaty with home CPA"
+        ],
+        [
+          "Over 5,300,000 TL",
+          "40%",
+          "SMMM accountant recommended for foreign owners"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why must rent payments legally pass through a Turkish bank account?"
+    },
+    {
+      "type": "p",
+      "text": "Under [GİB Income Tax General Communiqué No. 328](https://gib.gov.tr/mevzuat/kanun/433/teblig/6661), every residential and commercial rent payment in Türkiye—regardless of amount, including short-term or daily stays—must be collected and paid through a bank or PTT (Turkish Post) account with a clear description identifying the transfer as rent (kira bedeli). Cash rent payments violate Turkish tax-documentation rules (tevsik zorunluluğu)."
+    },
+    {
+      "type": "p",
+      "text": "Non-compliance exposes both the landlord and the tenant to special irregularity fines calculated as a percentage of each cash transaction (subject to statutory minimum penalties). Routing rent directly to the owner's Turkish IBAN also creates an indisputable audit trail for your SMMM accountant, simplifies eviction proceedings if a tenant defaults, and satisfies bank compliance checks when repatriating funds abroad."
+    },
+    {
+      "type": "h2",
+      "text": "How do property management fees work?"
+    },
+    {
+      "type": "p",
+      "text": "Remote landlords typically hire an independent local property manager or licensed attorney-accountant combination to handle tenant onboarding, maintenance dispatch, aidat tracking, and utility transitions. Full-service residential property management fees in major Turkish cities commonly range from 8% to 12% of collected monthly rent for long-term leases, plus a separate tenant-placement fee (often equal to one month's rent) when sourcing a new tenant."
+    },
+    {
+      "type": "p",
+      "text": "Remote Landlord Setup Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Open a personal Turkish bank account in the property owner's name and write that IBAN directly into the Turkish lease contract.",
+        "Engage an independent SMMM certified public accountant to file annual March returns and monitor double-taxation treaty relief in your home jurisdiction.",
+        "Ensure the tenant transfers electricity, water, and gas subscriptions into their own name immediately upon move-in so unpaid utility debt does not attach to the landlord.",
+        "Require written maintenance-spending caps in any management agreement (for example, pre-approval required above a fixed TL threshold).",
+        "Keep digital copies of the TAPU, DASK policy, notarized lease, and monthly bank receipts in one shared compliance folder."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Learn more about how [our two-founder advisory team](https://itineraryofturkiye.com/about) arranges conflict-free introductions to independent Turkish accountants and attorneys during your visit."
+    },
+    {
+      "type": "p",
+      "text": "Setting Up Long-Term Property Logistics in Türkiye?If you are planning a trip to meet an independent SMMM accountant, open local banking, or review your rental setup on the ground, contact [Itinerary of Türkiye](https://itineraryofturkiye.com/). For your privacy and security, please do not include passport or ID scans, bank statements, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do foreign non-resident landlords have to file a Turkish tax return if rent is below 58,000 TL in 2026?",
+      "a": "If your sole Turkish-source taxable income is residential rent and total annual collections do not exceed the 2026 statutory exemption of 58,000 TL, GİB rules generally do not require an annual return—confirm your exact status with an SMMM accountant if you hold other Turkish income."
+    },
+    {
+      "q": "Can a tenant pay rent in Euros or US Dollars in Türkiye?",
+      "a": "Turkish currency-protection regulations generally require residential leases between Turkish residents to be denominated in Turkish Lira, with narrow statutory exceptions for certain foreign nationals. Always verify permissible lease currency with a licensed Turkish attorney before signing."
+    },
+    {
+      "q": "What if I rent my apartment short-term on a nightly platform?",
+      "a": "Short-term tourism rentals (under 100 days) are strictly regulated in Türkiye and require a Ministry of Culture and Tourism permit, unanimous building-owner consent in apartment blocks, and commercial tax registration. Never list a unit short-term without legal and SMMM sign-off."
+    },
+    {
+      "q": "When are Turkish rental income tax payments due each year?",
+      "a": "Rental income earned during a calendar year is declared between 1 March and 31 March of the following year, with tax payable in two equal installments due at the end of March and the end of July."
+    },
+    {
+      "q": "Can a property manager receive rent into their own account and forward it to me?",
+      "a": "Have tenants pay directly into the property owner's own Turkish bank account to stay cleanly aligned with GİB's bank-documentation rules, then pay your property manager's invoiced fee separately."
+    },
+    {
+      "q": "Does Itinerary of Türkiye manage rental properties or file Turkish tax returns?",
+      "a": "No. Itinerary of Türkiye coordinates on-the-ground visits, logistics, and introductions to independent licensed professionals. Lease enforcement and tax filings belong strictly to licensed Turkish attorneys and SMMM accountants."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Revenue Administration (GİB)",
+      "url": "https://www.gib.gov.tr/vergi-konulari/1_bireysel/9_kira_geliri/9"
+    },
+    {
+      "title": "Union of Notaries of Türkiye (TNB)",
+      "url": "https://portal.tnb.org.tr/Sayfalar/AnaSayfa.aspx"
+    },
+    {
+      "title": "GİB's 2026 non-wage income tax tariff",
+      "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/yardim-kaynaklar/yararli-bilgiler/gelir-vergisi-tarifeleri/gelir-vergisi-tarifesi-2026.pdf"
+    },
+    {
+      "title": "GİB's Digital Tax Office",
+      "url": "https://dijital.gib.gov.tr/hesaplamalar/GelirVergisiHesaplama"
+    },
+    {
+      "title": "GİB Income Tax General Communiqué No. 328",
+      "url": "https://gib.gov.tr/mevzuat/kanun/433/teblig/6661"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-253",
+  "no": 253,
+  "slug": "esim-vs-tourist-sim-turkey",
+  "plannedPath": "/blog/esim-vs-tourist-sim-turkey",
+  "status": "published",
+  "title": "eSIM vs Tourist Physical SIM vs Roaming in Türkiye 2026 Comparison",
+  "seoTitle": "eSIM vs Tourist SIM vs Roaming in Türkiye (2026 Guide)",
+  "metaDescription": "Compare eSIMs, Turkcell/Vodafone/Türk Telekom tourist SIMs, and roaming in Türkiye in 2026: BTK blocks, local numbers, and the 120-day IMEI rule.",
+  "imageIdeas": [],
+  "quickAnswer": "For stays under 14 days, a travel eSIM installed before flying into Türkiye is fastest and cheapest—just download it before landing, as BTK blocks many foreign eSIM apps inside the country. For 30- to 90-day stays or anyone needing a +90 number, buy a city-centre Turkcell, Vodafone, or Türk Telekom tourist SIM. Home roaming suits short business trips only.",
+  "category": "Comparison Guides & Decision Frameworks (High-Intent GEO)",
+  "focusKeyword": "esim vs tourist sim turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-02",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Choosing between esim vs tourist sim turkey options became noticeably trickier after mid-2025 regulatory shifts. In 2026, travellers must weigh three separate factors: pre-arrival eSIM app restrictions, airport-versus-city pricing for local SIMs, and Türkiye's strict 120-day IMEI clock for foreign phones."
+    },
+    {
+      "type": "h2",
+      "text": "How do Turkcell, Vodafone and Türk Telekom tourist SIMs compare to global eSIMs?"
+    },
+    {
+      "type": "p",
+      "text": "Local tourist SIMs from [Turkcell](https://www.turkcell.com.tr/prepaid-tourist-sim-turkey), [Vodafone](https://www.vodafone.com.tr/en/tourist-sim-card-turkey), and [Türk Telekom](https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey) provide a +90 number, local minutes, and 20–75 GB of data, whereas global eSIMs are data-only. Since July 2025, [BTK](https://www.btk.gov.tr/) has [blocked many foreign eSIM apps inside Türkiye](https://www.jetpacglobal.com/blog/can-tourists-use-esim-in-turkey/), so travel eSIMs work normally only if purchased and installed before arrival."
+    },
+    {
+      "type": "p",
+      "text": "Coverage differs across the three Turkish carriers: Turkcell generally leads in rural Anatolia, Cappadocia valleys, and coastal coves; Vodafone and Türk Telekom perform reliably in major cities at slightly lower city-branch prices. Avoid airport arrival kiosks if budget matters—in-town official carrier branches typically charge 30–40% less for identical Tourist Welcome Packs, though all require your physical passport for registration."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Option",
+        "Data & Voice",
+        "+90 Local Number",
+        "BTK eSIM App Block Impact",
+        "Triggers 120-Day IMEI Clock?"
+      ],
+      "rows": [
+        [
+          "Global Travel eSIM",
+          "Data-only (1–20+ GB)",
+          "No",
+          "Must buy & install before landing",
+          "No (roams on foreign profile)"
+        ],
+        [
+          "Turkish Tourist SIM / eSIM",
+          "20–75 GB + local minutes/SMS",
+          "Yes (+90)",
+          "Not affected (local carrier)",
+          "Yes (120 days per IMEI slot)"
+        ],
+        [
+          "Home Carrier Roaming",
+          "Mirrors home plan",
+          "No (keeps home no.)",
+          "Not affected",
+          "No"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which option works best for a 5-day vs 30-day vs 90-day stay?"
+    },
+    {
+      "type": "p",
+      "text": "A 5-day city break favours a pre-installed travel eSIM or capped home roaming pass so you land connected immediately. A 30-day multi-region trip suits a Turkish Tourist Welcome Pack (valid 28–30 days), while a 90-day stay requires topping up a local prepaid line or pairing local data with dual-SIM management."
+    },
+    {
+      "type": "p",
+      "text": "Keep in mind that prepaid tourist lines sold to foreign passports automatically deactivate after 90 days unless tied to a Turkish residence permit (ikamet). If you need heavy tethering for remote work over 30–90 days, Turkcell's larger data add-ons or a portable local Wi-Fi hotspot deliver far better value per gigabyte than international roaming."
+    },
+    {
+      "type": "h2",
+      "text": "Do you need a Turkish local number for banking, taxis or deliveries?"
+    },
+    {
+      "type": "p",
+      "text": "Most short-term visitors do not need a +90 number, because WhatsApp, Uber, BiTaksi, and international credit cards work over data-only eSIMs. You will only need a Turkish number if you plan to receive SMS verification codes from Turkish banks, register local public-Wi-Fi portals (like IBB WiFi), or order frequently from local food and grocery apps that require +90 OTPs."
+    },
+    {
+      "type": "p",
+      "text": "Use this arrival connectivity checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Install your travel eSIM at home: Download and verify the profile on Wi-Fi before boarding, because foreign eSIM apps may fail to load on Turkish networks.",
+        "Keep your home SIM active for SMS: Turn off data roaming on your primary SIM so bank 2FA texts still arrive free.",
+        "Skip airport markups when possible: Use pre-loaded eSIM data for your airport transfer, then visit an official Turkcell, Vodafone, or Türk Telekom branch in town if you want a +90 line.",
+        "Carry your passport: Turkish law requires passport verification to issue any local physical SIM or local eSIM."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How does the 120-day IMEI rule apply to each?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye's [120-day IMEI rule](https://bayraktarattys.com/comprehensive-guide-to-registering-imported-phones-in-turkey) applies only when an imported phone uses a Turkish SIM or local eSIM; foreign travel eSIMs and home roaming do not trigger it. Each IMEI slot works 120 days per calendar year before service suspends unless you pay the [2026 registration fee of 54,258 TL](https://www.turkiyetoday.com/business/turkiye-sets-2026-imei-registration-fee-for-phones-brought-from-abroad-at-1263-3212215) via e-Devlet."
+    },
+    {
+      "type": "p",
+      "text": "Because 54,258 TL exceeds the price of many mid-range handsets, short-term tourists should never register a foreign phone. Dual-SIM phones with two distinct IMEIs effectively receive 120 days per slot (240 days total across a calendar year), and the allowance resets on 1 January—making local SIMs worry-free for stays under four months."
+    },
+    {
+      "type": "p",
+      "text": "Planning a longer multi-city trip or remote-work stay in Türkiye? [Itinerary of Türkiye](https://itineraryofturkiye.com/about) is an independent, client-paid, flat-fee travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. Get in touch at [itineraryofturkiye.com](https://itineraryofturkiye.com/) with your trip length and cities; please do not share passport or ID scans, medical records, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are travel eSIMs illegal in Türkiye in 2026?",
+      "a": "No. Using an eSIM in Türkiye is legal; BTK's July 2025 restriction blocks local access to certain foreign eSIM storefronts and apps, so you simply must purchase and install your eSIM before entering the country."
+    },
+    {
+      "q": "Can I buy a local eSIM from Turkcell or Vodafone as a tourist?",
+      "a": "Yes. Official Turkcell, Vodafone, and Türk Telekom branches can issue their Tourist Welcome Packs as either a physical SIM or a local eSIM upon passport verification."
+    },
+    {
+      "q": "Does using a foreign travel eSIM count toward the 120-day IMEI limit?",
+      "a": "No. Because global travel eSIMs operate via international roaming agreements rather than a domestic Turkish subscriber profile, they do not consume your 120-day IMEI allowance."
+    },
+    {
+      "q": "Why are SIM cards more expensive at Istanbul Airport (IST)?",
+      "a": "Airport kiosks pay high terminal concession fees and bundle tourist add-ons, often charging 30–50% more than official carrier shops in Beyoğlu, Kadıköy, or Sultanahmet."
+    },
+    {
+      "q": "Does WhatsApp still work with a data-only eSIM?",
+      "a": "Yes. WhatsApp stays linked to your home phone number while running entirely over your travel eSIM's mobile data."
+    },
+    {
+      "q": "What happens if I return to Türkiye next year with the same phone?",
+      "a": "Your unregistered foreign phone's 120-day allowance on Turkish SIMs resets each calendar year on 1 January, provided you are not staying permanently."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Turkcell",
+      "url": "https://www.turkcell.com.tr/prepaid-tourist-sim-turkey"
+    },
+    {
+      "title": "Vodafone",
+      "url": "https://www.vodafone.com.tr/en/tourist-sim-card-turkey"
+    },
+    {
+      "title": "Türk Telekom",
+      "url": "https://www.turktelekom.com.tr/en/prepaid-tourist-sim-turkey"
+    },
+    {
+      "title": "BTK",
+      "url": "https://www.btk.gov.tr/"
+    },
+    {
+      "title": "blocked many foreign eSIM apps inside Türkiye",
+      "url": "https://www.jetpacglobal.com/blog/can-tourists-use-esim-in-turkey/"
+    },
+    {
+      "title": "120-day IMEI rule",
+      "url": "https://bayraktarattys.com/comprehensive-guide-to-registering-imported-phones-in-turkey"
+    },
+    {
+      "title": "2026 registration fee of 54,258 TL",
+      "url": "https://www.turkiyetoday.com/business/turkiye-sets-2026-imei-registration-fee-for-phones-brought-from-abroad-at-1263-3212215"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

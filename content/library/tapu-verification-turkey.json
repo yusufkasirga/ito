@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-213",
+  "no": 213,
+  "slug": "tapu-verification-turkey",
+  "plannedPath": "/blog/tapu-verification-turkey",
+  "status": "published",
+  "title": "SPK Appraisal Report & TAPU Title Deed Verification in Türkiye",
+  "seoTitle": "SPK Appraisal & TAPU Title Deed Check in Türkiye (2026)",
+  "metaDescription": "Verify Turkish property titles, SPK valuation rules, liens, Iskan status, and declared values before paying a deposit in Türkiye.",
+  "imageIdeas": [],
+  "quickAnswer": "A thorough tapu verification turkey check confirms ownership, encumbrances, and habitation licensing (Iskan) through the [General Directorate of Land Registry and Cadastre (TKGM)](https://www.tkgm.gov.tr/yabanci-isler-dairesi-baskanligi/forforeigners) before wiring funds. While [TKGM Circular 2024/4](https://www.propertyistanbul.com/valuation-report-turkey/) lifted mandatory SPK appraisals for ordinary foreign purchases, valuations remain mandatory for citizenship applications and smart protection against overpaying.",
+  "category": "Real Estate, Investment, Citizenship & Relocation (ITO Advisory)",
+  "focusKeyword": "tapu verification turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-07-18",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "What is an SPK-licensed real estate valuation report and why is it mandatory for foreigners?"
+    },
+    {
+      "type": "p",
+      "text": "An SPK valuation report is an independent appraisal prepared by a firm licensed by the [Capital Markets Board of Türkiye (SPK)](https://spk.gov.tr/kurumlar/gayrimenkul-degerleme-kuruluslari) and registered with [TDUB](https://spk.gov.tr/kurumlar/gayrimenkul-degerleme-kuruluslari/tanitim-rehberi). Under [TKGM Circular 2024/4](https://www.propertyistanbul.com/valuation-report-turkey/), it is no longer mandatory for ordinary foreign residential purchases, but remains compulsory for Turkish Citizenship by Investment ($400,000+ threshold)."
+    },
+    {
+      "type": "p",
+      "text": "Many outdated guides still call the report compulsory for every foreign buyer. In fact, TKGM repealed that 2019 blanket requirement in 2024. For citizenship purchases, however, an appraisal ordered via [Web Tapu](https://www.tkgm.gov.tr/e-hizmetler/sik-kullanilanlar/web-tapu) produces the Property Investment Determination Certificate (TTB). Under the [28 September 2026 rule update](https://serkalaw.com/spk-valuation-report-turkish-citizenship-investment/), any SPK-authorized, TDUB-member valuation company connected to TADEBİS may issue citizenship reports, and the TTB stays valid for 12 months. Even on non-citizenship buys, commissioning a voluntary SPK report verifies comparable sales, municipal zoning, and unpermitted alterations."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check a property's TAPU for mortgages, liens or Iskan (habitation license)?"
+    },
+    {
+      "type": "p",
+      "text": "You check a Turkish title deed by combining a public lookup on [TKGM Parsel Sorgulama](https://parselsorgu.tkgm.gov.tr/) with a live encumbrance extract pulled via [Web Tapu](https://www.tkgm.gov.tr/e-hizmetler/sik-kullanilanlar/web-tapu) or at the Land Registry. This extract exposes registered mortgages (ipotek), seizures (haciz), annotations (şerh), and whether the unit holds full condominium title (kat mülkiyeti) backed by an Iskan."
+    },
+    {
+      "type": "p",
+      "text": "Never trust a paper photocopy from a seller or broker; liens can be registered within hours. Your Turkish lawyer should pull the live TAKBİS extract on closing day and check municipal occupancy files."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Title Deed & Permit Item",
+        "What It Confirms",
+        "Risk If Missing or Flagged"
+      ],
+      "rows": [
+        [
+          "Kat Mülkiyeti",
+          "Completed building with valid Iskan",
+          "Without it, unit stays on construction servitude (kat irtifakı)"
+        ],
+        [
+          "Iskan (Habitation License)",
+          "Building matches approved municipal plans",
+          "Higher utility tariffs, fines, or mortgage refusal"
+        ],
+        [
+          "İpotek / Haciz",
+          "Registered bank debt or court seizures",
+          "Debt stays attached unless formally cleared at closing"
+        ],
+        [
+          "Şerh (Annotations)",
+          "Pre-emption rights, family home, or restricted zones",
+          "Can block transfer or restrict resale"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why do official declared values sometimes differ from market prices — and why is that risky?"
+    },
+    {
+      "type": "p",
+      "text": "Some sellers suggest declaring only the lower municipal tax value (rayiç bedel) at the Land Registry to reduce the [4% title deed transfer fee (](https://www.propertyturkeyistanbul.com/post/title-deed-costs-by-price-turkey/)[tapu harcı](https://www.propertyturkeyistanbul.com/post/title-deed-costs-by-price-turkey/)[)](https://www.propertyturkeyistanbul.com/post/title-deed-costs-by-price-turkey/). Underdeclaring is illegal in Türkiye and triggers back taxes, a [one-fold tax loss penalty plus interest](https://www.cbhukuk.com/en/selling-property-lower-than-circle-rate/), and higher capital gains tax if you resell within five years."
+    },
+    {
+      "type": "p",
+      "text": "Statutorily, the 4% transfer fee splits 2% buyer and 2% seller, plus a fixed service charge (döner sermaye — 6,681 TRY in Istanbul and 5,567.50 TRY in Bodrum in 2026, per [Property Turkey Istanbul](https://www.propertyturkeyistanbul.com/post/title-deed-costs-by-price-turkey/)). For foreign buyers, underdeclaring also undermines residency ($200,000) and citizenship ($400,000) eligibility. In August 2026, authorities annulled over 1,150 citizenship certificates linked to [irregular valuation records](https://serkalaw.com/spk-valuation-report-turkish-citizenship-investment/). Always declare the exact bank-wired purchase price."
+    },
+    {
+      "type": "h2",
+      "text": "What does an independent Turkish real estate lawyer check before you pay a deposit?"
+    },
+    {
+      "type": "p",
+      "text": "An independent Turkish real estate lawyer verifies the live TAPU extract, confirms seller identity and authority, reviews municipal zoning and Iskan records, checks unpaid utility or site (aidat) arrears, and drafts a bilingual reservation contract before you transfer any deposit. They represent solely you, never the developer or sales broker."
+    },
+    {
+      "type": "p",
+      "text": "Ensure your legal counsel completes this pre-deposit checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Match the seller's ID against the live [Web Tapu](https://www.tkgm.gov.tr/e-hizmetler/sik-kullanilanlar/web-tapu) record and verify any Power of Attorney at a Turkish notary.",
+        "Cross-check block (ada), parcel (parsel), and unit numbers on [TKGM Parsel Sorgulama](https://parselsorgu.tkgm.gov.tr/).",
+        "Inspect municipal files for Iskan issuance, seismic permit dates, and unapproved structural extensions.",
+        "Confirm eligibility for foreign ownership under military and security zone rules.",
+        "Include explicit refund clauses in the deposit contract if liens or title defects emerge."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Planning Your Visit with Itinerary of Türkiye"
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel and local advisory run by its two founders in Türkiye: Paid by our clients. Independent of provider commissions. Read how we work on our [About page](https://itineraryofturkiye.com/about). We coordinate on-the-ground neighborhood visits, viewing logistics, and introductions to independent local professionals, while all legal, tax, residency, and real estate title due diligence remains strictly with licensed Turkish attorneys and official authorities. See also our guides on [best Istanbul districts for 2026](https://itineraryofturkiye.com/blog/best-areas-buy-property-istanbul) and [Turkish residence permits](https://itineraryofturkiye.com/blog/turkey-residence-permit-2026)."
+    },
+    {
+      "type": "p",
+      "text": "Planning a property-scouting trip? Share your target cities, rough dates, and priorities. For your privacy, please do not share passport or ID scans, bank statements, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is an SPK appraisal mandatory for every foreign buyer in 2026?",
+      "a": "No. Under [TKGM Circular 2024/4](https://www.propertyistanbul.com/valuation-report-turkey/), ordinary foreign residential purchases no longer require an SPK report, though it remains mandatory for citizenship ($400,000+) and common for residency or mortgages."
+    },
+    {
+      "q": "How do I check if a Turkish property has a mortgage or lien?",
+      "a": "The owner can share a live [Web Tapu](https://www.tkgm.gov.tr/e-hizmetler/sik-kullanilanlar/web-tapu) extract, or your licensed Turkish attorney can inspect the encumbrance registry (takyidat) at the Land Registry before signing."
+    },
+    {
+      "q": "What is the difference between Kat İrtifakı and Kat Mülkiyeti?",
+      "a": "Kat irtifakı means the building is under construction or lacks its final Iskan. Kat mülkiyeti confirms full condominium title after municipal inspection."
+    },
+    {
+      "q": "Who pays the 4% tapu harcı fee in Türkiye?",
+      "a": "By law it splits 2% buyer and 2% seller, though parties often negotiate who covers the full 4% before closing."
+    },
+    {
+      "q": "How long is an SPK citizenship valuation certificate (TTB) valid in 2026?",
+      "a": "Under the [28 September 2026 TKGM update](https://serkalaw.com/spk-valuation-report-turkish-citizenship-investment/), the TTB is valid for 12 months."
+    },
+    {
+      "q": "Can Itinerary of Türkiye verify my TAPU or review my contract?",
+      "a": "No. Itinerary of Türkiye coordinates on-the-ground visits and independent introductions; licensed Turkish attorneys and official authorities handle all legal and title due diligence."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Capital Markets Board of Türkiye (SPK)",
+      "url": "https://spk.gov.tr/kurumlar/gayrimenkul-degerleme-kuruluslari"
+    },
+    {
+      "title": "TDUB",
+      "url": "https://spk.gov.tr/kurumlar/gayrimenkul-degerleme-kuruluslari/tanitim-rehberi"
+    },
+    {
+      "title": "TKGM Circular 2024/4",
+      "url": "https://www.propertyistanbul.com/valuation-report-turkey/"
+    },
+    {
+      "title": "Web Tapu",
+      "url": "https://www.tkgm.gov.tr/e-hizmetler/sik-kullanilanlar/web-tapu"
+    },
+    {
+      "title": "28 September 2026 rule update",
+      "url": "https://serkalaw.com/spk-valuation-report-turkish-citizenship-investment/"
+    },
+    {
+      "title": "TKGM Parsel Sorgulama",
+      "url": "https://parselsorgu.tkgm.gov.tr/"
+    },
+    {
+      "title": "4% title deed transfer fee (",
+      "url": "https://www.propertyturkeyistanbul.com/post/title-deed-costs-by-price-turkey/"
+    },
+    {
+      "title": "one-fold tax loss penalty plus interest",
+      "url": "https://www.cbhukuk.com/en/selling-property-lower-than-circle-rate/"
+    },
+    {
+      "title": "General Directorate of Land Registry and Cadastre (TKGM)",
+      "url": "https://www.tkgm.gov.tr/yabanci-isler-dairesi-baskanligi/forforeigners"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

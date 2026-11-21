@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-219",
+  "no": 219,
+  "slug": "power-of-attorney-turkey",
+  "plannedPath": "/blog/power-of-attorney-turkey",
+  "status": "published",
+  "title": "Notary, Power of Attorney & Sworn Translators in Türkiye",
+  "seoTitle": "Power of Attorney in Türkiye: Notary & Sworn Translators",
+  "metaDescription": "How to issue a limited Power of Attorney in Türkiye safely in 2026: notary fees, sworn translator rules, risky clauses to avoid, and consulate steps.",
+  "imageIdeas": [],
+  "quickAnswer": "Foreign nationals can issue a limited Power of Attorney (vekaletname) in Türkiye at any licensed notary office (noter) with a passport, Turkish tax number, and sworn translator, or abroad via a Turkish consulate or Hague Apostille. Restrict every property POA to specific parcels, forbid selling or mortgaging, and verify your attorney first.",
+  "category": "Real Estate, Investment, Citizenship & Relocation (ITO Advisory)",
+  "focusKeyword": "power of attorney turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-07-20",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "How do you issue a limited Power of Attorney (Vekaletname) safely in Türkiye or at a consulate?"
+    },
+    {
+      "type": "p",
+      "text": "Issuing a power of attorney turkey document safely starts with a narrow, task-specific draft reviewed by an independent Turkish lawyer before you enter a notary office. In Türkiye, you sign in person before a notary with a sworn interpreter; abroad, you sign at a Turkish consulate or use a local notary plus an Apostille."
+    },
+    {
+      "type": "p",
+      "text": "Inside Türkiye, any notary listed via the [Union of Turkish Notaries (TNB)](https://portal.tnb.org.tr/Sayfalar/Noterbul.aspx) executes a vekaletname the same day. Bring your passport, notarized Turkish passport translation, Turkish tax number, and two biometric photos for real estate deeds."
+    },
+    {
+      "type": "p",
+      "text": "Abroad, choose between two compliant routes:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Turkish Consulate: Book an in-person appointment via the [Ministry of Foreign Affairs e-Konsolosluk portal](https://www.konsolosluk.gov.tr/Procedure/ShowProcedure/6). The consulate drafts the POA directly in Turkish for immediate use once couriered to Türkiye.",
+        "Local Notary + Apostille: Sign before a local notary, obtain a Hague Apostille, and courier the original to Türkiye for sworn translation and Turkish notarization.",
+        "Verify Your Lawyer: Confirm active bar registration on the [Union of Turkish Bar Associations (TBB) Lawyer Search](https://barobirlik.org.tr/AvukatArama) before naming any representative.",
+        "Set an Expiry Date: Insert a fixed 6-to-12-month validity window."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why must a sworn translator be present at every notary and TAPU signing?"
+    },
+    {
+      "type": "p",
+      "text": "Turkish law mandates a licensed sworn translator (yeminli tercüman) at every notary execution and Land Registry (TAPU) transfer whenever a foreign signatory is not fluent in Turkish. The interpreter translates the full deed aloud before you sign and co-signs the record to confirm informed consent under the [General Directorate of Land Registry and Cadastre (TKGM)](https://www.tkgm.gov.tr/yabanci-isler-dairesi-baskanligi/forforeigners)."
+    },
+    {
+      "type": "p",
+      "text": "Without an accredited interpreter sworn in at that notary office, the notary cannot legally authenticate a foreign signature on a vekaletname or sales contract. Distinguish between two translation levels: a sworn translation (yeminli tercüme) carries the translator's stamp, whereas a notarized translation (noter onaylı tercüme) adds notary certification required for passports, foreign POAs, and registry files."
+    },
+    {
+      "type": "h2",
+      "text": "What powers should you NEVER grant blindly in a property POA?"
+    },
+    {
+      "type": "p",
+      "text": "Never sign a general Power of Attorney (genel vekaletname) for a property purchase or grant authority to a real estate agent or developer employee. A safe property POA names only an independent licensed attorney and restricts authority to purchasing a specified parcel, registering utilities, and collecting the title deed."
+    },
+    {
+      "type": "p",
+      "text": "Standard notary templates include broad boilerplate unless you remove these clauses:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Power to sell (satış yetkisi): A buying POA must never include resale rights.",
+        "Power to mortgage (ipotek tesis etme): Forbid placing liens or loans on your title deed.",
+        "Bank withdrawal rights: Execute purchase transfers yourself rather than granting cash withdrawal access.",
+        "Unlimited sub-delegation (tevkil): Limit delegation strictly to named partners within the same law firm."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How much do notary and sworn translation fees cost?"
+    },
+    {
+      "type": "p",
+      "text": "Under the [2026 Turkish Notary Fee Tariff](https://portal.tnb.org.tr/Tebligler/Noterlik%20%C3%9Ccret%20Tarifesi.pdf) effective 1 January 2026, notary fees are regulated nationwide by page count, copies, and statutory ratios. A limited property POA executed in Türkiye—including notary charges, sworn translation, and live interpreter attendance—typically totals TRY 4,500 to TRY 9,500 depending on page length."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Fee Component",
+        "2026 Statutory / Typical Range",
+        "Pricing Basis & Source"
+      ],
+      "rows": [
+        [
+          "Statutory Notary Fee",
+          "30% of Law No. 492 fee (min. TRY 58.82)",
+          "Nationwide tariff ([2026 Notary Guide](https://bayraktarattys.com/power-of-attorney-in-turkey))"
+        ],
+        [
+          "Notary Writing Fee",
+          "TRY 80.68 per page",
+          "Office record, original, and each copy"
+        ],
+        [
+          "One-Page Translation Notarization",
+          "TRY 1,770 per page",
+          "Fixed certification fee ([Tercümenet 2026](https://tercumenet.com/en/notary-certification-fees))"
+        ],
+        [
+          "Sworn Written Translation",
+          "TRY 960–1,200 per document",
+          "Typical POA/contract rate ([Metropol Tercüme](https://metropoltercume.com/en/certified-translation-fees/))"
+        ],
+        [
+          "Attorney / Property POA Notary Total",
+          "TRY 1,600–5,000+",
+          "Scales by clauses ([Ay Tercüme](https://aytercume.com/en/notary-fee-schedule/))"
+        ],
+        [
+          "Live Sworn Interpreter",
+          "Quoted separately by language",
+          "Confirm rate before signing"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Before authorizing any purchase, review our [4-day property inspection trip guide](https://itineraryofturkiye.com/blog/property-viewing-trip-turkey) and [2026 cost of living breakdown](https://itineraryofturkiye.com/blog/cost-of-living-turkey-2026)."
+    },
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/about), our two founders work on a flat-fee, client-paid basis—paid by our clients and independent of provider commissions. We coordinate local appointments and introductions to independent licensed professionals, while legal drafting, POA execution, and title due diligence remain strictly with licensed Turkish attorneys and official authorities. When sending a first enquiry, please do not attach passport or ID scans, financial documents, or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I revoke a Turkish Power of Attorney after issuing it?",
+      "a": "Yes. Sign a formal deed of revocation (azilname) at any Turkish notary or consulate and notify your former representative and the Land Registry office immediately."
+    },
+    {
+      "q": "Does a Power of Attorney issued abroad need an Apostille?",
+      "a": "POAs signed at a Turkish consulate need no Apostille. POAs signed before a local foreign notary require a Hague Apostille (or diplomatic legalization) plus notarized Turkish translation."
+    },
+    {
+      "q": "Can my spouse or friend act as my translator at a Turkish notary?",
+      "a": "No. Turkish notaries accept only accredited sworn translators registered with that notary office."
+    },
+    {
+      "q": "Do I need a Turkish tax number before issuing a property POA?",
+      "a": "Yes. Obtain a free Turkish tax number (vergi kimlik numarası) beforehand so the notary and Land Registry can tie the authorization to your identity."
+    },
+    {
+      "q": "How long does a limited Power of Attorney remain valid in Türkiye?",
+      "a": "Unless an expiration date is written into the deed, a Turkish POA stays valid until revoked. Adding a 6-to-12-month expiry clause is standard practice."
+    },
+    {
+      "q": "Can a POA cover utility connections after I buy a home?",
+      "a": "Yes. You can authorize electricity, water, natural gas, internet, and municipal tax registration without granting selling or borrowing powers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Union of Turkish Notaries (TNB)",
+      "url": "https://portal.tnb.org.tr/Sayfalar/Noterbul.aspx"
+    },
+    {
+      "title": "General Directorate of Land Registry and Cadastre (TKGM)",
+      "url": "https://www.tkgm.gov.tr/yabanci-isler-dairesi-baskanligi/forforeigners"
+    },
+    {
+      "title": "2026 Turkish Notary Fee Tariff",
+      "url": "https://portal.tnb.org.tr/Tebligler/Noterlik%20%C3%9Ccret%20Tarifesi.pdf"
+    },
+    {
+      "title": "Ministry of Foreign Affairs e-Konsolosluk portal",
+      "url": "https://www.konsolosluk.gov.tr/Procedure/ShowProcedure/6"
+    },
+    {
+      "title": "Union of Turkish Bar Associations (TBB) Lawyer Search",
+      "url": "https://barobirlik.org.tr/AvukatArama"
+    },
+    {
+      "title": "2026 Notary Guide",
+      "url": "https://bayraktarattys.com/power-of-attorney-in-turkey"
+    },
+    {
+      "title": "Tercümenet 2026",
+      "url": "https://tercumenet.com/en/notary-certification-fees"
+    },
+    {
+      "title": "Metropol Tercüme",
+      "url": "https://metropoltercume.com/en/certified-translation-fees/"
+    },
+    {
+      "title": "Ay Tercüme",
+      "url": "https://aytercume.com/en/notary-fee-schedule/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

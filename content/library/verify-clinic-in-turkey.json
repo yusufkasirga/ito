@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-122",
+  "no": 122,
+  "slug": "verify-clinic-in-turkey",
+  "plannedPath": "/blog/verify-clinic-in-turkey",
+  "status": "published",
+  "title": "How to Verify a Clinic or Hospital in Türkiye: Ministry of Health & TÜRSAB Checks",
+  "seoTitle": "How to Verify a Clinic in Türkiye: Ministry & TÜRSAB",
+  "metaDescription": "Check a Turkish clinic's USHAŞ authorization, doctor license, JCI hospital status and TÜRSAB registration before you pay a deposit or book flights.",
+  "imageIdeas": [],
+  "quickAnswer": "Before paying any deposit to a Turkish clinic, verify four official credentials: its Ministry of Health International Health Tourism Authorization Certificate (USHAŞ / HealthTürkiye), the named surgeon's Turkish medical license and specialty, active JCI hospital accreditation if claimed, and TÜRSAB Group A agency registration for any intermediary arranging travel.",
+  "category": "Medical Travel to Türkiye — Independent Advisory & Safety (The ITO Standard)",
+  "focusKeyword": "verify clinic in turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-06-14",
+  "readTime": "5 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "h2",
+      "text": "What is the International Health Tourism Authorization Certificate (USHAŞ)?"
+    },
+    {
+      "type": "p",
+      "text": "The International Health Tourism Authorization Certificate (Uluslararası Sağlık Turizmi Yetki Belgesi) is the mandatory legal license issued under the Republic of Türkiye Ministry of Health's regulatory framework allowing a hospital, clinic or intermediary to treat or market to foreign patients. If a facility cannot prove it holds this certificate, walk away."
+    },
+    {
+      "type": "p",
+      "text": "Under the [Regulation on International Health Tourism and Tourist Health](https://shgmturizmdb.saglik.gov.tr/EN-108974/regulation-on-international-health-tourism-and-tourist-health.html) and updated statutory enforcement through [USHAŞ](https://en.wikipedia.org/wiki/USHA%C5%9E) and the official [HealthTürkiye registry framework](https://cagrialtuntas.com/en/health-turkey-certified-clinics/), every provider treating international patients must meet facility, foreign-language staffing and patient-rights standards. You can cross-check facilities directly on the [Ministry of Health's Authorized Healthcare Providers list](https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html). Always ask the clinic for its exact Turkish legal entity name (often starting with Özel and ending with Hastanesi, Tıp Merkezi or Polikliniği), because Instagram brand names rarely match official Ministry records."
+    },
+    {
+      "type": "h2",
+      "text": "How do you verify a doctor's Turkish medical license and specialty?"
+    },
+    {
+      "type": "p",
+      "text": "Every practising physician in Türkiye holds a Ministry of Health diploma registration number and, for specialists, a registered specialty certificate (Uzmanlık Tescil Belgesi). Confirm the full legal name of the doctor performing your procedure—not just the clinic's medical director—and verify their active standing before booking flights."
+    },
+    {
+      "type": "p",
+      "text": "Ask the clinic to confirm in writing who will perform every critical stage of your procedure (especially in hair restoration, where technicians sometimes perform extractions or implantations without direct physician execution). You can ask your physician for their Ministry registration details recorded in the [Ministry of Health Doctor Information Bank (Doktor Bilgi Bankası)](https://www.turkiye.gov.tr/saglik-bakanligi-doktor-bilgi-bankasi), verify official documents through the [Turkish Medical Association (TTB) verification portal](https://www.ttb.org.tr/vcode.php), and check their published academic papers and hospital staff directory."
+    },
+    {
+      "type": "h2",
+      "text": "What does JCI hospital accreditation actually cover?"
+    },
+    {
+      "type": "p",
+      "text": "Joint Commission International (JCI) accreditation audits a hospital's patient safety systems—including infection control, anaesthesia and surgical safety, medication management, staff credentialing and emergency protocols—against strict international standards. It applies to a specific hospital campus, not to an entire brand or to an unaccredited boutique clinic renting an operating room."
+    },
+    {
+      "type": "p",
+      "text": "Reviewing [JCI's Hospital Accreditation Standards](https://digitalassets.jointcommission.org/api/public/content/assets/3/7/ebjcih24_sample_pages.pdf) and [JCI Survey Process Guide](https://digitalassets.jointcommission.org/api/public/content/assets/3/7/ebihspg24_sample_pages.pdf) clarifies a common marketing trick: JCI does not automatically extend accreditation to merged clinics or satellite offices. If a broker claims \"JCI-accredited care,\" ask for the exact hospital name and branch where your surgery will occur and verify it on the public JCI directory. Similarly, if an intermediary agency is booking your hotel and transfers, check its Group A travel agency number on [TÜRSAB's Registered Travel Agencies search](https://www.tursab.org.tr/registered-travel-agencies) and [TÜRSAB's Digital Verification System (DDS)](https://www.tursab.org.tr/digital-verification-system)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Credential to Check",
+        "Issuing / Governing Body",
+        "What It Confirms",
+        "Common Red Flag"
+      ],
+      "rows": [
+        [
+          "Health Tourism Authorization Certificate",
+          "Ministry of Health / USHAŞ",
+          "Legal right to treat international patients",
+          "Clinic trades under a brand name absent from Ministry lists"
+        ],
+        [
+          "Doctor Diploma & Specialty Registration",
+          "Ministry of Health / TTB",
+          "Licensed physician with verified specialty",
+          "Refusal to name the operating doctor in writing"
+        ],
+        [
+          "JCI Accreditation",
+          "Joint Commission International",
+          "Campus-level hospital safety & infection standards",
+          "Small clinic claiming a partner hospital's JCI badge"
+        ],
+        [
+          "TÜRSAB Group A License & DDS",
+          "Association of Turkish Travel Agencies",
+          "Legal authority to sell travel/transfer packages",
+          "Unlicensed WhatsApp brokers bundling flights and hotels"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What documents should a clinic share before you book flights?"
+    },
+    {
+      "type": "p",
+      "text": "A legitimate Turkish hospital or clinic will send written documentation before you pay a deposit or buy airline tickets. If a coordinator pressures you with a \"24-hour discount\" to transfer funds before providing paperwork, treat it as an immediate warning sign."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Copy of the International Health Tourism Authorization Certificate: Showing the clinic's legal Turkish name, address and certificate number.",
+        "Named physician and hospital campus confirmation: Stating the exact surgeon's full name, specialty and the licensed hospital where surgery will take place.",
+        "Itemised written treatment plan and quote: Breaking down surgical fees, anaesthesia, pre-op tests, hospital nights, medications and what happens if your treatment plan changes after in-person examination.",
+        "Written complication, revision and cancellation policy: Detailing who covers additional hospital nights or corrective care if complications arise.",
+        "Expected fit-to-fly timeline: Confirming how many nights you must remain in Türkiye for post-operative checks."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders never steer patients toward commission-paying clinics. Paid by our clients. Independent of provider commissions. We maintain a strict non-clinical boundary: We coordinate your visit. Your licensed medical team makes clinical decisions. Learn how we support your logistics on our [medical tourism page](https://itineraryofturkiye.com/services/medical-tourism) and our [about page](https://itineraryofturkiye.com/about). When sending your first enquiry, please do not include passport or ID scans, medical records or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why can't I find a Turkish clinic's Instagram name on the Ministry of Health list?",
+      "a": "Many clinics market under an English brand name while their official Ministry of Health authorization is registered under their Turkish legal entity name. Ask the clinic for its exact legal title and certificate copy, then match the address."
+    },
+    {
+      "q": "Does every dental clinic or hair clinic in Türkiye need JCI accreditation?",
+      "a": "No. JCI primarily accredits full hospitals and large medical centres. Outpatient dental or hair clinics may not hold JCI status, but they still legally require a Ministry of Health International Health Tourism Authorization Certificate."
+    },
+    {
+      "q": "Why does TÜRSAB verification matter for medical travel?",
+      "a": "Under Turkish law, any agency arranging commercial transfers, hotels or tour packages must hold a TÜRSAB Group A travel agency license, verifiable via TÜRSAB's Registered Travel Agencies and Digital Verification System."
+    },
+    {
+      "q": "Can a clinic legally guarantee surgical outcomes in writing?",
+      "a": "No ethical physician guarantees biological or surgical outcomes. Legitimate clinics instead provide clear informed-consent forms, realistic expectations and written policies for follow-up care or revisions."
+    },
+    {
+      "q": "Is it safe to pay a cash-only deposit via personal bank transfer?",
+      "a": "No. Always pay into the clinic's registered corporate Turkish account matching its legal entity name, and request an official itemized invoice (fatura) for every payment."
+    },
+    {
+      "q": "What does Itinerary of Türkiye verify versus what stays between me and my doctor?",
+      "a": "We help you organise verified travel logistics, recovery hotels and TÜRSAB-compliant transfers while you retain full control over clinical selection. We coordinate your visit. Your licensed medical team makes clinical decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation on International Health Tourism and Tourist Health",
+      "url": "https://shgmturizmdb.saglik.gov.tr/EN-108974/regulation-on-international-health-tourism-and-tourist-health.html"
+    },
+    {
+      "title": "USHAŞ",
+      "url": "https://en.wikipedia.org/wiki/USHA%C5%9E"
+    },
+    {
+      "title": "HealthTürkiye registry framework",
+      "url": "https://cagrialtuntas.com/en/health-turkey-certified-clinics/"
+    },
+    {
+      "title": "Ministry of Health's Authorized Healthcare Providers list",
+      "url": "https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html"
+    },
+    {
+      "title": "Ministry of Health Doctor Information Bank (Doktor Bilgi Bankası)",
+      "url": "https://www.turkiye.gov.tr/saglik-bakanligi-doktor-bilgi-bankasi"
+    },
+    {
+      "title": "Turkish Medical Association (TTB) verification portal",
+      "url": "https://www.ttb.org.tr/vcode.php"
+    },
+    {
+      "title": "JCI's Hospital Accreditation Standards",
+      "url": "https://digitalassets.jointcommission.org/api/public/content/assets/3/7/ebjcih24_sample_pages.pdf"
+    },
+    {
+      "title": "JCI Survey Process Guide",
+      "url": "https://digitalassets.jointcommission.org/api/public/content/assets/3/7/ebihspg24_sample_pages.pdf"
+    },
+    {
+      "title": "TÜRSAB's Registered Travel Agencies search",
+      "url": "https://www.tursab.org.tr/registered-travel-agencies"
+    },
+    {
+      "title": "TÜRSAB's Digital Verification System (DDS)",
+      "url": "https://www.tursab.org.tr/digital-verification-system"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

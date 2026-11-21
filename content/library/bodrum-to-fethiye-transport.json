@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-431",
+  "no": 431,
+  "slug": "bodrum-to-fethiye-transport",
+  "plannedPath": "/destinations/bodrum-to-fethiye-transport",
+  "status": "published",
+  "title": "Bodrum to Fethiye & Göcek: Scenic Coastal Transfer & Stops",
+  "seoTitle": "Bodrum to Fethiye & Göcek Transfer: Stops & Gulet Timing",
+  "metaDescription": "Plan your Bodrum to Fethiye and Göcek transfer with drive times, Akyaka and Dalyan stops, Datça ferry options, and Saturday gulet timing.",
+  "imageIdeas": [],
+  "quickAnswer": "A private road transfer from Bodrum to Göcek takes 2 hours 45 minutes to 3 hours (200 km), and 3 hours 15 minutes to 3 hours 30 minutes to Fethiye (235 km) via the D330 and D400 highways. You can break the drive at Akyaka or Dalyan, or cross to Datça seasonally by sea.",
+  "category": "Inner Pages — 20 Point-to-Point Transport, Stopover & Route Logistics Guides",
+  "focusKeyword": "bodrum to fethiye transport",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-09-21",
+  "readTime": "6 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "bodrum-gocek-coastal-transfer-route.webp — Alt text: \"Private transfer vehicle descending the pine-lined road above Gökova Gulf between Bodrum and Göcek in Muğla, Türkiye\"",
+        "dalyan-kaunos-river-stop-transfer.webp — Alt text: \"Wooden riverboats docked along the Dalyan reed channels below the rock-cut tombs of Kaunos during a Bodrum to Fethiye transfer stop\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How long is the road transfer from Bodrum to Göcek and Fethiye?"
+    },
+    {
+      "type": "p",
+      "text": "Driving from Bodrum town center to Göcek marina takes approximately 2 hours 45 minutes to 3 hours along the D330 inland through Milas and Muğla, then south on the D550 and D400. Continuing through the toll Göcek Tunnel to Fethiye harbor adds 25 to 35 minutes, bringing total door-to-door driving time to roughly 3 hours 15 minutes to 3 hours 30 minutes."
+    },
+    {
+      "type": "p",
+      "text": "Departure location on the Bodrum Peninsula shifts that estimate noticeably. Leaving from Yalıkavak, Türkbükü, or Gümüşlük adds 25 to 40 minutes before you even clear the Torba junction. In July and August, weekend bottlenecks around the Milas bypass and the steep Sakar Pass above Gökova can add another 20 to 30 minutes. Before departing, drivers check live roadworks through the [General Directorate of Highways (KGM) daily bulletin](https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/YolDanisma/GunlukYolDurumuBulteni.aspx)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Route Segment",
+        "Distance",
+        "Off-Peak Drive Time",
+        "Peak Summer Drive Time",
+        "Key Corridor"
+      ],
+      "rows": [
+        [
+          "Bodrum Center → Göcek Marina",
+          "~200 km",
+          "2h 45m",
+          "3h 15m – 3h 30m",
+          "D330 → D550 → D400"
+        ],
+        [
+          "Yalıkavak → Göcek Marina",
+          "~220 km",
+          "3h 10m",
+          "3h 45m – 4h 00m",
+          "Peninsula road → D330 → D400"
+        ],
+        [
+          "Bodrum Center → Fethiye Harbor",
+          "~235 km",
+          "3h 15m",
+          "3h 45m – 4h 00m",
+          "D330 → D400 via Göcek Tunnel"
+        ],
+        [
+          "Bodrum Center → Dalyan (detour)",
+          "~185 km",
+          "2h 30m",
+          "2h 55m",
+          "D330 → D400 → Ortaca turnoff"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which stops (Akyaka, Dalyan, Lake Bafa) break up the 3-hour drive?"
+    },
+    {
+      "type": "p",
+      "text": "Akyaka and Dalyan sit naturally along the Bodrum-to-Fethiye corridor and turn a routine transfer into a relaxed half-day excursion. Akyaka requires only a 10-minute detour off the D550 at the base of the Sakar Pass, while Dalyan sits 12 km south of Ortaca and pairs well with a riverboat lunch near Kaunos. Lake Bafa lies north of Milas and is an out-of-the-way detour."
+    },
+    {
+      "type": "p",
+      "text": "Choosing the right stop depends on your departure time and luggage:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Akyaka (Azmak River): Ideal for a 60-to-90-minute break. You can take a short electric-boat ride along the cold spring-fed reed channel and eat lunch by the water without straying far from the highway.",
+        "Dalyan & Kaunos: Best if you have 2.5 to 3 hours to spare. From Dalyan's riverside quay, small boats cross the channel to the ancient Lycian-Carian port of [Kaunos Archaeological Site](https://muze.gov.tr/muze-detay?DistId=KAU&SectionId=KAU02), famous for its cliffside rock tombs.",
+        "Lake Bafa: Located roughly 35 km north of Milas along the D525 toward Söke, Lake Bafa adds at least 75 minutes of extra driving round-trip. Include it only if you are staying overnight near Herakleia or combining the transfer with an Aegean heritage loop."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Is there a seasonal sea ferry between Bodrum and Datça/Marmaris?"
+    },
+    {
+      "type": "p",
+      "text": "There is no direct public passenger ferry from Bodrum to Fethiye or Göcek. However, [Bodrum Feribot İşletmeciliği](https://bodrumferibot.com/seferler-bodrum-datca?lang=en) operates a seasonal car-and-passenger ferry across the Gulf of Gökova between Bodrum Kale Port and Körmen Port on the Datça Peninsula, typically running from spring through autumn with a crossing time of about 1 hour 45 minutes."
+    },
+    {
+      "type": "p",
+      "text": "From Datça's Körmen Port, reaching Marmaris takes another 1 hour 15 minutes over the winding D400 peninsula road, and continuing from Marmaris to Göcek or Fethiye adds roughly 1 hour 30 minutes to 2 hours. In total, the ferry-plus-road combination takes significantly longer than driving directly around the gulf—usually 5 to 6 hours door to door. Travelers choose the [Bodrum–Datça ferry](https://bodrumferibot.com/fiyat-bodrum-datca?lang=en) only when they want to visit Knidos or spend a night in Datça, not to save time on a Bodrum-to-Fethiye transfer."
+    },
+    {
+      "type": "h2",
+      "text": "How do you time transfers for Saturday gulet embarkation?"
+    },
+    {
+      "type": "p",
+      "text": "Standard Saturday gulet charters in Göcek and Fethiye open boarding between 15:00 and 16:00, after crews finish morning provisioning and cabin turnarounds. Departing Bodrum around 09:30 to 10:00 gives you enough buffer for summer traffic, a 90-minute riverside lunch in Akyaka, and a calm arrival at the marina pier by 14:30."
+    },
+    {
+      "type": "p",
+      "text": "Avoid arriving at Göcek or Fethiye marinas at noon with heavy suitcases expecting immediate cabin access, as shaded waiting space on working piers is limited. Use this Saturday embarkation checklist before leaving Bodrum:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm exact pier and yacht name: Göcek has multiple marinas (D-Marin, Marinturk Village Port, Skopea, Municipal Pier), and Fethiye splits charters between Ece Saray Marina and the public harbourfront.",
+        "Pre-order provisions separately: If you plan to buy wine or specialty groceries, stop at a large Migros or Macrocenter before entering the marina zone rather than holding up the transfer driver at the pier gate.",
+        "Build a 45-minute summer buffer: Saturday is turnover day for both [Dalaman Airport (DLM)](https://dhmi.gov.tr/Sayfalar/Havalimani/Dalaman/AnaSayfa.aspx) arrivals and regional yacht charters, causing heavier traffic around Ortaca and the Göcek Tunnel.",
+        "Verify luggage capacity: Four adults with hard-shell suitcases and soft yacht duffels require a Mercedes Vito or Sprinter-class van rather than a standard sedan."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Planning a coastal route between Bodrum, Göcek, Fethiye, or northern hubs like [Bursa](https://itineraryofturkiye.com/destinations/bursa)? [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. Learn how we structure unbiased door-to-door logistics on our [About page](https://itineraryofturkiye.com/about). When sending your first enquiry, please do not include passport or ID scans, medical or financial records, or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can you take a direct bus from Bodrum to Fethiye?",
+      "a": "Direct intercity buses between Bodrum Otogar and Fethiye Otogar run several times daily in summer, taking roughly 4 to 4.5 hours including intermediate stops in Milas, Muğla, and Ortaca. Outside peak season, you may need to change buses in Muğla."
+    },
+    {
+      "q": "Does the Bodrum to Fethiye route pass through a toll tunnel?",
+      "a": "Yes. Approaching Göcek on the D400, traffic uses the Göcek Tunnel, which charges a small toll payable via HGS or card/cash lanes. An older, winding mountain bypass road exists over the ridge, but private transfers use the tunnel for speed and comfort."
+    },
+    {
+      "q": "Is Akyaka or Dalyan better for a quick lunch stop?",
+      "a": "Akyaka is far better for a short 60-to-90-minute lunch stop because it sits just minutes off the main highway. Dalyan is better suited to a 2.5-to-3-hour stop if you also want to cross the river to see Kaunos."
+    },
+    {
+      "q": "Can you transfer directly from Bodrum to Dalaman Airport instead of Göcek?",
+      "a": "Yes. Bodrum center to Dalaman Airport (DLM) takes about 2 hours 45 minutes to 3 hours along the same D330 and D400 corridor, turning south near Ortaca about 20 minutes before Göcek."
+    },
+    {
+      "q": "Do Bodrum–Datça ferries run in winter?",
+      "a": "No. The Bodrum Kale to Datça (Körmen) car-and-passenger ferry is a seasonal service operating mainly from spring through autumn. In winter, all travel between Bodrum, Datça, Marmaris, and Fethiye goes by road."
+    },
+    {
+      "q": "What luggage works best for a gulet charter transfer?",
+      "a": "Soft-sided duffel bags are strongly recommended over rigid hard-shell suitcases. Hard cases are difficult to stow inside standard gulet cabins and also eat into transfer van trunk space when traveling in groups of four or more."
+    }
+  ],
+  "sources": [
+    {
+      "title": "General Directorate of Highways (KGM) daily bulletin",
+      "url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/YolDanisma/GunlukYolDurumuBulteni.aspx"
+    },
+    {
+      "title": "Bodrum Feribot İşletmeciliği",
+      "url": "https://bodrumferibot.com/seferler-bodrum-datca?lang=en"
+    },
+    {
+      "title": "Bodrum–Datça ferry",
+      "url": "https://bodrumferibot.com/fiyat-bodrum-datca?lang=en"
+    },
+    {
+      "title": "Kaunos Archaeological Site",
+      "url": "https://muze.gov.tr/muze-detay?DistId=KAU&SectionId=KAU02"
+    },
+    {
+      "title": "Dalaman Airport (DLM)",
+      "url": "https://dhmi.gov.tr/Sayfalar/Havalimani/Dalaman/AnaSayfa.aspx"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

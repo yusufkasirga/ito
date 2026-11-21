@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-571",
+  "no": 571,
+  "slug": "transfer-money-turkey-2026",
+  "plannedPath": "/blog/transfer-money-turkey-2026",
+  "status": "published",
+  "title": "Transferring Money Into & Out of Türkiye: Wise, SWIFT & Bank Compliance",
+  "seoTitle": "Transferring Money to & From Türkiye: Wise & SWIFT (2026)",
+  "metaDescription": "Compare Wise, Revolut, and SWIFT wires into Türkiye in 2026. Learn MASAK source-of-funds rules, outbound fees, and multi-currency tips.",
+  "imageIdeas": [],
+  "quickAnswer": "For everyday living expenses in Turkish lira, Wise delivers transparent mid-market conversions via local EFT within one working day, while traditional SWIFT wires remain necessary for sending EUR, GBP, or USD directly into Turkish foreign-currency accounts and for large property or hospital payments. Expect MASAK source-of-funds checks on major transfers.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "transfer money turkey 2026",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-13",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Moving money across Turkish borders catches many newcomers off guard—not because transfers are impossible, but because choosing the wrong rail can quietly cost 2% to 4% in hidden FX spreads or freeze a closing day over missing compliance paperwork. Knowing when to use a fintech transfer versus a direct bank-to-bank SWIFT wire saves both fees and delays."
+    },
+    {
+      "type": "p",
+      "text": "Advisory boundary: [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye (\"Paid by our clients. Independent of provider commissions.\"). We do not provide banking, tax, or legal advice, and we hold no commission agreements with any bank or transfer app. Official compliance and tax filings belong to your bank, MASAK, and licensed Turkish attorneys or SMMMs."
+    },
+    {
+      "type": "h2",
+      "text": "How do international SWIFT wires compare to Wise/Revolut for sending EUR, GBP or USD into Türkiye?"
+    },
+    {
+      "type": "p",
+      "text": "Wise and Revolut win on speed and transparent exchange rates for everyday transfers converted into Turkish lira (TRY), whereas SWIFT is required when you want EUR, GBP, or USD to land intact in a Turkish foreign-currency (Döviz) IBAN. According to [Wise's TRY transfer guide](https://wise.com/help/articles/2932348/guide-to-try-transfers), TRY payouts arrive via local EFT in about one working day."
+    },
+    {
+      "type": "p",
+      "text": "On [Wise](https://wise.com/us/send-money/send-money-to-turkey), senders can transfer up to 8 million TRY (or up to 9.99 million TRY from TRY accounts) at the mid-market rate plus an upfront fee, though Turkish rules prohibit sending to savings accounts. On [Revolut](https://www.revolut.com/money-transfer/send-money-to-turkey/), weekday transfers within plan allowances are low-cost, but Standard (1%) and Plus (0.5%) users pay weekend exchange markups and fair-usage fees above monthly limits, and outbound SWIFT routes may still incur intermediary bank deductions."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Transfer Method",
+        "Best Use Case",
+        "Currency Received in Türkiye",
+        "Typical Speed",
+        "Key Watch-Out"
+      ],
+      "rows": [
+        [
+          "Wise (to TRY IBAN)",
+          "Monthly rent, bills, living costs",
+          "TRY (via local EFT)",
+          "~1 working day",
+          "Cannot send to savings accounts; converts to TRY"
+        ],
+        [
+          "Revolut",
+          "Frequent EUR/GBP/USD spend & wires",
+          "TRY or foreign currency (SWIFT)",
+          "1–3 working days",
+          "Weekend FX markup on Standard/Plus; SWIFT intermediary fees"
+        ],
+        [
+          "Bank-to-Bank SWIFT",
+          "Property purchase, hospital surgery, large savings",
+          "EUR, USD, GBP, or TRY",
+          "2–5 working days",
+          "Correspondent bank deductions + wide retail FX spreads"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What source-of-funds documents do Turkish banks ask for on large property or medical wires?"
+    },
+    {
+      "type": "p",
+      "text": "Under Law No. 5549 and the [MASAK Compliance Program Regulation](https://masak.hmb.gov.tr/regulation-on-program-of-compliance-with-obligations-of-anti-money-laundering-and-combating-the-financing-of-terrorism/), Turkish banks must verify the origin and purpose of large cross-border wires. Expect your branch to request signed sale contracts or hospital pro-forma invoices, recent overseas bank statements showing the funds seasoning, and tax returns or payslips before releasing incoming money."
+    },
+    {
+      "type": "p",
+      "text": "For real estate purchases by foreign buyers, Turkish rules also require converting foreign currency through a Turkish bank to obtain a Foreign Exchange Purchase Certificate (Döviz Alım Belgesi / DAB) for the land registry. Alert your branch manager at least 48 hours before wiring large sums so compliance review does not stall a Tapu appointment or surgical admission."
+    },
+    {
+      "type": "p",
+      "text": "Large Transfer Compliance Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Notify your Turkish bank branch in writing before initiating any wire over 10,000 EUR/USD",
+        "Keep three to six months of originating bank statements showing salary, dividends, or asset sale proceeds",
+        "Attach the exact purpose document (notarized property contract, hospital pro-forma invoice, or rental agreement)",
+        "Match the sender's name exactly to the account holder or buyer on the underlying contract",
+        "Confirm whether a Döviz Alım Belgesi (DAB) is required before converting foreign currency for property"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why do outbound SWIFT fees and correspondent charges vary so much?"
+    },
+    {
+      "type": "p",
+      "text": "Sending EUR, GBP, or USD out of Türkiye uses the international SWIFT network, where your local bank's outgoing wire fee is only part of the cost. Because Turkish banks often route foreign-currency wires through one or two overseas correspondent banks, intermediary fees ($15–$50+ per hop) can be deducted silently in transit."
+    },
+    {
+      "type": "p",
+      "text": "Always check the fee instruction before confirming an outbound wire: SHA splits fees (meaning the receiving bank or intermediary deducts charges from your principal), while OUR pays all known upstream fees upfront so the recipient gets the exact invoice amount. Even with OUR, compare each bank's outgoing SWIFT tariff—fees differ sharply between retail tiers and private banking accounts."
+    },
+    {
+      "type": "h2",
+      "text": "How do multi-currency accounts protect against TL volatility?"
+    },
+    {
+      "type": "p",
+      "text": "Holding only Turkish lira exposes your savings to currency depreciation when local inflation outpaces exchange stability. Opening linked TRY, EUR, USD, and GBP sub-accounts at a major Turkish bank—paired with an international multi-currency account abroad—lets you keep core reserves in hard currency and convert only 30 to 60 days of local living expenses at a time."
+    },
+    {
+      "type": "p",
+      "text": "When converting inside a Turkish banking app, avoid weekend or after-hours conversions when Turkish banks widen their bid-ask spreads significantly. Converting during weekday Turkish market hours (roughly 09:30–16:30 TRT) consistently narrows the spread."
+    },
+    {
+      "type": "p",
+      "text": "Coordinating a relocation, business trip, or medical stay in Türkiye? Learn how our two founders work on our [About page](https://itineraryofturkiye.com/about), see our [medical travel coordination](https://itineraryofturkiye.com/services/medical-tourism), or explore independent planning at [Itinerary of Türkiye](https://itineraryofturkiye.com/). In your first enquiry, please do not share passport or ID scans, financial statements, medical records, or payment details—a short note outlining your plans is all we need."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I receive EUR or USD directly into a Turkish bank account via Wise?",
+      "a": "Wise's standard low-cost payout rail into Türkiye delivers Turkish lira (TRY) via local EFT. If you need EUR, USD, or GBP to land untouched in a Turkish foreign-currency IBAN, a direct SWIFT transfer is typically required."
+    },
+    {
+      "q": "What is a 26-character Turkish IBAN?",
+      "a": "Every Turkish bank account has a 26-character IBAN starting with TR. Note that your TRY, EUR, and USD sub-accounts at the same Turkish bank each have their own distinct IBAN—sending EUR to a TRY IBAN can trigger an automatic, unfavorable conversion."
+    },
+    {
+      "q": "How long does a SWIFT wire take to reach a Turkish bank?",
+      "a": "Most incoming SWIFT transfers from Europe, the UK, or North America settle in two to five working days, provided MASAK compliance checks do not hold the wire for supporting documentation."
+    },
+    {
+      "q": "Why did my Turkish bank freeze an incoming transfer from my own overseas account?",
+      "a": "Even self-transfers can trigger automated MASAK anti-money-laundering flags if the amount is large relative to your account history. Providing your overseas statement and a brief explanation of the source of funds normally clears the hold."
+    },
+    {
+      "q": "Should I convert currency at a Turkish bank or an exchange office (Döviz Bürosu)?",
+      "a": "For physical cash, licensed exchange offices in central districts often beat bank branch cash spreads. For digital balances, weekday market-hour conversions in your banking app or Wise avoid carrying cash and leave a clean audit trail."
+    },
+    {
+      "q": "Are there limits on bringing cash into or out of Türkiye?",
+      "a": "Yes. Carrying large sums of physical cash across borders triggers customs declaration requirements and provides no banking trail for property purchases or formal invoices. Using documented bank transfers protects your compliance record."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wise's TRY transfer guide",
+      "url": "https://wise.com/help/articles/2932348/guide-to-try-transfers"
+    },
+    {
+      "title": "Wise",
+      "url": "https://wise.com/us/send-money/send-money-to-turkey"
+    },
+    {
+      "title": "Revolut",
+      "url": "https://www.revolut.com/money-transfer/send-money-to-turkey/"
+    },
+    {
+      "title": "MASAK Compliance Program Regulation",
+      "url": "https://masak.hmb.gov.tr/regulation-on-program-of-compliance-with-obligations-of-anti-money-laundering-and-combating-the-financing-of-terrorism/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

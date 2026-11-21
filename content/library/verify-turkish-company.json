@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-365",
+  "no": 365,
+  "slug": "verify-turkish-company",
+  "plannedPath": "/blog/verify-turkish-company",
+  "status": "published",
+  "title": "Verifying a Turkish Supplier or Company (ITO Chamber & Trade Registry)",
+  "seoTitle": "Verify a Turkish Company: ITO & Trade Registry Guide",
+  "metaDescription": "Check a Turkish supplier in the Trade Registry Gazette and ITO before wiring deposits. Spot trading middlemen and plan an in-person factory audit.",
+  "imageIdeas": [],
+  "quickAnswer": "To verify a Turkish company before wiring a deposit, cross-check its exact legal title, paid-in capital, and authorized signatories in the [Türkiye Ticaret Sicili Gazetesi](https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php), the [Istanbul Chamber of Commerce (İTO) Information Bank](https://bilgibankasi.ito.org.tr/), and [MERSİS](https://mersis.ticaret.gov.tr/). Follow digital checks with an in-person factory visit to confirm real production capacity and avoid undisclosed trading middlemen.",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "verify turkish company",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-28",
+  "readTime": "6 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "verify-turkish-company-ito-registry.webp — Alt text: Business buyer reviewing Turkish Trade Registry Gazette and Istanbul Chamber of Commerce company records on a laptop before a supplier visit.",
+        "istanbul-factory-audit-inspection.webp — Alt text: International sourcing manager inspecting active manufacturing lines and warehouse inventory inside an organized industrial zone near Istanbul."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "International buyers sourcing textiles, machinery, building materials, or private-label goods from Türkiye often start with trade portals or WhatsApp introductions. Those channels move fast, yet wiring a 30% production deposit without confirming who actually owns the factory exposes your business to avoidable losses. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate on-the-ground business visits across Istanbul and Anatolian manufacturing hubs on a flat-fee, client-paid model (\"Paid by our clients. Independent of provider commissions.\"). We handle scheduling, site-visit logistics, and independent introductions, while formal legal due diligence, contract drafting, and tax verification remain strictly with licensed Turkish attorneys, certified public accountants (SMMM), and official authorities."
+    },
+    {
+      "type": "h2",
+      "text": "How do you check a Turkish supplier's legal registration in the Trade Registry Gazette (Ticaret Sicili) and ITO?"
+    },
+    {
+      "type": "p",
+      "text": "Start by requesting the supplier's full Turkish legal name (Ticaret Unvanı), tax number (Vergi Kimlik Numarası), and MERSİS number. Search the [Trade Registry Gazette Announcement Portal](https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php) and [Title Lookup](https://www.ticaretsicil.gov.tr/view/hizlierisim/unvansorgulama.php) alongside the [İTO Information Bank](https://bilgibankasi.ito.org.tr/) to confirm active status, incorporation date, paid-in capital, registered address, and authorized company signatories."
+    },
+    {
+      "type": "p",
+      "text": "Each public database answers a different verification question. Using all three together catches mismatches that a single search might miss."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Verification Portal",
+        "Official Source",
+        "What You Confirm",
+        "Key Red Flag"
+      ],
+      "rows": [
+        [
+          "Trade Registry Gazette",
+          "[ticaretsicil.gov.tr](https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php)",
+          "Incorporation date, share transfers, signatory authority (İmza Sirküleri basis), capital increases",
+          "Recent silent change of directors or dissolved status"
+        ],
+        [
+          "İTO Information Bank",
+          "[bilgibankasi.ito.org.tr](https://bilgibankasi.ito.org.tr/)",
+          "Active Istanbul Chamber membership, NACE activity code, registered office address",
+          "Activity code listed only as wholesale/brokerage instead of manufacturing"
+        ],
+        [
+          "MERSİS",
+          "[mersis.ticaret.gov.tr](https://mersis.ticaret.gov.tr/)",
+          "Central 16-digit corporate ID, branch locations, official legal status",
+          "Registered branch does not include the claimed factory district"
+        ],
+        [
+          "Registry Certificate",
+          "[İTO Sicil Tasdiknamesi](https://www.ito.org.tr/tr/hizmetler/ticaret-sicili-islemleri/ticaret-sicil-belgeleri/sicil-tasdiknamesi)",
+          "Current chamber-certified registration status and signatory scope",
+          "Supplier refuses to share a recent dated certificate"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Always compare the beneficiary name on the proforma invoice against the exact Turkish legal title in the Trade Registry. If the bank account belongs to a personal name or an unrelated company, pause the transfer and consult a licensed Turkish commercial attorney."
+    },
+    {
+      "type": "h2",
+      "text": "What warning signs indicate a trading middleman posing as a factory?"
+    },
+    {
+      "type": "p",
+      "text": "A trading company posing as a manufacturer typically lists a residential or shared office address in [İTO records](https://bilgibankasi.ito.org.tr/), holds no Industrial Registry Certificate (Sanayi Sicil Belgesi), and hesitates to confirm a live production-floor walk-through. You may also notice mismatched NACE business codes, generic catalog photos, and unusually low paid-in capital for heavy manufacturing."
+    },
+    {
+      "type": "p",
+      "text": "Trading companies are completely legal in Türkiye and can be useful for consolidating multi-factory orders. Problems arise only when an intermediary claims factory ownership, marks up prices silently, or cannot control quality on the line. Watch for these practical warning signs before you book flights:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Address mismatch: The website claims a factory in İkitelli, Gebze, or Bursa, yet the [MERSİS](https://mersis.ticaret.gov.tr/) and İTO records show only a virtual office in Şişli or Levent.",
+        "No Capacity Report (Kapasite Raporu): Genuine Turkish manufacturers registered with an industrial chamber maintain a Capacity Report detailing machine counts, floor area, and annual output.",
+        "Reluctance to host unscripted visits: Brokers often steer buyers toward a showroom coffee meeting rather than the cutting, molding, or assembly floor.",
+        "Bank account mismatch: The proforma invoice requests payment to a third-party entity or personal IBAN rather than the registered manufacturer's corporate account.",
+        "Overly broad product catalog: A single small workshop rarely manufactures woven apparel, injection-molded plastics, and stainless-steel hardware under one roof."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why is an in-person factory audit worth 2 days before wiring deposits?"
+    },
+    {
+      "type": "p",
+      "text": "Spending two days on-site in Istanbul, Bursa, Kocaeli, or Gaziantep lets you verify active machinery, raw-material stock, quality-control benches, and actual staff headcount before committing capital. A brief physical inspection costs far less than disputing a defective container or chasing a disputed advance payment across borders."
+    },
+    {
+      "type": "p",
+      "text": "Remote video tours can be staged in a partner's workshop. Walking the floor yourself reveals operational reality within an hour: whether machines are running current orders, how finished goods are labeled and stored, and whether workplace safety and export packaging match your buyers' compliance rules. During a two-day trip, you can typically visit two to three shortlisted suppliers in organized industrial zones (OSB), test physical samples with engineers present, and meet an independent Turkish lawyer or certified public accountant (SMMM) to review contract terms before signing."
+    },
+    {
+      "type": "h2",
+      "text": "How does ITO coordinate independent site visits?"
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/about) plans and accompanies independent supplier-visit itineraries across Türkiye's industrial districts on a transparent, client-paid flat fee. We never accept supplier commissions, kickbacks, or referral fees, ensuring your schedule, interpreter selection, and transport serve strictly your sourcing objectives rather than a vendor's sales pitch."
+    },
+    {
+      "type": "p",
+      "text": "Note the distinction between İTO (İstanbul Ticaret Odası, the official Istanbul Chamber of Commerce) and Itinerary of Türkiye (our independent advisory). While the [Istanbul Chamber of Commerce](https://bilgibankasi.ito.org.tr/) maintains official corporate registries and issues chamber certificates, it does not arrange private buyer logistics or independent factory walk-throughs. Our two founders bridge that practical gap by confirming factory addresses in advance, coordinating private intercity transport between industrial zones, arranging neutral technical interpreters when needed, and introducing you to independent licensed Turkish attorneys or SMMM accountants if your deal requires formal legal or tax due diligence."
+    },
+    {
+      "type": "p",
+      "text": "Planning a supplier verification trip to Istanbul or Türkiye's industrial zones? Reach out to [Itinerary of Türkiye](https://itineraryofturkiye.com/) to discuss a flat-fee, commission-free visit itinerary tailored to your sourcing schedule. For your privacy and security, please do not send passport or ID scans, bank or financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can foreigners search the Turkish Trade Registry Gazette without a Turkish ID?",
+      "a": "Yes. Basic title lookups on [ticaretsicil.gov.tr](https://www.ticaretsicil.gov.tr/view/hizlierisim/unvansorgulama.php) and the [İTO Information Bank](https://bilgibankasi.ito.org.tr/) are publicly accessible, though viewing full PDF gazette filings requires creating a free user account on the portal."
+    },
+    {
+      "q": "What is the difference between a MERSİS number and a Turkish tax number?",
+      "a": "A Turkish tax number (Vergi Kimlik Numarası) is a 10-digit identifier issued for tax and invoicing purposes, while a [MERSİS](https://mersis.ticaret.gov.tr/) number is a 16-digit central trade registry identifier that embeds the tax number and tracks corporate filings nationwide."
+    },
+    {
+      "q": "Should I ask a Turkish supplier for their Vergi Levhası (tax plate)?",
+      "a": "Yes. Requesting the current year's tax plate (Vergi Levhası) and a recent Faaliyet Belgesi (activity certificate) helps confirm active tax registration; a Turkish SMMM accountant can verify the QR code on official tax documents."
+    },
+    {
+      "q": "Is working with a Turkish trading company always a risk?",
+      "a": "No. Established export trading houses are legitimate and helpful for small-batch consolidation, provided they disclose their intermediary role transparently and your contract defines inspection and liability terms clearly."
+    },
+    {
+      "q": "How many factories can I realistically inspect in two days around Istanbul?",
+      "a": "Plan for two factories per day at most. Traffic between European-side hubs like İkitelli or Çerkezköy and Anatolian hubs like Tuzla, Gebze, or Bursa makes tighter schedules impractical."
+    },
+    {
+      "q": "Does Itinerary of Türkiye perform legal due diligence or sign inspection reports?",
+      "a": "No. We coordinate travel logistics, site-visit scheduling, and independent introductions. Formal legal due diligence, contract reviews, and accredited technical quality inspections must be performed by licensed Turkish attorneys, SMMM accountants, or certified inspection agencies."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Trade Registry Gazette Announcement Portal",
+      "url": "https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php"
+    },
+    {
+      "title": "Title Lookup",
+      "url": "https://www.ticaretsicil.gov.tr/view/hizlierisim/unvansorgulama.php"
+    },
+    {
+      "title": "İTO Information Bank",
+      "url": "https://bilgibankasi.ito.org.tr/"
+    },
+    {
+      "title": "MERSİS",
+      "url": "https://mersis.ticaret.gov.tr/"
+    },
+    {
+      "title": "İTO Sicil Tasdiknamesi",
+      "url": "https://www.ito.org.tr/tr/hizmetler/ticaret-sicili-islemleri/ticaret-sicil-belgeleri/sicil-tasdiknamesi"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

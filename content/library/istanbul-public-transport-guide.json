@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-023",
+  "no": 23,
+  "slug": "istanbul-public-transport-guide",
+  "plannedPath": "/blog/istanbul-public-transport-guide",
+  "status": "published",
+  "title": "Istanbul Traffic & Public Transit: Ferries, Metro, Marmaray & Trams",
+  "seoTitle": "Istanbul Public Transport Guide 2026: Fares & Transit",
+  "metaDescription": "Beat Istanbul traffic with ferries, metro, Marmaray, and trams. Verified 2026 Istanbulkart prices, M11/M4 airport rail routes, and peak-hour tips.",
+  "imageIdeas": [],
+  "quickAnswer": "Avoid Istanbul road traffic between 07:00–10:00 and 16:30–20:30 by relying on rail and ferries. Buy an anonymous Istanbulkart for ~165 TL at station Biletmatik kiosks; standard 2026 metro, tram, and bus rides cost 46.20 TL, while Bosphorus Şehir Hatları ferries cost 65.21 TL and cross in 20 minutes without gridlock.",
+  "category": "Istanbul Deep-Dive & Neighborhood Guides",
+  "focusKeyword": "istanbul public transport guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-05-07",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "istanbul-sehir-hatlari-ferry-bosphorus.webp — Alt Text: \"White Şehir Hatları commuter ferry crossing the Bosphorus between Karaköy and Kadıköy at sunset\"",
+        "istanbul-t1-tram-sultanahmet-tracks.webp — Alt Text: \"Modern T1 tram gliding past historic stone buildings along Divanyolu in Sultanahmet, Istanbul\""
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Relying on taxis during rush hour loses hours in Istanbul. This istanbul public transport guide shows how locals cross two continents: rail for long corridors, the T1 tram for the Old City, and ferries across the Bosphorus."
+    },
+    {
+      "type": "h2",
+      "text": "When is Istanbul traffic worst?"
+    },
+    {
+      "type": "p",
+      "text": "Istanbul road traffic peaks on weekdays from 07:00 to 10:00 and from 16:30 to 20:30, with Friday evenings and rainy days causing the heaviest gridlock. Bosphorus bridge approaches, the coastal road through Beşiktaş and Ortaköy, and Kennedy Caddesi frequently stall, turning 15-minute drives into 60-minute crawls."
+    },
+    {
+      "type": "p",
+      "text": "According to the [TomTom Traffic Index for Türkiye](https://www.tomtom.com/traffic-index/country/turkey/), Istanbul drivers face an average 62% congestion level and lose roughly 112 hours per year in rush-hour traffic alone. Saturday afternoons around Karaköy, Taksim, and Kadıköy also clog quickly, especially when football matches or rain push commuters into cars ([Next Station Istanbul](https://nextstationistanbul.com/en/blog/istanbul-traffic-what-hours-to-avoid)). If you have a timed dinner reservation or airport check-in during these windows, build your route around rail or water first."
+    },
+    {
+      "type": "h2",
+      "text": "How do you buy and top up an Istanbulkart in 2026?"
+    },
+    {
+      "type": "p",
+      "text": "Buy an anonymous red Istanbulkart at yellow or blue Biletmatik vending machines located at airport metro stations, ferry piers, and major tram stops. In 2026, the physical card costs roughly 165 TL without credit, and a standard full-fare boarding on metro, tram, or bus is 46.20 TL (effective July 2026)."
+    },
+    {
+      "type": "p",
+      "text": "Kiosks offer English menus and take lira cash or contactless cards ([Visit Istanbul](https://visit.istanbul/istanbul-card); [Istanbulkart tariffs](https://www.istanbulkart.istanbul/ucretler-limitler)). Load 300–500 TL on arrival; up to five travelers can share one anonymous card, though only resident cards receive transfer discounts ([Istanbul Tourist Information](https://istanbul-tourist-information.com/istanbul-card/))."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Children under 6: Ride free across municipal transit lines without a card.",
+        "Marmaray refund rule: Marmaray deducts the maximum fare at entry; tap the yellow refund reader (iade makinesi) after exiting short journeys to reclaim the difference.",
+        "Single-use tickets: Avoid disposable 1-ride or 3-ride paper tickets unless you are taking only one trip—they cost significantly more per ride than an Istanbulkart."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which rail lines connect airports and Sultanahmet?"
+    },
+    {
+      "type": "p",
+      "text": "From Istanbul Airport (IST), take the M11 metro to Gayrettepe (or the Halkalı extension opened in June 2026), then transfer to M2 and the T1 tram to Sultanahmet. From Sabiha Gökçen Airport (SAW), ride the M4 metro to Ayrılık Çeşmesi and transfer two stops on Marmaray to Sirkeci, right beside Sultanahmet."
+    },
+    {
+      "type": "p",
+      "text": "The [M11 airport metro](https://www.istairport.com/en/airport/airport-transportation/urban-transportation/public-transportation?locale=en) runs high-speed driverless trains directly from IST, bypassing highway bottlenecks completely. On the Asian side, the [M4 Kadıköy–Sabiha Gökçen line](https://en.wikipedia.org/wiki/M4_(Istanbul_Metro)) links directly into the undersea Marmaray tunnel at Ayrılık Çeşmesi, putting you in the Old City in roughly 75 minutes total regardless of bridge traffic ([Royal Ride Turkey](https://www.royalrideturkey.com/en/blog/istanbul-airport-and-sabiha-gokcen-metro-guide-m11-and-m4)). Once based in Sultanahmet, the T1 Kabataş–Bağcılar tram connects the Grand Bazaar, Eminönü, Karaköy, and Kabataş piers every few minutes."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Transit Mode",
+        "Key Tourist Corridor",
+        "2026 Full Fare (Istanbulkart)",
+        "Typical Travel Time"
+      ],
+      "rows": [
+        [
+          "T1 Tram / Metro / TF2",
+          "Sultanahmet, Karaköy, Taksim, Eyüp",
+          "46.20 TL",
+          "10–25 min"
+        ],
+        [
+          "M11 Airport Metro",
+          "Istanbul Airport (IST) – Gayrettepe",
+          "Distance-based (~46–60+ TL)",
+          "~30–35 min to Gayrettepe"
+        ],
+        [
+          "M4 + Marmaray",
+          "Sabiha Gökçen (SAW) – Sirkeci",
+          "Separate boardings (refund tap)",
+          "~75 min total"
+        ],
+        [
+          "[Şehir Hatları Ferry](https://sehirhatlari.istanbul/en/price-list)",
+          "Karaköy / Eminönü – Kadıköy",
+          "65.21 TL",
+          "~20 min"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why are ferries faster than taxis across the Bosphorus?"
+    },
+    {
+      "type": "p",
+      "text": "Municipal ferries cross directly between Europe and Asia in 15 to 25 minutes on fixed timetables, unaffected by bridge gridlock, lane closures, or taxi refusals. A Karaköy–Kadıköy or Eminönü–Kadıköy crossing costs 65.21 TL with an Istanbulkart—a fraction of a rush-hour cab fare—and drops you straight into walkable waterfront neighborhoods."
+    },
+    {
+      "type": "p",
+      "text": "[Şehir Hatları](https://sehirhatlari.istanbul/en/timetables) runs frequent boats from Eminönü, Karaköy, Beşiktaş, and Kabataş to Kadıköy and Üsküdar. You can also connect straight into our [Balat and Fener walking route](https://itineraryofturkiye.com/blog/balat-fener-istanbul-guide) or [Princes' Islands day-trip guide](https://itineraryofturkiye.com/blog/princes-islands-istanbul)."
+    },
+    {
+      "type": "p",
+      "text": "If you want airport transfers, private drivers for out-of-town legs, and realistic daily routing that respects Istanbul's traffic windows, [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, flat-fee advisory run by its two founders—Paid by our clients. Independent of provider commissions. Share your dates and arrival airport to start planning, and please omit passport or ID scans, medical records, and payment details from your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can two or more people share one Istanbulkart?",
+      "a": "Yes. Up to five travelers can share one anonymous Istanbulkart by passing it back at turnstiles. However, shared anonymous cards do not get discounted transfers, and on Marmaray you should each carry your own card to claim distance refunds cleanly."
+    },
+    {
+      "q": "Can I tap a contactless Visa or Mastercard instead of Istanbulkart?",
+      "a": "Selected buses, trams, and ferry turnstiles accept contactless bank cards, but fares are charged at a higher flat rate than Istanbulkart and not every Marmaray or kiosk reader supports foreign cards consistently. Buying an Istanbulkart remains more reliable."
+    },
+    {
+      "q": "Is the M11 metro from Istanbul Airport suitable with large suitcases?",
+      "a": "Yes. M11 stations have wide escalators, elevators, and spacious train cars. Just remember that transferring at Gayrettepe to M2 involves a long underground corridor, so pack manageable luggage or book a pre-arranged transfer if traveling with multiple heavy bags."
+    },
+    {
+      "q": "How late do Istanbul ferries and metros run?",
+      "a": "Most metro lines and trams run from 06:00 until midnight, with 24-hour weekend service on select lines such as M2 and M4. Core Şehir Hatları ferries run roughly 06:30 to 23:00, with later departures on Friday and Saturday nights."
+    },
+    {
+      "q": "Are Uber and BiTaksi reliable in Istanbul?",
+      "a": "Both apps summon licensed yellow or turquoise Istanbul taxis rather than private rideshare drivers. They help track routes and fares, but during rush hour or rain, cars still get stuck in the same traffic and drivers may cancel short rides."
+    },
+    {
+      "q": "How much is the ferry from Eminönü to Kadıköy in 2026?",
+      "a": "A full-fare crossing on the official Şehir Hatları ferry between Eminönü or Karaköy and Kadıköy costs 65.21 TL with an Istanbulkart in 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TomTom Traffic Index for Türkiye",
+      "url": "https://www.tomtom.com/traffic-index/country/turkey/"
+    },
+    {
+      "title": "Next Station Istanbul",
+      "url": "https://nextstationistanbul.com/en/blog/istanbul-traffic-what-hours-to-avoid"
+    },
+    {
+      "title": "Visit Istanbul",
+      "url": "https://visit.istanbul/istanbul-card"
+    },
+    {
+      "title": "Istanbulkart tariffs",
+      "url": "https://www.istanbulkart.istanbul/ucretler-limitler"
+    },
+    {
+      "title": "Istanbul Tourist Information",
+      "url": "https://istanbul-tourist-information.com/istanbul-card/"
+    },
+    {
+      "title": "M11 airport metro",
+      "url": "https://www.istairport.com/en/airport/airport-transportation/urban-transportation/public-transportation?locale=en"
+    },
+    {
+      "title": "M4 Kadıköy–Sabiha Gökçen line",
+      "url": "https://en.wikipedia.org/wiki/M4_(Istanbul_Metro"
+    },
+    {
+      "title": "Royal Ride Turkey",
+      "url": "https://www.royalrideturkey.com/en/blog/istanbul-airport-and-sabiha-gokcen-metro-guide-m11-and-m4"
+    },
+    {
+      "title": "Şehir Hatları",
+      "url": "https://sehirhatlari.istanbul/en/timetables"
+    },
+    {
+      "title": "Şehir Hatları Ferry",
+      "url": "https://sehirhatlari.istanbul/en/price-list"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

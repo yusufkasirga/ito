@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-190",
+  "no": 190,
+  "slug": "oncology-diagnostics-turkey",
+  "plannedPath": "/blog/oncology-diagnostics-turkey",
+  "status": "published",
+  "title": "Oncology & Advanced Diagnostics (PET-CT, Robotic Surgery) in Türkiye",
+  "seoTitle": "Oncology & Advanced Diagnostics (PET-CT, Robotic Surgery)…",
+  "metaDescription": "International patients travel for oncology diagnostics in Turkey to access rapid PET-CT staging, multidisciplinary tumor boards, and da Vinci robotic…",
+  "imageIdeas": [],
+  "quickAnswer": "International patients travel for oncology diagnostics in Turkey to access rapid PET-CT staging, multidisciplinary tumor boards, and da Vinci robotic surgery at JCI-accredited Istanbul hospitals without multi-month waiting lists. Careful file transfers and quiet family housing are essential. We coordinate your visit. Your licensed medical team makes clinical decisions.",
+  "category": "Bariatric, Eye (LASIK), IVF & Executive Health Check-Ups (ITO Advisory)",
+  "focusKeyword": "oncology diagnostics turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-07-09",
+  "readTime": "4 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "h2",
+      "text": "Why do patients from Europe, MENA and Central Asia seek PET-CT and robotic surgery in Istanbul?"
+    },
+    {
+      "type": "p",
+      "text": "Patients from Europe, MENA, and Central Asia often choose Istanbul for direct flight connectivity, short diagnostic turnaround times, and tertiary hospitals equipped with modern PET-CT, 3-Tesla MRI, and robotic surgical platforms. Consolidating imaging, pathology review, and specialist consultations into one trip reduces delays between diagnosis and treatment."
+    },
+    {
+      "type": "p",
+      "text": "Major Istanbul and Greater Istanbul centers maintain dedicated oncology infrastructure. [Anadolu Medical Center](https://www.anadolumedicalcenter.com/institutionals/about-us), which operates in strategic collaboration with Johns Hopkins Medicine, offers [PET-CT imaging](https://www.anadolumedicalcenter.com/medical-technology/pet-ct) alongside [da Vinci robotic surgery](https://www.anadolumedicalcenter.com/medical-technology/robotik-cerrahi). Within central Istanbul, [Acıbadem's nuclear medicine and PET-CT units](https://acibademinternational.com/medical-technologies/pet-ct-scanner/) feed imaging directly into its [medical oncology tumor boards](https://acibademinternational.com/medical-units/medical-oncology-department/), while [Koç University Hospital](https://www.kuh.ku.edu.tr/medical-oncology) pairs comprehensive oncology care with [da Vinci robotic-assisted surgery](https://www.kuh.ku.edu.tr/advanced-robotic-invasive-endoscopic-surgery-center/gynecology)."
+    },
+    {
+      "type": "h2",
+      "text": "How fast can multidisciplinary tumor-board reviews be scheduled?"
+    },
+    {
+      "type": "p",
+      "text": "Most international patient desks at major Istanbul hospitals can assemble a preliminary multidisciplinary tumor-board review within three to seven business days once complete DICOM scans and English pathology reports arrive. Final treatment plans still depend on in-person clinical examination and whether additional biopsies or molecular panels are required."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Diagnostic Milestone",
+        "Typical Timeline",
+        "Required Inputs",
+        "Key Logistics Note"
+      ],
+      "rows": [
+        [
+          "Pre-arrival file review",
+          "2–5 business days",
+          "DICOM scans, pathology report, summary",
+          "Send directly to hospital portal only"
+        ],
+        [
+          "In-person PET-CT / MRI",
+          "1–2 days after arrival",
+          "Fasting instructions, kidney labs",
+          "Stay within 20 minutes of hospital"
+        ],
+        [
+          "Pathology re-review",
+          "3–7 business days",
+          "Glass slides / paraffin blocks",
+          "Allow buffer days before return flight"
+        ],
+        [
+          "Tumor-board consensus",
+          "Weekly board cycle",
+          "Oncology, surgery, radiology, pathology",
+          "Request written English summary"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you transfer pathology slides and imaging securely?"
+    },
+    {
+      "type": "p",
+      "text": "Transfer radiology scans in raw DICOM format—not screenshots or compressed PDFs—directly through the receiving hospital's encrypted international patient portal. For pathology second opinions, request the original stained glass slides and paraffin tissue blocks from your home laboratory and ship them via tracked medical courier or hand-carry them in protective slide mailers."
+    },
+    {
+      "type": "p",
+      "text": "As peer-reviewed research on [DICOM in digital pathology (PMC/NIH)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13142108/) notes, standardized DICOM files allow specialists to compare imaging accurately across institutions. However, as [Honest Pathology](https://honestpathology.com/how-are-pathology-slides-reviewed-during-second-opinion/) explains, formal oncology second opinions frequently require physical glass slides or tissue blocks so the consulting pathologist can run additional stains or molecular tests."
+    },
+    {
+      "type": "p",
+      "text": "Pre-Departure Oncology Records Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Full radiology studies (CT, MRI, PET-CT) saved in uncompressed DICOM format with written reports.",
+        "Original biopsy pathology report plus physical glass slides and paraffin blocks (if requested by the hospital).",
+        "Chronological treatment summary listing prior chemotherapy, immunotherapy, radiation doses, or surgeries.",
+        "Current medication list with generic drug names, dosages, and documented drug allergies.",
+        "Signed hospital release forms from your home pathology lab confirming return rules for borrowed slides."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How does ITO support patients and families with local housing and logistics?"
+    },
+    {
+      "type": "p",
+      "text": "[Itinerary of Türkiye](https://itineraryofturkiye.com/services/medical-tourism) is an independent, client-paid, flat-fee travel and medical travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. We organize practical ground logistics around your hospital schedule so patients and companions avoid Istanbul traffic stress, unsuitable hotels, and commission-driven middlemen."
+    },
+    {
+      "type": "p",
+      "text": "For oncology stays lasting one to four weeks, serviced apartments near hospital hubs—such as Şişli, Maslak, Topkapı, Altunizade, or Ataşehir—often work better than standard hotel rooms because families gain a kitchen, laundry, and separate sleeping space. We coordinate private airport transfers, vetted residential stays, interpreter logistics outside clinical portals, and flexible schedule adjustments while keeping a strict non-clinical boundary: we coordinate your visit, and your licensed medical team makes clinical decisions."
+    },
+    {
+      "type": "p",
+      "text": "Organizing an oncology diagnostic trip or second opinion in Istanbul? Learn how our two founders work on our [About page](https://itineraryofturkiye.com/about) or see our flat-fee logistical scope on our [Medical Tourism Services page](https://itineraryofturkiye.com/services/medical-tourism). Privacy reminder: Please do not share passport or ID scans, medical records, pathology reports, or payment details in a first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I complete PET-CT and a tumor-board review in one short trip?",
+      "a": "Often yes, if you plan five to seven business days in Istanbul and send your prior DICOM imaging directly to the hospital before flying. Additional tissue testing or molecular panels can extend that window."
+    },
+    {
+      "q": "Why shouldn't I send medical scans to a travel advisor?",
+      "a": "Your clinical records belong exclusively with your hospital's encrypted patient portal and physicians. Keeping medical files out of general travel emails protects your privacy and avoids unnecessary intermediaries."
+    },
+    {
+      "q": "Are PET-CT scans in Istanbul compatible with hospitals back home?",
+      "a": "Yes. Major Istanbul hospitals provide imaging in standard DICOM format alongside written English reports, allowing your home oncologist to review and compare scans directly."
+    },
+    {
+      "q": "Should I book a hotel or a serviced apartment for oncology visits?",
+      "a": "For visits under four nights, a quiet hotel near the hospital is practical. For multi-week diagnostics, radiation, or robotic surgery recovery, a serviced apartment with kitchen and elevator access is usually more comfortable for families."
+    },
+    {
+      "q": "How do I verify whether an Istanbul oncology hospital is internationally accredited?",
+      "a": "Check the hospital's official quality disclosures and verify active status directly in the Joint Commission International (JCI) directory before confirming appointments."
+    },
+    {
+      "q": "Can family members accompany me during hospital consultations?",
+      "a": "Most Istanbul international hospitals welcome a family companion at outpatient consultations and offer inpatient rooms with a companion sofa bed, subject to infection-control policies."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anadolu Medical Center",
+      "url": "https://www.anadolumedicalcenter.com/institutionals/about-us"
+    },
+    {
+      "title": "PET-CT imaging",
+      "url": "https://www.anadolumedicalcenter.com/medical-technology/pet-ct"
+    },
+    {
+      "title": "da Vinci robotic surgery",
+      "url": "https://www.anadolumedicalcenter.com/medical-technology/robotik-cerrahi"
+    },
+    {
+      "title": "Acıbadem's nuclear medicine and PET-CT units",
+      "url": "https://acibademinternational.com/medical-technologies/pet-ct-scanner/"
+    },
+    {
+      "title": "medical oncology tumor boards",
+      "url": "https://acibademinternational.com/medical-units/medical-oncology-department/"
+    },
+    {
+      "title": "Koç University Hospital",
+      "url": "https://www.kuh.ku.edu.tr/medical-oncology"
+    },
+    {
+      "title": "da Vinci robotic-assisted surgery",
+      "url": "https://www.kuh.ku.edu.tr/advanced-robotic-invasive-endoscopic-surgery-center/gynecology"
+    },
+    {
+      "title": "DICOM in digital pathology (PMC/NIH)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142108/"
+    },
+    {
+      "title": "Honest Pathology",
+      "url": "https://honestpathology.com/how-are-pathology-slides-reviewed-during-second-opinion/"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

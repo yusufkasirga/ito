@@ -45,3 +45,4 @@ next-env.d.ts
 
 # Local source snapshots, pipeline scratch files and preview assets
 /work/
+.claude/

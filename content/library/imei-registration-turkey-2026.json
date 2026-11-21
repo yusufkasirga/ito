@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-570",
+  "no": 570,
+  "slug": "imei-registration-turkey-2026",
+  "plannedPath": "/blog/imei-registration-turkey-2026",
+  "status": "published",
+  "title": "2026 Foreign Phone IMEI Registration Fee & 120-Day Rule Deep-Dive",
+  "seoTitle": "2026 Turkey IMEI Registration Fee (54,258 TL) & 120-Day Rule",
+  "metaDescription": "Turkey's 2026 IMEI tax is 54,258 TL. Learn how the 120+120 dual-SIM rule, SIM-ID lock, and e-Devlet registration work for foreign phones.",
+  "imageIdeas": [],
+  "quickAnswer": "Türkiye's 2026 foreign phone IMEI registration tax is 54,258 TL, effective January 1, 2026. Unregistered devices work on Turkish SIMs for 120 days per IMEI slot each calendar year—up to 240 days on dual-SIM phones. After e-Devlet registration, the phone works only with SIMs under the passport holder's ID for three calendar years.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "imei registration turkey 2026",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-13",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Bringing a smartphone from abroad into Türkiye looks simple until your Turkish SIM suddenly loses signal four months after arrival. Every foreign-bought handset connected to a local cellular network is tracked by the Information and Communication Technologies Authority (BTK), and deciding whether to pay the tax or buy a local device comes down to straightforward math."
+    },
+    {
+      "type": "p",
+      "text": "Advisory boundary: [Itinerary of Türkiye](https://itineraryofturkiye.com/) is an independent, client-paid, flat-fee travel, business, and medical travel advisory run by its two founders in Türkiye (\"Paid by our clients. Independent of provider commissions.\"). We do not provide tax or legal advice. Official device taxes and telecom registrations belong exclusively to BTK, the Revenue Administration (GİB), and licensed Turkish accountants (SMMMs) or attorneys."
+    },
+    {
+      "type": "h2",
+      "text": "How much is the 2026 IMEI registration tax and when is buying a local Turkish phone cheaper?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye's 2026 passenger-carried IMEI registration tax is 54,258 TL, up 18.95% from 2025's 45,614 TL per [Vodafone Türkiye](https://www.vodafone.com.tr/teknoloji/blog/yurtdisi-telefon-imei-kayit-ucreti-ne-kadar) and [July 2026 BTK reporting](https://www.fokusplus.com/gundem/btkdan-imei-karari-yurt-disi-telefon-kayit-yonetmeligi-degisti). Buying a local Turkish handset is generally cheaper for any mid-range model or phone retailing locally under 65,000–70,000 TL."
+    },
+    {
+      "type": "p",
+      "text": "Because the 54,258 TL fee is a flat tax regardless of your phone's retail value, paying it on a three-year-old smartphone or a budget Android rarely makes financial sense. Registering an imported handset generally only pencils out for top-tier flagship models (such as high-storage iPhone Pro Max or Samsung Galaxy Ultra devices) where the foreign purchase price plus 54,258 TL still beats Turkish retail prices—and where you plan to keep the phone for several years."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Year",
+        "Official IMEI Registration Tax (TL)",
+        "Practical Takeaway for Expats"
+      ],
+      "rows": [
+        [
+          "2023",
+          "6,091 TL (early) / 20,000 TL (mid-year)",
+          "Registration still beat local prices on most models"
+        ],
+        [
+          "2024",
+          "31,692 TL",
+          "Mid-range foreign phones became uneconomical to register"
+        ],
+        [
+          "2025",
+          "45,614 TL",
+          "Only recent flagship models justified registration"
+        ],
+        [
+          "2026",
+          "54,258 TL",
+          "Compare local retail + warranty vs. foreign cost + 54,258 TL"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do dual-SIM phones get 120 + 120 days per calendar year?"
+    },
+    {
+      "type": "p",
+      "text": "BTK tracks each 15-digit IMEI number separately rather than the physical phone body. Each unregistered IMEI slot receives 120 days of local Turkish SIM usage per calendar year, meaning a dual-SIM phone (such as one physical SIM plus one eSIM) gets 120 days on IMEI 1 and another 120 days on IMEI 2—240 days total."
+    },
+    {
+      "type": "p",
+      "text": "When IMEI 1 expires after 120 days, you switch your Turkish SIM or eSIM profile to the second slot to trigger the second 120-day counter. Both counters reset automatically every January 1. Note that Wi-Fi always keeps working even if a slot is blocked, and foreign roaming SIMs do not consume your Turkish IMEI allowance."
+    },
+    {
+      "type": "h2",
+      "text": "Why can a registered phone only be used with SIM cards under the passport holder's own ID?"
+    },
+    {
+      "type": "p",
+      "text": "To stop commercial resellers from importing gray-market phones under borrowed passports, BTK enforces a strict identity lock. For three full calendar years following registration, the handset will only connect to Turkish mobile lines registered under the exact same Turkish ID (T.C. Kimlik) or 99-series foreigner ID number used to register the device."
+    },
+    {
+      "type": "p",
+      "text": "If you register a phone under your own passport and Ikamet, you cannot hand it to your spouse or child to use with a SIM card in their name until the three-year lock ends. You also receive only one foreign-phone registration right per passport every three calendar years."
+    },
+    {
+      "type": "h2",
+      "text": "How do you pay and register via e-Devlet?"
+    },
+    {
+      "type": "p",
+      "text": "Under BTK's July 2, 2026 Official Gazette regulation update, [e-Devlet Kapısı](https://www.turkiye.gov.tr/btk-imei-kaydet) is now the sole application channel for IMEI registration and defective-device IMEI transfers—in-person operator registration centers are no longer used. First pay the 54,258 TL tax via the Revenue Administration's [Dijital Vergi Dairesi](https://dijital.gib.gov.tr/hizliOdemeler/cepTelefonuHarciOdeme), then complete the pairing on e-Devlet."
+    },
+    {
+      "type": "p",
+      "text": "Paying the tax alone does not activate your phone; you must finish the BTK submission online within 365 days of your latest entry into Türkiye."
+    },
+    {
+      "type": "p",
+      "text": "2026 IMEI Registration Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dial *#06# to record both 15-digit IMEI numbers (if dual-SIM) and verify status on [BTK IMEI Sorgulama](https://www.turkiye.gov.tr/imei-sorgulama)",
+        "Confirm you entered Türkiye within the last 365 days and have not registered another phone in the past three calendar years",
+        "Pay 54,258 TL through [Dijital Vergi Dairesi](https://dijital.gib.gov.tr/hizliOdemeler/cepTelefonuHarciOdeme) using your exact 99-series ID (or T.C. ID) and primary IMEI",
+        "Log into [e-Devlet IMEI Kaydet](https://www.turkiye.gov.tr/btk-imei-kaydet), enter your passport entry date and both IMEI numbers of the same handset, and submit",
+        "Verify your active line pairing via [e-Devlet IMEI-SIM Eşleştirme](https://www.turkiye.gov.tr/btk-imei-cep-eslestirme)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Relocating or planning a multi-month stay in Istanbul or along the Aegean coast? Meet our two founders on our [About page](https://itineraryofturkiye.com/about), review our [medical travel coordination](https://itineraryofturkiye.com/services/medical-tourism), or explore independent planning at [Itinerary of Türkiye](https://itineraryofturkiye.com/). When you reach out for the first time, please do not send passport scans, ID numbers, medical or financial records, or payment details—just share your timeline and what you need help coordinating."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a foreign eSIM or roaming SIM trigger the 120-day BTK block?",
+      "a": "No. The 120-day countdown only starts when you insert or activate a Turkish carrier SIM or Turkish eSIM (such as Turkcell, Vodafone TR, or Türk Telekom) in that specific IMEI slot."
+    },
+    {
+      "q": "Can I register two different phones under one passport if both slots are available?",
+      "a": "No. BTK actively audits dual-IMEI entries and blocks devices if two IMEI numbers from separate physical phones are submitted under a single registration. Only the two IMEI slots belonging to the same handset may be registered together."
+    },
+    {
+      "q": "What happens if my registered foreign phone breaks and gets replaced under warranty?",
+      "a": "Under BTK's July 2, 2026 regulation update, you can request an IMEI transfer via e-Devlet if the device or motherboard is replaced due to a fault, provided the request is filed within three calendar years of the original registration and the old IMEI is in the paired whitelist."
+    },
+    {
+      "q": "Do I need an Ikamet and e-Devlet password to register my phone?",
+      "a": "Yes. Foreign residents must have an active 99-series foreigner ID number and e-Devlet login to complete the BTK registration and match their Turkish mobile line to their ID."
+    },
+    {
+      "q": "When does the 120-day counter reset for unregistered phones?",
+      "a": "Unregistered IMEI allowances reset on January 1 each calendar year. A dual-SIM phone that used 120 + 120 days in one year receives a fresh 120 + 120 days starting in January."
+    },
+    {
+      "q": "Can I resell my registered foreign phone in Türkiye?",
+      "a": "Not easily during the first three calendar years. Because the handset only works with SIM cards registered to your personal ID during that lock period, a local buyer's SIM card will have no signal until the three-year restriction expires."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vodafone Türkiye",
+      "url": "https://www.vodafone.com.tr/teknoloji/blog/yurtdisi-telefon-imei-kayit-ucreti-ne-kadar"
+    },
+    {
+      "title": "July 2026 BTK reporting",
+      "url": "https://www.fokusplus.com/gundem/btkdan-imei-karari-yurt-disi-telefon-kayit-yonetmeligi-degisti"
+    },
+    {
+      "title": "e-Devlet Kapısı",
+      "url": "https://www.turkiye.gov.tr/btk-imei-kaydet"
+    },
+    {
+      "title": "Dijital Vergi Dairesi",
+      "url": "https://dijital.gib.gov.tr/hizliOdemeler/cepTelefonuHarciOdeme"
+    },
+    {
+      "title": "BTK IMEI Sorgulama",
+      "url": "https://www.turkiye.gov.tr/imei-sorgulama"
+    },
+    {
+      "title": "e-Devlet IMEI-SIM Eşleştirme",
+      "url": "https://www.turkiye.gov.tr/btk-imei-cep-eslestirme"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

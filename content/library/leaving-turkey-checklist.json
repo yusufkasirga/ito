@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-580",
+  "no": 580,
+  "slug": "leaving-turkey-checklist",
+  "plannedPath": "/blog/leaving-turkey-checklist",
+  "status": "published",
+  "title": "Leaving Türkiye Cleanly: Closing Bank Accounts, Leases, Utilities & Ikamet",
+  "seoTitle": "Leaving Turkey Checklist: Banks, Leases, Tax & Ikamet",
+  "metaDescription": "Step-by-step leaving Turkey checklist for recovering deposits, closing banks and mobile plans, notifying Göç İdaresi, and handling tax clearances.",
+  "imageIdeas": [
+    "Organized departure folder on an Istanbul apartment table showing utility receipts, keys, and a written checklist | Alt Text: Expat departure checklist with apartment keys and utility closure documents in Istanbul",
+    "Departure terminal walkway at Istanbul Airport with travelers heading toward international gates | Alt Text: International departures walkway at Istanbul Airport for departing expats"
+  ],
+  "quickAnswer": "Leaving Türkiye cleanly requires sequencing tasks 30 to 60 days before your flight: terminate utilities first so refunds reach your Turkish IBAN, sign a written apartment handover protocol to recover your rental deposit, cancel telecom contracts via e-Devlet, close bank accounts in person, and coordinate tax or company closures with a licensed SMMM.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "leaving turkey checklist",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-16",
+  "readTime": "6 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Walking away from a Turkish apartment, SIM card, or bank account without formal closure creates lingering bills, credit holds, and administrative headaches if you ever return. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders operate an independent, client-paid, flat-fee travel, business, and medical travel advisory in Türkiye (\"Paid by our clients. Independent of provider commissions.\"). We assist with relocation logistics, departure scheduling, and independent introductions, while lease disputes, immigration notifications, tax filings, and corporate liquidations belong strictly to licensed Turkish attorneys, certified public accountants (SMMMs), the Revenue Administration (GİB), and [Göç İdaresi](https://en.goc.gov.tr/general-information41)."
+    },
+    {
+      "type": "h2",
+      "text": "How do you recover utility and rental deposits before flying out?"
+    },
+    {
+      "type": "p",
+      "text": "Start utility cancellations (electricity, natural gas, and water) at least 7 to 14 days before your flight so providers can read meters, deduct your final usage, and refund security deposits directly to your Turkish IBAN before you close your bank account. For your rental deposit, conduct a documented walkthrough and sign a bilingual key-handover release (teslim tutanağı)."
+    },
+    {
+      "type": "p",
+      "text": "Under [Article 342 of the Turkish Code of Obligations (Law No. 6098)](https://bayraktarattys.com/security-deposit-regulations-in-turkey), residential security deposits are capped at three months' rent and may only be reduced for proven unpaid rent, unpaid utility or building dues (aidat), or damage beyond normal wear. Photograph every room and meter reading on move-out day, pay your final aidat receipt to the building manager, and have the landlord sign a brief handover sheet confirming key return and deposit refund timing. If a landlord unlawfully withholds a deposit, Turkish law requires mandatory mediation before civil court proceedings—a step best handled by a Turkish attorney before or via power of attorney after departure."
+    },
+    {
+      "type": "h2",
+      "text": "How do you close Turkish bank accounts and cancel mobile contracts without ongoing bills?"
+    },
+    {
+      "type": "p",
+      "text": "Cancel postpaid mobile and home-internet contracts via e-Devlet's BTK portal before leaving, wait for final utility refunds to clear, transfer remaining funds out, and then visit your home bank branch in person to cancel credit cards, standing orders, and accounts. Never rely solely on deleting a banking app or stopping SIM usage."
+    },
+    {
+      "type": "p",
+      "text": "Türkiye's Information and Communication Technologies Authority provides an official [e-Devlet subscription cancellation service (BTK Abonelik Fesih Başvurusu)](https://www.turkiye.gov.tr/btk-abonelik-fesih-basvurusu) covering major mobile, fiber internet, and cable TV operators. Submitting cancellation there halts billing within 24 hours and creates an official timestamp, though early-termination fees may still apply on fixed-term bundles. For banking, clear every pending credit-card installment (taksit), cancel automatic utility debits (otomatik ödeme talimatı), zero out balances, and request a stamped account-closure receipt (hesap kapatma belgesi) at the branch."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Departure Step",
+        "Recommended Timing",
+        "Required Channel / Action",
+        "Key Proof to Keep"
+      ],
+      "rows": [
+        [
+          "Notice to Landlord",
+          "30–60 days before exit",
+          "Written notice (notary ihtarname if disputed)",
+          "Signed handover & deposit receipt"
+        ],
+        [
+          "Electricity, Gas & Water",
+          "7–14 days before exit",
+          "Provider office or e-Devlet cancellation",
+          "Final meter bill & IBAN deposit refund"
+        ],
+        [
+          "Mobile & Home Internet",
+          "5–7 days before exit",
+          "e-Devlet BTK Abonelik Fesih + router return",
+          "Cancellation confirmation PDF & equipment receipt"
+        ],
+        [
+          "Turkish Bank Accounts",
+          "1–3 days before exit",
+          "In-person branch visit after refunds settle",
+          "Stamped hesap kapatma belgesi"
+        ],
+        [
+          "Address & Ikamet Status",
+          "Prior to final exit",
+          "Nüfus / Göç İdaresi verification",
+          "Official deregistration or exit record"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Do you need to notify Göç İdaresi when ending residency?"
+    },
+    {
+      "type": "p",
+      "text": "You should address both your civil address registration (Nüfus) and your residence-permit status before permanently departing. Under [Göç İdaresi's general residency rules](https://en.goc.gov.tr/general-information41), foreign residents are required to keep address records accurate and notify authorities within 20 working days of changes; deregistering your address prevents future tenants from facing registration blocks on your old flat."
+    },
+    {
+      "type": "p",
+      "text": "If you are leaving permanently before your Ikamet card expires, check with the provincial Directorate of Migration Management or [YİMER 157](https://en.goc.gov.tr/foreigners-communication-center) whether to file a formal residence-permit cancellation or address deregistration at the district Civil Registry (Nüfus Müdürlüğü). Letting a permit lapse cleanly without overstaying avoids re-entry bans if you later visit Türkiye as a tourist—for instance, on an off-season trip like those outlined in our [Türkiye winter travel guide](https://itineraryofturkiye.com/blog/turkey-in-winter-premium-travel-guide). Keep your final exit stamp and any deregistration receipt in your permanent records."
+    },
+    {
+      "type": "h2",
+      "text": "What tax clearances apply if you owned a company or property?"
+    },
+    {
+      "type": "p",
+      "text": "You cannot simply walk away from a Turkish limited company or rental property without formal filings. Closing a Turkish company requires statutory voluntary liquidation (tasfiye) lasting roughly 12 to 18 months, while property owners face ongoing municipal property tax, annual rental-income filings, and potential capital gains tax if selling within five years."
+    },
+    {
+      "type": "p",
+      "text": "As explained in [2026 Turkish company liquidation guides](https://www.karanfiloglu.av.tr/en/company-liquidation-in-turkey/), solvent voluntary liquidation requires a shareholder resolution, three creditor announcements in the Turkish Trade Registry Gazette, a mandatory one-year creditor waiting period, and final tax-office deregistration supervised by a certified public accountant (SMMM). For real estate, [Income Tax Law No. 193 (Article 80) capital gains rules](https://www.cctinvestments.com/capital-gains-tax-on-selling-property-in-turkey/) exempt residential sales held for five full years or more, while sales within five years face progressive 15%–40% tax on inflation-indexed gains above the 2026 TRY 150,000 exemption. Non-resident landlords earning Turkish rental income above the 2026 TRY 58,000 residential exemption must continue filing annual returns under the [Revenue Administration (GİB) 2026 Non-Resident Rental Income Guidebook](https://intvrg.gib.gov.tr/hazirbeyan/assets/pdf/DUYURU_UNIVERSAL_2026_2026_theguidebooktaxpayers.pdf)."
+    },
+    {
+      "type": "p",
+      "text": "Follow this final 48-hour exit checklist before heading to the airport:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Confirm zero balances: Verify final utility refunds have landed and all Turkish bank accounts show zero balance with stamped closure receipts.",
+        "Return hardware: Hand back internet modems, TV boxes, apartment keys, and site access fobs against signed receipts.",
+        "Download e-Devlet records: Save PDFs of your SGK service history, tax-debt-free query (borcu yoktur), and telecom cancellations while your SMS login still works.",
+        "Appoint local representation if needed: If a company liquidation, property sale, or deposit mediation continues after you fly out, execute a properly scoped notary power of attorney (vekaletname) before departure."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Need structured logistical coordination or independent introductions to bilingual SMMMs or attorneys before wrapping up your stay in Türkiye? Learn more [about our two-founder advisory](https://itineraryofturkiye.com/about) or contact [Itinerary of Türkiye](https://itineraryofturkiye.com/) for flat-fee departure coordination. In your first enquiry, please do not share passport or ID scans, medical or financial records, or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I close a Turkish bank account from abroad after leaving Türkiye?",
+      "a": "Most Turkish banks require in-person branch attendance—or a notarized, apostilled power of attorney—to close an account permanently. Closing your account in person during your final week after utility refunds arrive is far simpler and cheaper."
+    },
+    {
+      "q": "What happens if I leave Türkiye without canceling my Turkish mobile contract?",
+      "a": "Postpaid mobile and fiber contracts continue billing monthly even after you leave the country, accumulating late fees and eventual legal collection notices. Always cancel through e-Devlet's BTK portal or an authorized store before departure."
+    },
+    {
+      "q": "How long does a Turkish utility deposit refund take?",
+      "a": "Electricity, water, and natural gas providers typically process deposit refunds within a few business days to two weeks after final meter reading and contract termination, transferring funds to your designated Turkish IBAN."
+    },
+    {
+      "q": "Will I be fined at the airport if I leave before my Ikamet expires?",
+      "a": "No. Departing Türkiye while holding a valid, unexpired residence permit incurs no overstay fine. Fines apply only if you remain in Türkiye past your permit or visa expiration without a timely extension application."
+    },
+    {
+      "q": "Do I owe Turkish capital gains tax if I sell my apartment after five years?",
+      "a": "Under Article 80 of Income Tax Law No. 193, individual property owners who hold Turkish real estate for more than five full years from the title-deed acquisition date are generally exempt from capital gains tax upon sale. Confirm your exact calculation with an SMMM."
+    },
+    {
+      "q": "Does Itinerary of Türkiye handle tax clearances, company liquidations, or lease disputes?",
+      "a": "No. Itinerary of Türkiye is a client-paid, flat-fee advisory that coordinates departure logistics and independent introductions. Legal notices, tax returns, company liquidations, and immigration filings belong strictly to licensed Turkish attorneys, SMMMs, GİB, and Göç İdaresi."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Göç İdaresi",
+      "url": "https://en.goc.gov.tr/general-information41"
+    },
+    {
+      "title": "Article 342 of the Turkish Code of Obligations (Law No. 6098)",
+      "url": "https://bayraktarattys.com/security-deposit-regulations-in-turkey"
+    },
+    {
+      "title": "e-Devlet subscription cancellation service (BTK Abonelik Fesih Başvurusu)",
+      "url": "https://www.turkiye.gov.tr/btk-abonelik-fesih-basvurusu"
+    },
+    {
+      "title": "YİMER 157",
+      "url": "https://en.goc.gov.tr/foreigners-communication-center"
+    },
+    {
+      "title": "2026 Turkish company liquidation guides",
+      "url": "https://www.karanfiloglu.av.tr/en/company-liquidation-in-turkey/"
+    },
+    {
+      "title": "Income Tax Law No. 193 (Article 80) capital gains rules",
+      "url": "https://www.cctinvestments.com/capital-gains-tax-on-selling-property-in-turkey/"
+    },
+    {
+      "title": "Revenue Administration (GİB) 2026 Non-Resident Rental Income Guidebook",
+      "url": "https://intvrg.gib.gov.tr/hazirbeyan/assets/pdf/DUYURU_UNIVERSAL_2026_2026_theguidebooktaxpayers.pdf"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

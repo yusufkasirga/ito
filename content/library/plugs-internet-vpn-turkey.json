@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-103",
+  "no": 103,
+  "slug": "plugs-internet-vpn-turkey",
+  "plannedPath": "/blog/plugs-internet-vpn-turkey",
+  "status": "published",
+  "title": "Power Plugs, Voltage, Wi-Fi & VPNs in Türkiye for Visitors",
+  "seoTitle": "Power Plugs, Wi-Fi, VPNs & IMEI Rules in Türkiye (2026)",
+  "metaDescription": "Türkiye uses Type C/F 230V plugs. Learn when you need a VPN, how reliable hotel Wi-Fi is for video calls, and how the 120-day BTK IMEI rule works.",
+  "imageIdeas": [
+    "European Type F Schuko power outlet and compact USB-C travel adapter on a boutique hotel desk in Istanbul (turkey-type-f-plug-adapter.webp) | Alt Text: Type F wall socket and universal travel adapter charging a laptop on an Istanbul hotel desk",
+    "Remote worker on a laptop video call beside a window overlooking the Bosphorus with a mobile hotspot phone (istanbul-hotel-wifi-remote-work.webp) | Alt Text: Traveller taking a video call on a laptop with a smartphone hotspot in a Bosphorus hotel room"
+  ],
+  "quickAnswer": "Türkiye uses Type C and Type F plugs at 230V / 50Hz. Install a VPN before arrival if you need domestic Booking.com bookings or restricted work tools. City hotel Wi-Fi handles routine video calls, while foreign phones face a 120-day BTK IMEI limit only on local Turkish SIMs—not international roaming or travel eSIMs.",
+  "category": "Practical Travel Logistics, Money, Visas & Transport",
+  "focusKeyword": "plugs internet vpn turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-06-07",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "Staying powered and connected in Türkiye is straightforward once you prepare for three local quirks: European Schuko sockets, selective website restrictions, and Türkiye's strict IMEI tracking on foreign smartphones. Sorting these out before you board avoids dead hairdryers, blocked hotel-booking pages, and surprise mobile shutoffs."
+    },
+    {
+      "type": "h2",
+      "text": "What plug type (Type C/F) and voltage (230V) does Türkiye use?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye uses standard continental European Type C (two round pins) and Type F (two round pins with side grounding clips) wall sockets supplying 230 volts at 50 Hz, matching Germany, France, and Spain ([IEC World Plugs](https://www.iec.ch/world-plugs); [Travel Plug Map Türkiye](https://travelplugmap.com/turkey/)). Travellers from the US, Canada, UK, and Australia need a simple plug adapter."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Origin Country",
+        "Home Plug & Voltage",
+        "Adapter Needed?",
+        "Voltage Converter Needed?"
+      ],
+      "rows": [
+        [
+          "Continental Europe (EU)",
+          "Type C / F, 230V / 50Hz",
+          "No",
+          "No"
+        ],
+        [
+          "United Kingdom & Ireland",
+          "Type G, 230V / 50Hz",
+          "Yes (Type G to C/F)",
+          "No"
+        ],
+        [
+          "USA, Canada & Japan",
+          "Type A / B, 110–120V / 60Hz",
+          "Yes (Type A/B to C/F)",
+          "Only for single-voltage 110V heating tools"
+        ],
+        [
+          "Australia & New Zealand",
+          "Type I, 230V / 50Hz",
+          "Yes (Type I to C/F)",
+          "No"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Modern phone chargers, laptops, cameras, and CPAP machines are almost always dual-voltage (check the fine print for Input: 100–240V, 50/60Hz). Leave single-voltage 110V North American hairdryers and curling irons at home—even with a travel adapter, 230V power will fry them instantly."
+    },
+    {
+      "type": "h2",
+      "text": "Do you need a VPN for work or specific websites in Türkiye?"
+    },
+    {
+      "type": "p",
+      "text": "Most visitors do not need a VPN for everyday email, banking, Google Maps, WhatsApp, or Instagram, but installing and testing a VPN before you land is smart if you work remotely or plan to book Turkish hotels on Booking.com. Due to a longstanding local court ruling, Booking.com disables reservations for Turkish properties from Turkish IP addresses ([Wizcase](https://www.wizcase.com/blog/how-unblock-booking_com-turkey/))."
+    },
+    {
+      "type": "p",
+      "text": "A few practical points from the ground:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Download before arrival: Türkiye's telecom regulator (BTK) periodically restricts access to several commercial VPN websites and apps inside the country ([NordVPN Travel Guide](https://nordvpn.com/blog/turkey-vpn-ban/)). Install the app and log in before leaving home.",
+        "Work security on hotel networks: A VPN encrypts client files and corporate logins over shared hotel or café Wi-Fi.",
+        "No VPN needed for existing bookings: You can still view and manage Booking.com reservations you already made abroad without a VPN, and international hotel bookings outside Türkiye still work normally."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How reliable is hotel Wi-Fi for remote video calls?"
+    },
+    {
+      "type": "p",
+      "text": "In Istanbul, Ankara, Izmir, and modern five-star coastal resorts, hotel Wi-Fi easily supports Zoom, Teams, and Google Meet video calls, typically delivering 20–80 Mbps. Reliability drops noticeably in thick-walled Cappadocia cave hotels, historic wooden konak inns, and remote Aegean bays where upload speeds stall during evening peak hours."
+    },
+    {
+      "type": "p",
+      "text": "If you have client presentations or board calls you cannot drop, never rely on hotel Wi-Fi alone. Pair your laptop with a 4.5G/5G smartphone hotspot on Turkcell or Vodafone—Türkiye's mobile data coverage is often faster and more stable than boutique-hotel Wi-Fi, even in rural valleys. Note that public Wi-Fi portals in Türkiye legally require SMS verification to a mobile number, so keep your phone able to receive texts."
+    },
+    {
+      "type": "h2",
+      "text": "How does the 120-day IMEI rule affect dual-SIM and eSIM phones?"
+    },
+    {
+      "type": "p",
+      "text": "Under BTK regulations, a foreign-bought smartphone running a local Turkish SIM card works for up to 120 days per calendar year before its IMEI is blocked locally. Permanent registration in 2026 costs 54,258 TRY (around $1,100–$1,200 USD) and requires a Turkish ID or residence permit ([Bayraktar Attorneys](https://bayraktarattys.com/comprehensive-guide-to-registering-imported-phones-in-turkey))."
+    },
+    {
+      "type": "p",
+      "text": "Two updates matter for visitors and repeat travellers in 2026:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Travel eSIMs and home roaming do not trigger the lock: Using your home carrier's international roaming or an international travel eSIM profile keeps you outside the local-SIM 120-day countdown ([Roami Guide](https://www.roamiapp.com/blog/turkey-esim-ultimate-guide/)).",
+        "Do not rely on a second SIM slot for 240 days: BTK tightened enforcement on dual-SIM handsets in 2026, so treat 120 days as your total annual window on Turkish SIMs rather than assuming a second slot doubles your stay ([eSIM.net](https://www.esim.net/helpdesk/knowledge-base/turkey-imei-registration-120-day-rule-guide))."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "For a standard one- to four-week holiday, you will never come close to the 120-day ceiling—and if you are planning around Turkish national holidays when telecom shops shorten hours, check our [2026–2027 Türkiye public holidays guide](https://itineraryofturkiye.com/blog/turkey-public-holidays-2026)."
+    },
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders advise travellers on practical connectivity, remote-work-friendly hotels, and realistic pacing across every region—strictly on a transparent flat fee (Paid by our clients. Independent of provider commissions.). Please do not send passport or ID scans, medical records, or payment details in a first enquiry; simply share your dates and travel goals."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will my US or UK laptop charger work in Türkiye without a converter?",
+      "a": "Yes. Almost all modern laptop and smartphone chargers are dual-voltage (100–240V, 50/60Hz) and need only a simple Type C or Type F plug adapter."
+    },
+    {
+      "q": "Is using a VPN legal for tourists in Türkiye?",
+      "a": "Yes. Using a VPN for privacy, corporate work access, or travel planning is legal for individuals in Türkiye, though some VPN providers' websites are blocked locally—so install yours before you arrive."
+    },
+    {
+      "q": "Why can't I book a Turkish hotel on Booking.com while I am in Türkiye?",
+      "a": "A Turkish court ruling restricts Booking.com from taking reservations for domestic Turkish properties from Turkish IP addresses. You can book directly with the hotel, use another platform, or connect via a VPN."
+    },
+    {
+      "q": "Does a two-week holiday with a Turkish tourist SIM trigger the 54,258 TRY IMEI fee?",
+      "a": "No. You get up to 120 days of local Turkish SIM usage before any IMEI block applies, so short-term tourists never need to pay the registration fee."
+    },
+    {
+      "q": "Are foreign eSIM apps blocked in Türkiye?",
+      "a": "Some international travel eSIM websites and apps have faced periodic access restrictions inside Türkiye. Purchase and install your travel eSIM profile while still at home so it activates automatically when your plane lands."
+    },
+    {
+      "q": "Does Istanbul Airport (IST) have free Wi-Fi?",
+      "a": "Yes, Istanbul Airport offers complimentary time-limited Wi-Fi via SMS code or passport-scanning kiosks inside the terminal, with paid unlimited options available for longer layovers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IEC World Plugs",
+      "url": "https://www.iec.ch/world-plugs"
+    },
+    {
+      "title": "Travel Plug Map Türkiye",
+      "url": "https://travelplugmap.com/turkey/"
+    },
+    {
+      "title": "Wizcase",
+      "url": "https://www.wizcase.com/blog/how-unblock-booking_com-turkey/"
+    },
+    {
+      "title": "Bayraktar Attorneys",
+      "url": "https://bayraktarattys.com/comprehensive-guide-to-registering-imported-phones-in-turkey"
+    },
+    {
+      "title": "NordVPN Travel Guide",
+      "url": "https://nordvpn.com/blog/turkey-vpn-ban/"
+    },
+    {
+      "title": "Roami Guide",
+      "url": "https://www.roamiapp.com/blog/turkey-esim-ultimate-guide/"
+    },
+    {
+      "title": "eSIM.net",
+      "url": "https://www.esim.net/helpdesk/knowledge-base/turkey-imei-registration-120-day-rule-guide"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

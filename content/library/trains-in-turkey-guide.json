@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-098",
+  "no": 98,
+  "slug": "trains-in-turkey-guide",
+  "plannedPath": "/blog/trains-in-turkey-guide",
+  "status": "published",
+  "title": "Trains in Türkiye: YHT High-Speed Rail & Scenic Routes",
+  "seoTitle": "Trains in Türkiye 2026: YHT High-Speed & Scenic Routes",
+  "metaDescription": "2026 TCDD YHT high-speed train routes, online foreign-card booking on e-Bilet, Istanbul–Ankara train vs flight math, and updated luggage limits.",
+  "imageIdeas": [],
+  "quickAnswer": "Türkiye's state-run YHT high-speed rail network connects Istanbul, Eskişehir, Ankara, Konya, Karaman, and Sivas at speeds up to 250 km/h. Book official tickets 15 to 30 days ahead on ebilet.tcddtasimacilik.gov.tr to avoid reseller markups. On Istanbul–Ankara and Istanbul–Konya, YHT matches flying door-to-door for far less money, with strict dimension-based luggage limits enforced since March 2026.",
+  "category": "Practical Travel Logistics, Money, Visas & Transport",
+  "focusKeyword": "trains in turkey guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-06-05",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "Which cities are connected by YHT high-speed trains in 2026?"
+    },
+    {
+      "type": "p",
+      "text": "In 2026, [TCDD Taşımacılık's official YHT network](https://www.tcddtasimacilik.gov.tr/en/high_speed_train) runs direct high-speed services linking Istanbul (Halkalı, Bakırköy, Söğütlüçeşme, Bostancı, and Pendik), İzmit, Eskişehir, Ankara, Konya, Karaman, and Sivas. There is still no direct train to Cappadocia, Antalya, or Bodrum—travelers heading to Cappadocia by rail stop in Konya or Ankara and transfer onward by road."
+    },
+    {
+      "type": "p",
+      "text": "Beyond YHT, Türkiye operates scenic conventional sleepers—most famously the overnight Eastern Express (Doğu Ekspresi) and winter Touristic Eastern Express (Turistik Doğu Ekspresi) running from Ankara across eastern Anatolia to Kars, plus the İzmir Blue Train (İzmir Mavi Treni). Note that in Istanbul, most YHT departures originate at Söğütlüçeşme (Kadıköy, Asian side), with select trains continuing through the Marmaray tunnel to Bakırköy and Halkalı on the European side."
+    },
+    {
+      "type": "h2",
+      "text": "How do you book official TCDD tickets online with a foreign card?"
+    },
+    {
+      "type": "p",
+      "text": "Book directly through TCDD's official [e-Bilet portal](https://ebilet.tcddtasimacilik.gov.tr/) or the TCDD e-Bilet mobile app, where seat inventory opens 15 to 30 days before departure. Avoid third-party ticket resellers that charge 2× to 3× official fares (for context, [Türkiye Today reported](https://www.turkiyetoday.com/nation/turkiye-raises-high-speed-train-fares-to-207-on-istanbul-ankara-route-3226234) August 2026 official Istanbul–Ankara YHT economy fares at roughly $20.70)."
+    },
+    {
+      "type": "p",
+      "text": "Follow these practical steps when paying with a foreign Visa or Mastercard:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Switch to English & Select Passport Entry: Toggle the language menu at the top right, choose your departure station carefully (for example, İstanbul(Söğütlüçeşme) rather than Halkalı), and enter your exact passport number instead of a Turkish TC Kimlik ID.",
+        "Use a 3D-Secure Enabled Card: TCDD's Turkish payment gateway requires 3D-Secure SMS or banking-app verification; if one card fails, try a Mastercard or bank card with instant app approval rather than a prepaid debit card.",
+        "Book Business Class Early: Business seats (2+1 layout with wider recline and power outlets) cost only a modest premium over economy and sell out first on weekend mornings.",
+        "Bring Your Physical Passport: Platform staff check your ticket QR code and passport before boarding, and YHT doors lock 2 minutes before departure."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How does Istanbul–Ankara or Istanbul–Konya train compare to flying?"
+    },
+    {
+      "type": "p",
+      "text": "Door-to-door, YHT high-speed rail ties or beats [domestic flights in Türkiye](https://itineraryofturkiye.com/blog/domestic-flights-in-turkey) on the Istanbul–Ankara corridor (4 hours 10 minutes to 4 hours 30 minutes station-to-station) and offers a calmer, cheaper alternative on Istanbul–Konya (roughly 4 hours 45 minutes to 5 hours 10 minutes), especially if you stay near Kadıköy or the Marmaray line."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Factor",
+        "YHT High-Speed Train (Istanbul–Ankara)",
+        "Domestic Flight (IST/SAW–ESB)"
+      ],
+      "rows": [
+        [
+          "Core Transit Time",
+          "4h 10m – 4h 30m (Express YHT faster)",
+          "1h 05m – 1h 15m in the air"
+        ],
+        [
+          "Airport / Station Access",
+          "15–30 min via Marmaray to Söğütlüçeşme",
+          "45–75 min to IST/SAW + 40 min from ESB"
+        ],
+        [
+          "Check-In / Security Buffer",
+          "20 minutes before departure",
+          "90–120 minutes before departure"
+        ],
+        [
+          "Realistic Door-to-Door Time",
+          "~4.5 – 5 hours",
+          "~4.5 – 5.5 hours"
+        ],
+        [
+          "Typical Economy Cost (2026)",
+          "~$21 one-way on [e-Bilet](https://ebilet.tcddtasimacilik.gov.tr/)",
+          "~$45–$110+ depending on season & bags"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Istanbul–Sivas direct YHT takes about 6 hours 55 minutes, per [TCDD Taşımacılık](https://www.tcddtasimacilik.gov.tr/en/high_speed_train), making flying faster for Sivas unless you specifically want overland scenery."
+    },
+    {
+      "type": "h2",
+      "text": "What luggage limits apply on Turkish trains?"
+    },
+    {
+      "type": "p",
+      "text": "Starting March 1, 2026, [TCDD Taşımacılık unified its luggage policy](https://www.tcddtasimacilik.gov.tr/tr/haber_listesi/detay/1360) across YHT, mainline, and regional trains, switching completely from weight-based rules to dimension-based limits. Each passenger gets one medium suitcase up to 65×50×35 cm OR two cabin suitcases up to 55×40×23 cm free of charge."
+    },
+    {
+      "type": "p",
+      "text": "As detailed in [TCDD's passenger transport rules](https://www.tcddtasimacilik.gov.tr/en/passenger_transport_rules) and [2026 TCDD luggage fee tables](https://www.turkeytrains.com/tcdd-train), oversized or extra bags are measured at the platform gate and billed per piece (160 TL for an extra standard piece or first large suitcase; 415 TL for a second large suitcase), with a hard cap prohibiting a fourth piece altogether. If you are traveling with multiple large trunks, a private transfer or [rental car](https://itineraryofturkiye.com/blog/renting-a-car-in-turkey) is far less stressful than squeezing heavy cases onto YHT racks."
+    },
+    {
+      "type": "p",
+      "text": "Want to combine high-speed trains, regional flights, and private road legs into one coherent Türkiye route? Consult [Itinerary of Türkiye](https://itineraryofturkiye.com/). We are an independent, client-paid, flat-fee advisory run by its two founders—\"Paid by our clients. Independent of provider commissions.\" When sending your first enquiry, please do not include passport or ID scans, medical records, or payment details."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I take a direct train from Istanbul to Cappadocia in 2026?",
+      "a": "No. Cappadocia has no direct passenger rail station. To travel overland, take the YHT from Istanbul to Konya (about 5 hours) or Ankara (about 4.25 hours), then continue to Göreme by private transfer or intercity coach (3 to 3.5 hours)."
+    },
+    {
+      "q": "Which Istanbul train station do YHT trains depart from?",
+      "a": "All YHT trains stop at Söğütlüçeşme, Bostancı, and Pendik on Istanbul's Asian side. Select services also start or terminate at Halkalı and Bakırköy on the European side—check your ticket station carefully before setting out."
+    },
+    {
+      "q": "How far in advance do Touristic Eastern Express tickets go on sale?",
+      "a": "Touristic Eastern Express winter sleeper tickets are released seasonally and sell out rapidly; regular daily Doğu Ekspresi seats and couchettes typically open 15 to 30 days ahead on ebilet.tcddtasimacilik.gov.tr."
+    },
+    {
+      "q": "Do YHT trains have Wi-Fi and power sockets?",
+      "a": "Power outlets are available at seats across both Economy and Business classes. Onboard Wi-Fi is intermittent along rural Anatolian stretches, so rely on a Turkish eSIM or local mobile data if you need to work."
+    },
+    {
+      "q": "Can I bring a bicycle on a Turkish YHT train?",
+      "a": "Only folding bicycles packed within overhead luggage dimensions are permitted on YHT trains; full-size bicycles are not accepted on high-speed services."
+    },
+    {
+      "q": "Is there food served on YHT high-speed trains?",
+      "a": "Yes. Every YHT set has a café car selling hot tea, coffee, sandwiches, and packaged snacks, and Business Class tickets include a light meal box on longer routes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TCDD Taşımacılık's official YHT network",
+      "url": "https://www.tcddtasimacilik.gov.tr/en/high_speed_train"
+    },
+    {
+      "title": "e-Bilet portal",
+      "url": "https://ebilet.tcddtasimacilik.gov.tr/"
+    },
+    {
+      "title": "Türkiye Today reported",
+      "url": "https://www.turkiyetoday.com/nation/turkiye-raises-high-speed-train-fares-to-207-on-istanbul-ankara-route-3226234"
+    },
+    {
+      "title": "TCDD Taşımacılık unified its luggage policy",
+      "url": "https://www.tcddtasimacilik.gov.tr/tr/haber_listesi/detay/1360"
+    },
+    {
+      "title": "TCDD's passenger transport rules",
+      "url": "https://www.tcddtasimacilik.gov.tr/en/passenger_transport_rules"
+    },
+    {
+      "title": "2026 TCDD luggage fee tables",
+      "url": "https://www.turkeytrains.com/tcdd-train"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

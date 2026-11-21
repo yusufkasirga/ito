@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-568",
+  "no": 568,
+  "slug": "edevlet-foreigners-turkey",
+  "plannedPath": "/blog/edevlet-foreigners-turkey",
+  "status": "published",
+  "title": "Setting Up e-Devlet (Turkish E-Government) as a Foreign Resident",
+  "seoTitle": "Setting Up e-Devlet (Turkish E-Government) as a Foreign…",
+  "metaDescription": "Foreign residents in Türkiye gain access to e-Devlet (turkiye.gov.tr) once issued a 99-prefix Foreigner ID Number (Yabancı Kimlik No) via an approved…",
+  "imageIdeas": [],
+  "quickAnswer": "Foreign residents in Türkiye gain access to e-Devlet (turkiye.gov.tr) once issued a 99-prefix Foreigner ID Number (Yabancı Kimlik No) via an approved residence or work permit lasting at least six months. You collect your initial password in person at any PTT post office with your permit card and passport, then activate SMS two-factor authentication.",
+  "category": "Inner Pages — 20 Deep Relocation, Tax, Banking & Expat Friction Guides",
+  "focusKeyword": "edevlet foreigners turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-11-12",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders provide client-paid, flat-fee travel, business, and relocation scouting orientation across Türkiye. Paid by our clients and independent of provider commissions, we help you plan practical arrival logistics and arrange independent local introductions, while residence permit filings, legal advice, and civil-registry procedures belong strictly to licensed Turkish attorneys and official authorities (Göç İdaresi and Nüfus)."
+    },
+    {
+      "type": "h2",
+      "text": "When do foreigners get their 99-prefix Foreign ID number (Yabancı Kimlik No)?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye assigns an 11-digit Foreigner Identity Number (Yabancı Kimlik Numarası, or YKN) beginning with 99 to foreign nationals granted a residence permit or work permit valid for at least six months. According to the [e-Devlet Non-Citizens Guide](https://www.turkiye.gov.tr/non-citizens), this number is printed directly on your residence permit card and serves as your lifelong administrative identifier in Türkiye."
+    },
+    {
+      "type": "p",
+      "text": "Short-term tourists visiting on a visa or 90-day visa exemption do not receive a 99-prefix number and cannot open an e-Devlet account. International university students are a notable exception: under a March 2026 [Göç İdaresi update](https://en.goc.gov.tr/the-presidency-of-migration-management-met-with-international-students-at-an-iftar-dinner), universities now trigger YKN assignment during enrollment so students can handle banking and address steps earlier. Once your Ikamet card arrives by PTT mail, your 99 number is active across government databases."
+    },
+    {
+      "type": "h2",
+      "text": "How do you obtain your e-Devlet password at any PTT post office?"
+    },
+    {
+      "type": "p",
+      "text": "To obtain your first e-Devlet password, visit any PTT (Turkish Post) branch or Türksat Kablo office in person. Per the [e-Devlet Quick Solution Center](https://turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=37&lang=en_US), foreign nationals must present their valid original residence permit or work permit card alongside their original passport; no one else can collect it without a specific notarized power of attorney."
+    },
+    {
+      "type": "p",
+      "text": "The clerk verifies your identity, collects a nominal processing fee, and sends a temporary code via SMS or hands over a sealed envelope. Log into [turkiye.gov.tr](https://www.turkiye.gov.tr/non-citizens) using your 99-prefix ID and temporary password, then immediately set a permanent password. Foreign residents who already hold an account with a participating Turkish bank can alternatively sign into e-Devlet via Turkish internet banking without visiting PTT."
+    },
+    {
+      "type": "p",
+      "text": "Bring this quick checklist to your PTT visit:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Original Ikamet or Work Permit card: Displaying your 11-digit 99 Foreigner ID Number.",
+        "Original valid passport: Required by PTT for foreign-national identity verification.",
+        "Turkish mobile number: Registered under your own passport/YKN to receive SMS verification codes.",
+        "Small cash or bank card: To cover the modest PTT password issuance fee."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which daily tasks (address proof, tax checks, IMEI registration, health records) require e-Devlet?"
+    },
+    {
+      "type": "p",
+      "text": "Once logged in, e-Devlet eliminates most in-person government queues by issuing official barcoded PDFs accepted by banks, schools, utilities, and notaries. You can generate an instant address certificate, inspect tax debts, register an imported foreign smartphone, and link directly to Türkiye's national medical-records portal from one dashboard."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Everyday Task",
+        "Official e-Devlet Service",
+        "Why Foreign Residents Use It"
+      ],
+      "rows": [
+        [
+          "Address Proof (İkametgâh)",
+          "[NVI Address Certificate Inquiry](https://www.turkiye.gov.tr/nvi-yerlesim-yeri-ve-diger-adres-belgesi-sorgulama)",
+          "Required for Turkish bank accounts, utilities, and permit renewals"
+        ],
+        [
+          "Tax Debt & Payments",
+          "[GİB Tax Debt Inquiry](https://www.turkiye.gov.tr/gib-vergi-borcu-sorgu)",
+          "Check motor-vehicle tax, title-deed fees, or administrative fines"
+        ],
+        [
+          "Foreign Phone Registration",
+          "[BTK IMEI Registration](https://www.turkiye.gov.tr/btk-imei-kaydet)",
+          "Register an imported smartphone after paying the customs fee"
+        ],
+        [
+          "Personal Health Records",
+          "[Ministry of Health e-Nabız](https://www.turkiye.gov.tr/saglik-bakanligi-e-nabiz-kisisel-saglik-sistemi)",
+          "Access lab results, prescriptions, and hospital visit history"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "You can also pull your official border-crossing history through the [Entry/Exit Record Inquiry](https://www.turkiye.gov.tr/emniyet-yurda-giriscikis-belge-sorgulama)—essential when tracking absence limits for long-term residency or citizenship."
+    },
+    {
+      "type": "h2",
+      "text": "How does two-factor SMS verification work?"
+    },
+    {
+      "type": "p",
+      "text": "e-Devlet's Two-Factor Authentication ([İki Aşamalı Giriş](https://www.turkiye.gov.tr/2fa-tanitim)) adds a one-time SMS or mobile-app approval code every time you log in from a new browser or device. To enable it, your Turkish mobile phone number must first be identity-verified (\"Kimlikle Doğrulanmış Telefon Numarası\") inside your e-Devlet security settings or at a PTT branch."
+    },
+    {
+      "type": "p",
+      "text": "After logging in, open Güvenlik ve Ayarlar (Security and Settings), verify your Turkish SIM number, and select İki Aşamalı Girişi Aç. Always save your generated backup codes (Yedek Kodlar) offline—if you travel abroad without Turkish roaming or switch phone numbers, those backup codes prevent account lockout."
+    },
+    {
+      "type": "p",
+      "text": "If you are planning an arrival or scouting trip to Türkiye and want independent, commission-free orientation, learn more [about Itinerary of Türkiye](https://itineraryofturkiye.com/about) and reach out. Please never include passport or ID scans, medical or financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can tourists without a residence permit open an e-Devlet account?",
+      "a": "No. You need an 11-digit 99-prefix Foreigner ID Number issued with a residence permit or work permit of at least six months."
+    },
+    {
+      "q": "Can I log into e-Devlet using Turkish internet banking instead of visiting PTT?",
+      "a": "Yes. If you hold an account at a participating Turkish bank linked to your 99-prefix ID, you can authenticate via Internet Banking and set a free e-Devlet password inside your profile."
+    },
+    {
+      "q": "Does e-Devlet have an English interface?",
+      "a": "Key informational pages such as [turkiye.gov.tr/non-citizens](https://www.turkiye.gov.tr/non-citizens) are in English, though most individual ministry service forms operate in Turkish; built-in browser translation helps navigate menus cleanly."
+    },
+    {
+      "q": "Can I register a foreign phone's IMEI through e-Devlet?",
+      "a": "Yes. After entering Türkiye and paying the IMEI tax, you complete device registration using the [BTK IMEI Kaydet](https://www.turkiye.gov.tr/btk-imei-kaydet) service inside e-Devlet."
+    },
+    {
+      "q": "What if I forget my e-Devlet password?",
+      "a": "If your Turkish mobile number is verified in your profile, you can reset your password online via SMS; otherwise, visit any PTT branch with your passport and permit card for a replacement."
+    },
+    {
+      "q": "Can Itinerary of Türkiye collect my e-Devlet password at PTT for me?",
+      "a": "No. [Itinerary of Türkiye](https://itineraryofturkiye.com/) provides flat-fee travel and orientation advisory; e-Devlet passwords must be collected in person at PTT (or via specific notarized power of attorney)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "e-Devlet Non-Citizens Guide",
+      "url": "https://www.turkiye.gov.tr/non-citizens"
+    },
+    {
+      "title": "Göç İdaresi update",
+      "url": "https://en.goc.gov.tr/the-presidency-of-migration-management-met-with-international-students-at-an-iftar-dinner"
+    },
+    {
+      "title": "e-Devlet Quick Solution Center",
+      "url": "https://turkiye.gov.tr/iletisim?hizli=CozumMerkeziV2&nodeId=37&lang=en_US"
+    },
+    {
+      "title": "Entry/Exit Record Inquiry",
+      "url": "https://www.turkiye.gov.tr/emniyet-yurda-giriscikis-belge-sorgulama"
+    },
+    {
+      "title": "İki Aşamalı Giriş",
+      "url": "https://www.turkiye.gov.tr/2fa-tanitim"
+    },
+    {
+      "title": "NVI Address Certificate Inquiry",
+      "url": "https://www.turkiye.gov.tr/nvi-yerlesim-yeri-ve-diger-adres-belgesi-sorgulama"
+    },
+    {
+      "title": "GİB Tax Debt Inquiry",
+      "url": "https://www.turkiye.gov.tr/gib-vergi-borcu-sorgu"
+    },
+    {
+      "title": "BTK IMEI Registration",
+      "url": "https://www.turkiye.gov.tr/btk-imei-kaydet"
+    },
+    {
+      "title": "Ministry of Health e-Nabız",
+      "url": "https://www.turkiye.gov.tr/saglik-bakanligi-e-nabiz-kisisel-saglik-sistemi"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

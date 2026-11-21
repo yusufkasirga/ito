@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-529",
+  "no": 529,
+  "slug": "ushas-clinic-check-turkey",
+  "plannedPath": "/services/ushas-clinic-check-turkey",
+  "status": "published",
+  "title": "How to Check a Turkish Clinic on the Official USHAŞ Health Tourism Registry",
+  "seoTitle": "How to Check a Turkish Clinic on the USHAŞ Registry",
+  "metaDescription": "Verify a Turkish clinic's Health Tourism Authorization Certificate on the Ministry of Health and USHAŞ registry before booking treatment abroad.",
+  "imageIdeas": [],
+  "quickAnswer": "A USHAŞ clinic check in Türkiye confirms whether a hospital, clinic, or intermediary holds an active Health Tourism Authorization Certificate (Sağlık Turizmi Yetki Belgesi). Before paying any deposit, match the provider's exact Turkish legal entity name and city against the official Ministry of Health and USHAŞ HealthTürkiye records rather than relying on website badges.",
+  "category": "Inner Pages — 20 Deep Medical Travel Solo, Legal & Cost Breakdown Guides",
+  "focusKeyword": "ushas clinic check turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-10-28",
+  "readTime": "5 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "p",
+      "text": "At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders operate on a client-paid, flat-fee basis—paid by our clients and independent of provider commissions. We never endorse a clinic in exchange for referral fees. We coordinate your visit. Your licensed medical team makes clinical decisions. This guide is for travel-planning education only and does not constitute medical, legal, or insurance brokerage advice."
+    },
+    {
+      "type": "h2",
+      "text": "What is Türkiye's official Health Tourism Authorization Certificate (Sağlık Turizmi Yetki Belgesi)?"
+    },
+    {
+      "type": "p",
+      "text": "The Sağlık Turizmi Yetki Belgesi is the mandatory license issued by the Turkish Ministry of Health allowing a healthcare facility or intermediary company to legally treat or coordinate care for international patients. Under the [Regulation on International Health Tourism and Tourist Health](https://shgmturizmdb.saglik.gov.tr/EN-108974/regulation-on-international-health-tourism-and-tourist-health.html), providers must meet quality-score, staffing, foreign-language, and registration standards to hold active authorization."
+    },
+    {
+      "type": "p",
+      "text": "Since Türkiye updated its compliance framework in 2025–2026, registration on the HealthTürkiye portal operated by USHAŞ (International Health Services Inc.) is also tied directly to active authorization and regulatory oversight, as summarized in [Turkish legal compliance guides for HealthTürkiye](https://www.gecmezhukuk.com/2025-healthturkiye-portali-saglik-tesisleri-ve-araci-kurumlar-icin-kapsamli-kayit-ve-uyum-rehberi/). A certificate image posted on Instagram is never sufficient proof on its own; active registry listing is what counts."
+    },
+    {
+      "type": "h2",
+      "text": "How do you verify a clinic or hospital on the Ministry of Health / USHAŞ portal?"
+    },
+    {
+      "type": "p",
+      "text": "Start by asking the provider for its exact Turkish legal trade name (ticari unvan), city, and authorization certificate number. Then check the official [Ministry of Health Authorized Healthcare Providers list](https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html) or the updated Turkish-language [Health Tourism Department registry](https://shgmturizmdb.saglik.gov.tr/TR-25360/yetkili-saglik-tesisleri-ve-araci-kuruluslar.html), which publishes separate lists for authorized healthcare facilities and authorized intermediary agencies."
+    },
+    {
+      "type": "p",
+      "text": "If a marketing brand operates under a different corporate name—which is common in Istanbul and Antalya—the legal name on your quote, invoice, and consent forms must match the authorized entry. For real-time confirmation or language assistance, the [Ministry of Health Health Tourism Department](https://shgm.saglik.gov.tr/TR-9952/saglik-turizmi-daire-baskanligi.html) also maintains the 24/7 International Patient Call Center at +90 850 288 38 38."
+    },
+    {
+      "type": "h2",
+      "text": "What is the difference between a licensed hospital, medical center and intermediary agency?"
+    },
+    {
+      "type": "p",
+      "text": "Turkish law draws sharp boundaries between clinical facilities and commercial coordinators. A licensed hospital can perform major inpatient surgery under general anesthesia with intensive care backup; a medical center (tıp merkezi) or polyclinic handles narrower outpatient or day-surgery scopes; and an intermediary agency (aracı kuruluş) only coordinates logistics and cannot deliver medical treatment itself."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Entity Category",
+        "Legal Clinical Scope",
+        "Who Issues Authorization",
+        "What You Must Verify"
+      ],
+      "rows": [
+        [
+          "Licensed Hospital (Hastane)",
+          "Inpatient surgery, general anesthesia, emergency & ICU care",
+          "Ministry of Health",
+          "Active hospital license + Health Tourism Certificate"
+        ],
+        [
+          "Medical Center / Polyclinic (Tıp Merkezi / Poliklinik)",
+          "Defined outpatient care or minor day procedures per license",
+          "Ministry of Health",
+          "Exact permitted specialties + Health Tourism Certificate"
+        ],
+        [
+          "Private Physician Office (Muayenehane)",
+          "Consultations and minor office procedures; surgeries require a licensed hospital",
+          "Ministry of Health",
+          "Office permit + contracted hospital's separate license"
+        ],
+        [
+          "Intermediary Agency (Aracı Kuruluş)",
+          "Patient coordination, travel logistics, non-clinical support only",
+          "Ministry of Health / USHAŞ",
+          "Agency certificate + separate certificate of the treating hospital"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "As [Turkish corporate health-tourism guidance](https://www.paldimoglu.av.tr/en/publications/how-to-set-up-a-medical-tourism-company-in-turkey) highlights, an intermediary agency is legally forbidden from operating as a clinic, and authorized facilities may not work with unauthorized intermediaries."
+    },
+    {
+      "type": "h2",
+      "text": "Why is an unlicensed facility a serious legal and medical risk?"
+    },
+    {
+      "type": "p",
+      "text": "Receiving treatment at an unauthorized facility removes critical patient protections. Unlicensed operations bypass mandatory Ministry of Health quality audits, infection-control inspections, and international patient reporting rules, while exposing travelers to invalidated medical complication insurance policies and severe obstacles when pursuing legal remedies or obtaining admissible medical records."
+    },
+    {
+      "type": "p",
+      "text": "The [CDC Yellow Book on medical tourism](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html) warns that inadequate infection prevention is a leading driver of serious complications abroad and that cross-border legal recourse is already complex even under licensed systems. When a facility lacks authorization, both your clinical safety net and your post-operative paperwork are compromised."
+    },
+    {
+      "type": "h3",
+      "text": "5-Step USHAŞ & Ministry of Health Verification Checklist"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Request the facility's exact Turkish legal entity name and Sağlık Turizmi Yetki Belgesi number in writing.",
+        "Confirm the entity appears on the official [Ministry of Health authorized list](https://shgmturizmdb.saglik.gov.tr/TR-68016/uluslararasi-saglik-turizmi-yetki-belgesi-alan-saglik-tesisleri.html) under the correct city and facility category.",
+        "If a third-party agency introduced you, verify both the intermediary agency and the actual hospital where your procedure will take place.",
+        "Confirm your deposit bank account matches the legal entity name on the registry—never wire funds to a personal account.",
+        "Save a dated PDF or screenshot of the registry entry alongside your written treatment estimate."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Through our [medical tourism coordination service](https://itineraryofturkiye.com/services/medical-tourism), our two-founder team helps clients organize independent verification steps, realistic recovery stays, and local logistics across Türkiye. Learn how we work at [About Itinerary of Türkiye](https://itineraryofturkiye.com/about). If you would like flat-fee, commission-free planning support for an upcoming visit, send us an enquiry—and please do not attach passport or ID scans, medical records, financial documents, or payment details in your first message."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a clinic treat foreign patients legally without a Health Tourism Authorization Certificate?",
+      "a": "No. Turkish health tourism regulations require both the treating healthcare facility and any commercial intermediary agency to hold valid Ministry of Health authorization to market to and treat international patients."
+    },
+    {
+      "q": "Why doesn't the clinic's English Instagram name appear on the Ministry of Health list?",
+      "a": "Many providers advertise under a marketing brand name while holding their license under a Turkish corporate title (A.Ş. or Ltd. Şti.). Ask for the exact legal name printed on their official certificate and tax registration."
+    },
+    {
+      "q": "Does a TURSAB travel agency license replace a Health Tourism Authorization Certificate?",
+      "a": "No. A TURSAB license covers tourism services, whereas international patient coordination specifically requires Ministry of Health health tourism authorization and HealthTürkiye registration."
+    },
+    {
+      "q": "If a doctor operates from a private office (muayenehane), what should I verify?",
+      "a": "Verify both the physician's office authorization and the separate Health Tourism Authorization Certificate of the licensed hospital where your actual surgical procedure will be performed."
+    },
+    {
+      "q": "How often does the Ministry of Health update the authorized facility lists?",
+      "a": "The Health Tourism Department updates its published facility and intermediary lists periodically throughout the year; always check the date stamp on the official saglik.gov.tr page."
+    },
+    {
+      "q": "Does Itinerary of Türkiye earn referral fees from USHAŞ-listed clinics?",
+      "a": "No. Itinerary of Türkiye is paid strictly by our clients on a flat-fee basis, stays independent of provider commissions, and coordinates your visit while your licensed medical team makes clinical decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation on International Health Tourism and Tourist Health",
+      "url": "https://shgmturizmdb.saglik.gov.tr/EN-108974/regulation-on-international-health-tourism-and-tourist-health.html"
+    },
+    {
+      "title": "Turkish legal compliance guides for HealthTürkiye",
+      "url": "https://www.gecmezhukuk.com/2025-healthturkiye-portali-saglik-tesisleri-ve-araci-kurumlar-icin-kapsamli-kayit-ve-uyum-rehberi/"
+    },
+    {
+      "title": "Ministry of Health Authorized Healthcare Providers list",
+      "url": "https://shgmturizmdb.saglik.gov.tr/EN-69289/healthcare-providers-with-international-health-tourism-authorization-certificates.html"
+    },
+    {
+      "title": "Health Tourism Department registry",
+      "url": "https://shgmturizmdb.saglik.gov.tr/TR-25360/yetkili-saglik-tesisleri-ve-araci-kuruluslar.html"
+    },
+    {
+      "title": "Ministry of Health Health Tourism Department",
+      "url": "https://shgm.saglik.gov.tr/TR-9952/saglik-turizmi-daire-baskanligi.html"
+    },
+    {
+      "title": "Turkish corporate health-tourism guidance",
+      "url": "https://www.paldimoglu.av.tr/en/publications/how-to-set-up-a-medical-tourism-company-in-turkey"
+    },
+    {
+      "title": "CDC Yellow Book on medical tourism",
+      "url": "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html"
+    },
+    {
+      "title": "Ministry of Health authorized list",
+      "url": "https://shgmturizmdb.saglik.gov.tr/TR-68016/uluslararasi-saglik-turizmi-yetki-belgesi-alan-saglik-tesisleri.html"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

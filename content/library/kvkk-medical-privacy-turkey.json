@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-352",
+  "no": 352,
+  "slug": "kvkk-medical-privacy-turkey",
+  "plannedPath": "/blog/kvkk-medical-privacy-turkey",
+  "status": "published",
+  "title": "KVKK Medical Privacy & Sending Records Safely to Türkiye",
+  "seoTitle": "KVKK Medical Privacy & Sending Records Safely to Türkiye",
+  "metaDescription": "How Türkiye's KVKK data law compares to GDPR, why to avoid sending passports or photos early, secure channels, and file deletion rights.",
+  "imageIdeas": [],
+  "quickAnswer": "Türkiye's Personal Data Protection Law No. 6698 (KVKK) classifies health records as sensitive data requiring strict safeguards, similar in structure to EU GDPR. Protect your privacy by withholding passport scans and clinical photos during early enquiries and using encrypted provider portals only after shortlisting. We coordinate your visit. Your licensed medical team makes clinical decisions.",
+  "category": "Inner Pages — 20 Deep Medical Recovery, Day-by-Day & Safety Guides",
+  "focusKeyword": "kvkk medical privacy turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-23",
+  "readTime": "4 min read",
+  "medical": true,
+  "body": [
+    {
+      "type": "h2",
+      "text": "What is Türkiye's KVKK data-protection law and how does it compare to GDPR?"
+    },
+    {
+      "type": "p",
+      "text": "Türkiye's Personal Data Protection Law No. 6698 (KVKK) governs how organizations collect, store, and transfer personal data, classifying health data as a special category requiring heightened security and explicit consent or statutory medical grounds. Like the EU GDPR, KVKK grants access, correction, and deletion rights, though legal compliance questions belong to qualified legal counsel or the KVKK authority."
+    },
+    {
+      "type": "p",
+      "text": "The [official English text of Law No. 6698 (KVKK)](https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law) sets strict rules for data controllers handling sensitive health records. Following 2024 amendments, the [KVKK By-Law on Transfer of Personal Data Abroad](https://www.kvkk.gov.tr/Icerik/7997/The-Procedures-And-Principles-For-The-Transfer-Of-Personal-Data-Abroad) added GDPR-aligned cross-border tools such as adequacy decisions and standard contracts, paralleling the [European Commission GDPR guide for individuals](https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en). This article offers practical travel context, not legal advice; legal privacy compliance questions belong to qualified legal counsel or the KVKK authority."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Privacy Feature",
+        "Türkiye KVKK (Law No. 6698)",
+        "EU GDPR"
+      ],
+      "rows": [
+        [
+          "Health data status",
+          "Special category of personal data",
+          "Special category of personal data"
+        ],
+        [
+          "Response deadline",
+          "Free of charge, within 30 days",
+          "Free of charge, within 1 month"
+        ],
+        [
+          "Cross-border transfers",
+          "Adequacy, standard contracts, binding rules",
+          "Adequacy, SCCs, binding corporate rules"
+        ],
+        [
+          "Supervisory body",
+          "Personal Data Protection Board (KVKK)",
+          "National EU Data Protection Authorities"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why does ITO ask you NOT to send passport scans or medical photos in a first enquiry?"
+    },
+    {
+      "type": "p",
+      "text": "Sending passport pages, clinical photos, or lab results to multiple agencies or unverified WhatsApp numbers exposes sensitive identity and health data before you have even chosen a licensed provider. Itinerary of Türkiye operates on data minimization: we need only your general goals, dates, and logistical needs to outline flat-fee coordination."
+    },
+    {
+      "type": "p",
+      "text": "Broadcasting passport scans and clinical photos across multiple chat apps during early price shopping makes revoking access difficult later. Run by its two founders in Türkiye, [Itinerary of Türkiye](https://itineraryofturkiye.com/) is paid by our clients and independent of provider commissions, and never promotes any named clinic or hospital as a partner. Through our [medical travel coordination service](https://itineraryofturkiye.com/services/medical-tourism), we keep travel logistics strictly separate from clinical files. We coordinate your visit. Your licensed medical team makes clinical decisions."
+    },
+    {
+      "type": "h2",
+      "text": "What secure channels should be used once a vetted provider is shortlisted?"
+    },
+    {
+      "type": "p",
+      "text": "Once you shortlist a licensed Turkish hospital or specialist, transmit medical records only through the provider's official encrypted patient portal or password-protected, expiring file links sent to a verified institutional email domain. Always request and read the clinic's KVKK privacy notice (Aydınlatma Metni) before uploading health files."
+    },
+    {
+      "type": "p",
+      "text": "Safe Medical Record Sharing Checklist:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Verify the domain: Upload only to an official hospital or clinic portal, never personal webmail or broker chats.",
+        "Read the KVKK notice (Aydınlatma Metni): Confirm the registered data controller and any external lab sharing.",
+        "Use password-protected files: Send the password via a separate channel such as a phone call.",
+        "Minimize identifiers: Crop unrelated personal details until formal in-person registration.",
+        "Avoid public Wi-Fi: Transmit scans and labs only on a secure private connection."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you request deletion or copies of your Turkish medical file?"
+    },
+    {
+      "type": "p",
+      "text": "Under KVKK, you may submit a written or electronic request directly to the clinic's data controller asking for copies of your records, correction of errors, or erasure of data no longer required by law. Controllers must respond within 30 days, though Turkish healthcare regulations require hospitals to retain core medical charts for statutory periods."
+    },
+    {
+      "type": "p",
+      "text": "Under the official [KVKK Data Protection in Türkiye guide](https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/2f6c83f6-de4f-4843-9d50-d0cdef5512c1.pdf), controllers must answer requests free of charge within 30 days. If refused or unanswered, you may complain to the Personal Data Protection Board within 30 days of the response (or 60 days of your request). While marketing consent and promotional photos can be withdrawn, statutory Turkish health rules require hospitals to archive core clinical charts; consult qualified legal counsel or the KVKK authority for formal legal guidance. Read [about our founders](https://itineraryofturkiye.com/about) for our privacy-first approach."
+    },
+    {
+      "type": "p",
+      "text": "For independent, flat-fee travel coordination in Türkiye, contact [Itinerary of Türkiye](https://itineraryofturkiye.com/). Please do not share passport or ID scans, medical or financial records, or payment details in a first enquiry."
+    },
+    {
+      "type": "h2",
+      "text": "Structured Data (JSON-LD)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Türkiye's KVKK protect foreign medical travelers?",
+      "a": "Yes. Law No. 6698 protects natural persons whose personal data is processed by controllers in Türkiye regardless of nationality. Direct legal questions to qualified legal counsel or the KVKK authority."
+    },
+    {
+      "q": "Is it safe to send my passport photo over WhatsApp to book a consultation?",
+      "a": "Avoid sending passport scans over casual chat apps during early enquiries. Wait until you shortlist a licensed provider and use their official secure channel."
+    },
+    {
+      "q": "Can a Turkish clinic use my before-and-after photos for marketing without consent?",
+      "a": "No. Identifiable health photos require explicit, freely given, informed consent separate from general treatment paperwork under KVKK principles."
+    },
+    {
+      "q": "How long does a Turkish hospital have to provide copies of my medical file?",
+      "a": "Under KVKK procedures, controllers must respond free of charge within 30 days. Requesting English copies before discharge is faster."
+    },
+    {
+      "q": "Can I force immediate deletion of my entire surgical chart in Türkiye?",
+      "a": "You can request deletion of marketing or unnecessary data, but Turkish healthcare regulations require hospitals to retain core clinical records for mandatory statutory periods."
+    },
+    {
+      "q": "Does Itinerary of Türkiye store my medical scans or passport copies?",
+      "a": "No. We practice strict data minimization and never ask for medical or identity files in a first enquiry. We coordinate your visit. Your licensed medical team makes clinical decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "official English text of Law No. 6698 (KVKK)",
+      "url": "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law"
+    },
+    {
+      "title": "KVKK By-Law on Transfer of Personal Data Abroad",
+      "url": "https://www.kvkk.gov.tr/Icerik/7997/The-Procedures-And-Principles-For-The-Transfer-Of-Personal-Data-Abroad"
+    },
+    {
+      "title": "European Commission GDPR guide for individuals",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en"
+    },
+    {
+      "title": "KVKK Data Protection in Türkiye guide",
+      "url": "https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/2f6c83f6-de4f-4843-9d50-d0cdef5512c1.pdf"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

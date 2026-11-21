@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-368",
+  "no": 368,
+  "slug": "corporate-bank-account-turkey",
+  "plannedPath": "/blog/corporate-bank-account-turkey",
+  "status": "published",
+  "title": "Opening a Corporate Bank Account in Türkiye: Compliance & KYC 2026",
+  "seoTitle": "Corporate Bank Account in Türkiye: KYC & Compliance 2026",
+  "metaDescription": "Open a corporate bank account in Türkiye in 2026. Learn KYC and UBO document rules, shareholder interviews, multi-currency accounts, and timelines.",
+  "imageIdeas": [],
+  "quickAnswer": "Opening a corporate bank account in Türkiye in 2026 requires a registered Turkish entity, Trade Registry Gazette filings, a notarized signature circular (İmza Sirküleri), a tax plate (Vergi Levhası), and full Ultimate Beneficial Owner (UBO) disclosures under [BDDK](https://www.bddk.org.tr/Mevzuat/DokumanGetir/961) and MASAK anti-money-laundering rules. Foreign signatories generally attend an in-person branch interview, with KYC review taking 3 to 15 business days.",
+  "category": "Inner Pages — 20 Business, Trade Fair, Real Estate & Legal Guides",
+  "focusKeyword": "corporate bank account turkey",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-29",
+  "readTime": "5 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "ul",
+      "items": [
+        "corporate-bank-account-turkey-kyc-meeting.webp — Alt text: Foreign company director meeting a corporate relationship manager inside a bank branch in Istanbul's Levent financial district.",
+        "turkey-multi-currency-corporate-banking.webp — Alt text: Corporate compliance file showing Turkish Trade Registry Gazette, signature circular, and tax plate prepared for bank onboarding."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Incorporating a Turkish Limited Liability Company (Limited Şirket) or Joint Stock Company (Anonim Şirket) is often faster than activating its corporate bank account. Under tightened 2026 compliance standards supervised by the [Banking Regulation and Supervision Agency (BDDK)](https://www.bddk.org.tr/Kurulus/Liste/90) and Türkiye's Financial Crimes Investigation Board (MASAK), commercial banks treat foreign-owned entities with thorough Know Your Customer (KYC) scrutiny. At [Itinerary of Türkiye](https://itineraryofturkiye.com/), our two founders coordinate Istanbul business visits, scheduling, and independent introductions on a client-paid, flat-fee basis (\"Paid by our clients. Independent of provider commissions.\"). Legal, corporate, banking compliance, and tax filings remain strictly the domain of licensed Turkish attorneys, certified public accountants (SMMM), and official authorities."
+    },
+    {
+      "type": "h2",
+      "text": "What documents (trade registry, signature circular, tax plate, UBO) do Turkish banks require?"
+    },
+    {
+      "type": "p",
+      "text": "Turkish banks require your company's [Trade Registry Gazette](https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php) publication, notarized signature circular (İmza Sirküleri), current tax plate (Vergi Levhası), Chamber of Commerce activity certificate (Faaliyet Belgesi), corporate lease, and complete UBO identification. As detailed in [2026 Turkish corporate banking compliance guidance](https://aslanattorney.com/opening-a-corporate-bank-account-in-turkey/), multi-tier foreign parent companies must trace ownership all the way up to natural persons."
+    },
+    {
+      "type": "p",
+      "text": "Bringing an incomplete file to a branch appointment is the primary reason onboarding stalls. Prepare this core documentation checklist with your SMMM accountant and lawyer before your branch visit:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Corporate registry pack: Articles of Association published in the Trade Registry Gazette, MERSİS number, and a recent Chamber of Commerce activity certificate (Faaliyet Belgesi).",
+        "Authority & tax records: Notarized signature circular (İmza Sirküleri) naming authorized signatories, current tax plate (Vergi Levhası), and valid Turkish Potential Tax IDs for foreign directors.",
+        "UBO & shareholder disclosures: Passports, recent proof of residential address (utility bill or bank statement within 3 months), and—if a foreign parent company owns shares—apostilled and notarized Turkish translations of its Certificate of Incorporation and shareholder registry.",
+        "Commercial substance evidence: Signed office lease, draft client or supplier contracts, and a concise business plan explaining expected monthly turnover, source of funds, and cross-border counterparties."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why do banks interview foreign shareholders in person?"
+    },
+    {
+      "type": "p",
+      "text": "Under Turkish Banking Law No. 5411 ([BDDK Legislation](https://www.bddk.org.tr/Mevzuat/DokumanGetir/961)) and MASAK anti-money-laundering directives, banks must verify the physical identity, wet-ink signature, and commercial intent of authorized signatories before activating accounts. An in-person branch meeting lets the relationship manager assess whether the business has genuine operational substance rather than serving as a shell or pass-through vehicle."
+    },
+    {
+      "type": "p",
+      "text": "During the interview, expect straightforward questions about your supply chain, target countries for incoming and outgoing wire transfers, expected transaction volumes, and why you chose Türkiye. Clear, consistent answers backed by real sample invoices or a physical office lease help the branch manager advocate for your file when forwarding it to headquarters compliance."
+    },
+    {
+      "type": "h2",
+      "text": "How do multi-currency TL/EUR/USD business accounts work?"
+    },
+    {
+      "type": "p",
+      "text": "Once your primary Turkish Lira (TRY) corporate account is approved, Turkish commercial banks listed on the [BDDK Deposit Banks registry](https://www.bddk.org.tr/Kurulus/Liste/90) can open linked EUR, USD, GBP, and other foreign-currency sub-accounts under the same customer profile. Each currency receives its own distinct Turkish IBAN (TR...) for domestic EFT/FAST transfers and international SWIFT wires."
+    },
+    {
+      "type": "p",
+      "text": "Keep operational rules in mind when managing multi-currency inflows:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Account Feature",
+        "How It Works in Türkiye (2026)",
+        "Practical Note for Foreign Founders"
+      ],
+      "rows": [
+        [
+          "Multi-Currency IBANs",
+          "Separate TR IBANs for TRY, EUR, USD, and GBP under one corporate profile",
+          "Quote the exact currency IBAN on invoices to avoid automatic FX conversion"
+        ],
+        [
+          "Domestic Transfers",
+          "Instant TRY transfers via FAST and same-day EFT during business hours",
+          "Corporate online banking uses SMS OTP or mobile token approval"
+        ],
+        [
+          "International SWIFT",
+          "Supported for trade invoices, capital injections, and service exports",
+          "Large incoming wires may trigger a request for underlying invoices or contracts"
+        ],
+        [
+          "Export Proceeds Rules",
+          "Subject to Central Bank (CBRT) export-repatriation and conversion communiqués",
+          "Confirm current 2026 conversion rules with your bank and Turkish SMMM"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How long does KYC approval typically take?"
+    },
+    {
+      "type": "p",
+      "text": "For a straightforward Turkish subsidiary with individual shareholders from standard-risk jurisdictions, corporate bank KYC approval typically takes 3 to 7 business days after the in-person branch visit. Multi-layer holding structures, higher-risk corridors, or complex crypto/fintech models can require 2 to 3 weeks for headquarters compliance clearance."
+    },
+    {
+      "type": "p",
+      "text": "Plan your Istanbul trip accordingly: book your branch appointments early in the week so any follow-up document request can be handled before you fly home. [Itinerary of Türkiye](https://itineraryofturkiye.com/about) coordinates multi-day business itineraries—linking your notary, office-scouting, and branch visits into a calm schedule—and introduces independent licensed Turkish attorneys and SMMM accountants who handle formal company and banking compliance."
+    },
+    {
+      "type": "p",
+      "text": "Planning an Istanbul trip for company setup and banking meetings? Contact [Itinerary of Türkiye](https://itineraryofturkiye.com/) for independent, client-paid business travel coordination. For your privacy and security, please do not send passport or ID scans, corporate financial records, or payment details in your first enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I open a Turkish corporate bank account remotely via Power of Attorney?",
+      "a": "Some banks allow initial document submission via a notarized Power of Attorney, yet most major private and state banks still require the authorized director to appear in person at least once for biometric/wet-ink KYC verification."
+    },
+    {
+      "q": "Do foreign shareholders need a Turkish residence permit (İkamet) to open a corporate account?",
+      "a": "No. A Turkish residence permit is not required to open a corporate account for a newly incorporated Turkish company; a valid passport and Turkish Potential Tax ID suffice for initial onboarding."
+    },
+    {
+      "q": "Why do some Turkish bank branches decline foreign-owned companies?",
+      "a": "Individual branches have internal risk appetites and compliance workloads. A branch unfamiliar with international corporate ownership may decline a file that a larger corporate-focused branch in Levent, Maslak, or Ataşehir will review normally."
+    },
+    {
+      "q": "Is a minimum initial deposit required to open a Turkish business account?",
+      "a": "Banks do not charge an account-opening fee, though many branches request an initial paid-in capital deposit or operating balance—especially when activating foreign-currency or corporate card facilities."
+    },
+    {
+      "q": "Can my company use a virtual office address when applying for a corporate bank account?",
+      "a": "Some banks accept virtual offices for pure software or consulting businesses, whereas trading, import/export, or high-volume companies are frequently asked to show a physical serviced suite or commercial lease."
+    },
+    {
+      "q": "Does Itinerary of Türkiye open bank accounts or guarantee KYC approval?",
+      "a": "No. Banking decisions rest solely with each bank's compliance team under BDDK and MASAK rules. We coordinate travel logistics, visit scheduling, and independent introductions to licensed Turkish attorneys and SMMM accountants."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Banking Regulation and Supervision Agency (BDDK)",
+      "url": "https://www.bddk.org.tr/Kurulus/Liste/90"
+    },
+    {
+      "title": "Trade Registry Gazette",
+      "url": "https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php"
+    },
+    {
+      "title": "2026 Turkish corporate banking compliance guidance",
+      "url": "https://aslanattorney.com/opening-a-corporate-bank-account-in-turkey/"
+    },
+    {
+      "title": "BDDK Legislation",
+      "url": "https://www.bddk.org.tr/Mevzuat/DokumanGetir/961"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}

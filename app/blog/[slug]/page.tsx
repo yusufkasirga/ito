@@ -6,6 +6,8 @@ import JournalBlogArticle from '../JournalBlogArticle';
 import LegacyBlogArticle from '../LegacyBlogArticle';
 import ContentBlogArticle from '../ContentBlogArticle';
 import { contentMetadata } from '../contentPresentation';
+import { getLibraryArticle } from '@/lib/library-content.mjs';
+import LibraryArticle, { libraryMetadata } from '../LibraryArticle';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -19,6 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!entry) notFound();
   const content = getBlogContentArticle('en', slug);
   if (content) return contentMetadata(content);
+  const library = getLibraryArticle('blog', slug);
+  if (library) return libraryMetadata(library);
   const authorName = entry.author?.name ?? 'Itinerary of Türkiye';
   const image = new URL(entry.cover, SITE_URL).toString();
   return {
@@ -48,6 +52,8 @@ export default async function BlogArticlePage({ params }: Props) {
   if (!entry) notFound();
   const content = getBlogContentArticle('en', slug);
   if (content) return <ContentBlogArticle article={content} />;
+  const library = getLibraryArticle('blog', slug);
+  if (library) return <LibraryArticle article={library} />;
   return entry.source === 'journal'
     ? <JournalBlogArticle slug={slug} />
     : <LegacyBlogArticle slug={slug} />;

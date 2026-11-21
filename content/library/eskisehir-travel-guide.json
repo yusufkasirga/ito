@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "ito-lib-310",
+  "no": 310,
+  "slug": "eskisehir-travel-guide",
+  "plannedPath": "/destinations/eskisehir-travel-guide",
+  "status": "published",
+  "title": "Eskişehir Guide: Odunpazarı Modern Museum & High-Speed Rail Day Trip",
+  "seoTitle": "Eskişehir Guide",
+  "metaDescription": "Eskişehir is Türkiye's easiest cultural high-speed rail escape, sitting roughly 1 hour 25 minutes from Ankara and 3 hours from Istanbul Söğütlüçeşme…",
+  "imageIdeas": [],
+  "quickAnswer": "Eskişehir is Türkiye's easiest cultural high-speed rail escape, sitting roughly 1 hour 25 minutes from Ankara and 3 hours from Istanbul Söğütlüçeşme by YHT train. Visitors come for Kengo Kuma's timber Odunpazarı Modern Museum (OMM), Ottoman-era Odunpazarı lanes, Porsuk River walks, Crimean Tatar çibörek, and hand-carved meerschaum.",
+  "category": "Inner Pages — 20 Boutique Destination Guides (ITO 52-Destination Hub)",
+  "focusKeyword": "eskisehir travel guide",
+  "cover": "",
+  "images": [],
+  "dateISO": "2026-08-07",
+  "readTime": "4 min read",
+  "medical": false,
+  "body": [
+    {
+      "type": "h2",
+      "text": "How fast is the YHT train from Istanbul or Ankara to Eskişehir?"
+    },
+    {
+      "type": "p",
+      "text": "TCDD Taşımacılık's Yüksek Hızlı Tren (YHT) connects Ankara to Eskişehir in 1 hour 20 minutes to 1 hour 32 minutes, and links Istanbul's Asian-side Söğütlüçeşme station to Eskişehir in roughly 2 hours 50 minutes to 3 hours 15 minutes. Eskişehir station sits right in the walkable city centre, making same-day return trips genuinely practical."
+    },
+    {
+      "type": "p",
+      "text": "Check live departures and book seats on [TCDD Taşımacılık's YHT portal](https://www.tcddtasimacilik.gov.tr/seferler/ankara-eskisehir-ankara-yuksek-hizli-tren) at least a week ahead for Friday–Sunday travel, as university students fill trains quickly. Arrive 20 minutes early for baggage X-ray screening; from Eskişehir Gar, an EstRam tram or 10-minute taxi brings you straight up to Odunpazarı."
+    },
+    {
+      "type": "table",
+      "head": [
+        "YHT Rail Route",
+        "Typical Travel Time",
+        "Main Departure Stations",
+        "Day-Trip Feasibility"
+      ],
+      "rows": [
+        [
+          "Ankara – Eskişehir",
+          "1h 20m – 1h 32m",
+          "Ankara YHT Gar, Eryaman",
+          "Easy half-day or full-day trip"
+        ],
+        [
+          "Istanbul – Eskişehir",
+          "2h 50m – 3h 15m",
+          "Söğütlüçeşme, Bostancı, Pendik",
+          "Full day (early outbound, evening return)"
+        ],
+        [
+          "Konya – Eskişehir",
+          "~1h 45m",
+          "Konya Gar",
+          "Smooth rail link across central Anatolia"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why is Kengo Kuma's Odunpazarı Modern Museum (OMM) worth the trip?"
+    },
+    {
+      "type": "p",
+      "text": "Opened in September 2019, the [Odunpazarı Modern Museum (OMM)](https://www.omm.art/en/information/about) showcases contemporary Turkish and international art inside a striking stacked-timber building designed by Japanese studio Kengo Kuma and Associates. Inspired by Odunpazarı's cantilevered Ottoman houses and historic wood-market heritage, the interlocking pine boxes create warm, daylight-filled galleries that feel intimate rather than austere."
+    },
+    {
+      "type": "p",
+      "text": "As described on [OMM's architectural overview](https://www.omm.art/en/details/the-building), the three-storey structure scales down toward the surrounding residential streetscape while opening upward into a sky-lit central atrium. Founded by Eskişehir-born architect and collector Erol Tabanca, the museum rotates major contemporary exhibitions alongside its permanent collection. Plan your rail ticket carefully: OMM is closed on Mondays and opens Tuesday–Saturday (10:00–18:00) and Sunday (11:00–18:00)."
+    },
+    {
+      "type": "h2",
+      "text": "What can you see in historic Odunpazarı and along the Porsuk River?"
+    },
+    {
+      "type": "p",
+      "text": "Beyond OMM, the [Odunpazarı Historical Urban Site](https://whc.unesco.org/en/tentativelists/5733/)—on UNESCO's Tentative List—preserves cobbled lanes of painted Ottoman timber konaks, the 1525 Kurşunlu Mosque Complex by Palace Architect Acem Ali, and the Glass Arts Museum. Downhill, the canalised Porsuk River winds through Adalar, lined with student cafés, footbridges, and short boat rides."
+    },
+    {
+      "type": "p",
+      "text": "Inside Kurşunlu's vaulted caravanserai rooms, artisans practise calligraphy, marbling, and glassblowing, while nearby [Atlıhan Handicrafts Bazaar](https://eskisehir.ktb.gov.tr/TR-347094/atlihan-el-sanatlari-carsisi-odunpazari.html) occupies a restored 19th-century inn dedicated to local workshops. For an unhurried eskisehir travel guide rhythm, spend the morning in Odunpazarı's hilltop streets, walk 20 minutes downhill for lunch, and pass the late afternoon strolling the Porsuk embankments before boarding your evening train."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Eskişehir YHT day-trip checklist:",
+        "Avoid Mondays, when OMM, the Meerschaum Museum, and several Odunpazarı galleries close.",
+        "Book both outbound and return YHT seats early via TCDD, especially on weekends.",
+        "Wear flat shoes for Odunpazarı's sloped cobbles and carry a light layer for breezy Anatolian evenings.",
+        "Skip Sazova Park if visiting on a tight day trip from Istanbul without young children; focus on Odunpazarı and Porsuk instead."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What local specialties (çibörek, meerschaum) stand out?"
+    },
+    {
+      "type": "p",
+      "text": "Eskişehir's signature dish is çibörek—a crisp, half-moon fried pastry filled with seasoned raw minced beef, onion, and water that steams inside as it puffs in hot oil, brought to the city by Crimean Tatar migrants. For crafts, Eskişehir is the world's main source of meerschaum (lületaşı), a porous white mineral carved locally into ornate pipes, jewellery, and figurines."
+    },
+    {
+      "type": "p",
+      "text": "According to [Gemological Institute of America research on Eskişehir meerschaum](https://www.gia.edu/gems-gemology/spring-1995-meerschaum-turkey-sariiz), compact sepiolite nodules are still mined by local villagers through traditional shallow tunnels around the province before carvers shape them while damp. Stop by the Meerschaum Museum inside the Kurşunlu Complex to see masterwork carvings before browsing workshops at Atlıhan, and pick up flaky met helvası (pulled sesame-flour halva) from an old-town sweet shop for the train ride home."
+    },
+    {
+      "type": "p",
+      "text": "Want to link high-speed rail cities like Eskişehir with slower coastal or highland stops in one coherent plan? [Itinerary of Türkiye](https://itineraryofturkiye.com/about) is an independent, client-paid, flat-fee travel advisory run by its two founders in Türkiye—paid by our clients and independent of provider commissions. Get in touch via [Itinerary of Türkiye](https://itineraryofturkiye.com/) with your trip dates and interests, and please do not share passport or ID scans, medical records, or payment details in your initial enquiry."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Eskişehir worth an overnight stay instead of a day trip?",
+      "a": "Yes if you want a relaxed pace. Staying one night lets you enjoy evening café culture along the Porsuk River, visit OMM without watching the clock, and take an unhurried morning train onward to Ankara or Istanbul."
+    },
+    {
+      "q": "Which Istanbul station is best for catching the YHT to Eskişehir?",
+      "a": "Söğütlüçeşme (Kadıköy) is the most central main YHT hub on the Asian side, easily reached via Marmaray or ferry; Bostancı and Pendik also serve most departures."
+    },
+    {
+      "q": "Are Odunpazarı and the Porsuk River walkable from Eskişehir train station?",
+      "a": "The Porsuk River (Adalar) is a 10-minute flat walk from the station. Historic Odunpazarı sits roughly 25–30 minutes away on foot uphill, or 10 minutes by tram or taxi."
+    },
+    {
+      "q": "Can vegetarians find options alongside traditional çibörek?",
+      "a": "Yes. Most traditional çibörek houses around Odunpazarı and the centre fry cheese-filled (peynirli) or potato-filled versions alongside the classic beef recipe."
+    },
+    {
+      "q": "Is Sazova Science, Art and Culture Park worth adding to a day trip?",
+      "a": "It works well for families with children or overnight visitors, sitting 15 minutes from Odunpazarı by bus, but art- and architecture-focused day trippers usually prioritize OMM and historic lanes."
+    },
+    {
+      "q": "How does Eskişehir fit into a broader Türkiye itinerary?",
+      "a": "Eskişehir breaks up the Istanbul–Ankara rail corridor naturally and pairs well with onward flights or road trips south to [Lake Eğirdir](https://itineraryofturkiye.com/destinations/isparta-rose-harvest-egirdir) or [Foça near İzmir](https://itineraryofturkiye.com/destinations/foca-izmir-guide)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TCDD Taşımacılık's YHT portal",
+      "url": "https://www.tcddtasimacilik.gov.tr/seferler/ankara-eskisehir-ankara-yuksek-hizli-tren"
+    },
+    {
+      "title": "Odunpazarı Modern Museum (OMM)",
+      "url": "https://www.omm.art/en/information/about"
+    },
+    {
+      "title": "OMM's architectural overview",
+      "url": "https://www.omm.art/en/details/the-building"
+    },
+    {
+      "title": "Odunpazarı Historical Urban Site",
+      "url": "https://whc.unesco.org/en/tentativelists/5733/"
+    },
+    {
+      "title": "Atlıhan Handicrafts Bazaar",
+      "url": "https://eskisehir.ktb.gov.tr/TR-347094/atlihan-el-sanatlari-carsisi-odunpazari.html"
+    },
+    {
+      "title": "Gemological Institute of America research on Eskişehir meerschaum",
+      "url": "https://www.gia.edu/gems-gemology/spring-1995-meerschaum-turkey-sariiz"
+    }
+  ],
+  "provenance": "Owner-supplied manuscript imported from .docx; structure checked automatically, not independently fact-checked by the import."
+}
