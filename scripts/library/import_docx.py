@@ -180,7 +180,7 @@ def main():
     ap.add_argument('--docs', required=True)
     ap.add_argument('--plan', action='append', required=True)
     ap.add_argument('--only')
-    ap.add_argument('--start', default='2026-05-01')
+    ap.add_argument('--start', default=datetime.date.today().isoformat())
     ap.add_argument('--end', default=datetime.date.today().isoformat())
     args = ap.parse_args()
     plan = load_plan(args.plan)
@@ -243,7 +243,7 @@ def main():
         existing = OUT / f'{slug}.json'
         if existing.exists():  # keep photos picked earlier
             prev = json.loads(existing.read_text())
-            for k in ('cover', 'coverAlt', 'coverCredit', 'images', 'updatedISO'):
+            for k in ('cover', 'coverAlt', 'coverCredit', 'images', 'updatedISO', 'dateISO', 'medical'):
                 if prev.get(k):
                     record[k] = prev[k]
         (OUT / f'{slug}.json').write_text(json.dumps(record, ensure_ascii=False, indent=2) + '\n')
